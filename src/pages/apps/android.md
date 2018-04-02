@@ -1300,20 +1300,20 @@
 
     - Branch default is `1.5` seconds to wait for Google Play analytics
 
-    - You can optimize the performance based on needs (e.g. `0`, `5`, `10`)
+    - You can optimize the performance based on needs (e.g. `0`, `5000`, `10000`)
 
     - Add to your application class before `getAutoInstance` ([Load Branch](#load-branch))
 
     - *Java*
 
         ```java
-        Branch.setPlayStoreReferrerCheckTimeout(5);
+        Branch.setPlayStoreReferrerCheckTimeout(5000);
         ```
 
     - *Kotlin*
 
         ```java
-        Branch.setPlayStoreReferrerCheckTimeout(5)
+        Branch.setPlayStoreReferrerCheckTimeout(5_000)
         ```
 
     - Test
