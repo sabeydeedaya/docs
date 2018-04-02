@@ -21,6 +21,7 @@ Logo | Partner
 <a href="http://appnext.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mf7zfgvsypjglqnisyth-1492800692344.png)</a>| **Appnext**
 <a href="http://avazuinc.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/qwh3KVui-1519413087132.png)</a>| **Avazu**
 <a href="http://billymob.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_blue-1500940117780.png)</a>| **Billy Mobile**
+<a href="http://claymotion.in/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ClayMotion_white_copy-hi-1521236042511.png)</a>| **Claymotion**
 <a href="https://www.centro.net/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/YNhU8bk-1518047494337.png)</a>| **Centro**
 <a href="http://www.cj.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/CJ_Affiliate_Logo-1522097280231.png)</a>| **CJ Affiliate**
 <a href="http://clickadu.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/cck-1508531144603.png)</a>| **Clickadu**
