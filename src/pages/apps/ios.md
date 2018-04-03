@@ -74,7 +74,7 @@
         ```
 
     - Option 3: Manually install the [source code](https://github.com/BranchMetrics/ios-branch-deep-linking/releases) with dependencies
-        
+
         - Drag and drop `Branch.framework` into `Embedded Binaries` (select `Copy items if needed`)
         - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
 
@@ -459,7 +459,7 @@
         }];
         ```
 
-- ### Display 
+- ### Display
 
     - List content on `iOS Spotlight`
 
@@ -845,6 +845,7 @@
         ```objc
         [[Branch getInstance] disableCookieBasedMatching];
         ```
+
 - ### Enable / Disable User Tracking
 
     If you need to comply with a user's request to not be tracked, utilize this field to prevent Branch from sending network requests. By calling the below function, this will persist at the SDK level.
@@ -865,20 +866,20 @@
 
 ## Troubleshoot issues
 
-- ### To validate if AASA file successfully downloaded 
+- ### To validate if AASA file successfully downloaded
 
     - Connect a test device to your MAC
-    
+
     - Uninstall the app
-    
+
     - View the device's console output in the MAC console
-    
+
     - Install your app and let it launch
-    
+
     - Filter the console output by "swcd"
-    
+
     - If the AASA downloaded sucessfully, you'll see something like the screenshot below (If the AASA did not download, you must uninstall the app, restart the device, and then reinstall the app)
-    
+
     ![image](https://cdn.branch.io/branch-assets/1520880422940-og_image.png)
 
 - ### Submitting to the App Store
