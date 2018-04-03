@@ -36,4 +36,12 @@ You will still need to request a custom click tracking domain from Vero, but wit
 1. [Add and verify](https://help.mailgun.com/hc/en-us/articles/202052074-How-do-I-verify-my-domain-){:target="\_blank"} your new custom click tracking domain in the Mailgun dashboard
 1. Log into Vero and go to Settings > Email Providers. Add a new Mailgun "account" and input the domain name you have just verified. Vero will now allow you to set this as the default, or use this on a per-campaign basis.
 
+{! ingredients/email/email-technical-setup.md !}
+
+{! ingredients/email/email-cname.md !}
+
+{! ingredients/email/email-associated-domains.md !}
+
+{! ingredients/email/email-validate-test.md !}
+
 {! ingredients/email/email-support.md !}
