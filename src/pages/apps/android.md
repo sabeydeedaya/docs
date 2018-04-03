@@ -954,6 +954,17 @@
 
     - Add `compile 'com.android.support:customtabs:23.3.0'` to your `build.gradle`
 
+- ### Enable / Disable User Tracking
+
+    If you need to comply with a user's request to not be tracked, utilize this field to prevent Branch from sending network requests. By calling the below function, this will persist at the SDK level.
+
+    ```java
+    Branch.getInstance().disableTracking(true);
+    ```
+
+    You can choose to call this throughout the lifecycle of the app. Once called, network requests will not be sent from the SDKs. Link generation will continue to work, but will not contain identifying information about the user. In addition, deep linking will continue to work, but will not track analytics for the user.
+
+
 ## Troubleshoot issues
 
 - ### Sample testing apps
