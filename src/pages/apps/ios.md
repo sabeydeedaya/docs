@@ -105,7 +105,6 @@
         }
 
         func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-          // handler for URI Schemes (depreciated in iOS 9.2+, but still used by some apps)
           Branch.getInstance().application(app, open: url, options: options)
           return true
         }
