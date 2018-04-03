@@ -398,7 +398,11 @@ branch.init( 'BRANCH_KEY',
 Prioritization only takes effect when two Journeys are overlapping. If you have a Journey targeting iOS users and a Journey targeting Android users, the prioritization won't matter. If you update the Journey targeting iOS to now target iOS and Android users, the higher priority Journey will show to Android users.
 
 #### What happens if a user dismisses a banner or interstitial?
-Assuming it fits your audience rule, your highest priority Journey is shown. If that Journey is dismissed, no other Journeys will show to respect the user's preference for not seeing a Journey when those rules are applied. To maximize Journey visibility, make your interstitial rules narrow (for example, showing on specific URLs) and your banner rules broad.
+When a user is on a webpage, they will always be shown the highest-priority Journey whose targeting criteria apply to that user, assuming that Journey has not already been dismissed. If the user dismisses that Journey, that Journey will not display again for the amount of time specified in the Journey's [dismissal settings](/pages/web/journeys/#dismiss).
+
+If the user loads another page on the website, Branch will again determine the highest-priority Journey whose targeting criteria apply to that user. **If that Journey has been already been dismissed, no Journey will display.** If, however, the highest-priority Journey has not been dismissed, that Journey will display.
+
+To maximize Journeys visibility, make your audience rules narrow (for example, showing on specific URLs), and decrease the priority of your least broad audience rules.
 
 #### Why do I have to prioritize Stopped and Draft Journeys?
 We ask you to prioritize all non-Archived Journeys because Journeys can be set live from *Draft* or *Stopped* mode.
@@ -682,7 +686,7 @@ The available configuration options are identical for banners at both the top an
 
 | Option | Usage |
 | --- | --- |
-| Dismiss Period | Control how long the banner should be hidden once dismissed by the user. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom` |
+| Dismiss Period | Control how long the banner should be hidden once dismissed by the user. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom`. [Learn more](/pages/web/journeys/#what-happens-if-a-user-dismisses-a-banner-or-interstitial). |
 
 ##### App Icon
 
@@ -760,7 +764,7 @@ The content block contains everything except for the background image. Dimension
 | Option | Usage |
 | --- | --- |
 | Dismiss Text | Text to show users wanting to continue to your mobile website instead of downloading the app.
-| Dismiss Period | Control how long before the same visitor should see the Journey again. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom` |
+| Dismiss Period | Control how long before the same visitor should see the Journey again. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom`. [Learn more](/pages/web/journeys/#what-happens-if-a-user-dismisses-a-banner-or-interstitial). |
 
 ### Premium journeys functionality
 
