@@ -145,7 +145,6 @@
         }
 
         - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-          // handler for URI Schemes (deprecated in iOS 9.2+, but still used by some apps)
           [[Branch getInstance] application:app openURL:url options:options];
           return YES;
         }
