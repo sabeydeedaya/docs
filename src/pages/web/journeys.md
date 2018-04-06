@@ -157,10 +157,10 @@ A Journey can have one of four states:
 
 | State | Meaning | Next Stage |
 | --- | --- | --- |
-| Draft | Not yet published, still editable | **Active** |
-| Active | Live for your users, read-only | **Stopped** |
-| Stopped | Not live for your users, read-only | **Active** or **Archived** |
-| Archived | Not live for your users, hidden from default manager view | _none_ |
+| Draft | Not yet published, editable | **Active** |
+| Active | Live for your users, editable | **Stopped** |
+| Stopped | Not live for your users, editable | **Active** or **Archived** |
+| Archived | Not live for your users, editable | _none_ |
 
 You can activate a journey directly from the creation flow, or from **Start** in the Actions menus in the Journeys Manager.
 
@@ -168,7 +168,7 @@ You can activate a journey directly from the creation flow, or from **Start** in
 
 !!! protip "Editing a live Journey"
 
-    To prevent corruption of historical analytics data, Journeys cannot be edited once they leave **Draft** status. However, you can **Clone** a Journey and make changes to the new copy.
+You may edit Journeys in all states; if you do, however, your Journeys' performance and analytics may change. If you do decide to make a change, we recommend making a note of what you changed and when you made the change.
 
 
 ### Prioritizing Journeys
