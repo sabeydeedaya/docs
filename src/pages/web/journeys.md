@@ -591,7 +591,35 @@ branch.addListener(listener);
 
 ### Journeys text localization
 
-Journeys now has an entire localization framework. Due to the complexity of this offering, we're not exposing it directly to partners. Please reach out to your account manager or integrations@branch.io to receive access to this functionality.
+#### Client-side
+
+You can easily customize the Journey text dynamically client side using `setBranchViewData` and by reading the browser's language.
+
+```javascript
+var lang_code;
+if (navigator.languages && navigator.languages.length>0) {
+    lang_code = navigator.languages[0];
+} else if (navigator.language) {
+    lang_code = navigator.language;
+}
+
+// Change Journeys text if language is Spanish (ES)
+if (lang_code == 'ES') {
+    branch.setBranchViewData(
+        {
+            data: {
+                 "$journeys_title": 'Mi App',
+                 "$journeys_description": 'Mi descripción',
+                 "$journeys_button_get_has_app": 'Avrir',
+                 "$journeys_button_get_no_app": 'Ver',
+             }
+         }
+    );
+}
+```
+
+#### Server-side
+Journeys now has an entire localization framework server-side. Due to the complexity of this offering, we're not exposing it directly to partners. Please reach out to your account manager or integrations@branch.io to receive access to this functionality.
 
 ### CSS Editor
 
