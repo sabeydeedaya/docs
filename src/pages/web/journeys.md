@@ -604,7 +604,7 @@ if (navigator.languages && navigator.languages.length>0) {
 }
 
 // Change Journeys text if language is Spanish (ES)
-if (lang_code == 'ES') {
+if (lang_code == 'es') {
     branch.setBranchViewData(
         {
             data: {
