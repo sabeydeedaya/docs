@@ -87,6 +87,8 @@ Please ensure you're using the Branch iOS SDK 0.12.2 or greater, and Android SDK
 
 You can use the following code to let Branch know what device_id and user_id should be sent to Amplitude. Please make sure you are using SDK version 0.12.2 or later.
 
+Please add the following before initializing the Branch session:
+
 **iOS:**
 
 ```obj-c
