@@ -116,7 +116,7 @@
     - Methods of creating short links
         - Use [Quick Links](/pages/dashboard/analytics/#quick-links) for fast link creation and easy tracking
         - Use our [App SDK](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link) to create and share links within your app
-        - Use our [Web SDK](/pages/web/integrate/#create-deep-link) to create to links convert web to app users
+        - Use our [Web SDK](/pages/web/integrate/#create-deep-link) to create links which help convert your web users to app users
         - Use our [HTTP API](/pages/apps/api/#link-create) to programmatically create links from your server
         - Use our [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf) to generate links from your browser
 
