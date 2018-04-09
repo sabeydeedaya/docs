@@ -83,9 +83,9 @@ See the [Advanced Filtering](#advanced-filtering) page to read more about custom
 
 ### Testing
 
-To test whether your webhook is configured correctly, you can use [requestb.in](https://requestb.in/). RequestBin gives you a URL that accepts events for 24 hours and allows you to see exactly what Branch is sending.
+To test whether your webhook is configured correctly, you can use [RequestBin](https://requestbin.fullcontact.com/). RequestBin gives you a URL that accepts events for 24 hours and allows you to see exactly what Branch is sending.
 
-1. Go to [requestb.in](https://requestb.in/) and click **+ Create a RequestBin**:
+1. Go to [RequestBin](https://requestbin.fullcontact.com/) and click **+ Create a RequestBin**:
 
 	![image](/img/pages/exports/requestbin_create.png)
 
