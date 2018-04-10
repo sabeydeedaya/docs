@@ -36,14 +36,14 @@ So you're convinced. Let's get started! If at any time, you need a real example,
 
 ### Initialize the Branch SDK
 
-Head to your _core library project_, where your Application class is defined and drop in the snippet of code to the onCreate() method as follows. If you plan on deep linking from your Android Instant App to your full Android app after its installed, you'll need to add the line `enablePlayStoreReferrer`. This adds a delay to the initialization to wait for the Google Play Referrer, which can take up to a second.
+Head to your _core library project_, where your Application class is defined and drop in the snippet of code to the onCreate() method as follows. If you plan on deep linking from your Android Instant App to your full Android app after its installed, you'll need to make sure Branch's InstallListener is included in your Manifest. The method `setPlayStoreReferrerCheckTimeout` defines how long the Branch initialization will wait for the Google Play Referrer, which can take up to a second.
 
 ``` java
 public void onCreate() {
   super.onCreate();
-  // This is needed to deferred deep link from an Android Instant App to a full app
-  // It tells the Branch initialization to wait for the Google Play Referrer before proceeding.
-  Branch.enablePlayStoreReferrer(1000L);
+  // Branch's InstallListener is needed to deferred deep link from an Android Instant App to a full app
+  // This tells the Branch initialization how long to wait for the Google Play Referrer before proceeding. (Default: 1 second)
+  Branch.setPlayStoreReferrerCheckTimeout(1000L);
 
   // Initialize the Branch SDK
   Branch.getAutoInstance(this);
