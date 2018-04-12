@@ -58,11 +58,6 @@ Once you've enabled an ad partner, it's time to create a tracking link.
 
     ![image](/img/pages/deep-linked-ads/branch-universal-ads/finished-ad-link.png)
 
-
-    !!! tip "View through attribution"
-
-        To try our view-through attribution beta, please contact integrations@branch.io. Once it's been enabled, you'll be able to create impression pixels. Currently, impression pixels are only supported with server to server impression tracking, so be sure that the impression pixel that's returned by the dashboard has `%24s2s=true` and an `%24idfa` or `%24aaid` macro. If you have questions, just contact support and we'll get it sorted out.
-
 ### View your data with People-Based Attribution
 
 The [Ads Analytics Page](https://dashboard.branch.io/ads/analytics) on the Branch dashboard shows the performance of your ad campaigns _across both web and app_. You can view performance over time, including purchase and other custom events.
@@ -91,6 +86,10 @@ Our view-through attribution logic is currently as follows for any given event.
 Currently, impression pixels are only supported with server to server tracking, so server to server macros and device IDs are required when using impression pixels.
 
 To create a pixel, simply [create an ad link](#create-an-ad-link), and grab the pixel from the final step of link creation.
+
+    !!! tip "View through attribution"
+
+        Make sure the impression pixel returned by Branch's dashboard has `%24s2s=true` and an `%24idfa` or `%24aaid` macro. If you have questions, just contact integrations@branch.io.
 
 ## Advanced
 
