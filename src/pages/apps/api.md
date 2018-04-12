@@ -245,9 +245,62 @@
         | branch_secret | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
         | url | `string` | The deep link url | √
 
-- ### Link troubleshooting
+- ### Link update tips
 
-    - `data` is overridden on [Link update](#link-update), not appended
+    - A link's `data` object is overwritten entirely by the [Link update](#link-update) API, so make sure to include all required data when updating a link (not just the data you're changing)
+    - To update links in bulk, you can combine the [Link update](#link-update) and [Link read](#link-read) APIs into a simple script.  The sample Python script below reads a 2-column CSV file, and updates a specific key's value for all links listed in column A, with the values in column B:
+    
+          ```python
+          import requests
+          import csv
+          import sys
+          import urllib
+          import json
+
+          #Insert API key & App Secret from the Branch dashboard, and the Link data key you want to change in each link **
+          branch_key = "[API KEY]"
+          branch_secret = "[APP SECRET]"
+          key_to_update = "[DATA KEY TO UPDATE]"
+
+          #Insert filename for a CSV that lists all links to update in the first column, and the values to add in the second column **
+          ifile = open('[Filename].csv', "rb")
+
+          #constants
+          branchendpoint = "https://api.branch.io/v1/url?url="
+          reader = csv.reader(ifile, delimiter=',')
+
+          #Uncomment the next line if you want the script to skip the first line of the CSV
+          #next(reader)
+
+          #loop through CSV with branch links in column A, and new values in column B
+          for row in reader:
+
+            #retrieve link data for link to be updated
+            url = urllib.quote_plus(row[0])
+            getrequest = branchendpoint + url + "&branch_key=" + branch_key
+            linkdata = requests.get(getrequest)
+            jsonData = json.loads(linkdata.text)
+
+            #set credentials for update API
+            jsonData["branch_key"] = branch_key
+            jsonData["branch_secret"] = branch_secret
+
+            #udpate target key with values provided in CSV ****************
+            newValue = row[1]
+            if key_to_update in jsonData:
+              jsonData[key_to_update] = newValue
+            if key_to_update in jsonData["data"]:
+              jsonData["data"][key_to_update] = newValue
+
+            #put request to update link
+            payload = json.dumps(jsonData)
+            putrequest = branchendpoint + url
+            r = requests.put(putrequest, json=jsonData)
+            print(r.url)
+            print(r)
+            print
+          ifile.close()
+          ```
 
 
 ## Event
