@@ -83,7 +83,7 @@ View-through attribution allows you to track installs, session starts and conver
 
 Currently, impression pixels are only supported with server to server tracking, so server to server macros and device IDs are required when using impression pixels. To create a pixel, simply [create an ad link](#create-an-ad-link), and grab the pixel from the final step of link creation.
 
-    !!! tip "View through attribution"
+!!! tip "Impression Pixel Formatting"
 
         Make sure the impression pixel returned by Branch's dashboard has `%24s2s=true` and an `%24idfa` or `%24aaid` macro. If you have questions, just contact integrations@branch.io.
 
