@@ -17,7 +17,7 @@ The acronym MMP is used to mean either the broad category of Facebook Mobile Mar
 
 ### How does Branch attribute events to Facebook ads?
 
-Facebook is a self-attributing network. This means that Facebook claims credit for installs and other events. This differs from some ad networks, which send a stream of impressions and clicks that Branch then matches to events. Branch then compares these claims against other ad networks, as well as traffic coming from email, your website, and other sources, choosing the most recent click to get credit. 
+Facebook is a self-attributing network. This means that Facebook claims credit for installs and other events. This differs from some ad networks, which send a stream of impressions and clicks that Branch then matches to events. Branch then compares these claims against other ad networks, as well as traffic coming from email, your website, and other sources, choosing the most recent click to get credit.
 
 The Branch SDK already helps you track installs and other events. When you enable the Facebook MMP integration, Branch sends events and advertising IDs to Facebook. Facebook then reports whether devices previously viewed or clicked a Facebook ad, including helpful information such as campaign, ad set, and ad. As stated above, Branch then dedupes these claims against other claims for attribution.
 
@@ -68,9 +68,13 @@ If you still have questions, please [contact us](https://support.branch.io/suppo
 
 ![warning about admin](/img/pages/deep-linked-ads/facebook-ads-faq/standalone-ad-account.png)
 
-If an ad account is not linked to a business, then we cannot guarantee that this account setup will succeed. Please visit [the ad account settings page](https://www.facebook.com/ads/manager/account_settings/information/), navigate to the appropriate ad account, and ensure you are an admin (see image below). 
+If an ad account is not linked to a business, then we cannot guarantee that this account setup will succeed. Please visit [the ad account settings page](https://www.facebook.com/ads/manager/account_settings/information/), navigate to the appropriate ad account, and ensure you are an admin (see image below).
 
 ![Ensure admin](/img/pages/deep-linked-ads/facebook-ads-faq/adaccount-settings.png)
+
+Alternatively, you may be able to grant the Branch Ads Manager permission to pull data for your account.
+
+![Grant Branch Ads Permission](/img/pages/deep-linked-ads/facebook-ads-faq/fb_grant_branch_permission.png)
 
 If you still have questions, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + Standalone Ad Account(s)" in the subject.
 
