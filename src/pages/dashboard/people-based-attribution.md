@@ -161,6 +161,14 @@ Some installs on the old analytics platform were actually "reinstalls", but were
 
 If the difference in numbers is still concerning, reach out to your Branch account manager, or send us a message at integrations@branch.io
 
+### A word about tags
+
+When you filter by tags and compare on tags, you may see something a bit unexpected. Here's an example:
+
+![image](/img/pages/dashboard/people-based-attribution/tags.png)
+
+Here you'll see that even though we've filtered for only one tag, '201804082343', multiple tags are present on the graph. This is because links can have multiple tags. So in this example, there were 7 installs on 04/09 that were attributed to a link click with tag '201804082343'. Within those installs, 4 had tag 'Android' as well, and so on.
+
 ### New Dashboard Accounts
 
 Accounts created on or after December 15th, 2017 (UTC time zone) will run exclusively on the People-Based Attribution platform.
