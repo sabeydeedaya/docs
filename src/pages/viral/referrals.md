@@ -18,6 +18,9 @@ With every event that is recorded in Branch, we check automatically if that even
 !!! warning "Identify your users"
 	Because we do not merge identities, you *should set rewards on custom events* and *not use* the events we automatically track (`install` and `open`), and do so only *after* you have identified a user using our [identity methods](#dialog-code?ios=track-users&android=track-users&adobe=track-users&cordova=track-users&mparticleAndroid=track-users&mparticleIos=track-users&titanium=track-users&reactNative=track-users&unity=track-users&xamarin=track-users). This will help avoid duplicate rewards and missing credits.
 
+!!! warning "Only use v1 custom events"
+	Our referral system only supports our v1 custom event SDK method which is `userCompletedAction()` and `track()`. The v2 events, `BranchEvent` and `logEvent()`, are not supported at this time.
+
 ## Awarding credits
 
 !!! tip "Referral Fraud Protection"
