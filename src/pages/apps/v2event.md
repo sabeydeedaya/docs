@@ -33,6 +33,7 @@ As of now, any calls made through these SDK methods will **not** yet:
 - Appear in Liveview.
 - Be settable events for Data Integrations.
 - See Analytics on the old Analytics pipeline. Read more about our new [People-Based Attribution](/pages/dashboard/people-based-attribution/).
+- Work with our [referrals system](/pages/viral/referrals/).
 
 ## Available Events
 
