@@ -225,7 +225,7 @@
         | Key | Default | Usage
         | --- | --- | ---
         | $publicly_indexable | `1` | Cannot modify here. Needs to be set by the Branch Universal Object
-        | $keywords | | Keywords for which this content should be discovered by. Just assign an array of strings with the keywords you'd like to use
+        | ~keyword | | Keywords for which this content should be discovered by. Just assign an array of strings with the keywords you'd like to use
         | $canonical_identifier | | This is the unique identifier for content that will help Branch dedupe across many instances of the same thing. Suitable options: a website with pathing, or a database with identifiers for entities
         | $exp_date | `0` | The date when the content will not longer be available or valid. The value must be an epoch timestamp in milliseconds (e.g. `1512000420`) within the Branch Universal Object. The click will be attributed, but the install/open will not be
         | $content_type | | This is a label for the type of content present. Apple recommends that you use uniform type identifier as described here
