@@ -66,3 +66,7 @@ Note that these stats are **limited to the date range** at the top of the page. 
 ### Adding deep linking to Apple Search Ads
 
 Since this integration doesn't utilize Branch links, options for deep linking are limited. We'll pass back the value you use for `campaign` in the Apple Ads dashboard. Since this value is controlled by you, you can put anything there, but it will reflect on the Apple ads dashboard. We will track installs regularly.
+
+### Installs or conversion events appearing without keywords in Branch dashboard
+
+There are "Keyword" and "Search Match" match sources for Apple Search Ads. Search Matches are where Apple decides to show an ad to a user based on your app store listing, rather than a rubric of preassigned keywords. Installs attributed to Search Matches do not have keywords associated with them. Search Match can be enabled & disabled at the Ad Group level in the Apple Search Ads dashboard.
