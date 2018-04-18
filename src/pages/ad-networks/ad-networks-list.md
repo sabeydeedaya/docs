@@ -1,3 +1,4 @@
+<a href="https://adsarmy.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ads_army-1521759654549.png)</a>| **Ads Army**
 ### Ads Networks List
 Logo | Partner 
 --- | --- 
@@ -11,7 +12,7 @@ Logo | Partner
 <a href="http://adcolony.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/adcolony-1513204502834.png)</a>| **AdColony**
 <a href="http://adikteev.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_adikteev-1513039903349.png)</a>| **Adikteev**
 <a href="http://admitad.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-admitad-1493136873359.png)</a>| **Admitad**
-<a href="https://adsarmy.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ads_army-1521759654549.png)</a>| **Ads Army**
+<a href="http://adshero.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/bqyR5Nx-1522106637247.png)</a>| **Ads Hero**
 <a href="http://adsterra.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Adsterra-1508532651884.png)</a>| **Adsterra Network**
 <a href="http://affise.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/affisee-1513141472946.png)</a>| **Affise**
 <a href="http://appier.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/29291839342_73029de826_o-1496708152338.png)</a>| **Appier**
@@ -53,6 +54,7 @@ Logo | Partner
 <a href="http://liftoff.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/liftoff-logo-1492801474909.png)</a>| **Liftoff**
 <a href="http://magnetadservices.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1500342359816.png)</a>| **Magnet**
 <a href="http://manage.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/manage_logo_trans_300x75-1505160375494.png)</a>| **Manage**
+<a href="https://blindferret.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1523922634076.png)</a>| **Blind Ferret**
 <a href="https://mobair.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobair_logo_new_GDMgroup_544x144px-1518662472731.png)</a>| **MobAir**
 <a href="http://mobioinc.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobio_logofooter1-1498863703378.png)</a>| **Mobio**
 <a href="http://www.mobobeat.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobobeat-logo-1-1518463227906.png)</a>| **Mobobeat**
@@ -82,6 +84,7 @@ Logo | Partner
 <a href="http://remerge.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/vgfm8axwuhj2lcwybtzf-1492640396474.png)</a>| **Remerge**
 <a href="http://revx.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1493256528887.png)</a>| **RevX**
 <a href="http://sabiomobile.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/main_logo_compress-1509082296545.png)</a>| **Sabio Mobile**
+<a href="http://sonarclick.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LOGO-2-1522803269821.png)</a>| **Sonarclick**
 <a href="http://spykemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/1-e1466007909243-1495751845237.png)</a>| **Spyke Media**
 <a href="http://stackadapt.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/8331ef7d-bfc8-4148-a118-50da0fc43f8f-1490739325404-1506381795896.png)</a>| **StackAdapt**
 <a href="http://tab.company">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1502234001399.png)</a>| **TAB**
