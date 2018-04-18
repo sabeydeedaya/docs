@@ -78,9 +78,9 @@
         - Fallback overrides *(ordered by precedence)*
             - Add query string `https://example.app.link?$ios_url=https://example.com`
             - Add link data `$ios_url = 'https://example.com'` ([docs](/pages/links/integrate/#redirections))
-            - Add link data `$fallback_url = 'https://example.com'` ([docs](/pages/links/integrate/#redirections))
             - Add link data for a deep view `$ios_deepview = 'deepviewId'`  ([docs](/pages/links/integrate/#deepview))
             - Enable a `Deep View` globally on the [Branch Dashboard](https://dashboard.branch.io/web/deepviews)
+            - Add link data `$fallback_url = 'https://example.com'` ([docs](/pages/links/integrate/#redirections))
             - Add `iOS/Android Custom URL` on the [Branch Dashboard](https://dashboard.branch.io/link-settings)
             - Add `Default URL` (`$fallback_url`) on the [Branch Dashboard](https://dashboard.branch.io/link-settings)
 
