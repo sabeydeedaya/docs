@@ -208,7 +208,7 @@ Inside *didFinishLaunchingWithOptions*
 ```swift
 
 if let branch = Branch.getInstance() {
-    branch.setRequestMetadataKey("$adobe_visitor_id", value:ADBMobile.trackingIdentifier() as NSObject!);
+    branch.setRequestMetadataKey("$adobe_visitor_id", value:ADBMobile.trackingIdentifier());
 }
 ```
 
