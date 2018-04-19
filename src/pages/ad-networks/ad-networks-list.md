@@ -20,6 +20,7 @@ Logo | Partner
 <a href="http://applovin.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/u3eoOtkBNGx7x4W6nKLQSQ-AppLovin_Logo_Blue_White_Rectangle_WEB-1492637758109.png)</a>| **Applovin**
 <a href="http://appnext.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mf7zfgvsypjglqnisyth-1492800692344.png)</a>| **Appnext**
 <a href="http://avazuinc.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/qwh3KVui-1519413087132.png)</a>| **Avazu**
+<a href="http://www.beintoo.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/0_logo1-1524103227195.png)</a>| **Beintoo**
 <a href="http://billymob.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_blue-1500940117780.png)</a>| **Billy Mobile**
 <a href="http://claymotion.in/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ClayMotion_white_copy-hi-1521236042511.png)</a>| **Claymotion**
 <a href="https://www.centro.net/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/YNhU8bk-1518047494337.png)</a>| **Centro**
