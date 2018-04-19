@@ -125,6 +125,12 @@ You can edit your attribution windows under Link Settings > Attribution Windows.
 
 Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
 
+#### Ad Network Attribtion Windows
+
+You can edit your attribution windows at the ad network level, if your ad network requires it. This is recommended when you enable networks like Facebok and Google, who may have different windows for installs. With this, you can preserve your Account Level Attribution Windows, as well.
+
+   ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw.png)
+
 #### Link Level Attribution Windows
 
 To set attribution windows on a link level, you can append the following parameters to your generated Branch link.
