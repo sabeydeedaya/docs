@@ -38,7 +38,7 @@ It is not necessary to connect all AdWords accounts. However, you must connect t
 1. Go to `Settings > Linked Accounts`.
 <img src="/img/pages/deep-linked-ads/google/linked-accounts.png" alt="Linked Accounts" class="three-quarters center">
 1. Create a new link ID: Go to `Third Party App Analytics > +`.
-1. Add a new provider: Select "other" in the drop down. Input the following ID: `3404357870`.
+1. Add a new provider: Select "other" in the drop down. Input Branch's provider ID: `3404357870`.
 1. Select iOS or Android.
 1. Create Link IDs for all platforms you run campaigns on.
 <img src="/img/pages/deep-linked-ads/google/link-id.png" alt="Link IDs" class="three-quarters center">
