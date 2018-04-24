@@ -62,6 +62,7 @@ Logo | Partner
 <a href="http://headwaydigital.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_mobrain_iso-1495753098283.png)</a>| **MoBrain**
 <a href="https://www.mobusi.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/687474703a2f2f6d6f62757369617070732e6769746875622e696f2f4d6f6275736953444b2d694f532f696d616765732f6d6f627573695f6c6f676f5f6e6567726f2e706e67-1493247352015.png)</a>| **Mobusi**
 <a href="http://mobvista.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Mobvista-logo-color-2015-e1446489504259-1512755416489.png)</a>| **Mobvista**
+<a href="http://mobupps.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/46-1524001053096.png)</a>| **MobUpps**
 <a href="http://mobx.agency">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Logo_Business_transp-1511229700695.png)</a>| **MobX**
 <a href="http://molocoads.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/moloco-1515797858655.png)</a>| **Moloco**
 <a href="http://motiveinteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/motive-logo-300x-1493074626823.png)</a>| **Motive**
