@@ -21,6 +21,7 @@ theme:
     code: 'Roboto Mono'
   feature: false
   logo: 'img/logo.svg'
+  favicon: 'img/favicon.ico'
 docs_dir: 'src'
 extra_css:
   - 'css/main.css'
