@@ -84,6 +84,13 @@ Copy the following snippet, and using the “Source” view, paste the snippet d
 <#include "cms://contentlibrary/Branch_SDK/branch-sdk.htm">
 ```
 
+##### Configuring the Responsys Link Table
+
+For the Branch SDK to generate Branch links in the email or the 3P links while redirections, the Link Tracking table for the email template should contain the following two LINK NAME with the `${deeplink}` as the **LINK URL**.
+
+![image](/img/pages/email/responsys/configure-responsys-5.png)
+
+*For creating tracked links, ensure that **‘Track Link’** is set to **ON**. Tracked links will be generated under the Responsys Click Tracking Domain and will then redirect to a Branch 3p link (the link added as the base URL in the Branch_SDK.htm file.*
 ##### Create deep links
 
 Wherever you are using `<a>` tags in your email templates, replace those with `<@deeplink>` tags, or add `<@tracked_deeplink />` for web URLs that you would like to deep link.
