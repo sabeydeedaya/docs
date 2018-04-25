@@ -1,5 +1,8 @@
 # People-Based Attribution
 
+!!! Note "Completing Dashboard Migration on June 25th "
+	On June 25th, 2018, the new dashboard powered by People-Based Attribution will come out of beta. All Branch analytics views will be automatically migrated over to the revamped dashboard. You will no longer be able to switch back to the legacy view of the Branch dashboard after this date. The vast majority of Branch partners are already using the new dashboard and can disregard this notice.
+
 ## Overview
 
 Branch is introducing a new and improved analytics platform for you to preview.
@@ -74,14 +77,6 @@ Behavior | Old Analytics | new People-Based Attribution
 We now default every visualization in the dashboard to be unique. This means that if you are testing Branch links, and click a link 5 times, we will display that as one click. This applies to events as well. This applies to all events, as well.
 
 Select visualizations also allow you to see total (i.e. non-unique) numbers as well. If you'd like to see total numbers on a visualization that does not support it, you can also export raw data.
-
-### Cutoff date
-
-As far as the deployment of People-Based Attribution, we created our cut off date on October 14th 2017 and we kept the old and new analytical systems running in parallel since then and will continue to do this for a short while. This mean you can query data from any time before October 14th up until October 14th with old analytics. You can query data from October 14th onwards with both analytics. But if you wanted to do reports across this line, say, October 13th to October 15th, you would need two separate queries.
-
-#### Differences From Cutoff Date
-
-If you are tracking Purchase events, and want to see unique values for Purchases before the cut off date of October 14th 2017, those values will display as 0. This is because the Purchase event hasn't stored unique counts before October 14th. However, we are now storing this information since then.
 
 ## Changes to the Branch Dashboard
 
