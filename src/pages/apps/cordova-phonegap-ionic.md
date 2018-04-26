@@ -596,6 +596,8 @@
 - ### Recommendations
 
     - Need to select `"app uses IDFA or GAID"` when publishing your app
+    
+    - Mobile browser capability: `Android 4.4.4+`, `Safari 8+`, `Chrome 32+`, `Firefox 29+`
 
 - ### Optional app config
 
