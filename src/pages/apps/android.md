@@ -1377,9 +1377,8 @@
 
 - ### Proguard warning or errors with AppIndexing module
 
-    - The Branch SDK has an optional dependency on Firebase app indexing classes to provide new Firebase content listing
-        features. This may cause a proguard warning depending on your proguard settings. Please add the following to your
-        proguard file to solve this issue `-dontwarn com.google.firebase.appindexing.**`.
+    - The Branch SDK has an optional dependency on Firebase app indexing and Android install referrer classes to provide new Firebase content listing features and support new Android install referrer library. This may cause a proguard warning depending on your proguard settings. Please add the following to your proguard file to solve this issue
+    `-dontwarn com.google.firebase.appindexing.**`  `-dontwarn com.android.installreferrer.api.**`
 
 - ### Unable to open this link error
 
