@@ -203,6 +203,9 @@
         ```js
         // for development and debugging only
         Branch.setDebug(true)
+        
+        // for GDPR compliance (can be called at anytime)
+        Branch.disabledTracking(true);
 
         // Branch initialization
         Branch.initSession(function(data) {
