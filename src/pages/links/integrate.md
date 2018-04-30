@@ -49,6 +49,7 @@
             | Firefox address bar | Fallback | | App
             | Hangouts | App | | App |
             | iMessage | App |
+            | Apple Business Chat | App |
             | Slack | App | Must configure Slack to open links with Safari | App |
             | WeChat | Fallback | Customize [WeChat fallback urls](#redirections) | Fallback | Customize [WeChat fallback urls](#redirections)
             | WhatsApp | App | `app.link` require https/http to be clickable | App | `app.link` require https/http to be clickable
