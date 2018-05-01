@@ -22,6 +22,7 @@ Logo | Partner
 <a href="http://applift.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/applift_lg-bdbcf02abab90b0343354dc04fb1ff42ac2b6a9e15c34aa7177e49a7ae7864d9-1509989161261.png)</a>| **Applift**
 <a href="http://applovin.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/u3eoOtkBNGx7x4W6nKLQSQ-AppLovin_Logo_Blue_White_Rectangle_WEB-1492637758109.png)</a>| **Applovin**
 <a href="http://appnext.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mf7zfgvsypjglqnisyth-1492800692344.png)</a>| **Appnext**
+<a href="http://www.artofclick.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/art_of_click-1524680418959.png)</a>| **Art of Click**
 <a href="http://avazuinc.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/qwh3KVui-1519413087132.png)</a>| **Avazu**
 <a href="http://www.beintoo.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/0_logo1-1524103227195.png)</a>| **Beintoo**
 <a href="http://billymob.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_blue-1500940117780.png)</a>| **Billy Mobile**
