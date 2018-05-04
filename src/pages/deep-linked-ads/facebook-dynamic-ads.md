@@ -41,7 +41,7 @@ Product Catalogue Sales | ✔︎ |  | ✔︎ |  |  |  |
 
 Branch makes it easy for you to create and manage feeds with Facebook-compatible deep links.
 
-1. Create a Branch Deep Linked Ad Feed from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Facebook Link` button under the Google Adwords Partner and select `Create Product Link`
+1. Create a Branch Deep Linked Ad Feed from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Ad Link` button under the Facebook Partner and select `Create Product Link`
 <img src="/img/pages/deep-linked-ads/reusable-images/create-link-product.png" alt="Link Creation" class="three-quarters center">
 1. Enter a Deep Linked Feed Name.
 1. Enter a already set up feed source or upload a new source.
