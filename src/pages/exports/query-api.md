@@ -359,6 +359,8 @@ _location_: URL query
 
 _default value_: 100
 
+_max value_: 1000
+
 _format_: integer
 
 **after**
