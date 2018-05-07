@@ -916,7 +916,7 @@
 
 - ### Cordova errors
 
-    - ##### Migrate from SDK 2.5+ to 2.7+
+    - ##### Migrate from SDK 2.5+ to 3.0+
         
         ```diff
         // Branch initialization
