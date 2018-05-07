@@ -145,7 +145,7 @@ pages:
     - Twitter: pages/deep-linked-ads/twitter.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
-    - Adobe Campaign: pages/emails/adobe-campaign.md
+    - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
     - Amazon SES: pages/emails/amazon-ses.md
     - Betaout: pages/emails/betaout.md
     - Blueshift: pages/emails/blueshift.md
