@@ -6,15 +6,15 @@ This guide requires you to have already integrated the Branch SDK into your app:
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
-### How Deep Links Work with Adobe Campaign
+### How Deep Links Work with Adobe Campaign Standard
 
 #### Setting up your click tracking domain
 
-The click-tracking domain is a key component to set up a deep linked email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign  tracking server.
+The click-tracking domain is a key component to set up a deep linked email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Standard tracking server.
 
 ![image](/img/pages/email/click-tracking-1.png)
 
-To make deep links work, the click tracking domain must be pointed to Branch - so Branch will receive the clicks, proxy requests to Adobe Campaign and redirect users to the app or website. Branch recommends that a new click tracking domain is set up for all new campaigns that will use Branch.
+To make deep links work, the click tracking domain must be pointed to Branch - so Branch will receive the clicks, proxy requests to Adobe Campaign Standard and redirect users to the app or website. Branch recommends that a new click tracking domain is set up for all new campaigns that will use Branch.
 
 ![image](/img/pages/email/click-tracking-2.png)
 
@@ -50,7 +50,7 @@ Open the Brand Configuration page (in Adobe Campaign Standard) and Replace the E
 
 #### Tell Us Your Click Tracking Domain
 
-Copy your new click tracking domain into the click tracking domain setting for the Adobe Campaign integration in the [Branch Dashboard](https://branch.dashboard.branch.io/email/manager).
+Copy your new click tracking domain into the click tracking domain setting for the Adobe Campaign Standard integration in the [Branch Dashboard](https://branch.dashboard.branch.io/email/manager).
 
 ![image](/img/pages/email/adobe-campaign-internal-setup.png)
 
