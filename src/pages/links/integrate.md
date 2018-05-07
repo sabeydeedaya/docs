@@ -230,7 +230,7 @@
         | $canonical_identifier | | This is the unique identifier for content that will help Branch dedupe across many instances of the same thing. Suitable options: a website with pathing, or a database with identifiers for entities
         | $exp_date | `0` | The date when the content will not longer be available or valid. The value must be an epoch timestamp in milliseconds (e.g. `1512000420`) within the Branch Universal Object. The click will be attributed, but the install/open will not be
         | $content_type | | This is a label for the type of content present. Apple recommends that you use uniform type identifier as described here
-        | $do_not_process | `false` | This will prevent click tracking for GDPR compliance. Deep link data will still flow into the app from link click to app open.
+        | $do_not_process | `false` | This will prevent click tracking and storage of link analytics. Deep link data will still flow into the app from link click to app open.
 
 - ### Deepview
 
