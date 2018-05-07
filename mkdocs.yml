@@ -155,6 +155,7 @@ pages:
     - Cheetah Digital Marketing Suite: pages/emails/cheetah-digital-marketing-suite.md
     - Epsilon: pages/emails/epsilon.md
     - Kahuna: pages/emails/kahuna.md
+    - Klaviyo: pages/emails/klaviyo.md
     - Leanplum: pages/emails/leanplum.md
     - Mailgun: pages/emails/mailgun.md
     - Mailjet: pages/emails/mailjet.md
@@ -164,6 +165,7 @@ pages:
     - Responsys: pages/emails/responsys.md
     - Sailthru: pages/emails/sailthru.md
     - Salesforce: pages/emails/salesforce.md
+    - Selligent: pages/emails/selligent.md
     - Sender: pages/emails/sender.md
     - SendGrid: pages/emails/sendgrid.md
     - SparkPost: pages/emails/sparkpost.md
