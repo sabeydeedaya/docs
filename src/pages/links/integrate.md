@@ -238,16 +238,16 @@
 
         | Key | Default | Usage
         | --- | --- | ---
-        | $ios_deepview | `default_template` | The name of the deepview template to use for iOS
-        | $android_deepview | `default_template` | The name of the deepview template to use for Android
-        | $desktop_deepview | `default_template` | The name of the deepview template to use for the Desktop
+        | $ios_deepview | `branch_default` | The name of the deepview template to use for iOS
+        | $android_deepview | `branch_default` | The name of the deepview template to use for Android
+        | $desktop_deepview | `branch_default` | The name of the deepview template to use for the Desktop
 
     - Control [passive deepview](/pages/web/deep-views/#passive-deepviews) templates
 
         | Key | Value | Default
         | --- | --- | ---
-        | $ios_passive_deepview | The name of the template to use for iOS. | `default_template`
-        | $android_passive_deepview | The name of the template to use for Android. | `default_template`
+        | $ios_passive_deepview | The name of the template to use for iOS. | `branch_default`
+        | $android_passive_deepview | The name of the template to use for Android. | `branch_default`
 
 - ### Open Graph
 
