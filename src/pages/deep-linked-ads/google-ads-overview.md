@@ -61,21 +61,15 @@ Finally, paste the Link IDs from earlier.
 
 ![Create Link IDs](/img/pages/deep-linked-ads/google/link-ids.png)
 
-### Set Attribution Windows (Optional)
+### Set Attribution Windows
 
-After you hit save, go to your [link settings](https://dashboard.branch.io/link-settings){:target="\_blank"}, and navigate to Attribution Windows.
-
-It is **recommended** you match your attribution windows with Google's, but not required.
+After you hit save, go to your [Partner Management dashboard](https://dashboard.branch.io/ads/partner-management/a_google_adwords?tab=attribution_windows){:target="\_blank"}, and navigate to Attribution Windows.
 
 For example, if a user clicked an ad 8 days ago, and Google claims credit, we would *not* count attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use. Below is simply a **recommendation**:
 
 - Click to Install : 30 days
 - Click to Conversion Event : 90 days
 - Click to Open : 90 days
-
-![Branch Conversion Window](/img/pages/deep-linked-ads/google-conversions/attribution-window.png)
-
-We will soon support the ability to have a conversion window for Google itself, so you don't have to modify your app level attribution window.
 
 ### Import Events In AdWords
 
