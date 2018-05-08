@@ -65,8 +65,6 @@ Finally, paste the Link IDs from earlier.
 
 After you hit save, go to your [Partner Management dashboard](https://dashboard.branch.io/ads/partner-management/a_google_adwords?tab=attribution_windows){:target="\_blank"}, and navigate to Attribution Windows.
 
-It is **recommended** you match your attribution windows with Google's, but not required.
-
 For example, if a user clicked an ad 8 days ago, and Google claims credit, we would *not* count attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use. Below is simply a **recommendation**:
 
 - Click to Install : 30 days
