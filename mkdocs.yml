@@ -136,12 +136,12 @@ pages:
     - Text Me The App: pages/web/text-me-the-app.md
     - Hosted Deep Link Data: pages/web/hosted-data.md
   - Links in your paid ads:
-    - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
     - Apple Search: pages/deep-linked-ads/apple.md
+    - Criteo: pages/deep-linked-ads/criteo.md
     - Doubleclick: pages/deep-linked-ads/doubleclick.md
-    - Google: pages/deep-linked-ads/google-ads-overview.md
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
+    - Google: pages/deep-linked-ads/google-ads-overview.md
     - Twitter: pages/deep-linked-ads/twitter.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
@@ -236,3 +236,5 @@ pages:
     - Ad Networks List: pages/ad-networks/ad-networks-list.md
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
+    - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
+
