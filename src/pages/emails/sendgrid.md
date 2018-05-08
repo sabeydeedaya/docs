@@ -6,14 +6,14 @@
 You can retrieve your click tracking domains from your Sendgrid settings:
 
 1. Log in to your SendGrid account.
-1. Go to Settings > Whitelabels > Email Links.
-1. Find your email link whitelabeled domain, click on the gear icon and click "View" (or create a new whitelabel).
+1. Go to Settings > Sender Authentication > [Links](https://app.sendgrid.com/settings/sender_auth/links).
+1. Find your email link whitelabeled domain, click on the three-dot icon, and click "View" (or create a new whitelabel).
 
-    ![image](/img/pages/email/sendgrid/sendgrid-view-domain.png)
+    ![image](/img/pages/email/sendgrid/configure_sendgrid_1.png)
 
 1. Note the "Host" email click tracking domain (e.g. email.mydomain.com) and the SendGrid domain under "Data".
 
-    ![image](/img/pages/email/sendgrid/sendgrid-whitelabel.png)
+    ![image](/img/pages/email/sendgrid/configure_sendgrid_2.png)
 
 1. Enter both the click tracking domain and the SendGrid domain in item 1 of this step:
 
