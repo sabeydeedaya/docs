@@ -4,13 +4,13 @@ Track your Criteo campaigns using Branch's Universal Ads product. Universal Ads 
 
 The basic Criteo integration involves three parts:
 
-1. Tracking in-app events with the Branch SDK
-1. Enabling your integration and selecting postbacks
+1. Integrating the SDKs and tracking in-app events
+1. Enabling the integration and selecting postbacks
 1. Creating tracking links
 
 ## Setup
 
-### Integrating the SDKs
+### Integrating the SDKs and tracking in-app events
 
 The Branch SDKs for iOS and Android allow you to get up and running quickly. Criteo has some custom configurations to be aware of when you get set up.
 
@@ -24,9 +24,9 @@ If you haven't already integrated Branch, follow the below guides.
 	!!! warning "Limitations with setDebug and seeing data in Branch"
 		When integrating the SDKs, it's often useful to use setDebug to verify that your app is able to communicate with Branch servers, and is receiving deep link data. However, our upstream systems don't register test events sent using setDebug, so events will not appear in Liveview or Analytics, nor will they fire postbacks. Disable setDebug when looking at Liveview or testing postbacks.
 
-### Customize initialization
+#### Customize initialization
 
-#### Sending non-Branch deep links
+##### Sending non-Branch deep links
 
 Criteo requests all deep links (including non-Branch links) to be sent to their servers upon app open. Branch doesn't provide this by default, so you'll need to update your SDK initialization to support this.
 
@@ -74,7 +74,7 @@ branch.setRequestMetadata("$criteo_deep_link_url", TODO);
 Branch.initSession(...);
 ```
 
-#### Identifying users with setIdentity
+##### Identifying users with setIdentity
 
 Branch allows you to identify your users and will send those user identities to Criteo. 
 
@@ -87,7 +87,7 @@ The method used to identify users is called `setIdentity`, and the value you set
 	To respect user privacy, please do not use names, emails or other identifiable information as your developer identity.
 
 
-### Track conversion events
+#### Track conversion events
 
 Install and open events are automatically tracked using just the Branch SDK integration. However, to track other events, such as registration events, or purchase events, you'll want to add more tracked events in the SDK. 
 
@@ -97,7 +97,7 @@ Please reference the general Branch V2 Event tracking guide as well as the Crite
 !!! note "Testing your events with Liveview"
 	You can test your integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter with the event name to verify that the Branch SDK is recording each event. 
 
-#### Branch and Criteo Event Mapping
+##### Branch and Criteo Event Mapping
 
 Branch supports the full suite of Criteo events. Please talk to your Criteo Solutions Consultant to ensure you've identified the right events for your app. 
 
@@ -145,13 +145,20 @@ VIEW_CART | View Basket | Commerce Event | None
 PURCHASE | Track Transaction | Commerce Event | None
 ACHIEVE_LEVEL | UI Level | User Lifecycle Event | `ui_level`
 UNLOCK_ACHIEVEMENT | UI Achievement  | User Lifecycle Event |  `ui_achievement`
-UI_STATUS | UI Level  | **Custom Event** |  `ui_status`
+COMPLETE_REGISTRATION | Registration  | User Lifecycle Event | None
+UI_STATUS | UI Status  | **Custom Event** |  `ui_status`
 UI_LOGIN | UI Login  | **Custom Event** |  None
+SUBSCRIPTION | Subscription  | **Custom Event** |  None
+TUTORIAL_FINISHED | Tutorial Finished  | **Custom Event**  | None
+LOW_PRIORITY | Low Priority  | **Custom Event**  | None
+HIGH_PRIORITY | High Priority  | **Custom Event**  | None
+ABANDONED_BASKET | Abandoned Basket  | **Custom Event**  | None
+STATIC_TRANSACTION | Static Transaction  | PURCHASE*  | None
+
+*\* The Static Transaction Postback is available as a custom version of the PURCHASE postback. Please see information below for setup.*
 
 
-
-
-### Enable Criteo in the Branch dashboard
+### 1. Enabling the integration and selecting postbacks
 
 1. If you're successfully registering events, it's 
 
