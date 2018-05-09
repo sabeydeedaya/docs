@@ -88,8 +88,9 @@ func application(_
         continue userActivity: NSUserActivity,
         restorationHandler: @escaping ([Any]?) -> Void
     ) -> Bool {
+        
         // NOTE: you should sanitize the webpage URL to ensure no sensitive data is passed.
-        Branch.getInstance().setRequestMetadataKey("criteo_deep_link_url", value: userActivity.webpageURL?.absoluteString);
+        Branch.getInstance().setRequestMetadataKey("$criteo_deep_link_url", value: userActivity.webpageURL?.absoluteString);
         let branchHandled = Branch.getInstance().continue(userActivity)
         if (userActivity.activityType == NSUserActivityTypeBrowsingWeb) {
             if let url = userActivity.webpageURL,
@@ -108,7 +109,7 @@ func application(_
                      sourceApplication: String?,
                      annotation: Any) -> Bool {
         // NOTE: you should sanitize the URI scheme to ensure no sensitive data is passed.
-        Branch.getInstance().setRequestMetadataKey("criteo_deep_link_url", value: url.absoluteString)
+        Branch.getInstance().setRequestMetadataKey("$criteo_deep_link_url", value: url.absoluteString)
         let branchHandled = Branch.getInstance().application(application,
                                                              open: url,
                                                              sourceApplication: sourceApplication,
@@ -116,7 +117,6 @@ func application(_
         )
         if(!branchHandled) {
             // If not handled by Branch, do other deep link routing for the Facebook SDK, Pinterest SDK, etc
-            Adjust.appWillOpen(url)
         }
         return true
     }
@@ -332,9 +332,9 @@ Criteo can optimize campaigns based on travel search dates. To report travel sea
 
 1. In your app, add [custom metadata](#branch-and-criteo-event-mapping) to your events with keys `din` and `dout`, and a date string in format `'YYYY-MM-DD'` for the date of the inbound and outbound flight respectively.
 1. In the Branch dashboard, navigate to **Postback Config** within the Criteo entry of the Ads Partner Manager.
-1. Find the postback you want to edit, and add the following string in the relevant place. For _VIEW\_ITEM_ for example, it's immediately after the `"event:"vs"` string.
+1. Find the postback you want to edit, and add the following string in the relevant place. For _VIEW\_ITEM_ for example, it's another event in the events array.
 	``` code
-	"din":<@json>${(custom_data.din)!}</@json>, "dout":<@json>${(custom_data.din)!}</@json>	
+	,{"event":"vs","din":<@json>${(custom_data.din)!}</@json>,"dout":<@json>${(custom_data.dout)!}</@json>}
 	```
 
 #### Sending hashed emails
@@ -345,5 +345,5 @@ Criteo accepts hashed emails from your ad campaigns. To send hashed emails, plea
 1. In the Branch dashboard, navigate to **Postback Config** within the Criteo entry of the Ads Partner Manager.
 1. Find the postback you want to edit, and add the following string in the relevant place. This will generally be as another event in the `"events"` array. Please note that _OPEN_ and _INSTALL_ events do not support this parameter.
 	``` code
-	{"event":"setHashedEmail", "email":[<@json>${(custom_data.md5_hashed_email)!}</@json>]}
+	,{"event":"setHashedEmail", "email":[<@json>${(custom_data.md5_hashed_email)!}</@json>]}
 	```
