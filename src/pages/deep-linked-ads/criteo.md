@@ -140,7 +140,7 @@ Branch Event Name | Criteo Name | Branch Event Categorization | Additional Metad
 --- | --- | --- | ---
 OPEN | View Home & appDeeplink | SDK Default | `$criteo_deep_link_url`
 INSTALL | Install | SDK Default | None
-VIEW_PRODUCTS | View Listing | Content Event | None
+VIEW_ITEMS | View Listing | Content Event | None
 VIEW_ITEM | View Product | Content Event | None
 VIEW_CART | View Basket | Commerce Event | None
 PURCHASE | Track Transaction | Commerce Event | None
