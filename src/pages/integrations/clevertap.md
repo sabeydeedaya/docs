@@ -103,3 +103,8 @@ The simplest way to test your integration is working end to end is to open your 
 1. Click that Branch link to open your app.
 1. In your Branch dashboard, verify you see the open event show as a "referred session" with a "session referring link URL" in your Branch dashboard under "Liveview > Events"
 
+#### Screenshots of where data should appear in the CleverTap Dashboard
+
+![image](/img/pages/integrations/clevertap/clevertap-people.png)
+
+![image](/img/pages/integrations/clevertap/clevertap-events.png)
