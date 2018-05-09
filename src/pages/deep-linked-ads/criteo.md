@@ -334,7 +334,11 @@ Criteo can optimize campaigns based on travel search dates. To report travel sea
 1. In the Branch dashboard, navigate to **Postback Config** within the Criteo entry of the Ads Partner Manager.
 1. Find the postback you want to edit, and add the following string in the relevant place. For _VIEW\_ITEM_ for example, it's immediately after the `"event:"vs"` string.
 	``` code
+<<<<<<< HEAD
 	"din":<@json>${(custom_data.din)!}<@/json>, "dout":<@json>${(custom_data.din)!}<@/json>
+=======
+	"din":<@json>${(custom_data.din)!}</@json>, "dout":<@json>${(custom_data.din)!}</@json>	
+>>>>>>> dbda1c9f267eb5f04699d35ec8a9fb789f629b32
 	```
 
 #### Sending hashed emails
