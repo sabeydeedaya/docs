@@ -19,7 +19,7 @@ If you haven't already integrated Branch, follow the below guides.
 1. Start by following the integration guides for Android and iOS:
 	- [Android](/pages/apps/android/){:target="\_blank"}
 	- [iOS](/pages/apps/ios/){:target="\_blank"}
-1. Once this is complete, you can test your basic integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter for **OPEN** to verify that the Branch SDK is recording app opens. 
+1. Once this is complete, you can test your basic integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter for **OPEN** to verify that the Branch SDK is recording app opens.
 
 	!!! warning "Limitations with setDebug and seeing data in Branch"
 		When integrating the SDKs, it's often useful to use setDebug to verify that your app is able to communicate with Branch servers, and is receiving deep link data. However, our upstream systems don't register test events sent using setDebug, so events will not appear in Liveview or Analytics, nor will they fire postbacks. You should disable setDebug when looking at Liveview or testing postbacks.
@@ -32,42 +32,120 @@ Criteo requests all deep links (including non-Branch links) to be sent to their 
 
 **If you use any authentication or login libraries, please ensure you strip out all tokens, passwords and other sensitive information before passing this information to Branch.**
 
-To pass the `$criteo_deep_link_url` to Branch, add this code to your AppDelegate or the relevant Activity/Application:
+To pass the `$criteo_deep_link_url` to Branch, add this code to your AppDelegate or the relevant Activity/Application. You may already have some of this code inside you files, so simply copy the relevant Branch pieces.
 
 **Objective-C**
 
-Inside *didFinishLaunchingWithOptions*
+Inside *AppDelegate.m*, copy and paste the following snippets.
 
 ```objc
-//TODO: Get deep link value
 
-Branch *branch = [Branch getInstance];
-[branch setRequestMetadataKey:@"$criteo_deep_link_url" value:[TODO]];
+- (BOOL)application:(UIApplication *)application
+continueUserActivity:(NSUserActivity *)userActivity
+ restorationHandler:(void (^)(NSArray *))restorationHandler {
+
+    // NOTE: you should sanitize and ensure no sensitive is passed from
+    // userActivity.webpageURL.absolutelString.
+
+    [[Branch getInstance] setRequestMetadataKey:@"$criteo_deep_link_url" value:userActivity.webpageURL.absoluteString];
+    [[Branch getInstance] continueUserActivity:userActivity];
+
+    // Process non-Branch userActivities here...
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+
+    // NOTE: you should sanitize and ensure no sensitive is passed from
+    // url.absolutelString.
+
+    [[Branch getInstance] setRequestMetadataKey:@"$criteo_deep_link_url" value:url.absoluteString];
+    // Required. Returns YES if Branch link, else returns NO
+    [[Branch getInstance]
+        application:application
+            openURL:url
+  sourceApplication:sourceApplication
+         annotation:annotation];
+
+    // Process non-Branch URIs here...
+    return YES;
+}
+
 ```
 
 **Swift**
 
-Inside *didFinishLaunchingWithOptions*
+Inside *AppDelegate.swift*
 
 ```swift
 
-//TODO: Get deep link value
+// repond to universal link URLs
+func application(_
+        application: UIApplication,
+        continue userActivity: NSUserActivity,
+        restorationHandler: @escaping ([Any]?) -> Void
+    ) -> Bool {
+        // NOTE: you should sanitize the webpage URL to ensure no sensitive data is passed.
+        Branch.getInstance().setRequestMetadataKey("criteo_deep_link_url", value: userActivity.webpageURL?.absoluteString);
+        let branchHandled = Branch.getInstance().continue(userActivity)
+        if (userActivity.activityType == NSUserActivityTypeBrowsingWeb) {
+            if let url = userActivity.webpageURL,
+               !branchHandled {
+               // handle other universal links here.
+            }
+        }
 
-if let branch = Branch.getInstance() {
-    branch.setRequestMetadataKey("$criteo_deep_link_url", value:{TODO});
-}
+        // Apply your logic to determine the return value of this method
+        return true
+    }
+
+    // Respond to URL scheme links
+    func application(_ application: UIApplication,
+                     open url: URL,
+                     sourceApplication: String?,
+                     annotation: Any) -> Bool {
+        // NOTE: you should sanitize the URI scheme to ensure no sensitive data is passed.
+        Branch.getInstance().setRequestMetadataKey("criteo_deep_link_url", value: url.absoluteString)
+        let branchHandled = Branch.getInstance().application(application,
+                                                             open: url,
+                                                             sourceApplication: sourceApplication,
+                                                             annotation: annotation
+        )
+        if(!branchHandled) {
+            // If not handled by Branch, do other deep link routing for the Facebook SDK, Pinterest SDK, etc
+            Adjust.appWillOpen(url)
+        }
+        return true
+    }
 ```
 
 **Android**
 
 Before you initialize in your Application#onCreate or Deep Link Activity's #onCreate.
+You will want to persist the value from #onCreate, or #onNewIntent. mIntentData is a String field defined in the activity.
+
+```java
+@Override
+protected void onCreate() {
+    // NOTE: be sure to remove sensitive / PII data from the intent data coming in.
+    mIntentData = this.getIntent().getData().toString();
+    // other operations below
+}
+
+@Override
+public void onNewIntent(Intent intent) {
+    // NOTE: be sure to remove sensitive / PII data from the intent data coming in.
+    mIntentData = this.getIntent().getData().toString();
+    // other operations below
+}
+```
 
 ```java
 
-// TODO: Get deep link value
-
-Branch branch = Branch.getInstance();
-branch.setRequestMetadata("$criteo_deep_link_url", TODO);
+Branch.getInstance().setRequestMetadata("$criteo_deep_link_url", mIntentData);
 
 ...
 
@@ -76,7 +154,7 @@ Branch.initSession(...);
 
 ##### Identifying users with setIdentity
 
-Branch allows you to identify your users and will send those user identities to Criteo. 
+Branch allows you to identify your users and will send those user identities to Criteo.
 
 The method used to identify users is called `setIdentity`, and the value you set is called the `developer_identity`. Set this upon a user login event in your app, and Branch will use it for all subsequent events attributed to that user.
 
@@ -92,18 +170,18 @@ The method used to identify users is called `setIdentity`, and the value you set
 Install and open events are automatically tracked using just the Branch SDK integration. However, to track other events, such as registration or purchase events, you'll want to add more tracked events in your app.
 
 Please reference the general Branch V2 Event tracking guide as well as the Criteo specific information below. This will help ensure that you've integrated the right Branch events with the correct metadata, and the postbacks to Criteo will be preconfigured for you.
-	
+
 - [V2 Event Tracking Guide](/pages/apps/v2event/#overview)
 
 !!! note "Testing your events with Liveview"
-	You can test your integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter with the event name to verify that the Branch SDK is recording each event. 
+	You can test your integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter with the event name to verify that the Branch SDK is recording each event.
 
 ##### Branch and Criteo Event Mapping
 
-Branch supports the full suite of Criteo events. Please talk to your Criteo Solutions Engineer to ensure you've identified the right events for your app. 
+Branch supports the full suite of Criteo events. Please talk to your Criteo Solutions Engineer to ensure you've identified the right events for your app.
 
 !!! example "Important implementation details"
-	- For events with Branch Event Categorization of "Custom Event," you must name the event as laid out in the below table. 
+	- For events with Branch Event Categorization of "Custom Event," you must name the event as laid out in the below table.
 	- For events with Additional Metadata Keys, you must set the Custom Data on the event with a specific key so the postback is configured correctly for you.
 
 	For example, for "UI_STATUS" the code snippet looks like this:
@@ -117,7 +195,7 @@ Branch supports the full suite of Criteo events. Please talk to your Criteo Solu
 		]
 		event.logEvent() // Log the event.
 	    ```
-	      
+
 	- *Objective-C*
 
 	    ```obj-c
@@ -192,7 +270,7 @@ Once you've enabled Criteo, it's time to create a tracking link. The flow below 
 
     ![image](/img/pages/deep-linked-ads/criteo/criteo-create-link.png)
 
-1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format. 
+1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format.
 
 	To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/pages/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
 
@@ -202,9 +280,9 @@ Once you've enabled Criteo, it's time to create a tracking link. The flow below 
 
     ![image](/img/pages/deep-linked-ads/criteo/criteo-engagement-link.png)
 
-1. This is your chance to add deep link data and analytics tags. 
+1. This is your chance to add deep link data and analytics tags.
 
-	- Deep Link Data is used to provide the app with product information, so the app can take customers to the right content in the app. 
+	- Deep Link Data is used to provide the app with product information, so the app can take customers to the right content in the app.
 	- Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
 
     ![image](/img/pages/deep-linked-ads/criteo/criteo-analytics-tags.png)
@@ -252,11 +330,11 @@ If you need to change the default attribution windows, you can [edit attribution
 
 Criteo can optimize campaigns based on travel search dates. To report travel search dates to Criteo, follow these steps:
 
-1. In your app, add [custom metadata](#branch-and-criteo-event-mapping) to your events with keys `din` and `dout`, and a date string in format `'YYYY-MM-DD'` for the date of the inbound and outbound flight respectively. 
+1. In your app, add [custom metadata](#branch-and-criteo-event-mapping) to your events with keys `din` and `dout`, and a date string in format `'YYYY-MM-DD'` for the date of the inbound and outbound flight respectively.
 1. In the Branch dashboard, navigate to **Postback Config** within the Criteo entry of the Ads Partner Manager.
 1. Find the postback you want to edit, and add the following string in the relevant place. For _VIEW\_ITEM_ for example, it's immediately after the `"event:"vs"` string.
 	``` code
-	"din":<@json>${(custom_data.din)!}<@/json>, "dout":<@json>${(custom_data.din)!}<@/json>	
+	"din":<@json>${(custom_data.din)!}<@/json>, "dout":<@json>${(custom_data.din)!}<@/json>
 	```
 
 #### Sending hashed emails
@@ -267,5 +345,5 @@ Criteo accepts hashed emails from your ad campaigns. To send hashed emails, plea
 1. In the Branch dashboard, navigate to **Postback Config** within the Criteo entry of the Ads Partner Manager.
 1. Find the postback you want to edit, and add the following string in the relevant place. This will generally be as another event in the `"events"` array. Please note that _OPEN_ and _INSTALL_ events do not support this parameter.
 	``` code
-	{"event":"setHashedEmail", "email":[<@json>${(custom_data.md5_hashed_email)!}</@json>]}	
+	{"event":"setHashedEmail", "email":[<@json>${(custom_data.md5_hashed_email)!}</@json>]}
 	```
