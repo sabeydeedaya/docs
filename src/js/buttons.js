@@ -17,7 +17,7 @@ var buttons = (function() {
 
   // private
   function _getSupportUrl() {
-    return 'mailto:integrations@branch.io?subject=I need some assistance&body=Hello Branch,%0A%0AI am viewing (' + window.location.href + ').%0A%0AMy Branch Key (https%3A%2F%2Fdashboard.branch.io%2Faccount-settings%2Fapp) is:%0A%0A I need assistance with ';
+    return 'mailto:integrations@branch.io?subject=I need some assistance&body=Hello Branch,%0A%0AI am viewing (' + window.location.href + ').%0A%0AMy Branch App ID (https%3A%2F%2Fdashboard.branch.io%2Faccount-settings%2Fapp) is:%0A%0A I need assistance with ';
   }
   function _getImproveUrl() {
     var trim = window.location.pathname.replace(/^\/|\/$/g, '').split('/');
