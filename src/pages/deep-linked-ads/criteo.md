@@ -148,10 +148,10 @@ PURCHASE* | Static Track Transaction  | Commerce Event  | None
 ACHIEVE_LEVEL | UI Level | User Lifecycle Event | `ui_level`
 UNLOCK_ACHIEVEMENT | UI Achievement  | User Lifecycle Event |  `ui_achievement`
 COMPLETE_REGISTRATION | Registration  | User Lifecycle Event | None
+COMPLETE_TUTORIAL | Tutorial Finished  | User Lifecycle Event  | None
 UI_STATUS | UI Status  | **Custom Event** |  `ui_status`
 UI_LOGIN | UI Login  | **Custom Event** |  None
 SUBSCRIPTION | Subscription  | **Custom Event** |  None
-TUTORIAL_FINISHED | Tutorial Finished  | **Custom Event**  | None
 LOW_PRIORITY | Low Priority  | **Custom Event**  | None
 HIGH_PRIORITY | High Priority  | **Custom Event**  | None
 ABANDONED_BASKET | Abandoned Basket  | **Custom Event**  | None
