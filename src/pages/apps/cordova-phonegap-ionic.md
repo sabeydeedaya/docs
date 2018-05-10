@@ -609,6 +609,16 @@
         })
         ```
 
+- ### Append metadata to Branch network cal
+
+    - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
+
+    - Add before `Branch.initSession();` ([Initialize Branch Features](#initialize-branch-features))
+ 
+        ```js
+        Branch.setRequestMetadata("insert_user_id", "value")
+        ```
+
 ## Troubleshoot issues
 
 - ### Recommendations
@@ -641,16 +651,6 @@
 
         ```xml
         <widget ios-CFBundleIdentifier="com.eneff.branch.cordovatestbedios" android-packageName="com.eneff.branch.cordovatestbedandroid" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-        ```
-
-- ### Sync with Mixpanel
-
-    - Sync Branch withh Mixpanel if the plugin is installed 
-    
-    - Add before `Branch.initSession();` ([Initialize Branch Features](#initialize-branch-features))
- 
-        ```js
-        Branch.setRequestMetadata("$mixpanel_distinct_id", "123")
         ```
 
 - ### Simulate an install
