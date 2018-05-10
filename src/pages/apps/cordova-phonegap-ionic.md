@@ -609,7 +609,7 @@
         })
         ```
 
-- ### Append metadata to Branch network cal
+- ### Append metadata to Branch network call
 
     - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
 
