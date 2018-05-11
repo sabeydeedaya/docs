@@ -93,6 +93,7 @@ Logo | Partner
 <a href="http://sonarclick.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LOGO-2-1522803269821.png)</a>| **Sonarclick**
 <a href="http://spykemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/1-e1466007909243-1495751845237.png)</a>| **Spyke Media**
 <a href="http://stackadapt.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/8331ef7d-bfc8-4148-a118-50da0fc43f8f-1490739325404-1506381795896.png)</a>| **StackAdapt**
+<a href="https://www.startapp.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1525108461961.png)</a>| **StartApp**
 <a href="http://tab.company">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1502234001399.png)</a>| **TAB**
 <a href="http://taboola.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/taboola_logo-new-large-1500341960275.png)</a>| **Taboola**
 <a href="http://tapjoy.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Tapjoy-acquires-5Rocks-1493129616390.png)</a>| **Tapjoy**
@@ -100,6 +101,7 @@ Logo | Partner
 <a href="http://taptica.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Taptica_Logo-1513204728443.png)</a>| **Taptica**
 <a href="http://thetradedesk.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/thetradedeskdmp-1502822492413.png)</a>| **The Trade Desk**
 <a href="http://ads.colombiaonline.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1516922139308.png)</a>| **Times Internet Limited**
+<a href="http://www.tyroo.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-1526007265661.png)</a>| **Tyroo**
 <a href="http://unilead.net">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/2-02-1498862779375.png)</a>| **Unilead Network**
 <a href="http://unity3d.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unity-1493071825773.png)</a>| **Unity**
 <a href="http://ventesavenues.in/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1495753718180.png)</a>| **Ventes Avenues**
