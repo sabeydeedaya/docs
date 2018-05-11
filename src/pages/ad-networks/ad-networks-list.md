@@ -33,6 +33,7 @@ Logo | Partner
 <a href="http://clickky.me">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/LogoClickky-1508351211926.png)</a>| **Clickky**
 <a href="http://connectedinteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/top-logo1-1500342833490.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/small_logo-1512691620790.png)</a>| **Conversant Media**
+<a href="http://criteo.com">![image](https://branch.dashboard.branch.io/3f222dab-e4f7-4b56-af4f-d55cfb53ea11)</a>| **Criteo**
 <a href="http://crobo.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/crobo-1500662980708.png)</a>| **crobo**
 <a href="http://crossinstall.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/cross_install_logo-1493241188265.png)</a>| **CrossInstall**
 <a href="http://dataxu.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/dataxu_logo_new-1510621012108.png)</a>| **DataXu**
