@@ -287,6 +287,26 @@ Your final link looks like this, and additional query parameters can be added.
 
 `https://example.app.link?product_id=123&category=shoes&$fallback_url=https%3A%2F%2Fbranch.io%2Funiversal-ads%2F&%243p=a_criteo&~feature=paid%20advertising`
 
+##### Creating URI scheme deep links for your catalog
+
+Some types of Criteo campaign require URI scheme style deep linking instead of HTTP deep links. Fortunately, you can also create Branch compatible, URI scheme tracking links.
+
+1. Start with your URI scheme `example://`
+1. Append `open?link_click_id=a-`. For example: `example://open?link_click_id=a-`
+1. Create a JSON blob of your link data, including `"~feature":"paid advertising", "$3p":"a_criteo"`
+    For example: 
+    ```code
+    {"~feature":"paid advertising", "$3p":"a_criteo", "~campaign":"My Summer Campaign", "product_id":1234, "category":"shoes"}
+    ```
+1. Base64 encode your JSON blob. 
+    ```code 
+    eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
+    ```
+1. Append that to your base link, and you're done!
+    ```code 
+    example://link_click_id=a-eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
+    ```
+
 #### Option 2: Static campaign deep links
 
 Just need a single link? It's easy to use the Branch dashboard to create a one-off link. The flow below provides examples of how to create links, but you'll want to consult with your Criteo Solutions Engineer to specify what you require.
