@@ -262,9 +262,54 @@ To send all events to Criteo, switch the "Send Postbacks For" toggle under the *
 
 ![image](/img/pages/deep-linked-ads/criteo/all-events-toggle.png)
 
-### Creating tracking links
+### Link creation for deep linking and measurement
 
-Once you've enabled Criteo, it's time to create a tracking link. The flow below provides examples of how to create links, but you'll want to consult with your Criteo Solutions Engineer to specify what you require.
+#### Option 1: Catalog deep links
+
+*Recommended*
+
+Branch links function as Universal Links or App Links, as well as deferred deep links, meaning better conversions on all Criteo campaigns. 
+
+The same Branch link will do measurement as well as deep linking, so there's no need for additional "tracking-only" links. In fact, if you're using Branch links as your campaign links, you shouldn't use additional server to server tracking as well.
+
+Criteo accepts a catalog with product details and links. We recommend replacing your web links with Branch links.
+
+##### Creating http deep links for your catalog
+
+The easiest way to create deep links for your product feed is to create a ["long link"](/pages/links/integrate/#long-links) for each product.
+
+1. Take your base domain, e.g. `https://example.app.link`
+1. Add your deep link data as query parameters. Be sure to URI encode each query parameter! e.g. `https://example.app.link?product_id=123&category=shoes`
+1. Add any [fallback urls](/pages/links/integrate/#fallback-to-a-specific-url) for if the app isn't installed e.g. `https://example.app.link?product_id=123&category=shoes&$fallback_url=https%3A%2F%2Fbranch.io%2Funiversal-ads%2F`
+1. Finally, add this string, which contains the [analytics parameters](/pages/links/integrate/#analytical-labels) needed to categorize your data accurately. If you want to add more, go for it! `%243p=a_criteo&~feature=paid%20advertising`.
+
+Your final link looks like this, and additional query parameters can be added.
+
+`https://example.app.link?product_id=123&category=shoes&$fallback_url=https%3A%2F%2Fbranch.io%2Funiversal-ads%2F&%243p=a_criteo&~feature=paid%20advertising`
+
+##### Creating URI scheme deep links for your catalog
+
+Some types of Criteo campaign require URI scheme style deep linking instead of HTTP deep links. Fortunately, you can also create Branch compatible, URI scheme tracking links.
+
+1. Start with your URI scheme `example://`
+1. Append `open?link_click_id=a-`. For example: `example://open?link_click_id=a-`
+1. Create a JSON blob of your link data, including `"~feature":"paid advertising", "$3p":"a_criteo"`
+    For example: 
+    ```code
+    {"~feature":"paid advertising", "$3p":"a_criteo", "~campaign":"My Summer Campaign", "product_id":1234, "category":"shoes"}
+    ```
+1. Base64 encode your JSON blob. 
+    ```code 
+    eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
+    ```
+1. Append that to your base link, and you're done!
+    ```code 
+    example://link_click_id=a-eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
+    ```
+
+#### Option 2: Static campaign deep links
+
+Just need a single link? It's easy to use the Branch dashboard to create a one-off link. The flow below provides examples of how to create links, but you'll want to consult with your Criteo Solutions Engineer to specify what you require.
 
 1. First, click **Create Ad Link** in the top right hand side of the Criteo Partner Manager UI.
 
@@ -272,7 +317,7 @@ Once you've enabled Criteo, it's time to create a tracking link. The flow below 
 
 1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format.
 
-	To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/pages/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
+    To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/pages/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
 
     ![image](/img/pages/deep-linked-ads/criteo/criteo-link-chooser.png)
 
@@ -282,8 +327,8 @@ Once you've enabled Criteo, it's time to create a tracking link. The flow below 
 
 1. This is your chance to add deep link data and analytics tags.
 
-	- Deep Link Data is used to provide the app with product information, so the app can take customers to the right content in the app.
-	- Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
+    - Deep Link Data is used to provide the app with product information, so the app can take customers to the right content in the app.
+    - Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
 
     ![image](/img/pages/deep-linked-ads/criteo/criteo-analytics-tags.png)
 
@@ -295,7 +340,14 @@ Once you've enabled Criteo, it's time to create a tracking link. The flow below 
 
     ![image](/img/pages/deep-linked-ads/branch-universal-ads/finished-ad-link.png)
 
-#### View your data with People-Based Attribution
+#### Option 3: Server to server tracking links
+
+If you just need a server to server tracking link, you can use the same flow as Option 2, above. 
+
+However, at the end, add `%24s2s=true` to your link, so we know it's a server to server to link.
+
+
+### View your data with People-Based Attribution
 
 The [Ads Analytics Page](https://dashboard.branch.io/ads/analytics) on the Branch dashboard shows the performance of your ad campaigns _across both web and app_. You can view performance over time, including purchase and other custom events.
 
