@@ -1,3 +1,5 @@
+#### Track conversion events
+
 Install and open events are automatically tracked using just the Branch SDK integration. However, to track custom events, such as registration or purchase, you will need to integrate them into your application.
 
 Please reference the general [V2 Event Tracking Guide](/pages/apps/v2event/#overview). This will help ensure that you've integrated the right Branch events with the correct metadata.
