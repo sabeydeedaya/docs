@@ -209,6 +209,7 @@ pages:
       - Webhooks: pages/exports/ua-webhooks.md
       - Query API: pages/exports/query-api.md
       - Query Recipe Book: pages/exports/query-recipe-book.md
+    - Liveview: pages/exports/pba-liveview.md
   - Branch Matching Overview: pages/resources/matching.md
   - Validation Tools: pages/resources/validation-tools.md
   - Case Studies and Infographics: pages/resources/case-studies.md
