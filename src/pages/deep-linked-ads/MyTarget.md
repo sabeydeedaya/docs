@@ -56,7 +56,7 @@ MyTarget requires separate links for every platform - to create a tracking follo
 #### iOS 
 Key | Value 
 --- | --- 
-$redirect_store_id | Android App ID (example io.branch.branchster)
+$redirect_store_id | iTunes ID (example id917737838)
 $http_redirect_only | true 
 
 ![image](/img/pages/deep-linked-ads/mytarget/ios-link-data.png)
@@ -64,7 +64,7 @@ $http_redirect_only | true
 #### Android
 Key | Value 
 --- | --- 
-$redirect_store_id | iTunes ID (example id917737838)
+$redirect_store_id | Android App ID (example io.branch.branchster)
 $http_redirect_only | true 
 
 ![image](/img/pages/deep-linked-ads/mytarget/android-link-data.png)
