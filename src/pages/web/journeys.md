@@ -25,7 +25,7 @@ On a daily basis, Google Search drives **more app installs** than all of Faceboo
 
 ### Add the Branch Web SDK to your site
 
-Add the following code somewhere inside the `<head></head>` tags on your website. More information about this SDK can be found in the [Github README](https://github.com/BranchMetrics/web-branch-deep-linking).
+Add the following code somewhere inside the `<head></head>` tags on your website. We recommend loading the SDK as early as possible for optimal Journeys performance. More information about this SDK can be found in the [Github README](https://github.com/BranchMetrics/web-branch-deep-linking).
 
 ```html
 <script type="text/javascript">
