@@ -340,8 +340,16 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/content)
 
+    - Option 1: use Branch SDK
+
         ```java
-        buo.userCompletedAction(BranchEvent.VIEW);
+        // Option 1 - track with Branch SDK directly:
+        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
+                .addContentItems(buo)
+                .logEvent(context);
+
+        // Option 2 - track with mParticle SDK:
+        MParticle.getInstance().logScreen("screen_name", eventInfo);
         ```
 
 - ### Track users
@@ -370,12 +378,12 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     ```java
     // Option 1:
-    MParticle.logEvent("your_custom_event", MParticle.EventType.YourEventType);
+    MParticle.getInstance().logEvent(new MPEvent.Builder("your_custom_event", mpEventType));
 
     // Option 2: with metadata
     Map<String, String> metaData = new HashMap<>();
     metaData.put("key", "value");
-    MParticle.logEvent("your_custom_event", MParticle.EventType.YourEventType, metaData);
+    MParticle.getInstance().logEvent(new MPEvent.Builder("your_custom_event", mpEventType).info(metaData));
     ```
 
 - ### Track commerce

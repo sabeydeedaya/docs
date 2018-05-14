@@ -621,13 +621,17 @@
     - *Java*
 
         ```java
-        buo.userCompletedAction(BranchEvent.VIEW);
+        new BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
+                .addContentItems(buo)
+                .logEvent(context);
         ```
 
     - *Kotlin*
 
         ```java
-        buo.userCompletedAction(BranchEvent.VIEW)
+        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
+                .addContentItems(buo)
+                .logEvent(context)
         ```
 
 - ### Track users
@@ -674,27 +678,26 @@
 
         ```java
         // option 1:
-        Branch.getInstance().userCompletedAction("your_custom_event");
+        new BranchEvent("your_custom_event")
+                       .logEvent(MainActivity.this);
 
         // option 2: with metadata
-        JSONObject metadata = new JSONObject();
-        try {
-            metadata.put("key", "value");
-        } catch ( JSONException e ) {
-        }
-        Branch.getInstance().userCompletedAction("your_custom_event", metadata);
+        new BranchEvent("your_custom_event")
+                        .addCustomDataProperty("your_custom_key", "your_custom_value")
+                        .logEvent(MainActivity.this);
         ```
 
     - *Kotlin*
 
         ```java
         // option 1:
-        Branch.getInstance().userCompletedAction("your_custom_event")
+        BranchEvent("your_custom_event")
+                .logEvent(context)
 
         // option 2: with metadata
-        val metadata = JSONObject()
-        metadata.put("key", "value")
-        Branch.getInstance().userCompletedAction("your_custom_event", metadata)
+        BranchEvent("your_custom_event")
+                .addCustomDataProperty("your_custom_key", "your_custom_value")
+                .logEvent(context)
         ```
 
 - ### Track commerce

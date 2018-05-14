@@ -314,7 +314,7 @@
         - Do
             - Set the `canonicalIdentifier` to a unique, de-duped value across instances of the app
             - Ensure that the `title`, `contentDescription` and `imageUrl` properly represent the object
-            - Initialize the Branch Universal Object and call userCompletedAction with the `BranchEvent.VIEW` (`[buo registerView]` for objective-C and `buo.registerView()` for swift) on page load
+            - Initialize the Branch Universal Object and call logEvent with the `VIEW_ITEM` event on page load
             - Call showShareSheet and createShortLink later in the life cycle, when the user takes an action that needs a link
             - Call the additional object events (purchase, share completed, etc) when the corresponding user action is taken
         - Do not
