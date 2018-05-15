@@ -342,9 +342,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
         ```java
         // Option 1 - track with Branch SDK:
-        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
-                .addContentItems(buo)
-                .logEvent(context);
+        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM).addContentItems(buo).logEvent(context);
 
         // Option 2 - track with mParticle SDK:
         MParticle.getInstance().logScreen("screen_name", eventInfo);

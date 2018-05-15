@@ -621,17 +621,13 @@
     - *Java*
 
         ```java
-        new BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
-                .addContentItems(buo)
-                .logEvent(context);
+        new BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM).addContentItems(buo).logEvent(context);
         ```
 
     - *Kotlin*
 
         ```java
-        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
-                .addContentItems(buo)
-                .logEvent(context)
+        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM).addContentItems(buo).logEvent(context)
         ```
 
 - ### Track users
@@ -678,8 +674,7 @@
 
         ```java
         // option 1:
-        new BranchEvent("your_custom_event")
-                       .logEvent(MainActivity.this);
+        new BranchEvent("your_custom_event").logEvent(MainActivity.this);
 
         // option 2: with metadata
         new BranchEvent("your_custom_event")
@@ -691,8 +686,7 @@
 
         ```java
         // option 1:
-        BranchEvent("your_custom_event")
-                .logEvent(context)
+        BranchEvent("your_custom_event").logEvent(context)
 
         // option 2: with metadata
         BranchEvent("your_custom_event")
