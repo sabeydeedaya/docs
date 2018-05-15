@@ -526,13 +526,13 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - *Swift 3*
 
         ```swift
-        buo.userCompletedAction(BNCRegisterViewEvent)
+        BranchEvent.standardEvent(.viewItem, withContentItem: buo).logEvent()
         ```
 
     - *Objective-C*
 
         ```objc
-        [buo userCompletedAction:BNCRegisterViewEvent];
+        [[BranchEvent standardEvent:BranchStandardEventViewItem withContentItem:buo] logEvent];
         ```
 
 - ### Track users

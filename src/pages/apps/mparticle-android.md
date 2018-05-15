@@ -340,10 +340,8 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/content)
 
-    - Option 1: use Branch SDK
-
         ```java
-        // Option 1 - track with Branch SDK directly:
+        // Option 1 - track with Branch SDK:
         BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM)
                 .addContentItems(buo)
                 .logEvent(context);

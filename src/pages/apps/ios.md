@@ -227,10 +227,6 @@
         buo.contentMetadata.imageCaptions = ["awesome", "things"]
         buo.contentMetadata.customMetadata = ["custom": "123"]
         buo.contentMetadata.customMetadata = ["anything": "everything"]
-
-        // user actions with the object
-        buo.userCompletedAction(BranchStandardEvent.addToCart.rawValue)
-        buo.userCompletedAction("Viewed")
         ```
 
     - *Objective-C*
@@ -487,13 +483,13 @@
     - *Swift 3*
 
         ```swift
-        buo.registerView()
+        BranchEvent.standardEvent(.viewItem, withContentItem: buo).logEvent()
         ```
 
     - *Objective-C*
 
         ```objc
-        [buo userCompletedAction:BNCRegisterViewEvent];
+        [[BranchEvent standardEvent:BranchStandardEventViewItem withContentItem:buo] logEvent];
         ```
 
 - ### Track users
@@ -537,27 +533,24 @@
 
         ```swift
         // option 1
-        let action = "signup"
-        Branch.getInstance().userCompletedAction(action)
+        BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo).logEvent()
 
         // option 2
-        let metadata: [String: Any] = [
-          "custom_dictionary": 123,
-          "anything": "everything"
-        ]
-        Branch.getInstance().userCompletedAction(action, withState: metadata)
+        let event = BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo)
+        event.customData["key"] = "value"
+        event.logEvent()
         ```
 
     - *Objective-C*
 
         ```objc
         // option 1
-        NSString *action = @"signup";
-        [[Branch getInstance] userCompletedAction:action];
+        [[BranchEvent customEventWithName:@"your_custom_event" contentItem:buo] logEvent];
 
         // option 2
-        NSDictionary *metadata = @{@"custom_dictionary":@123, @"anything": @"everything"};
-        [[Branch getInstance] userCompletedAction:action withState:metadata];
+        BranchEvent *event = [BranchEvent customEventWithName:@"your_custom_event" contentItem:buo];
+        event.customData[@"key"] = @"value";
+        [event logEvent];
         ```
 
 - ### Track commerce
