@@ -341,7 +341,11 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/content)
 
         ```java
-        buo.userCompletedAction(BranchEvent.VIEW);
+        // Option 1 - track with Branch SDK:
+        BranchEvent(BRANCH_STANDARD_EVENT.VIEW_ITEM).addContentItems(buo).logEvent(context);
+
+        // Option 2 - track with mParticle SDK:
+        MParticle.getInstance().logScreen("screen_name", eventInfo);
         ```
 
 - ### Track users
@@ -370,12 +374,12 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     ```java
     // Option 1:
-    MParticle.logEvent("your_custom_event", MParticle.EventType.YourEventType);
+    MParticle.getInstance().logEvent(new MPEvent.Builder("your_custom_event", mpEventType));
 
     // Option 2: with metadata
     Map<String, String> metaData = new HashMap<>();
     metaData.put("key", "value");
-    MParticle.logEvent("your_custom_event", MParticle.EventType.YourEventType, metaData);
+    MParticle.getInstance().logEvent(new MPEvent.Builder("your_custom_event", mpEventType).info(metaData));
     ```
 
 - ### Track commerce
@@ -391,55 +395,43 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - Ensure to add `revenue` field to track purchase. All other fields are optional
 
         ```java
-        // Add details about each product associated with the purchase (optional)
-        Product product1 = new Product();
-        product1.setSku("u123");
-        product1.setName("cactus");
-        product1.setPrice(45.00);
-        product1.setQuantity(2);
-        product1.setBrand("brand1");
-        product1.setCategory(ProductCategory.ELECTRONICS);
-        product1.setVariant("variant1");
+        BranchUniversalObject buo = new BranchUniversalObject()
+            .setCanonicalIdentifier("myprod/1234")
+            .setCanonicalUrl("https://test_canonical_url")
+            .setTitle("test_title")
+            .setContentMetadata(
+                new ContentMetadata()
+                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
+                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
+                .addImageCaptions("image_caption_1", "image_caption2", "image_caption3")
+                .setAddress("Street_Name", "test city", "test_state", "test_country", "test_postal_code")
+                .setRating(5.2, 6.0, 5)
+                .setLocation(-151.67, -124.0)
+                .setPrice(10.0, CurrencyType.USD)
+                .setProductBrand("test_prod_brand")
+                .setProductCategory(ProductCategory.APPAREL_AND_ACCESSORIES)
+                .setProductName("test_prod_name")
+                .setProductCondition(ContentMetadata.CONDITION.EXCELLENT)
+                .setProductVariant("test_prod_variant")
+                .setQuantity(1.5)
+                .setSku("test_sku")
+                .setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
+                .addKeyWord("keyword1")
+                .addKeyWord("keyword2");
 
-        Product product2 = new Product();
-        product2.setSku("u456");
-        product2.setName("grass");
-        product2.setPrice(9.00);
-        product2.setQuantity(1);
-        product2.setBrand("brand2");
-        product2.setCategory(ProductCategory.CAMERA_AND_OPTICS);
-        product2.setVariant("variant2");
-
-
-        // Create a list of products associated with the particular purchase (optional)
-        List<Product> productList = new ArrayList<Product>();
-        productList.add(product1);
-        productList.add(product2);
-
-        // Create the commerce event (only revenue is required)
-        CommerceEvent commerceEvent = new CommerceEvent();
-        commerceEvent.setRevenue(50.29);
-        commerceEvent.setCurrencyType(CurrencyType.USD);
-        commerceEvent.setTransactionID("TRANS-1111");
-        commerceEvent.setShipping(4.50);
-        commerceEvent.setTax(110.90);
-        commerceEvent.setAffiliation("AFF-ID-101");
-        commerceEvent.setProducts(productList);
-
-
-        // Add metadata (optional)
-        JSONObject metadata = new JSONObject();
-
-        try {
-            metadata.put("custom_dictionary", 123);
-            metadata.put("testVar", "abc");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
-        // Fire the commerce event by calling Branch directly.
-        Branch.getInstance().sendCommerceEvent(commerceEvent, metadata, null);
+        new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
+                .setAffiliation("test_affiliation")
+                .setCoupon("Coupon Code")
+                .setCurrency(CurrencyType.USD)
+                .setDescription("Customer added item to cart")
+                .setShipping(0.0)
+                .setTax(9.75)
+                .setRevenue(1.5)
+                .setSearchQuery("Test Search query")
+                .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
+                .addCustomDataProperty("Custom_Event_Property_Key2", "Custom_Event_Property_val2")
+                .addContentItems(buo)
+                .logEvent(context);
         ```
 
 - ### Handle referrals

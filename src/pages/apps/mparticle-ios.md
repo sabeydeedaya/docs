@@ -526,13 +526,13 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - *Swift 3*
 
         ```swift
-        buo.userCompletedAction(BNCRegisterViewEvent)
+        BranchEvent.standardEvent(.viewItem, withContentItem: buo).logEvent()
         ```
 
     - *Objective-C*
 
         ```objc
-        [buo userCompletedAction:BNCRegisterViewEvent];
+        [[BranchEvent standardEvent:BranchStandardEventViewItem withContentItem:buo] logEvent];
         ```
 
 - ### Track users
@@ -608,92 +608,69 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - *Swift 3*
 
         ```swift
-        // only revenue is required
-        let commerceEvent = BNCCommerceEvent.init()
-        commerceEvent.affiliation = "affiliation"
-        commerceEvent.coupon = "coupon"
-        commerceEvent.currency = "USD"
-        commerceEvent.transactionID = "transactionID"
-        commerceEvent.shipping = 11.22
-        commerceEvent.revenue = 99.99
-        commerceEvent.tax = 4.42
+        // Create a BranchUniversalObject with your content data:
+        let branchUniversalObject = BranchUniversalObject.init()
 
-        // optional
-        let product1 = BNCProduct.init()
-        product1.sku = "sku1"
-        product1.name = "name1"
-        product1.price = 11.11
-        product1.quantity = 1
-        product1.brand = "brand1"
-        product1.category = "category1"
-        product1.variant = "variant1"
+        // ...add data to the branchUniversalObject as needed...
+        branchUniversalObject.canonicalIdentifier = "item/12345"
+        branchUniversalObject.canonicalUrl        = "https://branch.io/item/12345"
+        branchUniversalObject.title               = "My Item Title"
 
-        // optional
-        let product2 = BNCProduct.init()
-        product2.sku = "sku2"
-        product2.name = "name2"
-        product2.price = 22.22
-        product2.quantity = 2
-        product2.brand = "brand2"
-        product2.category = "category2"
-        product2.variant = "variant2"
+        // Create a BranchEvent:
+        let event = BranchEvent.standardEvent(.purchase)
 
-        commerceEvent.products = [product1, product2]
+        // Add the BranchUniversalObjects with the content:
+        event.contentItems     = [ branchUniversalObject ]
 
-        // optional
-        let metadata: [String: Any] = [
-          "custom_dictionary": 123,
-          "anything": "everything"
+        // Add relevant event data:
+        event.transactionID    = "12344555"
+        event.currency         = .USD;
+        event.revenue          = 1.5
+        event.shipping         = 10.2
+        event.tax              = 12.3
+        event.coupon           = "test_coupon";
+        event.affiliation      = "test_affiliation";
+        event.eventDescription = "Event_description";
+        event.searchQuery      = "item 123"
+        event.customData       = [
+            "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+            "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
         ]
-
-        Branch.getInstance().send(commerceEvent, metadata: metadata, withCompletion: { (response, error) in
-          print(response ?? {})
-        })
+        event.logEvent() // Log the event.
         ```
 
     - *Objective C*
 
         ```objc
-         // only revenue is required
-        BNCCommerceEvent *commerceEvent = [BNCCommerceEvent new];
-        commerceEvent.affiliation = @"affiliation";
-        commerceEvent.coupon = @"coupon";
-        commerceEvent.currency = @"USD";
-        commerceEvent.transactionID = @"transactionID";
-        commerceEvent.shipping = [[NSDecimalNumber alloc] initWithFloat:11.22];
-        commerceEvent.revenue = [[NSDecimalNumber alloc] initWithFloat:99.99];
-        commerceEvent.tax = [[NSDecimalNumber alloc] initWithFloat:4.2];;
+        // Create a BranchUniversalObject with your content data:
+        BranchUniversalObject *branchUniversalObject = [BranchUniversalObject new];
 
-        // optional
-        BNCProduct *product1 = [BNCProduct new];
-        product1.sku = @"sku1";
-        product1.name = @"name1";
-        product1.price = [[NSDecimalNumber alloc] initWithFloat:11.11];
-        product1.quantity = [[NSDecimalNumber alloc] initWithFloat:1.0];
-        product1.brand = @"brand1";
-        product1.category = @"category1";
-        product1.variant = @"variant1";
+        // ...add data to the branchUniversalObject as needed...
+        branchUniversalObject.canonicalIdentifier = @"item/12345";
+        branchUniversalObject.canonicalUrl        = @"https://branch.io/item/12345";
+        branchUniversalObject.title               = @"My Item Title";
 
-        // optional
-        BNCProduct *product2 = [BNCProduct new];
-        product2.sku = @"sku2";
-        product2.name = @"name2";
-        product2.price = [[NSDecimalNumber alloc] initWithFloat:22.22];
-        product2.quantity = [[NSDecimalNumber alloc] initWithFloat:2.0];
-        product2.brand = @"brand2";
-        product2.category = @"category2";
-        product2.variant = @"variant2";
+        // Create an event and add the BranchUniversalObject to it.
+        BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
 
-        commerceEvent.products = @[product1, product2];
+        // Add the BranchUniversalObjects with the content:
+        event.contentItems     = (id) @[ branchUniversalObject ];
 
-        // optional
-        NSDictionary *metadata = @{@"custom_dictionary":@123,
-                               @"anything": @"everything"};
-
-        [[Branch getInstance] sendCommerceEvent:commerceEvent metadata:metadata
-                             withCompletion:^(NSDictionary *response, NSError *error) {
-            NSLog(@"%@",response);
-        }];
+        // Add relevant event data:
+        event.transactionID    = @"12344555";
+        event.currency         = BNCCurrencyUSD;
+        event.revenue          = [NSDecimalNumber decimalNumberWithString:@"1.5"];
+        event.shipping         = [NSDecimalNumber decimalNumberWithString:@"10.2"];
+        event.tax              = [NSDecimalNumber decimalNumberWithString:@"12.3"];
+        event.coupon           = @"test_coupon";
+        event.affiliation      = @"test_affiliation";
+        event.eventDescription = @"Event_description";
+        event.searchQuery      = @"item 123";
+        event.customData       = (NSMutableDictionary*) @{
+            @"Custom_Event_Property_Key1": @"Custom_Event_Property_val1",
+            @"Custom_Event_Property_Key2": @"Custom_Event_Property_val2"
+        };
+        [event logEvent];
         ```
 
 - ### Handle referrals
