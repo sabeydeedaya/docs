@@ -7,7 +7,7 @@ Branch Universal Ads help you drive results for web and app campaigns.
 - View ad performance with web and app analytics
 
 !!! note "Paid Product"
-    Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
+    Ads is a premium product priced on Monthly Active Users. [Sign up](https://branch.io/universal-ads/) for the Ads product to enable this functionality.
 
 ### Ad Partners
 
