@@ -1,7 +1,6 @@
 ## Overview
 
 This guide will walk you through how to integrate [MyTarget](https://target.my.com/) with Branch. 
-It is best to familiarize yourself with Branch Universal Ads product first by following [this documentation](branch-universal-ads.md) first.
 
 Universal Ads provides everything you need for complete tracking, including rich data for the MyTarget Engine to opimtize against.
 
