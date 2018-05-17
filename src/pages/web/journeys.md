@@ -35,8 +35,8 @@ Add the following code somewhere inside the `<head></head>` tags on your website
 
 {! partials/replace-branch-key.md !}
 
-!!! note “Special GDPR considerations”
-    In order to help our customers comply with GDPR[link], we’ve updated our Web SDK[link] with a Do Not Track mode[link]. This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. Click here[link] for instructions, and here[link] for information on how this mode impacts Journeys.
+!!! note “GDPR considerations”
+    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. Click [here](https://docs.branch.io/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
 
 
 ### Deep linking from the banner or interstitial
