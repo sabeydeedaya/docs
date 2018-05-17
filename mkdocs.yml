@@ -162,6 +162,7 @@ pages:
     - Mailgun: pages/emails/mailgun.md
     - Mailjet: pages/emails/mailjet.md
     - Mandrill: pages/emails/mandrill.md
+    - MessageGears: pages/emails/messagegears.md
     - MoEngage: pages/emails/moengage.md
     - PostUp: pages/emails/postup.md
     - Responsys: pages/emails/responsys.md
