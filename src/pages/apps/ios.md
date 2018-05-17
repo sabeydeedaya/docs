@@ -94,6 +94,8 @@
         var window: UIWindow?
 
         func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          // if you are using the TEST key
+          Branch.setUseTestBranchKey(true)
           // for debug and development only
           Branch.getInstance().setDebug()
           // listener for Branch Deep Link data
@@ -134,6 +136,8 @@
         @implementation AppDelegate
 
         - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+          // if you are using the TEST key
+          [Branch setUseTestBranchKey:YES];
           // for debug and development only
           [[Branch getInstance] setDebug];
           // listener for Branch Deep Link data
