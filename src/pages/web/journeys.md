@@ -79,9 +79,7 @@ If a user is referred to a page running Journeys via a Branch link, then referri
 
 ### Select audience
 
-You can customize the audience that will see your Journey by choosing the target platform, device, and region.
-
-For example, if you have users in many countries, you can create a separate Journey for each localization and use audience targeting rules to make sure users see the appropriate one.
+You can customize the audience that will see your Journey by choosing target platforms and device types, and by adding additional targeting rules.
 
 ![image](/img/pages/journeys/audience-rules.png)
 
@@ -89,7 +87,6 @@ For example, if you have users in many countries, you can create a separate Jour
 | --- | --- |
 | Platform | Branch currently offers Journeys on one platform: **Mobile web**. This will display for mobile users on your website. _More options coming soon._
 | Devices | Which devices would you like to target? For example, if you only have an iOS app, then you might want to show a Journey only to users viewing your mobile website on iOS.
-| Regions | Select one or more countries in which to display your Journey. Defaults to **Show to All Regions**
 | Additional Filters | Read about advanced filtering criteria [here](/pages/web/journeys/#advanced-audience-rules).
 
 ### Select and style the banner or interstitial
@@ -257,6 +254,10 @@ If you have [custom event tracking](/pages/apps/ios/#track-events) set up, you c
 <!-- #### Referred from site
 
 You can target a user based on the last touch point before they entered your website. For example, if you want to target users that found you through Google Search, you can select “Referred from site” and fill in `google.com`. Currently, we only support domain names in the Referred from site field. -->
+
+#### Is located
+
+Use this filter to target (or exclude) users viewing your website in different regions. Target by country, state/province, or city.
 
 #### Is viewing a page url
 
