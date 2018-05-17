@@ -1,26 +1,10 @@
 ## Advanced
 
-### Add more postbacks
-
-When you enable an ad partner, your ad partner postbacks can be found under the **Postbacks** tab for that ad partner. It's easy to add additional postbacks.
-
-![image](/img/pages/deep-linked-ads/branch-universal-ads/postbacks-tab.png)
-
-1. Click the **Add New Postback** button at the bottom of the screen.
-
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/add-new-postback-button.png)
-
-1. A modal will appear with Branch default events, as well as any commerce or custom events you've set up. Select an event, enter a postback URL if you're asked to, and click **Save**. This will be the event that triggers your new postback.
+{! ingredients/deep-linked-ads/add-more-postbacks.md !}
 
     ![image](/img/pages/deep-linked-ads/branch-universal-ads/add-new-postback-modal.png)
 
-### Edit postbacks
-
-For advanced integrations, you may want to provide additional information in your postback that isn't there by default. You can edit postbacks by following our [postback templating instructions](/pages/exports/ua-webhooks/#templating-your-postback-url), then clicking save. The postbacks in the Universal Ads interface follow the same syntax as Webhooks in Data Feeds. When the postback is saved, it is then validated - if you enter an invalid postback, you'll get an error at the top of your screen.
-
-!!! tip "Reset Postbacks"
-
-    We all make mistakes from time to time. If you need to reset your postbacks and your credentials, navigate to the **Account Settings** tab and look for the **Reset all settings** button. Be careful though! This will disable the ad partner, clear out all credentials and postbacks that you've set up, and return the ad partner to its basic configuration. You can then start afresh.
+{! ingredients/deep-linked-ads/edit-postbacks.md !}
 
 ### Change attribution windows
 

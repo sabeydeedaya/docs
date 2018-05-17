@@ -138,12 +138,13 @@ pages:
   - Links in your paid ads:
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
     - Apple Search: pages/deep-linked-ads/apple.md
-    - Criteo: pages/deep-linked-ads/criteo.md
-    - MyTarget: pages/deep-linked-ads/mytarget.md
     - Doubleclick: pages/deep-linked-ads/doubleclick.md
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
     - Google: pages/deep-linked-ads/google-ads-overview.md
     - Twitter: pages/deep-linked-ads/twitter.md
+    - Remerge: pages/deep-linked-ads/remerge.md
+    - Criteo: pages/deep-linked-ads/criteo.md
+    - MyTarget: pages/deep-linked-ads/mytarget.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
