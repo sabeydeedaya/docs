@@ -35,6 +35,9 @@ Add the following code somewhere inside the `<head></head>` tags on your website
 
 {! partials/replace-branch-key.md !}
 
+!!! note “GDPR considerations”
+    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. Click [here](https://docs.branch.io/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
+
 
 ### Deep linking from the banner or interstitial
 
@@ -996,3 +999,16 @@ Next, go through and choose the following countries: `United States`, `Canada`, 
 ![image](/img/pages/journeys/examples/ios_english_1.png)
 
 Save and continue!
+
+## Journeys and GDPR
+In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. 
+
+If you enable that mode, you can still display some Journeys to your users. Whether or not a Journey will display for users in Do Not Track mode depends on the targeting criteria you’ve defined for that Journey. If the Journey uses any of the following audience filters, it will *not* display for users in Do Not Track mode. Otherwise, the Journey will display.
+* Has completed event
+* Has visited web
+* Has visited the app
+* Has clicked on email
+* Has clicked on ad
+* Has the app installed
+
+If a Journey does display for a user in Do Not Track mode, any analytics related to the Journey’s display or the user’s interactions with that Journey *will not be published in the Branch dashboard.*
