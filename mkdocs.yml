@@ -142,8 +142,9 @@ pages:
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
     - Google: pages/deep-linked-ads/google-ads-overview.md
     - Twitter: pages/deep-linked-ads/twitter.md
-    - Remerge: pages/deep-linked-ads/remerge.md
     - Criteo: pages/deep-linked-ads/criteo.md
+    - Remerge: pages/deep-linked-ads/remerge.md
+    - Jampp: pages/deep-linked-ads/jampp.md    
     - MyTarget: pages/deep-linked-ads/mytarget.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
@@ -240,4 +241,3 @@ pages:
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
-
