@@ -10,22 +10,6 @@ The basic Jampp integration involves three parts:
 
 ## Setup
 
-### Integrating the SDKs and tracking in-app events
-
-The Branch SDKs for iOS and Android allow you to get up and running quickly.  Jampp has some custom configurations to be aware of when you get set up.
-
-If you haven't already integrated Branch, follow the below guides.
-
-1. Start by following the integration guides for Android and iOS:
-	- [Android](/pages/apps/android/){:target="\_blank"}
-	- [iOS](/pages/apps/ios/){:target="\_blank"}
-1. Once this is complete, you can test your basic integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter for **OPEN** to verify that the Branch SDK is recording app opens.
-
-	!!! warning "Limitations with setDebug and seeing data in Branch"
-		When integrating the SDKs, it's often useful to use setDebug to verify that your app is able to communicate with Branch servers, and is receiving deep link data. However, our upstream systems don't register test events sent using setDebug, so events will not appear in Liveview or Analytics, nor will they fire postbacks. You should disable setDebug when looking at Liveview or testing postbacks.
-       
-#### Track conversion events
-
 {! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
 
 {! ingredients/deep-linked-ads/conversion_events_tracking.md !}
