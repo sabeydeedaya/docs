@@ -26,15 +26,9 @@ If you haven't already integrated Branch, follow the below guides.
        
 #### Track conversion events
 
-Install and open events are automatically tracked using just the Branch SDK integration. However, to track other events, such as purchase events, you'll want to add more tracked events in your app.
+{! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
 
-Please reference the general Branch V2 Event tracking guide as well as the Jampp specific information below. This will help ensure that you've integrated the right Branch events with the correct metadata, and the postbacks to Jampp will be preconfigured for you.
-
-- [V2 Event Tracking Guide](/pages/apps/v2event/#overview)
-
-!!! note "Testing your events with Liveview"
-	You can test your integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter with the event name to verify that the Branch SDK is recording each event.
-  
+{! ingredients/deep-linked-ads/conversion_events_tracking.md !}
  
 ### Enable integration with Jampp
 
@@ -73,40 +67,11 @@ Once you've enabled an integration with Jampp, it's time to create a tracking li
 
     ![image](/img/pages/deep-linked-ads/jampp/jampp5.png)
 
-### View your data with People-Based Attribution
+{! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
-The [Ads Analytics Page](https://dashboard.branch.io/ads/analytics) on the Branch dashboard shows the performance of your ad campaigns _across both web and app_. You can view performance over time, including purchase and other custom events.
+{! ingredients/deep-linked-ads/people-based-attribution.md !}
 
-Events are attributed using Branch's unified last-click attribution model. This means that Branch will attribute to the last click across channels, and across platforms.
-
-For example, if a customer clicks a Branch email link, and then clicks an ad, installs the the app and purchases an item, Branch will attribute the install and the purchase to the last clicked ad link.
-
-If the customer then goes on to purchase an item on web within the attribution window, Branch will also attribute the web purchase to the same ad link, connecting the web and app actions taken by a single user for a more accurate view of your marketing channels and customer behavior.
-
-![image](/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
-
-You can read more about [People-Based Attribution here](/pages/dashboard/people-based-attribution/).
-
-### View-Through Attribution with Impression Pixels
-
-_If you'd like to try our view-through attribution beta, please contact integrations@branch.io._
-
-View-through attribution allows you to track installs, session starts and conversion events back to an ad impression, even if the ad was never clicked on. Our view-through attribution logic is currently as follows for any given event:
-
-- If there's a click within a valid attribution window, give credit to the click.
-- If there's no click within a valid attribution window, give credit to the last impression that was within a valid attribution window.
-
-Currently, impression pixels are only supported with server to server tracking, so server to server macros and device IDs are required when using impression pixels. To create a pixel, simply [create an ad link](#create-an-ad-link), and grab the pixel from the final step of link creation.
-
-!!! tip "Impression Pixel Formatting"
-
-        if you are going to use Impreion pixel for Attribution - please make sure the impression pixel returned by Branch's dashboard has `%24s2s=true` and an `%24idfa` or `%24aaid` macro, in the case if you just want to count impressions you can skip this.
-
-
-!!! warning "Using Impression Pixel for Attribution"
-        You'll receive the warning if neither **%24idfa** nor **%24aaid** are present on the link:
-        
-        This impression link doesn't have a device ID, which means it will only count impressions, but won't provide view through attribution. To get view through attribution, please append a device ID macro such as %24idfa or %24aaid.
+{! ingredients/deep-linked-ads/view-through-attribution.md !}
 
 ## Advanced
 
