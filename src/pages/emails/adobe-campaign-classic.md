@@ -6,15 +6,15 @@ This guide requires you to have already integrated the Branch SDK into your app:
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
-### How Deep Links Work with Adobe Campaign Standard
+### How Deep Links Work with Adobe Campaign Classic
 
 #### Setting up your click tracking domain
 
-The click-tracking domain is a key component to set up a deep linked email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Standard tracking server.
+The click-tracking domain is a key component to set up a deep linked email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Classic tracking server.
 
 ![image](/img/pages/email/click-tracking-1.png)
 
-To make deep links work, the click tracking domain must be pointed to Branch - so Branch will receive the clicks, proxy requests to Adobe Campaign Standard and redirect users to the app or website. Branch recommends that a new click tracking domain is set up for all new campaigns that will use Branch.
+To make deep links work, the click tracking domain must be pointed to Branch - so Branch will receive the clicks, proxy requests to Adobe Campaign Classic and redirect users to the app or website. Branch recommends that a new click tracking domain is set up for all new campaigns that will use Branch.
 
 ![image](/img/pages/email/click-tracking-2.png)
 
@@ -28,7 +28,7 @@ When integrating the Branch SDK, Branch will generate and host a file, which ass
 
 #### Create a new click tracking domain
 
-To enable deep links, you need to create a new the click tracking domain and point it to Branch. This way Branch can proxy requests from the custom click tracking domain through to Adobe Campaign Standard.
+To enable deep links, you need to create a new the click tracking domain and point it to Branch. This way Branch can proxy requests from the custom click tracking domain through to Adobe Campaign Classic.
 
 Pointing the click tracking domain to Branch is very easy. Using your domain management system - add a CNAME record and point the click tracking domain to `thirdparty.bnc.lt`.
 
@@ -36,21 +36,21 @@ Pointing the click tracking domain to Branch is very easy. Using your domain man
 
 You can check the CNAME setting using this [DNS verification tool](https://toolbox.googleapps.com/apps/dig/#CNAME/).
 
-Apple recognizes the click tracking domain as a Universal Link, and opens the app immediately without opening the browser. Once the app has opened, Branch will collect the referring URL that opened the app (at this time, it will be the click tracking URL). Inside the app, Branch will automatically “click” the link, registering the click with Adobe Campaign Standard, and returning the Branch link information to the Branch SDK inside the app. This information is then used to deep link the user to the correct in-app content.
+Apple recognizes the click tracking domain as a Universal Link, and opens the app immediately without opening the browser. Once the app has opened, Branch will collect the referring URL that opened the app (at this time, it will be the click tracking URL). Inside the app, Branch will automatically “click” the link, registering the click with Adobe Campaign Classic, and returning the Branch link information to the Branch SDK inside the app. This information is then used to deep link the user to the correct in-app content.
 
 #### Configure the External Tracking Server 
 
-Open the Brand Configuration page in Adobe Campaign Standard and find the field called **External URL of the tracking server**.
+Open the Brand Configuration page in Adobe Campaign Classic and find the field called **External URL of the tracking server**.
 
 ![image](/img/pages/email/adobe-campaign-classic-external-setup.png)
 
 #### Update the External Tracking Server URL
 
-Open the Brand Configuration page (in Adobe Campaign Standard) and Replace the External Tracking Server URL with the new click tracking domain, generated at **Step 1**.
+Open the Brand Configuration page (in Adobe Campaign Classic) and Replace the External Tracking Server URL with the new click tracking domain, generated at **Step 1**.
 
 #### Tell Us Your Click Tracking Domain
 
-Copy your new click tracking domain into the click tracking domain setting for the Adobe Campaign Standard integration in the [Branch Dashboard](https://branch.dashboard.branch.io/email/manager).
+Copy your new click tracking domain into the click tracking domain setting for the Adobe Campaign Classic integration in the [Branch Dashboard](https://branch.dashboard.branch.io/email/manager).
 
 ![image](/img/pages/email/adobe-campaign-internal-setup.png)
 
