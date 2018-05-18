@@ -150,6 +150,7 @@ pages:
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
+    - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
     - Amazon SES: pages/emails/amazon-ses.md
     - Betaout: pages/emails/betaout.md
     - Blueshift: pages/emails/blueshift.md
