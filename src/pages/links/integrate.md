@@ -151,6 +151,17 @@
         | alias | | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/youralias`). Link aliases must be unique (a `409 error` will occur if you create an alias already taken). Appending a `/` will break the alias. `bnc.lt` link domain alias links are incompatible with Universal Links and Spotlight.
         | type | `0` | Must be an `int`. Set to `1` to limit deep link to a single use. Set to `2` to make the link show up under [Quick Links](https://dashboard.branch.io/marketing) while adding `$marketing_title` to `data`. Does not work with the Native SDKs.
 
+    - These labels allow you to customize attribution windows for a single link
+
+        | Key | Default | Usage
+        | --- | --- | ---
+        | $click_install_window_days | 7 | Time between a click or a web to app auto redirect and an install or reinstall. (i.e., https://branchster.app.link/hpNVE52gxE?$click_install_window_days=3)
+        | $click_session_start_window_days | 1 | Time between a click or a web to app auto redirect and an open or web session start. (i.e., https://branchster.app.link/hpNVE52gxE?$click_session_start_window_days=7)
+        | $click_conversion_window_days | 30 | Time between a click or a web to app auto redirect and a conversion event. Conversion events include commerce events (e.g. purchase, add to cart), all custom events, and all view events like pageviews & content views. (i.e., https://branchster.app.link/hpNVE52gxE?$click_session_start_window_days=30)
+        | $impression_install_window_days | 1 | Time between an ad impression and an install or reinstall. (i.e., https://branchster.app.link/hpNVE52gxE?$impression_install_window_days=3)
+        | $impression_session_start_window_days | 1 | Time between an ad impression and an open or web session start. (i.e., 	https://branchster.app.link/hpNVE52gxE?$impression_session_start_window_days=1)
+        | $impression_conversion_window_days | 7 | Time between an ad impression and a conversion event. Conversion events include commerce events (e.g. purchase, add to cart), all custom events, and all view events like pageviews & content views. (i.e., https://branchster.app.link/hpNVE52gxE?$impression_session_start_window_days=7)
+
 - ### Custom data
 
     - Pass any custom data to be read inside your app
