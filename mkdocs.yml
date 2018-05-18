@@ -145,6 +145,7 @@ pages:
     - Criteo: pages/deep-linked-ads/criteo.md
     - Remerge: pages/deep-linked-ads/remerge.md
     - Jampp: pages/deep-linked-ads/jampp.md    
+    - InMobi: pages/deep-linked-ads/inmobi.md    
     - MyTarget: pages/deep-linked-ads/mytarget.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
