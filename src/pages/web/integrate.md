@@ -36,21 +36,6 @@
 
     - Change `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt` to match your [Branch Dashboard](https://dashboard.branch.io/account-settings/app)
 
-#### Enable Do Not Track mode
-In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a Do Not Track mode. This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This state is persistent, meaning that it’s saved for the user across browser sessions for the web site.
-
-To enable Do Not Track Mode during initialization, include the `tracking_disabled` flag, with a value of `true`, into the options during initialization:
-
-```javascript
-branch.init( 'BRANCH_KEY',
-    {
-        ‘tracking_disabled’ : true
-    }
-);
-```
-
-To enable Do Not Track Mode following initialization, call `disableTracking(true)`. If you call `disableTracking()` with no argument, it will default to `disableTracking(true)`. Use `disableTracking(false)` to resume tracking.
-
 ## Implement features
 
 - ### Initialize Branch features
@@ -501,6 +486,21 @@ To enable Do Not Track Mode following initialization, call `disableTracking(true
         | "iosURL" | A custom scheme for your iOS App such as: `example/home/cupertino/12345`
         | "data" | Any additional deep link data that you would like to pass to your App
 
+- ### Enable / Disable User Tracking
+
+    - In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a Do Not Track mode. This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This state is persistent, meaning that it’s saved for the user across browser sessions for the web site.
+
+    - To enable Do Not Track Mode during initialization, include the `tracking_disabled` flag, with a value of `true`, into the options during initialization:
+
+        ```javascript
+        branch.init( 'BRANCH_KEY',
+            {
+                ‘tracking_disabled’ : true
+            }
+        );
+        ```
+
+    - To enable Do Not Track Mode following initialization, call `disableTracking(true)`. If you call `disableTracking()` with no argument, it will default to `disableTracking(true)`. Use `disableTracking(false)` to resume tracking.
 
 ## Troubleshoot issues
 
