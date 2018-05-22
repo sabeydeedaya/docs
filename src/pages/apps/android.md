@@ -940,6 +940,17 @@
 
 ## Troubleshoot issues
 
+- ### Test your Branch Integration
+
+    Test your Branch Integration by calling `IntegrationValidator.validate` in your MainActivity's onStart(). Check your ADB Logcat to make sure all the SDK Integration tests pass. Make sure to comment out or remove `IntegrationValidator.validate` in your production build.
+
+    - *Java*
+
+        ```java
+        IntegrationValidator.validate(MainActivity.this);
+        ```
+
+
 - ### Sample testing apps
 
     - [Branchsters](https://github.com/BranchMetrics/Branch-Example-Deep-Linking-Branchster-Android)
@@ -1189,6 +1200,11 @@
             }
         }
         ```
+
+- ### Test Deeplink routing for your Branch links
+
+    Append `?bnc_validate=true` to any of your app's Branch links and click it on your mobile device (not the Simulator!) to start the test. For instance, to validate a link like: `"https://<yourapp\>.app.link/NdJ6nFzRbK"` click on: `"https://<yourapp\>.app.link/NdJ6nFzRbK?bnc_validate=true"`
+
 
 - ### Pre Android 15 support
 
