@@ -2,7 +2,7 @@
 
 With a push of a button you can send your Branch data to your Segment dashboard, helping you to understand the power of Branch as an acquisition pathway, export your data to your entire suite of analytics tools and build custom audiences upon Branch data.
 
-This documentation explains how to send **Branch install events to Segment**. If you'd like to send Segment events to your Branch dashboard, please review the Branch/segment SDK Kit integration documentation for [iOS](https://github.com/BranchMetrics/Segment-Branch-iOS) and [Android](https://github.com/BranchMetrics/Segment-Branch-Android). 
+This documentation explains how to send **Branch-referred events to Segment**. If you'd like to send Segment events to your Branch dashboard, please review the Branch/segment SDK Kit integration documentation for [iOS](https://github.com/BranchMetrics/Segment-Branch-iOS) and [Android](https://github.com/BranchMetrics/Segment-Branch-Android). 
 
 ### How does it work?
 
