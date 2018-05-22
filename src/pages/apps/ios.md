@@ -839,6 +839,22 @@
 
 ## Troubleshoot issues
 
+- ### Test your Branch Integration
+
+    Test your Branch Integration by calling `validateSDKIntegration` in your AppDelegate. Check your Xcode logs to make sure all the SDK Integration tests pass. Make sure to comment out or remove `validateSDKIntegration` in your production build.
+
+    - *Swift*
+
+        ```swift
+        Branch.getInstance().validateSDKIntegration()
+        ```
+
+    - *Objective C*    
+
+        ```objc
+        [[Branch getInstance] validateSDKIntegration];
+        ```
+
 - ### To validate if AASA file successfully downloaded
 
     - Connect a test device to your MAC
@@ -989,7 +1005,12 @@
 
         ```objc
         [[Branch getInstance] registerDeepLinkController:customViewController forKey:@"my-key"withPresentation:BNCViewControllerOptionShow];
-        ```
+        ```     
+        
+- ### Test Deeplink routing for your Branch links
+
+    Append `?bnc_validate=true` to any of your app's Branch links and click it on your mobile device (not the Simulator!) to start the test. For instance, to validate a link like: `"https://<yourapp\>.app.link/NdJ6nFzRbK"` click on: `"https://<yourapp\>.app.link/NdJ6nFzRbK?bnc_validate=true"`
+
 
 - ### Determine if deep link is from Branch without network
 
