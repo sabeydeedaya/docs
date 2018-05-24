@@ -162,7 +162,7 @@
 
     - remove pip `rm -rf /Library/Python/2.7/site-packages`
     
-    - reinstall `pip curl https://bootstrap.pypa.io/get-pip.py > a.py && chmod -x a.py && sudo ./a.py`
+    - reinstall pip `curl https://bootstrap.pypa.io/get-pip.py > a.py && chmod -x a.py && sudo ./a.py`
     
     - reinstall [dependencies](#dependencies)
     
