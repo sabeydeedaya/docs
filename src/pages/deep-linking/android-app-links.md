@@ -49,3 +49,7 @@ Start by generating a SHA256 fingerprint of your app's signing certificate.
 	```xml
 	<data android:scheme="https" android:host="mycustomdomainorsubdomain" />
 	```
+
+### Get APK SHA256 Fingerprints
+
+Run: `keytool -printcert -jarfile my_app.apk` on your APK file.
