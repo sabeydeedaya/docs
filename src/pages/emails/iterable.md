@@ -3,7 +3,7 @@
 
 {! ingredients/email/email-configure-esp.md !}
 
-You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** section of your SparkPost account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Mail Domains page, in the Tracking Domains** section of your Iterable account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
 
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 
