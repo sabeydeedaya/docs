@@ -84,7 +84,7 @@ If a user is referred to a page running Journeys via a Branch link, then referri
 
 You can customize the audience that will see your Journey by choosing target platforms and device types, and by adding additional targeting rules.
 
-![image](/img/pages/journeys/audience-rules.png)
+![image](/img/pages/journeys/journeys_select_audience.png)
 
 | Option | Description |
 | --- | --- |
