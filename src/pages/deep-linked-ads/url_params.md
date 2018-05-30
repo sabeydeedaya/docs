@@ -1,9 +1,9 @@
-Bracnh Tracking links allows to track many paramemers about performance you ad campaign and ads. Additional parameters for advanced analysis may be added to the link after the '?' character, to trace extra information. 
+Branch Tracking links allow tracking many parameters about the performance of your ad campaigns and individual ads. Additional parameters for advanced analysis may be added to the link after the '?' or '&' character, to trace extra information. 
 
 ## Tracking Link Parameters
-The following parameters are available to use within the generated tracking link:
+The following parameters are available to use within the pre-generated tracking link:
 
-### Campaign Info
+### Campaign Information
 
 Branch Parameter | Description 
 --- | --- 
@@ -33,5 +33,5 @@ Branch Parameter | Description
 ~cost_currency | Cost Currency
 
 !!! tip "Tracking link with additional parameters"
-    Here is the example how to pass Agency and SubPublisher info with Tracking link:
+    Here is the example how to pass Agency and Sub Publisher with Tracking link:
     https://tracking.app.link?~agency=myAgency&~secondary_publisher=best_publisher
