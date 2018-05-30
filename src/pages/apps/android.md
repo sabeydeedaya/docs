@@ -35,22 +35,22 @@
         }
 
         dependencies {
-            compile fileTree(dir: 'libs', include: ['*.jar'])
-            androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+            implementation fileTree(dir: 'libs', include: ['*.jar'])
+            androidTestImplementation ('com.android.support.test.espresso:espresso-core:2.2.2', {
                 exclude group: 'com.android.support', module: 'support-annotations'
             })
-            compile 'com.android.support:appcompat-v7:25.2.0'
-            compile 'com.android.support:design:25.2.0'
+            implementation 'com.android.support:appcompat-v7:25.2.0'
+            implementation 'com.android.support:design:25.2.0'
 
             // required
-            compile 'io.branch.sdk.android:library:2.+'
+            implementation 'io.branch.sdk.android:library:2.+'
 
             // optional
-            compile 'com.android.support:customtabs:23.3.0' // Chrome Tab matching
-            compile 'com.google.android.gms:play-services-ads:9+' // GAID matching
-            compile 'com.google.android.gms:play-services-appindexing:9.+' // App indexing
+            implementation 'com.android.support:customtabs:23.3.0' // Chrome Tab matching
+            implementation 'com.google.android.gms:play-services-ads:9+' // GAID matching
+            implementation 'com.google.android.gms:play-services-appindexing:9.+' // App indexing
 
-            testCompile 'junit:junit:4.12'
+            testImplementation 'junit:junit:4.12'
         }
         ```
 
