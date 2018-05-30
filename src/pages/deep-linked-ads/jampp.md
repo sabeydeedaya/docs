@@ -18,7 +18,7 @@ The basic Jampp integration involves three parts:
 
 1. Visit the [Ads page](https://dashboard.branch.io/ads) on the Branch dashboard.
 2. Select [Partner Management](https://dashboard.branch.io/ads/partner-management) from the sidebar.
-3. Search for the Jampp
+3. Search for Jampp
 
 
 ![image](/img/pages/deep-linked-ads/jampp/jampp1.png)
@@ -63,9 +63,9 @@ Once you've enabled an integration with Jampp, it's time to create a tracking li
 
 When you enable an ad partner, your ad partner postbacks can be found under the **Postbacks** tab for that ad partner. It's easy to add additional postbacks.
 
-!!! tip "Send All events"
+!!! tip "Send all events"
 
-        if you want to send **All Events** not only events attributed to the partner - you can change this setting at the top if the screen.
+        If you want to send **All Events**, not only events attributed to the partner - you can change this setting at the top if the screen.
 
 ![image](/img/pages/deep-linked-ads/jampp/jampp6.png)
 
