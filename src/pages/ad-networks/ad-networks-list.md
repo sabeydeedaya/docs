@@ -11,9 +11,9 @@ Logo | Partner
 <a href="http://adcolony.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/adcolony-1513204502834.png)</a>| **AdColony**
 <a href="http://adikteev.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_adikteev-1513039903349.png)</a>| **Adikteev**
 <a href="http://admitad.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-admitad-1493136873359.png)</a>| **Admitad**
+<a href="http://www.admobs.in">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/292056402124361863/admobs-logo-new4-1526690621932.png)</a>| **Admobs**
 <a href="https://adsarmy.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ads_army-1521759654549.png)</a>| **Ads Army**
-<a href="http://adshero.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/bqyR5Nx-1522106637247.png)</a>| 
-**Ads Hero**
+<a href="http://adshero.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/bqyR5Nx-1522106637247.png)</a>| **Ads Hero**
 <a href="http://adsterra.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Adsterra-1508532651884.png)</a>| **Adsterra Network**
 <a href="https://adxperience.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adxperience-1524620442557.png)</a>| **Adxperience**
 <a href="http://affise.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/affisee-1513141472946.png)</a>| **Affise**
@@ -40,22 +40,24 @@ Logo | Partner
 <a href="http://digitalturbine.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/169744LOGO-1493150262933.png)</a>| **Digital Turbine**
 <a href="http://display.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/display-io-1512502086505.png)</a>| **Display.io**
 <a href="http://www.doozymob.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/trans5-1518752231856.png)</a>| **Doozymob**
- <a href="https://www.doubleclickbygoogle.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/dc_newlogo-1513231189826.png)</a>| **DoubleClick**
+<a href="https://www.doubleclickbygoogle.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/dc_newlogo-1513231189826.png)</a>| **DoubleClick**
 <a href="http://drawbridge.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Drawbridge_Logo_2015-1493243116881.png)</a>| **Drawbridge**
 <a href="http://espireads.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Espire-1513137347677.png)</a>| **Espire**
 <a href="http://facebook.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/wordmark-1498695380173.png)</a>| **Facebook**
 <a href="http://feedmob.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/feedmob-logo_highres-teal_2-1510161910168.png)</a>| **FeedMob**
 <a href="https://www.fyber.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/fyber-logo-1493132211689.png)</a>| **Fyber**
 <a href="http://www.gamespipe.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/gamespipe-1519349992057.png)</a>| **Gamespipe**
- <a href="http://geistm.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/geistMBlackRedLogo-1498181264812.png)</a>| **GeistM**
+<a href="http://geistm.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/geistMBlackRedLogo-1498181264812.png)</a>| **GeistM**
 <a href="http://glispamedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-glispa@2x-1493323107286.png)</a>| **Glispa**
 <a href="http://globalwidemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1497567899553.png)</a>| **GlobalWide Media**
 <a href="https://adwords.google.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Adwords_logo-1492792697441.png)</a>| **Google AdWords**
 <a href="http://impactradius.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/impact-radius-logo-1493166999679.png)</a>| **Impact Radius**
 <a href="http://inflectomedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/inflecto_logo_black-1513230631373.png)</a>| **Inflecto Media**
 <a href="http://inmobi.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-color-1492715152194.png)</a>| **InMobi**
+<a href="http://instal.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Logo-Instal-negative-1527124705776.png)</a>| **Instal**
 <a href="http://ironsrc.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/101621-d00d811d71b53bd93856f5358489baca-1492635797381.png)</a>| **IronSource**
 <a href="http://jampp.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Jampp-1492638822951.png)</a>| **Jampp**
+<a href="http://jetfuel.it">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
 <a href="http://liftoff.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/liftoff-logo-1492801474909.png)</a>| **Liftoff**
 <a href="http://magnetadservices.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1500342359816.png)</a>| **Magnet**
 <a href="http://manage.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/manage_logo_trans_300x75-1505160375494.png)</a>| **Manage**
@@ -91,6 +93,7 @@ Logo | Partner
 <a href="http://remerge.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/vgfm8axwuhj2lcwybtzf-1492640396474.png)</a>| **Remerge**
 <a href="http://revx.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1493256528887.png)</a>| **RevX**
 <a href="http://sabiomobile.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/main_logo_compress-1509082296545.png)</a>| **Sabio Mobile**
+<a href="http://www.smadex.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo_high_res-1526522009535.png)</a>| **Smadex**
 <a href="http://sonarclick.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LOGO-2-1522803269821.png)</a>| **Sonarclick**
 <a href="http://spykemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/1-e1466007909243-1495751845237.png)</a>| **Spyke Media**
 <a href="http://stackadapt.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/8331ef7d-bfc8-4148-a118-50da0fc43f8f-1490739325404-1506381795896.png)</a>| **StackAdapt**
@@ -106,6 +109,7 @@ Logo | Partner
 <a href="http://unilead.net">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/2-02-1498862779375.png)</a>| **Unilead Network**
 <a href="http://unity3d.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unity-1493071825773.png)</a>| **Unity**
 <a href="http://ventesavenues.in/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1495753718180.png)</a>| **Ventes Avenues**
+<a href="http://www.vishibility.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1526944293589.png)</a>| **Vishibility**
 <a href="http://vungle.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Vungle-Logo-Primary-Navy-Transparent-Padded-1493068923084.png)</a>| **Vungle**
 <a href="http://wakeapp.ru">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Wake_app-1-1508532067151.png)</a>| **Wakeapp**
 <a href="https://direct.yandex.ru/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logotype-yandex-direct-1-380x233-1507587040365.png)</a>| **Yandex Direct**
