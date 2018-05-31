@@ -144,8 +144,8 @@ pages:
     - Twitter: pages/deep-linked-ads/twitter.md
     - Universal Ads Partners:
       - Criteo: pages/deep-linked-ads/criteo.md
-      - InMobi: pages/deep-linked-ads/inmobi.md    
-      - Jampp: pages/deep-linked-ads/jampp.md    
+      - InMobi: pages/deep-linked-ads/inmobi.md
+      - Jampp: pages/deep-linked-ads/jampp.md
       - MyTarget: pages/deep-linked-ads/mytarget.md
       - Remerge: pages/deep-linked-ads/remerge.md
   - Links in your emails:
@@ -204,7 +204,6 @@ pages:
         - Braze: pages/integrations/appboy.md
         - Appsflyer: pages/integrations/appsflyer.md
         - CleverTap: pages/integrations/clevertap.md
-        - Fabric Answers: pages/integrations/fabric-answers.md
         - Google Analytics: pages/integrations/google-analytics.md
         - Kochava: pages/integrations/kochava.md
         - Localytics: pages/integrations/localytics.md
