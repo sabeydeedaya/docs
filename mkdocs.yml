@@ -127,7 +127,7 @@ pages:
   - Create deep links: pages/links/integrate.md
   - Track analytics:
     - Dashboard analytics: pages/dashboard/analytics.md
-    - New Dashboard Analytics: pages/dashboard/unified-analytics.md
+    - New Dashboard Analytics: pages/dashboard/people-based-attribution.md
     - Time zone support: pages/dashboard/timezone.md
   - Links on your website:
     - Deepviews: pages/web/deep-views.md
@@ -142,11 +142,12 @@ pages:
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
     - Google: pages/deep-linked-ads/google-ads-overview.md
     - Twitter: pages/deep-linked-ads/twitter.md
-    - Criteo: pages/deep-linked-ads/criteo.md
-    - Remerge: pages/deep-linked-ads/remerge.md
-    - Jampp: pages/deep-linked-ads/jampp.md    
-    - InMobi: pages/deep-linked-ads/inmobi.md    
-    - MyTarget: pages/deep-linked-ads/mytarget.md
+    - Universal Ads Partners:
+      - Criteo: pages/deep-linked-ads/criteo.md
+      - InMobi: pages/deep-linked-ads/inmobi.md    
+      - Jampp: pages/deep-linked-ads/jampp.md    
+      - MyTarget: pages/deep-linked-ads/mytarget.md
+      - Remerge: pages/deep-linked-ads/remerge.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
