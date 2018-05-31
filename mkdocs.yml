@@ -127,7 +127,6 @@ pages:
   - Create deep links: pages/links/integrate.md
   - Track analytics:
     - Dashboard analytics: pages/dashboard/analytics.md
-    - New Dashboard Analytics: pages/dashboard/people-based-attribution.md
     - Time zone support: pages/dashboard/timezone.md
   - Links on your website:
     - Deepviews: pages/web/deep-views.md
