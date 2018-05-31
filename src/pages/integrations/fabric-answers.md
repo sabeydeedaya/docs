@@ -1,3 +1,7 @@
+## DEPRECATED
+
+This plug-in is deprecated. Fabric no longer supports the integration. Customers that enabled before May 31st 2018 will continue to see data in Fabric. Customers going forward won't have the ability to integrate Fabric with Branch.
+
 ## Overview
 
 Integration with Fabric's Answers is totally automatic as long as you've integrated both Branch and Answers. Branch will automatically send the following three events to Answers:
