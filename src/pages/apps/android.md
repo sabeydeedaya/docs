@@ -1003,8 +1003,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                 <data android:scheme="https" android:host="bnc.lt" android:pathPrefix="/LVeu" />
-                 <data android:scheme="https" android:host="bnc.lt" android:pathPrefix="/eVeu" />
+                 <data android:scheme="https" android:host="bnc.lt" />
+                 <data android:scheme="https" android:host="bnc.lt" />
             </intent-filter>
         </activity>
         ```
@@ -1018,16 +1018,14 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                 <data android:scheme="https" android:host="your.app.com" android:pathPrefix="/LVeu" />
-                 <data android:scheme="https" android:host="your.app.com" android:pathPrefix="/eVeu" />
+                 <data android:scheme="https" android:host="your.app.com" />
+                 <data android:scheme="https" android:host="your.app.com" />
             </intent-filter>
         </activity>
         ```
 
     - Change the following values to match your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        - `/LVeu` (live)
-        - `/eVeu` (test)
         - `your.app.com`
 
  - ### Branch with Fabric Answers
