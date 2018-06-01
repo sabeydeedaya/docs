@@ -25,6 +25,12 @@ Branch Parameter | Description
 ~placement | Placement
 ~keyword_id | Keyword ID
 
+### Device Information
+Branch Parameter | Description 
+--- | --- 
+%24aaid | Apple AAID
+%24idfa | Google IDFA
+
 ### Spend Calculation
 Branch Parameter | Description 
 --- | --- 
