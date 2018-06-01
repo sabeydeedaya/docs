@@ -22,15 +22,18 @@ Logo | Partner
 <a href="http://applift.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/applift_lg-bdbcf02abab90b0343354dc04fb1ff42ac2b6a9e15c34aa7177e49a7ae7864d9-1509989161261.png)</a>| **Applift**
 <a href="http://applovin.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/u3eoOtkBNGx7x4W6nKLQSQ-AppLovin_Logo_Blue_White_Rectangle_WEB-1492637758109.png)</a>| **Applovin**
 <a href="http://appnext.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mf7zfgvsypjglqnisyth-1492800692344.png)</a>| **Appnext**
+<a href="http://www.appsamurai.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/as-logotype-color-1524959500790.png)</a>| **App Samurai**
 <a href="http://www.artofclick.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/art_of_click-1524680418959.png)</a>| **Art of Click**
 <a href="http://avazuinc.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/qwh3KVui-1519413087132.png)</a>| **Avazu**
 <a href="http://www.beintoo.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/0_logo1-1524103227195.png)</a>| **Beintoo**
 <a href="http://billymob.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_blue-1500940117780.png)</a>| **Billy Mobile**
+<a href="https://blindferret.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1523922634076.png)</a>| **Blind Ferret**
 <a href="http://claymotion.in/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ClayMotion_white_copy-hi-1521236042511.png)</a>| **Claymotion**
 <a href="https://www.centro.net/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/YNhU8bk-1518047494337.png)</a>| **Centro**
 <a href="http://www.cj.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/CJ_Affiliate_Logo-1522097280231.png)</a>| **CJ Affiliate**
 <a href="http://clickadu.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/cck-1508531144603.png)</a>| **Clickadu**
 <a href="http://clickky.me">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/LogoClickky-1508351211926.png)</a>| **Clickky**
+<a href="http://clinch.co">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
 <a href="http://connectedinteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/top-logo1-1500342833490.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/small_logo-1512691620790.png)</a>| **Conversant Media**
 <a href="http://criteo.com">![image](https://branch.dashboard.branch.io/3f222dab-e4f7-4b56-af4f-d55cfb53ea11)</a>| **Criteo**
@@ -61,7 +64,7 @@ Logo | Partner
 <a href="http://liftoff.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/liftoff-logo-1492801474909.png)</a>| **Liftoff**
 <a href="http://magnetadservices.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1500342359816.png)</a>| **Magnet**
 <a href="http://manage.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/manage_logo_trans_300x75-1505160375494.png)</a>| **Manage**
-<a href="https://blindferret.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1523922634076.png)</a>| **Blind Ferret**
+<a href="http://www.mediamath.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Mediamath-Logo-PNG-1525226091972.png)</a>| **Media Math**
 <a href="https://mobair.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobair_logo_new_GDMgroup_544x144px-1518662472731.png)</a>| **MobAir**
 <a href="http://mobioinc.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobio_logofooter1-1498863703378.png)</a>| **Mobio**
 <a href="http://www.mobobeat.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/mobobeat-logo-1-1518463227906.png)</a>| **Mobobeat**
