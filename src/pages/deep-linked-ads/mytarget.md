@@ -85,16 +85,11 @@ $http_redirect_only | true
 
 1. Access your [myTarget dashboard](https://target.my.com/campaigns/full/) and start creating a new campaign.
 
-1. Obtain the Ad Link you created earlier from Branch, and remove all URL query parameters except %243p=a_mytarget, as myTarget will add these parameters later.
+2. Obtain the Ad Link you created earlier from Branch, and paste this link into the URL field.
 
-For example Example:
-Original link from Branch:
-https://branchster.app.link/yNC2Q06utF?%243p=a_mytarget&%24aaid={gaid}&%24idfa={idfa}&~click_id={clickid}
-
-Final link for modified to fit myTarget's standards: 
-https://branchster.app.link/yNC2Q06utF?%243p=a_mytarget
-
-1. Paste this modified link into the URL field.
+For example:
+Tracking link from Branch:
+https://branchster.app.link/ct8eUb3utF?%243p=a_mytarget&banner_id={{banner_id}}&~ad_set_id={{banner_id}}&~campaign={{campaign_name}}&~campaign_id={{campaign_id}}&~click_id={clickid}&~secondary_publisher={{advertiser_id}}
 
 ![image](/img/pages/deep-linked-ads/MyTarget/create-campaign.png)
 
