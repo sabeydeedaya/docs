@@ -61,6 +61,7 @@ Logo | Partner
 <a href="http://ironsrc.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/101621-d00d811d71b53bd93856f5358489baca-1492635797381.png)</a>| **IronSource**
 <a href="http://jampp.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Jampp-1492638822951.png)</a>| **Jampp**
 <a href="http://jetfuel.it">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
+<a href="http://www.kiip.me">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Kiip-1527869653236.png)</a>| **Kiip**
 <a href="http://liftoff.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/liftoff-logo-1492801474909.png)</a>| **Liftoff**
 <a href="http://magnetadservices.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1500342359816.png)</a>| **Magnet**
 <a href="http://manage.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/manage_logo_trans_300x75-1505160375494.png)</a>| **Manage**
