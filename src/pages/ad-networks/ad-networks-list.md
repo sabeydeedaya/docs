@@ -80,6 +80,7 @@ Logo | Partner
 <a href="http://mundomedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/0000014b-6f75-2b16-6984-3be17d5c7b30-1500341129317.png)</a>| **MundoMedia**
 <a href="http://corp.mail.ru">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/my_com-1501129417628.png)</a>| **myTarget**
 <a href="http://www.nativex.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/nativex-logo2-300x130-1493132886101.png)</a>| **NativeX**
+<a href="http://www.netcore.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/netcore-1527812078091.png)</a>| **Netcore Solutions**
 <a href="http://oplytic.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-1498155298417.png)</a>| **Oplytic**
 <a href="http://pepperjam.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Pep_logo_red-1501274975350.png)</a>| **Pepperjam**
 <a href="http://phgsupport.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/PH_LOGO-1493341199816.png)</a>| **Performance Horizon**
