@@ -91,7 +91,7 @@ For example:
 Tracking link from Branch:
 https://branchster.app.link/ct8eUb3utF?%243p=a_mytarget&banner_id={{banner_id}}&~ad_set_id={{banner_id}}&~campaign={{campaign_name}}&~campaign_id={{campaign_id}}&~click_id={clickid}&~secondary_publisher={{advertiser_id}}
 
-![image](/img/pages/deep-linked-ads/MyTarget/create-campaign.png)
+![image](/img/pages/deep-linked-ads/mytarget/create-campaign.png)
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
