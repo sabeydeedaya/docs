@@ -3,7 +3,7 @@ Logo | Partner
 --- | --- 
 <a href="http://a4g.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>| **A4G**
 <a href="http://actionpay.net">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>| **Actionpay**
-<a href="http://ad4screen.com">![image]https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)</a>| **Ad4Screen**
+<a href="http://ad4screen.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)</a>| **Ad4Screen**
 <a href="http://adactioninteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aai-1524683044611.png)</a>| **AdAction Interactive**
 <a href="http://adacts.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adacts-1524762274169.png)</a>| **Adacts Digital**
 <a href="http://adbloom.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ab-1524762630391.png)</a>| **Adbloom**
