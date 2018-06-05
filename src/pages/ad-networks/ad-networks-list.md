@@ -1,12 +1,12 @@
 ### Ads Networks List
 Logo | Partner 
 --- | --- 
-<a href="http://a4g.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/a4g-logo-1493239709871.png)</a>| **A4G**
-<a href="http://actionpay.net">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1502390560857.png)</a>| **Actionpay**
-<a href="http://ad4screen.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ad4screen-1504724050417.png)</a>| **Ad4Screen**
-<a href="http://adactioninteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/aai_logo_med_trans_black-1509989746768.png)</a>| **AdAction Interactive**
-<a href="http://adacts.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/adactslogohd-1511911181113.png)</a>| **Adacts Digital**
-<a href="http://adbloom.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/AdBloom-Logo-Green-1512675868221.png)</a>| **Adbloom**
+<a href="http://a4g.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>| **A4G**
+<a href="http://actionpay.net">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>| **Actionpay**
+<a href="http://ad4screen.com">![image]https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)</a>| **Ad4Screen**
+<a href="http://adactioninteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aai-1524683044611.png)</a>| **AdAction Interactive**
+<a href="http://adacts.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adacts-1524762274169.png)</a>| **Adacts Digital**
+<a href="http://adbloom.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ab-1524762630391.png)</a>| **Adbloom**
 <a href="http://adcash.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/origin_08da80a1e1be4275-1508530733424.png)</a>| **Adcash**
 <a href="http://adcolony.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/adcolony-1513204502834.png)</a>| **AdColony**
 <a href="http://adikteev.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_adikteev-1513039903349.png)</a>| **Adikteev**
