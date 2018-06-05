@@ -28,6 +28,8 @@ This guide requires you to have already integrated the Branch SDK into your app:
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
+{! ingredients/email/email-associated-domains.md !}
+
 ### Add the deep link handler to the mobile app
 
 **iOS:** Add the following code inside the `deepLinkHandler` code block in `application:didFinishLaunchingWithOptions`
