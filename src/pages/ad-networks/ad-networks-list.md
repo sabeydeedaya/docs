@@ -54,6 +54,7 @@ Logo | Partner
 <a href="http://glispamedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-glispa@2x-1493323107286.png)</a>| **Glispa**
 <a href="http://globalwidemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1497567899553.png)</a>| **GlobalWide Media**
 <a href="https://adwords.google.com/home/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Adwords_logo-1492792697441.png)</a>| **Google AdWords**
+<a href="https://hybrid.ai/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1527869464817.png)</a>| **Hybrid**
 <a href="http://impactradius.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/impact-radius-logo-1493166999679.png)</a>| **Impact Radius**
 <a href="http://inflectomedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/inflecto_logo_black-1513230631373.png)</a>| **Inflecto Media**
 <a href="http://inmobi.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-color-1492715152194.png)</a>| **InMobi**
