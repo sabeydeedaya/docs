@@ -60,7 +60,7 @@ Logo | Partner
 <a href="http://inmobi.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-color-1492715152194.png)</a>| **InMobi**
 <a href="http://instal.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Logo-Instal-negative-1527124705776.png)</a>| **Instal**
 <a href="http://ironsrc.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/101621-d00d811d71b53bd93856f5358489baca-1492635797381.png)</a>| **IronSource**
-<a href="http://jampp.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Jampp-1492638822951.png)</a>| **Jampp**
+<a href="http://jampp.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/jampp-1528308771519.png)</a>| **Jampp**
 <a href="http://jetfuel.it">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
 <a href="http://www.kiip.me">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Kiip-1527869653236.png)</a>| **Kiip**
 <a href="http://liftoff.io">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/liftoff-logo-1492801474909.png)</a>| **Liftoff**
