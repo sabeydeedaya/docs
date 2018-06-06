@@ -2,6 +2,9 @@
 
 Install and open events are automatically tracked using just the Branch SDK integration. However, to track custom events, such as registration or purchase, you will need to integrate them into your application.
 
+!!! warning "Sending event metadata from your application"
+	Please make sure that you setup and pass event metadata from the application to the ad partner. Follow up with your ad partner to get the list of requred parameters.
+
 Please reference the general [V2 Event Tracking Guide](/pages/apps/v2event/#overview). This will help ensure that you've integrated the right Branch events with the correct metadata.
 
 
