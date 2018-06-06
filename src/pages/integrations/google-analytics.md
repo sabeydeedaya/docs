@@ -99,7 +99,7 @@ Branch.getInstance().setRequestMetadata("$google_analytics_user_id", "USER-ID-HE
 ### What Branch Sends to Google Analytics
 
 | Property Name | Value | Sourced from | Example | Req
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | --- | --- 
 | v | API version | [fixed] | 1 | Y
 | tid | Tracking ID | Branch Dashboard | UA-XXXXXX-Y | Y
 | ds | Source (mobile SDK) | [fixed] | app | Y
