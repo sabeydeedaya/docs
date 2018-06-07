@@ -7,10 +7,10 @@ Logo | Partner
 <a href="http://adactioninteractive.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aai-1524683044611.png)</a>| **AdAction Interactive**
 <a href="http://adacts.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adacts-1524762274169.png)</a>| **Adacts Digital**
 <a href="http://adbloom.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ab-1524762630391.png)</a>| **Adbloom**
-<a href="http://adcash.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/origin_08da80a1e1be4275-1508530733424.png)</a>| **Adcash**
-<a href="http://adcolony.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/adcolony-1513204502834.png)</a>| **AdColony**
-<a href="http://adikteev.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo_adikteev-1513039903349.png)</a>| **Adikteev**
-<a href="http://admitad.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/logo-admitad-1493136873359.png)</a>| **Admitad**
+<a href="http://adcash.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adcash_logo-1528402779787.png)</a>| **Adcash**
+<a href="http://adcolony.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366-1524683112325.png)</a>| **AdColony**
+<a href="http://adikteev.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/916-1528403002042.png)</a>| **Adikteev**
+<a href="http://admitad.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-admitad-1528403108145.png)</a>| **Admitad**
 <a href="http://www.admobs.in">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/292056402124361863/admobs-logo-new4-1526690621932.png)</a>| **Admobs**
 <a href="https://adsarmy.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/ads_army-1521759654549.png)</a>| **Ads Army**
 <a href="http://adshero.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/bqyR5Nx-1522106637247.png)</a>| **Ads Hero**
