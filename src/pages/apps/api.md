@@ -413,8 +413,8 @@
         | Key | Value | Usage | Required
         | --- | :-: | --- | :-:
         | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
-        | identity | `string` | Unique user id, also known as the `Developer Id` on your [Branch Identity Dashboard](https://dashboard.branch.io/liveview/identities) | √
-        | identity_id | `string` | Unique user id for Branch, also known as the `Branch Identity Id` on your [Branch Identity Dashboard](https://dashboard.branch.io/liveview/identities) | √
+        | identity | `string` | Unique user id, also known as the `Developer Id` | √
+        | identity_id | `string` | Unique user id for Branch, also known as the `Branch Identity Id` | √
 
 - ### User read
 
