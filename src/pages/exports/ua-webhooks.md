@@ -258,6 +258,8 @@ Here is some more example Freemarker for common templates:
 
 | Parent object | Common name | Freemarker |
 | - | - | - |
+| Bundle | Android Package Name | `${(bundle.android.package_name)!}` |
+| Bundle | iOS Bundle ID | `${(bundle.ios.bundle_id)!}` |
 | Last Attributed Touch Data | Feature | `${(last_attributed_touch_data.~feature)!}` |
 | Last Attributed Touch Data | Channel | `${(last_attributed_touch_data.~channel)!}` |
 | Last Attributed Touch Data | Campaign | `${(last_attributed_touch_data.~campaign)!}` |
