@@ -1,6 +1,6 @@
 ## Overview
 
-This guide will walk you through how to setup your campaigns with **[Jampp](https://jampp.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[AdAction Interactive](http://adactioninteractive.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
 
@@ -16,9 +16,11 @@ This guide will walk you through how to setup your campaigns with **[Jampp](http
 
 ![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
 
+{! ingredients/deep-linked-ads/add-credentials.md !}
+
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_postbacks.png)
+![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
