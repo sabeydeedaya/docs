@@ -182,6 +182,7 @@ pages:
     - MessageGears: pages/emails/messagegears.md
     - MoEngage: pages/emails/moengage.md
     - PostUp: pages/emails/postup.md
+    - Rapidmail: pages/emails/rapidmail.md
     - Responsys: pages/emails/responsys.md
     - Sailthru: pages/emails/sailthru.md
     - Salesforce: pages/emails/salesforce.md
