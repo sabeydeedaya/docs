@@ -48,4 +48,6 @@ This guide will walk you through how to setup your campaigns with **[AdAction In
 
 {! ingredients/deep-linked-ads/attribution_windows.md !}
 
+{! ingredients/deep-linked-ads/reset-ad-settings.md !}
+
 {! ingredients/deep-linked-ads/support.md !}
