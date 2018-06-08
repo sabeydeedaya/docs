@@ -105,6 +105,7 @@ Logo | Partner
 <a href="http://spykemedia.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/1-e1466007909243-1495751845237.png)</a>| **Spyke Media**
 <a href="http://stackadapt.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/8331ef7d-bfc8-4148-a118-50da0fc43f8f-1490739325404-1506381795896.png)</a>| **StackAdapt**
 <a href="https://www.startapp.com/">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1525108461961.png)</a>| **StartApp**
+<a href="https://stroeer.de">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1527885954205.png)</a>| **Ströer Mobile Performance**
 <a href="http://tab.company">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/unnamed-1502234001399.png)</a>| **TAB**
 <a href="http://taboola.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/taboola_logo-new-large-1500341960275.png)</a>| **Taboola**
 <a href="http://tapjoy.com">![image](https://cdn.branch.io/branch-assets/ad-partner-manager/Tapjoy-acquires-5Rocks-1493129616390.png)</a>| **Tapjoy**
