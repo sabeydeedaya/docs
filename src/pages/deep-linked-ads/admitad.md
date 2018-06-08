@@ -1,8 +1,8 @@
 ## Overview
 
-![XXX](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)
+![admitad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-admitad-1528403108145.png)
 
-This guide will walk you through how to setup your campaigns with **[XXX](https://XXX.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[AdmitAd](https://admitad.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
 
@@ -16,13 +16,13 @@ This guide will walk you through how to setup your campaigns with **[XXX](https:
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX_enable.png)
+![image](/img/pages/deep-linked-ads/admitad/admitad_enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX_postbacks.png)
+![image](/img/pages/deep-linked-ads/admitad/admitad_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

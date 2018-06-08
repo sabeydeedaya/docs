@@ -18,6 +18,8 @@ This guide will walk you through how to setup your campaigns with **[Jampp](http
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
+![image](/img/pages/deep-linked-ads/jampp/jampp_postbacks.png)
+
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}

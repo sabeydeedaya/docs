@@ -136,18 +136,30 @@ pages:
     - Text Me The App: pages/web/text-me-the-app.md
     - Hosted Deep Link Data: pages/web/hosted-data.md
   - Links in your paid ads:
+    - Universal Ads Partners:
+      - A4G: pages/deep-linked-ads/a4g.md
+      - Actionpay: pages/deep-linked-ads/actionpay.md
+      - Ad4Screen: pages/deep-linked-ads/ad4screen.md
+      - Adaction Interactive: pages/deep-linked-ads/adaction_interactive.md
+      - Adacts Digital: pages/deep-linked-ads/adacts_digital.md
+      - Adbloom: pages/deep-linked-ads/adbloom.md
+      - Adcash: pages/deep-linked-ads/adcash.md
+      - Adcolony: pages/deep-linked-ads/adcolony.md
+      - Adcolony Performance Media: pages/deep-linked-ads/adcolony_performance_media.md
+      - Adikteev: pages/deep-linked-ads/adikteev.md
+      - Admitad: pages/deep-linked-ads/admitad.md
+      - Admobs: pages/deep-linked-ads/admobs.md
+      - Criteo: pages/deep-linked-ads/criteo.md
+      - InMobi: pages/deep-linked-ads/inmobi.md
+      - Jampp: pages/deep-linked-ads/jampp.md
+      - MyTarget: pages/deep-linked-ads/mytarget.md
+      - Remerge: pages/deep-linked-ads/remerge.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
     - Apple Search: pages/deep-linked-ads/apple.md
     - Doubleclick: pages/deep-linked-ads/doubleclick.md
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
     - Google: pages/deep-linked-ads/google-ads-overview.md
     - Twitter: pages/deep-linked-ads/twitter.md
-    - Universal Ads Partners:
-      - Criteo: pages/deep-linked-ads/criteo.md
-      - InMobi: pages/deep-linked-ads/inmobi.md
-      - Jampp: pages/deep-linked-ads/jampp.md
-      - MyTarget: pages/deep-linked-ads/mytarget.md
-      - Remerge: pages/deep-linked-ads/remerge.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
