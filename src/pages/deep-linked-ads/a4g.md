@@ -1,6 +1,8 @@
 ## Overview
 
-This guide will walk you through how to setup your campaigns with **[A4G](http://a4g.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+![a4g](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)
+
+This guide will walk you through how to setup your campaigns with **[A4G](http://a4g.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
 
@@ -14,11 +16,11 @@ This guide will walk you through how to setup your campaigns with **[A4G](http:/
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/a4g/a4g_enable.png)
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/a4g/a4g_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

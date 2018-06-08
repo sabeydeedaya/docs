@@ -1,5 +1,7 @@
 ## Overview
 
+![adcolony_performance_media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366.png)
+
 This guide will walk you through how to setup your campaigns with **[AdColony Performance Media](http://adcolony.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
@@ -14,11 +16,11 @@ This guide will walk you through how to setup your campaigns with **[AdColony Pe
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/adcolony_performance_media/adcolony_performance_media_enable.png)
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/adcolony_performance_media/adcolony_performance_media_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

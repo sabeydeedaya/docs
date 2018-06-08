@@ -1,5 +1,7 @@
 ## Overview
 
+![admobs](https://cdn.branch.io/branch-assets/ad-partner-manager/292056402124361863/admobs-logo-new4-1526690621932.png)
+
 This guide will walk you through how to setup your campaigns with **[Admobs](http://www.admobs.in)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
@@ -14,11 +16,11 @@ This guide will walk you through how to setup your campaigns with **[Admobs](htt
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/admobs/admobs_enable.png)
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/admobs/admobs_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

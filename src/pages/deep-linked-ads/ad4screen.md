@@ -1,5 +1,7 @@
 ## Overview
 
+![ad4screen](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)
+
 This guide will walk you through how to setup your campaigns with **[Ad4Screen](http://ad4screen.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
@@ -14,11 +16,11 @@ This guide will walk you through how to setup your campaigns with **[Ad4Screen](
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/ad4screen/ad4screen_enable.png)
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/ad4screen/ad4screen_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -1,5 +1,7 @@
 ## Overview
 
+![adcash](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adcash_logo-1528402779787.png)
+
 This guide will walk you through how to setup your campaigns with **[Adcash](http://adcash.co)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
@@ -14,13 +16,13 @@ This guide will walk you through how to setup your campaigns with **[Adcash](htt
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/adcash/adcash_enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jampp/jampp_enable.png)
+![image](/img/pages/deep-linked-ads/adcash/adcash_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
