@@ -254,7 +254,7 @@ pages:
     - Legacy Webhooks: pages/exports/webhooks.md
     - Event Ontology: pages/exports/event_ontology_data_schema.md
     - New Data Integrations: pages/integrations/faq.md
-    - Ad Networks List: pages/ad-networks/ad-networks-list.md
+    - Universal Ads Partners: pages/ad-networks/ad-networks-list.md
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
