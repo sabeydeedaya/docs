@@ -235,24 +235,43 @@
         Branch.logout();
         ```
 
-- ### Track events
+- ### Tracking User Actions and Events
 
-    - ##### Track custom events
+Use BranchEvent class to track special user actions or application specific events beyond app installs, opens, and sharing. You can track events such as when a user adds an item to an on-line shopping cart, or searches for a keyword etc. BranchEvent provides an interface to add content(s) represented by a BranchUniversalObject in order to associate content(s) with events. You can view analytics for the BranchEvents you fire on the Branch dashboard. BranchEventType enumerate the most commonly tracked events and event parameters that can be used with BranchEvent for the best results. You can always use custom event names and event parameters.
 
-        ```csharp
-        Branch.userCompletedAction("your_custom_event");
-        ```
+```csharp
+BranchEvent e01 = new BranchEvent (BranchEventType.COMPLETE_REGISTRATION);
 
-    - ##### Store meta data with these custom events
+e01.SetAffiliation("my_affilation");
+e01.SetCoupon("my_coupon");
+e01.SetCurrency(BranchCurrencyType.USD);
+e01.SetTax(10.0f);
+e01.SetRevenue(100.0f);
+e01.SetShipping(1000.0f);
+e01.SetDescription("my_description");
+e01.SetSearchQuery("my_search_query");
+e01.AddCustomData("custom_data_key01", "custom_data_value01");
+e01.AddContentItem(universalObject);
 
-        ```csharp
-        Dictionary<string, object> stateItems = new Dictionary<string, object>
-        {
-            { "username", "Joe" },
-            { "description", "Joe likes long walks on the beach..." }
-        };
-        Branch.userCompletedAction("your_custom_event", stateItems); // same 63 characters max limit
-        ```
+Branch.sendEvent (e01);
+
+
+BranchEvent e02 = new BranchEvent ("MY_CUSTOM_EVENT");
+
+e02.SetAffiliation("my_affilation");
+e02.SetCoupon("my_coupon");
+e02.SetCurrency(BranchCurrencyType.USD);
+e02.SetTax(10.0f);
+e02.SetRevenue(100.0f);
+e02.SetShipping(1000.0f);
+e02.SetDescription("my_description");
+e02.SetSearchQuery("my_search_query");
+e02.AddCustomData("custom_data_key01", "custom_data_value01");
+e02.AddContentItem(universalObject);
+
+Branch.sendEvent (e02);
+```
+   
 
 - ### Handle referrals
 
