@@ -1,6 +1,8 @@
 ## Overview
 
-Track your Criteo campaigns using Universal Ads. Universal Ads provides everything you need for complete tracking, including rich data for the Criteo Engine to opimtize against.
+![Criteo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/criteo-1528518282717.png)
+
+This guide will walk you through how to setup your campaigns with **[Criteo](http://www.criteo.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. Universal Ads provides everything you need for complete tracking, including rich data for the Criteo Engine to opimtize against.
 
 The basic Criteo integration involves three parts:
 

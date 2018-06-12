@@ -1,85 +1,28 @@
 ## Overview
 
-This guide will walk you through how to integrate [MyTarget](https://target.my.com/) with Branch. 
+![myTarget](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mytar-1528505817002.png)
 
-Universal Ads provides everything you need for complete tracking, including rich data for the MyTarget Engine to opimtize against.
+This guide will walk you through how to setup your campaigns with **[myTarget](https://target.my.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
-The basic MyTarget integration involves three parts:
-
-1. Integrating the SDKs and tracking in-app events
-1. Enabling the integration and selecting postbacks
-1. Creating tracking links
+{! ingredients/deep-linked-ads/overview_steps.md !}
 
 ## Setup
 
 {! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
 
 {! ingredients/deep-linked-ads/conversion_events_tracking.md !}
+ 
+### Enable the integration
 
-### Enabling the integration and selecting postbacks
+{! ingredients/deep-linked-ads/enable_partner.md !}
 
-Once you've integrated the SDK and configured the relevant events, you can enable MyTarget in the dashboard. Follow the steps below for enabling an ad partner, and select MyTarget from the list.
+![image](/img/pages/deep-linked-ads/mytarget/mytarget_enable.png)
 
-1. Visit the [Ads page](https://dashboard.branch.io/ads) on the Branch dashboard.
-1. Select [Partner Management](https://dashboard.branch.io/ads/partner-management) from the sidebar.
-1. Search for MyTarget.
-    
-    ![image](/img/pages/deep-linked-ads/mytarget/search-mytarget.png)
+{! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-1. Click **Save and Enable**.
+![image](/img/pages/deep-linked-ads/mytarget/mytarget_postbacks.png)
 
-    ![image](/img/pages/deep-linked-ads/mytarget/mytarget-postbacks.png)
-
-    !!! note "Enable postbacks"
-        Postbacks will be automatically activated for the events listed above when you enable the integration. You can always [add additional postbacks](#adding-postbacks) or [edit postbacks](#editing-postbacks), as described below in the Advanced section.
-
-    !!! warning "Limitations with setDebug and seeing data in Branch"
-        When integrating the SDKs, it's often useful to use setDebug to verify that your app is able to communicate with Branch servers, and is receiving deep link data. However, our upstream systems don't register test events sent using setDebug, so events will not appear in Liveview or Analytics, nor will they fire postbacks. You should disable setDebug when looking at Liveview or testing postbacks.
-
-
-
-### Creating tracking links
-
-MyTarget requires separate links for every platform - to create a tracking follow the normal link creation flow and add platform and partner specific parameters on Deep Linking tab.
-
-1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format. For Search or Display campaigns where the user should go to web if they don't have the app, then you should select **Cross-Platform Search** or **Cross-Platform Display**. **Product Links** are for shopping or dynamic remarketing campaigns and will take you to create a Deep Linked Product Feed.
-
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/choose-ad-format.png)
-
-1. At this point you need to name your link. Select something that will make it easy to find if you need it later. Your Ad Format and Ad Partner should be selected already, but feel free to choose one if they aren't. It's important that you select the right Ad Partner for analytics later on. Click **Configure Options** to continue.
-
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/name-ad-link.png)
-
-1. In the Deep Linking tab of the link creator make sure to add the following key-value pairs, based on which platform the link is going to be used for. If these values are not added to the link, myTarget will block your links.
-
-#### iOS 
-Key | Value 
---- | --- 
-$redirect_store_id | iTunes ID (example id917737838)
-$http_redirect_only | true 
-
-![image](/img/pages/deep-linked-ads/mytarget/ios-link-data.png)
-
-#### Android
-Key | Value 
---- | --- 
-$redirect_store_id | Android App ID (example io.branch.branchster)
-$http_redirect_only | true 
-
-![image](/img/pages/deep-linked-ads/mytarget/android-link-data.png)
-
-1. This is also your chance to add deep link data and analytics tags. Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
-
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/add-analytics-tags.png)
-
-    !!! tip "Set Analytics tags"
-
-        It's easier to slice your data in our analytics platform if you properly assign analytics parameters to your link. _Channels_ generally correspond to ad networks, and _Campaigns_ correspond to marketing initiatives that you're launching. For example: _Channel_: "YouTube", _Campaign_: "Summer 2017 Shoe Discounts."
-
-1. Click **Create Link Now**, and you have your tracking link! Take this link and give it to your Ad Partner's Account Manager or paste it into the tracking section of your campaign yourself.
-
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/finished-ad-link.png)
-
+{! ingredients/deep-linked-ads/mytarget-create-ad-link.md !}
 
 ### Create MyTarget campaign
 
@@ -89,10 +32,33 @@ $http_redirect_only | true
 
 For example:
 Tracking link from Branch:
-https://branchster.app.link/ct8eUb3utF?%243p=a_mytarget&banner_id={{banner_id}}&~ad_set_id={{banner_id}}&~campaign={{campaign_name}}&~campaign_id={{campaign_id}}&~click_id={clickid}&~secondary_publisher={{advertiser_id}}
+
+``https://branchster.app.link/ct8eUb3utF?%243p=a_mytarget&banner_id={{banner_id}}&~ad_set_id={{banner_id}}&~campaign={{campaign_name}}&~campaign_id={{campaign_id}}&~click_id={clickid}&~secondary_publisher={{advertiser_id}}``
 
 ![image](/img/pages/deep-linked-ads/mytarget/create-campaign.png)
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
-{! ingredients/deep-linked-ads/ua-advanced-setup.md !}
+{! ingredients/deep-linked-ads/people-based-attribution.md !}
+
+{! ingredients/deep-linked-ads/view-through-attribution.md !}
+
+## Advanced
+
+### Add more postbacks
+
+{! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
+
+### Send All/Attributed events
+
+{! ingredients/deep-linked-ads/all-events-toggle.md !}
+
+{! ingredients/deep-linked-ads/edit-postbacks.md !}
+
+{! ingredients/deep-linked-ads/tracking-link-params.md !}
+
+{! ingredients/deep-linked-ads/attribution_windows.md !}
+
+{! ingredients/deep-linked-ads/reset-ad-settings.md !}
+
+{! ingredients/deep-linked-ads/support.md !}
