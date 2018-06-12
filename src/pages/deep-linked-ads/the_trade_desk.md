@@ -20,6 +20,10 @@ This guide will walk you through how to setup your campaigns with **[The Trade D
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
+A hypothetical example of a partner UI configuration page might look like:
+
+![The_Trade_Desk_dashboard](/img/pages/deep-linked-ads/the_trade_desk/the_trade_desk_dashboard.png)
+
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
 ![image](/img/pages/deep-linked-ads/the_trade_desk/the_trade_desk_postbacks.png)
