@@ -281,6 +281,7 @@ pages:
     - Bronto: pages/emails/bronto.md
     - Campaign Monitor: pages/emails/campaign-monitor.md
     - Cheetah Digital Marketing Suite: pages/emails/cheetah-digital-marketing-suite.md
+    - Oracle Eloqua: pages/emails/eloqua.md
     - Epsilon: pages/emails/epsilon.md
     - Iterable: pages/emails/iterable.md
     - Kahuna: pages/emails/kahuna.md
