@@ -136,72 +136,140 @@ pages:
     - Text Me The App: pages/web/text-me-the-app.md
     - Hosted Deep Link Data: pages/web/hosted-data.md
   - Links in your paid ads:
-    - Universal Ads Partners:
-      - A4G: pages/deep-linked-ads/a4g.md
-      - Actionpay: pages/deep-linked-ads/actionpay.md
-      - Ad4Screen: pages/deep-linked-ads/ad4screen.md
-      - Adaction Interactive: pages/deep-linked-ads/adaction_interactive.md
-      - Adacts Digital: pages/deep-linked-ads/adacts_digital.md
-      - Adbloom: pages/deep-linked-ads/adbloom.md
-      - Adcash: pages/deep-linked-ads/adcash.md
-      - Adcolony: pages/deep-linked-ads/adcolony.md
-      - Adcolony Performance Media: pages/deep-linked-ads/adcolony_performance_media.md
-      - Adikteev: pages/deep-linked-ads/adikteev.md
-      - Admitad: pages/deep-linked-ads/admitad.md
-      - Admobs: pages/deep-linked-ads/admobs.md
-      - Ads Army: pages/deep-linked-ads/ads_army.md
-      - Ads Hero: pages/deep-linked-ads/ads_hero.md
-      - Adsterra Network: pages/deep-linked-ads/adsterra_network.md
-      - Adxperience: pages/deep-linked-ads/adxperience.md
-      - Affise: pages/deep-linked-ads/affise.md
-      - App Samurai: pages/deep-linked-ads/app_samurai.md
-      - Appier: pages/deep-linked-ads/appier.md
-      - Applift: pages/deep-linked-ads/applift.md
-      - Applovin: pages/deep-linked-ads/applovin.md
-      - Appnext: pages/deep-linked-ads/appnext.md
-      - Art of Click: pages/deep-linked-ads/art_of_click.md
-      - Avazu: pages/deep-linked-ads/avazu.md
-      - Avow: pages/deep-linked-ads/avow.md
-      - Awin: pages/deep-linked-ads/awin.md
-      - Beintoo: pages/deep-linked-ads/beintoo.md
-      - Billy Mobile: pages/deep-linked-ads/billy_mobile.md
-      - Blind Ferret Incent: pages/deep-linked-ads/blind_ferret_incent.md
-      - Blind Ferret Non-Incent: pages/deep-linked-ads/blind_ferret_non-incent.md
-      - Centro: pages/deep-linked-ads/centro.md
-      - CJ Affiliate: pages/deep-linked-ads/cj_affiliate.md
-      - Claymotion: pages/deep-linked-ads/claymotion.md
-      - Clickadu: pages/deep-linked-ads/clickadu.md
-      - Clickky: pages/deep-linked-ads/clickky.md
-      - Clinch: pages/deep-linked-ads/clinch.md
-      - Connected Interactive: pages/deep-linked-ads/connected_interactive.md
-      - Conversant Media: pages/deep-linked-ads/conversant_media.md
-      - Criteo: pages/deep-linked-ads/criteo.md
-      - crobo: pages/deep-linked-ads/crobo.md
-      - CrossInstall: pages/deep-linked-ads/crossinstall.md
-      - DataXu: pages/deep-linked-ads/dataxu.md
-      - Digital Remedy: pages/deep-linked-ads/digital_remedy.md
-      - Digital Turbine: pages/deep-linked-ads/digital_turbine.md
-      - Display.io: pages/deep-linked-ads/display_io.md
-      - Doozymob: pages/deep-linked-ads/doozymob.md
-      - Drawbridge: pages/deep-linked-ads/drawbridge.md
-      - Espire: pages/deep-linked-ads/espire.md
-      - FeedMob: pages/deep-linked-ads/feedmob.md
-      - Fyber: pages/deep-linked-ads/fyber.md
-      - Gamespipe: pages/deep-linked-ads/gamespipe.md
-      - GeistM: pages/deep-linked-ads/geistm.md
-      - Getloyal: pages/deep-linked-ads/getloyal.md
-      - Glispa: pages/deep-linked-ads/glispa.md
-      - GlobalWide Media: pages/deep-linked-ads/globalwide_media.md
-      - InMobi: pages/deep-linked-ads/inmobi.md
-      - Jampp: pages/deep-linked-ads/jampp.md
-      - MyTarget: pages/deep-linked-ads/mytarget.md
-      - Remerge: pages/deep-linked-ads/remerge.md
+    - Universal Ads Partners: pages/deep-linked-ads/ad-networks-list.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
+    - A4G: pages/deep-linked-ads/a4g.md
+    - Actionpay: pages/deep-linked-ads/actionpay.md
+    - Ad4Screen: pages/deep-linked-ads/ad4screen.md
+    - Adaction Interactive: pages/deep-linked-ads/adaction_interactive.md
+    - Adacts Digital: pages/deep-linked-ads/adacts_digital.md
+    - Adbloom: pages/deep-linked-ads/adbloom.md
+    - Adcash: pages/deep-linked-ads/adcash.md
+    - Adcolony: pages/deep-linked-ads/adcolony.md
+    - Adcolony Performance Media: pages/deep-linked-ads/adcolony_performance_media.md
+    - Adikteev: pages/deep-linked-ads/adikteev.md
+    - Admitad: pages/deep-linked-ads/admitad.md
+    - Admobs: pages/deep-linked-ads/admobs.md
+    - Ads Army: pages/deep-linked-ads/ads_army.md
+    - Ads Hero: pages/deep-linked-ads/ads_hero.md
+    - Adsterra Network: pages/deep-linked-ads/adsterra_network.md
+    - Adxperience: pages/deep-linked-ads/adxperience.md
+    - Affise: pages/deep-linked-ads/affise.md
+    - App Samurai: pages/deep-linked-ads/app_samurai.md
+    - Appier: pages/deep-linked-ads/appier.md
     - Apple Search: pages/deep-linked-ads/apple.md
+    - Applift: pages/deep-linked-ads/applift.md
+    - Applovin: pages/deep-linked-ads/applovin.md
+    - Appnext: pages/deep-linked-ads/appnext.md
+    - Art of Click: pages/deep-linked-ads/art_of_click.md
+    - Avazu: pages/deep-linked-ads/avazu.md
+    - Avow: pages/deep-linked-ads/avow.md
+    - Awin: pages/deep-linked-ads/awin.md
+    - Beintoo: pages/deep-linked-ads/beintoo.md
+    - Billy Mobile: pages/deep-linked-ads/billy_mobile.md
+    - Blind Ferret Incent: pages/deep-linked-ads/blind_ferret_incent.md
+    - Blind Ferret Non-Incent: pages/deep-linked-ads/blind_ferret_non-incent.md
+    - Centro: pages/deep-linked-ads/centro.md
+    - CJ Affiliate: pages/deep-linked-ads/cj_affiliate.md
+    - Claymotion: pages/deep-linked-ads/claymotion.md
+    - Clickadu: pages/deep-linked-ads/clickadu.md
+    - Clickky: pages/deep-linked-ads/clickky.md
+    - Clinch: pages/deep-linked-ads/clinch.md
+    - Connected Interactive: pages/deep-linked-ads/connected_interactive.md
+    - Conversant Media: pages/deep-linked-ads/conversant_media.md
+    - Criteo: pages/deep-linked-ads/criteo.md
+    - crobo: pages/deep-linked-ads/crobo.md
+    - CrossInstall: pages/deep-linked-ads/crossinstall.md
+    - DataXu: pages/deep-linked-ads/dataxu.md
+    - Digital Remedy: pages/deep-linked-ads/digital_remedy.md
+    - Digital Turbine: pages/deep-linked-ads/digital_turbine.md
+    - Display.io: pages/deep-linked-ads/display_io.md
+    - Doozymob: pages/deep-linked-ads/doozymob.md
     - Doubleclick: pages/deep-linked-ads/doubleclick.md
+    - Drawbridge: pages/deep-linked-ads/drawbridge.md
+    - Espire: pages/deep-linked-ads/espire.md
     - Facebook: pages/deep-linked-ads/facebook-ads-overview.md
-    - Google: pages/deep-linked-ads/google-ads-overview.md
+    - FeedMob: pages/deep-linked-ads/feedmob.md
+    - Fyber: pages/deep-linked-ads/fyber.md
+    - Gamespipe: pages/deep-linked-ads/gamespipe.md
+    - GeistM: pages/deep-linked-ads/geistm.md
+    - Getloyal: pages/deep-linked-ads/getloyal.md
+    - Glispa: pages/deep-linked-ads/glispa.md
+    - GlobalWide Media: pages/deep-linked-ads/globalwide_media.md
+    - Google Adwords: pages/deep-linked-ads/google-ads-overview.md
+    - Hybrid: pages/deep-linked-ads/hybrid.md
+    - Impact Radius: pages/deep-linked-ads/impact_radius.md
+    - Inflecto Media: pages/deep-linked-ads/inflecto_media.md
+    - InMobi: pages/deep-linked-ads/inmobi.md
+    - Instal: pages/deep-linked-ads/instal.md
+    - IronSource: pages/deep-linked-ads/ironsource.md
+    - Jampp: pages/deep-linked-ads/jampp.md
+    - JetFuel Ads: pages/deep-linked-ads/jetfuel_ads.md
+    - Kiip: pages/deep-linked-ads/kiip.md
+    - Liftoff: pages/deep-linked-ads/liftoff.md
+    - Magnet: pages/deep-linked-ads/magnet.md
+    - Manage: pages/deep-linked-ads/manage.md
+    - MediaMath: pages/deep-linked-ads/mediamath.md
+    - Minimob: pages/deep-linked-ads/minimob.md
+    - MobAir: pages/deep-linked-ads/mobair.md
+    - Mobio: pages/deep-linked-ads/mobio.md
+    - Mobobeat: pages/deep-linked-ads/mobobeat.md
+    - MoBrain: pages/deep-linked-ads/mobrain.md
+    - MobUpps: pages/deep-linked-ads/mobupps.md
+    - Mobusi: pages/deep-linked-ads/mobusi.md
+    - Mobvista: pages/deep-linked-ads/mobvista.md
+    - MobX: pages/deep-linked-ads/mobx.md
+    - Moloco: pages/deep-linked-ads/moloco.md
+    - Motive: pages/deep-linked-ads/motive.md
+    - Mozoo: pages/deep-linked-ads/mozoo.md
+    - Mpire Network: pages/deep-linked-ads/mpire_network.md
+    - MundoMedia: pages/deep-linked-ads/mundomedia.md
+    - myTarget: pages/deep-linked-ads/mytarget.md
+    - NativeX: pages/deep-linked-ads/nativex.md
+    - Netcore Solutions: pages/deep-linked-ads/netcore_solutions.md
+    - Oplytic: pages/deep-linked-ads/oplytic.md
+    - Pepperjam: pages/deep-linked-ads/pepperjam.md
+    - Performance Horizon: pages/deep-linked-ads/performance_horizon.md
+    - Phunware: pages/deep-linked-ads/phunware.md
+    - Picnic Media: pages/deep-linked-ads/picnic_media.md
+    - Pinisight: pages/deep-linked-ads/pinisight.md
+    - Pocketmath: pages/deep-linked-ads/pocketmath.md
+    - Prappers: pages/deep-linked-ads/prappers.md
+    - ProfiliAd: pages/deep-linked-ads/profiliad.md
+    - Propeller Ads: pages/deep-linked-ads/propeller_ads.md
+    - Quora: pages/deep-linked-ads/quora.md
+    - RankMyApp: pages/deep-linked-ads/rankmyapp.md
+    - Raykaad: pages/deep-linked-ads/raykaad.md
+    - Remerge: pages/deep-linked-ads/remerge.md
+    - RevX: pages/deep-linked-ads/revx.md
+    - Sabio Mobile: pages/deep-linked-ads/sabio_mobile.md
+    - ShopBack: pages/deep-linked-ads/shopback.md
+    - Smadex: pages/deep-linked-ads/smadex.md
+    - Sonarclick: pages/deep-linked-ads/sonarclick.md
+    - Spyke Media: pages/deep-linked-ads/spyke_media.md
+    - StackAdapt: pages/deep-linked-ads/stackadapt.md
+    - StartApp: pages/deep-linked-ads/startapp.md
+    - Ströer Mobile Performance: pages/deep-linked-ads/stroer_mobile_performance.md
+    - TAB: pages/deep-linked-ads/tab.md
+    - Taboola: pages/deep-linked-ads/taboola.md
+    - Tapjoy: pages/deep-linked-ads/tapjoy.md
+    - Tapsell: pages/deep-linked-ads/tapsell.md
+    - Taptica: pages/deep-linked-ads/taptica.md
+    - The Trade Desk: pages/deep-linked-ads/the_trade_desk.md
+    - Times Internet Limited: pages/deep-linked-ads/times_internet_limited.md
     - Twitter: pages/deep-linked-ads/twitter.md
+    - Tyroo: pages/deep-linked-ads/tyroo.md
+    - Unilead Network: pages/deep-linked-ads/unilead_network.md
+    - Unity: pages/deep-linked-ads/unity.md
+    - Ventes Avenues: pages/deep-linked-ads/ventes_avenues.md
+    - Vishibility: pages/deep-linked-ads/vishibility.md
+    - Vungle: pages/deep-linked-ads/vungle.md
+    - Wakeapp: pages/deep-linked-ads/wakeapp.md
+    - Yandex Direct: pages/deep-linked-ads/yandex_direct.md
+    - YeahMobi: pages/deep-linked-ads/yeahmobi.md
+    - YouAppi: pages/deep-linked-ads/youappi.md
+    - YouAppi Retargeting: pages/deep-linked-ads/youappi_retargeting.md
+    - Zorka Mobi: pages/deep-linked-ads/zorka_mobi.md
   - Links in your emails:
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
@@ -296,7 +364,6 @@ pages:
     - Legacy Webhooks: pages/exports/webhooks.md
     - Event Ontology: pages/exports/event_ontology_data_schema.md
     - New Data Integrations: pages/integrations/faq.md
-    - Universal Ads Partners: pages/ad-networks/ad-networks-list.md
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md

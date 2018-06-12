@@ -4,7 +4,7 @@ This guide will walk you through how to setup your campaigns using Branch Univer
 
 ### Ad Partners
 
-Here is a list of integrated [Universal Ads Partners](/pages/ad-networks/ad-networks-list/).
+Here is a list of integrated [Universal Ads Partners](/pages/deep-linked-ads/ad-networks-list.md).
 
 
 !!! note "Paid Product"

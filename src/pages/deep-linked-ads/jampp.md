@@ -1,6 +1,8 @@
 ## Overview
 
-This guide will walk you through how to setup your campaigns with **[Jampp](https://jampp.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+![Jampp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/jampp-1528308771519.png)
+
+This guide will walk you through how to setup your campaigns with **[Jampp](http://jampp.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
 

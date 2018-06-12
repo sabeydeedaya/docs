@@ -8,7 +8,9 @@ source: google-ads-overview.md
 
 ## Overview
 
-With Branch, you can integrate with AdWords, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dahsboard.
+![Google_Adwords](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adwords-1528518485386.png)
+
+With Branch, you can integrate with **[AdWords](https://adwords.google.com/)**, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dahsboard.
 
 This document covers the new AdWords experience. If you are using the old experience, be sure to switch to the new experience.
 
