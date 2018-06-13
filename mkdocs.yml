@@ -271,6 +271,7 @@ pages:
     - YouAppi Retargeting: pages/deep-linked-ads/youappi_retargeting.md
     - Zorka Mobi: pages/deep-linked-ads/zorka_mobi.md
   - Links in your emails:
+    - Email Partners: pages/emails/email-partners-list.md
     - Get Started: pages/emails/get-started.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
     - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
