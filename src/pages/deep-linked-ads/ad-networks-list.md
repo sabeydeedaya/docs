@@ -19,6 +19,7 @@ Logo | Partner
 <a href="https://adsterra.com/" target="_blank">![Adsterra_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Adsterra-1528497762467.png)</a>| **Adsterra Network**
 <a href="https://adxperience.com/" target="_blank">![Adxperience](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adxperience-1524620442557.png)</a>| **Adxperience**
 <a href="https://affise.com/" target="_blank">![Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/affise-1528497847994.png)</a>| **Affise**
+<a href="http://www.affle.com" target="_blank">![Affle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/affle_123-1528407257224.png)</a>| **Affle**
 <a href="http://www.appsamurai.com" target="_blank">![App_Samurai](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/as-logotype-color-1524959500790.png)</a>| **App Samurai**
 <a href="http://www.appier.com/en/index.html" target="_blank">![Appier](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appier-1528497934384.png)</a>| **Appier**
 <a href="https://searchads.apple.com/" target="_blank">![Apple](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/search_ads-1528501330030.png)</a>| **Apple**
