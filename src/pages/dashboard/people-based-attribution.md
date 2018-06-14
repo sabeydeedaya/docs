@@ -128,7 +128,7 @@ Universal Ads were introduced using the new People-Based Analytics platform, so 
 
 ### Liveview
 
-Liveview hasn't changed much, but we've introduced an improved CSV export that reflects these new data models.
+The new Liveview makes debugging even easier. It includes advanced filtering that allows you to restrict down to specific event names (e.g. PURCHASE) and even individual devices (e.g. IDFA). [Learn more](/pages/exports/pba-liveview/).
 
 ### Data Integrations
 
