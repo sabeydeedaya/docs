@@ -37,6 +37,7 @@ Logo | Partner
 <a href="https://www.centro.net/" target="_blank">![Centro](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/centro-1528501587665.png)</a>| **Centro**
 <a href="http://www.cj.com/" target="_blank">![CJ_Affiliate](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/cj-1528501598607.png)</a>| **CJ Affiliate**
 <a href="http://www.claymotion.in" target="_blank">![Claymotion](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/claymotion-1528501611677.png)</a>| **Claymotion**
+<a href="http://www.click2commission.com" target="_blank">![Click2Commission](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/c2c-HD-logo-1528847880292.png)</a>| **Click2Commission**
 <a href="https://www.clickadu.com/" target="_blank">![Clickadu](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickadu-1528501636823.png)</a>| **Clickadu**
 <a href="https://clickky.biz/" target="_blank">![Clickky](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickky-1528501647002.png)</a>| **Clickky**
 <a href="http://clinch.co" target="_blank">![Clinch](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
