@@ -128,6 +128,7 @@ pages:
   - Track analytics:
     - Dashboard analytics: pages/dashboard/analytics.md
     - New Dashboard Analytics: pages/dashboard/people-based-attribution.md
+    - Liveview: pages/exports/pba-liveview.md
     - Time zone support: pages/dashboard/timezone.md
   - Links on your website:
     - Deepviews: pages/web/deep-views.md
@@ -342,7 +343,6 @@ pages:
       - Webhooks: pages/exports/ua-webhooks.md
       - Query API: pages/exports/query-api.md
       - Query Recipe Book: pages/exports/query-recipe-book.md
-    - Liveview: pages/exports/pba-liveview.md
   - Branch Matching Overview: pages/resources/matching.md
   - Validation Tools: pages/resources/validation-tools.md
   - Case Studies and Infographics: pages/resources/case-studies.md
