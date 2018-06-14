@@ -1,14 +1,8 @@
 ## Overview
 
-This guide will walk you through how to setup your campaigns using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+![Pepperjam](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Pepperjam-1528507801005.png)
 
-### Ad Partners
-
-Here is a list of integrated [Universal Ads Partners](/pages/deep-linked-ads/ad-networks-list.md).
-
-
-!!! note "Paid Product"
-    Ads is a premium product priced on Monthly Active Users. [Sign up](https://branch.io/universal-ads/) for the Ads product to enable this functionality.
+This guide will walk you through how to setup your campaigns with **[Pepperjam](https://www.pepperjam.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview_steps.md !}
 
@@ -22,13 +16,11 @@ Here is a list of integrated [Universal Ads Partners](/pages/deep-linked-ads/ad-
 
 {! ingredients/deep-linked-ads/enable_partner.md !}
 
-![image](/img/pages/deep-linked-ads/noname/noname_enable.png)
-
-{! ingredients/deep-linked-ads/add-credentials.md !}
+![image](/img/pages/deep-linked-ads/pepperjam/pepperjam_enable.png)
 
 {! ingredients/deep-linked-ads/enable_partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/noname/noname_postbacks.png)
+![image](/img/pages/deep-linked-ads/pepperjam/pepperjam_postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
@@ -53,5 +45,7 @@ Here is a list of integrated [Universal Ads Partners](/pages/deep-linked-ads/ad-
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
 
 {! ingredients/deep-linked-ads/attribution_windows.md !}
+
+{! ingredients/deep-linked-ads/reset-ad-settings.md !}
 
 {! ingredients/deep-linked-ads/support.md !}
