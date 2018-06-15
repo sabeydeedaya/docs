@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0; url=/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/" />
