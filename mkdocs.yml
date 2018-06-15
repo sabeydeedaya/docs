@@ -373,3 +373,5 @@ pages:
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
     - Tracking Link Parameters: pages/deep-linked-ads/url_params.md
+    - Criteo: pages/deep-linked-ads/criteo.md
+    - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
