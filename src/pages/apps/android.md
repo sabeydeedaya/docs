@@ -929,7 +929,7 @@
 
 - ### Enable / Disable User Tracking
 
-    If you need to comply with a user's request to not be tracked, utilize this field to prevent Branch from sending network requests. By calling the below function, this will persist at the SDK level.
+    If you need to comply with a user's request to not be tracked for GDPR purposes, or otherwise determine that a user should not be tracked, utilize this field to prevent Branch from sending network requests. This setting can also be enabled across all users for a particular link, or across your Branch links.
 
     ```java
     Branch.getInstance().disableTracking(true);
