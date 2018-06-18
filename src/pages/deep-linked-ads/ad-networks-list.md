@@ -121,6 +121,7 @@ Logo | Partner
 <a href="http://tapjoy.com" target="_blank">![Tapjoy](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tapjoy-logo-1524796724959.png)</a>| **Tapjoy**
 <a href="https://tapsell.ir/?lang=en" target="_blank">![Tapsell](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Tapsel-logo1-1528510055346.png)</a>| **Tapsell**
 <a href="http://taptica.com" target="_blank">![Taptica](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Taptica_Logo-1524764688949.png)</a>| **Taptica**
+<a href="http://teads.tv" target="_blank">![Teads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aaa-1528143294665.png)</a>| **Teads**
 <a href="https://www.thetradedesk.com/" target="_blank">![The_Trade_Desk](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/TTD-Logo-1528510078241.png)</a>| **The Trade Desk**
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times_Internet_Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>| **Times Internet Limited**
 <a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>| **Twitter**
@@ -138,4 +139,3 @@ Logo | Partner
 <a href="https://zorka.mobi/en" target="_blank">![Zorka_Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)</a>| **Zorka Mobi**
 
 Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/gsCV0dTwExB4LZ4e2)**
-
