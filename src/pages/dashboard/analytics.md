@@ -25,7 +25,7 @@
 - ### User value attribution
     - Measure app growth through automatic `event tracking` and `user identity` tracking
     - Use [Configure you app](#dialog-code?ios=track-events&android=track-events&adobe=track-events&cordova=track-events&mparticleAndroid=track-events&mparticleIos=track-events&titanium=track-events&reactNative=track-events&unity=track-events&xamarin=track-events) to send events and user information (`email`, `ID`, `UUID`, etc) from your app to the [Branch dashboard](https://dashboard.branch.io/)
-    - The `identity` is retroactively associate any previously recorded events
+    - The `identity` is retroactively associated with any previously recorded events
     - Define all the custom events (`signups`, `purchases`, `shares`, etc.) you want to track
     - Branch automatically creates certain events whenever a user accesses your site or your app:
 
