@@ -450,6 +450,8 @@
 
 ## Referral
 
+!!! warning "Please create a user with `$identity_id` before you create a referral link with the same `$identity_id`
+
 - ### Referral link
 
     - [Create a user](#user-create) with an `$identity_id`
