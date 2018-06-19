@@ -1002,9 +1002,10 @@ Next, go through and choose the following countries: `United States`, `Canada`, 
 Save and continue!
 
 ## Journeys and GDPR
-In order to help our customers comply with [GDPR](https://branch.io/gdpr/), we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. 
+In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links.
 
 If you enable that mode, you can still display some Journeys to your users. Whether or not a Journey will display for users in Do Not Track mode depends on the targeting criteria you’ve defined for that Journey. If the Journey uses any of the following audience filters, it will *not* display for users in Do Not Track mode. Otherwise, the Journey will display.
+
 * Has completed event
 * Has visited web
 * Has visited the app
