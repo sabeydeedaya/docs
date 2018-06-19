@@ -93,7 +93,7 @@
             }
           ]'
         ```
-        
+
     - *Response*
 
         ```js
@@ -113,7 +113,7 @@
         | --- | :-: | --- | :-:
         | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
         | ... | ... | Parameters from [Configuring Links](/pages/links/integrate/) |
-        
+
     - Bulk link creator is limited to `1000` links at a time
 
 - ### Link read
@@ -249,7 +249,7 @@
 
     - A link's `data` object is overwritten entirely by the [Link update](#link-update) API, so make sure to include all of the link's data when updating it (not just the data you're changing)
     - To update links in bulk, combine the [Link update](#link-update) and [Link read](#link-read) APIs when creating a script.  The sample Python script below reads a 2-column CSV file, and updates a key specified in the script for all links listed in column A, with the values in column B:
-    
+
           ```python
           import requests
           import csv
@@ -451,6 +451,9 @@
 ## Referral
 
 - ### Referral link
+
+    !!! warning "Create a user before creating a link"
+        Please create a user with `$identity_id` before you create a referral link with the same `$identity_id`
 
     - [Create a user](#user-create) with an `$identity_id`
 
