@@ -105,7 +105,7 @@ In the above snippet, `this` is the Activity context.
 ### What Branch Sends to Segment
 
 | Property | Value | Sourced from | Example
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | ---
 | event | Branch event | event name | branch_OPEN
 | event_id | Unique ID for the event | Branch event ID | 469939270182891107
 | properties | Branch Link Data Dictionary | Last Attributed Touch Data for the link to which the event was attributed | "campaign": "Segment test", "channel": "Slack"
