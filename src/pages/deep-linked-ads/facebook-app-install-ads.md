@@ -21,8 +21,8 @@ Consideration | App Installs | App Only: Install
 #### Facebook Campaign Advert Format Support Table
 
 Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dynamic | Canvas
---- | --- | --- | --- | --- | --- | ---
-App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  | ✔︎
+--- | --- | --- | --- | --- | --- | --- | ---
+App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 
 {! ingredients/deep-linked-ads/link-to-facebook-ads-overview.md !}
 
