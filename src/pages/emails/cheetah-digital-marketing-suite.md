@@ -35,18 +35,17 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 **iOS:** Add the following code inside the `deepLinkHandler` code block in `application:didFinishLaunchingWithOptions`
 
 ```objc
-[branch registerFacebookDeepLinkingClass:[FBSDKAppLinkUtility class]];
-    [branch initSessionWithLaunchOptions:launchOptions
-        andRegisterDeepLinkHandlerUsingBranchUniversalObject:
-            ^ (BranchUniversalObject *BUO, BranchLinkProperties *linkProperties, NSError *error) {
+[branch initSessionWithLaunchOptions:launchOptions
+    andRegisterDeepLinkHandlerUsingBranchUniversalObject:
+        ^ (BranchUniversalObject *BUO, BranchLinkProperties *linkProperties, NSError *error) {
 
-                if (linkProperties.controlParams[@"$3p"] &&
-                    linkProperties.controlParams[@"$web_only"]) {
-                    NSURL *url = [NSURL URLWithString:linkProperties.controlParams[@"$original_url"]];
-                    if (url) {
-
-                                    //Open the WebView using url string
-                   }
+            if (linkProperties.controlParams[@"$3p"] &&
+                linkProperties.controlParams[@"$web_only"]) {
+                NSURL *url = [NSURL URLWithString:linkProperties.controlParams[@"$original_url"]];
+                if (url) {
+                        //Open the WebView using url string
+                }
+            }
 ```
 
 **Android:** Add the following code inside `protected void onStart()`
