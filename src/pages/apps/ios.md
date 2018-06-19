@@ -190,63 +190,25 @@
     - *Swift 3*
 
         ```swift
-        // required: canonicalIdentifier or title
-        // recommended: title, contentDescription, imageUrl for social media cards
-        let buo = BranchUniversalObject(canonicalIdentifier: "content/123")
-        buo.canonicalUrl = "https://example.com/content/123"
-        buo.title = "Content 123 Title"
-        buo.contentDescription = "Content 123 Description \(Date())"
-        buo.imageUrl = "http://lorempixel.com/400/400/"
-        buo.keywords = ["awesome", "things"]
-
-        // index on Apple Spotlight
-        buo.locallyIndex = true
-
-        // index on Google, Branch, etc
+        let buo = BranchUniversalObject.init(canonicalIdentifier: "content/12345")
+        buo.title = "My Content Title"
+        buo.contentDescription = "My Content Description"
+        buo.imageUrl = "https://lorempixel.com/400/400"
         buo.publiclyIndex = true
-
-        // additional object details
-        buo.contentMetadata.contentSchema = .commerceRestaurant
-        buo.contentMetadata.quantity = 12
-        buo.contentMetadata.price = 33.44
-        buo.contentMetadata.currency = .USD
-        buo.contentMetadata.sku = "123"
-        buo.contentMetadata.productName = "grapes"
-        buo.contentMetadata.productBrand = "welch"
-        buo.contentMetadata.productCategory = BNCProductCategory.foodBeverageTobacco
-        buo.contentMetadata.productVariant = "bulk"
-        buo.contentMetadata.condition = .good
-        buo.contentMetadata.ratingAverage = 4.5
-        buo.contentMetadata.ratingCount = 78
-        buo.contentMetadata.ratingMax = 5
-        buo.contentMetadata.addressStreet = "123 Over Here"
-        buo.contentMetadata.addressCity = "Austin"
-        buo.contentMetadata.addressRegion = "Texas"
-        buo.contentMetadata.addressCountry = "USA"
-        buo.contentMetadata.addressPostalCode = "76035"
-        buo.contentMetadata.latitude = 30.267153
-        buo.contentMetadata.longitude = -97.743061
-
-        // custom key-value pairs
-        buo.contentMetadata.imageCaptions = ["awesome", "things"]
-        buo.contentMetadata.customMetadata = ["custom": "123"]
-        buo.contentMetadata.customMetadata = ["anything": "everything"]
+        buo.locallyIndex = true
+        buo.contentMetadata.customMetadata["key1"] = "value1"
         ```
 
     - *Objective-C*
 
         ```objc
-        // only canonical identifier is required
-        BranchUniversalObject *buo = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:@"content/123"];
-        buo.title = @"Content 123 Title";
-        buo.contentDescription = @"Content 123 Description";
+        BranchUniversalObject *buo = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:@"content/12345"];
+        buo.title = @"My Content Title";
+        buo.contentDescription = @"My Content Description";
         buo.imageUrl = @"https://lorempixel.com/400/400";
-        buo.price = 12.12;
-        buo.currency = @"USD";
-        buo.contentIndexMode = ContentIndexModePublic;
-        buo.automaticallyListOnSpotlight = YES;
-        [buo addMetadataKey:@"custom" value:[[NSUUID UUID] UUIDString]];
-        [buo addMetadataKey:@"anything" value:@"everything"];
+        buo.publiclyIndex = YES;
+        buo.locallyIndex = YES;
+        buo.contentMetadata.customMetadata[@"key1"] = @"value1";
         ```
 
 - ### Create link reference
@@ -829,7 +791,7 @@
         Branch.setTrackingDisabled(true)
         ```
 
-    - *Objective C*    
+    - *Objective C*
 
         ```objc
         [Branch setTrackingDisabled:YES];
@@ -849,7 +811,7 @@
         Branch.getInstance().validateSDKIntegration()
         ```
 
-    - *Objective C*    
+    - *Objective C*
 
         ```objc
         [[Branch getInstance] validateSDKIntegration];
@@ -1005,8 +967,8 @@
 
         ```objc
         [[Branch getInstance] registerDeepLinkController:customViewController forKey:@"my-key"withPresentation:BNCViewControllerOptionShow];
-        ```     
-        
+        ```
+
 - ### Test Deeplink routing for your Branch links
 
     Append `?bnc_validate=true` to any of your app's Branch links and click it on your mobile device (not the Simulator!) to start the test. For instance, to validate a link like: `"https://<yourapp\>.app.link/NdJ6nFzRbK"` click on: `"https://<yourapp\>.app.link/NdJ6nFzRbK?bnc_validate=true"`
