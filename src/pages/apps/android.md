@@ -319,20 +319,20 @@
             .setContentDescription("My Content Description")
             .setContentImageUrl("https://lorempixel.com/400/400")
             .setContentIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
-            .setLocalIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
+            .setLocalIndexMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
             .setContentMetadata(new ContentMetadata().addCustomMetadata("key1", "value1"));
         ```
 
     - *Kotlin*
 
         ```java
-        val buo = new BranchUniversalObject()
+        val buo = BranchUniversalObject()
             .setCanonicalIdentifier("content/12345")
             .setTitle("My Content Title")
             .setContentDescription("My Content Description")
             .setContentImageUrl("https://lorempixel.com/400/400")
             .setContentIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
-            .setLocalIndexingMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
+            .setLocalIndexMode(BranchUniversalObject.CONTENT_INDEX_MODE.PUBLIC)
             .setContentMetadata(ContentMetadata().addCustomMetadata("key1", "value1"))
         ```
 
@@ -371,7 +371,7 @@
     - *Kotlin*
 
         ```java
-        val lp = new LinkProperties()
+        val lp = LinkProperties()
             .setChannel("facebook")
             .setFeature("sharing")
             .setCampaign("content 123 launch")
@@ -436,7 +436,7 @@
     - *Kotlin*
 
         ```java
-        var lp = new LinkProperties()
+        var lp = LinkProperties()
             .setChannel("facebook")
             .setFeature("sharing")
             .setCampaign("content 123 launch")
@@ -445,7 +445,7 @@
             .addControlParameter("custom", "data")
             .addControlParameter("custom_random", Long.toString(Calendar.getInstance().getTimeInMillis()))
 
-        var ss = new ShareSheetStyle(this@MainActivity, "Check this out!", "This stuff is awesome: ")
+        val ss = ShareSheetStyle(this@MainActivity, "Check this out!", "This stuff is awesome: ")
             .setCopyUrlStyle(resources.getDrawable(this, android.R.drawable.ic_menu_send), "Copy", "Added to clipboard")
             .setMoreOptionStyle(resources.getDrawable(this, android.R.drawable.ic_menu_search), "Show more")
             .addPreferredSharingOption(SharingHelper.SHARE_WITH.FACEBOOK)
@@ -1190,7 +1190,7 @@
             super.onActivityResult(requestCode, resultCode, data)
 
             // Checking if the previous activity is launched on branch Auto deep link.
-            if (requestCode === resources.getInteger(R.integer.AutoDeeplinkRequestCode)) {
+            if (requestCode == resources.getInteger(R.integer.AutoDeeplinkRequestCode)) {
                 //Decide here where  to navigate  when an auto deep linked activity finishes.
                 //For e.g. Go to HomeActivity or a  SignUp Activity.
                 val i = Intent(applicationContext, CreditHistoryActivity::class.java)
