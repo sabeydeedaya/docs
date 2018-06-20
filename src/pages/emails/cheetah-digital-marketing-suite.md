@@ -76,3 +76,11 @@ Add the deep links markup to your links in the email to separate web links from 
 ```html
 <a href="https://links.example.com?$deep_link=true">Link to your app</a>
 ```
+
+## Troubleshooting
+
+### CNAME
+
+- `CNAME` records of your custom click tracking domain will need to point to Branch in order to properly deep link on all platforms
+- A `CNAME` is a type of DNS record that maps an alias name to a true or canonical domain name and is as simple as a subdomain web redirect
+- `CNAME` does not affect your original NS records or IP warming
