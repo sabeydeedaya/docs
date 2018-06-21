@@ -239,7 +239,8 @@
         | $publicly_indexable | `1` | Cannot modify here. Needs to be set by the Branch Universal Object
         | ~keyword | | Keywords for which this content should be discovered by. Just assign an array of strings with the keywords you'd like to use
         | $canonical_identifier | | This is the unique identifier for content that will help Branch dedupe across many instances of the same thing. Suitable options: a website with pathing, or a database with identifiers for entities
-        | $exp_date | `0` | The date when the content will not longer be available or valid. The value must be an epoch timestamp in milliseconds (e.g. `1512000420`) within the Branch Universal Object. The click will be attributed, but the install/open will not be
+        | $exp_date | `0` | The date when the content will not longer be available or valid. The value must be an epoch timestamp in milliseconds (e.g. `1529612995526`) within the Branch Universal Object. The click will be attributed, but the install/open will not be. This will not return deep link data once expired.
+        | $link_exp_date | `0` | The date when the content will not longer be available or valid. The value must be an epoch timestamp in milliseconds (e.g. `1529612995526`). Unlike the above, the link is deleted. If it is clicked on after deletion, redirection will continue to work, but with no data passing.
         | $content_type | | This is a label for the type of content present. Apple recommends that you use uniform type identifier as described here
         | $do_not_process | `false` | This will prevent click tracking and storage of link analytics. Deep link data will still flow into the app from link click to app open.
 
