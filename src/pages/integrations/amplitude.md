@@ -67,7 +67,7 @@ Please ensure you're using the Branch iOS SDK 0.12.2 or greater, and Android SDK
 ### What Branch Sends to Amplitude
 
 | Property Name | Value | Sourced from | Example | Req
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | --- | ---
 | api_key | API Key | Branch Dashboard | 70d1db75922b0b4be56b819c42bxxxxx | Y
 | event_type | Branch event | event name | [Branch] install | Y
 | platform | `ios` or `android` | collected by Branch SDK | ios | Y
