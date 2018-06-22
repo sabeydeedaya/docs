@@ -589,6 +589,8 @@
         | disable_entry_animation | *optional* - `boolean`. When true, prevents a Journeys entry animation.
         | disable_exit_animation | *optional* - `boolean`. When true, prevents a Journeys exit animation.
         | open_app | *optional* - `boolean`. Whether to try to open the app passively through Journeys (as opposed to opening it upon user clicking); defaults to false.
+        | nonce | *optional* - `string`. A nonce value that will be included on any script or style tags Branch adds to your site. Used to whitelist these tags in your Content Security Policy.
+
 
 - ### Testing read deep link
 
@@ -654,4 +656,13 @@
 
         ```
         XMLHttpRequest cannot load https://api.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
+        ```
+        
+- ### Content Security Policy Violations
+
+    - Generate a dynamic nonce value, and include that value as a `script-src` and `style-src` exception within your Content Security Policy
+    - Pass that same value to `branch.init()`
+
+        ```
+        branch.init(YOUR_BRANCH_KEY, {'nonce': 'GENERATED_NONCE_VALUE' });
         ```
