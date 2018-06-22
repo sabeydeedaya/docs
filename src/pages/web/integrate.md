@@ -302,17 +302,30 @@
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
         ```js        
-        branch.track('signup');
+        branch.logEvent(
+             "custom_event",
+             { metadata: '123' },
+	     function(err) { console.log(err); }
+        );
         ```
 
         ```js
-        branch.track('signup', { metadata: '123' });
-        ```
+        var content_items = [
+            {
+                "$og_title": "Content Title",
+                "$og_description": "Content Description",
+                "$og_image_url": "http://example.com/img1.jpg",
+                "$canonical_identifier": "content/1234",
+                "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+             }
+        ];
 
-        ```js
-        branch.track('signup', { custom: '123' }, function (err, data) {
-          console.log(err, data); 
-        });
+        branch.logEvent(
+             "custom_event",
+             { metadata: '123' },
+	     content_items,
+	     function(err) { console.log(err); }
+        );
         ```
 
 - ### Track commerce
