@@ -305,7 +305,7 @@
         branch.logEvent(
              "custom_event",
              { metadata: '123' },
-	     function(err) { console.log(err); }
+             function(err) { console.log(err); }
         );
         ```
 
@@ -323,8 +323,8 @@
         branch.logEvent(
              "custom_event",
              { metadata: '123' },
-	     content_items,
-	     function(err) { console.log(err); }
+             content_items,
+             function(err) { console.log(err); }
         );
         ```
 
