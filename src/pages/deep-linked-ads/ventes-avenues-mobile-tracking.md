@@ -1,26 +1,26 @@
 ## Overview
 
-![Ventes_Avenues](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vent-1528510835086.png)
+![Ventes-Avenues](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vent-1528510835086.png)
 
 This guide will walk you through how to setup your campaigns with **[Ventes Avenues](http://ventesavenues.in )** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
-{! ingredients/deep-linked-ads/overview_steps.md !}
+{! ingredients/deep-linked-ads/overview-steps.md !}
 
 ## Setup
 
-{! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
+{! ingredients/deep-linked-ads/integrate-branch-sdk.md !}
 
-{! ingredients/deep-linked-ads/conversion_events_tracking.md !}
+{! ingredients/deep-linked-ads/conversion-events-tracking.md !}
  
 ### Enable the integration
 
-{! ingredients/deep-linked-ads/enable_partner.md !}
+{! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/ventes_avenues/ventes_avenues_enable.png)
+![image](/img/pages/deep-linked-ads/ventes-avenues/ventes-avenues-enable.png)
 
-{! ingredients/deep-linked-ads/enable_partner-tip.md !}
+{! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/ventes_avenues/ventes_avenues_postbacks.png)
+![image](/img/pages/deep-linked-ads/ventes-avenues/ventes-avenues-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
@@ -44,7 +44,7 @@ This guide will walk you through how to setup your campaigns with **[Ventes Aven
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
 
-{! ingredients/deep-linked-ads/attribution_windows.md !}
+{! ingredients/deep-linked-ads/attribution-windows.md !}
 
 {! ingredients/deep-linked-ads/reset-ad-settings.md !}
 
