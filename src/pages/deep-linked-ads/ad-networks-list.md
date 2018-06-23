@@ -21,6 +21,7 @@ Logo | Partner
 <a href="https://affise.com/" target="_blank">![Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/affise-1528497847994.png)</a>| **Affise**
 <a href="http://www.affle.com" target="_blank">![Affle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/affle_123-1528407257224.png)</a>| **Affle**
 <a href="http://www.appsamurai.com" target="_blank">![App_Samurai](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/as-logotype-color-1524959500790.png)</a>| **App Samurai**
+<a href="https://appbooster.com/" target="_blank">![Appbooster](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appbooster-logo-w-bg-1528407898299.png)</a>| **Appbooster**
 <a href="http://www.appier.com/en/index.html" target="_blank">![Appier](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appier-1528497934384.png)</a>| **Appier**
 <a href="https://searchads.apple.com/" target="_blank">![Apple](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/search_ads-1528501330030.png)</a>| **Apple**
 <a href="https://www.applift.com/" target="_blank">![Applift](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/applift-1528498391745.png)</a>| **Applift**
@@ -35,6 +36,7 @@ Logo | Partner
 <a href="https://blindferret.com/" target="_blank">![Blind_Ferret_Incent](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1524611055614.png)</a>| **Blind Ferret Incent**
 <a href="https://blindferret.com/" target="_blank">![Blind_Ferret_Non-Incent](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1524611091963.png)</a>| **Blind Ferret Non-Incent**
 <a href="https://www.centro.net/" target="_blank">![Centro](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/centro-1528501587665.png)</a>| **Centro**
+<a href="https://cityads.com/" target="_blank">![CityAds](https://cdn.branch.io/branch-assets/ad-partner-manager/292056402124361863/download-1529350928884.png)</a>| **CityAds**
 <a href="http://www.cj.com/" target="_blank">![CJ_Affiliate](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/cj-1528501598607.png)</a>| **CJ Affiliate**
 <a href="http://www.claymotion.in" target="_blank">![Claymotion](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/claymotion-1528501611677.png)</a>| **Claymotion**
 <a href="http://www.click2commission.com" target="_blank">![Click2Commission](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/c2c-HD-logo-1528847880292.png)</a>| **Click2Commission**
@@ -63,6 +65,7 @@ Logo | Partner
 <a href="https://www.glispa.com" target="_blank">![Glispa](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LogoFile-1525821842806.png)</a>| **Glispa**
 <a href="https://globalwidemedia.com" target="_blank">![GlobalWide_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/globalwide-logo-1528503118423.png)</a>| **GlobalWide Media**
 <a href="https://adwords.google.com/" target="_blank">![Google_AdWords](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adwords-1528518485386.png)</a>| **Google AdWords**
+<a href="http://www.hubscale.io" target="_blank">![Hubscale](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/hubscale-logo-1529539307863.png)</a>| **Hubscale**
 <a href="https://hybrid.ai/" target="_blank">![Hybrid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1527869464817.png)</a>| **Hybrid**
 <a href="http://impactradius.com" target="_blank">![Impact_Radius](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ir-1528505569606.png)</a>| **Impact Radius**
 <a href="http://www.inflectomedia.com/" target="_blank">![Inflecto_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inflecto-1528505580843.png)</a>| **Inflecto Media**

@@ -158,6 +158,7 @@ pages:
     - Affise: pages/deep-linked-ads/affise-mobile-tracking.md
     - Affle: pages/deep-linked-ads/affle-mobile-tracking.md
     - App Samurai: pages/deep-linked-ads/app-samurai-mobile-tracking.md
+    - Appbooster: pages/deep-linked-ads/appbooster-mobile-tracking.md
     - Appier: pages/deep-linked-ads/appier-mobile-tracking.md
     - Apple Search: pages/deep-linked-ads/apple-mobile-tracking.md
     - Applift: pages/deep-linked-ads/applift-mobile-tracking.md
@@ -172,6 +173,7 @@ pages:
     - Blind Ferret Incent: pages/deep-linked-ads/blind-ferret-incent-mobile-tracking.md
     - Blind Ferret Non-Incent: pages/deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
     - Centro: pages/deep-linked-ads/centro-mobile-tracking.md
+    - CityAds: pages/deep-linked-ads/cityads-mobile-tracking.md
     - CJ Affiliate: pages/deep-linked-ads/cj-affiliate-mobile-tracking.md
     - Claymotion: pages/deep-linked-ads/claymotion-mobile-tracking.md
     - Click2Commission: pages/deep-linked-ads/click2commission-mobile-tracking.md
@@ -200,6 +202,7 @@ pages:
     - Glispa: pages/deep-linked-ads/glispa-mobile-tracking.md
     - GlobalWide Media: pages/deep-linked-ads/globalwide-media-mobile-tracking.md
     - Google Adwords: pages/deep-linked-ads/google-ads-overview.md
+    - Hubscale: pages/deep-linked-ads/hubscale-mobile-tracking.md
     - Hybrid: pages/deep-linked-ads/hybrid-mobile-tracking.md
     - Impact Radius: pages/deep-linked-ads/impact-radius-mobile-tracking.md
     - Inflecto Media: pages/deep-linked-ads/inflecto-media-mobile-tracking.md
@@ -373,6 +376,5 @@ pages:
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
-    - Tracking Link Parameters: pages/deep-linked-ads/url_params.md
     - Criteo: pages/deep-linked-ads/criteo.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
