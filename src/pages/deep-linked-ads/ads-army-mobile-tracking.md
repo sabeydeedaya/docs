@@ -1,26 +1,26 @@
 ## Overview
 
-![Ads_Army](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adsarmy-1528497509052.png)
+![Ads-Army](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adsarmy-1528497509052.png)
 
 This guide will walk you through how to setup your campaigns with **[Ads Army](https://adsarmy.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
-{! ingredients/deep-linked-ads/overview_steps.md !}
+{! ingredients/deep-linked-ads/overview-steps.md !}
 
 ## Setup
 
-{! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
+{! ingredients/deep-linked-ads/integrate-branch-sdk.md !}
 
-{! ingredients/deep-linked-ads/conversion_events_tracking.md !}
+{! ingredients/deep-linked-ads/conversion-events-tracking.md !}
  
 ### Enable the integration
 
-{! ingredients/deep-linked-ads/enable_partner.md !}
+{! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/ads_army/ads_army_enable.png)
+![image](/img/pages/deep-linked-ads/ads-army/ads-army-enable.png)
 
-{! ingredients/deep-linked-ads/enable_partner-tip.md !}
+{! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/ads_army/ads_army_postbacks.png)
+![image](/img/pages/deep-linked-ads/ads-army/ads-army-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
@@ -44,7 +44,7 @@ This guide will walk you through how to setup your campaigns with **[Ads Army](h
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
 
-{! ingredients/deep-linked-ads/attribution_windows.md !}
+{! ingredients/deep-linked-ads/attribution-windows.md !}
 
 {! ingredients/deep-linked-ads/reset-ad-settings.md !}
 

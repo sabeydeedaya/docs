@@ -1,26 +1,26 @@
 ## Overview
 
-![GlobalWide_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/globalwide-logo-1528503118423.png)
+![GlobalWide-Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/globalwide-logo-1528503118423.png)
 
 This guide will walk you through how to setup your campaigns with **[GlobalWideMedia](https://globalwidemedia.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
-{! ingredients/deep-linked-ads/overview_steps.md !}
+{! ingredients/deep-linked-ads/overview-steps.md !}
 
 ## Setup
 
-{! ingredients/deep-linked-ads/integrate_branch_sdk.md !}
+{! ingredients/deep-linked-ads/integrate-branch-sdk.md !}
 
-{! ingredients/deep-linked-ads/conversion_events_tracking.md !}
+{! ingredients/deep-linked-ads/conversion-events-tracking.md !}
  
 ### Enable the integration
 
-{! ingredients/deep-linked-ads/enable_partner.md !}
+{! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/globalwide_media/globalwide_media_enable.png)
+![image](/img/pages/deep-linked-ads/globalwide-media/globalwide-media-enable.png)
 
-{! ingredients/deep-linked-ads/enable_partner-tip.md !}
+{! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/globalwide_media/globalwide_media_postbacks.png)
+![image](/img/pages/deep-linked-ads/globalwide-media/globalwide-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
@@ -44,7 +44,7 @@ This guide will walk you through how to setup your campaigns with **[GlobalWideM
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
 
-{! ingredients/deep-linked-ads/attribution_windows.md !}
+{! ingredients/deep-linked-ads/attribution-windows.md !}
 
 {! ingredients/deep-linked-ads/reset-ad-settings.md !}
 
