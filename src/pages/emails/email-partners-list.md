@@ -11,6 +11,7 @@ Logo | Partner
 <a href="https://www.campaignmonitor.com/" target="_blank">![Campaign_Monitor](/img/pages/email/campaign_monitor/campaign_monitor.png)</a>| **Campaign Monitor**
 <a href="https://www.cheetahdigital.com/" target="_blank">![Cheetah_Digital_Marketing_Suite](/img/pages/email/cheetah_digital_marketing_suite/cheetah_digital_marketing_suite.png)</a>| **Cheetah Digital Marketing Suite**
 <a href="https://www.epsilon.com/" target="_blank">![Epsilon](/img/pages/email/epsilon/epsilon.png)</a>| **Epsilon**
+<a href="https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management" target="_blank">![IBM_Watson_Campaign_Automation](/img/pages/email/ibm_watson_campaign_automation/ibm_watson_campaign_automation.png)</a>| **IBM Watson Campaign Automation**
 <a href="https://iterable.com/" target="_blank">![Iterable](/img/pages/email/iterable/iterable.png)</a>| **Iterable**
 <a href="https://www.kahuna.com/" target="_blank">![Kahuna](/img/pages/email/kahuna/kahuna.png)</a>| **Kahuna**
 <a href="https://www.klaviyo.com/" target="_blank">![Klaviyo](/img/pages/email/klaviyo/klaviyo.png)</a>| **Klaviyo**
