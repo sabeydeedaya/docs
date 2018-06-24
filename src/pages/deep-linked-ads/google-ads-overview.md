@@ -184,17 +184,6 @@ custom | any custom event tracked through Branch
 
 In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event). 
 
-## Universal App Campaigns Limitations
-
-- Product Listing Ads (PLA) : Sending data back to AdWords from a PLA ad type, is currently unsupported by Google
-- Deep Linking through Install : Deferred deep linking is currently not possible through Universal App Campaigns
-
-### Click Limitations with UACs
-
-When running Universal App Campaigns, you must also note that Branch links are not accepted into AdWords UI. We will still be able to report on clicks, but in aggregate. We rely on Google's reporting API to surface clicks in the dashboard. This means that individual clicks on Universal App Campaigns will not appear in liveview, webhooks, or exports. However, non UACs like regular Search campaigns will accept clicks. This also means that you cannot select 'unique' on the ads analytics page.
-
-Reporting on these clicks will done every 3 hours. We will only report on clicks from an AdWords campaign that has led to a mobile app install or app engagement
-
 ## Other Campaigns
 
 The above guide covered what was necessary to track Universal App Campaigns. If you are looking to track non app-install campaigns, click through below.
@@ -210,6 +199,27 @@ Video | Standard | **[link](/pages/deep-linked-ads/google-video-ads/#video-stand
 Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shopping-ads/#overview)** | Cross-platform Display
 
 ## Troubleshooting
+
+### Adwords Campaign Limitations
+
+#### Product Listing Ads (PLA) - Attribution
+- Google's API currently does not support sending attribution data from a PLA
+- Deep linking is supported
+
+#### App Extensions - Deep Linking through Install
+- App Extensions currently do not allow Deep Linking, as the setup only accepts app store links [link](https://support.google.com/adwords/answer/2402582?hl=en)
+- Attribution is supported
+
+#### Universal App Campaigns (UAC) - Deep Linking through Install
+- Deferred deep linking is currently not possible with UAC, as it does not accept any links
+- Attribution is supported
+
+#### Universal App Campaigns (UAC) - Click Reporting
+- As links are not accepted into the AdWords UAC UI, we will only report on clicks in aggregate (via Google's reporting API)
+- Individual UAC clicks will not appear in Branch's liveview dashboard, webhooks, or exports
+- 'Unique' UAC data cannot be viewed on the ads analytics dashboard (Non-UACs, like regular Search campaigns, will report on clicks in all Branch dashboards)
+- Reporting on UAC clicks is done every 3 hours
+- Branch only reports on clicks from an AdWords campaign that led to an install or app engagement
 
 ### FAQ
 
