@@ -379,3 +379,4 @@ pages:
     - Criteo: pages/deep-linked-ads/criteo.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
     - Universal Email Template: pages/emails/_template-universal-email.md
+    - Universal Ads Template: pages/deep-linked-ads/_template-mobile-tracking.md
