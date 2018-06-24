@@ -1,29 +1,3 @@
-## Overview
-
-Deep Linked Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
-
-![image](/img/pages/email/responsys/deep-linked-email.png)
-
-With a script provided by Branch, you can dynamically create Branch links in email. In any place the script is called, the web URL is converted into its corresponding Branch link. The email is then sent.
-
-When a link is clicked by a user without the app, it will route that user to the original web URL (including on desktop). When a link is clicked by a user with your app, it will direct that user into the relevant in-app content regardless of platform or email client.
-
-## Guide
-
-### Prerequisites
-
-- This guide requires you to have already [integrated the Branch SDK](/pages/apps/ios/) into your app.
-
-Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
-
-### Choose your email service provider
-
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select your email service provider and click **Get Started**.
-
-![image](/img/pages/email/choose-esp.png)
-
-### Set up deep linking for email
-
 #### Email link behavior
 
 Branch turns the web URLs you put into your emails into Branch deep links, opening the app for users with your app installed to that same content in the app.
@@ -106,17 +80,3 @@ The following are all the possible settings you can configure for deep linking w
 | Open to specific web content | Route to the original URL specified in the email.
 | Open to default redirects | Route to defaults specified in [Link Settings](https://dashboard.branch.io/link-settings){:target="_blank"}.
 
-### Visualizing Email Performance
-
-In order to view the performance of your Deep Linked Emails, navigate to the Analytics tab of the Email section of the dashboard. 
-
-The Analytics tab provides two charts: a time series and a table. Both charts are populated exclusively with data from your Branch Deep Linked Email campaigns, and you can filter further using the options at the top of each chart. The charts display counts and rates of events attributed to Deep Linked Email link clicks.
-
-Both the time series and the table automatically compare by platform, so you can see the results of your campaigns across all platforms (iOS app & web, Android app & web, desktop web).
-
-!!! protip "Email Analytics filtering"
-    These charts are pre-filtered, so it will not be possible to view data associated with non-email Branch links in the Email Analytics section of the dashboard. This filtering does not make use of standard Branch analytics labels (e.g. channel, campaign, feature), so it may be difficult to recreate these reports on other dashboard analytics pages.
-
-## Next steps
-
-Completing your integration requires some setup that is specific to your email service provider. Please follow the documentation for your provider.

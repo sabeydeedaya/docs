@@ -1,0 +1,3 @@
+![image](/img/pages/email/setup-verification.png)
+
+The last step of the [Deep Linked Email setup flow](https://dashboard.branch.io/email){:target="\_blank"} validates whether you have completed all necessary steps and whether an engineer on your team has completed the integration steps. You will also see recommendations for how to improve your email integration.
