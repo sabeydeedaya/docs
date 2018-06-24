@@ -53,6 +53,8 @@ Tracking link from Branch:
 
 {! ingredients/deep-linked-ads/all-events-toggle.md !}
 
+{! ingredients/deep-linked-ads/whitelist-ip.md !}
+
 {! ingredients/deep-linked-ads/edit-postbacks.md !}
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}

@@ -43,6 +43,8 @@ This guide will walk you through how to setup your campaigns using Branch Univer
 
 {! ingredients/deep-linked-ads/all-events-toggle.md !}
 
+{! ingredients/deep-linked-ads/whitelist-ip.md !}
+
 {! ingredients/deep-linked-ads/edit-postbacks.md !}
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
