@@ -378,3 +378,4 @@ pages:
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
     - Criteo: pages/deep-linked-ads/criteo.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
+    - Universal Email Template: pages/emails/_template-universal-email.md
