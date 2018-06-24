@@ -1,3 +1,5 @@
+#### Handle links for web-only content
+
 If you have links to content that exists only on web, and not in the app (for example, a temporary marketing webpage that isn't in the app) then this code snippet will ensure all links that have not had the deep linking script applied will open in a browser.
 
 You should add this code snippet inside the deep link handler code block. Note that this uses query parameter `$web_only=true`. This should match the [query parameter on the web URL](#flag-your-web-only-links) you enter in the email.
