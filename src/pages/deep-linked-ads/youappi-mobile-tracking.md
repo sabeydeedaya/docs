@@ -11,8 +11,6 @@ This guide will walk you through how to setup your campaigns with **[YouAppi](ht
 {! ingredients/deep-linked-ads/integrate-branch-sdk.md !}
 
 {! ingredients/deep-linked-ads/conversion-events-tracking.md !}
- 
-### Enable the integration
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
@@ -32,11 +30,7 @@ This guide will walk you through how to setup your campaigns with **[YouAppi](ht
 
 ## Advanced
 
-### Add more postbacks
-
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
-
-### Send All/Attributed events
 
 {! ingredients/deep-linked-ads/all-events-toggle.md !}
 
