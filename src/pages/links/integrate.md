@@ -32,10 +32,14 @@
             | Facebook Browser | App | | App |
             | Facebook Messenger | Fallback | *Able to force app open | App |
             | Facebook Messenger browser | App | | App |
-            | Instagram | Fallback | *Able to force app open | App |
+            | Instagram Profile | Fallback | *Able to force app open | App |
+            | Instagram Browser | App | | App |
+            | Instagram Stories | Fallback | *Able to force app open | App |
+            | Twitter Feed | Fallback | *Able to force app open | App |
+            | Twitter Browser | App | | App |
             | Snapchat | Fallback | *Able to force app open | App |
-            | Twitter | Fallback | *Able to force app open | App |
             | Pinterest | Fallback | | Fallback |
+            | Google+ | Fallback | App Store redirects will not work | Fallback |
             | Chrome browser | App | | App |
             | Safari browser | App |
             | Firefox browser | Fallback | | App |
@@ -55,8 +59,8 @@
             | WhatsApp | App | `app.link` require https/http to be clickable | App | `app.link` require https/http to be clickable
             | LINE | Fallback | *Able to force app open | App |
             | Apple Mail | App |
-            | Gmail | App | | App
-            | Yahoo Mail | Fallback | *Able to force app open | App
+            | Gmail | App | | App |
+            | Yahoo Mail | Fallback | *Able to force app open | App |
 
 - ### Custom link behavior
 
