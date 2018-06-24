@@ -1,4 +1,4 @@
-#### Email link behavior
+#### Set up Email link behavior
 
 Branch turns the web URLs you put into your emails into Branch deep links, opening the app for users with your app installed to that same content in the app.
 

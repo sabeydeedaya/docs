@@ -1,3 +1,5 @@
+#### Flag your deep links
+
 For the email links that you would like to deep link to content, add `$deep_link=true` to the URL as a query parameter, for example:
 
 ```html
