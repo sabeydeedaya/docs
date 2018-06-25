@@ -47,6 +47,8 @@ You can retrieve your click tracking domain from the **[Tracking Domains](https:
 
 ### Configure your mobile app
 
+{! ingredients/email/technical-setup-app.md !}
+
 {! ingredients/email/associated-domains.md !}
 
 {! ingredients/email/bounce-web.md !}
