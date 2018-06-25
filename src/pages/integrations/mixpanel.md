@@ -93,7 +93,7 @@ For a high level overview of identities in Mixpanel, see [Identity Management in
 ### What Branch Sends to Mixpanel
 
 | Property Name | Value | Sourced from | Example | Req
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | --- | --- 
 | event | Branch event | event name | [Branch] install | Y
 | properties.distinct_id | Unique ID for device/user | [see section below](#why-we-recommend-passing-mixpanel-distinct-id) | AEBE52E7-03EE-455A-B3C4-E57283966239 | N
 | properties.token | Mixpanel Token | Branch Dashboard | eed14a8aaa8c8ef777b8e9cb30826399 | Y
