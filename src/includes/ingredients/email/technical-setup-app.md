@@ -1,4 +1,4 @@
-#### Technical setup
+### Technical setup
 
 The following app changes ensure that your email integration supports [Universal Links](/getting-started/universal-app-links/). You will need access to your app code to make these changes.
 

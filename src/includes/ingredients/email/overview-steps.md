@@ -1,8 +1,9 @@
 The basic integration involves three parts:
 
-1. Integrating the SDKs (mobile & web)
-1. Updating the configuration of DNS
-1. Updating the links in your email 
+1. [Configure your ESP](#configure-your-esp)
+1. [Activate integration and setup link behavior](#activate-integration)
+1. [Configure your mobile app](#configure-your-mobile-app)
+1. [Updating the links in your email](#using-universal-email)
 
 Deep Linked Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
 

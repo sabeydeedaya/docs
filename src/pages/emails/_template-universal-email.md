@@ -10,9 +10,9 @@ This guide will walk you through how to setup your email campaings with **[Spark
 
 {! ingredients/email/prerequisites.md !}
 
-### Configure your ESP
+## Configure your ESP
 
-#### Setup a custom click tracking domain
+### Setup a custom click tracking domain
 
 1. Add and verify a custom click tracking domain in the **[Tracking Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** section of your SparkPost account:
 
@@ -25,15 +25,15 @@ For more information on how to set up your domain, please visit Sparkpost's [doc
 
 {! ingredients/email/cname.md !}
 
-### Activate integration
+## Activate integration
 
-#### Choose your email service provider
+### Choose your email service provider
 
 Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **XXX** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 
-#### Tell us your click tracking domain
+### Tell us your click tracking domain
 
 You can retrieve your click tracking domain from the **[Tracking Domains](https://XXX.com){:target="\_blank"}** section of your XXX account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
@@ -45,7 +45,7 @@ You can retrieve your click tracking domain from the **[Tracking Domains](https:
 
 {! ingredients/email/usage-auto.md !}
 
-### Configure your mobile app
+## Configure your mobile app
 
 {! ingredients/email/technical-setup-app.md !}
 

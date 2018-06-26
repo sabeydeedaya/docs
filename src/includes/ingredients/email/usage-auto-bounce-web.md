@@ -1,4 +1,4 @@
-#### Flag your web-only links
+### Flag your web-only links
 
 With your email service provider, all email links will open the app by default. In order for your app to know that the email link should bounce to web after opening the app, add `$web_only=true` to your links as a query parameter, for example:
 
