@@ -1,4 +1,4 @@
-#### Add your click tracking domain to your Associated Domains
+### Add your click tracking domain to your Associated Domains
 
 To enable Universal Links on your click tracking domain, you'll need to add the click tracking domain to your Associated Domains entitlement.
 

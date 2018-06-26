@@ -1,4 +1,4 @@
-#### Handle links for web-only content
+### Handle links for web-only content
 
 If you have links to content that exists only on web, and not in the app (for example, a temporary marketing webpage that isn't in the app) then this code snippet will ensure all links that have not had the deep linking script applied will open in a browser.
 

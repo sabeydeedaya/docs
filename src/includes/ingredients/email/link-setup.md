@@ -1,4 +1,4 @@
-#### Set up Email link behavior
+### Set up Email link behavior
 
 Branch turns the web URLs you put into your emails into Branch deep links, opening the app for users with your app installed to that same content in the app.
 
@@ -18,7 +18,7 @@ If you would like to send users to the App Store or another default you have spe
 
 ![image](/img/pages/email/default-redirects.png)
 
-##### Checking your deep linking setup
+#### Checking your deep linking setup
 
 If you chose **not** to set up deep linking to specific content within your app, then you can [skip this step](#next-steps).
 
@@ -32,7 +32,7 @@ In this step, you will want to enter a web URL that corresponds to a specific sc
 
 Once you choose one and click **Submit**, [meta tags that can be used for deep linking](/pages/web/hosted-data/) will be retrieved from your webpage. You will see a result indicating the mapping between your web content and your app content. For a full explanation of the tests run on this page and the possible results, check out the [support section](/pages/emails/support/#deep-linking-setup-messages).
 
-##### We couldn't determine your deep linking setup
+#### We couldn't determine your deep linking setup
 
 If an app deep linking scheme that maps to your web content cannot be successfully detected, you can [configure your settings manually](#deep-linking-settings-for-email), or you can reach out to your Branch account manager or support for assistance.
 
@@ -56,11 +56,11 @@ If you use your web URL as a deep link value:
 
 In the meantime, you can proceed to the next step: **[Configure ESP](#configure-your-esp)**.
 
-##### Deep linking settings for email
+#### Deep linking settings for email
 
 The following are all the possible settings you can configure for deep linking with email.
 
-###### Link Behavior
+##### Link Behavior
 
 | Setting | Example | Link Data Result
 | --- | --- | ---
@@ -73,7 +73,7 @@ The following are all the possible settings you can configure for deep linking w
 | Strip protocol (http:// or https://): <br> from $deeplink_path <br> from $ios_deeplink_path <br> from $android_deeplink_path <br> *Note: Typically used with one of the other settings.* | **URL:** `https://shop.com/shoes/brown-loafers` <br> **Other Settings:** Translate web URL into Branch link data: Full URL for key `$deeplink_path` | `$deeplink_path: shop.com/shoes/brown-loafers`
 | Translate query parameters on URLs into Branch link data from parameter ______ to key ______ <br> *Note: Not configurable in the UI. [Contact support](https://support.branch.io/support/tickets/new){:target="_blank"} to use this setting.* | **URL:** `https://shop.com/shoes/brown-loafers&product_id=123456&utm_content=shoes` <br> **Parameter:** `utm_content` <br> **Key:** `category` | `category: shoes`
 
-###### Link behavior for users without your app
+##### Link behavior for users without your app
 
 | Setting | Description
 | --- | ---

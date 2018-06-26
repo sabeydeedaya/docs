@@ -1,4 +1,4 @@
-#### Validate and Test
+### Validate and Test
 
 ![image](/img/pages/email/setup-verification.png)
 
