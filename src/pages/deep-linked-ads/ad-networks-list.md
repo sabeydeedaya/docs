@@ -16,6 +16,7 @@ Logo | Partner
 <a href="http://www.admobs.in" target="_blank">![Admobs](https://cdn.branch.io/branch-assets/ad-partner-manager/292056402124361863/admobs-logo-new4-1526690621932.png)</a>| **Admobs**
 <a href="https://adsarmy.com/" target="_blank">![Ads_Army](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adsarmy-1528497509052.png)</a>| **Ads Army**
 <a href="http://adshero.com" target="_blank">![Ads_Hero](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ads-hero-1528497639410.png)</a>| **Ads Hero**
+<a href="http://adsizzler.com" target="_blank">![Adsizzler_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1530037506210.png)</a>| **Adsizzler Media**
 <a href="https://adsterra.com/" target="_blank">![Adsterra_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Adsterra-1528497762467.png)</a>| **Adsterra Network**
 <a href="https://adxperience.com/" target="_blank">![Adxperience](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adxperience-1524620442557.png)</a>| **Adxperience**
 <a href="https://affise.com/" target="_blank">![Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/affise-1528497847994.png)</a>| **Affise**
