@@ -281,19 +281,18 @@ pages:
   - Links in your emails:
     - Email Partners: pages/emails/email-partners-list.md
     - Get Started: pages/emails/get-started.md
-    - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
-    - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
-    - Amazon SES: pages/emails/amazon-ses.md
-    - Betaout: pages/emails/betaout.md
-    - Blueshift: pages/emails/blueshift.md
+    - Adobe Campaign Classic: pages/emails/_adobe-campaign-classic.md
+    - Adobe Campaign Standard: pages/emails/_adobe-campaign-standard.md
+    - Amazon Simple Email Service: pages/emails/_amazon-ses.md
+    - Betaout: pages/emails/_betaout.md
+    - Blueshift: pages/emails/_blueshift.md
     - Braze (formerly Appboy): pages/emails/braze.md
     - Bronto: pages/emails/bronto.md
-    - Campaign Monitor: pages/emails/campaign-monitor.md
-    - Cheetah Digital Marketing Suite: pages/emails/cheetah-digital-marketing-suite.md
-    - Oracle Eloqua: pages/emails/eloqua.md
+    - Campaign Monitor: pages/emails/_campaign-monitor.md
+    - Cheetah Digital Marketing Suite: pages/emails/_cheetah-digital-marketing-suite.md
     - Epsilon: pages/emails/epsilon.md
-    - IBM Watson Campaign Automation: pages/emails/ibm-watson-campaign-automation.md
-    - Iterable: pages/emails/iterable.md
+    - IBM Watson Campaign Automation: pages/emails/_ibm-watson-campaign-automation.md
+    - Iterable: pages/emails/_iterable.md
     - Kahuna: pages/emails/kahuna.md
     - Klaviyo: pages/emails/klaviyo.md
     - Leanplum: pages/emails/leanplum.md
@@ -302,6 +301,7 @@ pages:
     - Mandrill: pages/emails/mandrill.md
     - MessageGears: pages/emails/messagegears.md
     - MoEngage: pages/emails/moengage.md
+    - Oracle Eloqua: pages/emails/_eloqua.md
     - PostUp: pages/emails/postup.md
     - Rapidmail: pages/emails/rapidmail.md
     - Responsys: pages/emails/responsys.md
@@ -310,7 +310,7 @@ pages:
     - Selligent: pages/emails/selligent.md
     - Sender: pages/emails/sender.md
     - SendGrid: pages/emails/sendgrid.md
-    - SparkPost: pages/emails/sparkpost.md
+    - SparkPost: pages/emails/_sparkpost.md
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
     - Support: pages/emails/support.md
