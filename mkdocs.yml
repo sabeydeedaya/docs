@@ -280,14 +280,12 @@ pages:
     - Zorka Mobi: pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
     - Email Partners: pages/emails/email-partners-list.md
-    - Get Started: pages/emails/get-started.md
     - Adobe Campaign Classic: pages/emails/_adobe-campaign-classic.md
     - Adobe Campaign Standard: pages/emails/_adobe-campaign-standard.md
     - Amazon Simple Email Service: pages/emails/_amazon-ses.md
     - Betaout: pages/emails/_betaout.md
     - Blueshift: pages/emails/_blueshift.md
     - Braze (formerly Appboy): pages/emails/braze.md
-    - Bronto: pages/emails/bronto.md
     - Campaign Monitor: pages/emails/_campaign-monitor.md
     - Cheetah Digital Marketing Suite: pages/emails/_cheetah-digital-marketing-suite.md
     - Epsilon: pages/emails/epsilon.md
@@ -297,24 +295,23 @@ pages:
     - Klaviyo: pages/emails/klaviyo.md
     - Leanplum: pages/emails/leanplum.md
     - Mailgun: pages/emails/mailgun.md
-    - Mailjet: pages/emails/mailjet.md
-    - Mandrill: pages/emails/mandrill.md
-    - MessageGears: pages/emails/messagegears.md
-    - MoEngage: pages/emails/moengage.md
-    - Oracle Eloqua: pages/emails/_eloqua.md
-    - PostUp: pages/emails/postup.md
-    - Rapidmail: pages/emails/rapidmail.md
-    - Responsys: pages/emails/responsys.md
+    - Mailjet: pages/emails/_mailjet.md
+    - Mandrill: pages/emails/_mandrill.md
+    - MessageGears: pages/emails/_messagegears.md
+    - MoEngage: pages/emails/_moengage.md
+    - Oracle Bronto: pages/emails/oracle-bronto.md
+    - Oracle Eloqua: pages/emails/_oracle-eloqua.md
+    - Oracle Responsys: pages/emails/oracle-responsys.md
+    - PostUp: pages/emails/_postup.md
+    - Rapidmail: pages/emails/_rapidmail.md
     - Sailthru: pages/emails/sailthru.md
     - Salesforce: pages/emails/salesforce.md
-    - Selligent: pages/emails/selligent.md
-    - Sender: pages/emails/sender.md
+    - Selligent: pages/emails/_selligent.md
+    - Sender: pages/emails/_sender.md
     - SendGrid: pages/emails/sendgrid.md
     - SparkPost: pages/emails/_sparkpost.md
     - Vero: pages/emails/vero.md
-    - Zeta: pages/emails/zeta.md
-    - Support: pages/emails/support.md
-    - Self Serve: pages/emails/self-serve.md
+    - Zeta: pages/emails/_zeta.md
   - Links in push notifications: pages/advance/push-notifications.md
   - Links in organic search:
     - Firebase App Indexing: pages/organic-search/firebase.md
@@ -379,5 +376,6 @@ pages:
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
     - Criteo: pages/deep-linked-ads/criteo.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads.md
-    - Universal Email Template: pages/emails/_template-universal-email.md
+    - Universal Email Template Simplified: pages/emails/_template-universal-email-simplified.md
+    - Universal Email Template Full: pages/emails/_template-universal-email-full.md
     - Universal Ads Template: pages/deep-linked-ads/_template-mobile-tracking.md

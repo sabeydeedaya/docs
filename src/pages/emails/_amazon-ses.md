@@ -1,6 +1,6 @@
 ## Overview
 
-![Amazon_SES](/img/pages/email/amazon_ses/amazon_ses.png)
+![Amazon-SES](/img/pages/email/amazon-ses/amazon-ses.png)
 
 This guide will walk you through how to setup your email campaings with **[Amazon Simple Email Service](https://aws.amazon.com/ses/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -43,7 +43,7 @@ You will also need to add your AWS tracking domain next to your click tracking d
 | US East (N. Virginia) | r.us-east-1.awstrack.me
 | EU (Ireland) | r.eu-west-1.awstrack.me
 
-![image](/img/pages/email/amazon_ses/setup-config.png)
+![image](/img/pages/email/amazon-ses/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
 	

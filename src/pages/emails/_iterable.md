@@ -14,7 +14,7 @@ This guide will walk you through how to setup your email campaings with **[Itera
 
 ### Setup a custom click tracking domain
 
-1. Add and verify a custom click tracking domain in the **[Mail Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** page of your Iterable account:
+1. Add and verify a custom click tracking domain in the **[Mail Domains]** page of your Iterable account:
 
     ![image](/img/pages/email/iterable/create-domain.png)
 
@@ -35,7 +35,7 @@ Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Mail Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** page of your Iterable account. 
+You can retrieve your click tracking domain from the **[Mail Domains]** page of your Iterable account. 
 If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
 ![image](/img/pages/email/iterable/setup-config.png)

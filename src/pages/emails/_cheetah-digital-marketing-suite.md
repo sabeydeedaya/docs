@@ -1,6 +1,6 @@
 ## Overview
 
-![Cheetah_Digital_Marketing_Suite](/img/pages/email/cheetah_digital_marketing_suite/cheetah_digital_marketing_suite.png)
+![Cheetah-Digital-Marketing-Suite](/img/pages/email/cheetah-digital-marketing-suite/cheetah-digital-marketing-suite.png)
 
 This guide will walk you through how to setup your email campaings with **[Cheetah Digital Marketing Suite](https://www.cheetahdigital.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -33,7 +33,7 @@ Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="
 
 If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
-![image](/img/pages/email/cheetah_digital_marketing_suite/setup-config.png)
+![image](/img/pages/email/cheetah-digital-marketing-suite/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
 	

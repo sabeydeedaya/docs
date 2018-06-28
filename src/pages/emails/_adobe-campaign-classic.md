@@ -1,6 +1,6 @@
 ## Overview
 
-![Adobe_Campaign_Classic](/img/pages/email/adobe_campaign_classic/adobe_campaign_classic.png)
+![Adobe-Campaign-Classic](/img/pages/email/adobe-campaign-classic/adobe-campaign-classic.png)
 
 This guide will walk you through how to setup your email campaings with **[Adobe Campaign Classic](https://www.adobe.com/marketing-cloud/campaign.html){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaings with **[Adobe
 
 Add a custom click tracking domain at the **Brand Configuration** page in the field called **External URL of the tracking server**.
 
-![image](/img/pages/email/adobe_campaign_classic/create-domain.png)
+![image](/img/pages/email/adobe-campaign-classic/create-domain.png)
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Adobe Campaign Classic.
@@ -35,7 +35,7 @@ Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="
 
 You can retrieve your click tracking domain from the **Brand Configuration** page in the field called **External URL of the tracking server**. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
-![image](/img/pages/email/adobe_campaign_classic/setup-config.png)
+![image](/img/pages/email/adobe-campaign-classic/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
 	
