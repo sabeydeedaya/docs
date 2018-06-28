@@ -22,6 +22,8 @@ This guide will walk you through how to setup your campaigns with **[Performance
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+**Please make sure** that you have a fallback URL configured `%24fallback_url=http://example.com` on your tracking links. 
+
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
 {! ingredients/deep-linked-ads/people-based-attribution.md !}
