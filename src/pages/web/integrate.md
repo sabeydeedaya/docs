@@ -658,6 +658,14 @@
         XMLHttpRequest cannot load https://api.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
         ```
         
+- ### Browser Fingerprint ID
+
+    - In case you need to access your user's Browser Fingerprint ID for user deletion, use the function below. 
+
+        ```
+        branch.getBrowserFingerprintId(function(err, data) { console.log(data); });
+        ```
+        
 - ### Content Security Policy Violations
 
     - Generate a dynamic nonce value, and include that value as a `script-src` and `style-src` exception within your Content Security Policy
