@@ -2,7 +2,7 @@
 
 ![Mailgun](/img/pages/email/mailgun/mailgun.png)
 
-This guide will walk you through how to setup your email campaings with **[Mailgun](https://www.mailgun.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Mailgun](https://www.mailgun.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 

@@ -2,7 +2,7 @@
 
 ![Selligent Message Studio](/img/pages/email/selligent/selligent.png)
 
-This guide will walk you through how to setup your email campaings with **[Selligent Message Studio](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Selligent Message Studio](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 Customers need to be on **Message Studio v10.0** to be upgraded to the service pack containing the integration. Any customers that are currently on previously release lines will first need to upgrade to the base version.
 

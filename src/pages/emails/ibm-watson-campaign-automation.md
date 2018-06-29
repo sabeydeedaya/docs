@@ -2,7 +2,7 @@
 
 ![IBM-Watson-Campaign-Automation](/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)
 
-This guide will walk you through how to setup your email campaings with **[IBM Watson Campaign Automation](https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[IBM Watson Campaign Automation](https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 

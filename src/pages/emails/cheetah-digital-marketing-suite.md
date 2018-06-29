@@ -2,7 +2,7 @@
 
 ![Cheetah-Digital-Marketing-Suite](/img/pages/email/cheetah-digital-marketing-suite/cheetah-digital-marketing-suite.png)
 
-This guide will walk you through how to setup your email campaings with **[Cheetah Digital Marketing Suite](https://www.cheetahdigital.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Cheetah Digital Marketing Suite](https://www.cheetahdigital.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 

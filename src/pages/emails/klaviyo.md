@@ -2,7 +2,7 @@
 
 ![Klaviyo](/img/pages/email/klaviyo/klaviyo.png)
 
-This guide will walk you through how to setup your email campaings with **[Klaviyo](https://www.klaviyo.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Klaviyo](https://www.klaviyo.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 
