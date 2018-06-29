@@ -1,33 +1,60 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Klaviyo](/img/pages/email/klaviyo/klaviyo.png)
 
-Setting up a dedicated click tracking domain requires adding additional CNAME records to your DNS settings with your [hosting provider](https://help.klaviyo.com/hc/en-us/articles/360001550572-Setting-Up-Dedicated-Click-Tracking)
+This guide will walk you through how to setup your email campaings with **[Klaviyo](https://www.klaviyo.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-After you've updated your DNS records, you still need to reach out to Klaviyo support in order for us to validate and activate your records. Please contact us if you are updating your records.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Setup
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/prerequisites.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Configure your ESP
 
-{! ingredients/email/email-validate-test.md !}
+### Setup a custom click tracking domain
 
-{! ingredients/email/email-usage.md !}
+1. Contact your **Klaviyo Account Manager** and request them to create a Custom Click Tracking domain.
 
-### Flag your deep links
+For more information on how to set up your domain, please visit Klaviyo's [documentation](https://help.klaviyo.com/hc/en-us/articles/360001550572-Setting-Up-Dedicated-Click-Tracking){:target="\_blank"}.
 
-For the email links that you would like to deep link to content, add `universal="true"` to the URL in the HTML. For example:
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Klaviyo.
 
-```html
-<a href="links.example.com" universal="true">Link to your app!</a>
-```
+{! ingredients/email/cname.md !}
 
-This will ensure that your links are converted to Branch links that will open the app on iOS and Android, with full tracking and attribution.
+## Activate integration
 
-If there is no `universal` tag, links will remain web-only and will drive users to the web page. This allows links without in-app content, such as unsubscribe links or password reset links, to not open the app. 
+### Choose your email service provider
 
-{! ingredients/email/email-support.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Klaviyo** and click **Enable**.
 
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
+
+Contact your **Klaviyo Account Manager** and request the name of your Custom Click Tracking domain. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/klaviyo/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-deeplink.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

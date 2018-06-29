@@ -1,28 +1,58 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Braze](/img/pages/email/braze/braze.png)
 
-Contact your Braze Account Manager and request the Email Click Tracking Domain and the SendGrid Data domain associated with your SendGrid account.
+This guide will walk you through how to setup your email campaings with **[Braze](https://www.braze.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-Once you’ve retrieved this information, enter both the click tracking domain and the SendGrid domain in item 1 of this step: 
+{! ingredients/email/overview-steps.md !}
 
-![image](/img/pages/email/sendgrid/configure-sendgrid-1.png)
+## Setup
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+{! ingredients/email/prerequisites.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Configure your ESP
 
-{! ingredients/email/email-cname.md !}
+### Setup a custom click tracking domain
 
-{! ingredients/email/email-associated-domains.md !}
+Contact your **Braze Account Manager** and request the Email Click Tracking Domain and the SendGrid Data domain associated with your SendGrid account. Here is guide to configure SendGrid account [documentation](/pages/emails/sendgrid/#configure-your-esp/){:target="\_blank"}.
 
-{! ingredients/email/email-validate-test.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Braze.
 
-{! ingredients/email/email-usage.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-usage-auto-universal.md !}
+## Activate integration
 
-{! ingredients/email/email-usage-auto.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-support.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Braze** and click **Enable**.
+
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
+
+Contact your **Braze Account Manager** and request the Email Click Tracking Domain. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/braze/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-deeplink.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

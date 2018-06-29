@@ -1,25 +1,62 @@
-{! ingredients/email/email-configure-esp.md !}
+## Overview
 
-{! ingredients/email/email-technical-setup.md !}
+![Sender](/img/pages/email/sender/sender.png)
 
-#### Create a custom click tracking domain
+This guide will walk you through how to setup your email campaings with **[Sender](https://www.sender.net/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-1. Reach support support@sender.net and ask them to add a custom click tracking domain for your Sender account.
+{! ingredients/email/overview-steps.md !}
 
-2. To enable tracking on a subdomain, you must set up a CNAME record in DNS pointing your subdomain to `app.sender.net`. 
+## Setup
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/prerequisites.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Configure your ESP
 
-{! ingredients/email/email-bounce-web.md !}
+### Setup a custom click tracking domain
 
-{! ingredients/email/email-validate-test.md !}
+1. Add and verify a custom click tracking domain. Reach support **support@sender.net** and request to add a custom click tracking domain for your Sender account 
 
-{! ingredients/email/email-usage.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Sender.
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-usage-auto.md !}
+## Activate integration
 
-{! ingredients/email/email-support.md !}
+### Choose your email service provider
+
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Sender** and click **Enable**.
+
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
+
+You can retrieve your click tracking domain from the support team **support@sender.net** your Sender account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/sender/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+{! ingredients/email/bounce-web.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

@@ -1,9 +1,39 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Amazon-SES](/img/pages/email/amazon-ses/amazon-ses.png)
 
-You can retrieve your click tracking domain from the **Domains** section of your Amazon SES account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+This guide will walk you through how to setup your email campaings with **[Amazon Simple Email Service](https://aws.amazon.com/ses/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+
+{! ingredients/email/overview-steps.md !}
+
+## Setup
+
+{! ingredients/email/prerequisites.md !}
+
+## Configure your ESP
+
+### Setup a custom click tracking domain
+
+Add and verify an email domain in the **Domains** section of your Amazon SES account:
+
+   ![image](/img/pages/email/amazon-ses-domain.png)
+
+For more information on how to set up a click tracking domain please visit Amazon SES's [documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/configure-custom-open-click-domains.html){:target="\_blank"}.
+
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Amazon Simple Email Service.
+
+{! ingredients/email/cname.md !}
+
+## Activate integration
+
+### Choose your email service provider
+
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Amazon Simple Email Service** and click **Enable**.
+
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
 
 You will also need to add your AWS tracking domain next to your click tracking domain in the **Amazon SES Domain** field in the Configure ESP step. It should be one of the following:
 
@@ -13,28 +43,30 @@ You will also need to add your AWS tracking domain next to your click tracking d
 | US East (N. Virginia) | r.us-east-1.awstrack.me
 | EU (Ireland) | r.eu-west-1.awstrack.me
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+![image](/img/pages/email/amazon-ses/setup-config.png)
 
-{! ingredients/email/email-technical-setup.md !}
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
 
-#### Create a custom click tracking domain
+{! ingredients/email/usage-auto.md !}
 
-Add and verify an email domain in the **Domains** section of your Amazon SES account:
+## Configure your mobile app
 
-   ![image](/img/pages/email/amazon-ses-domain.png)
+{! ingredients/email/technical-setup-app.md !}
 
-For more information on how to set up a click tracking domain please visit Amazon SES's [documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/configure-custom-open-click-domains.html){:target="\_blank"}.
+{! ingredients/email/associated-domains.md !}
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/bounce-web.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Using Universal email
 
-{! ingredients/email/email-bounce-web.md !}
+{! ingredients/email/usage.md !}
 
-{! ingredients/email/email-validate-test.md !}
+{! ingredients/email/usage-auto-bounce-deep.md !}
 
-{! ingredients/email/email-usage.md !}
+{! ingredients/email/usage-auto-bounce-web.md !}
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+## Support
 
-{! ingredients/email/email-support.md !}
+{! ingredients/email/support.md !}
