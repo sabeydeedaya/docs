@@ -95,11 +95,9 @@ For `Analytics Server Domain`, please do not include `http` or `https`. If your 
 
 ### Pass Adobe IDs
 
-When you're ready to send data through Branch, you'll need to make sure you pass through all the IDs that you have configured on Adobe through the Branch SDKs. In order to do so, figure out which ID you use for user tracking in the Adobe SDK by asking your Adobe Consultant, and pass this value through `setRequestMetadataKey` on the Branch SDKs.
+When you're ready to send data through Branch, you'll need to make sure you pass through all the IDs that you have configured on Adobe through the Branch SDKs (There are three possible identities you can track via this integration).  First, figure out which ID you use for user tracking in the Adobe SDK by asking your Adobe Consultant, and pass this value through `setRequestMetadataKey` on the Branch SDKs **BEFORE** calling *initSession*.
 
-There are three possible identities you can track via this integration. Please verify which IDs you use, and send that. For example, if your Adobe integration uses Marketing Cloud Visitor ID, retrieve it from the Adobe SDK, and pass in a key value pair, with the key being *$marketing_cloud_visitor_id*. The value would be the value retrieved through the Adobe SDK. 
-
-Here are some sample snippet showing this. **NOTE** you must set the correct key before calling *initSession*.
+For example, if your Adobe integration uses Marketing Cloud Visitor ID, retrieve it from the Adobe SDK, and pass in a key value pair, with the key being *$marketing_cloud_visitor_id*. The value would be the value retrieved through the Adobe SDK.  Sample snippets for all 3 ID types below:
 
 1. Marketing Cloud Visitor ID - *$marketing_cloud_visitor_id* _sent to Adobe as `mid`_
 
@@ -111,6 +109,10 @@ Inside *didFinishLaunchingWithOptions*
 
 Branch *branch = [Branch getInstance];
 [branch setRequestMetadataKey:@"$marketing_cloud_visitor_id" value:[ADBMobile visitorMarketingCloudID]];
+
+...
+
+[branch initSessionWithLaunchOptions...]
 ```
 
 **Swift**
@@ -121,6 +123,10 @@ Inside *didFinishLaunchingWithOptions*
 
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$marketing_cloud_visitor_id", value:ADBMobile.visitorMarketingCloudID());
+    
+    ...
+    
+    branch.initSession(...);
 }
 ```
 
@@ -154,6 +160,10 @@ Inside *didFinishLaunchingWithOptions*
 //Passing the Identifier to Branch
 Branch *branch = [Branch getInstance];
 [branch setRequestMetadataKey:@"$analytics_visitor_id" value:[ADBMobile userIdentifier]]
+
+...
+
+[branch initSessionWithLaunchOptions...]
 ```
 
 **Swift**
@@ -168,6 +178,10 @@ ADBMobile.setUserIdentifier("Whipple")
 //Passing the Identifier to Branch
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$analytics_visitor_id", value:ADBMobile.userIdentifier())
+        
+    ...
+    
+    branch.initSession(...);
 }
 ```
 
@@ -199,6 +213,10 @@ Inside *didFinishLaunchingWithOptions*
 
 Branch *branch = [Branch getInstance];
 [branch setRequestMetadataKey:@"$adobe_visitor_id" value:[ADBMobile trackingIdentifier]];
+
+...
+
+[branch initSessionWithLaunchOptions...]
 ```
 
 **Swift**
@@ -209,6 +227,10 @@ Inside *didFinishLaunchingWithOptions*
 
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$adobe_visitor_id", value:ADBMobile.trackingIdentifier());
+        
+    ...
+    
+    branch.initSession(...);
 }
 ```
 
@@ -250,7 +272,7 @@ There are common strategies to take while trouble shooting.
 
 With Adobe Analytics' dashboard, it may take up to ~2 hours for data to appear. We'd recommend you simulate 10-15 events in one testing session, and validate that they show up two hours later, so that feedback is transparent and obvious.
 
-Another thing to do is make sure a valid adobe_visitor_id is being passed up through the Branch SDK. Call *setDebug* and inspect the requests to `v1/open`. The key you want to find in this request payload is either `$adobe_visitor_id`, `$marketing_cloud_visitor_id`, or `$analytics_visitor_id`.
+If you're not seeing an Adobe ID appended to the Branch events in Adobe's dashboard, you can call *setDebug* on the Branch SDK and inspect the requests to `v1/open` in app to confirm the ID is being sent.  The key you want to find in this request payload is either `$adobe_visitor_id`, `$marketing_cloud_visitor_id`, or `$analytics_visitor_id`.
 
 ### What is Context Data and where does Branch provide it to Adobe?
 
