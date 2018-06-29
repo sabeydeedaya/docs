@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaings with **[XXXXX
 
 1. Add and verify a custom click tracking domain in the **[Tracking Domains](https://app.XXXXX.com/account/tracking-domains){:target="\_blank"}** section of your XXXXX account:
 
-    ![image](/img/pages/email/XXXXX/XXXXX-create-domain.png)
+    ![image](/img/pages/email/XXXXX/create-domain.png)
 
 For more information on how to set up your domain, please visit XXXXX's [documentation](https://www.XXXXX.com/docs/tech-resources/enabling-multiple-custom-tracking-domains/){:target="\_blank"}.
 

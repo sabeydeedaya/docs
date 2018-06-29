@@ -1,8 +1,10 @@
 ## Overview
 
-![Selligent](/img/pages/email/selligent/selligent.png)
+![Selligent Message Studio](/img/pages/email/selligent/selligent.png)
 
-This guide will walk you through how to setup your email campaings with **[Selligent](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaings with **[Selligent Message Studio](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+
+Customers need to be on **Message Studio v10.0** to be upgraded to the service pack containing the integration. Any customers that are currently on previously release lines will first need to upgrade to the base version.
 
 {! ingredients/email/overview-steps.md !}
 
@@ -14,7 +16,7 @@ This guide will walk you through how to setup your email campaings with **[Selli
 
 ### Setup a custom click tracking domain
 
-Please reach out to Selligent support to request a new custom tracking domain for your account
+Please reach out to Selligent Relationship Managers to request a new custom tracking domain for your account and proceed with integration.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Selligent.

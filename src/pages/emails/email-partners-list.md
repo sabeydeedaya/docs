@@ -21,14 +21,14 @@ Logo | Partner
 <a href="https://www.mandrill.com/" target="_blank">![Mandrill](/img/pages/email/mandrill/mandrill.png)</a>| **Mandrill**
 <a href="https://messagegears.com/" target="_blank">![MessageGears](/img/pages/email/messagegears/messagegears.png)</a>| **MessageGears**
 <a href="https://www.moengage.com/" target="_blank">![MoEngage](/img/pages/email/moengage/moengage.png)</a>| **MoEngage**
-<a href="https://bronto.com/" target="_blank">![Oracle_Bronto](/img/pages/email/oracle_bronto/oracle_bronto.png)</a>| **Oracle Bronto**
+<a href="https://bronto.com/" target="_blank">![Oracle_Bronto](/img/pages/email/oracle-bronto/oracle-bronto.png)</a>| **Oracle Bronto**
 <a href="http://www.eloqua.com/" target="_blank">![Oracle_Eloqua](/img/pages/email/oracle-eloqua/oracle-eloqua.png)</a>| **Oracle Eloqua**
-<a href="http://responsys.com/" target="_blank">![Oracle_Responsys](/img/pages/email/oracle_responsys/oracle_responsys.png)</a>| **Oracle Responsys**
+<a href="http://responsys.com/" target="_blank">![Oracle_Responsys](/img/pages/email/oracle-responsys/oracle-responsys.png)</a>| **Oracle Responsys**
 <a href="https://www.postup.com/" target="_blank">![PostUp](/img/pages/email/postup/postup.png)</a>| **PostUp**
 <a href="https://www.rapidmail.com/" target="_blank">![Rapidmail](/img/pages/email/rapidmail/rapidmail.png)</a>| **Rapidmail**
 <a href="https://www.sailthru.com/" target="_blank">![Sailthru](/img/pages/email/sailthru/sailthru.png)</a>| **Sailthru**
 <a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce](/img/pages/email/salesforce/salesforce.png)</a>| **Salesforce**
-<a href="https://www.selligent.com/" target="_blank">![Selligent](/img/pages/email/selligent/selligent.png)</a>| **Selligent**
+<a href="https://www.selligent.com/" target="_blank">![Selligent](/img/pages/email/selligent/selligent.png)</a>| **Selligent Message Studio**
 <a href="https://www.sender.net/" target="_blank">![Sender](/img/pages/email/sender/sender.png)</a>| **Sender**
 <a href="https://sendgrid.com/" target="_blank">![SendGrid](/img/pages/email/sendgrid/sendgrid.png)</a>| **SendGrid**
 <a href="https://www.sparkpost.com/" target="_blank">![SparkPost](/img/pages/email/sparkpost/sparkpost.png)</a>| **SparkPost**

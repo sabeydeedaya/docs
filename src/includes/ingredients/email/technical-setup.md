@@ -1,6 +1,6 @@
 ### Configure your app for your click tracking domain
 
-You can send ESP caonfiguration to your development team 
+You can send ESP configuration to your development team 
 
 ![image](/img/pages/email/send-email.png)
 
