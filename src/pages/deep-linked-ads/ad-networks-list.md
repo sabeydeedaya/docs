@@ -120,6 +120,7 @@ Logo | Partner
 <a href="https://www.stackadapt.com/" target="_blank">![StackAdapt](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/stackadapt-1528509174129.png)</a>| **StackAdapt**
 <a href="http://startapp.com" target="_blank">![StartApp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1525108461961.png)</a>| **StartApp**
 <a href="https://www.stroeer.de/" target="_blank">![Ströer_Mobile_Performance](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1527829201082.png)</a>| **Ströer Mobile Performance**
+<a href="http://svgmedia.in" target="_blank">![SVG_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/404150107710181508/logo-1530228560937.png)</a>| **SVG Media**
 <a href="http://www.tab.company" target="_blank">![TAB](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tab-1528510036438.png)</a>| **TAB**
 <a href="https://www.taboola.com/" target="_blank">![Taboola](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/taboola-1528510044405.png)</a>| **Taboola**
 <a href="http://tapjoy.com" target="_blank">![Tapjoy](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tapjoy-logo-1524796724959.png)</a>| **Tapjoy**

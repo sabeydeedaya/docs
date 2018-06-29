@@ -257,6 +257,7 @@ pages:
     - StackAdapt: pages/deep-linked-ads/stackadapt-mobile-tracking.md
     - StartApp: pages/deep-linked-ads/startapp-mobile-tracking.md
     - Ströer Mobile Performance: pages/deep-linked-ads/stroer-mobile-performance-mobile-tracking.md
+    - SVG Media: pages/deep-linked-ads/svg-media-mobile-tracking.md
     - TAB: pages/deep-linked-ads/tab-mobile-tracking.md
     - Taboola: pages/deep-linked-ads/taboola-mobile-tracking.md
     - Tapjoy: pages/deep-linked-ads/tapjoy-mobile-tracking.md
