@@ -2,7 +2,7 @@
 
 ![Oracle-Bronto](/img/pages/email/oracle-bronto/oracle-bronto.png)
 
-This guide will walk you through how to setup your email campaings with **[Oracle Bronto](https://bronto.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Oracle Bronto](https://bronto.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 

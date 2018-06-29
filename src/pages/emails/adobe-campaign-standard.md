@@ -2,7 +2,7 @@
 
 ![Adobe-Campaign-Standard](/img/pages/email/adobe-campaign-standard/adobe-campaign-standard.png)
 
-This guide will walk you through how to setup your email campaings with **[Adobe Campaign Standard](https://www.adobe.com/marketing-cloud/campaign.html){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Adobe Campaign Standard](https://www.adobe.com/marketing-cloud/campaign.html){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 
