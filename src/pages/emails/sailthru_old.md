@@ -1,65 +1,41 @@
-## Overview
+---
+---
 
-![Sailthru](/img/pages/email/sailthru/sailthru.png)
+{! ingredients/email/email-configure-esp.md !}
 
-This guide will walk you through how to setup your email campaings with **[Sailthru](https://www.sailthru.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+You can retrieve your click tracking domain from your Sailthru settings:
 
-{! ingredients/email/overview-steps.md !}
+1. Log in to your Sailthru account
+1. Go to Settings > Setup > Domains:
 
-## Setup
+    ![image](/img/pages/email/sailthru/sailthru-view-domain.png)
 
-{! ingredients/email/prerequisites.md !}
+1. Note or copy the value in the Link Domain field
+1. Enter the domain in item 1 of this step:
 
-## Configure your ESP
+    ![image](/img/pages/email/sailthru/configure-sailthru-1.png)
 
-### Setup a custom click tracking domain
+1. Click **Done**
 
-1. Add and verify a custom click tracking domain in the **Domain** section of your Sailthru account:
+On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 
-    ![image](/img/pages/email/sailthru/create-domain.png)
+{! ingredients/email/email-send-aasa.md !}
 
-!!! tip "Adding a custom click-tracking domain"
-    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Sailthru.
+{! ingredients/email/email-technical-setup.md !}
 
-## Activate integration
-
-### Choose your email service provider
-
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Sailthru** and click **Enable**.
-
-{! ingredients/email/link-setup.md !}
-
-### Tell us your click tracking domain
-
-You can retrieve your click tracking domain from the **Domain** section of your Sailthru account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
-
-![image](/img/pages/email/sailthru/setup-config.png)
-
-{! ingredients/email/technical-setup.md !}
-
-### Upload your AASA file
+#### Upload your AASA file
 
 Sailthru will host an Apple App Site Association (AASA) file for you, so that your click tracking domain appears to Apple as a Universal Link, and the app will open and deep link.
 
 To set up your AASA file, download the AASA file from the [email you received from Branch](#configure-your-app-for-your-click-tracking-domain), and follow the [instructions provided by Sailthru](https://getstarted.sailthru.com/mobile/apple-ios-app-universal-links/){:target="\_blank"} for setting up the HTTPS certificates.
-	
-{! ingredients/email/validate-test.md !}
 
-{! ingredients/email/simplified-usage-auto.md !}
+{! ingredients/email/email-associated-domains.md !}
 
-## Configure your mobile app
+{! ingredients/email/email-bounce-web.md !}
 
-{! ingredients/email/send-aasa.md !}
+{! ingredients/email/email-validate-test.md !}
 
-{! ingredients/email/technical-setup-app.md !}
-
-{! ingredients/email/associated-domains.md !}
-
-{! ingredients/email/bounce-web.md !}
-
-## Using Universal email
-
-{! ingredients/email/usage.md !}
+{! ingredients/email/email-usage.md !}
 
 ### Options for generating Branch links for email
 
@@ -137,10 +113,8 @@ After:
     <a href="{deeplink}">Click me</a>
     ```
 
-{! ingredients/email/link-options.md !}
+{! ingredients/email/email-link-options.md !}
 
-{! ingredients/email/usage-bounce.md !}
+{! ingredients/email/email-usage-bounce.md !}
 
-## Support
-
-{! ingredients/email/support.md !}
+{! ingredients/email/email-support.md !}

@@ -1,36 +1,66 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Mandrill](/img/pages/email/mandrill/mandrill.png)
 
-You can retrieve your click tracking domain from the **[Tracking & Return Path Domains](https://mandrillapp.com/settings/tracking-domains){:target="\_blank"}** section of your Mandrill account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain).
+This guide will walk you through how to setup your email campaings with **[Mandrill](https://www.mandrill.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Setup
 
-#### Create a custom click tracking domain
+{! ingredients/email/prerequisites.md !}
+
+## Configure your ESP
+
+### Setup a custom click tracking domain
 
 1. Add and verify a custom click tracking domain in the **[Tracking & Return Path Domains](https://mandrillapp.com/settings/tracking-domains){:target="\_blank"}** section of your Mandrill account:
 
-    ![image](/img/pages/email/mandrill-create-domain.png)
+    ![image](/img/pages/email/mandrill/create-domain.png)
 
-1. To enable tracking on a subdomain, you must set up a CNAME record in DNS pointing your subdomain to `mandrillapp.com`.
+For more information on how to set up your domain, please visit Mandrill's [documentation](https://mandrill.zendesk.com/hc/en-us/articles/205582387-How-to-Set-up-Sending-Domains){:target="\_blank"}.
 
-For more information on how to set up a tracking domain please visit Mandrill's [documentation](https://mandrill.zendesk.com/hc/en-us/articles/205582917-Can-I-customize-the-domain-used-for-open-and-click-tracking-){:target="\_blank"}.
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Mandrill.
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Activate integration
 
-{! ingredients/email/email-bounce-web.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-validate-test.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Mandrill** and click **Enable**.
 
-{! ingredients/email/email-usage.md !}
+{! ingredients/email/link-setup.md !}
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+### Tell us your click tracking domain
 
-{! ingredients/email/email-usage-auto.md !}
+You can retrieve your click tracking domain from the **[Tracking & Return Path Domains](https://mandrillapp.com/settings/tracking-domains){:target="\_blank"}** section of your Mandrill account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
-{! ingredients/email/email-support.md !}
+![image](/img/pages/email/mandrill/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+{! ingredients/email/bounce-web.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

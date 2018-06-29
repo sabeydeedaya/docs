@@ -1,24 +1,55 @@
----
----
+## Overview
 
+![Oracle Responsys](/img/pages/email/oracle-responsys/oracle-responsys.png)
 
-### Prerequisites
+This guide will walk you through how to setup your email campaings with **[Oracle Responsys](http://responsys.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-- To use the Branch Link Conversion SDK, you'll need an EMD (Email Message Designer) enabled account. If you're using the Classic dashboard, or if you’re not sure, please talk to your Responsys Account Manager.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-configure-esp.md !}
+## Setup
 
-You can retrieve your click tracking domain from your Responsys settings. Enter it in item 1 of this step. On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+To use the Branch Link Conversion SDK, you'll need an **EMD (Email Message Designer)** enabled account. If you're using the Classic dashboard, or if you’re not sure, please talk to your Responsys Account Manager.
 
-{! ingredients/email/email-send-aasa.md !}
+{! ingredients/email/prerequisites.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Configure your ESP
 
-{! ingredients/email/email-associated-domains.md !}
+### Setup a custom click tracking domain
 
-{! ingredients/email/email-validate-test.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Oracle Responsys.
 
-{! ingredients/email/email-usage.md !}
+## Activate integration
+
+### Choose your email service provider
+
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Responsys** and click **Enable**.
+
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
+
+You can retrieve your click tracking domain from your Responsys settings. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/oracle-responsys/setup-config.png)
+
+{! ingredients/email/send-aasa.md !}
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/simplified-usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
 
 ### Options for generating Branch links for email
 
@@ -160,4 +191,4 @@ The `<@deeplink >` and `<@tracked_deeplink />` tags even work with dynamic links
 <@deeplink "${latestProduct.url}">${latestProduct.name}</@deeplink>
 ```
 
-{! ingredients/email/email-support.md !}
+{! ingredients/email/support.md !}

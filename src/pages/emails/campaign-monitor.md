@@ -1,37 +1,68 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Campaign-Monitor](/img/pages/email/campaign-monitor/campaign-monitor.png)
 
-You can retrieve your click tracking domain from the **Account settings** section of your Campaign Monitor account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+This guide will walk you through how to setup your email campaings with **[Campaign Monitor](https://www.campaignmonitor.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Setup
 
-#### Create a custom click tracking domain
+{! ingredients/email/prerequisites.md !}
 
-1. Add a custom click tracking domain in the **Account Settings** section of your Campaign Monitor account:
+## Configure your ESP
 
-    ![image](/img/pages/email/campaign-monitor-domain.png)
+### Setup a custom click tracking domain
 
-1. Create a new CNAME record in your DNS zone file point it to Campaign Monitor
-1. Verify the domain in Campaign Monitor
+1. Add and verify a custom click tracking domain in the **[Set up a custom domain name for your account](http://email-campmon.branch.rocks/account/customize/customdomain/manage){:target="\_blank"}** section of your Campaign Monitor account:
+
+    ![image](/img/pages/email/campaign-monitor/create-domain.png)
 
 For more information on how to set up your domain, please visit Campaign Monitor's [documentation](https://help.campaignmonitor.com/custom-domain-names#set-up-a-custom-domain){:target="\_blank"}.
 
-{! ingredients/email/email-cname.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Campaign Monitor.
 
-{! ingredients/email/email-associated-domains.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-bounce-web.md !}
+## Activate integration
 
-{! ingredients/email/email-validate-test.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-usage.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Campaign Monitor** and click **Enable**.
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+{! ingredients/email/link-setup.md !}
 
-{! ingredients/email/email-usage-auto.md !}
+### Tell us your click tracking domain
 
-{! ingredients/email/email-support.md !}
+You can retrieve your click tracking domain from the **[Set up a custom domain name for your account](http://email-campmon.branch.rocks/account/customize/customdomain/manage){:target="\_blank"}** section of your Campaign Monitor account.
+
+If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/campaign-monitor/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+{! ingredients/email/bounce-web.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

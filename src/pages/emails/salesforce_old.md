@@ -1,25 +1,15 @@
-## Overview
+---
+---
 
-![Salesforce](/img/pages/email/salesforce/salesforce.png)
+### Prerequisites
 
-This guide will walk you through how to setup your email campaings with **[Salesforce](https://www.salesforce.com/products/marketing-cloud/overview/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+- You must have the Salesforce Marketing Cloud Sender Authentication Package (SAP) in order to benefit from Universal Links + click tracking functionality.
 
-{! ingredients/email/overview-steps.md !}
-
-## Setup
-
-You must have the **[Salesforce Marketing Cloud Sender Authentication Package (SAP)](https://help.salesforce.com/articleView?id=mc_es_sender_authentication_package.htm&type=5){:target="\_blank"}** in order to benefit from Universal Links + click tracking functionality.
-
-{! ingredients/email/prerequisites.md !}
-
-## Configure your ESP
-
-### Setup a custom click tracking domain
+{! ingredients/email/email-configure-esp.md !}
 
 You can retrieve your click tracking domain from your Salesforce settings. We **highly** recommend using a new click tracking domain for this implementation to ensure that the user experience for pre-Branch links on the original click tracking domain doesn't break.
 
-!!! tip "Adding a custom click-tracking domain"
-    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Salesforce.
+{! ingredients/email/email-technical-setup.md !}
 
 #### Configure your AASA file in Salesforce Marketing Cloud
 
@@ -34,35 +24,11 @@ Your Salesforce account must be configured to correctly handle Universal Links. 
 
 ![image](/img/pages/email/salesforce/salesforce-aasa-form.png)
 
-## Activate integration
+{! ingredients/email/email-associated-domains.md !}
 
-### Choose your email service provider
+{! ingredients/email/email-validate-test.md !}
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Salesforce** and click **Enable**.
-
-{! ingredients/email/link-setup.md !}
-
-### Tell us your click tracking domain
-
-You can retrieve your click tracking domain from your Salesforce settings. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
-
-![image](/img/pages/email/salesforce/setup-config.png)
-
-{! ingredients/email/technical-setup.md !}
-	
-{! ingredients/email/validate-test.md !}
-
-{! ingredients/email/simplified-usage-auto.md !}
-
-## Configure your mobile app
-
-{! ingredients/email/technical-setup-app.md !}
-
-{! ingredients/email/associated-domains.md !}
-
-## Using Universal email
-
-{! ingredients/email/usage.md !}
+{! ingredients/email/email-usage.md !}
 
 ### Options for generating Branch links for email
 
@@ -223,6 +189,4 @@ To ensure that the app does not open on other platforms, add `%24web_only%3Dtrue
 <a href="https://vza3.app.link/3p?%243p=e_xx&%24original_url=http%3A%2F%2Fexample.com%2F%3Ffoo%3Dbar%24web_only%3Dtrue" >Link to your app!</a>
 ```
 
-## Support
-
-{! ingredients/email/support.md !}
+{! ingredients/email/email-support.md !}

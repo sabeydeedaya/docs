@@ -1,30 +1,67 @@
----
----
+## Overview
 
-### Prerequisites
-* Customers need to be on Message Studio v10.0 to be upgraded to the service pack containing the integration. Any customers that are currently on previously release lines will first need to upgrade to the base version.
-* Customers that wish to go ahead with the integration will need to reach out to their Selligent Relationship Managers to proceed.
+![Selligent Message Studio](/img/pages/email/selligent/selligent.png)
 
-{! ingredients/email/email-configure-esp.md !}
+This guide will walk you through how to setup your email campaings with **[Selligent Message Studio](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-Please reach out to Selligent support to request a new custom tracking domain for your account. Once you have a custom tracking domain, enter it on the Configure ESP step of email onboarding. When you click **Done**, an AASA file - required for Universal Links - specific to that domain will be generated.
+Customers need to be on **Message Studio v10.0** to be upgraded to the service pack containing the integration. Any customers that are currently on previously release lines will first need to upgrade to the base version.
 
-{! ingredients/email/email-technical-setup.md !}
+{! ingredients/email/overview-steps.md !}
 
-Also be sure to send a request to Selligent support to update the redirection logic - you'll want to send redirection URL as an HTTP location header instead of JavaScript redirection.
+## Setup
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/prerequisites.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Configure your ESP
 
-{! ingredients/email/email-bounce-web.md !}
+### Setup a custom click tracking domain
 
-{! ingredients/email/email-validate-test.md !}
+Please reach out to Selligent Relationship Managers to request a new custom tracking domain for your account and proceed with integration.
 
-{! ingredients/email/email-usage.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Selligent.
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-usage-auto.md !}
+## Activate integration
 
-{! ingredients/email/email-support.md !}
+### Choose your email service provider
+
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Selligent** and click **Enable**.
+
+{! ingredients/email/link-setup.md !}
+
+### Tell us your click tracking domain
+
+You can retrieve your click tracking domain from the account settings section of your Selligent account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/selligent/setup-config.png)
+
+!!! tip "Update Redirection logic"
+    Don't forget to send a request to Selligent support to update the redirection logic - you'll want to send redirection URL as an HTTP location header instead of JavaScript redirection.
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+{! ingredients/email/bounce-web.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

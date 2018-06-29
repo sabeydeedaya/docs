@@ -1,34 +1,60 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Oracle-Bronto](/img/pages/email/oracle-bronto/oracle-bronto.png)
 
-You can retrieve your click tracking domain from your Bronto account. If you have not added a private domain yet, follow the instructions [here](#set-up-a-private-domain).
+This guide will walk you through how to setup your email campaings with **[Oracle Bronto](https://bronto.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Setup
 
-#### Set up a private domain
+{! ingredients/email/prerequisites.md !}
 
-Using a private domain gives you more control over your email sending reputation. Please follow Bronto's [documentation](https://helpdocs.bronto.com/bmp/task/t_bmp_private_domain_set_up.html){:target="\_blank"} to set this up.
+## Configure your ESP
 
-#### Enable Click Through Link Tracking
+### Setup a custom click tracking domain
 
-Enabling Click Through Link Tracking allows you to see which links your users are clicking in your emails. Please follow Bronto's [documentation](https://helpdocs.bronto.com/bmp/task/t_bmp_home_data_exchange_link_tracking_set_up.html){:target="\_blank"} to set this up.
+1. Contact your **Bronto Account Manager** and request to add and verify a private tracking domain:
 
-{! ingredients/email/email-cname.md !}
+For more information on how to set up your domain, please visit Bronto's [documentation](https://helpdocs.bronto.com/bmp/task/t_bmp_home_data_exchange_link_tracking_set_up.html){:target="\_blank"}.
 
-{! ingredients/email/email-associated-domains.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Bronto.
 
-{! ingredients/email/email-bounce-web.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-validate-test.md !}
+## Activate integration
 
-{! ingredients/email/email-usage.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-usage-auto-deeplink.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Bronto** and click **Enable**.
 
-{! ingredients/email/email-usage-auto.md !}
+{! ingredients/email/link-setup.md !}
 
-{! ingredients/email/email-support.md !}
+### Tell us your click tracking domain
+
+Contact your **Bronto Account Manager** to retrieve your private domain of your Bronto account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/oracle-bronto/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-deeplink.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

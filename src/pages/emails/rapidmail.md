@@ -1,34 +1,64 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![Rapidmail](/img/pages/email/rapidmail/rapidmail.png)
 
-You can retrieve your click tracking domain from the **[Your domains](https://my.rapidmail.com/userhost/new.html){:target="\_blank"}** section of your Rapidmail account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+This guide will walk you through how to setup your email campaings with **[Rapidmail](https://www.rapidmail.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+{! ingredients/email/overview-steps.md !}
 
-{! ingredients/email/email-technical-setup.md !}
+## Setup
 
-#### Create a custom click tracking domain
+{! ingredients/email/prerequisites.md !}
 
-1. Add and verify a custom click tracking domain in the **[Your domains](https://my.rapidmail.com/userhost/new.html){:target="\_blank"}** section of your Rapidmail account:
+## Configure your ESP
 
-    ![image](/img/pages/email/rapidmail-create-domain.png)
+### Setup a custom click tracking domain
 
-1. Create a new CNAME record in your DNS zone file and set the host of your domain to the value `tools-cname.emailsys.net`
+1. Add and verify a custom click tracking domain in the **[Your domains](https://my.rapidmail.com/userhost/list.html){:target="\_blank"}** section of your Rapidmail account:
 
-{! ingredients/email/email-cname.md !}
+    ![image](/img/pages/email/rapidmail/create-domain.png)
 
-{! ingredients/email/email-associated-domains.md !}
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Rapidmail.
 
-{! ingredients/email/email-bounce-web.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-validate-test.md !}
+## Activate integration
 
-{! ingredients/email/email-usage.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-usage-auto-bounce.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Rapidmail** and click **Enable**.
 
-{! ingredients/email/email-usage-auto.md !}
+{! ingredients/email/link-setup.md !}
 
-{! ingredients/email/email-support.md !}
+### Tell us your click tracking domain
+
+You can retrieve your click tracking domain from the **[Your domains](https://my.rapidmail.com/userhost/list.html){:target="\_blank"}** section of your Rapidmail account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+
+![image](/img/pages/email/rapidmail/setup-config.png)
+
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
+
+{! ingredients/email/usage-auto.md !}
+
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+{! ingredients/email/bounce-web.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
+## Support
+
+{! ingredients/email/support.md !}

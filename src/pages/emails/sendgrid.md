@@ -1,53 +1,62 @@
----
----
+## Overview
 
-{! ingredients/email/email-configure-esp.md !}
+![SendGrid](/img/pages/email/sendgrid/sendgrid.png)
 
-You can retrieve your click tracking domains from your Sendgrid settings:
+This guide will walk you through how to setup your email campaings with **[SendGrid](https://sendgrid.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
-1. Log in to your SendGrid account.
-1. Go to Settings > Sender Authentication > [Links](https://app.sendgrid.com/settings/sender_auth/links).
-1. Find your email link whitelabeled domain, click on the three-dot icon, and click "View" (or create a new whitelabel).
+{! ingredients/email/overview-steps.md !}
 
-    ![image](/img/pages/email/sendgrid/configure_sendgrid_1.png)
+## Setup
 
-1. Note the "Host" email click tracking domain (e.g. email.mydomain.com) and the SendGrid domain under "Data".
+{! ingredients/email/prerequisites.md !}
 
-    ![image](/img/pages/email/sendgrid/configure_sendgrid_2.png)
+## Configure your ESP
 
-1. Enter both the click tracking domain and the SendGrid domain in item 1 of this step:
+### Setup a custom click tracking domain
 
-    ![image](/img/pages/email/sendgrid/configure-sendgrid-1.png)
-   
-On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
+1. Add and verify a custom click tracking domain in the **[Tracking Domains](https://app.sendgrid.com/settings/sender_auth/links){:target="\_blank"}** section of your SendGrid account:
 
-{! ingredients/email/email-technical-setup.md !}
+    ![image](/img/pages/email/sendgrid/create-domain.png)
 
-#### Validate your click tracking domain in SendGrid
+For more information on how to set up your domain, please visit SendGrid's [documentation](https://sendgrid.com/docs/User_Guide/Settings/Sender_authentication/How_to_set_up_link_branding.html){:target="\_blank"}.
 
-Before you CNAME to Branch, you must CNAME your click tracking domain to sendgrid.net and validate the domain in Whitelabel > Email Links within SendGrid. Once there is a green checkmark indicating that the domain is valid, then you can proceed to the next step.
+!!! tip "Adding a custom click-tracking domain"
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at SendGrid.
 
-{! ingredients/email/email-cname.md !}
+{! ingredients/email/cname.md !}
 
-{! ingredients/email/email-associated-domains.md !}
+## Activate integration
 
-{! ingredients/email/email-validate-test.md !}
+### Choose your email service provider
 
-{! ingredients/email/email-usage.md !}
+Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **SendGrid** and click **Enable**.
 
-{! ingredients/email/email-usage-auto-universal.md !}
+{! ingredients/email/link-setup.md !}
 
-{! ingredients/email/email-usage-auto.md !}
+### Tell us your click tracking domain
 
-## Troubleshoot issues
+You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sendgrid.com/settings/sender_auth/links){:target="\_blank"}** section of your SendGrid account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
 
-- ### Error validating whitelabel: Expect CNAME record
-    If you are seeing this [error message](/img/pages/email/sendgrid/sendgrid_error.png), the reason is that SendGrid will only consider the CNAME sendgrid.net valid. To get rid of this error, please:
+![image](/img/pages/email/sendgrid/setup-config.png)
 
-    1. CNAME your subdomain to sendgrid.net
-    1. Validate records on SendGrid dashboard
-    1. CNAME your subdomain to thirdparty.bnc.lt
-    1. Do not validate records on SendGrid after Step 3
+{! ingredients/email/technical-setup.md !}
+	
+{! ingredients/email/validate-test.md !}
 
+{! ingredients/email/usage-auto.md !}
 
-{! ingredients/email/email-support.md !}
+## Configure your mobile app
+
+{! ingredients/email/technical-setup-app.md !}
+
+{! ingredients/email/associated-domains.md !}
+
+## Using Universal email
+
+{! ingredients/email/usage.md !}
+
+{! ingredients/email/usage-auto-deeplink.md !}
+
+## Support
+
+{! ingredients/email/support.md !}
