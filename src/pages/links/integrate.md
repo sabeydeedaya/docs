@@ -41,23 +41,26 @@
             | Pinterest | Fallback | | Fallback |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
             | Chrome browser | App | | App |
+            | Chrome address bar | Fallback | | Fallback | Deep link data will not pass into the app
             | Safari browser | App |
+            | Safari address bar | Fallback | [Blocked by Apple](https://blog.branch.io/the-problem-with-safari-app-redirects/)
             | Firefox browser | Fallback | | App |
+            | Firefox address bar | Fallback | | App
             | UC browser | | | App |
             | Naver browser | | | App |
             | Kakao browser | | | App |
             | Opera browser | App | | App |
             | Ghostery browser | App | | Fallback | Query strings must be encoded ($ = %24)
-            | Safari address bar | Fallback | [App open blocked by Apple](https://blog.branch.io/the-problem-with-safari-app-redirects/)
-            | Chrome address bar | Fallback | | Fallback | Deep link data will not pass into the app
-            | Firefox address bar | Fallback | | App
-            | Hangouts | App | | App |
-            | iMessage | App |
+            | Google Hangouts | App | | App |
+            | Samsung SMS | | | App |
+            | Samsung SMS browser | | | App |
+            | Apple iMessage | App |
             | Apple Business Chat | App |
             | Slack | App | Must configure Slack to open links with Safari | App |
             | WeChat | Fallback | Customize [WeChat fallback urls](#redirections) | Fallback | Customize [WeChat fallback urls](#redirections)
             | WhatsApp | App | `app.link` require https/http to be clickable | App | `app.link` require https/http to be clickable
             | LINE | Fallback | *Able to force app open | App |
+            | Discord | App | | App |
             | Apple Mail | App |
             | Gmail | App | | App |
             | Yahoo Mail | Fallback | *Able to force app open | App |
