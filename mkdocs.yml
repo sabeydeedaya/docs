@@ -364,6 +364,8 @@ pages:
     - Facebook Platform Ads: pages/deep-linked-ads/facebook-platform-ads.md
     - Facebook Dynamic Ads: pages/deep-linked-ads/facebook-dynamic-ads.md
     - V2 Event: pages/apps/v2event.md
+    - Segment Event Import: pages/integrations/segment-import.md
+    - mParticle Event Import: pages/integrations/mparticle-import.md
     - People-Based Attribution: pages/dashboard/people-based-attribution.md
     - Enable Single Sign On: pages/dashboard/sso.md
     - Legacy Data Export API: pages/exports/api.md
