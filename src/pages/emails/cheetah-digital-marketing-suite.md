@@ -12,9 +12,9 @@ This guide will walk you through how to setup your email campaigns with **[Cheet
 
 ## Configure your ESP
 
-### Setup a custom click tracking domain
+### Setup a custom click tracking (RTS) domain
 
-Request a new RTS domain from your Account team. The RTS domain (typically a sub-domain on your actual domain) should be the same name used in the subsequent step of creating a CNAME record.
+Request a new **RTS domain** from your Account team. The RTS domain (typically a sub-domain on your actual domain).
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Cheetah Digital Marketing Suite.
