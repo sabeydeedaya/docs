@@ -46,6 +46,7 @@ Logo | Partner
 <a href="http://clinch.co" target="_blank">![Clinch](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
 <a href="http://connectedinteractive.com/" target="_blank">![Connected_Interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/connected_interactive-1528501661316.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/" target="_blank">![Conversant_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/conversant-1528501674260.png)</a>| **Conversant Media**
+<a href="https://cpidroid.com" target="_blank">![CPI_Droid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1529963783572.png)</a>| **CPI Droid**
 <a href="http://www.criteo.com" target="_blank">![Criteo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/criteo-1528518282717.png)</a>| **Criteo**
 <a href="https://www.crobo.com/" target="_blank">![crobo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/crobo-1528501732443.png)</a>| **crobo**
 <a href="http://crossinstall.com" target="_blank">![CrossInstall](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/cross_install-1528501742319.png)</a>| **CrossInstall**
@@ -129,6 +130,7 @@ Logo | Partner
 <a href="http://teads.tv" target="_blank">![Teads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aaa-1528143294665.png)</a>| **Teads**
 <a href="https://www.thetradedesk.com/" target="_blank">![The_Trade_Desk](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/TTD-Logo-1528510078241.png)</a>| **The Trade Desk**
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times_Internet_Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>| **Times Internet Limited**
+<a href="https://www.tradedoubler.com" target="_blank">![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)</a>| **Tradedoubler**
 <a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>| **Twitter**
 <a href="http://www.tyroo.com" target="_blank">![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)</a>| **Tyroo**
 <a href="http://www.unileadnetwork.com/en/" target="_blank">![Unilead_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Un-logo-1528510158935.png)</a>| **Unilead Network**
