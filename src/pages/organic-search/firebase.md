@@ -84,6 +84,9 @@ Both the sitemap itself and statistics about Google scraping your links are upda
 
 ![image](/img/pages/organic-search/firebase/db-summary.png)
 
+!!! note "Google does not scrape sitemaps for apps with custom domains"
+    If you're using a custom domain for your Branch links, Google will not scrape your auto-generated sitemap.
+
 ## Advanced
 
 ### Configure existing website for App Indexing
