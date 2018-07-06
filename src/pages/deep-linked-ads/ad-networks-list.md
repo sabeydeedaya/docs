@@ -84,6 +84,7 @@ Logo | Partner
 <a href="https://www.minimob.com" target="_blank">![Minimob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/minimob_logo_new-1528505658274.png)</a>| **Minimob**
 <a href="https://mobair.com/" target="_blank">![MobAir](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobair_logo_new_GDMgroup_544x144px-1528505666066.png)</a>| **MobAir**
 <a href="http://mobioinc.com/" target="_blank">![Mobio](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/mobio_logofooter1-1524691847152.png)</a>| **Mobio**
+<a href="http://www.mobixu.com" target="_blank">![Mobixu](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobixu-logo-large-1530576538021.png)</a>| **Mobixu**
 <a href="http://www.mobobeat.com/" target="_blank">![Mobobeat](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobobeat-logo-1-1528505677789.png)</a>| **Mobobeat**
 <a href="http://mobrain.headwaydigital.com" target="_blank">![MoBrain](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_mobrain-1528505707049.png)</a>| **MoBrain**
 <a href="http://mobupps.com" target="_blank">![MobUpps](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobupps3-1528505716841.png)</a>| **MobUpps**
