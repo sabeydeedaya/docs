@@ -292,6 +292,7 @@ pages:
     - Braze : pages/emails/braze.md
     - Campaign Monitor: pages/emails/campaign-monitor.md
     - Cheetah Digital Marketing Suite: pages/emails/cheetah-digital-marketing-suite.md
+    - CheetahMail: pages/emails/cheetahmail.md
     - Epsilon: pages/emails/epsilon.md
     - IBM Watson Campaign Automation: pages/emails/ibm-watson-campaign-automation.md
     - Iterable: pages/emails/iterable.md
