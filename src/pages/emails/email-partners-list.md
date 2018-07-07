@@ -10,6 +10,7 @@ Logo | Partner
 <a href="https://www.braze.com/" target="_blank">![Braze](/img/pages/email/braze/braze.png)</a>| **Braze**
 <a href="https://www.campaignmonitor.com/" target="_blank">![Campaign_Monitor](/img/pages/email/campaign-monitor/campaign-monitor.png)</a>| **Campaign Monitor**
 <a href="https://www.cheetahdigital.com/" target="_blank">![Cheetah_Digital_Marketing_Suite](/img/pages/email/cheetah-digital-marketing-suite/cheetah-digital-marketing-suite.png)</a>| **Cheetah Digital Marketing Suite**
+<a href="https://www.cheetahdigital.com/" target="_blank">![CheetahMail](/img/pages/email/cheetahmail/cheetahmail.png)</a>| **CheetahMail**
 <a href="https://www.epsilon.com/" target="_blank">![Epsilon](/img/pages/email/epsilon/epsilon.png)</a>| **Epsilon**
 <a href="https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management" target="_blank">![IBM_Watson_Campaign_Automation](/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)</a>| **IBM Watson Campaign Automation**
 <a href="https://iterable.com/" target="_blank">![Iterable](/img/pages/email/iterable/iterable.png)</a>| **Iterable**
