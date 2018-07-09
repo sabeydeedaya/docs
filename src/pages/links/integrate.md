@@ -39,21 +39,22 @@
             | Twitter Browser | App | | App |
             | Snapchat | Fallback | *Able to force app open | App |
             | Pinterest | Fallback | | Fallback |
+            | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
-            | Chrome browser | App | | App |
-            | Chrome address bar | Fallback | | Fallback | Deep link data will not pass into the app
-            | Safari browser | App |
-            | Safari address bar | Fallback | [Blocked by Apple](https://blog.branch.io/the-problem-with-safari-app-redirects/)
-            | Firefox browser | Fallback | | App |
-            | Firefox address bar | Fallback | | App
-            | UC browser | | | App |
-            | Naver browser | | | App |
-            | Kakao browser | | | App |
-            | Opera browser | App | | App |
-            | Ghostery browser | App | | Fallback | Query strings must be encoded ($ = %24)
+            | Chrome Browser | App | | App |
+            | Chrome Address Bar | Fallback | | Fallback | Deep link data will not pass into the app
+            | Safari Browser | App |
+            | Safari Address Bar | Fallback | [Blocked by Apple](https://blog.branch.io/the-problem-with-safari-app-redirects/)
+            | Firefox Browser | Fallback | | App |
+            | Firefox Address Bar | Fallback | | App
+            | UC Browser | | | App |
+            | Naver Browser | | | App |
+            | Kakao Browser | | | App |
+            | Opera Browser | App | | App |
+            | Ghostery Browser | App | | Fallback | Query strings must be encoded ($ = %24)
             | Google Hangouts | App | | App |
             | Samsung SMS | | | App |
-            | Samsung SMS browser | | | App |
+            | Samsung SMS Browser | | | App |
             | Apple iMessage | App |
             | Apple Business Chat | App |
             | Slack | App | Must configure Slack to open links with Safari | App |
