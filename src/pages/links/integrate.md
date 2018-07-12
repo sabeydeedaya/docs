@@ -37,7 +37,7 @@
             | Instagram Stories | Fallback | *Able to force app open | App |
             | Twitter Feed | Fallback | *Able to force app open | App |
             | Twitter Browser | App | | App |
-            | Snapchat | Fallback | *Able to force app open | App |
+            | Snapchat | Fallback | *Able to force app open | App | HTTPS is not supported in organic. Use HTTP. We are working on a workaround.
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
