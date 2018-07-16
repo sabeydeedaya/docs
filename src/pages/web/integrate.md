@@ -219,7 +219,6 @@
 
     - Feature has certain [SMS limits](/pages/web/text-me-the-app/#what-are-the-sms-rate-limits)
 
-    - Validate with [Branch Dashboard](https://dashboard.branch.io/liveview/clicks) for `+phone_number`
 
         ```js
         var phoneNumber = '9999999999' // +919812345678, +442071234567
