@@ -409,7 +409,6 @@
         | ~creation_source | |  Where the link was created (`0` API , `1` Quick Link, `2` SDK, `3` iOS SDK , `4` Android SDK , `5` Web SDK, `6` Dynamic, `7` Third party)
         | +match_guaranteed | | If the match was made with 100% accuracy
         | +referrer | | The referrer for the link click, if a link was clicked
-        | +phone_number | | The phone number of the user, if the user texted himself/herself the app
         | +is_first_session | `false` | `true` if first session (install), `false` if any other session (open)
         | +clicked_branch_link | `false` | Whether or not the user clicked a Branch link that triggered this session
         | +non_branch_link | | App was opened from a non Branch link (third party, invalid Branch deep link, or Branch key mismatch)
