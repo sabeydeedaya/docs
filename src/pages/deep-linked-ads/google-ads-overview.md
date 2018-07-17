@@ -203,7 +203,7 @@ Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shoppi
 ### Adwords Campaign Limitations
 
 #### Product Listing Ads (PLA) - Attribution
-- Google's API currently does not support sending attribution data from a PLA
+- Branch's dashboard will attribute events as expected, but Google's API currently does not support sending attribution data from a PLA, so the data on their dashboard will be inconsistent.
 - Deep linking is supported
 
 #### App Extensions - Deep Linking through Install
