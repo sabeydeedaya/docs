@@ -68,7 +68,7 @@
                 if (error != null) {
                     System.Console.WriteLine("Error : "
                                             + error);
-                } else if (linkProperties.controlParams.Count > 0) {
+                } else if (linkProps.controlParams.Count > 0) {
                     System.Console.WriteLine("Deeplink params : "
                                             + buo.ToJsonString()
                                             + linkProps.ToJsonString());
