@@ -39,7 +39,7 @@
             | Twitter Browser | App | | App |
             | Snapchat | Fallback | *Able to force app open | App |
             | Pinterest | Fallback | | Fallback |
-            | Pinterest | App | | App |
+            | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
             | Chrome browser | App | | App |
             | Chrome address bar | Fallback | | Fallback | Deep link data will not pass into the app
