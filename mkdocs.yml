@@ -68,7 +68,7 @@ extra:
       link: 'https://www.facebook.com/branchmetrics'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company-beta/3813083'
-  disqus: 'branch-docs'
+  disqus:
   sources:
     mixpanel: '47ec8ea9ac102b1370221dcda476091c'
     google:
