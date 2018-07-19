@@ -35,7 +35,7 @@
 
         - Run `react-native link react-native-branch`
 
-    - Option 2: Native iOS app with React pod
+    - Option 2: Native iOS app with CocoaPods
 
         - Add these lines to your `Podfile`
 
