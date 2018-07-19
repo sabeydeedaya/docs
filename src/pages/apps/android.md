@@ -1370,3 +1370,11 @@
 
     - Happens whenever URI Scheme redirection fails.
     - Make sure you do not have `$deeplink_path` or you have a `$deeplink_path` which your `AndroidManifest.xml` can accept
+
+- ### Stuck in `initState_ == SESSION_STATE.INITIALISING`
+
+    - Often caused because Branch does not have the right application context from your activity. To fix this, pass in the singleton class when you access the Branch instance:
+
+    ```java
+    Branch.getInstance(getApplicationContext());
+    ```
