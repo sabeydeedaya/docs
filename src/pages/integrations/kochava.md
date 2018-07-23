@@ -56,7 +56,7 @@ Once you've clicked `Submit` you should see a screen with the campaign ID.
 If you are interested in advanced network attribution segmentation in Kochava, you can use the same attribution parameters from a Kochava Click URL with your Branch link, and switch out campaign_ids. Please note that using this method will override the default attribution of Branch links to their default campaign in Kochava (only the specific Branch links that you do this for will not attribute to the default campaign).
 
 
-1. Start with an existing Branch link, for example, a [ Quick Link](/features/google-search-ads/guide/#create-a-marketing-link-on-the-branch-dashboard){:target="\_blank"}.
+1. Start with an existing Branch link, for example, a [ Quick Link](../../pages/dashboard/analytics/#quick-links).
 1. Next, [create a Kochava Click URL](http://support.kochava.com/campaign-management/create-an-install-campaign){:target="\_blank"} in the Kochava Dashboard with the parameters you'd like to capture.
 	- Select the "Click" URL (as opposed to the Impression URL)
 	- After creating the URL, copy everything after **click** value and append the parameters to the end of your Branch link.
