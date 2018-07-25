@@ -58,7 +58,7 @@ The response payload will be in JSON format and for each export it will have an 
   "eo_pageview": ["https://branch-exports.s3.amazonaws.com/271025641725777235-2017-10-01-eo_pageview-v2-9166aaea1e6c46fcf0a48d5a32c02c6b8272d3edb10c332db2ebc0cbb34d58c0-neWTEO.csv.gz"],
   "eo_reinstall": ["https://branch-exports.s3.amazonaws.com/271025641725777235-2017-10-01-eo_reinstall-v2-b4188abf0635915c56be670ad988eab889f084b7d2109e3225a6974a80e2781f-htV3uL.csv.gz"],
   "eo_sms_sent": ["https://branch-exports.s3.amazonaws.com/271025641725777235-2017-10-01-eo_sms_sent-v2-32ebf2131e1538fc180e27df8e5e5fbe8ea89ff5e971811056c449095f35e651-5xay42.csv.gz"],
-  "eo_web_session_start": ["https://branch-exports.s3.amazonaws.com/271025641725777235-2017-10-01-eo_web_session_start-v2-056d25078e665dab3d78d1eb00336ad27087da5593ba1003f8ad8923dfce31a0-06wAW2.csv.gz"
+  "eo_web_session_start": ["https://branch-exports.s3.amazonaws.com/271025641725777235-2017-10-01-eo_web_session_start-v2-056d25078e665dab3d78d1eb00336ad27087da5593ba1003f8ad8923dfce31a0-06wAW2.csv.gz"]
 }
 ```
 
