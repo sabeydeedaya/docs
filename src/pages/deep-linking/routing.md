@@ -172,7 +172,7 @@ This returns the first set of deep link data that ever referred the user. Once i
 If your app already supports deep linking using URI paths, you can populate the `$deeplink_path`, `$ios_deeplink_path` or `$android_deeplink_path` link parameters with the URI path of the content to be displayed within the app. When the Branch SDK receives a link containing one of these parameters it will automatically load the specified URI path.
 
 !!! warning "Incomplete support on iOS"
-	[Universal Links](/pages/deep-linking/universal-links/) and [Spotlight](/pages/organic-search/spotlight/) do not support deep linking via URI paths. If you use `$deeplink_path` or `$ios_deeplink_path`, you will need to implement some custom logic. [Click here for more information](#how-to-handle-uri-paths-with-universal-links).
+	[Universal Links](/pages/deep-linking/universal-links/) and [Spotlight](/pages/organic-search/spotlight/) do not support deep linking via URI paths. If you use `$deeplink_path` or `$ios_deeplink_path`, you will need to implement some custom logic. [Click here for more information](#how-to-handle-uri-paths-with-universal-links-or-app-links).
 
 
 ### How to insert custom deep link routes into a Branch link
