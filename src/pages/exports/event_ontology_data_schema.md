@@ -17,17 +17,18 @@ Previously, we had different formats for Webhooks vs Data Integrations vs Export
 
 We split out events into logical groupings. We now have the following distinct event groupings:
 
-- impressions
+- impression
 - click
-- web-to-app auto redirect
+- web-to-app auto-redirect
+- Branch CTA view
 - sms sent
+- open
 - install
 - reinstall
-- open
 - web session start
-- pageview 
-- custom event
+- pageview
 - commerce event
+- custom event
 - content event
 - user lifecycle event
 
