@@ -146,6 +146,6 @@ Logo | Partner
 <a href="http://en.yeahmobi.com/" target="_blank">![YeahMobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Logo-Yeahmobi-1528510894313.png)</a>| **YeahMobi**
 <a href="http://www.youappi.com/" target="_blank">![YouAppi](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524611148376.png)</a>| **YouAppi**
 <a href="http://www.youappi.com/" target="_blank">![YouAppi_Retargeting](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524610899776.png)</a>| **YouAppi Retargeting**
-<a href="https://zorka.mobi/en" target="_blank">![Zorka_Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)</a>| **Zorka Mobi**
+<a href="https://zorka.mobi/en" target="_blank">![Zorka_Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)</a>| **Zorka.Mobi**
 
 Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/gsCV0dTwExB4LZ4e2){:target="\_blank"}**
