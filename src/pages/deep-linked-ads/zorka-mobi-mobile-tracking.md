@@ -1,8 +1,8 @@
 ## Overview
 
-![Zorka-Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)
+![Zorka.Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)
 
-This guide will walk you through how to setup your campaigns with **[Zorka Mobi](https://zorka.mobi/en)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Zorka.Mobi](https://zorka.mobi/en)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
