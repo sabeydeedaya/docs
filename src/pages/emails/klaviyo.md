@@ -53,7 +53,7 @@ Contact your **Klaviyo Account Manager** and request the name of your Custom Cli
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-deeplink.md !}
+{! ingredients/email/usage-auto-universal.md !}
 
 ## Support
 

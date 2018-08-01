@@ -51,7 +51,7 @@ Contact your **Braze Account Manager** and request the Email Click Tracking Doma
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-deeplink.md !}
+{! ingredients/email/usage-auto-universal.md !}
 
 ## Support
 

@@ -73,7 +73,7 @@ You can retrieve your click tracking domain from the **Email Delivery** section 
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-deeplink.md !}
+{! ingredients/email/usage-auto-universal.md !}
 
 ## Support
 
