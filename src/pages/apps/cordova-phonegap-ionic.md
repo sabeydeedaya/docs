@@ -205,7 +205,7 @@
         Branch.setDebug(true)
         
         // for GDPR compliance (can be called at anytime)
-        Branch.disabledTracking(true);
+        Branch.disableTracking(true);
 
         // Branch initialization
         Branch.initSession().then(function(data) {
