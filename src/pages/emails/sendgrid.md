@@ -55,7 +55,7 @@ You can retrieve your click tracking domain from the **[Tracking Domains](https:
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-deeplink.md !}
+{! ingredients/email/usage-auto-universal.md !}
 
 ## Support
 

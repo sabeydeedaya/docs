@@ -1,7 +1,7 @@
 ### Flag your deep links
 
-In order for your email service provider to know that the email link should open the app, add `universal="true"` to the HTML, for example:
+In order for your email service provider to know that the email link should open the app, add `deeplink="true"` to the HTML, for example:
 
 ```html
-<a href="http://example.com" universal="true">Link to your app!</a>
+<a href="http://example.com" deeplink="true">Link to your app!</a>
 ```
