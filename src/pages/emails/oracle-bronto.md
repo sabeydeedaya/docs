@@ -27,7 +27,7 @@ For more information on how to set up your domain, please visit Bronto's [docume
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Bronto** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Bronto** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 
