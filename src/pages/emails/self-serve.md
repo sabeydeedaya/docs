@@ -21,7 +21,7 @@ Many third-party providers add redirects to your URLs. This facilitates click tr
 - [MailChimp](http://kb.mailchimp.com/reports/enable-and-view-click-tracking#Turn-Click-Tracking-On-or-Off){:target="\_blank"}
 
 !!! proptip "Want to deep link your emails without sacrificing click tracking?"
-    To keep click tracking *and* deep link on all devices, try one of our [Deep Linked Email integrations](https://dashboard.branch.io/email){:target="\_blank"}. If you do not see your ESP there, let us know [here](https://dashboard.branch.io/email){:target="\_blank"}:
+    To keep click tracking *and* deep link on all devices, try one of our [Universal Email integrations](https://dashboard.branch.io/email){:target="\_blank"}. If you do not see your ESP there, let us know [here](https://dashboard.branch.io/email){:target="\_blank"}:
 
     ![image](/img/pages/email/no-esp.png)
 
