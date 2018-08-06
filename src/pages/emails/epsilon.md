@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[Epsil
 
 You can retrieve your click tracking domain from your Epsilon settings. We recommend creating a new click tracking domain for the Epsilon Harmony integration. You can switch over your production click tracking domain to Epsilon but we recommend testing with a different domain to get started.
 
-For Epsilon, you may also need an IP address. Notify your Epsilon Harmony Account Manager that you plan to use Branch Deep Linked Email, and ask your Harmony Account Manager to provide the IP that you set your click tracking domains to. Add that next to your click tracking domain in this step.
+For Epsilon, you may also need an IP address. Notify your Epsilon Harmony Account Manager that you plan to use Branch Universal Email, and ask your Harmony Account Manager to provide the IP that you set your click tracking domains to. Add that next to your click tracking domain in this step.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Epsilon.
@@ -27,7 +27,7 @@ For Epsilon, you may also need an IP address. Notify your Epsilon Harmony Accoun
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Epsilon** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Epsilon** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 

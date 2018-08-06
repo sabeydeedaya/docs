@@ -25,7 +25,7 @@ Please reach out to Betaout support to request a new custom tracking domain for 
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Betaout** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Betaout** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 

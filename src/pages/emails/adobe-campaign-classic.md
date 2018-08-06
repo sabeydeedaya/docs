@@ -27,7 +27,7 @@ Add a custom click tracking domain at the **Brand Configuration** page in the fi
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Adobe Campaign Classic** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Adobe Campaign Classic** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 

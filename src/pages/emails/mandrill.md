@@ -29,7 +29,7 @@ For more information on how to set up your domain, please visit Mandrill's [docu
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Mandrill** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Mandrill** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 
