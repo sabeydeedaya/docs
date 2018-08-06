@@ -1,6 +1,6 @@
 ## Overview
 
-Deep Linked Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
+Universal Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
 
 ![image](/img/pages/email/responsys/deep-linked-email.png)
 
@@ -18,7 +18,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select your email service provider and click **Get Started**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select your email service provider and click **Get Started**.
 
 ![image](/img/pages/email/choose-esp.png)
 
@@ -30,7 +30,7 @@ Branch turns the web URLs you put into your emails into Branch deep links, openi
 
 ![image](/img/pages/email/users-with-app.png)
 
-To do this, it must be possible to map your web URL content (e.g. a page with brown loafers at `https://shop.com/shoes/brown-loafers`) into a working deep link that takes users to brown loafers in the app. The Deep Linked Email [setup flow](https://dashboard.branch.io/email){:target="\_blank"} will attempt to automatically detect this mapping for you.
+To do this, it must be possible to map your web URL content (e.g. a page with brown loafers at `https://shop.com/shoes/brown-loafers`) into a working deep link that takes users to brown loafers in the app. The Universal Email [setup flow](https://dashboard.branch.io/email){:target="\_blank"} will attempt to automatically detect this mapping for you.
 
 If you do not want to set this up yet, you can select **No, just open to app homepage for now**.
 
@@ -108,9 +108,9 @@ The following are all the possible settings you can configure for deep linking w
 
 ### Visualizing Email Performance
 
-In order to view the performance of your Deep Linked Emails, navigate to the Analytics tab of the Email section of the dashboard. 
+In order to view the performance of your Universal Emails, navigate to the Analytics tab of the Email section of the dashboard. 
 
-The Analytics tab provides two charts: a time series and a table. Both charts are populated exclusively with data from your Branch Deep Linked Email campaigns, and you can filter further using the options at the top of each chart. The charts display counts and rates of events attributed to Deep Linked Email link clicks.
+The Analytics tab provides two charts: a time series and a table. Both charts are populated exclusively with data from your Branch Universal Email campaigns, and you can filter further using the options at the top of each chart. The charts display counts and rates of events attributed to Universal Email link clicks.
 
 Both the time series and the table automatically compare by platform, so you can see the results of your campaigns across all platforms (iOS app & web, Android app & web, desktop web).
 
