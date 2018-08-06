@@ -23,7 +23,7 @@ To use the Branch Link Conversion SDK, you'll need an **EMD (Email Message Desig
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Responsys** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **Oracle-Responsys** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 
@@ -53,7 +53,7 @@ You can retrieve your click tracking domain from your Responsys settings. If you
 
 ### Options for generating Branch links for email
 
-There are a few different ways you can create Branch links that are compatible with Deep Linked Email + Responsys. You will need to replace the web URLs in your templates with these. To create Branch links, you can either:
+There are a few different ways you can create Branch links that are compatible with Universal Email + Responsys. You will need to replace the web URLs in your templates with these. To create Branch links, you can either:
 
 1. [Use the Branch Responsys SDK](#use-the-branch-responsys-sdk)
 1. [Making regular Branch links compatible with email](#making-regular-branch-links-compatible-with-email)
