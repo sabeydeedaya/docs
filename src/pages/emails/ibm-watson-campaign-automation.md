@@ -27,7 +27,7 @@ If you need to add new custom click tracking domain please ask your IBM Watson C
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **IBM Watson Campaign Automation** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **IBM Watson Campaign Automation** and click **Enable**.
 
 {! ingredients/email/link-setup.md !}
 
