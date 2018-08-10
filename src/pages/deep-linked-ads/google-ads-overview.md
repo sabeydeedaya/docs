@@ -203,7 +203,7 @@ Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shoppi
 ### Adwords Campaign Limitations
 
 #### Product Listing Ads (PLA) - Attribution
-- Branch's dashboard will attribute app events to PLA campaigns via the click tracking links used in the adwords_redirect field of the product catalog. However Google's Conversion API currently does not support app attribution data for PLA/Shopping campaigns, so the data in AdWords dashboard may not show app conversions such as installs or app purchases.
+- Branch's dashboard will attribute app events to PLA campaigns via the click tracking links used in the adwords_redirect field of the product catalog. However, Google's Conversion API currently does not support app attribution data for PLA/Shopping campaigns, so the data in AdWords dashboard may not show app conversions such as installs or app purchases.
 - Deep linking is supported
 
 #### App Extensions - Deep Linking through Install
