@@ -434,7 +434,7 @@
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
 
 - ### Deep Links in China
-    - We have found that our links don't work with all Chinese ISPs
+    - We have found that our links don't work with all Chinese ISPs:
 
         | ISP Name | Behavior
         | --- | ---
