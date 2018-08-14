@@ -432,3 +432,7 @@
 - ### View deep link stats
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
+
+- ### Deep Links in China
+    - Branch Deep Links don't currently work with the following ISP: GreatWall
+    - Branch Deep Links do work as expected with: China Mobile and China Net
