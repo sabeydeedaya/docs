@@ -434,5 +434,10 @@
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
 
 - ### Deep Links in China
-    - Branch Deep Links don't currently work with the following ISP: GreatWall
-    - Branch Deep Links do work as expected with: China Mobile and China Net
+    - We have found that our links don't work with all Chinese ISPs
+
+        | ISP Name | Behavior
+        | --- | ---
+        | China Mobile | Works as expected
+        | China Net | Works as expected
+        | Great Wall | Timeout error, `ERR_TIMED_OUT` on link response
