@@ -10,7 +10,7 @@ Branch can help track your **[Apple Search Ad](https://searchads.apple.com/)** c
 
 ## Setup
 
-In order to check if the user came from an Apple Search Ad, you must make the attribution call before Branch initializes. As a warning, Apple's API is extremely slow often taking more than 1 second round trip. This means that your call to Branch's initSession to the execution of the callback block will be delayed by this additional 1 second.
+In order to check if the user came from an Apple Search Ad, you must make the attribution call before Branch initializes. As a warning, Apple's API is extremely slow, often taking more than 1 second round trip. This means that your call to Branch's initSession to the execution of the callback block may be delayed by this additional 1 second.
 
 ## Import iAd and AdSupport
 
@@ -63,7 +63,37 @@ All the attribution can be visible on the [Branch dashboard summary page](https:
 
 Note that these stats are **limited to the date range** at the top of the page. You can expand the range if you'd like.
 
+### Change attribution windows
+
+Attribution windows can be specified at the global account level or on a per link basis with the link level window taking priority. See the below instructions for setup.
+
+#### Account Level Attribution Windows
+
+You can edit your attribution windows under Link Settings > Attribution Windows.
+
+   ![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+
+Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
+
+#### Ad Network Attribution Windows
+
+You can edit your attribution windows at the ad network level, if your ad network requires it. This is recommended when you enable networks like Apple, Facebook and Google, who may have different windows for installs. With this, you can preserve your Account Level Attribution Windows, as well.
+
+   ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
+
 ## Support
+
+### Install discrepancies when compared with Apple Search Ads dashboard
+
+There are a few possible causes of discrepancies with Apple Search Ads. Due to the low customizability of Apple Search Ads' attribution settings, discrepancies are often higher on Apple Search Ads than other platforms, even though performance may be solid and reporting may be working as expected.
+
+- *Time zones.* Ensure your Apple Search Ads time zone (in Settings > Overview > Account Information ) matches your Branch Dashboard time zone (visible under Account Settings).
+- *Limit Ad Tracking (LAT) On.* Apple doesn't report installs to third parties if the user has Limit Ad Tracking enabled. However the Apple Search Ads dashboard shows all installs, regardless of limit ad tracking state. You can see the approximate quantity of Limit Ad Tracking On installs by adding that column in the Apple Search Ads Reporting API. Those installs will not appear in Branch's dashboard.
+- *Attribution Windows.* Apple attributes all installs within 30 days of an Apple Search Ads click to itself. Branch's default click to install attribution window is 7 days. You can modify Branch's click to install window. You can modify your [Apple Search Ads attribution windows](#change-attribution-windows). 
+- *Last-click attribution.* Apple attributes all installs within 30 days of an Apple Search Ads click to itself. Branch will attribute to the last click within its attribution windows, which can often be a different source than Apple Search Ads.
+- *Reinstalls.* Apple counts reinstalls as conversions, but Branch calls these installs "REINSTALLS."
+- *Attribution API timeouts or delays.* Apple's API can be slow to respond. Although customers can edit the timeout, the default Branch timeout in the code above is just over 1 second. If Apple responds after this timeout, Branch will not attribute the install to Apple.
+- *Opens vs. installs* Branch considers the first open to be the install. Apple considers the time that the user downloaded the app to be an install. This can cause discrepancies in counts and date of install.
 
 ### Adding deep linking to Apple Search Ads
 
