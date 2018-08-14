@@ -432,3 +432,12 @@
 - ### View deep link stats
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
+
+- ### Deep Links in China
+    - We have found that our links don't work with all Chinese ISPs:
+
+        | ISP Name | Behavior
+        | --- | ---
+        | China Mobile | Works as expected
+        | China Net | Works as expected
+        | Great Wall | Timeout error, `ERR_TIMED_OUT` on link response
