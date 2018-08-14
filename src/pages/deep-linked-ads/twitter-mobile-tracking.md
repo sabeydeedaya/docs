@@ -2,7 +2,10 @@
 
 ![Twitter_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)
 
-Configuring **[Twitter](https://business.twitter.com/en/twitter-ads.html)** install ads to use Branch links is very simple. The only trick is that you will be using the website click/conversion ads instead of the standard app install ad. Using Branch links allows you to track ad-driven installs on the Branch dashboard and deep link those new users directly to content the first time they open your app.
+
+Twitter App Install and Engagement campaigns are under review and are not currently supported. Please reach out to your Account Manager for more information.
+
+The steps below show how to create a Twitter Ad Link for use in *web* campaigns only.
 
 
 ## Setup
@@ -23,13 +26,15 @@ To track installs from Twitter you should integrate the Branch SDK into your app
 
 Once you've enabled an Twitter, it's time to create a tracking link.
 
-1. Select **App Only** from the dropdown
+1. Select **Cross-Platform Display** from the dropdown
 
     ![image](/img/pages/deep-linked-ads/branch-universal-ads/choose-ad-format.png)
 
 1. At this point you need to name your link. Select something that will make it easy to find if you need it later. Click **Configure Options** to continue.
 
     ![image](/img/pages/deep-linked-ads/twitter/twitter-ad-link.png)
+
+1. Set all redirects to your website URLs.
 
 1. This is your chance to add deep link data and analytics tags. Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
 
@@ -53,7 +58,7 @@ Go to Twitter and set up a new ad campaign. When selecting the campaign type tha
 
 Set the device targeting as desired.
 
-### Enter Branch Quick Link
+### Enter Branch Ad Link
 
 On the ad creation card, enter the Branch Quick Link you created in the **Website URL** field.
 
