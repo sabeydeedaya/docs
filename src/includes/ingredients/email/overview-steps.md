@@ -1,4 +1,4 @@
-The basic integration involves three parts:
+The basic integration involves four parts:
 
 1. [Configure your ESP](#configure-your-esp)
 1. [Activate integration and setup link behavior](#activate-integration)
