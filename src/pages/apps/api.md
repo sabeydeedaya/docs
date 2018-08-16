@@ -453,11 +453,11 @@
 - ### Referral link
 
     !!! warning "Create a user before creating a link"
-        Please create a user with `$identity_id` before you create a referral link with the same `$identity_id`
+        Please create a user with `identity` and `identity_id` before you create a referral link with the same `identity`
 
-    - [Create a user](#user-create) with an `$identity_id`
+    - [Create a user](#user-create) with an `identity` and `identity_id`
 
-    - [Create a link](#link-create) with the `$identity_id` from step 1 in the link data dictionary
+    - [Create a link](#link-create) with the `identity` from step 1 in the link data dictionary
 
 - ### Referral reward
 
