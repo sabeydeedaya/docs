@@ -26,7 +26,7 @@ Branch will import events that are not auto-tracked with the Branch SDKs. This i
 For server-side event import, **you can ignore the SDK integration instructions**. 
 
 !!! warning "Avoid duplicate data"
-    To avoid duplicate data, you should either [track events directly with Branch](/pages/apps/v2event) or track events with Segment and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
+    To avoid duplicate data, you should either [track conversion events directly with Branch](/pages/apps/v2event) or track events with Segment and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
 
 
 ### Track
@@ -69,7 +69,7 @@ Branch will only import events from Segment that are not already auto-tracked wi
 | Payment Info Entered | Add Payment Info | Commerce Event | **Yes** |
 | Checkout Started | Initiate Purchase | Commerce Event | **Yes** |
 | Order Completed | Purchase | Commerce Event | **Yes** |
-| Order Completed | Spend Credits | Commerce Event | **Yes** |
+| *use the Branch event name* | Spend Credits | Commerce Event | **Yes** |
 | Products Searched | Search | Content Event | **Yes** |
 | Product Viewed | View Item | Content Event | **Yes** |
 | Product List Viewed | View Items | Content Event | **Yes** |
@@ -120,7 +120,7 @@ Branch maps Segment's identifiers to the following:
 
 If using User ID with Segment, Branch will automatically map this to [developer identity](/pages/apps/ios/#track-users). Check out Segment's [User ID docs](https://segment.com/docs/spec/identify#user-id){:target="\_blank"} for more details.
 
-At this time, Branch does not map Segment's anonymous ID to any field, and [will not attribute logged out web events](#attribution-for-logged-out-users-on-web). Anonymous ID [can still be attached to events](#attaching-anonymous-id-to-events).
+At this time, Branch does not map Segment's anonymous ID to any field, and [will not attribute logged out web events](#attribution-for-logged-out-users-on-web) received from the server-to-server integration. Anonymous ID [can still be attached to events](#attaching-anonymous-id-to-events).
 
 #### Validating the integration
 
@@ -146,4 +146,4 @@ Events imported from Segment with anonymous ID attached will retain that value o
 
 ### Attribution for logged out users on web
 
-Branch uses a custom, in-house identifier for logged out users on web. If you enable the server to server integration from Segment to Branch, you will not be able to attribute logged out web events to a campaign run with Branch. For this reason, you may want to track web events directly with the Branch web SDK, while still sending app events server to server from Segment. Branch allows you to then toggle web event import off to prevent duplicate data:
+Branch uses a custom, in-house identifier for logged out users on web. If you enable the server to server integration from Segment to Branch, you will not be able to attribute logged out web events to a campaign run with Branch. For this reason, you may want to track web events directly with the Branch web SDK, while still sending app events server to server from Segment. Branch allows you to then toggle web event import off to prevent duplicate data.
