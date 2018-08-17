@@ -55,6 +55,7 @@ Logo | Partner
 <a href="https://www.clickadu.com/" target="_blank">![Clickadu](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickadu-1528501636823.png)</a>| **Clickadu**
 <a href="https://clickky.biz/" target="_blank">![Clickky](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickky-1528501647002.png)</a>| **Clickky**
 <a href="http://clinch.co" target="_blank">![Clinch](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
+<a href="http://cluep.com" target="_blank">![Cluep](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/new-cluep-logo-01-1533858970784.png)</a>| **Cluep**
 <a href="http://connectedinteractive.com/" target="_blank">![Connected_Interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/connected_interactive-1528501661316.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/" target="_blank">![Conversant_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/conversant-1528501674260.png)</a>| **Conversant Media**
 <a href="https://cpidroid.com" target="_blank">![CPI_Droid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1529963783572.png)</a>| **CPI Droid**
