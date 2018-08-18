@@ -8,42 +8,17 @@ jobs:
     docker:
       - image: circleci/python:2.7.15-node-browsers
     steps:
-    - checkout
-    - setup_remote_docker
-    - run: pip install --upgrade pip
-    - run: pip install mkdocs
-    - run: pip install pygments
-    - run: pip install pymdown-extensions
-    - run: pip install markdown-include
-    - run: mkdocs build --clean --verbose
-    - persist_to_workspace:
-        root: workspace
-        paths:
-          - docker-build
-
-  deploy:
-    machine: true
-    working_directory: ~/docs
-    environment:
-      DC2: true
-    steps:
-    - checkout
-    - attach_workspace:
-      # Must be absolute path or relative path from working_directory
-      at: /tmp/workspace
-    - run: cp -R /tmp/workspace/docker-build ~/
-    - run: mkdocs build --clean --verbose
+      - checkout
+      - setup_remote_docker
+      - run: pip install --upgrade pip
+      - run: pip install mkdocs
+      - run: pip install pygments
+      - run: pip install pymdown-extensions
+      - run: pip install markdown-include
+      - run: mkdocs build --clean --verbose
 
 workflows:
   version: 2
-  build-and-deploy:
+  build_and_deploy:
     jobs:
       - build
-        branches:
-          ignore: gh-pages
-      - deploy:
-        requires:
-          - build
-        filters:
-          branches:
-            only: master
