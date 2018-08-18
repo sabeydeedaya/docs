@@ -11,10 +11,10 @@ jobs:
       - checkout
       - setup_remote_docker
       - run: pip install --upgrade pip
-      - run: pip install mkdocs
-      - run: pip install pygments
-      - run: pip install pymdown-extensions
-      - run: pip install markdown-include
+      - run: sudo pip install mkdocs
+      - run: sudo pip install pygments
+      - run: sudo pip install pymdown-extensions
+      - run: sudo pip install markdown-include
       - run: mkdocs build --clean --verbose
 
 workflows:
