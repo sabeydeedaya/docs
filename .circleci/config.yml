@@ -19,7 +19,7 @@ jobs:
       - run: ls -a
       - run: mkdocs build --clean --verbose
       - run: ls -a
-      - run: docker build -f Dockerfile.static -t docs:$CIRCLE_BRANCH .
+      - run: docker build -t docs:$CIRCLE_BRANCH .
       - run: mkdir -p docker-cache
       - run: docker save -o docker-cache/built-image.tar docs:$CIRCLE_BRANCH
       - save_cache:
