@@ -26,10 +26,10 @@ jobs:
       DC2: true
     steps:
       - checkout
-      - attach_workspace:
-        # Must be absolute path or relative path from working_directory
-        at: /tmp/workspace
-      - run: cp -R /tmp/workspace/docker-build ~/
+      # - attach_workspace:
+      #   # Must be absolute path or relative path from working_directory
+      #   at: /tmp/workspace
+      # - run: cp -R /tmp/workspace/docker-build ~/
       - run: mkdocs build --clean --verbose
 
 workflows:
@@ -37,3 +37,9 @@ workflows:
   build_and_deploy:
     jobs:
       - build
+      - deploy:
+        requires:
+          - build
+        filters:
+          branches:
+            only: [master]
