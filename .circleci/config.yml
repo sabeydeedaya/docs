@@ -28,12 +28,8 @@ jobs:
     working_directory: ~/docs
     environment:
       DC2: true
-      BRANCH_STACK: python
-    docker:
-      - image: circleci/python:2.7.15-node-browsers
     steps:
     - checkout
-    - setup_remote_docker
     # - attach_workspace:
     #   at: /tmp/workspace
     # - run: cp -R /tmp/workspace/docker-build ~/
@@ -47,9 +43,9 @@ workflows:
         # filters:
         #   branches:
         #     ignore: gh-pages
-      # - deploy:
-      #   requires:
-      #     - build
-      #   filters:
-      #     branches:
-      #       only: master
+      - deploy:
+        requires:
+          - build
+        filters:
+          branches:
+            only: master
