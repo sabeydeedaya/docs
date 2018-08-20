@@ -1,4 +1,4 @@
-mkdocs
+mkdocs==1.0
 pygments
 pymdown-extensions
 markdown-include
