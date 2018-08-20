@@ -17,22 +17,26 @@ jobs:
       - run: sudo pip install markdown-include
       - run: sudo pip install mkdocs-material
       - run: mkdocs build --clean --verbose
-      - run: mkdir -p workspace && cp -R ~/docker-build workspace/
-      - persist_to_workspace:
-          root: workspace
-          paths:
-            - docker-build
+      # - run: mkdir -p workspace && cp -R ~/docker-build workspace/
+      # - persist_to_workspace:
+      #     root: workspace
+      #     paths:
+      #       - docker-build
 
   deploy:
     machine: true
     working_directory: ~/docs
     environment:
       DC2: true
+      BRANCH_STACK: python
+    docker:
+      - image: circleci/python:2.7.15-node-browsers
     steps:
     - checkout
-    - attach_workspace:
-      at: /tmp/workspace
-    - run: cp -R /tmp/workspace/docker-build ~/
+    - setup_remote_docker
+    # - attach_workspace:
+    #   at: /tmp/workspace
+    # - run: cp -R /tmp/workspace/docker-build ~/
     - run: mkdocs build --clean --verbose
 
 workflows:
@@ -43,9 +47,9 @@ workflows:
         # filters:
         #   branches:
         #     ignore: gh-pages
-      # - deploy:
-      #   requires:
-      #     - build
-      #   filters:
-      #     branches:
-      #       only: master
+      - deploy:
+        requires:
+          - build
+        filters:
+          branches:
+            only: master
