@@ -18,7 +18,7 @@ jobs:
       - run: sudo pip install mkdocs-material
       - run: mkdocs build --clean --verbose
       - persist_to_workspace:
-        root: workspace
+          root: workspace
 
   deploy:
     machine: true
