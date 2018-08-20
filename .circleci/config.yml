@@ -11,6 +11,8 @@ jobs:
       - checkout
       - setup_remote_docker
       - run: sudo pip install --upgrade pip==18.0
+      - run: pyenv local
+      - run: python -V
       - run: sudo pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
       - save_cache:
