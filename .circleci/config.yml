@@ -21,11 +21,6 @@ jobs:
           key: site
           paths:
             - ~/site
-      # - run: mkdir -p workspace && cp -R ~/docker-cache workspace/
-      # - persist_to_workspace:
-      #     root: workspace
-      #     paths:
-      #       - docker-cache
 
   deploy:
     machine: true
@@ -34,9 +29,8 @@ jobs:
       DC2: true
     steps:
       - checkout
-      # - attach_workspace:
-      #     at: /tmp/workspace
-      # - run: cp -R /tmp/workspace/docker-build ~/
+      # - run: pip install --upgrade pip
+      - run: sudo pip install mkdocs
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
