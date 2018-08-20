@@ -6,21 +6,25 @@ jobs:
       DC2: true
       BRANCH_STACK: python
     docker:
-      - image: circleci/python:2.7.15-node-browsers
+      - image: circleci/python:2.7.11
     steps:
       - checkout
       - setup_remote_docker
+      - run: # install and activate virtual environment with pip
+          command: |
+            python -m venv venv
+            . venv/bin/activate
       - run: pip install --upgrade pip
-      - run: sudo pip install mkdocs
-      - run: sudo pip install pygments
-      - run: sudo pip install pymdown-extensions
-      - run: sudo pip install markdown-include
-      - run: sudo pip install mkdocs-material
+      - run: sudo pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
       - save_cache:
           key: site
           paths:
             - ~/site
+      - save_cache:
+          key: pip-packages-v1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+          paths:
+            - "venv"
 
   deploy:
     machine: true
@@ -29,8 +33,13 @@ jobs:
       DC2: true
     steps:
       - checkout
-      # - run: pip install --upgrade pip
-      - run: sudo pip install mkdocs
+      - restore_cache: # restore pip depedencies
+          key: pip-packages-v1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      - run: # install and activate virtual environment with pip
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
