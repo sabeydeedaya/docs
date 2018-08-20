@@ -29,7 +29,6 @@ jobs:
       BRANCH_STACK: python
     steps:
       - checkout
-      - setup_remote_docker
       - run: sudo pip uninstall pip
       - run: sudo pip install --upgrade pip==18.0
       - run: python -V
