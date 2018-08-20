@@ -11,11 +11,6 @@ jobs:
       - checkout
       - setup_remote_docker
       - run: sudo pip install --upgrade pip
-      - run: sudo pip install virtualenv
-      - run: # install and activate virtual environment with pip
-          command: |
-            python -m venv venv
-            . venv/bin/activate
       - run: sudo pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
       - save_cache:
@@ -34,13 +29,7 @@ jobs:
       DC2: true
     steps:
       - checkout
-      - restore_cache: # restore pip depedencies
-          key: pip-packages-v1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-      - run: # install and activate virtual environment with pip
-          command: |
-            python -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
+      - run: sudo pip install -r requirements.txt
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
