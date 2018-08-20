@@ -17,10 +17,6 @@ jobs:
           key: site
           paths:
             - ~/site
-      - save_cache:
-          key: pip-packages-v1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-          paths:
-            - "venv"
 
   deploy:
     machine: true
@@ -29,11 +25,13 @@ jobs:
       DC2: true
     steps:
       - checkout
+      - run: sudo pip uninstall pip
       - run: sudo pip install --upgrade pip==18.0
       - run: python -V
       - run: pip --version
       - run: sudo pip install --user -r requirements.txt
       - run: mkdocs -V
+      - run: pyenv local
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
