@@ -16,21 +16,16 @@ jobs:
       - run: sudo pip install pymdown-extensions
       - run: sudo pip install markdown-include
       - run: sudo pip install mkdocs-material
-      - run: ls -a
       - run: mkdocs build --clean --verbose
-      - run: ls -a
-      - run: docker build -t docs:$CIRCLE_BRANCH .
-      - run: mkdir -p docker-cache
-      - run: docker save -o docker-cache/built-image.tar docs:$CIRCLE_BRANCH
       - save_cache:
           key: site
           paths:
             - ~/site
-      - run: mkdir -p workspace && cp -R ~/docker-cache workspace/
-      - persist_to_workspace:
-          root: workspace
-          paths:
-            - docker-cache
+      # - run: mkdir -p workspace && cp -R ~/docker-cache workspace/
+      # - persist_to_workspace:
+      #     root: workspace
+      #     paths:
+      #       - docker-cache
 
   deploy:
     machine: true
@@ -39,9 +34,9 @@ jobs:
       DC2: true
     steps:
       - checkout
-      - attach_workspace:
-          at: /tmp/workspace
-      - run: cp -R /tmp/workspace/docker-build ~/
+      # - attach_workspace:
+      #     at: /tmp/workspace
+      # - run: cp -R /tmp/workspace/docker-build ~/
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
