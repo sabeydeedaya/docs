@@ -27,8 +27,6 @@ jobs:
     environment:
       DC2: true
       BRANCH_STACK: python
-    docker:
-      - image: circleci/python:2.7.15-node-browsers
     steps:
       - checkout
       - setup_remote_docker
