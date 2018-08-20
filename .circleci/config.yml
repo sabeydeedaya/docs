@@ -27,11 +27,11 @@ jobs:
       - checkout
       - run: sudo pip uninstall pip
       - run: sudo pip install --upgrade pip==18.0
+      - run: pyenv local
       - run: python -V
       - run: pip --version
       - run: sudo pip install --user -r requirements.txt
       - run: mkdocs -V
-      - run: pyenv local
       - restore_cache:
           key: site
       - run: mkdocs gh-deploy
