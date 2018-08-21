@@ -14,25 +14,37 @@ jobs:
       - run: python -V
       - run: env
       - run: pip --version
-      - run:
-          name: Install Python deps in a venv
-          command: |
-            mkdir -p ./venv
-            virtualenv ./venv
-            . venv/bin/activate
-            sudo pip install -r requirements.txt
+      - run: 
+          name: Clone Deploy Repo
+          command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy
+      - run: 
+          name: Run Build Script
+          command: ~/deploy/docker/build.sh
+      
+      # - run:
+      #     name: Install Python deps in a venv
+      #     command: |
+      #       mkdir -p ./venv
+      #       virtualenv ./venv
+      #       . venv/bin/activate
+      #       sudo pip install -r requirements.txt
       # - run: sudo pip install -r requirements.txt
       - run: sudo pip install -r requirements.txt
+      - run: export PATH=/home/circleci/.local/bin:$PATH
       - run: mkdocs build --clean --verbose
       - run: env | grep PATH
-      - save_cache: # special step to save dependency cache
-          key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      - persist_to_workspace:
+          root: workspace
           paths:
-            - "venv"
-      - save_cache:
-          key: site
-          paths:
-            - ~/site
+            - docker-build
+      # - save_cache: # special step to save dependency cache
+      #     key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      #     paths:
+      #       - "venv"
+      # - save_cache:
+      #     key: site
+      #     paths:
+      #       - ~/site
 
   deploy:
     machine: true
@@ -40,14 +52,15 @@ jobs:
     environment:
       DC2: true
       BRANCH_STACK: python
-    docker:
-      - image: circleci/python:2.7.15-node-browsers
     steps:
       - checkout
-      - setup_remote_docker
-      - restore_cache: # restores saved dependency cache if the Branch key template or requirements.txt files have not changed since the previous run
-          key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-      - run: . venv/bin/activate
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+      - run: cp -R /tmp/workspace/docker-build ~/
+      # - restore_cache: # restores saved dependency cache if the Branch key template or requirements.txt files have not changed since the previous run
+      #     key: site
+      # - run: . venv/bin/activate
       - run: sudo pip install --upgrade pip
       - run: pip list
       - run: sudo pip install -r requirements.txt
@@ -56,6 +69,7 @@ jobs:
       # - run: sudo pip install --upgrade pip==18.0
       - run: python -V
       - run: pip --version
+      - run: mkdocs build --clean --verbose
       - run: mkdocs gh-deploy
 
 workflows:
