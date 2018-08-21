@@ -40,14 +40,18 @@ jobs:
     environment:
       DC2: true
       BRANCH_STACK: python
+    docker:
+      - image: circleci/python:2.7.15-node-browsers
     steps:
       - checkout
+      - setup_remote_docker
       - restore_cache: # restores saved dependency cache if the Branch key template or requirements.txt files have not changed since the previous run
           key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run: . venv/bin/activate
       - run: sudo pip install --upgrade pip
       - run: pip list
       - run: sudo pip install -r requirements.txt
+      - run: pip list
       # - run: sudo pip uninstall pip
       # - run: sudo pip install --upgrade pip==18.0
       - run: python -V
