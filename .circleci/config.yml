@@ -17,6 +17,7 @@ jobs:
       - run: env
       - run: pip --version
       - run: pip list
+      - run: mkdocs build --clean --verbose
       - run: 
           name: Clone Deploy Repo
           command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy
@@ -24,7 +25,6 @@ jobs:
           name: Run Build Script
           command: ~/deploy/docker/build.sh
       - run: pip list
-      
       # - run:
       #     name: Install Python deps in a venv
       #     command: |
@@ -34,7 +34,7 @@ jobs:
       #       sudo pip install -r requirements.txt
       # - run: sudo pip install -r requirements.txt
       - run: export PATH=/home/circleci/.local/bin:$PATH
-      - run: mkdocs build --clean --verbose
+      
       - run: env | grep PATH
       - run: mkdir -p workspace && cp -R ~/docker-build workspace/
       - persist_to_workspace:
