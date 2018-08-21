@@ -4,13 +4,14 @@ jobs:
     working_directory: ~/docs
     environment:
       DC2: true
-      BRANCH_STACK: python
-    docker:
-      - image: circleci/python:2.7.15-node-browsers
+      # BRANCH_STACK: python
+    # docker:
+    #   - image: circleci/python:2.7.15-node-browsers
     steps:
       - checkout
-      - setup_remote_docker
-      - run: sudo pip install --upgrade pip==18.0
+      # - setup_remote_docker
+      # - run: sudo pip install --upgrade pip==18.0
+      - run: pip install awscli --upgrade --user && export PATH=/home/circleci/.local/bin:$PATH
       - run: python -V
       - run: env
       - run: pip --version
@@ -33,6 +34,7 @@ jobs:
       - run: export PATH=/home/circleci/.local/bin:$PATH
       - run: mkdocs build --clean --verbose
       - run: env | grep PATH
+      - run: mkdir -p workspace && cp -R ~/docker-build workspace/
       - persist_to_workspace:
           root: workspace
           paths:
