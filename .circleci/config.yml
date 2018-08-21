@@ -6,11 +6,11 @@ jobs:
     environment:
       DC2: true
       BRANCH_STACK: python
-    # docker:
-    #   - image: circleci/python:2.7.15-node-browsers
+    docker:
+      - image: circleci/python:2.7.15-node-browsers
     steps:
       - checkout
-      # - setup_remote_docker
+      - setup_remote_docker
       # - run: sudo pip install --upgrade pip==18.0
       - run: pip install awscli --upgrade --user && pip install --user -r requirements.txt && export PATH=/home/circleci/.local/bin:$PATH
       - run: python -V
