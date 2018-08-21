@@ -33,7 +33,12 @@ jobs:
       - run: sudo pip install --upgrade pip==18.0
       - run: python -V
       - run: pip --version
-      - run: sudo pip install --user -r requirements.txt
+      - run:
+          name: Install Python deps in a venv
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements/dev.txt
       - run: mkdocs build --clean --verbose
       - run: mkdocs gh-deploy
 
