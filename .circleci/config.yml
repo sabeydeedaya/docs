@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    machine: true
     working_directory: ~/docs
     environment:
       DC2: true
@@ -53,7 +54,6 @@ jobs:
     working_directory: ~/docs
     environment:
       DC2: true
-      BRANCH_STACK: python
     steps:
       - checkout
       - attach_workspace:
