@@ -16,12 +16,14 @@ jobs:
       - run: python -V
       - run: env
       - run: pip --version
+      - run: pip list
       - run: 
           name: Clone Deploy Repo
           command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy
       - run: 
           name: Run Build Script
           command: ~/deploy/docker/build.sh
+      - run: pip list
       
       # - run:
       #     name: Install Python deps in a venv
