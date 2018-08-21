@@ -12,12 +12,14 @@ jobs:
       - checkout
       - setup_remote_docker
       # - run: sudo pip install --upgrade pip==18.0
-      - run: pip install awscli --upgrade --user && pip install --user -r requirements.txt && export PATH=/home/circleci/.local/bin:$PATH
+      - run: pip install awscli --upgrade --user
+      - run: pip install -r requirements.txt
       - run: python -V
       - run: env
       - run: pip --version
       - run: pip list
       - run: mkdocs build --clean --verbose
+      - run: export PATH=/home/circleci/.local/bin:$PATH
       - run: 
           name: Clone Deploy Repo
           command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy
