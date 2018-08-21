@@ -36,7 +36,7 @@ jobs:
       - run:
           name: Install Python deps in a venv
           command: |
-            python3 -m venv venv
+            python -m venv venv
             . venv/bin/activate
             pip install -r requirements/dev.txt
       - run: mkdocs build --clean --verbose
