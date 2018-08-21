@@ -39,7 +39,7 @@ jobs:
             mkdir -p ./venv
             virtualenv ./venv
             . venv/bin/activate
-            pip install -r requirements/dev.txt
+            sudo pip install -r requirements/dev.txt
       - run: mkdocs build --clean --verbose
       - run: mkdocs gh-deploy
 
