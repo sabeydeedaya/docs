@@ -1,0 +1,104 @@
+Hi Raymond et al.,
+
+The open items are still the same as discussed on 8/8:
+
+1. Add a new subdomain to Associated Domains section of iOS project
+2. Verify web-only script initialization on iOS project
+
+------
+
+1. Add a new subdomain to Associated Domains section of iOS project
+
+https://docs.google.com/presentation/d/1Tdoqn8WoPZH4RKVTKLQMnBkOfY855_3huD7HIrY-Odw/edit#slide=id.g401b7731fd_0_28
+
+We need to add the link.creditonemail.com domain to the Associated Domains section. creditonemail.com will no longer be used for any deep linking and will not be delegated to Branch.
+
+List of All Required Domains:
+creditone.app.link *
+creditone-alternate.app.link *
+creditone.test-app.link *
+creditone-alternate.test-app.link *
+link.creditonemail.com **
+
+Notes:
+* Link Mechanism: Universal Links (iOS), App Links (Android), & URI Schemes
+** Link Mechanism: Universal Links (iOS) & URI Schemes Only
+
+The Associated Domains Xcode section should look like this:
+applinks:creditone.app.link
+applinks:creditone-alternate.app.link
+applinks:creditone.test-app.link
+applinks:creditone-alternate.test-app.link
+applinks:link.creditonemail.com
+
+Note that the AASA file for link.creditonemail.com is not hosted by Branch let because the delegation and CNAMING process is not complete. It is recommended to add link.creditonemail.com to the Associated Domain section so that no more updates have to be made to the application after this release even after the delegation and CNAME process. You can ignore any errors in https://dashboard.branch.io/email/manager regarding this domain.
+
+Once the domain delegation and CNAME is complete, we can assign the domain to the test environment then production to QA.
+
+
+2. Verify web-only script initialization on iOS project
+
+The goal of this task is to ensure that the web-only snippet works with the following domains before link.creditonemail.com is delegated and CNAMED:
+
+creditone.app.link (Live/Prod only)
+creditone.test-app.link (Test/Dev only)
+
+This web-only script code that is already in production, but the team has found that it is not behaving as expected today with the domains creditone.app.link & creditone.test-app.link.
+
+private func setupBranchSDK(launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
+
+        #if DEBUG
+        Branch.getInstance().setDebug()
+        #endif
+        
+        Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
+            if let params = params as? [String: AnyObject] { // Add a breakpoint here.
+                
+                if let _ = params["$3p"], let web_only = params["$web_only"] as? Bool, web_only == true {
+                    if let url = URL(string: params["$original_url"] as! String) {
+                        UIApplication.shared.openBrowser(url)
+                    }
+                } else if let refId = params[BranchSDKConstants.referenceId.stringValue]?.integerValue {
+                    
+                   ///// Branch handling in app
+                }
+            }
+            
+        }
+  }
+
+The next step is to add breakpoints and print out the params dictionary with the development to ensure that the link data is being retrieve properly in all cases. We were unable to test with the development build this morning.
+
+For email links, the params dictionary should include at least these keys:
+a) $web_only
+b) $3p
+
+@Dimple please let me know when you are able to view what data is being retrieved at this point. This will help us understand what is going wrong here.
+
+---
+
+Misc.
+
+Android Updates:
+As discussed, no changes are required on the Android side since the email integration will rely on URI schemes. One caveat is that the creditone.app.link domain does use App Links by default, which doesn't respect the $web_only=true params.
+
+The recommendation for testing this is to alter the "Open by Default" settings on the device. You can change these by going to Settings > Apps > Credit One > Open by Default > Open supported links > Select "Ask every time".
+
+[Image]
+
+[Image]
+
+Now when you click on an creditone.app.link, you will be prompted with an option to launch via Chrome or Credit One. You will want to select Chrome here to test the $web_only links as the link.creditonemail.com links will behave in this manner since they will not use App Links in any case.
+
+Deep Linking Examples:
+Just like Quick Links, email links can deep link too. The way email links will hold deep link data is with query params. For example,
+
+Additional Account Offer Example:
+https://creditone.app.link/3p?%243p=e_cm&reference_id=1
+https://creditone.test-app.link/3p?%243p=e_cm&reference_id=1
+
+Test Matrix:
+[Add sheet to QA spread with examples for test and prod]
+
+
+
