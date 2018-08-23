@@ -27,6 +27,10 @@ jobs:
       BRANCH_STACK: python
     steps:
       - checkout
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+      - run: cp -R /tmp/workspace/docker-build ~/
       - run: pip install awscli --upgrade --user
       - run: pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
@@ -39,8 +43,10 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: [gh-pages, master]
+              ignore: gh-pages
       - deploy:
+          requires:
+            - build
           filters:
             branches:
               only: master
