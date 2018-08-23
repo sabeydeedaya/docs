@@ -21,7 +21,7 @@ Conversion | Product Catalogue Sales | Cross-platform Product Links
 #### Facebook Campaign Advert Format Support Table
 
 Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dynamic | Canvas
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Product Catalogue Sales | ✔︎ |  | ✔︎ |  |  |  |
 
 {! ingredients/deep-linked-ads/link-to-facebook-ads-overview.md !}
