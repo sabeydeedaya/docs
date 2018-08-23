@@ -85,8 +85,10 @@ Logo | Partner
 <a href="https://globalwidemedia.com" target="_blank">![GlobalWide_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/globalwide-logo-1528503118423.png)</a>| **GlobalWide Media**
 <a href="http://gmtdigital.com/" target="_blank">![GMT Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/433199835823231943/download-1530305688845.png)</a>| **GMT Digital**
 <a href="https://adwords.google.com/" target="_blank">![Google_AdWords](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adwords-1528518485386.png)</a>| **Google AdWords**
+<a href="http://hasoffers.com" target="_blank">![HasOffers](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/hasoffers-logo-home-1533748811344.png)</a>| **HasOffers**
 <a href="http://www.hubscale.io" target="_blank">![Hubscale](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/hubscale-logo-1529539307863.png)</a>| **Hubscale**
 <a href="https://hybrid.ai/" target="_blank">![Hybrid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1527869464817.png)</a>| **Hybrid**
+<a href="https://www.iconpeak.com/" target="_blank">![Iconpeak](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/iconpeak-logo@2x-1533860504350.png)</a>| **Iconpeak**
 <a href="http://www.icubeswire.com/" target="_blank">![iCubesWire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/icub_new-1534174553980.png)</a>| **iCubesWire**
 <a href="http://impactradius.com" target="_blank">![Impact_Radius](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ir-1528505569606.png)</a>| **Impact Radius**
 <a href="http://www.inflectomedia.com/" target="_blank">![Inflecto_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inflecto-1528505580843.png)</a>| **Inflecto Media**
@@ -99,6 +101,8 @@ Logo | Partner
 <a href="http://liftoff.io" target="_blank">![Liftoff](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/liftoff-logo-1528505628430.png)</a>| **Liftoff**
 <a href="https://magnetadservices.com/" target="_blank">![Magnet](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/magnet-1528505638530.png)</a>| **Magnet**
 <a href="https://www.manage.com/" target="_blank">![Manage](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/manage_owler_20160228_060330_original-1528505646105.png)</a>| **Manage**
+<a href="http://mapendo.co" target="_blank">![Mapendo](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Mapendo-1534900994987.png)</a>| **Mapendo**
+<a href="http://www.mediadonuts.com" target="_blank">![Media Donuts](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Artboard_1c-1533860049545.png)</a>| **Media Donuts**
 <a href="http://www.mediamath.com/" target="_blank">![MediaMath](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Mediamath-Logo-PNG-1525226091972.png)</a>| **MediaMath**
 <a href="https://www.minimob.com" target="_blank">![Minimob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/minimob_logo_new-1528505658274.png)</a>| **Minimob**
 <a href="https://mobair.com/" target="_blank">![MobAir](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobair_logo_new_GDMgroup_544x144px-1528505666066.png)</a>| **MobAir**
@@ -164,10 +168,12 @@ Logo | Partner
 <a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>| **Twitter**
 <a href="http://www.tyroo.com" target="_blank">![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)</a>| **Tyroo**
 <a href="http://www.u2mobi.com/" target="_blank">![U2opia Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/u2-1532477433232.png)</a>| **U2opia Mobile**
+<a href="https://ucads.ucweb.com" target="_blank">![UC Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/UcAdslogo-1534293428241.png)</a>| **UC Ads**
 <a href="http://www.unileadnetwork.com/en/" target="_blank">![Unilead_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Un-logo-1528510158935.png)</a>| **Unilead Network**
 <a href="http://unity3d.com" target="_blank">![Unity](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Official_unity_logo-1528510168802.png)</a>| **Unity**
 <a href="http://ventesavenues.in" target="_blank">![Ventes_Avenues](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vent-1528510835086.png)</a>| **Ventes Avenues**
 <a href="http://www.vishibility.com/" target="_blank">![Vishibility](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1526944293589.png)</a>| **Vishibility**
+<a href="https://www.vserv.com/" target="_blank">![Vserv](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vserv-logo-1534544290091.png)</a>| **Vserv**
 <a href="https://vungle.com/" target="_blank">![Vungle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Vungle-1528510860118.png)</a>| **Vungle**
 <a href="https://wakeapp.ru/" target="_blank">![Wakeapp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/wak-1528510869958.png)</a>| **Wakeapp**
 <a href="https://direct.yandex.ru/" target="_blank">![Yandex_Direct](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/YandexDirect-копия-300x87-1528510884120.png)</a>| **Yandex Direct**
