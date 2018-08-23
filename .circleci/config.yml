@@ -1,0 +1,48 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    working_directory: ~/docs
+    environment:
+      DC2: true
+      BRANCH_STACK: python
+    steps:
+      - checkout
+      - run: pip install awscli --upgrade --user
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --clean --verbose
+      - run: export PATH=/home/circleci/.local/bin:$PATH
+      - run: 
+          name: Clone Deploy Repo
+          command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy
+      - run: 
+          name: Run Build Script
+          command: ~/deploy/docker/build.sh
+
+  deploy:
+    machine: true
+    working_directory: ~/docs
+    environment:
+      DC2: true
+      BRANCH_STACK: python
+    steps:
+      - checkout
+      - run: pip install awscli --upgrade --user
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --clean --verbose
+      - run: mkdocs gh-deploy
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
