@@ -36,6 +36,8 @@ jobs:
           # Must be absolute path or relative path from working_directory
           at: /tmp/workspace
       - run: cp -R /tmp/workspace/docker-build ~/
+      - run: pip install awscli --upgrade --user
+      - run: pip install -r requirements.txt
       - run: pip list
       - run: mkdocs build --clean --verbose
       - run: ls -a
