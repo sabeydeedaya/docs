@@ -18,7 +18,6 @@ jobs:
       - run: 
           name: Run Build Script
           command: ~/deploy/docker/build.sh
-      - run: export PATH=/home/circleci/.local/bin:$PATH
       - run: mkdir -p workspace && cp -R ~/docker-build workspace/
       - persist_to_workspace:
           root: workspace
@@ -37,17 +36,7 @@ jobs:
           # Must be absolute path or relative path from working_directory
           at: /tmp/workspace
       - run: cp -R /tmp/workspace/docker-build ~/
-      # - restore_cache: # restores saved dependency cache if the Branch key template or requirements.txt files have not changed since the previous run
-      #     key: site
-      # - run: . venv/bin/activate
-      # - run: sudo pip install --upgrade pip
       - run: pip list
-      # - run: sudo pip install -r requirements.txt
-      - run: pip list
-      # - run: sudo pip uninstall pip
-      # - run: sudo pip install --upgrade pip==18.0
-      - run: python -V
-      - run: pip --version
       - run: ls -a
       - run: mkdocs build --clean --verbose
       - run: mkdocs gh-deploy
