@@ -37,8 +37,8 @@ jobs:
           at: /tmp/workspace
       - run: cp -R /tmp/workspace/docker-build ~/
       - run: pip list
-      - run: ls -a
       - run: mkdocs build --clean --verbose
+      - run: ls -a
       - run: mkdocs gh-deploy
 
 workflows:
