@@ -17,7 +17,7 @@
 
     - Write in the viewpoint of the `user's wants`, not what Branch wants
 
-    - Keep it simple (KISS) (`1 -> 2 -> 3`)
+    - Keep is simple (KISS) (`1 -> 2 -> 3`)
 
     - Don't repeat yourself (DRY) (`this can be found here`)
 
