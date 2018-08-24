@@ -145,6 +145,8 @@
 
 ## Configure deep links
 
+You're free to add any of your own key-value parameters to a Branch link. These parameters will be passed to your app via the Branch SDK, however some keys will have specific extra effects.
+
 - ### Analytical labels
 
     - These labels allow you to filter and organize your deep links
@@ -301,6 +303,12 @@
         | $twitter_player | | Set the video player's URL. Defaults to the value of `$og_video`.
         | $twitter_player_width | | Set the player's width in pixels
         | $twitter_player_height | | Set the player's height in pixels
+
+- ### Other Reserved Keys
+
+    | Key | Default | Usage
+    | --- | --- | ---
+    | data | | Used by Branch to contain top-level link information. If this parameter is added to a Branch link via appending query params, it will be dropped. It can be safely used when creating a link manually via the dashboard.
 
 - ### Custom Tags
 
