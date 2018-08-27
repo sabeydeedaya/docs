@@ -386,36 +386,6 @@
 
 ## User
 
-- ### User create
-
-    - *Request*
-
-        ```bash
-        curl -XPOST https://api.branch.io/v1/profile \
-          -d '{
-            "branch_key":"key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
-            "identity":"steve",
-            "identity_id":"444"
-        }'
-        ```
-
-    - *Response*
-
-        ```js
-        {
-          "identity_id": 444,
-          "link": "https://example.app.link/?%24identity_id=444"
-        }
-        ```
-
-    - Parameters
-
-        | Key | Value | Usage | Required
-        | --- | :-: | --- | :-:
-        | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
-        | identity | `string` | Unique user id, also known as the `Developer Id` | √
-        | identity_id | `string` | Unique user id for Branch, also known as the `Branch Identity Id` | √
-
 - ### User read
 
     - *Request*
@@ -452,12 +422,24 @@
 
 - ### Referral link
 
-    !!! warning "Create a user before creating a link"
-        Please create a user with `$identity_id` before you create a referral link with the same `$identity_id`
+    - *Request*
 
-    - [Create a user](#user-create) with an `$identity_id`
+        ```bash
+        curl -XPOST https://api.branch.io/v1/url \
+          -d '{
+          "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
+          "channel": "facebook",
+          "feature": "referrals",
+          "campaign": "referral-campaign",
+          "identity": "BranchMonster" // specify identity name
+        }'
+        ```
 
-    - [Create a link](#link-create) with the `$identity_id` from step 1 in the link data dictionary
+    - *Response*
+
+        ```bash
+        {"url":"https://example.app.link/gvS4qgD8HP"}
+        ```
 
 - ### Referral reward
 
