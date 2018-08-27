@@ -30,6 +30,7 @@ Logo | Partner
 <a href="http://www.affifix.com" target="_blank">![Affifix Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_mail-1530575995247.png)</a>| **Affifix Digital**
 <a href="https://affise.com/" target="_blank">![Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/affise-1528497847994.png)</a>| **Affise**
 <a href="http://www.affle.com" target="_blank">![Affle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/affle_123-1528407257224.png)</a>| **Affle**
+<a href="http://www.altrooz.com" target="_blank">![Altrooz](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-full-1534530016543.png)</a>| **Altrooz**
 <a href="http://www.appsamurai.com" target="_blank">![App_Samurai](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/as-logotype-color-1524959500790.png)</a>| **App Samurai**
 <a href="https://appbooster.com/" target="_blank">![Appbooster](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appbooster-logo-w-bg-1528407898299.png)</a>| **Appbooster**
 <a href="http://www.appier.com/en/index.html" target="_blank">![Appier](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appier-1528497934384.png)</a>| **Appier**
@@ -55,6 +56,7 @@ Logo | Partner
 <a href="https://www.clickadu.com/" target="_blank">![Clickadu](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickadu-1528501636823.png)</a>| **Clickadu**
 <a href="https://clickky.biz/" target="_blank">![Clickky](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickky-1528501647002.png)</a>| **Clickky**
 <a href="http://clinch.co" target="_blank">![Clinch](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
+<a href="http://cluep.com" target="_blank">![Cluep](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/new-cluep-logo-01-1533858970784.png)</a>| **Cluep**
 <a href="http://connectedinteractive.com/" target="_blank">![Connected_Interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/connected_interactive-1528501661316.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/" target="_blank">![Conversant_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/conversant-1528501674260.png)</a>| **Conversant Media**
 <a href="https://cpidroid.com" target="_blank">![CPI_Droid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1529963783572.png)</a>| **CPI Droid**
@@ -72,6 +74,7 @@ Logo | Partner
 <a href="http://www.espireads.com/" target="_blank">![Espire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/espire-1528503056176.png)</a>| **Espire**
 <a href="http://facebook.com" target="_blank">![Facebook](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Facebook-Logo-PNG-Clipart-1528503483289.png)</a>| **Facebook**
 <a href="http://feedmob.com/" target="_blank">![FeedMob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/feedmob-logo_highres-teal_2-1528503064943.png)</a>| **FeedMob**
+<a href="http://www.fillymedia.com/" target="_blank">![Filly Media Solutions](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/fillymedia_logo-PNG-1534207067335.png)</a>| **Filly Media Solutions**
 <a href="http://fyber.com" target="_blank">![Fyber](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/fyber-1528503082344.png)</a>| **Fyber**
 <a href="https://galaksion.com/" target="_blank">![Galaksion](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/galaksion_logo-1531246474035.png)</a>| **Galaksion**
 <a href="http://www.gamespipe.com" target="_blank">![Gamespipe](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/gamesp-1528503092281.png)</a>| **Gamespipe**
