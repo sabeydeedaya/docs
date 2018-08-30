@@ -367,6 +367,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
           "session_id": "429691081177874743",
           "data": {
             "$canonical_identifier": "item/1503684554354.28",
+            "$canonical_url": "https://example.com/home?utm_campaign=test&deeplink=value"
             "$desktop_url": "http://example.com/home",
             "$exp_date": 0,
             "$identity_id": "427469360685348303",
