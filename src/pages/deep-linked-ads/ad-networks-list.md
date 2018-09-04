@@ -1,4 +1,4 @@
-Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/gsCV0dTwExB4LZ4e2){:target="\_blank"}**
+Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup){:target="\_blank"}**
 
 Logo | Partner 
 --- | --- 
@@ -182,4 +182,4 @@ Logo | Partner
 <a href="http://www.youappi.com/" target="_blank">![YouAppi_Retargeting](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524610899776.png)</a>| **YouAppi Retargeting**
 <a href="https://zorka.mobi/en" target="_blank">![Zorka_Mobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vinxlasr_-1528510922980.png)</a>| **Zorka.Mobi**
 
-Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/gsCV0dTwExB4LZ4e2){:target="\_blank"}**
+Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup){:target="\_blank"}**
