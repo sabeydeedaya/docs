@@ -1,4 +1,4 @@
-Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/xIE4mgxF0pu1mv8y1){:target="\_blank"}**
+Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
 
 Logo | Partner 
 --- | --- 
@@ -36,4 +36,4 @@ Logo | Partner
 <a href="https://www.getvero.com/" target="_blank">![Vero](/img/pages/email/vero/vero.png)</a>| **Vero**
 <a href="https://zetaglobal.com/" target="_blank">![Zeta](/img/pages/email/zeta/zeta.png)</a>| **Zeta**
 
-Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/xIE4mgxF0pu1mv8y1){:target="\_blank"}**
+Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
