@@ -3,6 +3,7 @@ Interested in becoming a Universal Ads Partner? Just fill out this form: **[Part
 Logo | Partner 
 --- | --- 
 <a href="http://a4g.com" target="_blank">![A4G](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>| **A4G**
+<a href="https://www.aarki.com/" target="_blank">![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)</a>| **Aarki**
 <a href="https://actionpay.net/ru-en/?" target="_blank">![Actionpay](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>| **Actionpay**
 <a href="http://www.ad2click.com/" target="_blank">![Ad2Click Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ad2click-1532554507888.png)</a>| **Ad2Click Media**
 <a href="http://www.ad4screen.com/en/" target="_blank">![Ad4Screen](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)</a>| **Ad4Screen**
@@ -14,6 +15,7 @@ Logo | Partner
 <a href="https://adcash.com" target="_blank">![Adcash](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adcash_logo-1528402779787.png)</a>| **Adcash**
 <a href="https://www.adcolony.com" target="_blank">![AdColony](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366-1524683112325.png)</a>| **AdColony**
 <a href="http://www.adcolony.com" target="_blank">![AdColony_Performance_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366.png)</a>| **AdColony Performance Media**
+<a href="http://addtitans.com" target="_blank">![Addtitans_Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1535588688022.png)</a>| **Addtitans Digital**
 <a href="https://www.adgoi.com" target="_blank">![Adgoi Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_black-1530576240115.png)</a>| **Adgoi Technologies**
 <a href="https://www.adikteev.com/us/" target="_blank">![Adikteev](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/916-1528403002042.png)</a>| **Adikteev**
 <a href="http://admitad.com" target="_blank">![Admitad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-admitad-1528403108145.png)</a>| **Admitad**
@@ -38,7 +40,9 @@ Logo | Partner
 <a href="https://www.applift.com/" target="_blank">![Applift](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/applift-1528498391745.png)</a>| **Applift**
 <a href="https://www.applovin.com/" target="_blank">![Applovin](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/AppLovin-1525376288411.png)</a>| **Applovin**
 <a href="http://appnext.com" target="_blank">![Appnext](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appnext-1528498601302.png)</a>| **Appnext**
+<a href="https://www.appnexus.com/" target="_blank">![AppNexus](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appnexus-1535607089259.png)</a>| **AppNexus**
 <a href="http://www.artofclick.com/" target="_blank">![Art_of_Click](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/art_of_click-1524680418959.png)</a>| **Art of Click**
+<a href="http://www.arvetechnologies.com" target="_blank">![ARVE Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/arvetechlogo-1535683392929.png)</a>| **ARVE Technologies**
 <a href="http://avazuinc.com/home/" target="_blank">![Avazu](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Avazu-1528498822327.png)</a>| **Avazu**
 <a href="https://www.avow.tech/" target="_blank">![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)</a>| **Avow**
 <a href="https://www.awin.com" target="_blank">![Awin](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/awin-1525299236987.png)</a>| **Awin**
@@ -95,10 +99,12 @@ Logo | Partner
 <a href="http://inmobi.com" target="_blank">![InMobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inmobi-1528505589405.png)</a>| **InMobi**
 <a href="http://instal.com" target="_blank">![Instal](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Logo-Instal-negative-1527124705776.png)</a>| **Instal**
 <a href="http://www.ironsrc.com" target="_blank">![IronSource](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/is-1528505602244.png)</a>| **IronSource**
+<a href="http://www.morrisdigital.mobi" target="_blank">![Jack Morris Media](https://cdn.branch.io/branch-assets/ad-partner-manager/231171383021818628/jmm-1536178887795.png)</a>| **Jack Morris Media**
 <a href="http://jampp.com" target="_blank">![Jampp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/jampp-1528308771519.png)</a>| **Jampp**
 <a href="http://jetfuel.it" target="_blank">![JetFuel_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
 <a href="http://www.kiip.me" target="_blank">![Kiip](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Kiip-1527869653236.png)</a>| **Kiip**
 <a href="http://liftoff.io" target="_blank">![Liftoff](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/liftoff-logo-1528505628430.png)</a>| **Liftoff**
+<a href="https://rakutenmarketing.com/" target="_blank">![LinkShare](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LinkShare-Affiliate-Program-Review-1-1535587245582.png)</a>| **LinkShare**
 <a href="https://magnetadservices.com/" target="_blank">![Magnet](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/magnet-1528505638530.png)</a>| **Magnet**
 <a href="https://www.manage.com/" target="_blank">![Manage](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/manage_owler_20160228_060330_original-1528505646105.png)</a>| **Manage**
 <a href="http://mapendo.co" target="_blank">![Mapendo](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Mapendo-1534900994987.png)</a>| **Mapendo**
@@ -127,6 +133,7 @@ Logo | Partner
 <a href="https://www.offer18.com" target="_blank">![Offer18](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1530981562951.png)</a>| **Offer18**
 <a href="https://www.oplytic.com/" target="_blank">![Oplytic](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Oplytic-1528507792219.png)</a>| **Oplytic**
 <a href="https://www.optimisemedia.com" target="_blank">![Optimise Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Optimise-logo-blk@2x-0805-1532566727136.png)</a>| **Optimise Media**
+<a href="https://partnerize.com/en" target="_blank">![Partnerize](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1535766590358.png)</a>| **Partnerize**
 <a href="https://www.pepperjam.com/" target="_blank">![Pepperjam](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Pepperjam-1528507801005.png)</a>| **Pepperjam**
 <a href="https://performancehorizon.com" target="_blank">![Performance_Horizon](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/PH_LOGO-1528507810596.png)</a>| **Performance Horizon**
 <a href="http://www.phunware.com/" target="_blank">![Phunware](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/phunware-1528507820049.png)</a>| **Phunware**
@@ -163,6 +170,8 @@ Logo | Partner
 <a href="http://www.taskbucks.com" target="_blank">![TaskBucks](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/task-1528510066682.png)</a>| **TaskBucks**
 <a href="http://teads.tv" target="_blank">![Teads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aaa-1528143294665.png)</a>| **Teads**
 <a href="https://www.thetradedesk.com/" target="_blank">![The_Trade_Desk](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/TTD-Logo-1528510078241.png)</a>| **The Trade Desk**
+<a href="http://www.themobiadz.com" target="_blank">![Themobiadz](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1536435270665.png)</a>| **Themobiadz**
+<a href="https://www.timeonegroup.com/en/" target="_blank">![TimeOneGroup](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/timeone-1534544009568.png)</a>| **TimeOneGroup**
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times_Internet_Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>| **Times Internet Limited**
 <a href="https://www.tradedoubler.com" target="_blank">![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)</a>| **Tradedoubler**
 <a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>| **Twitter**
@@ -173,6 +182,7 @@ Logo | Partner
 <a href="http://unity3d.com" target="_blank">![Unity](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Official_unity_logo-1528510168802.png)</a>| **Unity**
 <a href="http://ventesavenues.in" target="_blank">![Ventes_Avenues](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vent-1528510835086.png)</a>| **Ventes Avenues**
 <a href="http://www.vishibility.com/" target="_blank">![Vishibility](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1526944293589.png)</a>| **Vishibility**
+<a href="https://www1.vizury.com" target="_blank">![Vizury](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/black-logo-home-1535683748582.png)</a>| **Vizury**
 <a href="https://www.vserv.com/" target="_blank">![Vserv](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vserv-logo-1534544290091.png)</a>| **Vserv**
 <a href="https://vungle.com/" target="_blank">![Vungle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Vungle-1528510860118.png)</a>| **Vungle**
 <a href="https://wakeapp.ru/" target="_blank">![Wakeapp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/wak-1528510869958.png)</a>| **Wakeapp**
