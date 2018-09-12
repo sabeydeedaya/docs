@@ -26,6 +26,7 @@ Logo | Partner
 <a href="http://adshero.com" target="_blank">![Ads_Hero](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ads-hero-1528497639410.png)</a>| **Ads Hero**
 <a href="http://adsbalance.com/" target="_blank">![Adsbalance](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adsb-1533343335793.png)</a>| **Adsbalance**
 <a href="http://adsizzler.com" target="_blank">![Adsizzler_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1530037506210.png)</a>| **Adsizzler Media**
+<a href="http://www.adsplay.in" target="_blank">![Adsplay International](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adsplay-1535150458861.png)</a>| **Adsplay International**
 <a href="https://adsterra.com/" target="_blank">![Adsterra_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Adsterra-1528497762467.png)</a>| **Adsterra Network**
 <a href="http://www.adtiming.com" target="_blank">![Adtiming](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-black-1532646170078.png)</a>| **Adtiming**
 <a href="https://adxperience.com/" target="_blank">![Adxperience](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adxperience-1524620442557.png)</a>| **Adxperience**
@@ -42,6 +43,7 @@ Logo | Partner
 <a href="http://appnext.com" target="_blank">![Appnext](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appnext-1528498601302.png)</a>| **Appnext**
 <a href="https://www.appnexus.com/" target="_blank">![AppNexus](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/appnexus-1535607089259.png)</a>| **AppNexus**
 <a href="http://www.artofclick.com/" target="_blank">![Art_of_Click](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/art_of_click-1524680418959.png)</a>| **Art of Click**
+<a href="http://artsai.com" target="_blank">![Artsai](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/artsai-1534206815949.png)</a>| **Artsai**
 <a href="http://www.arvetechnologies.com" target="_blank">![ARVE Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/arvetechlogo-1535683392929.png)</a>| **ARVE Technologies**
 <a href="http://avazuinc.com/home/" target="_blank">![Avazu](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Avazu-1528498822327.png)</a>| **Avazu**
 <a href="https://www.avow.tech/" target="_blank">![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)</a>| **Avow**
@@ -76,6 +78,7 @@ Logo | Partner
 <a href="https://doubleclick.com" target="_blank">![DoubleClick](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/dc_newlogo-1528503421215.png)</a>| **DoubleClick**
 <a href="http://drawbridge.com" target="_blank">![Drawbridge](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Drawbridge_Logo_2015-1528503041291.png)</a>| **Drawbridge**
 <a href="http://www.espireads.com/" target="_blank">![Espire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/espire-1528503056176.png)</a>| **Espire**
+<a href="https://everflow.io/" target="_blank">![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/J_bBfz8g-1533069311294.png)</a>| **Everflow Technologies**
 <a href="http://facebook.com" target="_blank">![Facebook](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Facebook-Logo-PNG-Clipart-1528503483289.png)</a>| **Facebook**
 <a href="http://feedmob.com/" target="_blank">![FeedMob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/feedmob-logo_highres-teal_2-1528503064943.png)</a>| **FeedMob**
 <a href="http://www.fillymedia.com/" target="_blank">![Filly Media Solutions](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/fillymedia_logo-PNG-1534207067335.png)</a>| **Filly Media Solutions**
@@ -133,6 +136,7 @@ Logo | Partner
 <a href="https://www.offer18.com" target="_blank">![Offer18](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1530981562951.png)</a>| **Offer18**
 <a href="https://www.oplytic.com/" target="_blank">![Oplytic](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Oplytic-1528507792219.png)</a>| **Oplytic**
 <a href="https://www.optimisemedia.com" target="_blank">![Optimise Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Optimise-logo-blk@2x-0805-1532566727136.png)</a>| **Optimise Media**
+<a href="https://www.pandora.com" target="_blank">![Pandora](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Pandora_Wordmark_RGB-1534186872030.png)</a>| **Pandora**
 <a href="https://partnerize.com/en" target="_blank">![Partnerize](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1535766590358.png)</a>| **Partnerize**
 <a href="https://www.pepperjam.com/" target="_blank">![Pepperjam](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Pepperjam-1528507801005.png)</a>| **Pepperjam**
 <a href="https://performancehorizon.com" target="_blank">![Performance_Horizon](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/PH_LOGO-1528507810596.png)</a>| **Performance Horizon**
@@ -174,6 +178,7 @@ Logo | Partner
 <a href="https://www.timeonegroup.com/en/" target="_blank">![TimeOneGroup](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/timeone-1534544009568.png)</a>| **TimeOneGroup**
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times_Internet_Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>| **Times Internet Limited**
 <a href="https://www.tradedoubler.com" target="_blank">![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)</a>| **Tradedoubler**
+<a href="https://www.tunicalabs.com/" target="_blank">![Tunica Labs](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/0-1533165954983.png)</a>| **Tunica Labs**
 <a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>| **Twitter**
 <a href="http://www.tyroo.com" target="_blank">![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)</a>| **Tyroo**
 <a href="http://www.u2mobi.com/" target="_blank">![U2opia Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/u2-1532477433232.png)</a>| **U2opia Mobile**
