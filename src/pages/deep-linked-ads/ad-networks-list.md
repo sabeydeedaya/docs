@@ -105,6 +105,7 @@ Logo | Partner
 <a href="http://www.morrisdigital.mobi" target="_blank">![Jack Morris Media](https://cdn.branch.io/branch-assets/ad-partner-manager/231171383021818628/jmm-1536178887795.png)</a>| **Jack Morris Media**
 <a href="http://jampp.com" target="_blank">![Jampp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/jampp-1528308771519.png)</a>| **Jampp**
 <a href="http://jetfuel.it" target="_blank">![JetFuel_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
+<a href="http://junggglex.com/" target="_blank">![JungggleX](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/junglex-1536710878405.png)</a>| **JungggleX**
 <a href="http://www.kiip.me" target="_blank">![Kiip](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Kiip-1527869653236.png)</a>| **Kiip**
 <a href="http://liftoff.io" target="_blank">![Liftoff](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/liftoff-logo-1528505628430.png)</a>| **Liftoff**
 <a href="https://rakutenmarketing.com/" target="_blank">![LinkShare](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/LinkShare-Affiliate-Program-Review-1-1535587245582.png)</a>| **LinkShare**
