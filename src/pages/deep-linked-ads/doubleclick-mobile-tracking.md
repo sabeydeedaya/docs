@@ -48,7 +48,7 @@ Let's take these values and place them in Branch's dashboard. Begin by navigatin
 
 #### Enable
 
-Find doubleclick in the search box. Hit enable. In the **Account Settings** tab, insert your **Server to Server token**.
+Find DoubleClick in the search box. Hit enable. In the **Account Settings** tab, insert your **Server to Server token**.
 
 #### Map Events
 
@@ -69,6 +69,10 @@ If you don't have two different tags for iOS and Android, then it will look simp
 ![image](/img/pages/deep-linked-ads/doubleclick/final-postback-doubleclick.png)
 
 Simply update and hit save.
+
+#### Send all events
+
+At the top of the Postback Config tab, under *Send Postbacks For*, select *All Events* on the toggle and click *Save* at the bottom of the screen.
 
 ### Run campaigns
 
