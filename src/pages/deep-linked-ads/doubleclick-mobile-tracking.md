@@ -6,6 +6,9 @@ Track your **[Doubleclick](https://doubleclick.com)** campaigns using Branch's U
 
 You can now run campaigns on a variety of in-app and mobile web publishing sites, and provide your users with the smoothest experience with Branch's deep links. Read on to learn how to set everything up.
 
+!!! Viewing Downstream events in Branch
+    If a placement's "click" is handled server-side by a specific publisher, Branch will not attribute downstream events in Branch's dashboard (Client-side clicks will attribute downstream events in Branch's dashboard).  Branch is targeting a Q4'18 upgrade that will address this.  For a short term workaround, please contact integrations@branch.io or contact your Account Manager, to see if the Publisher can enable adding a **[device ID macro](https://docs.branch.io/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information)** to the Branch DCM tracking link.  This can enable downstream event tracking in Branch's dashboard.
+
 
 ## Setup
 
