@@ -142,6 +142,7 @@ pages:
     - A4G: pages/deep-linked-ads/a4g-mobile-tracking.md
     - Aarki: pages/deep-linked-ads/aarki-mobile-tracking.md
     - Actionpay: pages/deep-linked-ads/actionpay-mobile-tracking.md
+    - Ad-Venture: pages/deep-linked-ads/ad-venture-mobile-tracking.md
     - Ad2Click Media: pages/deep-linked-ads/ad2click-media-mobile-tracking.md
     - Ad4Screen: pages/deep-linked-ads/ad4screen-mobile-tracking.md
     - Adaction Interactive: pages/deep-linked-ads/adaction-interactive-mobile-tracking.md
@@ -173,6 +174,7 @@ pages:
     - Altrooz: pages/deep-linked-ads/atlrooz-mobile-tracking.md
     - App Samurai: pages/deep-linked-ads/app-samurai-mobile-tracking.md
     - Appbooster: pages/deep-linked-ads/appbooster-mobile-tracking.md
+    - Appcoachs: pages/deep-linked-ads/appcoachs-mobile-tracking.md
     - Appier: pages/deep-linked-ads/appier-mobile-tracking.md
     - Apple Search: pages/deep-linked-ads/apple-mobile-tracking.md
     - Applift: pages/deep-linked-ads/applift-mobile-tracking.md
@@ -276,9 +278,11 @@ pages:
     - Oplytic: pages/deep-linked-ads/oplytic-mobile-tracking.md
     - Optimise Media: pages/deep-linked-ads/optimise-media-mobile-tracking.md
     - Pandora: pages/deep-linked-ads/pandora-mobile-tracking.md
+    - PapayaMobile: pages/deep-linked-ads/papayamobile-mobile-tracking.md
     - Partnerize: pages/deep-linked-ads/partnerize-mobile-tracking.md
     - Pepperjam: pages/deep-linked-ads/pepperjam-mobile-tracking.md
     - Performance Horizon: pages/deep-linked-ads/performance-horizon-mobile-tracking.md
+    - Persona.ly: pages/deep-linked-ads/persona-ly-mobile-tracking.md
     - Phunware: pages/deep-linked-ads/phunware-mobile-tracking.md
     - Picnic Media: pages/deep-linked-ads/picnic-media-mobile-tracking.md
     - Pinisight: pages/deep-linked-ads/pinisight-mobile-tracking.md
@@ -324,6 +328,7 @@ pages:
     - UC Ads: pages/deep-linked-ads/uc-ads-mobile-tracking.md
     - Unilead Network: pages/deep-linked-ads/unilead-network-mobile-tracking.md
     - Unity: pages/deep-linked-ads/unity-mobile-tracking.md
+    - vCommission Media: pages/deep-linked-ads/vcommission-media-mobile-tracking.md
     - Ventes Avenues: pages/deep-linked-ads/ventes-avenues-mobile-tracking.md
     - Vishibility: pages/deep-linked-ads/vishibility-mobile-tracking.md
     - Vizury: pages/deep-linked-ads/vizury-mobile-tracking.md
@@ -334,6 +339,7 @@ pages:
     - YeahMobi: pages/deep-linked-ads/yeahmobi-mobile-tracking.md
     - YouAppi: pages/deep-linked-ads/youappi-mobile-tracking.md
     - YouAppi Retargeting: pages/deep-linked-ads/youappi-retargeting-mobile-tracking.md
+    - ZenAds: pages/deep-linked-ads/zenads-mobile-tracking.md
     - Zorka.Mobi: pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
     - Universal Email Partners: pages/emails/email-partners-list.md
