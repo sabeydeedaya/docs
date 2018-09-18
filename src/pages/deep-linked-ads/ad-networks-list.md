@@ -65,6 +65,7 @@ Logo | Partner
 <a href="https://clickky.biz/" target="_blank">![Clickky](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickky-1528501647002.png)</a>| **Clickky**
 <a href="http://clinch.co" target="_blank">![Clinch](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/100-1526521261310.png)</a>| **Clinch**
 <a href="http://cluep.com" target="_blank">![Cluep](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/new-cluep-logo-01-1533858970784.png)</a>| **Cluep**
+<a href="http://www.collectcent.com/" target="_blank">![Collectcent Digital Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1536897978496.png)</a>| **Collectcent Digital Media**
 <a href="http://connectedinteractive.com/" target="_blank">![Connected_Interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/connected_interactive-1528501661316.png)</a>| **Connected Interactive**
 <a href="https://www.conversantmedia.com/" target="_blank">![Conversant_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/conversant-1528501674260.png)</a>| **Conversant Media**
 <a href="https://cpidroid.com" target="_blank">![CPI_Droid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1529963783572.png)</a>| **CPI Droid**
@@ -104,6 +105,7 @@ Logo | Partner
 <a href="http://inmobi.com" target="_blank">![InMobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inmobi-1528505589405.png)</a>| **InMobi**
 <a href="http://instal.com" target="_blank">![Instal](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Logo-Instal-negative-1527124705776.png)</a>| **Instal**
 <a href="http://www.ironsrc.com" target="_blank">![IronSource](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/is-1528505602244.png)</a>| **IronSource**
+<a href="https://iwoop.com/" target="_blank">![IWOOP](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1536896201937.png)</a>| **IWOOP**
 <a href="http://www.morrisdigital.mobi" target="_blank">![Jack Morris Media](https://cdn.branch.io/branch-assets/ad-partner-manager/231171383021818628/jmm-1536178887795.png)</a>| **Jack Morris Media**
 <a href="http://jampp.com" target="_blank">![Jampp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/jampp-1528308771519.png)</a>| **Jampp**
 <a href="http://jetfuel.it" target="_blank">![JetFuel_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)</a>| **JetFuel Ads**
@@ -129,6 +131,7 @@ Logo | Partner
 <a href="http://www.mobwonder.com" target="_blank">![MobWonder](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/MobWonder-1530575674796.png)</a>| **MobWonder*
 <a href="http://mobx.agency/" target="_blank">![MobX](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobx-1528505744448.png)</a>| **MobX**
 <a href="http://molocoads.com/" target="_blank">![Moloco](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/moloco-1528505765094.png)</a>| **Moloco**
+<a href="https://www.momagic.com/" target="_blank">![MoMAGIC Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-light-1536897730386.png)</a>| **MoMAGIC Technologies**
 <a href="http://motiveinteractive.com" target="_blank">![Motive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/motive-1528505774739.png)</a>| **Motive**
 <a href="http://www.surikate.com/" target="_blank">![Mozoo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Mozoo-Performance-1528505916600.png)</a>| **Mozoo**
 <a href="http://mpirenetwork.com" target="_blank">![Mpire_Network](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mpirenetworklogo_app_market-1528505798104.png)</a>| **Mpire Network**
@@ -168,6 +171,7 @@ Logo | Partner
 <a href="http://sonarclick.com" target="_blank">![Sonarclick](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/sonar-1528509156480.png)</a>| **Sonarclick**
 <a href="https://www.spykemedia.com" target="_blank">![Spyke_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/spyke-1528509165837.png)</a>| **Spyke Media**
 <a href="https://www.stackadapt.com/" target="_blank">![StackAdapt](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/stackadapt-1528509174129.png)</a>| **StackAdapt**
+<a href="http://stargazer.co" target="_blank">![Stargazer](https://cdn.branch.io/branch-assets/ad-partner-manager/231171383021818628/slogo-1536620586755.png)</a>| **Stargazer**
 <a href="http://startapp.com" target="_blank">![StartApp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1525108461961.png)</a>| **StartApp**
 <a href="https://www.stroeer.de/" target="_blank">![Ströer_Mobile_Performance](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1527829201082.png)</a>| **Ströer Mobile Performance**
 <a href="http://svgmedia.in" target="_blank">![SVG_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/404150107710181508/logo-1530228560937.png)</a>| **SVG Media**
