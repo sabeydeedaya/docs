@@ -51,7 +51,7 @@ You can retrieve your click tracking domain from the **Account Settings** sectio
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-deeplink.md !}
+{! ingredients/email/usage-auto-deeplink_kahuna.md !}
 
 ## Support
 
