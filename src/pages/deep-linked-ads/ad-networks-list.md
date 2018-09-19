@@ -161,6 +161,7 @@ Logo | Partner
 <a href="https://www.raykaad.com/" target="_blank">![Raykaad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Raykaad-1528509075261.png)</a>| **Raykaad**
 <a href="https://www.remerge.io/" target="_blank">![Remerge](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/remerge-1528509097381.png)</a>| **Remerge**
 <a href="http://revx.io" target="_blank">![RevX](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/revx-1528509107045.png)</a>| **RevX**
+<a href="https://rocket10.com/en/" target="_blank">![Rocket10](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo_rocket10_mobile-1536959875665.png)</a>| **Rocket10**
 <a href="http://sabiomobile.com/" target="_blank">![Sabio_Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/sabio-1528509135800.png)</a>| **Sabio Mobile**
 <a href="http://www.scorpapp.com" target="_blank">![Scorp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/e8a9da5e-4d2b-4911-9b17-443a58560b19-1530823967745.png)</a>| **Scorp**
 <a href="http://shoogloomobile.com/" target="_blank">![Shoogloo Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ShooGloo_Facebook1-1531354962250.jpg)</a>| **Shoogloo Mobile**
