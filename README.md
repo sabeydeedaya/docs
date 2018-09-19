@@ -37,8 +37,7 @@
 - #### Dependencies
 
     ```bash
-    sudo pip install --upgrade pip
-    sudo pip install mkdocs pygments pymdown-extensions markdown-include mkdocs-material
+    pip install -r requirements.txt
     ```
 
 - #### Develop
