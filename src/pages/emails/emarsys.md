@@ -35,6 +35,9 @@ If you have not added a custom click tracking domain yet, follow the instruction
 
 ![image](/img/pages/email/emarsys/setup-config.png)
 
+!!! caution "Update Redirection logic"
+    Don't forget to send a request to Emarsys support to update the redirection logic - you have to use a Server-Side redirect.
+
 {! ingredients/email/technical-setup.md !}
 	
 {! ingredients/email/validate-test.md !}
