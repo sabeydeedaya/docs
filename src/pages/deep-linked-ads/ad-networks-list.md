@@ -5,6 +5,7 @@ Logo | Partner
 <a href="http://a4g.com" target="_blank">![A4G](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>| **A4G**
 <a href="https://www.aarki.com/" target="_blank">![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)</a>| **Aarki**
 <a href="https://actionpay.net/ru-en/?" target="_blank">![Actionpay](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>| **Actionpay**
+<a href="http://www.acuityads.com" target="_blank">![AcuityAds](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1537393959098.png)</a>| **AcuityAds**
 <a href="http://ad-venture.com.tr/" target="_blank">![Ad-Venture](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adventure-logo-1536896017361.png)</a>| **Ad-Venture**
 <a href="http://www.ad2click.com/" target="_blank">![Ad2Click Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ad2click-1532554507888.png)</a>| **Ad2Click Media**
 <a href="http://www.ad4screen.com/en/" target="_blank">![Ad4Screen](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ad4screen-1528144306046.png)</a>| **Ad4Screen**
@@ -102,6 +103,7 @@ Logo | Partner
 <a href="http://www.icubeswire.com/" target="_blank">![iCubesWire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/icub_new-1534174553980.png)</a>| **iCubesWire**
 <a href="http://impactradius.com" target="_blank">![Impact_Radius](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ir-1528505569606.png)</a>| **Impact Radius**
 <a href="http://www.inflectomedia.com/" target="_blank">![Inflecto_Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inflecto-1528505580843.png)</a>| **Inflecto Media**
+<a href="https://www.infleux.co/" target="_blank">![Infleux](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/2OHSwb3-1534803781479.png)</a>| **Infleux**
 <a href="http://inmobi.com" target="_blank">![InMobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/inmobi-1528505589405.png)</a>| **InMobi**
 <a href="http://instal.com" target="_blank">![Instal](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Logo-Instal-negative-1527124705776.png)</a>| **Instal**
 <a href="http://www.ironsrc.com" target="_blank">![IronSource](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/is-1528505602244.png)</a>| **IronSource**
@@ -158,6 +160,7 @@ Logo | Partner
 <a href="https://www.quora.com/" target="_blank">![Quora](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/quora-1524679519985.png)</a>| **Quora**
 <a href="https://rakutenmarketing.com/" target="_blank">![Rakuten Marketing](https://cdn.branch.io/branch-assets/ad-partner-manager/472131625937817786/rakuten-marketing-logo-100747_big-14-1529622960657.png)</a>| **Rakuten Marketing**
 <a href="http://www.rankmyapp.com" target="_blank">![RankMyApp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/rank-1528509066108.png)</a>| **RankMyApp**
+<a href="http://rationalheads.com/rh/" target="_blank">![RationalHeads Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/rh-1536900405790.png)</a>| **RationalHeads Technologies**
 <a href="https://www.raykaad.com/" target="_blank">![Raykaad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Raykaad-1528509075261.png)</a>| **Raykaad**
 <a href="https://www.remerge.io/" target="_blank">![Remerge](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/remerge-1528509097381.png)</a>| **Remerge**
 <a href="http://revx.io" target="_blank">![RevX](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/revx-1528509107045.png)</a>| **RevX**
