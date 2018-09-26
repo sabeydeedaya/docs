@@ -714,11 +714,11 @@ The available configuration options are identical for banners at both the top an
 
 ##### Dismiss
 
-![image](/img/pages/journeys/customize-banner-dismiss.png)
+![image](/img/pages/journeys/dismissal_banner.png)
 
 | Option | Usage |
 | --- | --- |
-| Dismiss Period | Control how long the banner should be hidden once dismissed by the user. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom`. [Learn more](/pages/web/journeys/#what-happens-if-a-user-dismisses-a-banner-or-interstitial). |
+| Formatting Bar | WYSIWYG styling for dismiss button |
 
 ##### App Icon
 
@@ -791,12 +791,13 @@ The content block contains everything except for the background image. Dimension
 
 ##### Dismiss
 
-![image](/img/pages/journeys/customize-fullpage-dismiss.png)
+![image](/img/pages/journeys/dismissal_interstitial.png)
 
 | Option | Usage |
 | --- | --- |
+| Dismiss Journey configuration | Choose whether the user should be able to dismiss the Journey via a button and/or via text |
 | Dismiss Text | Text to show users wanting to continue to your mobile website instead of downloading the app.
-| Dismiss Period | Control how long before the same visitor should see the Journey again. Options are `1 day`, `1 week`, `1 month`, `Never Again`, and `Custom`. [Learn more](/pages/web/journeys/#what-happens-if-a-user-dismisses-a-banner-or-interstitial). |
+| Formatting Bar | WYSIWYG styling for dismiss button & text |
 
 ### Premium journeys functionality
 
