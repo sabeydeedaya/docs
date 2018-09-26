@@ -940,6 +940,14 @@
 
 ## Troubleshoot issues
 
+- ### Enable logging
+
+    - *Java*
+
+        ```java
+        Branch.enableLogging();
+        ```
+
 - ### Test your Branch Integration
 
     Test your Branch Integration by calling `IntegrationValidator.validate` in your MainActivity's onStart(). Check your ADB Logcat to make sure all the SDK Integration tests pass. Make sure to comment out or remove `IntegrationValidator.validate` in your production build.
