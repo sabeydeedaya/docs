@@ -82,7 +82,6 @@ All that remains is importing Branch events into AdWords. After you have set bot
 1. Add a new conversion: `+ > App > Third Party App Analytics`.
 <img src="/img/pages/deep-linked-ads/google/create-conversion.png" alt="Linked Accounts" class="three-quarters center">
 1. Import your Branch specific events. Click `Import and Continue`.
-1. Mark `Include in Conversions` to `YES`.
 
 That's it! All of your campaigns with mobile conversions will be tracked in Branch's dashboard. You can now track as many Universal App Campaigns as you want, automatically.
 
