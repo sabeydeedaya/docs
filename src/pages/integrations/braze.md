@@ -1,12 +1,10 @@
 ## Overview
 
-The Branch partnership with [Braze](https://www.braze.com) provides a push-button way to deliver Branch installs and attributions to your Braze dashboard. This allows you to analyze your users coming in from Branch deep linked campaigns.
-
-**At this time, our integration only applies to the iOS platform.**
+The Branch partnership with [Braze](https://www.braze.com) provides a way to deliver Branch installs and attributions to your Braze dashboard. This allows you to analyze your users coming in from Branch deep linked campaigns.
 
 ### How it works
 
-We have built a custom integration to automatically send all Branch install data to Braze without any extra work on your side (besides integrating both SDKs). Simply click a button, and you'll be good to go!
+We have built a custom integration to automatically send all Branch install data to Braze.
 
 !!! protip "How do we differentiate Braze and Branch installs?"
     We rely on a Branch link being clicked, which leads to an install. This sets an internal boolean that an install came from Branch.
@@ -16,8 +14,8 @@ We have built a custom integration to automatically send all Branch install data
 ### Prerequisites
 
 - This guide requires you to have already integrated the Branch mobile SDKs into your app.
-- You also need to [sign up for an Braze account](https://dashboard.braze.com/developers/sign_up) and [install the Braze SDK](https://documentation.braze.com/).
-- Ensure Braze's SDK is [collecting the IDFA](https://documentation.braze.com/iOS/#optional-idfa-collection).
+- You also need to [sign up for a Braze account](https://dashboard.braze.com/developers/sign_up) and [install the Braze SDK](https://documentation.braze.com/).
+- Ensure Braze's iOS SDK is [collecting the IDFA](https://documentation.braze.com/iOS/#optional-idfa-collection).
 - Make sure to follow the steps in Braze's [documentation here](https://www.braze.com/documentation/Partner_Integrations/#branch).
 
 ### Get the Braze API key
@@ -28,12 +26,40 @@ We have built a custom integration to automatically send all Branch install data
 
 ### Configure the Branch Dashboard
 
-1. On the Branch Dashboard (dashboard.branch.io), navigate to the [Integrations page](https://dashboard.branch.io/integrations).
-1. Locate Braze and choose **Enable**.
-  * If you have not yet entered billing information, please do so now.
-1. Enter your Braze iOS API Key and hit **Save**.
+{! ingredients/data-integrations/enable-data-integrations.md !}
 
-![image](/img/pages/integrations/braze/braze.jpg)
+1. On the Branch Dashboard (dashboard.branch.io), navigate to the [Integrations page](https://dashboard.branch.io/integrations).
+1. Search for Braze and click on the tile.
+1. Enter your Braze API Key and hit **Enable**.
+
+    ![image](img/pages/integrations/braze/enable-braze-integration.png)
+
+!!! warning "Please test integration!"
+    Branch is not responsible for inaccurate API keys.
+
+
+### Pass Braze Android Install Tracking ID
+
+When you're ready to send data through Branch, you'll need to make sure to pass through the Braze Android Install Tracking ID to the Branch SDKs. In order to do so, retrieve the ID from the Braze SDK and pass this value through `setRequestMetadataKey` on the Branch SDKs.
+
+Here's a sample snippet showing this. **NOTE** This is only required for Android. You must set the correct key before calling *initSession*. You must also initialize the Braze SDK before setting the request metadata in the Branch SDK.
+
+
+**Android**
+
+Before you initialize in your Application#onCreate or Deep Link Activity's #onCreate.
+
+```java
+
+Branch.getInstance().setRequestMetadata("$braze_install_id", Appboy.getInstance(this).getInstallTrackingId());
+
+...
+
+Branch.initSession(...);
+```
+
+In the above snippet, `this` is the Activity context.
+
 
 ## Advanced
 
@@ -42,4 +68,5 @@ We have built a custom integration to automatically send all Branch install data
 Branch Analytics Tag | Braze Data Placeholder Tag
 --- | ---
 Campaign | campaign
-Channel | adgroup
+Channel | source
+Tags | tags
