@@ -70,3 +70,6 @@ Branch Analytics Tag | Braze Data Placeholder Tag
 Campaign | campaign
 Channel | source
 Tags | tags
+
+### Braze Endpoints
+By default, Branch uses the new Braze endpoint https://rest.iad-01.braze.com. If your Braze app is using a different Braze endpoint please contact your Branch account manager or reach out to us at integrations@branch.io. If you are not sure what endpoint your app uses please open a support ticket with Braze or use the Braze REST Endpoint table to find your correct REST endpoint.
