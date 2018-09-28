@@ -324,6 +324,10 @@ branch.track(‘pageview’,
 
 Once metadata has been specified on a page in any or all of the three locations specified above, you can target users on that page using the “Is viewing a page with metadata key” audience filter. If metadata with the same key has been specified in either `init()` or `track()` _and_ in an HTML `meta` tag, the metadata passed into either `init()` or `track()` will take precedence.
 
+#### Has interacted with Journey
+
+Use this filter to target users who have interacted with a specific Journey before. Choose the Journey, the type of interaction, and the window in which that interaction occurred. For example, you could use this filter to display a Journey (Journey A) only to users who had dismissed a different Journey (Journey B) in the past 7 days.
+
 ### Set up split testing
 
 Note that if you are planning on just using the free banner, you can skip this section. This feature allows you to run A/B tests by designing multiple templates and assigning a percentage of your audience to each one.
@@ -380,6 +384,20 @@ Or, set it for individual templates by adding deep link data `$uri_redirect_mode
 
 [Read our blog](https://blog.branch.io/making-uri-schemes-great-again-uri_redirect_mode/){:target="\_blank"} to learn more about the challenges of URI schemes on iOS and the URI redirect mode feature.
 
+### Dismissal settings
+
+In some cases, rather than simply ignoring your Journeys, your users may want to dismiss them (by clicking either the “X” or the dismissal text on the Journey in question). In order to make sure that your users are having the best possible experience while also converting at the highest rate, you can adjust your Journeys’ dismissal settings. You can access these settings while you’re setting up your templates by navigating to the Dismissal Settings tab. In that tab you’ll have control over a number of settings:
+
+#### Dismissal behavior
+
+Choose what happens when a user dismisses a Journey. “Close Journey” will simply cause the Journey to close upon being dismissed; “Redirect to a web page” will cause the Journey to close and redirect to the webpage of your choice.
+
+#### Dismissal period
+
+First, use the dropdown to choose how long the Journey should be dismissed for. Next, decide whether dismissing this Journey should cause only this Journey to be dismissed for the chosen dismissal period, or whether it should cause all Journeys to be dismissed for that period.
+
+![image](/img/pages/journeys/dismissal_settings.png)
+
 ### Preserve or discard referring link data
 
 By default, when users arrive on a page running Journeys via a Branch link and `make_new_link` is not set to `true`, then any interaction with the Journey (click/install/re-open) will be attributed to the referring Branch link, rather than to the Journey. If `make_new_link` is set to `true`, the same events will be attributed to the Journey, instead.
@@ -402,11 +420,9 @@ branch.init( 'BRANCH_KEY',
 Prioritization only takes effect when two Journeys are overlapping. If you have a Journey targeting iOS users and a Journey targeting Android users, the prioritization won't matter. If you update the Journey targeting iOS to now target iOS and Android users, the higher priority Journey will show to Android users.
 
 #### What happens if a user dismisses a banner or interstitial?
-When a user is on a webpage, they will always be shown the highest-priority Journey whose targeting criteria apply to that user, assuming that Journey has not already been dismissed. If the user dismisses that Journey, that Journey will not display again for the amount of time specified in the Journey's [dismissal settings](/pages/web/journeys/#dismiss).
+When a user dismisses a banner or interstitial, that banner or interstitial will be dismissed for the amount of time specified in the Journey’s [dismissal settings](/pages/web/journeys/#dismissal-settings).
 
-If the user loads another page on the website, Branch will again determine the highest-priority Journey whose targeting criteria apply to that user. **If that Journey has been already been dismissed, no Journey will display.** If, however, the highest-priority Journey has not been dismissed, that Journey will display.
-
-To maximize Journeys visibility, make your audience rules narrow (for example, showing on specific URLs), and decrease the priority of your least broad audience rules.
+If the Journey has been configured to dismiss all Journeys when dismissed, no other Journey will be shown to the user for the duration of the dismissal period. If the Journey has been configured to dismiss only that Journey when dismissed, other Journeys will be shown to the user if they apply.
 
 #### Why do I have to prioritize Stopped and Draft Journeys?
 We ask you to prioritize all non-Archived Journeys because Journeys can be set live from *Draft* or *Stopped* mode.
