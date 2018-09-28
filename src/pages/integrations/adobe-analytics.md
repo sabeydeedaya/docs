@@ -246,13 +246,13 @@ Branch.initSession(...);
 
 Branch sends the following values from Branch link data in the Adobe Context Data:
 
-Adobe Classification | Branch Analytics Tag | Example
---- | ---
-Source | Channel | Our Website
-Campaign | Campaign | Journeys Test Campaign
-Medium | Feature | Journeys
-Action | Branch Event Name | Install
-Action Property| Branch Tags | tag=bar&tag2=1234
+| Adobe Classification | Branch Analytics Tag | Example
+| --- | --- | ---
+| Source | Channel | Our Website
+| Campaign | Campaign | Journeys Test Campaign
+| Medium | Feature | Journeys
+| Action | Branch Event Name | Install
+| Action Property| Branch Tags | tag=bar&tag2=1234
 
 If you create a Quick Link and specify analytics, those analytics will appear in the Adobe Analytics reporting suite.
 

@@ -573,7 +573,7 @@ branch.track(
 You can easily listen to Journeys lifecycle events by registering listener functions like so:
 
 ```javascript
-var listener = function(event) { console.log(event); }
+var listener = function(event, data) { console.log(event, data); }
 
 // Specify an event to listen for
 branch.addListener('willShowJourney', listener);
