@@ -145,6 +145,8 @@
 
 ## Configure deep links
 
+You're free to add any of your own key-value parameters to a Branch link. These parameters will be passed to your app via the Branch SDK, however some keys will have specific extra effects.
+
 - ### Analytical labels
 
     - These labels allow you to filter and organize your deep links
@@ -190,7 +192,7 @@
         | Key | Default | Usage
         | --- | --- | ---
         | $fallback_url | | Change the redirect endpoint for all platforms - so you don't have to enable it by platform. Note that Branch will forward all robots to this URL, which **overrides any OG tags** entered in the link.  System-wide Default URL (set in Link Settings)
-        | $fallback_url_xx | | Change the redirect endpoint for all platforms based on a [lower-case Alpha-2 country code](https://www.iso.org/obp/ui/#search). For example, `$fallback_url_de="..."` would redirect Germany deep link clicks. You should also set `$fallback_url` to act as the global redirect in addition to the country-specifc ones.
+        | $fallback_url_xx | | Change the redirect endpoint for all platforms based on a [lower-case Alpha-2 country code](https://www.iso.org/obp/ui/#search). For example, `$fallback_url_de="..."` would redirect Germany deep link clicks. You should also set `$fallback_url` to act as the global redirect in addition to the country-specific ones.
         | $desktop_url | | Change the redirect endpoint on desktops Text-Me-The-App page (set in Link Settings)
         | $ios_url | | Change the redirect endpoint for iOS  App Store page for your app (set in Link Settings)
         | $ipad_url | | Change the redirect endpoint for iPads `$ios_url` value
@@ -302,6 +304,12 @@
         | $twitter_player_width | | Set the player's width in pixels
         | $twitter_player_height | | Set the player's height in pixels
 
+- ### Other Reserved Keys
+
+    | Key | Default | Usage
+    | --- | --- | ---
+    | data | | Used by Branch to contain top-level link information. If this parameter is added to a Branch link via appending query params, it will be dropped. It can be safely used when creating a link manually via the dashboard.
+
 - ### Custom Tags
 
     - Handle custom meta tags
@@ -359,6 +367,7 @@
           "session_id": "429691081177874743",
           "data": {
             "$canonical_identifier": "item/1503684554354.28",
+            "$canonical_url": "https://example.com/home?utm_campaign=test&deeplink=value"
             "$desktop_url": "http://example.com/home",
             "$exp_date": 0,
             "$identity_id": "427469360685348303",
@@ -432,3 +441,12 @@
 - ### View deep link stats
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
+
+- ### Deep Links in China
+    - We have found that our links don’t work with some Chinese ISPs. Here’s a list of the ones we have tested:
+
+        | ISP Name | Behavior
+        | --- | ---
+        | China Mobile | Works as expected
+        | China Net | Works as expected
+        | Great Wall | Timeout error, `ERR_TIMED_OUT` on link response

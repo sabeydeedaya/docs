@@ -28,8 +28,8 @@ Branch Parameter | Description
 #### Device Information
 Branch Parameter | Description 
 --- | --- 
-%24aaid | Apple AAID
-%24idfa | Google IDFA
+%24aaid | Google AAID
+%24idfa | Apple IDFA
 
 #### Spend Calculation
 Branch Parameter | Description 

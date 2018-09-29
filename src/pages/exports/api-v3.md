@@ -4,7 +4,7 @@ Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/p
 
 - The data will only be retrievable for the last 7 days
 - The data will only appear after end of day since it's processed every 24 hours
-- The data will not be visible prior to your whitelisting date
+- The data will not be visible prior to your whitelisting date. After you sign up, data will be generated for the next UTC day or the following UTC day.
 - The data will only be visible for your live key (not your test key)
 
 !!! note "Data Feeds is a premium solution"

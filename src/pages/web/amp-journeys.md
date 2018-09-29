@@ -131,6 +131,7 @@ Because javascript is limited on AMP and cookies are restricted on both AMP and 
 * [Client-side javascript controls](/pages/web/journeys/#clientside-javascript-journeys-controls) are not supported.
 * Auto-opening the app with open_app: true is not supported.
 * [Deep linking with setBranchViewData](/pages/web/journeys/#deep-linking-from-the-banner-or-interstitial) is not supported. [Learn how](#deep-linking-with-amp) you can deep link to content from AMP pages.
+* [Branch hosted deep link data](/pages/web/hosted-data/#add-metatags-to-your-site) will not be scraped. This also means that the [Is viewing a page with metadata key](pages/web/journeys/#is-viewing-a-page-with-metadata-key) filter will not be supported. 
 * If your site uses a template engine like Jinja that looks for and replaces liquid tags (ex: {{ yourObject }}), then you should confirm that it does not remove Branch tags on render. For Jinja specifically, you should wrap the Branch code on your AMP page with raw tags:
 ```
 {% raw %}

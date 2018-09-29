@@ -3,11 +3,6 @@
 !!! protip "Getting started"
     For newcomers to this API, we strongly suggest you check out our [Query Recipe Book](/pages/exports/query-recipe-book.md). It has screenshots of Dashboard visualizations, accompanied by what queries you need to make to pull the same data. It's a quick way to get up and running with this API.
 
-!!! Warning "Date format recently changed"
-    The date format recently changed. You are no longer required or allowed to specify a time as part of `start_date` and `end_date`. Instead, we use the timezone associated with your app. Visit the [Account Settings](https://dashboard.branch.io/account-settings/app) to see your timezone.
-
-    Example change: instead of sending `2017-11-29T08:00:00.000Z`, send `2017-11-29`.
-
 An HTTP API usable for programmatically querying pre-aggregated analytics. It can be used to fetch any of the same information displayed on nearly any the Branch dashboard, without accessing the Dashboard itself.
 
 An individual query is constructed from three types of parameters:

@@ -1,11 +1,6 @@
 !!! protip "Want to see a Query API reference?"
     For an exhaustive list of options for this Query API, flip over to the [Query API](/pages/exports/query-api.md) reference page.
 
-!!! Warning "Date format recently changed"
-    The date format recently changed. You are no longer required or allowed to specify a time as part of `start_date` and `end_date`. Instead, we use the timezone associated with your app. Visit the [Account Settings](https://dashboard.branch.io/account-settings/app) to see your timezone.
-
-    Example change: instead of sending `2017-11-29T00:00:00-08:00`, send `2017-11-29`.
-
 You can find your Branch Key and Branch Secret on the [Account Settings](https://dashboard.branch.io/account-settings/app) page of the Branch Dashboard. Give the curls below a try from any terminal!
 
 ## Summary Page - Installs

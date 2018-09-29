@@ -1,4 +1,4 @@
-Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/xIE4mgxF0pu1mv8y1){:target="\_blank"}**
+Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
 
 Logo | Partner 
 --- | --- 
@@ -12,6 +12,7 @@ Logo | Partner
 <a href="https://www.cheetahdigital.com/" target="_blank">![Cheetah_Digital_Marketing_Suite](/img/pages/email/cheetah-digital-marketing-suite/cheetah-digital-marketing-suite.png)</a>| **Cheetah Digital Marketing Suite**
 <a href="https://www.cheetahdigital.com/" target="_blank">![CheetahMail](/img/pages/email/cheetahmail/cheetahmail.png)</a>| **CheetahMail**
 <a href="https://www.epsilon.com/" target="_blank">![Epsilon](/img/pages/email/epsilon/epsilon.png)</a>| **Epsilon**
+<a href="https://www.emarsys.com/" target="_blank">![Emarsys](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/emarsys-1537315326046.png)</a>| **Emarsys**
 <a href="https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management" target="_blank">![IBM_Watson_Campaign_Automation](/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)</a>| **IBM Watson Campaign Automation**
 <a href="https://iterable.com/" target="_blank">![Iterable](/img/pages/email/iterable/iterable.png)</a>| **Iterable**
 <a href="https://www.kahuna.com/" target="_blank">![Kahuna](/img/pages/email/kahuna/kahuna.png)</a>| **Kahuna**
@@ -36,4 +37,4 @@ Logo | Partner
 <a href="https://www.getvero.com/" target="_blank">![Vero](/img/pages/email/vero/vero.png)</a>| **Vero**
 <a href="https://zetaglobal.com/" target="_blank">![Zeta](/img/pages/email/zeta/zeta.png)</a>| **Zeta**
 
-Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://goo.gl/forms/xIE4mgxF0pu1mv8y1){:target="\_blank"}**
+Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**

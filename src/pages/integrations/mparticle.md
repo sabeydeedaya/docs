@@ -76,7 +76,7 @@ You can find additional information about the Branch and mParticle integration i
 ### What Branch Sends to mParticle
 
 | Property Name | Value | Sourced from | Example
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | ---
 | event_name | "attribution" | _hardcoded_ | "attribution"
 | custom_event_type | "attribution" | _hardcoded_ | "attribution"
 | event_id | Unique ID for the event | Branch install event ID | 469939270182891107

@@ -12,8 +12,8 @@ On a daily basis, Google Search drives **more app installs** than all of Faceboo
 - **Comprehensive analytics.** Measure the downstream performance and retention of every Journeys campaign.
 
 
-!!! note "Journeys is a paid product"
-    Journeys introduces many more advanced features on top of the basic smart app banner functionality, but **you can still create an Android and iOS smart app banner for free if your MAU are under 20k**. After 20k MAU, we'd ask that you pay a small fee for use. Premium-only advanced features (including the option to run multiple Journeys simultaneously) are available through a 14 day trial.
+!!! note "Paid Product"
+    Journeys is a premium product priced on Monthly Active Users. [Sign up](https://branch.io/journeys/) for the Journeys product to enable this functionality.
 
 !!! note "Pre-reqs"
     You should integrate the Branch SDK into your app and configure deep link routing for deferred deep linking and attribution before implementing Journeys.
@@ -37,7 +37,7 @@ Add the following code somewhere inside the `<head></head>` tags on your website
 
 !!! note "GDPR considerations"
     In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links. Click [here](https://docs.branch.io/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
-    
+
 
 ### Deep linking from the banner or interstitial
 
@@ -345,19 +345,19 @@ When this box is checked, if a user views this Journey variation on your website
 
 ![image](/img/pages/journeys/auto-open.png)
 
-As opening the app automatically is the best user experience in most cases, this is checked by default for all new templates. 
+As opening the app automatically is the best user experience in most cases, this is checked by default for all new templates.
 
 !!! caution "Web SDK open app setting"
     If you use the open_app setting within the web SDK, this setting will still work for old Journeys (older than 10/25). For all new Journeys, the template setting will take precedence.
-    
+
 !!! caution "Open app behavior in in-app webviews"
     Please avoid using the Branch Web SDK on webpages inside of native webviews. The Branch Web SDK's auto-open can cause unexpected user experiences.
 
 #### Auto-open the app on iOS
 
-The auto-open setting in the template editor will work on iOS Chrome and Android. Because auto-open is powered by URI schemes and these can lead to error messages on iOS Safari for users without your app, this is not enabled on iOS by default. 
+The auto-open setting in the template editor will work on iOS Chrome and Android. Because auto-open is powered by URI schemes and these can lead to error messages on iOS Safari for users without your app, this is not enabled on iOS by default.
 
-If you would like the app to open automatically on iOS Safari as well, you'll need to use a setting called `$uri_redirect_mode`. Since Branch has a massive pool of cookies tied to device identifiers, we know if your app is installed when the user clicks a link. We use this intelligence to determine when to use URI schemes. If we have the history that the user installed your app, we’ll use URI schemes to open up the app. 
+If you would like the app to open automatically on iOS Safari as well, you'll need to use a setting called `$uri_redirect_mode`. Since Branch has a massive pool of cookies tied to device identifiers, we know if your app is installed when the user clicks a link. We use this intelligence to determine when to use URI schemes. If we have the history that the user installed your app, we’ll use URI schemes to open up the app.
 
 You can [reach out to support](https://support.branch.io/support/tickets/new){:target="\_blank"} to enable this behavior across all your links, or set it just for Journeys in the web SDK:
 
@@ -416,7 +416,7 @@ We recommend setting priority for all Journeys. All new Journeys you create will
 
 ### Scheduling
 
-You can set a time when your Journey will become active and be visible to your users and/or a time when it will no longer be displayed. You can also schedule Journeys on a recurring basis. 
+You can set a time when your Journey will become active and be visible to your users and/or a time when it will no longer be displayed. You can also schedule Journeys on a recurring basis.
 
 You can access this feature from the **Validate & Test** step or directly from the action menu on the Journeys manager page.
 
@@ -424,14 +424,14 @@ You can access this feature from the **Validate & Test** step or directly from t
 
 !!! example "Example: Scheduling a Journey"
     Imagine you want to show your users a Journey during the month of November that advertises a 25% sale if they download your app. You can set it to start at 12 AM on November 1st, and end at 12 AM on December 1st:
-    
-    
+
+
     ![image](/img/pages/journeys/schedule-modal.png)
 
 !!! example "Example: Recurring Schedules"
     Imagine you have a show that airs from 9-10 PM every Sunday, and you want to encourage users to view the episode in-app during that time. You can set a start time of 9 PM on the upcoming Sunday, set a stop time of 10 PM that same day, and then set it to repeat weekly:
-    
-    
+
+
     ![image](/img/pages/journeys/schedule-modal-recurring.png)
 
 #### Scheduling FAQ
@@ -530,7 +530,7 @@ branch.closeJourney(function(err) { console.log(err); });
 
 ### Trigger a Journey to Show by Firing an Event
 
-If you block or programatically close a Journey via one the calls above, then you can trigger a Journey to show by firing the following event:
+If you block or programatically close a Journey via one of the calls above, then you can trigger a Journey to show by firing the following event:
 
 ```Javascript
 branch.track('pageview');
@@ -573,7 +573,7 @@ branch.track(
 You can easily listen to Journeys lifecycle events by registering listener functions like so:
 
 ```javascript
-var listener = function(event) { console.log(event); }
+var listener = function(event, data) { console.log(event, data); }
 
 // Specify an event to listen for
 branch.addListener('willShowJourney', listener);
