@@ -8,7 +8,8 @@ This guide will walk you through how to setup your email campaigns with **[Sales
 
 ## Setup
 
-You must have the **[Salesforce Marketing Cloud Sender Authentication Package (SAP)](https://help.salesforce.com/articleView?id=mc_es_sender_authentication_package.htm&type=5){:target="\_blank"}** in order to benefit from Universal Links + click tracking functionality.
+!!! tip "SFMC Pre-requisite"
+	You must have the **[Salesforce Marketing Cloud Sender Authentication Package (SAP)](https://help.salesforce.com/articleView?id=mc_es_sender_authentication_package.htm&type=5){:target="\_blank"}** in order to benefit from Universal Links + click tracking functionality.
 
 {! ingredients/email/prerequisites.md !}
 
