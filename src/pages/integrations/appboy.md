@@ -32,7 +32,7 @@ We have built a custom integration to automatically send all Branch install data
 1. Search for Braze and click on the tile.
 1. Enter your Braze API Key and hit **Enable**.
 
-    ![image](img/pages/integrations/braze/enable-braze-integration.png)
+    ![image](src/img/pages/integrations/braze/braze_di.png)
 
 !!! warning "Please test integration!"
     Branch is not responsible for inaccurate API keys.
