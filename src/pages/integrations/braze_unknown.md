@@ -32,7 +32,7 @@ We have built a custom integration to automatically send all Branch install data
 1. Search for Braze and click on the tile.
 1. Enter your Braze API Key and hit **Enable**.
 
-    ![image]( /img/pages/integrations/braze/braze_di.png)
+    ![image](img/pages/integrations/braze/enable-braze-integration.png)
 
 !!! warning "Please test integration!"
     Branch is not responsible for inaccurate API keys.
@@ -71,6 +71,5 @@ Campaign | campaign
 Channel | source
 Tags | tags
 
-### Braze Endpoints.
-
-By default, Branch uses the new Braze endpoint https://rest.iad-01.braze.com. If your Braze app is using a different Braze endpoint please contact your Branch account manager or reach out to us at [integrations@branch.io](mailto:integrations@branch.io). If you are not sure what endpoint your app uses please open a support ticket with Braze or use the [Braze REST Endpoint table](https://www.braze.com/documentation/REST_API/#endpoints) to find your correct REST endpoint. 
+### Braze Endpoints
+By default, Branch uses the new Braze endpoint https://rest.iad-01.braze.com. If your Braze app is using a different Braze endpoint please contact your Branch account manager or reach out to us at integrations@branch.io. If you are not sure what endpoint your app uses please open a support ticket with Braze or use the Braze REST Endpoint table to find your correct REST endpoint.
