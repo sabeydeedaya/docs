@@ -408,7 +408,7 @@ pages:
         - Adjust: pages/integrations/adjust.md
         - Amplitude: pages/integrations/amplitude.md
         - AppMetrica: pages/integrations/appmetrica.md
-        - Braze: pages/integrations/appboy.md
+        - Braze: pages/integrations/braze.md
         - Appsflyer: pages/integrations/appsflyer.md
         - CleverTap: pages/integrations/clevertap.md
         - Google Analytics: pages/integrations/google-analytics.md
