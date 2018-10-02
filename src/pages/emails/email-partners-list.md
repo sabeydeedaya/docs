@@ -28,8 +28,8 @@ Logo | Partner
 <a href="http://responsys.com/" target="_blank">![Oracle_Responsys](/img/pages/email/oracle-responsys/oracle-responsys.png)</a>| **Oracle Responsys**
 <a href="https://www.postup.com/" target="_blank">![PostUp](/img/pages/email/postup/postup.png)</a>| **PostUp**
 <a href="https://www.rapidmail.com/" target="_blank">![Rapidmail](/img/pages/email/rapidmail/rapidmail.png)</a>| **Rapidmail**
-<a href="https://www.sailthru.com/" target="_blank">![Sailthru](/img/pages/email/sailthru/sailthru.png)</a>| **Sailthru**
-<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce](/img/pages/email/salesforce/salesforce.png)</a>| **Salesforce**
+<a href="https://www.sailthru.com/" target="_blank">![Sailthru](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/sailthru-1538185995951.png)</a>| **Sailthru**
+<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/salesforce-marketing-cloud-1538249523926.png)</a>| **Salesforce Marketing Cloud**
 <a href="https://www.selligent.com/" target="_blank">![Selligent](/img/pages/email/selligent/selligent.png)</a>| **Selligent Message Studio**
 <a href="https://www.sender.net/" target="_blank">![Sender](/img/pages/email/sender/sender.png)</a>| **Sender**
 <a href="https://sendgrid.com/" target="_blank">![SendGrid](/img/pages/email/sendgrid/sendgrid.png)</a>| **SendGrid**
