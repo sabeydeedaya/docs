@@ -20,6 +20,9 @@ This guide will walk you through how to setup your campaigns with **[Manage](htt
 
 ![image](/img/pages/deep-linked-ads/manage/manage-postbacks.png)
 
+!!! caution "OS specific Event IDs"
+    You must replace **Android_Event_ID** and **iOS_Event_ID** with real values from your Manage dashboard.
+
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
