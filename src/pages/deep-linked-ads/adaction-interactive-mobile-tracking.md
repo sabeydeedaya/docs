@@ -22,6 +22,10 @@ This guide will walk you through how to setup your campaigns with **[AdAction In
 
 ![image](/img/pages/deep-linked-ads/adaction-interactive/adaction-interactive-postbacks.png)
 
+!!! caution "OS specific Goal IDs"
+    You must replace **ANDROID_GOAL_ID** and **IOS_GOAL_ID** with real values from your AdAction dashboard.
+
+
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
