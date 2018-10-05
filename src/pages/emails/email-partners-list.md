@@ -2,6 +2,7 @@ Interested in becoming a Email Partner? Just fill out this form: **[Partner's Pr
 
 Logo | Partner 
 --- | --- 
+<a href="https://www.activecampaign.com/" target="_blank">![ActiveCampaign](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/active_campaign-1538185619248.png)</a>| **ActiveCampaign**
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank" target="_blank">![Adobe_Campaign_Classic](/img/pages/email/adobe-campaign-classic/adobe-campaign-classic.png)</a>| **Adobe Campaign Classic**
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank">![Adobe_Campaign_Standard](/img/pages/email/adobe-campaign-standard/adobe-campaign-standard.png)</a>| **Adobe Campaign Standard**
 <a href="https://aws.amazon.com/ses/" target="_blank">![Amazon_SES](/img/pages/email/amazon-ses/amazon-ses.png)</a>| **Amazon Simple Email Service**
@@ -14,12 +15,14 @@ Logo | Partner
 <a href="https://www.epsilon.com/" target="_blank">![Epsilon](/img/pages/email/epsilon/epsilon.png)</a>| **Epsilon**
 <a href="https://www.emarsys.com/" target="_blank">![Emarsys](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/emarsys-1537315326046.png)</a>| **Emarsys**
 <a href="https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management" target="_blank">![IBM_Watson_Campaign_Automation](/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)</a>| **IBM Watson Campaign Automation**
+<a href="https://www.icubespro.com/" target="_blank">![iCubesPro](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/icubespro-1538185683767.png)</a>| **iCubesPro**
 <a href="https://iterable.com/" target="_blank">![Iterable](/img/pages/email/iterable/iterable.png)</a>| **Iterable**
 <a href="https://www.kahuna.com/" target="_blank">![Kahuna](/img/pages/email/kahuna/kahuna.png)</a>| **Kahuna**
 <a href="https://www.klaviyo.com/" target="_blank">![Klaviyo](/img/pages/email/klaviyo/klaviyo.png)</a>| **Klaviyo**
 <a href="https://www.leanplum.com/" target="_blank">![Leanplum](/img/pages/email/leanplum/leanplum.png)</a>| **Leanplum**
 <a href="https://www.mailgun.com/" target="_blank">![Mailgun](/img/pages/email/mailgun/mailgun.png)</a>| **Mailgun**
 <a href="https://www.mailjet.com/" target="_blank">![Mailjet](/img/pages/email/mailjet/mailjet.png)</a>| **Mailjet**
+<a href="https://www.mailup.com/" target="_blank">![MailUp](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/mailup-1536710113288.png)</a>| **MailUp**
 <a href="https://www.mandrill.com/" target="_blank">![Mandrill](/img/pages/email/mandrill/mandrill.png)</a>| **Mandrill**
 <a href="https://messagegears.com/" target="_blank">![MessageGears](/img/pages/email/messagegears/messagegears.png)</a>| **MessageGears**
 <a href="https://www.moengage.com/" target="_blank">![MoEngage](/img/pages/email/moengage/moengage.png)</a>| **MoEngage**
