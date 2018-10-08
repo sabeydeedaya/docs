@@ -2,6 +2,9 @@
 
 ![Snap](https://cdn.branch.io/branch-assets/ad-partner-manager/104632553691939011/Group_2-1538714318018.png)
 
+!!! info 
+    The Snap integration is in private beta. For access, please contact your Branch Account manager or [integrations@branch.io](mailto:integrations@branch.io).
+
 Branch can help track your **[Snap Ad](https://forbusiness.snapchat.com/ad-products)** campaigns through our integration with Snap. 
 
 Snap is a self-attributing network (SAN).
