@@ -201,7 +201,7 @@ Logo | Partner
 <a href="http://www.vcommission.com" target="_blank">![vCommission Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Vcommi-1533342472151.png)</a>| **vCommission Media**
 <a href="http://ventesavenues.in" target="_blank">![Ventes_Avenues](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vent-1528510835086.png)</a>| **Ventes Avenues**
 <a href="http://www.vishibility.com/" target="_blank">![Vishibility](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1526944293589.png)</a>| **Vishibility**
-<a href="https://www1.vizury.com" target="_blank">![Vizury](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/black-logo-home-1535683748582.png)</a>| **Vizury**
+<a href="https://www1.vizury.com" target="_blank">![Vizury](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1539039205867.png)</a>| **Vizury**
 <a href="https://www.vserv.com/" target="_blank">![Vserv](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vserv-logo-1534544290091.png)</a>| **Vserv**
 <a href="https://vungle.com/" target="_blank">![Vungle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Vungle-1528510860118.png)</a>| **Vungle**
 <a href="https://wakeapp.ru/" target="_blank">![Wakeapp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/wak-1528510869958.png)</a>| **Wakeapp**
