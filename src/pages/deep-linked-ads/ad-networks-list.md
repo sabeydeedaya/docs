@@ -205,6 +205,7 @@ Logo | Partner
 <a href="https://www.vserv.com/" target="_blank">![Vserv](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/vserv-logo-1534544290091.png)</a>| **Vserv**
 <a href="https://vungle.com/" target="_blank">![Vungle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Vungle-1528510860118.png)</a>| **Vungle**
 <a href="https://wakeapp.ru/" target="_blank">![Wakeapp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/wak-1528510869958.png)</a>| **Wakeapp**
+<a href="http://www.webpals.com/" target="_blank">![Webpals Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/image001-1539039952572.png)</a>| **Webpals Mobile**
 <a href="https://direct.yandex.ru/" target="_blank">![Yandex_Direct](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/YandexDirect-копия-300x87-1528510884120.png)</a>| **Yandex Direct**
 <a href="http://en.yeahmobi.com/" target="_blank">![YeahMobi](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Logo-Yeahmobi-1528510894313.png)</a>| **YeahMobi**
 <a href="http://www.youappi.com/" target="_blank">![YouAppi](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524611148376.png)</a>| **YouAppi**
