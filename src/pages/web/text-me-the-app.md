@@ -96,6 +96,9 @@ branch.init('YOUR-BRANCH-KEY', function(err, data) {
 });
 ```
 
+!!! note "Phone number retention policy"
+    Phone numbers are redacted from Branch's Twilio instance, but if you use your own SMS provider, phone numbers may be stored either temporarily or indefinitely by that provider.
+
 ### Use a custom form with SendSMS()
 
 If you have an existing form for users to input their phone number, you can put our Text Me The App behind it. Add the following code somewhere inside the `<head></head>` tags on your website.
