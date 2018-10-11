@@ -383,7 +383,7 @@ pages:
     - Rapidmail: pages/emails/rapidmail.md
     - Sailthru: pages/emails/sailthru.md
     - Salesforce Marketing Cloud: pages/emails/salesforce.md
-    - Salesforce Marketing Cloud (hosted DNS): pages/emails/salesforce_dns.md
+    - Salesforce Marketing Cloud (Simplified): pages/emails/salesforce_dns.md
     - Selligent Message Studio: pages/emails/selligent.md
     - Sender: pages/emails/sender.md
     - SendGrid: pages/emails/sendgrid.md
