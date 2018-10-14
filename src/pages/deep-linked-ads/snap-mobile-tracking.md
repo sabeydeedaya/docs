@@ -61,7 +61,7 @@ Before you begin, be sure the following is confirmed.
 
 ### View Attribution on Dashboard
 
-All the attribution can be visible on the [Branch dashboard summary page](https://dashboard.branch.io/). All installs and opens registered from this channel will automatically be tagged with `Ad Partner`: `Snap`. Other analytics tags will reflect the campaign, ad squad and ad names you set up in the Smap Ads dashboard.
+All the attribution can be visible on the [Branch dashboard summary page](https://dashboard.branch.io/). All installs and opens registered from this channel will automatically be tagged with `Ad Partner`: `Snap`. Other analytics tags will reflect the campaign, ad squad and ad names you set up in the Snap Ads dashboard.
 
 Note that these stats are **limited to the date range** at the top of the page. You can expand the range if you'd like.
 
