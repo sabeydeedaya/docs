@@ -72,3 +72,7 @@ All exports via Data Feeds are powered by Branch's [People-Based Attribution](/p
 ### Time Limits
 
 Data will be available through the API only for 7 days after the date it's posted. If you need a record of your data for longer than 7 days, please set up a recurring export and store data in your systems.
+
+### Exporting beyond 7 days
+
+In accordance with our internal policies related to GDPR and other data protection laws, we hash many fields, including IP address and advertising identifiers, after 7 days. This means that if you want to export data beyond 7 days, either via the Dashboard's CSV Exports or by requesting a manual data dump, these fields will no longer contain the original values. For this reason, we highly recommend you always export raw data within 7 days.
