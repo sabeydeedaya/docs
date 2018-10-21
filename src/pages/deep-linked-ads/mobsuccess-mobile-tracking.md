@@ -1,8 +1,8 @@
 ## Overview
 
-![XXX](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/images-1527287333652.png)
+![Mobsuccess](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-sign3-1539144862058.png)
 
-This guide will walk you through how to setup your campaigns with **[XXX](https://XXX.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Mobsuccess](http://www.mobsuccess.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,11 @@ This guide will walk you through how to setup your campaigns with **[XXX](https:
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX-enable.png)
-
-{! ingredients/deep-linked-ads/add-credentials.md !}
+![image](/img/pages/deep-linked-ads/mobsuccess/mobsuccess-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX-postbacks.png)
+![image](/img/pages/deep-linked-ads/mobsuccess/mobsuccess-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

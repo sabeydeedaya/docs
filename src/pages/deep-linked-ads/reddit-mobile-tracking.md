@@ -1,10 +1,15 @@
 ## Overview
 
-![XXX](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/images-1527287333652.png)
+![Reddit](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/reddit-1-logo-png-transparent-1535415950775.png)
 
-This guide will walk you through how to setup your campaigns with **[XXX](https://XXX.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Reddit](http://www.reddit.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
-{! ingredients/deep-linked-ads/overview-steps.md !}
+Branch Universal Ads provides everything you need for complete tracking.
+
+The basic integration involves two parts:
+
+1. Integrating the SDKs and tracking in-app events
+1. Creating tracking links
 
 ## Setup
 
@@ -14,15 +19,12 @@ This guide will walk you through how to setup your campaigns with **[XXX](https:
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX-enable.png)
-
-{! ingredients/deep-linked-ads/add-credentials.md !}
-
-{! ingredients/deep-linked-ads/enable-partner-tip.md !}
-
-![image](/img/pages/deep-linked-ads/XXX/XXX-postbacks.png)
+![image](/img/pages/deep-linked-ads/reddit/reddit-enable.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
+
+!!! caution "Tracking links"
+    You shoudl created a separate links to track iOS and Android campaigns 
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
@@ -31,14 +33,6 @@ This guide will walk you through how to setup your campaigns with **[XXX](https:
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
 ## Advanced
-
-{! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
-
-{! ingredients/deep-linked-ads/all-events-toggle.md !}
-
-{! ingredients/deep-linked-ads/whitelist-ip.md !}
-
-{! ingredients/deep-linked-ads/edit-postbacks.md !}
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}
 

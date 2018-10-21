@@ -1,8 +1,8 @@
 ## Overview
 
-![XXX](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/images-1527287333652.png)
+![Outbrain](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-json-1538184039844.png)
 
-This guide will walk you through how to setup your campaigns with **[XXX](https://XXX.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Outbrain](https://www.outbrain.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,11 @@ This guide will walk you through how to setup your campaigns with **[XXX](https:
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX-enable.png)
-
-{! ingredients/deep-linked-ads/add-credentials.md !}
+![image](/img/pages/deep-linked-ads/outbrain/outbrain-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/XXX/XXX-postbacks.png)
+![image](/img/pages/deep-linked-ads/outbrain/outbrain-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
