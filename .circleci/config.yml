@@ -14,7 +14,7 @@ jobs:
       - run: export PATH=/home/circleci/.local/bin:$PATH
       - run:
           name: Clone Deploy Repo
-          command: git clone https://github.com/BranchMetrics/deploy.git; ~/deploy/scripts/hosts; ~/deploy/docker/circle_ip_allow.py
+          command: git clone https://github.com/BranchMetrics/deploy.git ~/deploy; ~/deploy/scripts/hosts; ~/deploy/docker/circle_ip_allow.py
       - run:
           name: Run Build Script
           command: ~/deploy/docker/build.sh
