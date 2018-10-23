@@ -32,7 +32,7 @@
 
         ![image](/img/pages/apps/ios-package.png)
 
-- ### Configure info.pList
+- ### Configure Info.plist
 
     - Add [Branch Dashboard](https://dashboard.branch.io/account-settings/app) values
 
@@ -797,7 +797,7 @@
         [Branch setTrackingDisabled:YES];
         ```
 
-    You can choose to call this throughout the lifecycle of the app. Once called, network requests will not be sent from the SDKs. Link generation will continue to work, but will not contain identifying information about the user. In addition, deep linking will continue to work, but will not track analytics for the user. Lastly, deferred deep linking (when the app is not installed) will not work.
+    You can choose to call this throughout the lifecycle of the app. Once called, network requests will not be sent from the SDKs. Link generation will continue to work, but will not contain identifying information about the user. In addition, deep linking will continue to work, but will not track analytics for the user.
 
 ## Troubleshoot issues
 

@@ -12,7 +12,6 @@ We currently integrate with the following partners:
 - [Braze](/pages/integrations/braze/)
 - [CleverTap](/pages/integrations/clevertap/)
 - [Convertro](/pages/integrations/convertro/)
-- [Fabric Answers](/pages/integrations/fabric-answers/)
 - [Google Analytics](/pages/integrations/google-analytics/)
 - [Kochava](/pages/integrations/kochava/)
 - [Localytics](/pages/integrations/localytics/)

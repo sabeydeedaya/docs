@@ -20,13 +20,16 @@ With every event that is recorded in Branch, we check automatically if that even
 
 !!! warning "Only use v1 custom events"
 	Our referral system only supports our v1 custom event SDK method which is `userCompletedAction()` and `track()`. The v2 events, `BranchEvent` and `logEvent()`, are not supported at this time.
+	
+!!! warning "Promo codes has been deprecated"
+	Our Promo codes feature on the dashboard has been deprecated. Please use reward rules to trigger referral rewards for your users.
 
 ## Awarding credits
 
 !!! tip "Referral Fraud Protection"
 	Branch tracks the hardware ID and IDFA of every device we detect, and ties these to our concept of a user identity. However, this means that you may run into issues if you test repeatedly with the same devices. When testing referral programs and reward rules, you should [use debug mode](#dialog-code?ios=simulate-an-install&android=simulate-an-install&cordova=simulate-an-install&mparticleAndroid=simulate-an-install&mparticleIos=simulate-an-install&titanium=simulate-an-install&reactNative=simulate-an-install&unity=simulate-an-install&xamarin=simulate-an-install).
 
-To add a rule, go to the Dashboard Referrals page and click the [Rules tab](https://dashboard.branch.io/referrals/rules). Click the green "+ Add a new rule" button. Once there, you can select between two options:
+To add a rule, go to the Dashboard Referrals page and click the [Rules tab](https://dashboard.branch.io/referrals/rules). Click the green "+ Add a new rule" button. Once there, you can add new rules to give rewards:
 
 ### Give reward
 

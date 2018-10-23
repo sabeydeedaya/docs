@@ -109,7 +109,6 @@ In addition to any custom key/value pairs specified in the link data dictionary,
 | **+referrer** | The referrer for the link click, if a link was clicked
 | **+click_timestamp** | Epoch timestamp of when the click occurred
 | **+url** | The full URL of the link that drove the install/open, if present (e.g. yourapp.app.link/abcde12345)
-| **+phone_number** | The phone number of the user, if the user texted himself/herself the app
 | **~channel** | The channel on which the link was shared, specified at link creation time
 | **~feature** | The feature, such as `invite` or `share`, specified at link creation time
 | **~tags** | Any tags, specified at link creation time

@@ -137,7 +137,7 @@
 
                 ![image](/img/pages/apps/ios-package.png)
 
-        - Configure info.pList
+        - Configure Info.plist
 
             - Add [Branch Dashboard](https://dashboard.branch.io/account-settings/app) values
 

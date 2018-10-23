@@ -192,7 +192,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | Key | Default | Usage
         | --- | --- | ---
         | $fallback_url | | Change the redirect endpoint for all platforms - so you don't have to enable it by platform. Note that Branch will forward all robots to this URL, which **overrides any OG tags** entered in the link.  System-wide Default URL (set in Link Settings)
-        | $fallback_url_xx | | Change the redirect endpoint for all platforms based on a [lower-case Alpha-2 country code](https://www.iso.org/obp/ui/#search). For example, `$fallback_url_de="..."` would redirect Germany deep link clicks. You should also set `$fallback_url` to act as the global redirect in addition to the country-specifc ones.
+        | $fallback_url_xx | | Change the redirect endpoint for all platforms based on a [lower-case Alpha-2 country code](https://www.iso.org/obp/ui/#search). For example, `$fallback_url_de="..."` would redirect Germany deep link clicks. You should also set `$fallback_url` to act as the global redirect in addition to the country-specific ones.
         | $desktop_url | | Change the redirect endpoint on desktops Text-Me-The-App page (set in Link Settings)
         | $ios_url | | Change the redirect endpoint for iOS  App Store page for your app (set in Link Settings)
         | $ipad_url | | Change the redirect endpoint for iPads `$ios_url` value
@@ -367,6 +367,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
           "session_id": "429691081177874743",
           "data": {
             "$canonical_identifier": "item/1503684554354.28",
+            "$canonical_url": "https://example.com/home?utm_campaign=test&deeplink=value"
             "$desktop_url": "http://example.com/home",
             "$exp_date": 0,
             "$identity_id": "427469360685348303",

@@ -935,10 +935,18 @@
     Branch.getInstance().disableTracking(true);
     ```
 
-    You can choose to call this throughout the lifecycle of the app. Once called, network requests will not be sent from the SDKs. Link generation will continue to work, but will not contain identifying information about the user. In addition, deep linking will continue to work, but will not track analytics for the user. Lastly, deferred deep linking (when the app is not installed) will not work.
+    You can choose to call this throughout the lifecycle of the app. Once called, network requests will not be sent from the SDKs. Link generation will continue to work, but will not contain identifying information about the user. In addition, deep linking will continue to work, but will not track analytics for the user.
 
 
 ## Troubleshoot issues
+
+- ### Enable logging
+
+    - *Java*
+
+        ```java
+        Branch.enableLogging();
+        ```
 
 - ### Test your Branch Integration
 
