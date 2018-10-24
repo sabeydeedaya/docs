@@ -6,11 +6,14 @@ Track your **[Doubleclick](https://doubleclick.com)** campaigns using Branch's U
 
 You can now run campaigns on a variety of in-app and mobile web publishing sites, and provide your users with the smoothest experience with Branch's deep links. Read on to learn how to set everything up.
 
-!!! Viewing Downstream events in Branch
-    If a placement's "click" is handled server-side by a specific publisher, Branch will not attribute downstream events in Branch's dashboard (Client-side clicks will attribute downstream events in Branch's dashboard).  Branch is targeting a Q4'18 upgrade that will address this.  For a short term workaround, please contact integrations@branch.io or contact your Account Manager, to see if the Publisher can enable adding a **[device ID macro](https://docs.branch.io/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information)** to the Branch DCM tracking link.  This can enable downstream event tracking in Branch's dashboard.
+!!! info
+	DoubleClick supports tracking links, and is also a self-attributing network with limited data in the response. Follow the relevant setup guide for the behavior you would like to see. Where possible, we recommend setting up *both* implementations for complete coverage, so data appears in Branch, the ad partner, and DoubleClick.
 
+	Setup 1: You can see conversion data in *DoubleClick Campaign Manager* without using any tracking links by setting up Floodlight tags. DoubleClick will be notified of all conversions.
 
-## Setup
+	Setup 2: You can see conversion data in the *Branch* dashboard by using tracking links for the ad network you are running ads with. Postbacks will be sent to the ad network.
+
+## Setup 1: Seeing data in DoubleClick
 
 ### Doubleclick Campaign Manager Set Up
 
@@ -55,13 +58,18 @@ Find DoubleClick in the search box. Hit enable. In the **Account Settings** tab,
 
 #### Map Events
 
-At this point, you have enabled Branch to communicate with Doubleclick. Now we need to map Branch events to **Floodlight Activities** found on the Doubleclick dashboard. Click the **Postback Config** tab. You should see a URL for the event **Install**. For demonstration purposes, we will assume you have a corresponding Install event on the Doubleclick dashboard, but this applies to any event you add.
+At this point, you have enabled Branch to communicate with Doubleclick. Now we need to map Branch events to **Floodlight Activities** found on the Doubleclick dashboard. 
 
-Start by grabbing your **Advertiser ID**, **Activity tag String**, and **Group tag String**.
+1. Click the **Postback Config** tab. 
+1. Set *Send Postbacks For* to **All Events**
+1. You should see a URL for the event **Install**. For demonstration purposes, we will assume you have a corresponding Install event on the Doubleclick dashboard, but this applies to any event you add.
+1. Start by grabbing your **Advertiser ID**, **Activity tag String**, and **Group tag String**.
 
 In the screenshot above, we have two events, "In App Activations - Android", and "In App Activations - iOS", which correspond to the Branch Install event. For this example, the **Activity tag Strings** are *act-and* and *act-ios*. The **Group tag String** is *sales*.
 
-Copy the existing URL in Install, and replace the *src*, *cat*, and *type* variables. Your end result should look exactly like this:
+Copy the existing URL in Install, and replace the *src*, *cat*, and *type* variables. The "cat" example below has conditional iOS and Android information.
+
+Your end result should look exactly like this, where there are different cat tags for iOS and Android.
 
 `https://ad.doubleclick.net/ddm/s2s/appactivity/src=6637276;cat=<#if user_data.os=="IOS">act-ios</#if><#if user_data.os=="ANDROID">act-and</#if>;type=sales;ord=${ (id)! }`
 
@@ -71,12 +79,13 @@ If you don't have two different tags for iOS and Android, then it will look simp
 
 ![image](/img/pages/deep-linked-ads/doubleclick/final-postback-doubleclick.png)
 
-Simply update and hit save.
+## Setup 2: Seeing data in Branch, postbacks to ad partners
 
-#### Send all events
+### Create ad link
 
-At the top of the Postback Config tab, under *Send Postbacks For*, select *All Events* on the toggle and click *Save* at the bottom of the screen.
+If you're looking to see data in the Branch dashboard and postback to ad partners, create an ad link for the relevant partner.
 
-### Run campaigns
+For example, if you're running a campaign on Pandora via DoubleClick, follow the [instructions for enabling Pandora and creating a Pandora link](https://docs.branch.io/pages/deep-linked-ads/pandora-mobile-tracking/), then use that link in the click tracking URL field of your DCM creative tag.
 
-At this point, you can now create a link for the Doubleclick network and send data back. Take your Branch link, and place it as the Click Through URL for your placement.
+!!! warning 
+	If a placement's "click" is handled *server-side* by a specific publisher and there is *no [device ID macro]*(https://docs.branch.io/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information), Branch will record clicks but not attribute downstream events in Branch's dashboard (client-side clicks will attribute downstream events in Branch's dashboard). Clicks with a device ID macro or client-side handling will attribute downstream events in Branch. Please contact integrations@branch.io or contact your Account Manager for details on specific networks before implementation.
