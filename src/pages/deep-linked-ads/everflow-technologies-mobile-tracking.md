@@ -18,6 +18,12 @@ This guide will walk you through how to setup your campaigns with **[Everflow Te
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
+
+To find the Network ID, the best way is to go into Network > Settings > And look in the Global Postback. The "nid" is the network ID. 
+In the example attached, it would be 63, 
+
+![image](/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-credentials.png)
+
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
 ![image](/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-postbacks.png)
