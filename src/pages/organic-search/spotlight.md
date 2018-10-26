@@ -30,7 +30,8 @@ First, define the content that you'd like to be listed by customizing the `Branc
     branchUniversalObject.addMetadataKey("property2", value: "red")
 
     // important to set this flag to true
-    branchUniversalObject.automaticallyListOnSpotlight = true
+    branchUniversalObject.publiclyIndex = true
+    branchUniversalObject.locallyIndex = true
     ```
 
 - *Objective C*
@@ -43,8 +44,9 @@ First, define the content that you'd like to be listed by customizing the `Branc
     [branchUniversalObject addMetadataKey:@"property1" value:@"blue"];
     [branchUniversalObject addMetadataKey:@"property2" value:@"red"];
 
-    // important to set this flag to true
-    branchUniversalObject.automaticallyListOnSpotlight = YES;
+    // important to set this flag to YES
+    branchUniversalObject.publiclyIndex = YES;
+    branchUniversalObject.locallyIndex = YES;
     ```
 
 Then call the `userCompletedAction` method with the `View` event on your `BranchUniversalObject`. You will want to do this every single time a user goes to view a page in your app, so we recommend putting this in `viewDidAppear`, which means you must initialize the Branch Universal Object with all appropriate metadata before `viewDidAppear`.
