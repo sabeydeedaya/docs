@@ -1376,7 +1376,7 @@
 
 - ### Proguard rules without Play Services Ads module
 
-  - The Branch SDK has an optional dependency on Play Services Ads for GAID matching. Using Rpoguard without using this library can create issue in fetching the GAID while creating Branch session and events. Please add the following to your proguard file to solve this issue
+  - The Branch SDK has an optional dependency on Play Services Ads for GAID matching. Using Proguard without using this library can create issue in fetching the GAID while creating Branch session and events. Please add the following to your proguard file to solve this issue
 `-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
 com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
 }`
