@@ -20,7 +20,7 @@
             buildToolsVersion "25.0.2"
             defaultConfig {
                 applicationId "com.eneff.branch.example.android"
-                minSdkVersion 15
+                minSdkVersion 16
                 targetSdkVersion 25
                 versionCode 1
                 versionName "1.0"
@@ -43,7 +43,7 @@
             implementation 'com.android.support:design:25.2.0'
 
             // required
-            implementation 'io.branch.sdk.android:library:2.+'
+            implementation 'io.branch.sdk.android:library:3.+'
 
             // optional
             implementation 'com.android.support:customtabs:23.3.0' // Chrome Tab matching
@@ -1397,3 +1397,5 @@ boolean isLimitAdTrackingEnabled();
     ```java
     Branch.getInstance(getApplicationContext());
     ```
+- ### Minimum versions
+    If you'd like to support down to API version 9 on Android, please pin to version 1.14.5. If you'd like to support API level 15, please pin to a 2.x version. The minimum version we support for 3.x is Android version 16.
