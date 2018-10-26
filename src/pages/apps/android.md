@@ -1374,6 +1374,17 @@
     - The Branch SDK has an optional dependency on Firebase app indexing and Android install referrer classes to provide new Firebase content listing features and support new Android install referrer library. This may cause a proguard warning depending on your proguard settings. Please add the following to your proguard file to solve this issue
     `-dontwarn com.google.firebase.appindexing.**`  `-dontwarn com.android.installreferrer.api.**`
 
+- ### Proguard rules without Play Services Ads module
+
+  - The Branch SDK has an optional dependency on Play Services Ads for GAID matching. Using Proguard without using this library can create issue in fetching the GAID while creating Branch session and events. Please add the following to your proguard file to solve this issue
+`-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
+}`
+`-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
+java.lang.String getId();
+boolean isLimitAdTrackingEnabled();
+}`
+
 - ### Unable to open this link error
 
     - Happens whenever URI Scheme redirection fails.
