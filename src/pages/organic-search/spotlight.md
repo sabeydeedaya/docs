@@ -49,20 +49,6 @@ First, define the content that you'd like to be listed by customizing the `Branc
     branchUniversalObject.locallyIndex = YES;
     ```
 
-Then call the `userCompletedAction` method with the `View` event on your `BranchUniversalObject`. You will want to do this every single time a user goes to view a page in your app, so we recommend putting this in `viewDidAppear`, which means you must initialize the Branch Universal Object with all appropriate metadata before `viewDidAppear`.
-
-- *Swift 3*
-
-    ```swift
-    branchUniversalObject.userCompletedAction(BNCRegisterViewEvent)
-    ```
-
-- *Objective C*
-
-    ```obj-c
-    [branchUniversalObject userCompletedAction:BNCRegisterViewEvent];
-    ```
-
 This will create the appropriate NSUserActivity and tell Apple that a view occurred, adding it to the local Spotlight index if not already present in addition to increasing it's ranking in the global index. To read more about this, check out [this blog post](https://blog.branch.io/ios-10-spotlight-app-discovery-nsuseractivity-and-search-relevancy).
 
 ### Handle incoming traffic from Spotlight
