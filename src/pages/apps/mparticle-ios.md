@@ -825,7 +825,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - *Swift 3*
 
         ```swift
-        lp.addControlParam("$email_subject", withValue: "Therapists hate him.")
+        lp.addControlParam("$email_subject", withValue: "Your Awesome Deal")
         lp.addControlParam("$email_html_header", withValue: "<style>your awesome CSS</style>\nOr Dear Friend,")
         lp.addControlParam("$email_html_footer", withValue: "Thanks!")
         lp.addControlParam("$email_html_link_text", withValue: "Tap here")
