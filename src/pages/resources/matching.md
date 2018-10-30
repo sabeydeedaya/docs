@@ -31,7 +31,7 @@ We've built out custom deep linking mechanisms that are specific to each platfor
 
 #### Browser to app snapshot match
 
-Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital snapshot_** and can be obtained in the browser and in the app.
+Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address (including v6)**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital snapshot_** and can be obtained in the browser and in the app.
 
 When no 100% match method is available, we connect the unique snapshot collected in the app to the unique snapshot collected in the browser to determine where user originated.
 
