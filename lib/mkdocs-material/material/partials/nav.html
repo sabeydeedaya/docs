@@ -6,7 +6,7 @@
       {% elif config.theme.logo.startswith("http") %}
         <img src="{{ config.theme.logo }}" width="48" height="48">
       {% else %}
-        <img src="{{ base_url }}/{{ config.theme.logo }}" width="48" height="48">
+        <img src="{{ base_url|url }}/{{ config.theme.logo }}" width="48" height="48">
       {% endif %}
     </span>
     {{ config.site_name }}
