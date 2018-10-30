@@ -17,11 +17,14 @@ This guide requires you to have already [integrated the Branch SDK](/pages/apps/
 
 Content can be added to Spotlight search by using the `BranchUniversalObject`. We'd recommend that you put this on every page that renders a piece of content for your users. This way, a user could rediscover a previous thing that they had viewed.
 
-First, define the content that you'd like to be listed by customizing the `BranchUniversalObject`. We'd recommend that you do this in `viewDidLoad`
+First, define the content that you'd like to have listed by describing it with a `BranchUniversalObject`. We'd recommend that you do as early as possible, in `viewDidLoad`.
+
+Then call the `registerView` method on your `BranchUniversalObject`. You will want to do this every single time a user views a page in your app, so we recommend putting this in `viewDidAppear`, which means you must initialize the Branch Universal Object with all appropriate metadata before `viewDidAppear`.
 
 - *Swift 3*
 
     ```swift
+    // Describe your content with a BranchUniversalObject:
     let branchUniversalObject: BranchUniversalObject = BranchUniversalObject(canonicalIdentifier: "item/12345")
     branchUniversalObject.title = "My Content Title"
     branchUniversalObject.contentDescription = "My Content Description"
@@ -29,14 +32,22 @@ First, define the content that you'd like to be listed by customizing the `Branc
     branchUniversalObject.addMetadataKey("property1", value: "blue")
     branchUniversalObject.addMetadataKey("property2", value: "red")
 
-    // important to set this flag to true
+    // Set this to true if you'd like the content to be publicly searchable through Google and Apple search:
     branchUniversalObject.publiclyIndex = true
+
+    // Important! Set this flag to true for local spotlight indexing:
     branchUniversalObject.locallyIndex = true
+
+...
+
+    // Next, register the content view, perhaps in your `viewDidAppear` method:
+    branchUniversalObject.registerView()
     ```
 
 - *Objective C*
 
     ```obj-c
+    // Describe your content with a BranchUniversalObject:
     BranchUniversalObject *branchUniversalObject = [[BranchUniversalObject alloc] initWithCanonicalIdentifier:@"item/12345"];
     branchUniversalObject.title = @"My Content Title";
     branchUniversalObject.contentDescription = @"My Content Description";
@@ -44,9 +55,16 @@ First, define the content that you'd like to be listed by customizing the `Branc
     [branchUniversalObject addMetadataKey:@"property1" value:@"blue"];
     [branchUniversalObject addMetadataKey:@"property2" value:@"red"];
 
-    // important to set this flag to YES
+    // Set this to true if you'd like the content to be publicly searchable through Google and Apple search:
     branchUniversalObject.publiclyIndex = YES;
+
+    // Important! Set this flag to true for local spotlight indexing:
     branchUniversalObject.locallyIndex = YES;
+
+...
+
+    // Next, register the content view, perhaps in your `viewDidAppear` method:
+    [branchUniversalObject registerView];
     ```
 
 This will create the appropriate NSUserActivity and tell Apple that a view occurred, adding it to the local Spotlight index if not already present in addition to increasing it's ranking in the global index. To read more about this, check out [this blog post](https://blog.branch.io/ios-10-spotlight-app-discovery-nsuseractivity-and-search-relevancy).
@@ -68,7 +86,7 @@ Open your **AppDelegate.m** file and add the following method. If you completed 
 
 - *Objective C*
 
-    ```obj-c    
+    ```obj-c
     - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler {
         [[Branch getInstance] continueUserActivity:userActivity];
 
@@ -91,9 +109,9 @@ If the user doesn't have the app installed and finds your content through search
          branch.getSpotlightUrl(withParams: ["$og_title": "My App",
                                             "$og_description": "My app is disrupting apps",
                                             "$og_thumb": "https://s3-us-west-1.amazonaws.com/branchhost/mosaic_og.png",
-                                            "object_id": "1234"], 
+                                            "object_id": "1234"],
                                  callback: { (params, error) in
-                
+
                 if let params = params {
                         // params will contain @"url" and @"spotlight_identifier"
                         // the example below shows where to use them
@@ -103,7 +121,7 @@ If the user doesn't have the app installed and finds your content through search
                         self.userActivity = NSUserActivity(activityType: params["spotlight_identifer"] as! String)
                         self.userActivity.webpageURL = URL(string: params["url"] as! String)
                         self.userActivity.becomeCurrent()
-                }    
+                }
         })
         ```
 
@@ -144,7 +162,7 @@ If the goal is to simply index the content of the app without creating a `Branch
         print("url \(String(describing: url)), spotlightIdentifier \(String(describing: spotlightIdentifier)), error \(error.debugDescription)")
     }
     ```
-    
+
 - *Objective-C*
     ```objc
     BranchCSSearchableItemAttributeSet *set = [[BranchCSSearchableItemAttributeSet alloc] init];
@@ -166,7 +184,7 @@ If the goal is to simply index the content of the app without creating a `Branch
         ```swift
         universalObject.listOnSpotlight(with: linkProperty) { (url, error) in
             if (!error) {
-                print("Successfully indexed on spotlight")     
+                print("Successfully indexed on spotlight")
              }
         }
         ```
@@ -186,7 +204,7 @@ If the goal is to simply index the content of the app without creating a `Branch
 
     - *Swift 3*
         ```swift
-        Branch.getInstance().indexOnSpotlight(usingSearchableItems: universalObjects, 
+        Branch.getInstance().indexOnSpotlight(usingSearchableItems: universalObjects,
                                                 completion: { (universalObjects, error) in
              if (!error) {
                 // Successfully able to index all the BUO on spotloght
@@ -205,8 +223,8 @@ If the goal is to simply index the content of the app without creating a `Branch
         }];
         ```
 
-!!! note 
-    All the Branch Universal Objects will be indexed using CSSearchableIndex irrespective of it's contentIndexMode  
+!!! note
+    All the Branch Universal Objects will be indexed using CSSearchableIndex irrespective of it's contentIndexMode
 
 - Remove single Branch Universal Object from Spotlight if privately indexed
 
@@ -252,8 +270,8 @@ If the goal is to simply index the content of the app without creating a `Branch
         }];
         ```
 
-!!! note 
-    "spotlightIdentifier" member variable of Branch Universal Object should contain the spotlight indentifier which was used to index content to successfully remove indexing. 
+!!! note
+    "spotlightIdentifier" member variable of Branch Universal Object should contain the spotlight indentifier which was used to index content to successfully remove indexing.
 
 - Remove all the content from Spotlight if privately indexed using Branch SDK
 
