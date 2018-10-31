@@ -49,12 +49,4 @@ Verify that you have selected the right certificates:
 
 Still not working? Try downloading a new certificate and uploading that to Branch.
 
-### Cost data not matching the Apple Search Ads dashboard
-
-The Apple Search Ads dashboard is fixed to a specific time zone. Please ensure that you've selected the same time zone in your Apple Search Ads dashboard and your Branch dashboard.
-
-### CPI metric doesn't match between Apple Search Ads and Branch, although cost metric does
-
-The Apple Search Ads Attribution API can cause discrepancies in install counts that in turn cause discrepancies in CPI metrics. Verify whether your cost and install metrics match the Apple Search Ads dashboard. If there is an install discrepancy, it could be caused by one of the [common sources of install discrepancies](/pages/deep-linked-ads/apple-mobile-tracking/#install-discrepancies-when-compared-with-apple-search-ads-dashboard).
-
-
+{! ingredients/deep-linked-ads/cost-data-discrepancies.md !}

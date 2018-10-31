@@ -81,6 +81,11 @@ Your Facebook Ad Campaign is now setup to use Branch Links to handle App Install
 
 {! ingredients/deep-linked-ads/view-fb-link-data.md !}
 
+{! ingredients/deep-linked-ads/cost-data.md !}
+
 ## Troubleshooting
 
 {! ingredients/deep-linked-ads/fb-ads-support.md !}
+
+{! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
+

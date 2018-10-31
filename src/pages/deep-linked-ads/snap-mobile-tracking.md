@@ -2,9 +2,6 @@
 
 ![Snap](https://cdn.branch.io/branch-assets/ad-partner-manager/104632553691939011/Group_2-1538714318018.png)
 
-!!! info 
-    The Snap integration is in private beta. For access, please contact your Branch Account manager or [integrations@branch.io](mailto:integrations@branch.io).
-
 Branch can help track your **[Snap Ad](https://forbusiness.snapchat.com/ad-products)** campaigns through our integration with Snap. 
 
 Snap is a self-attributing network (SAN).
@@ -103,14 +100,19 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 | SAVE | SAVE
 | PAGE_VIEW | PAGE_VIEW
 
+{! ingredients/deep-linked-ads/cost-data.md !}
+
 ## Troubleshooting
 
 ### Discrepancies
 
-- Snap Ads Managers are on PST by default. You can change your Branch time zone in [Account Settings](https://dashboard.branch.io/account-settings/app) to match.
-- Verify your Snap attribution windows match your Branch attribution windows. Ask your Snap account manager for your attribution windows.
+- Snap Ads Manager time zones are set at the time your ad account is created. You can see your Snap time zone in your Snap Ad Account Settings, but you cannot change it. You can change your Branch dashboard time zone in [Account Settings](https://dashboard.branch.io/account-settings/app) to match.
+- Verify your Snap attribution windows match your Branch attribution windows. Ask your Snap account manager for your attribution windows. Your Branch windows are visible either in Link Settings (global windows) or in the [Attribution Windows](https://dashboard.branch.io/ads/partner-management/a_snap?tab=attribution_windows) section of the Snap entry in Ads Partner Manager. Snap windows can be configured under "Customize Columns" in the Snap UI.
+    
+    ![Snap - Attribution Windows](/img/pages/deep-linked-ads/snap/snap-attribution-windows.png)
+
 - When deep linking, create a link via the Branch dashboard. If you are running an app campaign, please ensure your link has `%24deeplink_no_attribution=true` as a query parameter to remove that link's ability to claim attribution, otherwise the link may claim attribution over the SAN claim. The link will still deep link.
 - Snap's reporting API does not provide any "compare by" functionality outside of the ads analytics tags. So, you cannot compare Snap click + impression data by platform, OS or country, for example.
 
-
+{! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
 
