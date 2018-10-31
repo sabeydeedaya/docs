@@ -103,3 +103,14 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 | SAVE | SAVE
 | PAGE_VIEW | PAGE_VIEW
 
+## Troubleshooting
+
+### Discrepancies
+
+- Snap Ads Managers are on PST by default. You can change your Branch time zone in [Account Settings](https://dashboard.branch.io/account-settings/app) to match.
+- Verify your Snap attribution windows match your Branch attribution windows. Ask your Snap account manager for your attribution windows.
+- When deep linking, create a link via the Branch dashboard. If you are running an app campaign, please ensure your link has `%24deeplink_no_attribution=true` as a query parameter to remove that link's ability to claim attribution, otherwise the link may claim attribution over the SAN claim. The link will still deep link.
+- Snap's reporting API does not provide any "compare by" functionality outside of the ads analytics tags. So, you cannot compare Snap click + impression data by platform, OS or country, for example.
+
+
+

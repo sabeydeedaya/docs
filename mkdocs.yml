@@ -325,6 +325,7 @@ pages:
     - Smadex: pages/deep-linked-ads/smadex-mobile-tracking.md
     - Smart.bid : pages/deep-linked-ads/smart-bid-mobile-tracking.md
     - SmoorfApp : pages/deep-linked-ads/smoorfapp-mobile-tracking.md
+    - Snap: pages/deep-linked-ads/snap-mobile-tracking.md
     - Sonarclick: pages/deep-linked-ads/sonarclick-mobile-tracking.md
     - Spyke Media : pages/deep-linked-ads/spyke-media-mobile-tracking.md
     - StackAdapt: pages/deep-linked-ads/stackadapt-mobile-tracking.md
@@ -477,6 +478,5 @@ pages:
     - Field-by-field guide for migrating from legacy Export API: pages/exports/export-api-migration-guide.md
     - Field-by-field guide for migrating from legacy webhooks: pages/exports/webhooks-migration-guide.md
     - Apple Search Ads Cost Data: pages/deep-linked-ads/apple-search-ads-cost.md
-    - Snap: pages/deep-linked-ads/snap-mobile-tracking.md
     - SAN Web Tracking: pages/deep-linked-ads/san-web-tracking.md
 
