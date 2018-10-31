@@ -392,7 +392,7 @@
     let branchUniversalObject = await branch.createBranchUniversalObject('canonicalIdentifier', {
       locallyIndex: true,
       title: 'Cool Content!',
-      contentDescription: 'Cool Content Description'}),
+      contentDescription: 'Cool Content Description',
       contentMetadata: {
         ratingAverage: 4.2,
         customMetadata: {
