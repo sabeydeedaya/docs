@@ -50,6 +50,7 @@
 - #### Deploy
 
     - Merge pull request into `master`
+    - Merge pull request from `master` into `production` on release days
 
 - #### Production
 
