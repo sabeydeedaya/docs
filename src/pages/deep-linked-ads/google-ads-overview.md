@@ -35,9 +35,11 @@ The first step is connecting Branch & AdWords together. By connecting these acco
 It is not necessary to connect all AdWords accounts. However, you must connect the AdWords account that owns in-app conversions for your mobile app. Often, this is the MCC account.
 
 !!! tip
-	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs and import conversions with the account that is noted as the Conversion Account under the MCC > Management tab.
+	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the MCC > Management tab. 
 
 	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
+
+	If you only have access to the child account (but that account is attached to an MCC), you can see which account is recording conversions within the child account as well, by going to _Tools > Conversions > Settings > Conversion Account_ in AdWords.
 
 
 #### OAuth AdWords Setup
@@ -51,7 +53,9 @@ It is not necessary to connect all AdWords accounts. However, you must connect t
 1. Create Link IDs for all platforms you run campaigns on.
 <img src="/img/pages/deep-linked-ads/google/link-id.png" alt="Link IDs" class="three-quarters center">
 
-**Note** you must be an admin in your AdWords account in order to generate Link IDs!
+!!! tip
+	- You must be an admin in your AdWords account in order to generate link IDs.
+	- If you are creating link IDs in an MCC, you must share those link IDs with the child account to record conversions. Do this by going to _Options > Share with another account_ and enter the child account ID.
 
 Store these Link IDs for easy access. The next step requires you to input them.
 
