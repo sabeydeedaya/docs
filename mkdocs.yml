@@ -127,7 +127,7 @@ pages:
   - Create deep links: pages/links/integrate.md
   - Track analytics:
     - Dashboard analytics: pages/dashboard/analytics.md
-    - New Dashboard Analytics: pages/dashboard/people-based-attribution.md
+    - People-Based Attribution: pages/dashboard/people-based-attribution.md
     - Liveview: pages/exports/pba-liveview.md
     - Time zone support: pages/dashboard/timezone.md
   - Links on your website:
@@ -346,7 +346,6 @@ pages:
     - Times Internet Limited: pages/deep-linked-ads/times-internet-limited-mobile-tracking.md
     - Tradedoubler : pages/deep-linked-ads/tradedoubler-mobile-tracking.md
     - Tunica Labs : pages/deep-linked-ads/tunica-labs-mobile-tracking.md
-    - Twitter : pages/deep-linked-ads/twitter-mobile-tracking.md
     - Tyroo : pages/deep-linked-ads/tyroo-mobile-tracking.md
     - U2opia Mobile : pages/deep-linked-ads/u2opia-mobile-mobile-tracking.md
     - UC Ads: pages/deep-linked-ads/uc-ads-mobile-tracking.md
@@ -479,4 +478,5 @@ pages:
     - Apple Search Ads Cost Data: pages/deep-linked-ads/apple-search-ads-cost.md
     - Snap: pages/deep-linked-ads/snap-mobile-tracking.md
     - SAN Web Tracking: pages/deep-linked-ads/san-web-tracking.md
-
+    - Branch Universal Ads (old) : pages/deep-linked-ads/branch-universal-ads.md
+    - Twitter (old): pages/deep-linked-ads/twitter-mobile-tracking.md
