@@ -57,8 +57,8 @@ If you follow the above steps, you shouldn't have any issues. However, if you mi
 
 Here are some things to know:
 
-1. If a campaign ID has a downstream event (attributed open, install, reinstall or web session start) then we'll show the click data from links or API on the dashboard. If there is no downstream event, the campaign, along with its click, impression and cost data will not appear in the dashboard.
-1. If link clicks containing campaign ID are recorded, we *won't* show any click data *ingested via API* in the dashboard, to avoid double counting clicks & API. So, if you put links in some, but not all, ads in a campaign you can expect to see missing clicks.
+1. If a campaign ID has a downstream event (attributed open, install, reinstall or web session start) then we'll show the click data from links or API on the dashboard. If there is no downstream event, then the campaign (along with its click, impression and cost data) will not appear in the dashboard.
+1. If link clicks containing campaign ID are recorded, we *won't* show any click data *ingested via API* in the dashboard, to avoid double counting link clicks & API-ingested clicks. So, if you put links in some, but not all, ads in a campaign you can expect to see missing clicks.
 1. If you have a link with a campaign name matching the ad network's campaign name, but *no campaign ID on the link*, you will see duplicate click numbers in the dashboard.
 1. For link-tracked web campaigns, you can only compare by values that are present as an analytics tag on the link. So if you have a campaign ID, but don't have ~campaign or ~ad_name etc. on the link, you can't compare by campaign name in the dashboard, and data might seem "missing."
 
