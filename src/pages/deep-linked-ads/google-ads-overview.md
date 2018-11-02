@@ -22,7 +22,7 @@ In all cases, Branch will forward in-app events to AdWords for campaign optimiza
 
 Before you begin, be sure the following is confirmed.
 
-1. First, the Branch SDK must be integrated into your app, for both iOS and Android. 
+1. First, the Branch SDK must be integrated into your app, for both iOS and Android.
 1. You must also collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
 1. Make sure to track all necessary events through the SDKs, with instructions [here](#forward-events-to-adwords)
 
@@ -34,9 +34,17 @@ The first step is connecting Branch & AdWords together. By connecting these acco
 
 It is not necessary to connect all AdWords accounts. However, you must connect the AdWords account that owns in-app conversions for your mobile app. Often, this is the MCC account.
 
+!!! tip
+	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the MCC > Management tab. 
+
+	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
+
+	If you only have access to the child account (but that account is attached to an MCC), you can see which account is recording conversions within the child account as well, by going to _Tools > Conversions > Settings > Conversion Account_ in AdWords.
+
+
 #### OAuth AdWords Setup
 
-1. Log in to your [AdWords dashboard](https://adwords.google.com/aw/overview){:target="\_blank"} account that has the highest level of access. You will have the ability to connect all your AdWords accounts with Branch.
+1. Log in to your [AdWords dashboard](https://adwords.google.com/aw/overview){:target="\_blank"} account that is responsible for conversions (usually the highest level account). You will have the ability to connect all your AdWords accounts with Branch.
 1. Go to `Settings > Linked Accounts`.
 <img src="/img/pages/deep-linked-ads/google/linked-accounts.png" alt="Linked Accounts" class="three-quarters center">
 1. Create a new link ID: Go to `Third Party App Analytics > +`.
@@ -45,7 +53,9 @@ It is not necessary to connect all AdWords accounts. However, you must connect t
 1. Create Link IDs for all platforms you run campaigns on.
 <img src="/img/pages/deep-linked-ads/google/link-id.png" alt="Link IDs" class="three-quarters center">
 
-**Note** you must be an admin in your AdWords account in order to generate Link IDs!
+!!! tip
+	- You must be an admin in your AdWords account in order to generate link IDs.
+	- If you are creating link IDs in an MCC, you must share those link IDs with the child account to record conversions. Do this by going to _Options > Share with another account_ and enter the child account ID.
 
 Store these Link IDs for easy access. The next step requires you to input them.
 
@@ -85,74 +95,6 @@ All that remains is importing Branch events into AdWords. After you have set bot
 
 That's it! All of your campaigns with mobile conversions will be tracked in Branch's dashboard. You can now track as many Universal App Campaigns as you want, automatically.
 
-## Migration
-
-You may have onboarded to Branch using the old style of AdWords. If you have ever used conversion IDs, conversion labels, or postback URLs, then this applies to you. Read this section below to learn what has changed, and what steps you may need to take to remove legacy information. Be sure to complete the set up listed above before going through this guide.
-
-### What Changed
-
-While AdWords got a user experience change, it also deprecated the old functionality of conversion IDs and labels. As such, the new AdWords experience does not give you the option to enable conversion events using postback URLs. This means the only way to track AdWords campaigns using the new interface (Universal App Campaigns + search, display, video) is to connect via OAuth, as outlined above.
-
-You can confirm if you are on the new experience if your AdWords user interface looks like the image below:
-
-![new adwords](/img/pages/deep-linked-ads/google/newtype.png)
-
-AdWords also removed the old App Install campaigns, as they have been superceded by Universal App Campaigns. **You can only track app install campaigns in AdWords using Universal App Campaigns**. This includes search, display, and video install ads, rolled into one campaign type.
-
-Google Campaign | Uses Tracking Link | Google Status | Branch Status
---- | --- | --- | ---
-Search Install Ads | Yes | Removed | Removed support
-Display Install Ads | Yes | Removed | Removed support
-Video Install Ads | Yes | Removed | Removed support
-Universal App Campaigns | No | Active | Active
-Search Ads | Yes | Active | Active
-Display Ads | Yes | Active | Active
-App Engagement Ads | Yes | Active | Active
-
-As such, tracking links only work in non-app install ads. Universal App Campaigns will not return deep link data when the app is installed and opened. However, if you rely on this data to make it back to your own systems, you can set a webhook up.
-
-### Remove Conversions From Adwords
-
-The first step of migrating from the old AdWords experience to the new is removing conversions events from AdWords. Go to your conversions in AdWords, and find all events created by Branch. If they contain a postback URL, either mark "Include in conversions" as **NO**, or simply remove / delete them. Example below:
-
-![old conversion](/img/pages/deep-linked-ads/google/old-conversion.png)
-
-Your new events will **not** contain a box for Postback URL. They will also contain a field called **Analytics Provider**, which will say Branch. Example below:
-
-![new conversion](/img/pages/deep-linked-ads/google/new-conversion.png)
-
-Once you have removed old conversions from AdWords, you will go to Branch's dashboard.
-
-### Remove Conversions From Branch
-
-There are two places you should remove conversion IDs and labels from. The first is a legacy option that may not be available on your dashboard anymore. If it isn't, then simply ignore that step.
-
-#### Remove From Link Settings
-
-This is a legacy option that may not be on your dashboard. If it isn't, then go to the step below.
-
-Navigate to this section of your [dashboard](https://dashboard.branch.io/link-settings), and remove all entries under *Google Ads Conversions*. Hit save.
-
-#### Remove From Ads Partner Manager
-
-Go to this [section](https://dashboard.branch.io/ads/partner-management/a_google_adwords?tab=legacy) of the Branch dashboard. Remove all fields found here.
-
-Next, click *Postback Config*, and uncheck all the checkboxes. Hit save.
-
-The new integration will automatically forward events without you having to configure postbacks for each. Check [the section](#forward-events-to-adwords) to learn how we do this.
-
-You can safely ignore all links created using the old integration. You're done!
-
-### Benefits
-
-If you're wondering why we're asking you to migrate from the legacy system to the new system, there are a handful of benefits you should know.
-
-First, Branch had limitations using this old method of tracking. Those included being able to track 1 Universal App Campaign per platform, and receiving very limited data in the Branch dashboard.
-
-With the new integration, we can now track all your Universal App Campaigns.
-
-We can also forward data from AdWords' dashboard into Branch. This means campaign name, channels the ad was displayed on, and more are visible in the Branch dashboard.
-
 ## Data Mapping
 
 Branch maps the following data fields from AdWords to Branch.
@@ -172,7 +114,7 @@ Once you begin tracking events through the Branch SDK, you can select which even
 Google Event | Branch Event
 --- | ---
 first_open | install
-session_start | open 
+session_start | open
 in_app_purchase | purchase
 view_item_list | view_items
 view_item | view_item
@@ -181,7 +123,7 @@ add_to_cart | add_to_cart
 ecommerce_purchase | purchase
 custom | any custom event tracked through Branch
 
-In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event). 
+In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event).
 
 ## Other Campaigns
 
@@ -189,13 +131,13 @@ The above guide covered what was necessary to track Universal App Campaigns. If 
 
 Google Campaign | Campaign Type/Objective | Branch Documentation Link | Branch Ad Format
 --- | --- | --- | ---
-Search Network | Mobile app engagement | **[link](/pages/deep-linked-ads/google-search-engagement-ads/#overview)** | App Only: Engagement
 Search Network | Standard  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#standard-search-ads)** | Cross-platform Search
 Search Network | Dynamic Search Ads  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#dynamic-search-ads)** | Cross-platform Search
-Display Network | Engage with your mobile app | **[link](/pages/deep-linked-ads/google-display-engagement-ads/#overview)** | App Only: Engagement
 Display Network | Others (Visit your website, Influence, etc.)  | **[link](/pages/deep-linked-ads/google-xplatform-display-ads/#overview)** | Cross-platform Display
 Video | Standard | **[link](/pages/deep-linked-ads/google-video-ads/#video-standard-ads)** | Cross-platform Display
 Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shopping-ads/#overview)** | Cross-platform Display
+
+{! ingredients/deep-linked-ads/cost-data.md !}
 
 ## Troubleshooting
 
@@ -222,7 +164,7 @@ Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shoppi
 
 ### FAQ
 
-**Q: I'm getting discrepancy between conversion counts in Branch and Google Adwords**
+**Q: I'm seeing a discrepancy between conversion counts in Branch and Google Adwords**
 
 **A:** While we should always expect around a 5% discrepancy due to time zone differences and the like, if you are seeing significant discrepancies, it could be an indication of a broader problem.
 
@@ -232,8 +174,23 @@ Another source of discrepancies is the fact that attribution is based upon *clic
 
 Finally, AdWords can delay reporting up to 24 hours. It's best to measure campaigns in a trailing manner.
 
+**Q: Post-install events are attributed to AdWords in the Branch dashboard but are not appearing in AdWords**
+
+**A:** Ensure that, in the [AdWords dashboard, you have imported all Branch events](/pages/deep-linked-ads/google-ads-overview/#import-events-in-adwords) that you want to see in AdWords.
+
+**Q: My UAC data looks misaligned when I compare by certain filters**
+
+**A:** Google _installs_ should have the full range of compare by options in the dashboard. However, _clicks, impressions and cost_ data for UAC are imported via the AdWords Reporting API, as noted above. The AdWords Reporting API does not necessarily provide the same breakdowns that Branch can create with raw install events, so there may be cases where the Branch Dashboard cannot compare by the same dimensions for clicks vs installs.
+
+**Q: My click data is missing or duplicated for my web campaign**
+
+**A:** Click data for web campaigns is available with full breakdowns, but there are specific requirements for setting up web campaigns. Please see the [SAN Web Tracking](/pages/deep-linked-ads/san-web-tracking) guide for more information on setting up web campaigns.
+
 **Q: My campaign is reporting a number of conversions much higher than the number of conversions shown in the conversion table in Adwords**
 
 **A:** When viewing a campaign, it shows the sum of all conversion events that apply to it. To view by conversion, navigate to `Segment` > `Conversions` > `Conversion name`, in order to clearly see the breakdown of your campaign's conversions.
 
 <img src="/img/pages/deep-linked-ads/google-conversions/conversion-segment.png" alt="Adwords Conversion Segment" class="center">
+
+{! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
+

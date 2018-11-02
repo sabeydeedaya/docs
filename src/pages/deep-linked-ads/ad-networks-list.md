@@ -1,7 +1,7 @@
 Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup){:target="\_blank"}**
 
-Logo | Partner 
---- | --- 
+Logo | Partner
+--- | ---
 <a href="http://a4g.com" target="_blank">![A4G](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>|**[A4G](/pages/deep-linked-ads/a4g-mobile-tracking.md)**
 <a href="https://www.aarki.com/" target="_blank">![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)</a>|**[Aarki](/pages/deep-linked-ads/aarki-mobile-tracking.md)**
 <a href="https://actionpay.net/ru-en/?" target="_blank">![Actionpay](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>|**[Actionpay](/pages/deep-linked-ads/actionpay-mobile-tracking.md)**
@@ -18,8 +18,10 @@ Logo | Partner
 <a href="https://adcash.com" target="_blank">![Adcash](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adcash_logo-1528402779787.png)</a>|**[Adcash](/pages/deep-linked-ads/adcash-mobile-tracking.md)**
 <a href="https://www.adcolony.com" target="_blank">![AdColony](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366-1524683112325.png)</a>|**[AdColony](/pages/deep-linked-ads/adcolony-mobile-tracking.md)**
 <a href="http://www.adcolony.com" target="_blank">![AdColony Performance Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366.png)</a>|**[AdColony Performance Media](/pages/deep-linked-ads/adcolony-performance-media-mobile-tracking.md)**
+<a href="https://www.adcountymedia.com/" target="_blank">![AdCounty Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1539807797558.png)</a>|**[AdCounty Media](/pages/deep-linked-ads/adcounty-media-mobile-tracking.md)**
 <a href="http://addtitans.com" target="_blank">![Addtitans Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1535588688022.png)</a>|**[Addtitans Digital](/pages/deep-linked-ads/addtitans-digital-mobile-tracking.md)**
 <a href="https://www.adgoi.com" target="_blank">![Adgoi Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_black-1530576240115.png)</a>|**[Adgoi Technologies](/pages/deep-linked-ads/adgoi-technologies-mobile-tracking.md)**
+<a href="https://www.admarketplace.com/" target="_blank">![adMarketplace](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/AMP_RGB-1540857917335.png)</a>|**[adMarketplace](/pages/deep-linked-ads/admarketplace-mobile-tracking.md)**
 <a href="https://www.adikteev.com/us/" target="_blank">![Adikteev](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/916-1528403002042.png)</a>|**[Adikteev](/pages/deep-linked-ads/adikteev-mobile-tracking.md)**
 <a href="http://admitad.com" target="_blank">![Admitad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-admitad-1528403108145.png)</a>|**[Admitad](/pages/deep-linked-ads/admitad-mobile-tracking.md)**
 <a href="http://www.admobly.com/" target="_blank">![Admobly](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/admobly-1534176540464.png)</a>|**[Admobly](/pages/deep-linked-ads/admobly-mobile-tracking.md)**
@@ -53,6 +55,7 @@ Logo | Partner
 <a href="http://avazuinc.com/home/" target="_blank">![Avazu](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Avazu-1528498822327.png)</a>|**[Avazu](/pages/deep-linked-ads/avazu-mobile-tracking.md)**
 <a href="https://www.avow.tech/" target="_blank">![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)</a>|**[Avow](/pages/deep-linked-ads/avow-mobile-tracking.md)**
 <a href="https://www.awin.com" target="_blank">![Awin](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/awin-1525299236987.png)</a>|**[Awin](/pages/deep-linked-ads/awin-mobile-tracking.md)**
+<a href="http://www.bcnmonetize.com/" target="_blank">![Bcnmonetize](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ul1O6Oqw-1539144083397.png)</a>|**[Bcnmonetize](/pages/deep-linked-ads/bcnmonetize-mobile-tracking.md)**
 <a href="http://bedigitech.com/" target="_blank">![BEdigitech](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1533251350612.png)</a>|**[BEdigitech](/pages/deep-linked-ads/bedigitech-mobile-tracking.md)**
 <a href="http://www.beintoo.com/" target="_blank">![Beintoo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Beintoo-1528501558633.png)</a>|**[Beintoo](/pages/deep-linked-ads/beintoo-mobile-tracking.md)**
 <a href="http://www.bidmotion.com" target="_blank">![Bidmotion](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/press-logo-bdm-vfct-eadf32ceea54a621d11a3d60b113540957a56067c7c7def780f8d07c4f848ed1-1533935670269.png)</a>|**[Bidmotion](/pages/deep-linked-ads/bidmotion-mobile-tracking.md)**
@@ -89,6 +92,7 @@ Logo | Partner
 <a href="http://www.edge360.co.uk/" target="_blank">![Edge360 Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/edge360_profile_logo-1539999010526.png)</a>|**[Edge360 Limited](/pages/deep-linked-ads/edge360-limited-mobile-tracking.md)**
 <a href="http://www.espireads.com/" target="_blank">![Espire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/espire-1528503056176.png)</a>|**[Espire](/pages/deep-linked-ads/espire-mobile-tracking.md)**
 <a href="https://everflow.io/" target="_blank">![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/J_bBfz8g-1533069311294.png)</a>|**[Everflow Technologies](/pages/deep-linked-ads/everflow-technologies-mobile-tracking.md)**
+<a href="http://expand-mobile.com/" target="_blank">![Expand Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/EXP_logo-1539145995083.png)</a>|**[Expand Mobile](/pages/deep-linked-ads/expand-mobile-mobile-tracking.md)**
 <a href="http://facebook.com" target="_blank">![Facebook](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Facebook-Logo-PNG-Clipart-1528503483289.png)</a>|**[Facebook](/pages/deep-linked-ads/facebook-ads-overview.md)**
 <a href="http://feedmob.com/" target="_blank">![FeedMob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/feedmob-logo_highres-teal_2-1528503064943.png)</a>|**[FeedMob](/pages/deep-linked-ads/feedmob-mobile-tracking.md)**
 <a href="http://www.fillymedia.com/" target="_blank">![Filly Media Solutions](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/fillymedia_logo-PNG-1534207067335.png)</a>|**[Filly Media Solutions](/pages/deep-linked-ads/filly-media-solutions-mobile-tracking.md)**
@@ -209,7 +213,7 @@ Logo | Partner
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times Internet Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>|**[Times Internet Limited](/pages/deep-linked-ads/times-internet-limited-mobile-tracking.md)**
 <a href="https://www.tradedoubler.com" target="_blank">![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)</a>|**[Tradedoubler](/pages/deep-linked-ads/tradedoubler-mobile-tracking.md)**
 <a href="https://www.tunicalabs.com/" target="_blank">![Tunica Labs](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/0-1533165954983.png)</a>|**[Tunica Labs](/pages/deep-linked-ads/tunica-labs-mobile-tracking.md)**
-<a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>|**[Twitter](/pages/deep-linked-ads/twitter-mobile-tracking.md)**
+<a href="https://tvsquared.com/" target="_blank">![TVSquared](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1538064073708.png)</a>|**[TVSquared](/pages/deep-linked-ads/tvsquared-mobile-tracking.md)**
 <a href="http://www.tyroo.com" target="_blank">![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)</a>|**[Tyroo](/pages/deep-linked-ads/tyroo-mobile-tracking.md)**
 <a href="http://www.u2mobi.com/" target="_blank">![U2opia Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/u2-1532477433232.png)</a>|**[U2opia Mobile](/pages/deep-linked-ads/u2opia-mobile-mobile-tracking.md)**
 <a href="https://ucads.ucweb.com" target="_blank">![UC Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/UcAdslogo-1534293428241.png)</a>|**[UC Ads](/pages/deep-linked-ads/uc-ads-mobile-tracking.md)**
