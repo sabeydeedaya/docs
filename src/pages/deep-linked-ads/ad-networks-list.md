@@ -1,7 +1,7 @@
 Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup){:target="\_blank"}**
 
-Logo | Partner 
---- | --- 
+Logo | Partner
+--- | ---
 <a href="http://a4g.com" target="_blank">![A4G](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>|**[A4G](/pages/deep-linked-ads/a4g-mobile-tracking.md)**
 <a href="https://www.aarki.com/" target="_blank">![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)</a>|**[Aarki](/pages/deep-linked-ads/aarki-mobile-tracking.md)**
 <a href="https://actionpay.net/ru-en/?" target="_blank">![Actionpay](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)</a>|**[Actionpay](/pages/deep-linked-ads/actionpay-mobile-tracking.md)**
@@ -209,7 +209,6 @@ Logo | Partner
 <a href="http://ads.colombiaonline.com/" target="_blank">![Times Internet Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/times-1528510106845.png)</a>|**[Times Internet Limited](/pages/deep-linked-ads/times-internet-limited-mobile-tracking.md)**
 <a href="https://www.tradedoubler.com" target="_blank">![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)</a>|**[Tradedoubler](/pages/deep-linked-ads/tradedoubler-mobile-tracking.md)**
 <a href="https://www.tunicalabs.com/" target="_blank">![Tunica Labs](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/0-1533165954983.png)</a>|**[Tunica Labs](/pages/deep-linked-ads/tunica-labs-mobile-tracking.md)**
-<a href="https://business.twitter.com/en/twitter-ads.html" target="_blank">![Twitter](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/a_twitter-1528518381508.png)</a>|**[Twitter](/pages/deep-linked-ads/twitter-mobile-tracking.md)**
 <a href="http://www.tyroo.com" target="_blank">![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)</a>|**[Tyroo](/pages/deep-linked-ads/tyroo-mobile-tracking.md)**
 <a href="http://www.u2mobi.com/" target="_blank">![U2opia Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/u2-1532477433232.png)</a>|**[U2opia Mobile](/pages/deep-linked-ads/u2opia-mobile-mobile-tracking.md)**
 <a href="https://ucads.ucweb.com" target="_blank">![UC Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/UcAdslogo-1534293428241.png)</a>|**[UC Ads](/pages/deep-linked-ads/uc-ads-mobile-tracking.md)**

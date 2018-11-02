@@ -21,7 +21,7 @@
         -  Branch passes deep link `data` into your app
 
     - #### Expected link behavior
-    
+
         - Expected link behavior is dependent on whether or not the app supports deep linking
 
         - `*Able to force app open` using [`$uri_redirect_mode`](#forced-redirections) or enabling a [Deepview](/pages/web/deep-views/)
@@ -437,7 +437,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 - ### View deep link data
     - Add `?debug=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?debug=1
-    
+
 - ### View deep link stats
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
