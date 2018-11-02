@@ -71,8 +71,9 @@ You can edit your attribution windows for Snap only. With this, you can preserve
 
    ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
 
-   !!! info
-       Please make sure your Branch attribution windows for Snap match those in your Snap account. See the Troubleshooting section for more detail.
+!!! info
+      Please make sure your Branch attribution windows for Snap match those in your Snap account. See the Troubleshooting section for more detail.
+
 
 #### Mapping of Branch event names to Snap events
 
@@ -102,8 +103,9 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 
 ###Exporting Snap Data
 
-    !!! warning
+!!! warning
         Data integrations will never include events attribution to Snap. This is because we cannot share device-level Snap attribution data with third parties.
+        
 
 There are many ways to access data pertaining to Facebook.
 
