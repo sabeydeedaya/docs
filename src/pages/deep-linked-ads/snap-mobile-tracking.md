@@ -12,7 +12,7 @@ Snap campaign tracking can show you how many installs and conversion events were
 
 Before you begin, be sure the following is confirmed.
 
-1. First, the Branch SDK must be integrated into your app, for both iOS and Android. 
+1. First, the Branch SDK must be integrated into your app, for both iOS and Android.
 1. You must also collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
 1. Make sure to track all necessary events through the SDKs, with instructions [here](#forward-events-to-snap)
 
@@ -26,7 +26,7 @@ Before you begin, be sure the following is confirmed.
 1. Click `Log in with Snapchat`.
 1. Read and accept the Snap Advertiser Agreement terms if you haven't already.
 
-    !!! info 
+    !!! info
         You must be an Admin on the Branch account in order to accept the Snap Advertiser Agreement terms. You must accept the terms to track your Snap advertising.
 
     ![Accept Terms](/img/pages/deep-linked-ads/snap/sign-terms.png)
@@ -37,7 +37,7 @@ Before you begin, be sure the following is confirmed.
     ![Log in to Snap](/img/pages/deep-linked-ads/snap/log-in-to-snap.png)
     ![Continue OAuth](/img/pages/deep-linked-ads/snap/accept-oauth.png)
 
-    !!! warning 
+    !!! warning
         Due to an issue with Snap Login, if you see the Snap "My Account" screen after logging in, you'll need to manually return to the Branch dashboard at [https://dashboard.branch.io/ads/partner-management/a_snap?tab=settings](https://dashboard.branch.io/ads/partner-management/a_snap?tab=settings){:target="\_blank"}. Click `Log in with Snapchat` again in the same browser, and you should see the `Continue` button instead of the login screen.
 
         ![Snap - My Account](/img/pages/deep-linked-ads/snap/snap-my-account.png)
@@ -62,17 +62,15 @@ All the attribution can be visible on the [Branch dashboard summary page](https:
 
 Note that these stats are **limited to the date range** at the top of the page. You can expand the range if you'd like.
 
-### Change attribution windows
+### Changing attribution windows
 
 You can edit your attribution windows for Snap only. With this, you can preserve your Account Level Attribution Windows, but the attribution windows set for Snap will take precedence for Snap campaigns.
 
    ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
 
-To edit your app's global attribution windows, go to Link Settings > Attribution Windows.
+!!! info
+      Please make sure your Branch attribution windows for Snap match those in your Snap account. See the Troubleshooting section for more detail.
 
-   ![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
-
-Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
 
 #### Mapping of Branch event names to Snap events
 
@@ -100,6 +98,7 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 | SAVE | SAVE
 | PAGE_VIEW | PAGE_VIEW
 
+
 {! ingredients/deep-linked-ads/cost-data.md !}
 
 ## Troubleshooting
@@ -115,4 +114,16 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 - Snap's reporting API does not provide any "compare by" functionality outside of the ads analytics tags. So, you cannot compare Snap click + impression data by platform, OS or country, for example.
 
 {! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
+
+###Exporting Snap Data
+
+!!! warning
+        Data integrations will never include events attribution to Snap. This is because we cannot share device-level Snap attribution data with third parties.
+        
+
+There are many ways to access data pertaining to Facebook.
+
+You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the Branch Dashboard, as well as the Query API.
+
+We cannot send device-level Snap attribution data to third parties. Thus we cannot send events attributed to Snap via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Data Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
 

@@ -22,7 +22,7 @@ In all cases, Branch will forward in-app events to AdWords for campaign optimiza
 
 Before you begin, be sure the following is confirmed.
 
-1. First, the Branch SDK must be integrated into your app, for both iOS and Android. 
+1. First, the Branch SDK must be integrated into your app, for both iOS and Android.
 1. You must also collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
 1. Make sure to track all necessary events through the SDKs, with instructions [here](#forward-events-to-adwords)
 
@@ -114,7 +114,7 @@ Once you begin tracking events through the Branch SDK, you can select which even
 Google Event | Branch Event
 --- | ---
 first_open | install
-session_start | open 
+session_start | open
 in_app_purchase | purchase
 view_item_list | view_items
 view_item | view_item
@@ -123,7 +123,7 @@ add_to_cart | add_to_cart
 ecommerce_purchase | purchase
 custom | any custom event tracked through Branch
 
-In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event). 
+In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event).
 
 ## Other Campaigns
 
@@ -131,10 +131,8 @@ The above guide covered what was necessary to track Universal App Campaigns. If 
 
 Google Campaign | Campaign Type/Objective | Branch Documentation Link | Branch Ad Format
 --- | --- | --- | ---
-Search Network | Mobile app engagement | **[link](/pages/deep-linked-ads/google-search-engagement-ads/#overview)** | App Only: Engagement
 Search Network | Standard  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#standard-search-ads)** | Cross-platform Search
 Search Network | Dynamic Search Ads  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#dynamic-search-ads)** | Cross-platform Search
-Display Network | Engage with your mobile app | **[link](/pages/deep-linked-ads/google-display-engagement-ads/#overview)** | App Only: Engagement
 Display Network | Others (Visit your website, Influence, etc.)  | **[link](/pages/deep-linked-ads/google-xplatform-display-ads/#overview)** | Cross-platform Display
 Video | Standard | **[link](/pages/deep-linked-ads/google-video-ads/#video-standard-ads)** | Cross-platform Display
 Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shopping-ads/#overview)** | Cross-platform Display
