@@ -42,26 +42,33 @@ Product Catalogue Sales | ✔︎ |  | ✔︎ |  |  |  |
 Branch makes it easy for you to create and manage feeds with Facebook-compatible deep links.
 
 1. Create a Branch Deep Linked Ad Feed from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Ad Link` button under the Facebook Partner and select `Create Product Link`
-<img src="/img/pages/deep-linked-ads/reusable-images/create-link-product.png" alt="Link Creation" class="three-quarters center">
+<img src="/img/pages/deep-linked-ads/reusable-images/create-link-product.png" alt="Link Creation">
 1. Enter a Deep Linked Feed Name.
 1. Enter a already set up feed source or upload a new source.
 1. Configure the feed with the Ad Partner set to **Facebook**, and the Ad Format set to **Product**.
 ![Ad Link Setup](/img/pages/deep-linked-ads/facebook-dynamic-ads/feed-setup.png)
 1. On the next section, select any keys from your feed that you'd like to include in the deep linked data contained in the generated links.
-![Create Deep Linked Feed](/img/pages/deep-linked-ads/facebook-dynamic-ads/feed-keys-setup.png)
+<img src="/img/pages/deep-linked-ads/facebook-dynamic-ads/feed-keys-setup.png">
 1. If you used a Feed Source hosted on a URL (recommended), you will see two options for accessing your feed. We recommend selecting “Schedule Refresh.” If you select this option, Branch will host a URL for your Deep Linked Feed that will update itself from your Feed Source URL at regular intervals.
-![Deep Linked Feed Scheduling](/img/pages/deep-linked-ads/facebook-dynamic-ads/hosted-dlf.png)
+<img src="/img/pages/deep-linked-ads/facebook-dynamic-ads/hosted-dlf.png">
 1. Download the feed data or copy the deep linked feed URL (for hosted feeds) to be used in your Ad Campaign.
 
 #### Upload your feed to Facebook
 
 To set up a Facebook Product Catalogue campaign, you will need to first create your campaign and use a Branch link as the Deep Link URL for the advertisements. Facebook Dynamic Ads information is available **[here](https://www.facebook.com/business/help/455326144628161){:target="_blank"}**.
 
+!!! info
+    Branch accepts Feed Sources that are compatible with Facebook’s [feed format](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog#feed-format). Please use [Facebook’s Product Feed Debug Tool](https://business.facebook.com/ads/product_feed/debug) to test and debug your Product Feed format.
+
+    While Branch requires you have at least a column for the field `link` in your Feed Source containing the link to the merchant's site where the item can be bought, Facebook requires several more fields. Please make sure you've included all of [these fields](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog#required-fields) in your product feed.
+
+    The largest file size accepted by the tool is 50MB. Please contact [integrations@branch.io](mailto:integrations@branch.io) if you need to upload a larger file.
+
 1. Navigate to your [Facebook Ads Manager](https://www.facebook.com/ads/manager/){:target="_blank"}.
 1. In the top left hand corner, click into the menu, select **All tools**, and select **Product Catalogues**.
 ![Facebook Product Catalogues](/img/pages/deep-linked-ads/facebook-dynamic-ads/fb-product-catalogs.png)
 1. From the drop down menu click "Create new catalog...", name it (remember this name, you'll need it later) and select "Products sold online".
-<img src="/img/pages/deep-linked-ads/facebook-dynamic-ads/create-new-catalog.png" alt="Facebook Create New Product Catalogue" class="half center">
+<img src="/img/pages/deep-linked-ads/facebook-dynamic-ads/create-new-catalog.png" alt="Facebook Create New Product Catalogue">
 1. Now that you have a product catalog, you can add a new feed. Click "Add Product Feed."
 ![Add New Feed](/img/pages/deep-linked-ads/facebook-dynamic-ads/add-new-feed.png)
 1. If you have a [Hosted Deep Linked Feed](/features/deep-linked-feeds/guide/#schedule-refresh){:target="_blank"} (recommended), select the option "Scheduled recurring uploads." Paste your Branch-provided URL into the **Feed URL** text field.
