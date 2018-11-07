@@ -2,7 +2,7 @@
 
 ![Braze](/img/pages/email/braze/braze.png)
 
-This guide will walk you through how to setup your email campaigns with **[Braze](https://www.braze.com/){:target="\_blank"}**  using **[SendGrid](https://sendgrid.com/){:target="\_blank"}** and Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Braze](https://www.braze.com/){:target="\_blank"}** using **[Mailjet](https://www.mailjet.com/){:target="\_blank"}**  and Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 
@@ -14,7 +14,7 @@ This guide will walk you through how to setup your email campaigns with **[Braze
 
 ### Setup a custom click tracking domain
 
-Contact your **Braze Account Manager** and request the Email Click Tracking Domain and the SendGrid Data domain associated with your SendGrid account. Here is guide to configure SendGrid account [documentation](/pages/emails/sendgrid/#configure-your-esp/){:target="\_blank"}.
+Contact your **Braze Account Manager** and request the Custom Click Tracking Domain associated with your MailJet account. Here is guide to configure MailJet account [documentation](/pages/emails/mailjet/#configure-your-esp/){:target="\_blank"}.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Braze.
@@ -51,7 +51,10 @@ Contact your **Braze Account Manager** and request the Email Click Tracking Doma
 
 {! ingredients/email/usage.md !}
 
-{! ingredients/email/usage-auto-universal.md !}
+{! ingredients/email/usage-auto-bounce-deep.md !}
+
+{! ingredients/email/usage-auto-bounce-web.md !}
+
 
 ## Support
 
