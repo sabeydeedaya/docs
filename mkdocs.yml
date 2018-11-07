@@ -380,7 +380,8 @@ pages:
     - Amazon Simple Email Service: pages/emails/amazon-ses.md
     - Betaout: pages/emails/betaout.md
     - Blueshift: pages/emails/blueshift.md
-    - Braze : pages/emails/braze.md
+    - Braze (via SendGrid): pages/emails/braze.md
+    - Braze (via Mailjet): pages/emails/braze-mailjet.md
     - Campaign Monitor: pages/emails/campaign-monitor.md
     - Cheetah Digital Marketing Suite: pages/emails/cheetah-digital-marketing-suite.md
     - CheetahMail: pages/emails/cheetahmail.md
