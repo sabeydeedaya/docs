@@ -179,8 +179,10 @@ We look for the presence of the following columns, and for each one we either mo
 
 ### Feed Source won't upload
 
-- Branch accepts Feed Sources that are compatible with Facebook’s [feed format](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog). Please use [Facebook’s Product Feed Debug Tool](https://business.facebook.com/ads/product_feed/debug) to test and debug your Product Feed format.
-- Please ensure you have a column titled `link` in your Feed Source
+- Branch accepts Feed Sources that are compatible with Facebook’s [feed format](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog#feed-format). Please use [Facebook’s Product Feed Debug Tool](https://business.facebook.com/ads/product_feed/debug) to test and debug your Product Feed format.
+
+- While Branch requires you have at least a column for the field `link` in your Feed Source containing the link to the merchant's site where the item can be bought, Facebook requires several more fields. Please make sure you've included all of [these fields](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/product-catalog#required-fields) in your product feed.
+
 - The largest file size accepted by the tool is 50MB. Please contact [integrations@branch.io](mailto:integrations@branch.io) if you need to upload a larger file.
 
 ### Report issues
