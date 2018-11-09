@@ -119,9 +119,10 @@
         </manifest>
         ```
 
-    - Replace the following with values from your [Branch Dashboard](https://dashboard.branch.io/account-settings/app)
+    - Replace the following with values from your Branch Dashboard [App settings](https://dashboard.branch.io/account-settings/app) and [Link settings](https://dashboard.branch.io/link-settings)
         - `androidexample`
         - `example.app.link`
+        - `example-alternate.app.link`
         - `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw`
         - `key_test_hlxrWC5Zx16DkYmWu4AHiimdqugRYMr`
 
@@ -698,8 +699,8 @@
 
     - Registers a custom commerce event
 
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency` 
-    
+    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency`
+
     - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/65f8c34ccc6705331b50348f99a66a13da19cf8c/Branch-SDK/src/io/branch/referral/util/ProductCategory.java) for `Category`
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
@@ -915,7 +916,7 @@
         intent.putExtra("branch_force_new_session", true)
         startActivity(intent)
         ```
-        
+
     - Replace "http://xxxx.app.link/testlink" with your own link URL
 
 !!! warning
