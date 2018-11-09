@@ -95,9 +95,7 @@
 
         func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
           // if you are using the TEST key
-          // Branch.setUseTestBranchKey(true)
-          // for debug and development only
-          Branch.getInstance().setDebug()
+          Branch.setUseTestBranchKey(true)
           // listener for Branch Deep Link data
           Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
             // do stuff with deep link data (nav to page, display content, etc)
@@ -137,9 +135,7 @@
 
         - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
           // if you are using the TEST key
-          // [Branch setUseTestBranchKey:YES];
-          // for debug and development only
-          [[Branch getInstance] setDebug];
+          [Branch setUseTestBranchKey:YES];
           // listener for Branch Deep Link data
           [[Branch getInstance] initSessionWithLaunchOptions:launchOptions andRegisterDeepLinkHandler:^(NSDictionary * _Nonnull params, NSError * _Nullable error) {
             // do stuff with deep link data (nav to page, display content, etc)
