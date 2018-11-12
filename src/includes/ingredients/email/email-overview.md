@@ -1,6 +1,6 @@
 ## Overview
 
-Deep Linked Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
+Universal Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
 
 ![image](/img/pages/email/responsys/deep-linked-email.png)
 

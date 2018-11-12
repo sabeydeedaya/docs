@@ -10,7 +10,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 #### Setting up your click tracking domain
 
-The click-tracking domain is a key component to set up a deep linked email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Classic tracking server.
+The click-tracking domain is a key component to set up a Universal Email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Classic tracking server.
 
 ![image](/img/pages/email/click-tracking-1.png)
 
@@ -130,4 +130,4 @@ Add the deep links markup to your links in the email to separate web links from 
 
 ## Conclusion
 
-Congratulations, you are now ready to start sending deep linked email campaigns! For help with any steps in this process, please contact your Branch or Adobe account management team.
+Congratulations, you are now ready to start sending Universal Email campaigns! For help with any steps in this process, please contact your Branch or Adobe account management team.

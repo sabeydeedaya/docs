@@ -5,7 +5,7 @@
 
 You can retrieve your click tracking domain from your Epsilon settings. We recommend creating a new click tracking domain for the Epsilon Harmony integration. You can switch over your production click tracking domain to Epsilon but we recommend testing with a different domain to get started.
 
-For Epsilon, you may also need an IP address. Notify your Epsilon Harmony Account Manager that you plan to use Branch Deep Linked Email, and ask your Harmony Account Manager to provide the IP that you set your click tracking domains to. Add that next to your click tracking domain in this step.
+For Epsilon, you may also need an IP address. Notify your Epsilon Harmony Account Manager that you plan to use Branch Universal Email, and ask your Harmony Account Manager to provide the IP that you set your click tracking domains to. Add that next to your click tracking domain in this step.
 
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 

@@ -35,7 +35,7 @@ The first step is connecting Branch & AdWords together. By connecting these acco
 It is not necessary to connect all AdWords accounts. However, you must connect the AdWords account that owns in-app conversions for your mobile app. Often, this is the MCC account.
 
 !!! tip
-	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the MCC > Management tab. 
+	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the MCC > Management tab.
 
 	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
 
@@ -92,6 +92,7 @@ All that remains is importing Branch events into AdWords. After you have set bot
 1. Add a new conversion: `+ > App > Third Party App Analytics`.
 <img src="/img/pages/deep-linked-ads/google/create-conversion.png" alt="Linked Accounts" class="three-quarters center">
 1. Import your Branch specific events. Click `Import and Continue`.
+1. For any first open event conversions, mark `Include in Conversions` to `YES`.
 
 That's it! All of your campaigns with mobile conversions will be tracked in Branch's dashboard. You can now track as many Universal App Campaigns as you want, automatically.
 
@@ -193,4 +194,3 @@ Finally, AdWords can delay reporting up to 24 hours. It's best to measure campai
 <img src="/img/pages/deep-linked-ads/google-conversions/conversion-segment.png" alt="Adwords Conversion Segment" class="center">
 
 {! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
-
