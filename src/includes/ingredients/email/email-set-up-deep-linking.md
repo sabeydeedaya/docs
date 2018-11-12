@@ -2,7 +2,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select {{page.title}} as your email service provider and click **Get Started**.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select {{page.title}} as your email service provider and click **Get Started**.
 
 ![image](/img/pages/email/choose-esp.png)
 
@@ -14,7 +14,7 @@ Branch turns the web URLs you put into your emails into Branch deep links, openi
 
 ![image](/img/pages/email/users-with-app.png)
 
-To do this, it must be possible to map your web URL content (e.g. a page with brown loafers at `https://shop.com/shoes/brown-loafers`) into a working deep link that takes users to brown loafers in the app. The Deep Linked Email [setup flow](https://dashboard.branch.io/email){:target="\_blank"} will attempt to automatically detect this mapping for you.
+To do this, it must be possible to map your web URL content (e.g. a page with brown loafers at `https://shop.com/shoes/brown-loafers`) into a working deep link that takes users to brown loafers in the app. The Universal Email [setup flow](https://dashboard.branch.io/email){:target="\_blank"} will attempt to automatically detect this mapping for you.
 
 If you do not want to set this up yet, you can select **No, just open to app homepage for now**.
 

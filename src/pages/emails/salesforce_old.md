@@ -32,7 +32,7 @@ Your Salesforce account must be configured to correctly handle Universal Links. 
 
 ### Options for generating Branch links for email
 
-There are a few different ways you can create Branch links that are compatible with Deep Linked Email + Salesforce. You will need to replace the web URLs in your templates with these. To create Branch links, you can either:
+There are a few different ways you can create Branch links that are compatible with Universal Email + Salesforce. You will need to replace the web URLs in your templates with these. To create Branch links, you can either:
 
 1. [Add a new Content Area for easy deep linking](#add-a-new-content-area-for-easy-deep-linking)
 1. [Making regular Branch links compatible with email](#making-regular-branch-links-compatible-with-email)
