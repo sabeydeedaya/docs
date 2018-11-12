@@ -387,6 +387,7 @@ pages:
     - CheetahMail: pages/emails/cheetahmail.md
     - Epsilon: pages/emails/epsilon.md
     - Emarsys: pages/emails/emarsys.md
+    - HootSuite: pages/emails/hootsuite.md
     - IBM Watson Campaign Automation: pages/emails/ibm-watson-campaign-automation.md
     - iCubesPro: pages/emails/icubespro.md
     - Iterable: pages/emails/iterable.md

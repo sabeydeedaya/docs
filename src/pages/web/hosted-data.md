@@ -1,6 +1,6 @@
 ## Why
 
-- Make it easier for your marketers to create deep links whenever they create [Journeys](/pages/web/journeys/), [Deep Linked Emails](/pages/emails/braze/), [Quick links](/pages/dashboard/analytics/#quick-links), or use the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf).
+- Make it easier for your marketers to create deep links whenever they create [Journeys](/pages/web/journeys/), [Universal Emails](/pages/emails/braze/), [Quick links](/pages/dashboard/analytics/#quick-links), or use the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf).
 
 ## What
 

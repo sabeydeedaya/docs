@@ -11,7 +11,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 ### Choose your email service provider
 
-Navigate to the [Deep Linked Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select SendGrid or Mailgun as your email service provider and click **Get Started**. If you do not know which ESP to select, please contact your Vero account manager. Then, follow the [SendGrid](/pages/emails/sendgrid/) or [Mailgun](/pages/emails/mailgun/) setup steps.
+Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select SendGrid or Mailgun as your email service provider and click **Get Started**. If you do not know which ESP to select, please contact your Vero account manager. Then, follow the [SendGrid](/pages/emails/sendgrid/) or [Mailgun](/pages/emails/mailgun/) setup steps.
 
 ![image](/img/pages/email/choose-esp.png)
 

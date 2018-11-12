@@ -288,11 +288,11 @@ The technical definition is that they've clicked on a link with an Ad Network's 
 
 #### Has clicked on email
 
-A user is grouped into "Has clicked on Email" when they've clicked a link from [Deep Linked Email](https://dashboard.branch.io/email).
+A user is grouped into "Has clicked on Email" when they've clicked a link from [Universal Email](https://dashboard.branch.io/email).
 
 Use this to target users who have been part of an email campaign; maybe with a specific call to action to get them download the app if they don't have it and they've landed on mobile web.
 
-The technical definition is that they've clicked on a link with an Email Service Provider's custom `$3p` value in link data, but you just need to consider the way the link is created - in this case, through a Deep Linked Email integration.
+The technical definition is that they've clicked on a link with an Email Service Provider's custom `$3p` value in link data, but you just need to consider the way the link is created - in this case, through a Universal Email integration.
 
 #### Is viewing a page with metadata key
 
