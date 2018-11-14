@@ -1,4 +1,4 @@
-Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
+Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/tech-partner-signup){:target="\_blank"}**
 
 Logo | Partner
 --- | ---

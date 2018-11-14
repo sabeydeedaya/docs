@@ -114,6 +114,14 @@
         - Increases [install attribution](https://branch.io/deepview/)
         - Completes deep linking experience in [certain apps](#default-link-behavior)
 
+- ### UTM Behavior
+
+    - Branch links will automatically map Branch analytics labels ~campaign, ~channel, and ~feature to Google Analytic's campaign parameters utm_campaign, utm_source, and utm_medium, respectively, when:
+        - You have defined a $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url. 
+        - Those UTM parameters are not already detected on those URLs.
+        - You have already defined the applicable Branch analytics labels; without these Branch cannot automatically map and pass the UTM parameters. 
+    - For more information about UTM paramters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
+
 ## Create deep links
 
 - ### Short links
