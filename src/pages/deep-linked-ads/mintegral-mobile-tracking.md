@@ -15,7 +15,7 @@ This guide will walk you through how to setup your campaigns with **[Mintegral
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mintegral/mintegralenable.png)
+![image](/img/pages/deep-linked-ads/mintegral/mintegral-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
