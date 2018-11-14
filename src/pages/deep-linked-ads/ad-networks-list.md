@@ -1,4 +1,4 @@
-Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup){:target="\_blank"}**
+Interested in becoming a Universal Ads Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/tech-partner-signup){:target="\_blank"}**
 
 Logo | Partner
 --- | ---
