@@ -2,7 +2,7 @@
 
 ![Snap](https://cdn.branch.io/branch-assets/ad-partner-manager/104632553691939011/Group_2-1538714318018.png)
 
-Branch can help track your **[Snap Ad](https://forbusiness.snapchat.com/ad-products)** campaigns through our integration with Snap. 
+Branch can help track your **[Snap Ad](https://forbusiness.snapchat.com/ad-products)** campaigns through our integration with Snap.
 
 Snap is a self-attributing network (SAN).
 
@@ -107,7 +107,7 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 
 - Snap Ads Manager time zones are set at the time your ad account is created. You can see your Snap time zone in your Snap Ad Account Settings, but you cannot change it. You can change your Branch dashboard time zone in [Account Settings](https://dashboard.branch.io/account-settings/app) to match.
 - Verify your Snap attribution windows match your Branch attribution windows. Ask your Snap account manager for your attribution windows. Your Branch windows are visible either in Link Settings (global windows) or in the [Attribution Windows](https://dashboard.branch.io/ads/partner-management/a_snap?tab=attribution_windows) section of the Snap entry in Ads Partner Manager. Snap windows can be configured under "Customize Columns" in the Snap UI.
-    
+
     ![Snap - Attribution Windows](/img/pages/deep-linked-ads/snap/snap-attribution-windows.png)
 
 - When deep linking, create a link via the Branch dashboard. If you are running an app campaign, please ensure your link has `%24deeplink_no_attribution=true` as a query parameter to remove that link's ability to claim attribution, otherwise the link may claim attribution over the SAN claim. The link will still deep link.
@@ -119,11 +119,10 @@ The below events can be sent to Snap by registering [custom events ](/pages/apps
 
 !!! warning
         Data integrations will never include events attribution to Snap. This is because we cannot share device-level Snap attribution data with third parties.
-        
 
-There are many ways to access data pertaining to Facebook.
+
+There are many ways to access data pertaining to Snap.
 
 You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the Branch Dashboard, as well as the Query API.
 
 We cannot send device-level Snap attribution data to third parties. Thus we cannot send events attributed to Snap via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Data Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
-
