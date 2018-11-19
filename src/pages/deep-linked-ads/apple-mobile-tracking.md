@@ -12,13 +12,13 @@ Branch can help track your **[Apple Search Ad](https://searchads.apple.com/)** c
 
 In order to check if the user came from an Apple Search Ad, you must make the attribution call before Branch initializes. As a warning, Apple's API is extremely slow, often taking more than 1 second round trip. This means that your call to Branch's initSession to the execution of the callback block may be delayed by this additional 1 second.
 
-## Import iAd and AdSupport
+### Import iAd and AdSupport
 
 You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ad checking.
 
 ![image](/img/pages/apps/ios-frameworks.png)
 
-### Enable Apple Search Ads Check
+#### Enable Apple Search Ads Check
 
 To enable this check, add a `delayInitToCheckForSearchAds` call to your **AppDelegate.m** (or **AppDelegate.swift**) file after you create the Branch singleton, but *before* you call `initSession`. Your code will end up looking something like this:
 
@@ -36,7 +36,7 @@ branch.initSession.....
 
 If you're concerned about the additional 1 second latency, the call to `delayInitToCheckForSearchAds` can be called conditionally at run time. So, if you want to only check on first install, or the like, then just don't call this method.
 
-### Apple Search Ads Debug
+#### Apple Search Ads Debug
 
 We've also added a debug mode which will demonstrate the functionality. You can enable it like so, but just remember to remove this before release!
 
@@ -54,7 +54,49 @@ branch.delayInitToCheckForSearchAds()
 branch.initSession.....
 ```
 
-### View Attribution on Dashboard
+## Cost Data Setup
+
+1. Request access to the Cost Data beta through your account manager and it will be enabled in your dashboard.
+1. Navigate to the [Apple Search Ads UI > Settings > API](https://app.searchads.apple.com/cm/app/settings/apicertificates). *Verify you have selected the correct account by using the account selector in the top right hand corner.*
+
+    ![image](/img/pages/deep-linked-ads/apple-search/apple-api-screen.png)
+
+1. Create an API certificate
+
+    ![image](/img/pages/deep-linked-ads/apple-search/apple-search-api.png)
+
+1. Download the API certificate to your computer. You'll unzip the folder and get one `.key` and one `.pem` file.
+
+    ![image](/img/pages/deep-linked-ads/apple-search/apple-download-certs.png)
+
+1. Navigate to the [Apple Search Ads partner manager](https://dashboard.branch.io/ads/partner-management/a_apple?tab=settings) in the Branch dashboard.
+1. Upload the certificates there, selecting each file, and then clicking the blue upload arrow to upload the files. Click *Next* to continue.
+
+    ![image](/img/pages/deep-linked-ads/apple-search/apple-upload-certs.png)
+
+1. Select the organizations for which you would like to ingest data and click *Save* to enable Apple Search Ads with Cost Data.
+
+{! ingredients/deep-linked-ads/cost-data.md !}
+
+### Cost Data Support
+
+#### "Next" button not clickable
+
+Please ensure you've both selected the correct files *and* pressed the blue upload arrows to complete your upload.
+
+#### Cost, click and impression data not appearing
+
+Verify that you have selected the right certificates:
+
+- *Did you create the certificate for the right accounts?* You can toggle the accounts that you are viewing in the top right hand side of the Apple Search Ads UI.
+- *Does your certificate have relevant permissions?* Your certificate must have read-only permissions or higher to retrieve Apple Search Ads data.
+
+Still not working? Try downloading a new certificate and uploading that to Branch.
+
+{! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
+
+
+## View Attribution on Dashboard
 
 All the attribution can be visible on the [Branch dashboard summary page](https://dashboard.branch.io/). All installs and opens registered from this channel will automatically be tagged with the `channel`: `Apple App Store` and the `Ad Partner`: `Apple Search Ads`. The `campaign` will be set to the Campaign Name you've configured in the Apple Search Ads dashboard.
 
@@ -81,7 +123,7 @@ You can edit your attribution windows at the ad network level, if your ad networ
 
    ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
 
-## Support
+## Integration Support
 
 ### Install discrepancies when compared with Apple Search Ads dashboard
 
@@ -89,7 +131,7 @@ There are a few possible causes of discrepancies with Apple Search Ads. Due to t
 
 - *Time zones.* Ensure your Apple Search Ads time zone (in Settings > Overview > Account Information ) matches your Branch Dashboard time zone (visible under Account Settings).
 - *Limit Ad Tracking (LAT) On.* Apple doesn't report installs to third parties if the user has Limit Ad Tracking enabled. However the Apple Search Ads dashboard shows all installs by default, regardless of limit ad tracking state. You can see the approximate quantity of Limit Ad Tracking On and Limit Ad Tracking off installs by adding those columns in the Apple Search Ads Reporting Dashboard. Those installs will not appear in Branch's dashboard.
-- *Attribution Windows.* Apple attributes all installs within 30 days of an Apple Search Ads click to itself. Branch's default click to install attribution window is 7 days. You can modify Branch's click to install window. You can modify your [Apple Search Ads attribution windows](#change-attribution-windows) in Branch. 
+- *Attribution Windows.* Apple attributes all installs within 30 days of an Apple Search Ads click to itself. Branch's default click to install attribution window is 7 days. You can modify Branch's click to install window. You can modify your [Apple Search Ads attribution windows](#change-attribution-windows) in Branch.
 - *Last-click attribution.* Apple attributes all installs within 30 days of an Apple Search Ads click to itself. Branch will attribute to the last click within its attribution windows, which can often be a different source than Apple Search Ads.
 - *Reinstalls.* Apple's dashboard shows reinstalls as conversions in its default view, but Branch calls these installs "REINSTALLS." In the Apple dashboard, select New Downloads or Redownloads in the column selector to align data.
 - *Attribution API timeouts or delays.* Apple's API can be slow to respond. Although customers can edit the timeout, the default Branch timeout in the code above is just over 1 second. If Apple responds after this timeout, Branch will not attribute the install to Apple.
