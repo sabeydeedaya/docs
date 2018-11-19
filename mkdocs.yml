@@ -220,6 +220,7 @@ pages:
     - CrossInstall : pages/deep-linked-ads/crossinstall-mobile-tracking.md
     - Curate Mobile : pages/deep-linked-ads/curate-mobile-mobile-tracking.md
     - Daisycon : pages/deep-linked-ads/daisycon-mobile-tracking.md
+    - Dangleads : pages/deep-linked-ads/dangleads-mobile-tracking.md
     - DataXu: pages/deep-linked-ads/dataxu-mobile-tracking.md
     - DAU-UP ClicksMob : pages/deep-linked-ads/dau-up-clicksmob-mobile-tracking.md
     - Digital Remedy: pages/deep-linked-ads/digital-remedy-mobile-tracking.md
@@ -416,8 +417,10 @@ pages:
     - Selligent Message Studio: pages/emails/selligent.md
     - Sender: pages/emails/sender.md
     - SendGrid: pages/emails/sendgrid.md
+    - Social Flow: pages/emails/social-flow.md
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
+    - Vibes: pages/emails/vibes.md
     - Zeta: pages/emails/zeta.md
   - Links in push notifications: pages/advance/push-notifications.md
   - Links in organic search:
