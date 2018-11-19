@@ -1,9 +1,3 @@
----
-title: Facebook Overview
-description: An overview page of using Branch in your Facebook Ad campaigns.
-path: tree/master/src/pages/deep-linked-ads
-source: facebook-ads-overview.md
----
 # Facebook Ads Overview
 
 ## Overview
