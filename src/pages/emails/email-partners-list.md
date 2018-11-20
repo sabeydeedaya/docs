@@ -41,7 +41,6 @@ Logo | Partner
 <a href="https://socialflow.com/" target="_blank">![Social Flow](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/socialflow-1542648339227.png)</a>| **[Social Flow](/pages/emails/social-flow.md)**
 <a href="https://www.sparkpost.com/" target="_blank">![SparkPost](/img/pages/email/sparkpost/sparkpost.png)</a>| **[SparkPost](/pages/emails/sparkpost.md)**
 <a href="https://www.getvero.com/" target="_blank">![Vero](/img/pages/email/vero/vero.png)</a>| **[Vero](/pages/emails/vero.md)**
-<a href="https://www.vibes.com/" target="_blank">![Vibes](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/vibes_logo_2013_0-1542389626273.png)</a>| **[Vibes](/pages/emails/vibes.md)**
 <a href="https://zetaglobal.com/" target="_blank">![Zeta](/img/pages/email/zeta/zeta.png)</a>| **[Zeta](/pages/emails/zeta.md)**
 
 Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
