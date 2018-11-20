@@ -203,7 +203,7 @@
         ```js
         // for development and debugging only
         Branch.setDebug(true)
-        
+
         // for GDPR compliance (can be called at anytime)
         Branch.disableTracking(true);
 
@@ -481,7 +481,7 @@
         ```js
         var eventName = 'clicked_on_this'
         var metadata = { 'custom_dictionary': 123, 'anything': 'everything' }
-        Branch.userCompletedAction(eventName, metaData).then(function (res) {
+        Branch.logEvent(eventName, metaData).then(function (res) {
           alert('Response: ' + JSON.stringify(res))
         }).catch(function (err) {
           alert('Error: ' + JSON.stringify(err.message))
@@ -490,7 +490,7 @@
 
         ```js
         var eventName = 'clicked_on_this'
-        Branch.userCompletedAction(eventName).then(function (res) {
+        Branch.logEvent(eventName).then(function (res) {
           alert('Response: ' + JSON.stringify(res))
         }).catch(function (err) {
           alert('Error: ' + JSON.stringify(err.message))
@@ -614,7 +614,7 @@
     - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
 
     - Add before `Branch.initSession();` ([Initialize Branch Features](#initialize-branch-features))
- 
+
         ```js
         Branch.setRequestMetadata("insert_user_id", "value")
         ```
@@ -624,7 +624,7 @@
 - ### Recommendations
 
     - Need to select `"app uses IDFA or GAID"` when publishing your app
-    
+
     - Mobile browser capability: `Android 4.4.4+`, `Safari 8+`, `Chrome 32+`, `Firefox 29+`
 
 - ### Optional app config
@@ -896,7 +896,7 @@
         <!-- config.xml -->
         <plugin name="branch-cordova-sdk" spec="^2.5.0" />
         ```
-        
+
     - [Test Deep Link iOS](#test-deep-link-ios)
     - [Test Deep Link Android](#test-deep-link-android)
 
@@ -917,7 +917,7 @@
 - ### Cordova errors
 
     - ##### Migrate from SDK 2.5+ to 3.0+
-        
+
         ```diff
         // Branch initialization
         - Branch.initSession(function(data) {
@@ -928,7 +928,7 @@
           }
         });
         ```
-    
+
     - ##### Device only
 
         - Error

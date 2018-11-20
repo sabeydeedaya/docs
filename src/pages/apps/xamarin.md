@@ -411,15 +411,15 @@
                     public void InitSessionComplete(Dictionary<string, object> data)
                     {
                         //Handle custom logic based on deep link data in InitSessionComplete
-                        
+
                         //View all the link data in the console
                         Console.WriteLine("My Link Data: " + JsonConvert.SerializeObject(data));
-                        
+
                         //Preferred method: use BranchActivity created previously to handle the link data
                         //Will need to update BranchActivity with desired custom logic, to open the correct page in the app
                         (this, typeof(BranchActivity));
                         intent.PutExtra("BranchData", JsonConvert.SerializeObject(data));
-                        
+
                         StartActivity(intent);var intent = new Intent
                     }
 
@@ -904,7 +904,7 @@
 
     ```csharp
     Branch branch = Branch.GetInstance ();
-    branch.UserCompletedAction("the_custom_event");
+    branch.LogEvent("the_custom_event");
     ```
 
 - ### Track commerce
@@ -919,7 +919,7 @@
     Branch branch = Branch.GetInstance ();
     Dictionary<string, object> data = new Dictionary<string, object>();
     data.Add("sku", "123456789");
-    branch.UserCompletedAction("purchase_event", data);
+    branch.LogEvent("purchase_event", data);
     ```
 
 - ### Handle referrals
