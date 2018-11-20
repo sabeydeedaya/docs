@@ -420,8 +420,9 @@ pages:
     - Social Flow: pages/emails/social-flow.md
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
-    - Vibes: pages/emails/vibes.md
     - Zeta: pages/emails/zeta.md
+  - Links in SMS:
+    - Vibes: pages/SMS/vibes.md
   - Links in push notifications: pages/advance/push-notifications.md
   - Links in organic search:
     - Firebase App Indexing: pages/organic-search/firebase.md
