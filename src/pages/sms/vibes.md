@@ -2,15 +2,15 @@
 
 ![Vibes](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/vibes_logo_2013_0-1542389626273.png)
 
-This guide will walk you through how to setup your SMS campaigns with **[Vibes](https://vibes.com){:target="\_blank"}** using Branch Universal email to automatically convert your SMS links into **multi-platform deep links**
+This guide will walk you through how to setup your sms campaigns with **[Vibes](https://vibes.com){:target="\_blank"}** using Branch Universal email to automatically convert your sms links into **multi-platform deep links**
 
-{! ingredients/SMS/overview-steps.md !}
+{! ingredients/sms/overview-steps.md !}
 
 ## Setup
 
-{! ingredients/SMS/prerequisites.md !}
+{! ingredients/sms/prerequisites.md !}
 
-## Configure your SMS Provider
+## Configure your sms Provider
 
 ### Setup a custom click tracking domain
 
@@ -19,44 +19,44 @@ This guide will walk you through how to setup your SMS campaigns with **[Vibes](
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Vibes.
 
-{! ingredients/SMS/cname.md !}
+{! ingredients/sms/cname.md !}
 
 ## Activate integration
 
-### Choose your SMS service provider
+### Choose your sms service provider
 
-Navigate to the [Universal Email](https://dashboard.branch.io/SMS){:target="\_blank"} section of the Branch dashboard. Select **Vibes** and click **Enable**.
+Navigate to the [Universal Email](https://dashboard.branch.io/sms){:target="\_blank"} section of the Branch dashboard. Select **Vibes** and click **Enable**.
 
-{! ingredients/SMS/link-setup.md !}
+{! ingredients/sms/link-setup.md !}
 
 ### Tell us your click tracking domain
 
 You can retrieve your click tracking domain from your Vibes account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/SMS/vibes/setup-config.png)
+![image](/img/pages/sms/vibes/setup-config.png)
 
-{! ingredients/SMS/technical-setup.md !}
+{! ingredients/sms/technical-setup.md !}
 
-{! ingredients/SMS/validate-test.md !}
+{! ingredients/sms/validate-test.md !}
 
-{! ingredients/SMS/usage-auto.md !}
+{! ingredients/sms/usage-auto.md !}
 
 ## Configure your mobile app
 
-{! ingredients/SMS/technical-setup-app.md !}
+{! ingredients/sms/technical-setup-app.md !}
 
-{! ingredients/SMS/associated-domains.md !}
+{! ingredients/sms/associated-domains.md !}
 
-{! ingredients/SMS/bounce-web.md !}
+{! ingredients/sms/bounce-web.md !}
 
-## Using Universal SMS
+## Using Universal sms
 
-{! ingredients/SMS/usage.md !}
+{! ingredients/sms/usage.md !}
 
-{! ingredients/SMS/usage-auto-bounce-deep.md !}
+{! ingredients/sms/usage-auto-bounce-deep.md !}
 
-{! ingredients/SMS/usage-auto-bounce-web.md !}
+{! ingredients/sms/usage-auto-bounce-web.md !}
 
 ## Support
 
-{! ingredients/SMS/support.md !}
+{! ingredients/sms/support.md !}

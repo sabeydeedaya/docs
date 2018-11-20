@@ -422,7 +422,7 @@ pages:
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
   - Links in SMS:
-    - Vibes: pages/SMS/vibes.md
+    - Vibes: pages/sms/vibes.md
   - Links in push notifications: pages/advance/push-notifications.md
   - Links in organic search:
     - Firebase App Indexing: pages/organic-search/firebase.md
