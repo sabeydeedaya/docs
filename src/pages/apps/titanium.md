@@ -310,7 +310,7 @@
     ```js
 
         var eventName = 'clicked_on_this';
-        branch.userCompletedAction(eventName);
+        branch.logEvent(eventName);
 
     ```
 

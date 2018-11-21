@@ -661,135 +661,19 @@
 
 - ### Track events
 
-    - Registers a custom event
+    - All events related to a customer purchasing are bucketed into a "Commerce" class of data items
 
-    - Events named `open`, `close`, `install`, and `referred session` are Branch restricted
+    - All events related to users interacting with your in-app content are bucketed to a "Content" class of data items.
 
-    - `63` character max for event name
+    - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
 
-    - Best to [Track users](#track-users) before [Track events](#track-events) to associate a custom event to a user
+    - To track custom events - not found in the table below - please see [Track Custom Events](https://docs.branch.io/pages/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-    - *Java*
 
-        ```java
-        // option 1:
-        new BranchEvent("your_custom_event").logEvent(MainActivity.this);
+    {! ingredients/sdk/v2-events.md !}
 
-        // option 2: with metadata
-        new BranchEvent("your_custom_event")
-                        .addCustomDataProperty("your_custom_key", "your_custom_value")
-                        .logEvent(MainActivity.this);
-        ```
-
-    - *Kotlin*
-
-        ```java
-        // option 1:
-        BranchEvent("your_custom_event").logEvent(context)
-
-        // option 2: with metadata
-        BranchEvent("your_custom_event")
-                .addCustomDataProperty("your_custom_key", "your_custom_value")
-                .logEvent(context)
-        ```
-
-- ### Track commerce
-
-    - Registers a custom commerce event
-
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency`
-
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/65f8c34ccc6705331b50348f99a66a13da19cf8c/Branch-SDK/src/io/branch/referral/util/ProductCategory.java) for `Category`
-
-    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
-
-    - Ensure to add `revenue` field to track purchase. All other fields are optional
-
-    - *Java*
-
-        ```java
-        BranchUniversalObject buo = new BranchUniversalObject()
-            .setCanonicalIdentifier("myprod/1234")
-            .setCanonicalUrl("https://test_canonical_url")
-            .setTitle("test_title")
-            .setContentMetadata(
-                new ContentMetadata()
-                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                .addImageCaptions("image_caption_1", "image_caption2", "image_caption3")
-                .setAddress("Street_Name", "test city", "test_state", "test_country", "test_postal_code")
-                .setRating(5.2, 6.0, 5)
-                .setLocation(-151.67, -124.0)
-                .setPrice(10.0, CurrencyType.USD)
-                .setProductBrand("test_prod_brand")
-                .setProductCategory(ProductCategory.APPAREL_AND_ACCESSORIES)
-                .setProductName("test_prod_name")
-                .setProductCondition(ContentMetadata.CONDITION.EXCELLENT)
-                .setProductVariant("test_prod_variant")
-                .setQuantity(1.5)
-                .setSku("test_sku")
-                .setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
-                .addKeyWord("keyword1")
-                .addKeyWord("keyword2");
-
-        new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
-                .setAffiliation("test_affiliation")
-                .setCoupon("Coupon Code")
-                .setCurrency(CurrencyType.USD)
-                .setDescription("Customer added item to cart")
-                .setShipping(0.0)
-                .setTax(9.75)
-                .setRevenue(1.5)
-                .setSearchQuery("Test Search query")
-                .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
-                .addCustomDataProperty("Custom_Event_Property_Key2", "Custom_Event_Property_val2")
-                .addContentItems(buo)
-                .logEvent(context);
-        ```
-
-    - *Kotlin*
-
-        ```java
-        val buo = BranchUniversalObject()
-                .setCanonicalIdentifier("myprod/1234")
-                .setCanonicalUrl("https://test_canonical_url")
-                .setTitle("test_title")
-                .setContentMetadata(
-                        ContentMetadata()
-                                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                                .addImageCaptions("image_caption_1", "image_caption2", "image_caption3")
-                                .setAddress("Street_Name", "test city", "test_state", "test_country", "test_postal_code")
-                                .setRating(5.2, 6.0, 5)
-                                .setLocation(-151.67, -124.0)
-                                .setPrice(10.0, CurrencyType.USD)
-                                .setProductBrand("test_prod_brand")
-                                .setProductCategory(ProductCategory.APPAREL_AND_ACCESSORIES)
-                                .setProductName("test_prod_name")
-                                .setProductCondition(ContentMetadata.CONDITION.EXCELLENT)
-                                .setProductVariant("test_prod_variant")
-                                .setQuantity(1.5)
-                                .setSku("test_sku")
-                                .setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
-                .addKeyWord("keyword1")
-                .addKeyWord("keyword2")
-
-        BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
-                .setAffiliation("test_affiliation")
-                .setCoupon("Coupon Code")
-                .setCurrency(CurrencyType.USD)
-                .setDescription("Customer added item to cart")
-                .setShipping(0.0)
-                .setTax(9.75)
-                .setRevenue(1.5)
-                .setSearchQuery("Test Search query")
-                .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
-                .addCustomDataProperty("Custom_Event_Property_Key2", "Custom_Event_Property_val2")
-                .addContentItems(buo)
-                .logEvent(this@MainActivity)
-        ```
 
 - ### Handle referrals
 

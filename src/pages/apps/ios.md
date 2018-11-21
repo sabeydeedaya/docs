@@ -483,113 +483,19 @@
 
 - ### Track events
 
-    - Registers a custom event
+    - All events related to a customer purchasing are bucketed into a "Commerce" class of data items
 
-    - Events named `open`, `close`, `install`, and `referred session` are Branch restricted
+    - All events related to users interacting with your in-app content are bucketed to a "Content" class of data items.
 
-    - Best to [Track users](#track-users) before [Track events](#track-events) to associate a custom event to a user
+    - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
+
+    - To track custom events - not found in the table below - please see [Track Custom Events](https://docs.branch.io/pages/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-    - *Swift 3*
 
-        ```swift
-        // option 1
-        BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo).logEvent()
+    {! ingredients/sdk/v2-events.md !}
 
-        // option 2
-        let event = BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo)
-        event.customData["key"] = "value"
-        event.logEvent()
-        ```
-
-    - *Objective-C*
-
-        ```objc
-        // option 1
-        [[BranchEvent customEventWithName:@"your_custom_event" contentItem:buo] logEvent];
-
-        // option 2
-        BranchEvent *event = [BranchEvent customEventWithName:@"your_custom_event" contentItem:buo];
-        event.customData[@"key"] = @"value";
-        [event logEvent];
-        ```
-
-- ### Track commerce
-
-    - Registers a custom commerce event
-
-    - Uses [Track commerce properties](#commerce-properties) for `Currency` and `Category`
-
-    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
-
-    - *Swift 3*
-
-        ```swift
-        // Create a BranchUniversalObject with your content data:
-        let branchUniversalObject = BranchUniversalObject.init()
-
-        // ...add data to the branchUniversalObject as needed...
-        branchUniversalObject.canonicalIdentifier = "item/12345"
-        branchUniversalObject.canonicalUrl        = "https://branch.io/item/12345"
-        branchUniversalObject.title               = "My Item Title"
-
-        // Create a BranchEvent:
-        let event = BranchEvent.standardEvent(.purchase)
-
-        // Add the BranchUniversalObjects with the content:
-        event.contentItems     = [ branchUniversalObject ]
-
-        // Add relevant event data:
-        event.transactionID    = "12344555"
-        event.currency         = .USD;
-        event.revenue          = 1.5
-        event.shipping         = 10.2
-        event.tax              = 12.3
-        event.coupon           = "test_coupon";
-        event.affiliation      = "test_affiliation";
-        event.eventDescription = "Event_description";
-        event.searchQuery      = "item 123"
-        event.customData       = [
-            "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
-            "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
-        ]
-        event.logEvent() // Log the event.
-        ```
-
-    - *Objective C*
-
-        ```objc
-        // Create a BranchUniversalObject with your content data:
-        BranchUniversalObject *branchUniversalObject = [BranchUniversalObject new];
-
-        // ...add data to the branchUniversalObject as needed...
-        branchUniversalObject.canonicalIdentifier = @"item/12345";
-        branchUniversalObject.canonicalUrl        = @"https://branch.io/item/12345";
-        branchUniversalObject.title               = @"My Item Title";
-
-        // Create an event and add the BranchUniversalObject to it.
-        BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
-
-        // Add the BranchUniversalObjects with the content:
-        event.contentItems     = (id) @[ branchUniversalObject ];
-
-        // Add relevant event data:
-        event.transactionID    = @"12344555";
-        event.currency         = BNCCurrencyUSD;
-        event.revenue          = [NSDecimalNumber decimalNumberWithString:@"1.5"];
-        event.shipping         = [NSDecimalNumber decimalNumberWithString:@"10.2"];
-        event.tax              = [NSDecimalNumber decimalNumberWithString:@"12.3"];
-        event.coupon           = @"test_coupon";
-        event.affiliation      = @"test_affiliation";
-        event.eventDescription = @"Event_description";
-        event.searchQuery      = @"item 123";
-        event.customData       = (NSMutableDictionary*) @{
-            @"Custom_Event_Property_Key1": @"Custom_Event_Property_val1",
-            @"Custom_Event_Property_Key2": @"Custom_Event_Property_val2"
-        };
-        [event logEvent];
-        ```
 
 - ### Handle referrals
 
