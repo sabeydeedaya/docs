@@ -124,6 +124,7 @@
 
     - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
     - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
+    - To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
     - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
 
 ## Create deep links
