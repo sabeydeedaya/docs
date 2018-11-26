@@ -95,11 +95,11 @@ extra:
       title: SDK Integrations
     - index: 21
       title: Marketing Channels
-    - index: 29
+    - index: 30
       title: Partner Management
-    - index: 31
+    - index: 32
       title: Activity Reports & Analytics
-    - index: 34
+    - index: 35
       title: Data Feeds
   nav_hidden: 'Hidden'
   is_visible:
@@ -141,6 +141,7 @@ pages:
   - API: pages/apps/api.md
   - Website: pages/web/integrate.md
   - V2 Events: pages/apps/v2event.md
+  - Maximing the Full User Journey: pages/resources/maximizing-user-journeys.md
   - Website:
     - Deepviews: pages/web/deep-views.md
     - Journeys App Banners: pages/web/journeys.md
