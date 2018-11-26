@@ -130,6 +130,7 @@ pages:
   - Xamarin: pages/apps/xamarin.md
   - API: pages/apps/api.md
   - Website: pages/web/integrate.md
+  - V2 Events: pages/apps/v2event.md
   - Website:
     - Deepviews: pages/web/deep-views.md
     - Journeys App Banners: pages/web/journeys.md
@@ -232,7 +233,12 @@ pages:
     - Espire: pages/deep-linked-ads/espire-mobile-tracking.md
     - Everflow Technologies : pages/deep-linked-ads/everflow-technologies-mobile-tracking.md
     - Expand Mobile : pages/deep-linked-ads/expand-mobile-mobile-tracking.md
-    - Facebook : pages/deep-linked-ads/facebook-ads-overview.md
+    - Facebook :
+      - Ads Overview: pages/deep-linked-ads/facebook-ads-overview.md
+      - Facebook App Install Ads: pages/deep-linked-ads/facebook-app-install-ads.md
+      - Facebook Traffic and Conversion Ads: pages/deep-linked-ads/facebook-traffic-conversion-ads.md
+      - Facebook Platform Ads: pages/deep-linked-ads/facebook-platform-ads.md
+      - Facebook Dynamic Ads: pages/deep-linked-ads/facebook-dynamic-ads.md
     - FeedMob : pages/deep-linked-ads/feedmob-mobile-tracking.md
     - Filly Media Solutions : pages/deep-linked-ads/filly-media-solutions-mobile-tracking.md
     - Fyber : pages/deep-linked-ads/fyber-mobile-tracking.md
@@ -245,7 +251,12 @@ pages:
     - GlobalWide Media : pages/deep-linked-ads/globalwide-media-mobile-tracking.md
     - GMT Digital : pages/deep-linked-ads/gmt-digital-mobile-tracking.md
     - Go Mobile: pages/deep-linked-ads/gomobile-mobile-tracking.md
-    - Google Adwords: pages/deep-linked-ads/google-ads-overview.md
+    - Google Adwords:
+      - Universal App Camapaigns: pages/deep-linked-ads/google-ads-overview.md
+      - Search Network Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
+      - Display Network Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
+      - Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md
+      - Video Ads: pages/deep-linked-ads/google-video-ads.md
     - HasOffers : pages/deep-linked-ads/hasoffers-mobile-tracking.md
     - Hubscale : pages/deep-linked-ads/hubscale-mobile-tracking.md
     - Hybrid: pages/deep-linked-ads/hybrid-mobile-tracking.md
@@ -462,21 +473,6 @@ pages:
     - Query API: pages/exports/query-api.md
     - Query Recipe Book: pages/exports/query-recipe-book.md
   - Hidden:
-    - Google Search App Install Ads: pages/deep-linked-ads/google-search-install-ads.md
-    - Google Search App Engagement Ads: pages/deep-linked-ads/google-search-engagement-ads.md
-    - Google Display App Install Ads: pages/deep-linked-ads/google-display-install-ads.md
-    - Google Display App Engagement Ads: pages/deep-linked-ads/google-display-engagement-ads.md
-    - Google Universal App Campaigns: pages/deep-linked-ads/google-uac.md
-    - Google Search Network Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
-    - Google Display Network Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
-    - Google Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md
-    - Google Adwords Conversion Setup: pages/deep-linked-ads/google-conversions.md
-    - Google Video Ads: pages/deep-linked-ads/google-video-ads.md
-    - Facebook App Install Ads: pages/deep-linked-ads/facebook-app-install-ads.md
-    - Facebook Traffic and Conversion Ads: pages/deep-linked-ads/facebook-traffic-conversion-ads.md
-    - Facebook Platform Ads: pages/deep-linked-ads/facebook-platform-ads.md
-    - Facebook Dynamic Ads: pages/deep-linked-ads/facebook-dynamic-ads.md
-    - V2 Event: pages/apps/v2event.md
     - Segment Event Import: pages/integrations/segment-import.md
     - mParticle Event Import: pages/integrations/mparticle-import.md
     - People-Based Attribution: pages/dashboard/people-based-attribution.md
@@ -497,4 +493,9 @@ pages:
     - SAN Web Tracking: pages/deep-linked-ads/san-web-tracking.md
     - Branch Universal Ads (old) : pages/deep-linked-ads/branch-universal-ads.md
     - Twitter (old): pages/deep-linked-ads/twitter-mobile-tracking.md
+    - Google Search App Install Ads (old): pages/deep-linked-ads/google-search-install-ads.md
+    - Google Search App Engagement Ads (old): pages/deep-linked-ads/google-search-engagement-ads.md
+    - Google Display App Install Ads (old): pages/deep-linked-ads/google-display-install-ads.md
+    - Google Display App Engagement Ads (old): pages/deep-linked-ads/google-display-engagement-ads.md
+    - Google Universal App Campaigns (old): pages/deep-linked-ads/google-uac.md
     - Cohort Analysis: pages/dashboard/cohort-analysis.md
