@@ -120,7 +120,7 @@
 
         - ~campaign -> utm_campaign
         - ~channel -> utm_source
-        - ~feature -> utm_medium
+        - ~feature -> utm_feature
 
     - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
     - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
