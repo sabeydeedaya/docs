@@ -1,5 +1,5 @@
 # Project
-site_name: 'Branch documentation'
+site_name: 'Branch Docs Portal'
 site_description: 'Branch documentation for mobile deep linking'
 site_author: 'Branch'
 site_url: 'https://docs.branch.io'
@@ -86,13 +86,21 @@ extra:
       hits: 15
   nav_header:
     - index: 2
-      title: Basic integration
-    - index: 7
-      title: Basic usage
-    - index: 9
-      title: Advanced usage
-    - index: 18
-      title: Resources
+      title: Branch Basics
+    - index: 3
+      title: Account Settings
+    - index: 4
+      title: Link Settings
+    - index: 5
+      title: SDK Integrations
+    - index: 16
+      title: Marketing Channels
+    - index: 24
+      title: Partner Management
+    - index: 26
+      title: Activity Reports & Analytics
+    - index: 27
+      title: Data Feeds
   nav_hidden: 'Hidden'
   is_visible:
     footer_floater_beta: false
@@ -103,41 +111,32 @@ extra:
 
 # Pages
 pages:
-  - Getting started: index.md
+  - Main Page: main-page.md
+  - Branch Matching Overview: pages/resources/matching.md
   - Configure your dashboard: pages/dashboard/integrate.md
-  - Configure your app:
-    - iOS: pages/apps/ios.md
-    - Android: pages/apps/android.md
-    - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
-    - mParticle Android: pages/apps/mparticle-android.md
-    - mParticle iOS: pages/apps/mparticle-ios.md
-    - Titanium: pages/apps/titanium.md
-    - React Native: pages/apps/react-native.md
-    - Unity: pages/apps/unity.md
-    - Xamarin: pages/apps/xamarin.md
-    - API: pages/apps/api.md
   - Configure your deep linking:
     - iOS Universal Links: pages/deep-linking/universal-links.md
     - Android App Links: pages/deep-linking/android-app-links.md
     - In-app deep link routing: pages/deep-linking/routing.md
-  - Launch your app:
-    - Apple App Store: pages/apps/ios-launch.md
-    - Google Play: pages/apps/android-launch.md
-  - Configure your website: pages/web/integrate.md
-  - Create deep links: pages/links/integrate.md
-  - Track analytics:
-    - Dashboard analytics: pages/dashboard/analytics.md
-    - People-Based Attribution: pages/dashboard/people-based-attribution.md
-    - Liveview: pages/exports/pba-liveview.md
-    - Time zone support: pages/dashboard/timezone.md
-  - Links on your website:
+    - Create deep links: pages/links/integrate.md
+  - iOS: pages/apps/ios.md
+  - Android: pages/apps/android.md
+  - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
+  - mParticle Android: pages/apps/mparticle-android.md
+  - mParticle iOS: pages/apps/mparticle-ios.md
+  - Titanium: pages/apps/titanium.md
+  - React Native: pages/apps/react-native.md
+  - Unity: pages/apps/unity.md
+  - Xamarin: pages/apps/xamarin.md
+  - API: pages/apps/api.md
+  - Website: pages/web/integrate.md
+  - Website:
     - Deepviews: pages/web/deep-views.md
     - Journeys App Banners: pages/web/journeys.md
     - AMP Journeys: pages/web/amp-journeys.md
     - Text Me The App: pages/web/text-me-the-app.md
     - Hosted Deep Link Data: pages/web/hosted-data.md
-  - Links in your paid ads:
-    - Universal Ads Partners: pages/deep-linked-ads/ad-networks-list.md
+  - Paid ads:
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
     - 3.14 Digital : pages/deep-linked-ads/3.14-digital-mobile-tracking.md
     - A4G : pages/deep-linked-ads/a4g-mobile-tracking.md
@@ -378,8 +377,7 @@ pages:
     - YouAppi Retargeting : pages/deep-linked-ads/youappi-retargeting-mobile-tracking.md
     - ZenAds: pages/deep-linked-ads/zenads-mobile-tracking.md
     - Zorka.Mobi: pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
-  - Links in your emails:
-    - Universal Email Partners: pages/emails/email-partners-list.md
+  - Email:
     - Active Campaign: pages/emails/active-campaign.md
     - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
@@ -421,45 +419,48 @@ pages:
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
-  - Links in SMS:
+  - SMS:
     - Vibes: pages/sms/vibes.md
-  - Links in push notifications: pages/advance/push-notifications.md
-  - Links in organic search:
+  - Push notifications: pages/advance/push-notifications.md
+  - Organic search:
     - Firebase App Indexing: pages/organic-search/firebase.md
     - Spotlight Search: pages/organic-search/spotlight.md
     - General SEO Compatibility: pages/organic-search/branch-seo.md
-  - Links for viral & referral:
+  - Viral & Referral:
     - Content sharing: pages/viral/content-sharing.md
     - Referral programs: pages/viral/referrals.md
-  - Links in new app platforms:
+  - New App Platforms:
     - Android Instant Apps: pages/app-to-app/android-instant-apps.md
     - iMessage Apps: pages/app-to-app/imessage-apps.md
+  - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
+  - Universal Email Partners: pages/emails/email-partners-list.md
+  - Track analytics:
+    - Dashboard analytics: pages/dashboard/analytics.md
+    - People-Based Attribution: pages/dashboard/people-based-attribution.md
+    - Liveview: pages/exports/pba-liveview.md
+    - Time zone support: pages/dashboard/timezone.md
   - Export Branch data:
-    - Data Feeds:
-      - Get Started: pages/exports/data-feeds.md
-      - Data Integrations:
-        - Get Started: pages/integrations/data-integrations.md
-        - Adobe Analytics: pages/integrations/adobe-analytics.md
-        - Adjust: pages/integrations/adjust.md
-        - Amplitude: pages/integrations/amplitude.md
-        - AppMetrica: pages/integrations/appmetrica.md
-        - Braze: pages/integrations/braze.md
-        - Appsflyer: pages/integrations/appsflyer.md
-        - CleverTap: pages/integrations/clevertap.md
-        - Google Analytics: pages/integrations/google-analytics.md
-        - Kochava: pages/integrations/kochava.md
-        - Localytics: pages/integrations/localytics.md
-        - Mixpanel: pages/integrations/mixpanel.md
-        - mParticle: pages/integrations/mparticle.md
-        - Segment: pages/integrations/segment.md
-        - Tune: pages/integrations/tune.md
-      - Data Export API: pages/exports/api-v3.md
-      - Webhooks: pages/exports/ua-webhooks.md
-      - Query API: pages/exports/query-api.md
-      - Query Recipe Book: pages/exports/query-recipe-book.md
-  - Branch Matching Overview: pages/resources/matching.md
-  - Validation Tools: pages/resources/validation-tools.md
-  - Case Studies and Infographics: pages/resources/case-studies.md
+    - Get Started: pages/exports/data-feeds.md
+    - Data Integrations:
+      - Get Started: pages/integrations/data-integrations.md
+      - Adobe Analytics: pages/integrations/adobe-analytics.md
+      - Adjust: pages/integrations/adjust.md
+      - Amplitude: pages/integrations/amplitude.md
+      - AppMetrica: pages/integrations/appmetrica.md
+      - Braze: pages/integrations/braze.md
+      - Appsflyer: pages/integrations/appsflyer.md
+      - CleverTap: pages/integrations/clevertap.md
+      - Google Analytics: pages/integrations/google-analytics.md
+      - Kochava: pages/integrations/kochava.md
+      - Localytics: pages/integrations/localytics.md
+      - Mixpanel: pages/integrations/mixpanel.md
+      - mParticle: pages/integrations/mparticle.md
+      - Segment: pages/integrations/segment.md
+      - Tune: pages/integrations/tune.md
+    - Data Export API: pages/exports/api-v3.md
+    - Webhooks: pages/exports/ua-webhooks.md
+    - Query API: pages/exports/query-api.md
+    - Query Recipe Book: pages/exports/query-recipe-book.md
   - Hidden:
     - Google Search App Install Ads: pages/deep-linked-ads/google-search-install-ads.md
     - Google Search App Engagement Ads: pages/deep-linked-ads/google-search-engagement-ads.md

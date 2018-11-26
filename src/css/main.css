@@ -93,8 +93,8 @@
 /* ////////////////////////////// */
 .md-typeset img {
   box-shadow: 0px 0px 1px #ccc;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 100%;
 }
 .md-typeset h2 {
   font-weight: 700;
