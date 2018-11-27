@@ -92,14 +92,14 @@ extra:
     - index: 5
       title: Link Settings
     - index: 9
-      title: SDK Integrations
-    - index: 13
+      title: SDK Resources
+    - index: 14
       title: Marketing Channels
-    - index: 22
+    - index: 23
       title: Partner Management
-    - index: 24
+    - index: 25
       title: Activity Reports & Analytics
-    - index: 27
+    - index: 28
       title: Data Feeds
   nav_hidden: 'Hidden'
   is_visible:
@@ -142,6 +142,9 @@ pages:
     - React Native: pages/apps/react-native.md
     - Unity: pages/apps/unity.md
     - Xamarin: pages/apps/xamarin.md
+  - SDK Integrations:
+    - Segment Android SDK: pages/apps/segment-android.md
+    - Segment iOS SDK: pages/apps/segment-ios.md
   - V2 Events: pages/apps/v2event.md
   - Maximizing the Full User Journey: pages/resources/journeys.md
   - Website:
