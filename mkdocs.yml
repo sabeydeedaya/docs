@@ -117,13 +117,13 @@ pages:
     - People-Based Attribution: pages/dashboard/people-based-attribution.md
   - Basic Settings:
     - App Level Settings: pages/dashboard/integrate.md
-    - Setting Your Dashboard Analytics Time Zone: pages/dashbaord/timezone.md
+    - Setting Your Dashboard Analytics Time Zone: pages/dashboard/timezone.md
   - Advanced Settings:
     - View Billing Information: pages/dashboard/viewing-billing.md
     - Enable Single Sign On: pages/dashboard/sso.md
     - Defining Access Levels: pages/dashboard/access-level.md
-  - Default Link Behavior Configuration: pages/link-settings/default-link-behavior.md
-  - Advanced Settings Configuration: pages/link-settings/advanced-settings-configuration.md
+  - Default Link Behavior Configuration: pages/links/default-link-behavior.md
+  - Advanced Settings Configuration: pages/links/advanced-settings-configuration.md
   - Deep Linking Configuration:
     - iOS Universal Links: pages/deep-linking/universal-links.md
     - Android App Links: pages/deep-linking/android-app-links.md
@@ -141,7 +141,7 @@ pages:
   - API: pages/apps/api.md
   - Website: pages/web/integrate.md
   - V2 Events: pages/apps/v2event.md
-  - Maximing the Full User Journey: pages/resources/maximizing-user-journeys.md
+  - Maximizing the Full User Journey: pages/resources/journeys.md
   - Website:
     - Deepviews: pages/web/deep-views.md
     - Journeys App Banners: pages/web/journeys.md
