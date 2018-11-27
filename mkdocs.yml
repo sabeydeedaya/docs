@@ -93,13 +93,13 @@ extra:
       title: Link Settings
     - index: 9
       title: SDK Integrations
-    - index: 21
+    - index: 13
       title: Marketing Channels
-    - index: 30
+    - index: 22
       title: Partner Management
-    - index: 32
+    - index: 24
       title: Activity Reports & Analytics
-    - index: 35
+    - index: 27
       title: Data Feeds
   nav_hidden: 'Hidden'
   is_visible:
@@ -129,17 +129,19 @@ pages:
     - Android App Links: pages/deep-linking/android-app-links.md
     - In-app deep link routing: pages/deep-linking/routing.md
   - Create Deep Links: pages/links/integrate.md
-  - iOS: pages/apps/ios.md
-  - Android: pages/apps/android.md
-  - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
-  - mParticle Android: pages/apps/mparticle-android.md
-  - mParticle iOS: pages/apps/mparticle-ios.md
-  - Titanium: pages/apps/titanium.md
-  - React Native: pages/apps/react-native.md
-  - Unity: pages/apps/unity.md
-  - Xamarin: pages/apps/xamarin.md
-  - API: pages/apps/api.md
-  - Website: pages/web/integrate.md
+  - Native SDKs and Plugins: pages/resources/native-sdks-and-plugins.md
+  - Native SDKs:
+    - iOS: pages/apps/ios.md
+    - Android: pages/apps/android.md
+    - Website: pages/web/integrate.md
+  - Plugins:
+    - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
+    - mParticle Android: pages/apps/mparticle-android.md
+    - mParticle iOS: pages/apps/mparticle-ios.md
+    - Titanium: pages/apps/titanium.md
+    - React Native: pages/apps/react-native.md
+    - Unity: pages/apps/unity.md
+    - Xamarin: pages/apps/xamarin.md
   - V2 Events: pages/apps/v2event.md
   - Maximizing the Full User Journey: pages/resources/journeys.md
   - Website:
