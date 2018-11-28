@@ -107,7 +107,7 @@ After you've downloaded your feed, it's time to use it!
 
 !!! tip "Facebook Dynamic Ads"
     Launch a [Facebook Dynamic Ad Campaign](/pages/deep-linked-ads/facebook-dynamic-ads/) to drive engagement or installs with your Deep Linked Feed!
-
+    
 
 !!! tip "Ad Network Integrations"
     Branch Deep Linked Feeds are accepted by top remarketing companies like Criteo, Remerge and AppNexus. Ask your Account Manager about launching your campaign with Branch deep links.
