@@ -14,10 +14,10 @@ In order to use this API you must have an App ID and a Branch Public Key. You mu
 You can find your keys at: https://dashboard.branch.io/link-settings
 
 ### Base URL:
-https://api.branch.io/v2/export/
+https://api2.branch.io/v2/export/
 
 ### Endpoint
-	GET https://api.branch.io/v2/export
+	GET https://api2.branch.io/v2/export
 	Content-Type: application/json
 
 ### Query Parameters
@@ -32,11 +32,11 @@ https://api.branch.io/v2/export/
 : The UTC date of the requested data export
 
 Format the URL as follows:
-https://api.branch.io/v2/export/XXXXX?branch_secret=XXXXX&export_date=2015-11-15
+https://api2.branch.io/v2/export/XXXXX?branch_secret=XXXXX&export_date=2015-11-15
 
 **Example:**
 
-`https://api.branch.io/v2/export/key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1?branch_secret=secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86&export_date=2015-11-15`
+`https://api2.branch.io/v2/export/key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1?branch_secret=secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86&export_date=2015-11-15`
 
 ### Response
 

@@ -654,7 +654,7 @@
     - Make sure the Branch key is the same within the deep link and website
 
         ```
-        XMLHttpRequest cannot load https://api.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
+        XMLHttpRequest cannot load https://api2.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
         ```
         
 - ### Browser Fingerprint ID

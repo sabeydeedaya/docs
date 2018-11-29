@@ -45,7 +45,7 @@ An example query could look like:
 ```
 POST /v1/query/analytics
 Content-Type: application/json
-Host: api.branch.io
+Host: api2.branch.io
 ```
 
 ## Parameters
@@ -401,7 +401,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
   ],
   "granularity": "day",
   "aggregation": "total_count"
-}' "http://api.branch.io/v1/query/analytics?limit=5"
+}' "http://api2.branch.io/v1/query/analytics?limit=5"
 ```
 
 Example results:
@@ -481,7 +481,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "ordered_by": "unique_count",
   "aggregation": "unique_count",
   "zero_fill": true
-}' "http://api.branch.io/v1/query/analytics?limit=5"
+}' "http://api2.branch.io/v1/query/analytics?limit=5"
 ```
 
 Example Results:

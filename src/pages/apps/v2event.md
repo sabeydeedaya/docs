@@ -273,7 +273,7 @@ curl -vvv -d '{
    ],
    "metadata": {},
    "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
- }' https://api.branch.io/v2/event/standard
+ }' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-commerce-events).
@@ -403,7 +403,7 @@ curl -vvv -d '{
   ],
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/standard
+}' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-content-events).
@@ -475,7 +475,7 @@ curl -vvv -d '{
   },
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/standard
+}' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-user-lifecycle-events).
@@ -539,7 +539,7 @@ curl -vvv -d '{
   },
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/custom
+}' https://api2.branch.io/v2/event/custom
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-custom-events).
