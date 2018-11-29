@@ -153,7 +153,8 @@ pages:
   - SDK Integrations:
     - Segment Android SDK: pages/apps/segment-android.md
     - Segment iOS SDK: pages/apps/segment-ios.md
-  - V2 Events: pages/apps/v2event.md
+  - Advanced Configuration:
+    - V2 Events: pages/apps/v2event.md
   - Maximizing the Full User Journey: pages/resources/journeys.md
   - Website:
     - Deepviews: pages/web/deep-views.md
@@ -501,6 +502,10 @@ pages:
   - Webhooks: pages/exports/ua-webhooks.md
   - Query API: pages/exports/query-api.md
   - Query Recipe Book: pages/exports/query-recipe-book.md
+  - Creating Quick Links: pages/how-to-guides/creating-quick-links.md
+  - Android App Not Opening via App Links: pages/troubleshooting/android-app-not-opening-via-app-links.md
+  - November 2018: pages/product-updates/november2018.md
+  - How to Track Your Influencers for Organic Growth: pages/best-practices/how-to-track-your-influencers-for-organic-growth.md
   - Hidden:
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
