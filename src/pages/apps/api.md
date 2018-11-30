@@ -13,7 +13,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/url \
+        curl -XPOST https://api2.branch.io/v1/url \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "channel": "facebook",
@@ -56,7 +56,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/url/bulk/key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt \
+        curl -XPOST https://api2.branch.io/v1/url/bulk/key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt \
           -d '[
             {
               "channel": "facebook",
@@ -123,7 +123,7 @@
     - *Request*
 
         ```bash
-        curl -XGET 'https://api.branch.io/v1/url?url=https://example.app.link/WgiqvsepqF&branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt'
+        curl -XGET 'https://api2.branch.io/v1/url?url=https://example.app.link/WgiqvsepqF&branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt'
         ```
 
     - *Response*
@@ -190,7 +190,7 @@
     - *Request*
 
           ```bash
-          curl -XPUT 'https://api.branch.io/v1/url?url=https%3A%2F%2Fexample.app.link%2F5IULiLcpqF' \
+          curl -XPUT 'https://api2.branch.io/v1/url?url=https%3A%2F%2Fexample.app.link%2F5IULiLcpqF' \
             -d '{
             "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
             "branch_secret": "secret_live_RrrsLqpzVcoVWf5t4ncQVpzlg2pRpGH9",
@@ -266,7 +266,7 @@
           ifile = open('[INSERT_FILENAME].csv', "rb")
 
           #Constants
-          branchendpoint = "https://api.branch.io/v1/url?url="
+          branchendpoint = "https://api2.branch.io/v1/url?url="
           reader = csv.reader(ifile, delimiter=',')
 
           #Uncomment the next line if you want the script to skip the first line of the CSV
@@ -310,7 +310,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/event \
+        curl -XPOST https://api2.branch.io/v1/event \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "identity": "bob",
@@ -342,7 +342,7 @@
     - *Request*
 
         ```bash
-        curl -X POST https://api.branch.io/v1/event \
+        curl -X POST https://api2.branch.io/v1/event \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "identity": "222",
@@ -392,10 +392,10 @@
 
         ```bash
         # identity
-        curl -XGET 'https://api.branch.io/v1/profile?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
+        curl -XGET 'https://api2.branch.io/v1/profile?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
 
         # identity id
-        curl -XGET 'https://api.branch.io/v1/profile?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity_id=444'
+        curl -XGET 'https://api2.branch.io/v1/profile?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity_id=444'
         ```
 
     - *Response*
@@ -425,7 +425,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/url \
+        curl -XPOST https://api2.branch.io/v1/url \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "channel": "facebook",
@@ -446,7 +446,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/credits \
+        curl -XPOST https://api2.branch.io/v1/credits \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "branch_secret": "secret_live_RrrsLqpzVcoVWf5t4ncQVpzlg2pRpGH9",
@@ -479,7 +479,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/redeem \
+        curl -XPOST https://api2.branch.io/v1/redeem \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "branch_secret": "secret_live_RrrsLqpzVcoVWf5t4ncQVpzlg2pRpGH9",
@@ -509,7 +509,7 @@
     - *Request*
 
         ```bash
-        curl -XGET 'https://api.branch.io/v1/credits?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
+        curl -XGET 'https://api2.branch.io/v1/credits?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
         ```
 
     - *Response*
@@ -525,7 +525,7 @@
     - *Request*
 
         ```bash
-        curl -XGET 'https://api.branch.io/v1/credithistory?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
+        curl -XGET 'https://api2.branch.io/v1/credithistory?branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt&identity=steve'
         ```
 
     - *Response*
@@ -600,7 +600,7 @@
     - *Request*
 
         ```bash
-        curl -X POST https://api.branch.io/v1/reconcile \
+        curl -X POST https://api2.branch.io/v1/reconcile \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "branch_secret": "secret_live_RrrsLqpzVcoVWf5t4ncQVpzlg2pRpGH9",
@@ -629,7 +629,7 @@
     - *Request*
 
         ```bash
-        curl -XPOST https://api.branch.io/v1/eventresponse \
+        curl -XPOST https://api2.branch.io/v1/eventresponse \
           -d '{
           "branch_key": "key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt",
           "branch_secret": "secret_live_RrrsLqpzVcoVWf5t4ncQVpzlg2pRpGH9",
@@ -690,7 +690,7 @@
     - *Request*
 
         ```js
-        curl -XPOST https://api.branch.io/v1/app \
+        curl -XPOST https://api2.branch.io/v1/app \
           -d '{
           "user_id": "YOUR_USER_ID",
           "app_name": "eneff_test_3",
@@ -817,7 +817,7 @@
     - *Request*
 
         ```js
-        curl -XGET 'https://api.branch.io/v1/app/key_live_kkDv1y82q6RdiaazE5wAyipkqCnI9i0a?branch_secret=secret_live_igBCicZbq9H3NvYgBishHWuQu4aMbQ0n'
+        curl -XGET 'https://api2.branch.io/v1/app/key_live_kkDv1y82q6RdiaazE5wAyipkqCnI9i0a?branch_secret=secret_live_igBCicZbq9H3NvYgBishHWuQu4aMbQ0n'
         ```
 
     - *Response*
@@ -889,7 +889,7 @@
     - *Request*
 
         ```js
-        curl -XPUT https://api.branch.io/v1/app/key_live_icCccJIpd7GlYY5oOmoEtpafuDiuyXhT \
+        curl -XPUT https://api2.branch.io/v1/app/key_live_icCccJIpd7GlYY5oOmoEtpafuDiuyXhT \
           -d '{
           "branch_secret": "secret_live_D3sN7UDL27glpNKZfGPt6BlmKD9txUBp",
           "dev_email": "YOUR_EMAIL",
