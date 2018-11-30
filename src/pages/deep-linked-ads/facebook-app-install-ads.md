@@ -48,7 +48,7 @@ App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 ![Create Ad Link](/img/pages/deep-linked-ads/facebook-app-install-ads/link-setup.png)
 1. Under the Configure Options tab, navigate to the Redirects sub section and ensure that the iOS/Android redirect is set to the desired app being promoted by the ad campaign.
 ![Create Ad Link](/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
-1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Adwords Campaign, set the channel field to Facebook Ads and set the campaign field to the same ad campaign name used in Facebook Ads.
+1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Facebook campaign, set the channel field to Facebook Ads and set the campaign field to the same ad campaign name used in Facebook Ads.
 ![Analytics Tags](/img/pages/deep-linked-ads/reusable-images/facebook-analytics-tags.png)
 
 !!! warning ""
