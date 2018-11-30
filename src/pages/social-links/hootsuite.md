@@ -2,15 +2,15 @@
 
 ![HootSuite](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/hootsuite-horizontal-black-registered-1540233532971.png)
 
-This guide will walk you through how to setup your email campaigns with **[HootSuite](https://hootsuite.com){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your social links campaigns with **[HootSuite](https://hootsuite.com){:target="\_blank"}** using Branch Universal Email to automatically convert your social links into **multi-platform deep links**
 
-{! ingredients/email/overview-steps.md !}
+{! ingredients/social-links/overview-steps.md !}
 
 ## Setup
 
-{! ingredients/email/prerequisites.md !}
+{! ingredients/social-links/prerequisites.md !}
 
-## Configure your ESP
+## Configure your Social Links
 
 ### Setup a custom click tracking domain
 
@@ -21,42 +21,42 @@ For more information on how to set up your domain, please visit HootSuite's [doc
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at HootSuite.
 
-{! ingredients/email/cname.md !}
+{! ingredients/social-links/cname.md !}
 
 ## Activate integration
 
-### Choose your email service provider
+### Choose your Social Link provider
 
 Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select **HootSuite** and click **Enable**.
 
-{! ingredients/email/link-setup.md !}
+{! ingredients/social-links/link-setup.md !}
 
 ### Tell us your click tracking domain
 
 You can retrieve your click tracking domain from the **[Account & Settings > Vanity URLs]** section of your HootSuite account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-{! ingredients/email/technical-setup.md !}
+{! ingredients/social-links/technical-setup.md !}
 
-{! ingredients/email/validate-test.md !}
+{! ingredients/social-links/validate-test.md !}
 
-{! ingredients/email/usage-auto.md !}
+{! ingredients/social-links/usage-auto.md !}
 
 ## Configure your mobile app
 
-{! ingredients/email/technical-setup-app.md !}
+{! ingredients/social-links/technical-setup-app.md !}
 
-{! ingredients/email/associated-domains.md !}
+{! ingredients/social-links/associated-domains.md !}
 
-{! ingredients/email/bounce-web.md !}
+{! ingredients/social-links/bounce-web.md !}
 
 ## Using Universal email
 
-{! ingredients/email/usage.md !}
+{! ingredients/social-links/usage.md !}
 
-{! ingredients/email/usage-auto-bounce-deep.md !}
+{! ingredients/social-links/usage-auto-bounce-deep.md !}
 
-{! ingredients/email/usage-auto-bounce-web.md !}
+{! ingredients/social-links/usage-auto-bounce-web.md !}
 
 ## Support
 
-{! ingredients/email/support.md !}
+{! ingredients/social-links/support.md !}

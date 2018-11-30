@@ -403,7 +403,6 @@ pages:
     - CheetahMail: pages/emails/cheetahmail.md
     - Epsilon: pages/emails/epsilon.md
     - Emarsys: pages/emails/emarsys.md
-    - HootSuite: pages/emails/hootsuite.md
     - IBM Watson Campaign Automation: pages/emails/ibm-watson-campaign-automation.md
     - iCubesPro: pages/emails/icubespro.md
     - Iterable: pages/emails/iterable.md
@@ -427,10 +426,12 @@ pages:
     - Selligent Message Studio: pages/emails/selligent.md
     - Sender: pages/emails/sender.md
     - SendGrid: pages/emails/sendgrid.md
-    - Social Flow: pages/emails/social-flow.md
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
+  - Links in Social:
+      - HootSuite: pages/social-links/hootsuite.md
+      - Social Flow: pages/social-links/social-flow.md
   - Links in SMS:
     - Vibes: pages/sms/vibes.md
   - Links in push notifications: pages/advance/push-notifications.md
