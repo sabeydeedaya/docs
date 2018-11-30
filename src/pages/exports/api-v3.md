@@ -19,10 +19,10 @@ In order to use this API you must have an App ID and a Branch Public Key. You mu
 You can find your keys in your [Account Settings](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 
 ### Base URL:
-https://api.branch.io/v3/export/
+https://api2.branch.io/v3/export/
 
 ### Endpoint
-* POST https://api.branch.io/v3/export
+* POST https://api2.branch.io/v3/export
 * Content-Type: application/json
 
 ### Query Parameters
@@ -39,7 +39,7 @@ https://api.branch.io/v3/export/
 **Example request:**
 
 ```
-curl -X POST api.branch.io/v3/export -H 'content-type:application/json' -d '{"branch_key":"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1", "branch_secret": "secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86", "export_date": "2017-10-01"}'
+curl -X POST api2.branch.io/v3/export -H 'content-type:application/json' -d '{"branch_key":"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1", "branch_secret": "secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86", "export_date": "2017-10-01"}'
 ```
 
 ### Response

@@ -28,7 +28,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -103,7 +103,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "total_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -178,7 +178,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -558,7 +558,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -615,7 +615,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -682,7 +682,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -759,7 +759,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -801,7 +801,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -847,7 +847,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -915,7 +915,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -969,7 +969,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -1035,7 +1035,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -1103,7 +1103,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -1162,7 +1162,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -1213,7 +1213,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -1265,7 +1265,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -1308,7 +1308,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -1363,7 +1363,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -1406,7 +1406,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -1466,7 +1466,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -1531,7 +1531,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -1582,7 +1582,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -1633,7 +1633,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -1675,7 +1675,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -1729,7 +1729,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -1783,7 +1783,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -1843,7 +1843,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -1913,7 +1913,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -1964,7 +1964,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -2005,7 +2005,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -2046,7 +2046,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -2093,7 +2093,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -2134,7 +2134,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -2190,7 +2190,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -2259,7 +2259,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -2646,7 +2646,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -2836,7 +2836,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -2891,7 +2891,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -3160,7 +3160,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "revenue"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -3434,7 +3434,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -3485,7 +3485,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -3651,7 +3651,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
@@ -3824,7 +3824,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 1*
@@ -3889,7 +3889,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 2*
@@ -3954,7 +3954,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 3*
@@ -4019,7 +4019,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 4*
@@ -4084,7 +4084,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 5*
@@ -4144,7 +4144,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 6*
@@ -4216,7 +4216,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "revenue"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response 7*
@@ -4292,7 +4292,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
             ]
           },
           "aggregation": "unique_count"
-        }' "http://api.branch.io/v1/query/analytics?limit=100"
+        }' "http://api2.branch.io/v1/query/analytics?limit=100"
         ```
 
     - *Response*
