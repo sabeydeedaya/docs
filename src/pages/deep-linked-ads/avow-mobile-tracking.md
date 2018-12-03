@@ -2,7 +2,7 @@
 
 ![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)
 
-This guide will walk you through how to setup your campaigns with **[Avow](https://www.avow.tech/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Avow](https://www.avow.tech/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -20,7 +20,7 @@ This guide will walk you through how to setup your campaigns with **[Avow](https
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-postbacks.png)
+![image](/img/pages/deep-linked-ads/avow/avow-postbacks-new.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
