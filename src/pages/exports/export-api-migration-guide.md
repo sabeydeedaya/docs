@@ -29,8 +29,8 @@ This example is focused on a click as opposed to a deepview view, etc.
 |branch_browser_fingerprint_id | 545393003690999790 | - | - | Branch internal only field, removed |
 |os | Android | user_data_os | ANDROID | - |
 |os_version | 6 | user_data_os_version | 6 | - |
-|model | iPhone | user_data_model | - | (Coming in July/Aug 2018) |
-|browser | Chrome | user_data_browser | - | (Coming in July/Aug 2018) |
+|model | iPhone | user_data_model | - | - |
+|browser | Chrome | user_data_browser | - | - |
 |user_agent | Mozilla/5.0 (Linux; Android 6.0; M6 Lite Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 | user_data_user_agent | Mozilla/5.0 (Linux; Android 6.0; M6 Lite Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 | - |
 |ip_address | 1.1.1.1 | user_data_ip | 1.1.1.1 | - |
 |stage | MOBILE_CLICK | - | - | Branch internal only field, removed |
@@ -74,9 +74,9 @@ This example is focused on a click as opposed to a deepview view, etc.
 |- | - | user_data_android_id | 171caed696dddddd | - |
 |- | - | user_data_limit_ad_tracking | true | - |
 |- | - | user_data_language | EN | - |
-| - | - | user_data_geo_country_code | AU | (Coming in July/Aug 2018) |
-| - | - | user_data_geo_dma_code | 501 | (Coming in July/Aug 2018) |
-| - | - | di_match_click_token | 545393003720359919 | (Coming in July/Aug 2018) |
+| - | - | user_data_geo_country_code | AU | - |
+| - | - | user_data_geo_dma_code | 501 | - |
+| - | - | di_match_click_token | 545393003720359919 | - |
 
 
 
@@ -105,7 +105,7 @@ As an example, here we focus on an example install event.
 | id | 545527767643652573 | id | 545527767643652573 | - |
 | name | install | name | INSTALL | - |
 | - | - | origin | BRANCH | - |
-| metadata | {“reinstall”:false,”ip":"1.1.1.1","referred":true} | - | - | reinstall -> event will be in “Reinstall” CSV file and have name “REINSTALL”; ip -> see user_data_ip; referred -> see deep_linked (Coming in July/Aug 2018) |
+| metadata | {“reinstall”:false,”ip":"1.1.1.1","referred":true} | - | - | reinstall -> event will be in “Reinstall” CSV file and have name “REINSTALL”; ip -> see user_data_ip; referred -> see deep_linked |
 | timestamp | 2018-07-11T09:43:01 | timestamp_iso | 2018-07-11 09:43:01+0000 | - |
 | - | - | timestamp | 1531302181873 | - |
 | - | - | last_attributed_touch_type | CLICK | old system did not have view through attribution, so this field was unnecessary |
@@ -117,7 +117,7 @@ As an example, here we focus on an example install event.
 | developer_identity | user11 | user_data_developer_identity | user11 | - |
 | identity_creation_timestamp | 2018-07-11T09:43:01 | - | - | Branch internal only field, removed |
 | branch_session_id | 545527767853000000 | - | - | Branch internal only field, removed |
-| app_version | 0.5.57 | user_data_app_version | - | (Coming in July/Aug 2018) |
+| app_version | 0.5.57 | user_data_app_version | - | - |
 | ip_address | 1.1.1.1 | user_data_ip | 1.1.1.1 | - |
 | session_start_timestamp | 2018-07-11T09:43:01 | - | - | Branch internal only field, removed |
 | branch_device_fingerprint_id | 545527767673000000 | - | - | Branch internal only field, removed |
@@ -180,7 +180,7 @@ As an example, here we focus on an example install event.
 | - | - | last_cta_view_* | - | Similar to last_attributed_touch_* fields, but for the last Journey or Deepview view proceeding the event. There is no equivalent in the legacy system.  |
 | first_referring_click_id | 545527414016428889 | - | - | Branch internal only field, removed |
 | session_referring_click_id | 545527414016428889 | - | - | Branch internal only field, removed |
-| - | - | deep_linked | true | (Coming in July/Aug 2018) |
+| - | - | deep_linked | true | - |
 | - | - | first_event_for_user | true | - |
 | - | - | user_data_environment | FULL_APP | - |
 | - | - | user_data_platform | IOS_APP | - |
@@ -189,8 +189,8 @@ As an example, here we focus on an example install event.
 | - | - | user_data_android_id | 171caed696dddddd | - |
 | - | - | user_data_limit_ad_tracking | true | - |
 | - | - | user_data_language | EN | - |
-| - | - | user_data_geo_country_code | AU | (Coming in July/Aug 2018) |
-| - | - | user_data_sdk_version | 0.24.2 | (Coming in July/Aug 2018) |
-| - | - | user_data_geo_dma_code | 501 | (Coming in July/Aug 2018) |
+| - | - | user_data_geo_country_code | AU | - |
+| - | - | user_data_sdk_version | 0.24.2 | - |
+| - | - | user_data_geo_dma_code | 501 | - |
 | - | - | event_data_* | - | Newly added fields such as revenue! |
 | - | - | custom_data | { “foo”: “bar” } | Contains developer-specified key-value pairs for the event. |
