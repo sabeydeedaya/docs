@@ -430,7 +430,7 @@ pages:
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
   - Links in Social:
-      - HootSuite: pages/social-links/hootsuite.md
+      - Hootsuite: pages/social-links/hootsuite.md
       - Social Flow: pages/social-links/social-flow.md
   - Links in SMS:
     - Vibes: pages/sms/vibes.md
@@ -498,9 +498,6 @@ pages:
     - Facebook FAQ and Advanced Options: pages/deep-linked-ads/facebook-ads-faq.md
     - Access Level: pages/dashboard/access-level.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
-    - Universal Email Template Simplified: pages/emails/_template-universal-email-simplified.md
-    - Universal Email Template Full: pages/emails/_template-universal-email-full.md
-    - Universal Ads Template: pages/deep-linked-ads/_template-mobile-tracking.md
     - Field-by-field guide for migrating from legacy Export API: pages/exports/export-api-migration-guide.md
     - Field-by-field guide for migrating from legacy webhooks: pages/exports/webhooks-migration-guide.md
     - Apple Search Ads Cost Data: pages/deep-linked-ads/apple-search-ads-cost.md
