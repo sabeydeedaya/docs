@@ -1,8 +1,8 @@
 ## Overview
 
-![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)
+![PCH Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/pch_media_logo-1543888704275.png)
 
-This guide will walk you through how to setup your campaigns with **[Avow](https://www.avow.tech/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[PCH Media](http://www.pch.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Avow](https
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-enable.png)
+![image](/img/pages/deep-linked-ads/pch-media/pch-media-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-postbacks-actual.png)
+![image](/img/pages/deep-linked-ads/pch-media/pch-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -1,8 +1,8 @@
 ## Overview
 
-![Avow](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/AVOW_PNG-1524775208552.png)
+![Influence Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Influence_Mobile_Logo-1543975387020.png)
 
-This guide will walk you through how to setup your campaigns with **[Avow](https://www.avow.tech/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Influence Mobile](http://www.influencemobile.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Avow](https
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-enable.png)
+![image](/img/pages/deep-linked-ads/influence-mobile/influence-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-postbacks-actual.png)
+![image](/img/pages/deep-linked-ads/influence-mobile/influence-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
