@@ -20,7 +20,7 @@ This guide will walk you through how to setup your campaigns with **[Avow](https
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/avow/avow-postbacks-new.png)
+![image](/img/pages/deep-linked-ads/avow/avow-postbacks-actual.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
