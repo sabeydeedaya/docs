@@ -42,7 +42,8 @@ markdown_extensions:
   - admonition:
   - codehilite: #(linenums=true)
   - footnotes:
-  - toc(permalink=true):
+  - toc:
+      permalink: true
   - meta:
   - markdown.extensions.tables:
   - pymdownx.magiclink:
