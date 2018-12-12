@@ -10,7 +10,6 @@ var images = (function() {
   function init() {
     var images = _scrapeImages();
     _wrapImages(images);
-    _addRoute();
   }
 
   function _scrapeImages() {
@@ -27,32 +26,25 @@ var images = (function() {
   }
 
   function _wrapImages(images) {
-    for (var i = 0; i < images.length; i++) {
+    console.log(images);
+    for (var i = 1; i < images.length; i++) {
       var image = images[i]
       var wrapper = document.createElement('a');
       var src = image.getAttribute('src');
-      var href = hash + "?src=" + src;
-      wrapper.setAttribute('href', href);
+      wrapper.setAttribute('href', 'javascript:void(0)');
       image.parentNode.insertBefore(wrapper, image);
       wrapper.appendChild(image);
+      document.images[i].addEventListener("click", _displayRoute, false);
     }
-  }
-
-  function _addRoute() {
-    router.add(hash, function() {
-      _displayRoute();
-    });
   }
 
   function _displayRoute() {
-    var src = utils.readQueryString('src');
-    if(src.match(/\.(jpeg|jpg|gif|png)$/) != null) {
-      if (!src) return;
-      progress.track('viewed modal image ' + src);
-      modals.toggle('modal-image', 'dialog');
-      link.setAttribute('href', src);
-      image.setAttribute('src', src);
-    }
+    var src = this.src;
+    if (!src) return;
+    progress.track('viewed modal image ' + src);
+    modals.toggle('modal-image', 'dialog');
+    link.setAttribute('href', src);
+    image.setAttribute('src', src);
   }
 
   return {
