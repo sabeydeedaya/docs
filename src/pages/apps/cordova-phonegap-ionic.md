@@ -507,46 +507,32 @@
 
         ```js
         // only revenue is required
-        var event = {
-          'revenue': 50.29,
-          'currency': 148, // USD
-          'transactionID': 'transaction id',
-          'coupon': 'coupon',
-          'shipping': 2.22,
-          'tax': 5.11,
-          'affiliation': 'affiliation',
-          'products': [
-            {
-              'sku': 'u123',
-              'name': 'cactus',
-              'price': 4.99,
-              'quantity': 2,
-              'brand': 'brand',
-              'category': 17, // Software
-              'variant': 'variant'
-            },
-            {
-              'sku': 'u456',
-              'name': 'grass',
-              'price': 0.00,
-              'quantity': 1
-            }
-          ]
+        Branch.getStandardEvents().then(function success(res) {
+      var event = res.STANDARD_EVENT_ADD_TO_CART;
+       var metadata = {
+        transactionID: '12344555',
+        currency: 'USD',
+        revenue: 1.5,
+        shipping: 10.2,
+        tax: 12.3,
+        coupon: 'test_coupon',
+        affiliation: 'test_affiliation',
+        description: 'Test add to cart event',
+        searchQuery: 'test keyword',
+        customData: {
+          "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+          "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
         }
-
-        // optional fields
-        var metadata = {
-          'custom_dictionary': 123,
-          'anything': 'everything'
-        }
-
-        Branch.sendCommerceEvent(event, metadata).then(function (res) {
-          console.log(res)
-          alert('Response: ' + JSON.stringify(res))
-        }).catch(function (err) {
-          console.error(err)
-          alert('Error: ' + JSON.stringify(err.message))
-        })
+      };
+      Branch.sendBranchEvent(event, metadata).then(function success(res) {
+        alert("Branch Event success " + res);
+      }).catch(function error(err) {
+        alert("Branch Event " + err);
+      });
+    }).catch(function error(err) {
+      alert("Get Standard Event " + err);
+    });
+  }
         ```
 
 - ### Handle referrals
