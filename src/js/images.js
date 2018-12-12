@@ -6,7 +6,6 @@ var images = (function() {
   var link = document.getElementById('modal-image-link');
   var hash = '#dialog-image';
 
-  // wrap all <img /> with <a href="image-[src]"><img /></a> to trigger expand modal
   function init() {
     var images = _scrapeImages();
     _wrapImages(images);
@@ -26,7 +25,6 @@ var images = (function() {
   }
 
   function _wrapImages(images) {
-    console.log(images);
     for (var i = 1; i < images.length; i++) {
       var image = images[i]
       var wrapper = document.createElement('a');
