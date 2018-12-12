@@ -46,11 +46,13 @@ var images = (function() {
 
   function _displayRoute() {
     var src = utils.readQueryString('src');
-    if (!src) return;
-    progress.track('viewed modal image ' + src);
-    modals.toggle('modal-image', 'dialog');
-    link.setAttribute('href', src);
-    image.setAttribute('src', src);
+    if(src.match(/\.(jpeg|jpg|gif|png)$/) != null) {
+      if (!src) return;
+      progress.track('viewed modal image ' + src);
+      modals.toggle('modal-image', 'dialog');
+      link.setAttribute('href', src);
+      image.setAttribute('src', src);
+    }
   }
 
   return {
