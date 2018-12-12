@@ -506,32 +506,32 @@
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
 
       ```js
-      Branch.getStandardEvents().then(function success(res) {
-      var event = res.STANDARD_EVENT_ADD_TO_CART;
-       var metadata = {
-        transactionID: '12344555',
-        currency: 'USD',
-        revenue: 1.5,
-        shipping: 10.2,
-        tax: 12.3,
-        coupon: 'test_coupon',
-        affiliation: 'test_affiliation',
-        description: 'Test add to cart event',
-        searchQuery: 'test keyword',
-        customData: {
-          "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
-          "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
-        }
-      };
-      Branch.sendBranchEvent(event, metadata).then(function success(res) {
-        alert("Branch Event success " + res);
-      }).catch(function error(err) {
-        alert("Branch Event " + err);
-      });
-    }).catch(function error(err) {
-      alert("Get Standard Event " + err);
-    });
-  }
+        Branch.getStandardEvents().then(function success(res) {
+            var event = res.STANDARD_EVENT_ADD_TO_CART;
+            var metadata = {
+                transactionID: '12344555',
+                currency: 'USD',
+                revenue: 1.5,
+                shipping: 10.2,
+                tax: 12.3,
+                coupon: 'test_coupon',
+                affiliation: 'test_affiliation',
+                description: 'Test add to cart event',
+                searchQuery: 'test keyword',
+                customData: {
+                    "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+                    "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
+                }
+            };
+            Branch.sendBranchEvent(event, metadata).then(function success(res) {
+                alert("Branch Event success " + res);
+            }).catch(function error(err) {
+                alert("Branch Event " + err);
+            });
+        }).catch(function error(err) {
+            alert("Get Standard Event " + err);
+        });
+        }      
   ```
   
 - ### Handle referrals
