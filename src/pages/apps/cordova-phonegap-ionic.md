@@ -509,7 +509,7 @@
         Branch.getStandardEvents().then(function success(res) {
             var event = res.STANDARD_EVENT_ADD_TO_CART;
             var metadata = {
-                transactionID: '12344555',
+                transactionID: '1234455',
                 currency: 'USD',
                 revenue: 1.5,
                 shipping: 10.2,
