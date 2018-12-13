@@ -505,7 +505,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
 
-      ```js
+        ```js
         Branch.getStandardEvents().then(function success(res) {
             var event = res.STANDARD_EVENT_ADD_TO_CART;
             var metadata = {
@@ -531,9 +531,8 @@
         }).catch(function error(err) {
             alert("Get Standard Event " + err);
         });
-        }      
-  ```
-  
+        ```
+
 - ### Handle referrals
 
     - Referral points are obtained from referral rules on the [Branch Dashboard](https://dashboard.branch.io/referrals/rules)
