@@ -38,7 +38,7 @@ Logo | Partner
 <a href="https://www.selligent.com/" target="_blank">![Selligent](/img/pages/email/selligent/selligent.png)</a>| **[Selligent Message Studio](/pages/emails/selligent.md)**
 <a href="https://www.sender.net/" target="_blank">![Sender](/img/pages/email/sender/sender.png)</a>| **[Sender](/pages/emails/sender.md)**
 <a href="https://sendgrid.com/" target="_blank">![SendGrid](/img/pages/email/sendgrid/sendgrid.png)</a>| **[SendGrid](/pages/emails/sendgrid.md)**
-<a href="https://socialflow.com/" target="_blank">![Social Flow](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/socialflow-1542648339227.png)</a>| **[Social Flow](/pages/emails/social-flow.md)**
+<a href="https://socialflow.com/" target="_blank">![Social Flow](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/socialflow-1542648339227.png)</a>| **[Social Flow](/pages/social-links/social-flow.md)**
 <a href="https://www.sparkpost.com/" target="_blank">![SparkPost](/img/pages/email/sparkpost/sparkpost.png)</a>| **[SparkPost](/pages/emails/sparkpost.md)**
 <a href="https://www.getvero.com/" target="_blank">![Vero](/img/pages/email/vero/vero.png)</a>| **[Vero](/pages/emails/vero.md)**
 <a href="https://zetaglobal.com/" target="_blank">![Zeta](/img/pages/email/zeta/zeta.png)</a>| **[Zeta](/pages/emails/zeta.md)**
