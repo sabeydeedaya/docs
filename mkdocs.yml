@@ -510,3 +510,5 @@ pages:
     - Branch Universal Ads (old) : pages/deep-linked-ads/branch-universal-ads.md
     - Twitter (old): pages/deep-linked-ads/twitter-mobile-tracking.md
     - Cohort Analysis: pages/dashboard/cohort-analysis.md
+    - Branch 연동 가이드 - iOS: pages/kr/branch-ios.md
+    - Branch 연동 가이드 - Android: pages/kr/branch-android.md
