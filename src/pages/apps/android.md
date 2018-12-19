@@ -241,7 +241,7 @@
         ```
 
     !!! warning "Only initialize Branch in the Launcher activity"
-        The app will open through the Launcher activity, where Branch will initialize and retrieve the deep link data from the link click.  The app UX should not allow users to open this LauncherActivity.
+        The app will open through the Launcher activity, where Branch will initialize and retrieve the deep link data from the link click.
 
     !!! warning "Always intialize Branch in `onStart()`"
         Initializing Branch in other Android lifecyle methods, like `onResume()`, will lead to unintended behavior. `onStart()` is what makes the activity visible to the user, as the app prepares for the activity to enter the foreground and become interactive. Learn more [here](https://developer.android.com/guide/components/activities/activity-lifecycle.html).
