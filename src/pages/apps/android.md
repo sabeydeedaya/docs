@@ -73,8 +73,9 @@
                 android:supportsRtl="true"
                 android:theme="@style/AppTheme">
 
+                <!-- Launcher Activity to handle incoming Branch intents -->    
                 <activity
-                    android:name=".MainActivity"
+                    android:name=".LauncherActivity"
                     android:launchMode="singleTask"
                     android:label="@string/app_name"
                     android:theme="@style/AppTheme.NoActionBar">
@@ -131,7 +132,7 @@
 
 - ### Initialize Branch
 
-    - Add Branch to your `MainActivity.java`
+    - Add Branch to your `LauncherActivity.java`
 
     - *Java*
 
@@ -154,12 +155,12 @@
         import io.branch.referral.Branch;
         import io.branch.referral.BranchError;
 
-        public class MainActivity extends AppCompatActivity {
+        public class LauncherActivity extends AppCompatActivity {
 
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_main);
+                setContentView(R.layout.activity_launcher);
             }
 
             @Override
@@ -172,6 +173,8 @@
                     public void onInitFinished(JSONObject referringParams, BranchError error) {
                         if (error == null) {
                             Log.i("BRANCH SDK", referringParams.toString());
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.i("BRANCH SDK", error.getMessage());
                         }
@@ -207,11 +210,11 @@
         import io.branch.referral.Branch
         import io.branch.referral.BranchError
 
-        class MainActivity : AppCompatActivity() {
+        class LauncherActivity : AppCompatActivity() {
 
             override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)
-                setContentView(R.layout.activity_main)
+                setContentView(R.layout.activity_launcher)
             }
 
             override fun onStart() {
@@ -222,6 +225,8 @@
                     override fun onInitFinished(referringParams: JSONObject, error: BranchError?) {
                         if (error == null) {
                             Log.e("BRANCH SDK", referringParams.toString)
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.e("BRANCH SDK", error.message)
                         }
