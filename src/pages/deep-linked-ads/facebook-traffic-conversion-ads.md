@@ -22,7 +22,7 @@ Conversion | Conversions | Cross-platform Display
 #### Facebook Campaign Advert Format Support Table
 
 Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dynamic | Canvas
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Traffic | ✔︎ | ✔︎ | ✔︎ | ✔︎ | ✔︎ | ✔︎ | ✔︎
 Conversion | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  | ✔︎
 

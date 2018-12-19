@@ -29,25 +29,28 @@ First, you'll want to ensure you are capturing web conversions by [integrating t
         !!! success
             In order to line up *impressions*, *clicks* and *cost* with all downstream events, analytics tags must be present on the link and the values must *exactly* match the values in the Ad Network's dashboard.
 
-    1. **Campaign ID** (*~campaign_id* in link data). Campaign ID is required to avoid duplicating clicks. More on this in the troubleshooting section. For Google, the Campaign ID can be dynamically filled in using the `{campaignid}` ValueTrack Parameter *~campaign_id={campaignid}*. For Facebook, unfortunately the Campaign ID must be manually identified and added.
+    1. **Campaign ID** (*~campaign_id* in link data). Campaign ID is required to avoid duplicating clicks. More on this in the troubleshooting section.
 
-        Facebook: Find the campaign you want to track:
-        ![image](/img/pages/deep-linked-ads/san-web-tracking/fb-edit-campaign.png)
+			1. For Google, the Campaign ID can be dynamically filled in using the `{campaignid}` ValueTrack Parameter *~campaign_id={campaignid}*.
 
-        Facebook: Click edit, and you'll be able to capture the Campaign ID:
-        ![image](/img/pages/deep-linked-ads/san-web-tracking/fb-copy-campaign-id.png)
+			An example link for Google might look like this, where the campaign is set to the exact campaign name in link data (`"~campaign":"WL Web Traffic Campaign 10-23"`) and the Campaign ID macro will be dynamically populated.
+	    *https://branchster.app.link/An3S78aUa?%243p=a_google_adwords&~campaign_id={campaignid}*
 
-    An example link for Facebook might look like this, where the campaign is set to the exact campaign name in link data (`"~campaign":"WL Web Traffic Campaign 10-23"`)
-    *https://branchster.app.link/M34SLszUZ1?%243p=a_facebook&~campaign_id=23843010858510059*
+			For more information on available dynamic parameters for Google, please [Google's ValueTrack Parameter documentation](https://support.google.com/google-ads/answer/6305348).
 
-    An example link for Google might look like this, where the campaign is set to the exact campaign name in link data (`"~campaign":"WL Web Traffic Campaign 10-23"`) and the Campaign ID macro will be dynamically populated.
-    *https://branchster.app.link/An3S78aUa?%243p=a_google_adwords&~campaign_id={campaignid}*
+			1. For Facebook, the Campaign ID can by dynamically filled in using the `{campaign.id}` dynamic parameter.
+
+			An example link for Facebook might look like this, where the campaign is set to the exact campaign name in link data (`"~campaign":"WL Web Traffic Campaign 10-23"`) and the Campaign ID macro will be dynamically populated.
+      *https://branchster.app.link/M34SLszUZ1?%243p=a_facebook&campaign_id={{campaign.id}}*
+
+		  For more information on available dynamic parameters for Facebook, please [Facebook's URL Parameters documentation](https://www.facebook.com/business/help/1016122818401732).
+
 
     As with all links, you don't have to use short links created through the dashboard, as long as you have long links with the relevant properties (*$3p*, *~feature=paid%20advertising*, *~campaign* etc.) then you can create long links dynamically.
 
-### Placing links in campaigns 
+### Placing links in campaigns
 
-As a general rule, links for Google campaigns will be placed in the *tracking template* field at the relevant level, and links for Facebook campaigns will be placed in the *Website URL* field. 
+As a general rule, links for Google campaigns will be placed in the *tracking template* field at the relevant level, and links for Facebook campaigns will be placed in the *Website URL* field.
 
 If you're a Google expert, you may notice ways to scale the deployment of tracking links. For example, you can use the campaign-level tracking template field, and [custom parameters](https://support.google.com/google-ads/answer/6325879) for ad-level macros. In all cases, as long as the right analytics tags are placed in the right locations, tracking will be maintained and full-funnel data will be visible in Branch.
 
@@ -61,7 +64,3 @@ Here are some things to know:
 1. If link clicks containing campaign ID are recorded, we *won't* show any click data *ingested via API* in the dashboard, to avoid double counting link clicks & API-ingested clicks. So, if you put links in some, but not all, ads in a campaign you can expect to see missing clicks.
 1. If you have a link with a campaign name matching the ad network's campaign name, but *no campaign ID on the link*, you will see duplicate click numbers in the dashboard.
 1. For link-tracked web campaigns, you can only compare by values that are present as an analytics tag on the link. So if you have a campaign ID, but don't have ~campaign or ~ad_name etc. on the link, you can't compare by campaign name in the dashboard, and data might seem "missing."
-
-
-
-
