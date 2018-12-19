@@ -516,3 +516,5 @@ pages:
     - Cohort Analysis: pages/dashboard/cohort-analysis.md
     - Branch 연동 가이드 - iOS: pages/kr/branch-ios.md
     - Branch 연동 가이드 - Android: pages/kr/branch-android.md
+    - iOS Universal Links: pages/kr/universal-links.md
+    - Android App Links 가이드: pages/kr/android-app-links.md
