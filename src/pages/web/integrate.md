@@ -35,6 +35,7 @@
     ```
 
     - Change `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt` to match your [Branch Dashboard](https://dashboard.branch.io/account-settings/app)
+    - If you'd like to use a specific version of the SDK, point to https://cdn.branch.io/branch-x.xx.x.min.js (e.g. https://cdn.branch.io/branch-2.47.1.min.js) rather than https://cdn.branch.io/branch-latest.min.js when initializing.
 
 ## Implement features
 
