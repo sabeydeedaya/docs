@@ -190,7 +190,7 @@
 
 - ### App Deletion
 
-If you navigate to `Account Settings`, and choose to delete your app, this will be a permanet change. Note the following actions that we apply once you delete your Branch app. 
+If you navigate to `Account Settings`, and choose to delete your app, this will be a permanent change. Note the following actions that we apply once you delete your Branch app. 
 
     - We delete the dashboard user data of the original app creator associated with that particular app. They can still log in to other apps.
     - Your links will show a 404.
