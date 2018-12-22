@@ -80,7 +80,7 @@
 
         ![image](/img/pages/apps/ios-frameworks.png)
 
-- ### Initialize Branch bharath
+- ### Initialize Branch
 
     - *Swift 4.2*
 
