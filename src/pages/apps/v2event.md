@@ -76,6 +76,17 @@ If you track commerce events without a currency, we assume they are USD. If you 
     branchUniversalObject.canonicalIdentifier = "item/12345"
     branchUniversalObject.canonicalUrl        = "https://branch.io/item/12345"
     branchUniversalObject.title               = "My Item Title"
+    
+    branchUniversalObject.contentMetadata.contentSchema     = .commerceProduct
+    branchUniversalObject.contentMetadata.quantity          = 1
+    branchUniversalObject.contentMetadata.price             = 23.20
+    branchUniversalObject.contentMetadata.currency          = .USD
+    branchUniversalObject.contentMetadata.sku               = "1994320302"
+    branchUniversalObject.contentMetadata.productName       = "my_product_name1"
+    branchUniversalObject.contentMetadata.productBrand      = "my_prod_Brand1"
+    branchUniversalObject.contentMetadata.productCategory   = .apparel
+    branchUniversalObject.contentMetadata.productVariant    = "XL"
+    branchUniversalObject.contentMetadata.condition         = .new
 
     // Create a BranchEvent:
     let event = BranchEvent.standardEvent(.purchase)
@@ -85,13 +96,13 @@ If you track commerce events without a currency, we assume they are USD. If you 
 
     // Add relevant event data:
     event.transactionID    = "12344555"
-    event.currency         = .USD;
+    event.currency         = .USD
     event.revenue          = 1.5
     event.shipping         = 10.2
     event.tax              = 12.3
-    event.coupon           = "test_coupon";
-    event.affiliation      = "test_affiliation";
-    event.eventDescription = "Event_description";
+    event.coupon           = "test_coupon"
+    event.affiliation      = "test_affiliation"
+    event.eventDescription = "Event_description"
     event.searchQuery      = "item 123"
     event.customData       = [
         "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
@@ -110,6 +121,17 @@ If you track commerce events without a currency, we assume they are USD. If you 
     branchUniversalObject.canonicalIdentifier = @"item/12345";
     branchUniversalObject.canonicalUrl        = @"https://branch.io/item/12345";
     branchUniversalObject.title               = @"My Item Title";
+    
+    branchUniversalObject.contentMetadata.contentSchema     = BranchContentSchemaCommerceProduct;
+    branchUniversalObject.contentMetadata.quantity          = @"1";
+    branchUniversalObject.contentMetadata.price             = 23.20;
+    branchUniversalObject.contentMetadata.currency          = BNCCurrencyUSD;
+    branchUniversalObject.contentMetadata.sku               = @"1994320302";
+    branchUniversalObject.contentMetadata.productName       = @"my_product_name1";
+    branchUniversalObject.contentMetadata.productBrand      = @"my_prod_Brand1";
+    branchUniversalObject.contentMetadata.productCategory   = BNCProductCategoryApparel;
+    branchUniversalObject.contentMetadata.productVariant    = @"XL";
+    branchUniversalObject.contentMetadata.condition         = @"NEW";
 
     // Create an event and add the BranchUniversalObject to it.
     BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
@@ -428,7 +450,7 @@ Lifecycle events can be described as events a user takes in your app to continue
 
     ```obj-c
     BranchEvent *event = [BranchEvent standardEvent:BranchStandardEventCompleteRegistration];
-    event.transactionID = @"tx1234"
+    event.transactionID = @"tx1234";
     event.eventDescription = @"User completed registration.";
     event.customData[@"registrationID"] = @"12345";
     [event logEvent];
