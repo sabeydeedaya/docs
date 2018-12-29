@@ -37,7 +37,9 @@
             | Instagram Stories | Fallback | *Able to force app open | App |
             | Twitter Feed | Fallback | *Able to force app open | App |
             | Twitter Browser | App | | App |
-            | Snapchat | Fallback | *Able to force app open | App | HTTPS is not supported for organic posts using custom domains. Use HTTP, or use you app.link domain. We are currently working with Snapchat for a workaround.
+            | Snap messages | App | | App | 
+            | Snap stories | Fallback | deep linking blocked on iOS | App | 
+            | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback | 
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
