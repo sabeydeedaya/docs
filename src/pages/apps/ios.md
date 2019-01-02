@@ -82,6 +82,45 @@
 
 - ### Initialize Branch
 
+    - *Swift 4.2*
+
+        ```swift hl_lines="2 10 11 12 13 14 15 16 21 22 27 28 33 34"
+        import UIKit
+        import Branch
+
+        @UIApplicationMain
+        class AppDelegate: UIResponder, UIApplicationDelegate {
+
+        var window: UIWindow?
+
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          // if you are using the TEST key
+          Branch.setUseTestBranchKey(true)
+          // listener for Branch Deep Link data
+          Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
+            // do stuff with deep link data (nav to page, display content, etc)
+            print(params as? [String: AnyObject] ?? {})
+          }
+          return true
+        }
+
+        func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+          Branch.getInstance().application(app, open: url, options: options)
+          return true
+        }
+
+        func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+          // handler for Universal Links
+          Branch.getInstance().continue(userActivity)
+          return true
+        }
+
+        func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+          // handler for Push Notifications
+          Branch.getInstance().handlePushNotification(userInfo)
+        }
+        ```
+
     - *Swift 3*
 
         ```swift hl_lines="2 10 11 12 13 14 15 16 21 22 27 28 33 34"
@@ -183,7 +222,7 @@
 
     - Uses [Universal Object properties](/pages/links/integrate/#universal-object)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         let buo = BranchUniversalObject.init(canonicalIdentifier: "content/12345")
@@ -215,7 +254,7 @@
 
     - Uses [Configure link data](/pages/links/integrate/#configure-deep-links) and custom data
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         let lp: BranchLinkProperties = BranchLinkProperties()
@@ -269,7 +308,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         buo.getShortUrl(with: lp) { (url, error) in
@@ -298,7 +337,7 @@
 
     - Uses [Deep Link Properties](/pages/links/integrate/)
 
-     - *Swift 3*
+     - *Swift*
 
         ```swift
         let message = "Check out this link"
@@ -323,7 +362,7 @@
 
     - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // listener (within AppDelegate didFinishLaunchingWithOptions)
@@ -362,7 +401,7 @@
 
     - Handled within `Branch.initSession()`
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // within AppDelegate application.didFinishLaunchingWithOptions
@@ -422,7 +461,7 @@
 
     - Needs a [Create content reference](#create-content-reference)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         buo.automaticallyListOnSpotlight = true
@@ -442,7 +481,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/content)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         BranchEvent.standardEvent(.viewItem, withContentItem: buo).logEvent()
@@ -460,7 +499,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/identities)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // login
@@ -509,7 +548,7 @@
 
     - Redeem credits
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             // option 1 (default bucket)
@@ -535,7 +574,7 @@
 
     - Load credits
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().loadRewards { (changed, error) in
@@ -566,7 +605,7 @@
 
     - Load history
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().getCreditHistory { (creditHistory, error) in
@@ -607,7 +646,7 @@
 
     - Allows you to deep link into your own from your app itself
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().handleDeepLink(withNewSession: URL(string: "https://example.app.link/u3fzDwyyjF"))
@@ -630,7 +669,7 @@
 
     - Add before `initSession` [Initialize Branch](#initialize-branch)
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().delayInitToCheckForSearchAds()
@@ -644,7 +683,7 @@
 
     - Test with fake campaign params (do not test in production)
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().setAppleSearchAdsDebugMode()
@@ -671,7 +710,7 @@
 
     - Add before `initSession` [Initialize Branch](#initialize-branch)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().disableCookieBasedMatching()
@@ -809,7 +848,7 @@
 
     - Remove before releasing to production
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().setDebug()
@@ -835,7 +874,7 @@
 
     - Remove before releasing to production
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.setUseTestBranchKey(true)
@@ -859,7 +898,7 @@
 
     - Recommend to [Navigate to content](#navigate-to-content) instead
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().registerDeepLinkController(ViewController(), forKey: "my-key", withPresentation: .optionShow)
@@ -890,7 +929,7 @@
 
     - Needs a [Share deep link](#share-deep-link)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         lp.addControlParam("$email_subject", withValue: "Your Awesome Deal")
@@ -914,7 +953,7 @@
 
     - Needs a [Share deep link](#share-deep-link)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // import delegate

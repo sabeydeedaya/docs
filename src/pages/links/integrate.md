@@ -37,7 +37,9 @@
             | Instagram Stories | Fallback | *Able to force app open | App |
             | Twitter Feed | Fallback | *Able to force app open | App |
             | Twitter Browser | App | | App |
-            | Snapchat | Fallback | *Able to force app open | App | HTTPS is not supported for organic posts using custom domains. Use HTTP, or use you app.link domain. We are currently working with Snapchat for a workaround.
+            | Snap messages | App | | App | 
+            | Snap stories | Fallback | deep linking blocked on iOS | App | 
+            | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback | 
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
@@ -131,6 +133,10 @@
 
 - ### Short links
     - Short links are the most common deep link
+    - You can customize the subdomain of `example.app.link`, or change to your own personal domain (`links.yoursite.com`)
+    - You can tailor the appearance of the short code to a custom `alias` during creation
+        - Aliases can be short strings, e.g. `https://example.app.link/october-sale`
+        - Or can be full link path, e.g. `https://example.app.link/product/id1234`
     - Short links encapsulate [link data](#configure-deep-links) inside them on link creation
         - e.g. existing link `https://example.app.link/fzmLEhobLD`
     - Short links can have additional data appended to them
@@ -171,7 +177,6 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | ~campaign | | Use this field to organize the links by actual campaign. For example, if you launched a new feature or product and want to run a campaign around that
         | ~stage | | Use this to categorize the progress or category of a user when the link was generated. For example, if you had an invite system accessible on level 1, level 3 and 5, you could differentiate links generated at each level with this parameter
         | ~tags | | This is a free form entry with unlimited values `['string']`. Use it to organize your link data with labels that don't fit within the bounds of the above
-        | alias | | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/youralias`). Link aliases must be unique (a `409 error` will occur if you create an alias already taken). Appending a `/` will break the alias. `bnc.lt` link domain alias links are incompatible with Universal Links and Spotlight.
         | type | `0` | Must be an `int`. Set to `1` to limit deep link to a single use. Set to `2` to make the link show up under [Quick Links](https://dashboard.branch.io/marketing) while adding `$marketing_title` to `data`. Does not work with the Native SDKs.
 
     - These labels allow you to customize attribution windows for a single link
@@ -283,6 +288,14 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | --- | --- | ---
         | $ios_passive_deepview | The name of the template to use for iOS. | `branch_default`
         | $android_passive_deepview | The name of the template to use for Android. | `branch_default`
+
+- ### Link appearance
+
+    - Customize the apperance of your short link
+
+        | Key | Default | Usage
+        | --- | --- | ---
+        | alias | none | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/october-campaign` or `https://example.app.link/product/id1234`). Link aliases must be unique per app (a `409 error` will occur if you create an alias already taken).
 
 - ### Open Graph
 
