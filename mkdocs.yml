@@ -109,6 +109,8 @@ pages:
   - Configure your app:
     - iOS: pages/apps/ios.md
     - Android: pages/apps/android.md
+    - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
+    - Adobe Launch Android: pages/apps/adobe-launch-android.md
     - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
     - mParticle Android: pages/apps/mparticle-android.md
     - mParticle iOS: pages/apps/mparticle-ios.md
@@ -217,7 +219,8 @@ pages:
     - Clinch: pages/deep-linked-ads/clinch-mobile-tracking.md
     - Cluep : pages/deep-linked-ads/cluep-mobile-tracking.md
     - Collectcent Digital Media : pages/deep-linked-ads/collectcent-digital-media-mobile-tracking.md
-    - CommerceX: pages/deep-linked-ads/commercex-mobile-tracking.md
+    - CommerceX HasOffers: pages/deep-linked-ads/commercex-hasoffers-mobile-tracking.md
+    - CommerceX vNative: pages/deep-linked-ads/commercex-vnative-mobile-tracking.md
     - Connected Interactive : pages/deep-linked-ads/connected-interactive-mobile-tracking.md
     - Conversant Media : pages/deep-linked-ads/conversant-media-mobile-tracking.md
     - CPI Droid : pages/deep-linked-ads/cpi-droid-mobile-tracking.md
@@ -244,8 +247,10 @@ pages:
     - FeedMob : pages/deep-linked-ads/feedmob-mobile-tracking.md
     - Filly Media Solutions : pages/deep-linked-ads/filly-media-solutions-mobile-tracking.md
     - finaceAds: pages/deep-linked-ads/financeads-mobile-tracking.md
+    - Flipmass: pages/deep-linked-ads/flipmass-mobile-tracking.md
     - Fyber : pages/deep-linked-ads/fyber-mobile-tracking.md
     - Galaksion : pages/deep-linked-ads/galaksion-mobile-tracking.md
+    - Gameberry: pages/deep-linked-ads/gameberry-mobile-tracking.md
     - Gamespipe : pages/deep-linked-ads/gamespipe-mobile-tracking.md
     - GeistM: pages/deep-linked-ads/geistm-mobile-tracking.md
     - Getloyal : pages/deep-linked-ads/getloyal-mobile-tracking.md
@@ -285,6 +290,7 @@ pages:
     - Mapendo : pages/deep-linked-ads/mapendo-mobile-tracking.md
     - Media Donuts : pages/deep-linked-ads/media-donuts-mobile-tracking.md
     - MediaMath : pages/deep-linked-ads/mediamath-mobile-tracking.md
+    - Mediasmart : pages/deep-linked-ads/mediasmart-mobile-tracking.md
     - Minimob : pages/deep-linked-ads/minimob-mobile-tracking.md
     - Mintegral : pages/deep-linked-ads/mintegral-mobile-tracking.md
     - MobAir: pages/deep-linked-ads/mobair-mobile-tracking.md
@@ -386,6 +392,7 @@ pages:
     - Unity : pages/deep-linked-ads/unity-mobile-tracking.md
     - vCommission Media : pages/deep-linked-ads/vcommission-media-mobile-tracking.md
     - Ventes Avenues: pages/deep-linked-ads/ventes-avenues-mobile-tracking.md
+    - Viant: pages/deep-linked-ads/viant-mobile-tracking.md
     - Vishibility : pages/deep-linked-ads/vishibility-mobile-tracking.md
     - Vizury: pages/deep-linked-ads/vizury-mobile-tracking.md
     - Volo Media: pages/deep-linked-ads/volo-media-mobile-tracking.md
