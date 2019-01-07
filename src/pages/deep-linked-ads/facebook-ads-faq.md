@@ -21,6 +21,10 @@ Facebook is a self-attributing network. This means that Facebook claims credit f
 
 The Branch SDK already helps you track installs and other events. When you enable the Facebook MMP integration, Branch sends events and advertising IDs to Facebook. Facebook then reports whether devices previously viewed or clicked a Facebook ad, including helpful information such as campaign, ad set, and ad. As stated above, Branch then dedupes these claims against other claims for attribution.
 
+### Do I need the Facebook SDK in order for Branch to attribute installs, opens and other events back to Facebook?
+
+No! The Branch SDK collects adequate information in order to attribute events back to Facebook ads.
+
 ### How can I use deep links in Facebook ads?
 
 Creating a deep link is easy! First, make sure you have [set up the integration with Facebook MMP](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) on the Branch Dashboard. Then navigate to the [Facebook page under Partner Management](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"} and click "Create Facebook Link".
