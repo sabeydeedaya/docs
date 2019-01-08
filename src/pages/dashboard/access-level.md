@@ -70,7 +70,7 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Data Import & Export/Data Feeds/Manager | Channel-level Settings, Sensitive Data | Admin |
   | Data Import & Export/Data Feeds/Data Integrations | Channel-level Settings, Sensitive Data | Admin |
   | Data Import & Export/Data Feeds/Webhooks | Channel-level Settings, Sensitive Data | Admin |
-  | Data Import & Export/CSV Exports | Sensitive Data, Export | Admin |
+  | Data Import & Export/Bulk Exports | Sensitive Data, Export | Admin |
   | Liveview | Sensitive Data | Admin |
   | Account Settings/App | App-level Settings | Admin, Team Member, Full Read |
   | Account Settings/User | | All | 
@@ -93,7 +93,7 @@ If you’d like to change the access levels of an existing user, navigate to the
 
 Branch previously had only two different access roles for users: Admin and Reports. With the introduction of new access roles, dashboard users with the Admin role were migrated to the new Admin role, and should not experience any change in dashboard access. Meanwhile, users with the old Reports role were migrated to the new Full Read role. 
 
-While the Reports and Full Read roles have similar permission levels, Full Read users do not have access to several sections/actions on the Branch dashboard which were available to Reports users. Full Read users are not able to create, duplicate, or edit links, and they are not able to view or export Sensitive Data in the dashboard, like that in the Account Settings, Liveview, CSV Exports, and Data Integrations sections of the dashboard.
+While the Reports and Full Read roles have similar permission levels, Full Read users do not have access to several sections/actions on the Branch dashboard which were available to Reports users. Full Read users are not able to create, duplicate, or edit links, and they are not able to view or export Sensitive Data in the dashboard, like that in the Account Settings, Liveview, Bulk Exports, and Data Integrations sections of the dashboard.
 
 ### Getting More Permissions
 

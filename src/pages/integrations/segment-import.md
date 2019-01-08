@@ -136,7 +136,7 @@ Branch imports events from Segment as [commerce, user lifecycle, content, or cus
 
 #### Using imported events
 
-Events imported from Segment to Branch will be available wherever you can normally use events within Branch. This includes dashboard visualizations, Data Feeds (including Data Integrations, Query API, Webhooks, and Data Export API), Universal Ads postbacks, Journeys targeting, Liveview and more.
+Events imported from Segment to Branch will be available wherever you can normally use events within Branch. This includes dashboard visualizations, Data Feeds (including Data Integrations, Query API, Webhooks, and Daily Export API), Universal Ads postbacks, Journeys targeting, Liveview and more.
 
 ## Advanced
 

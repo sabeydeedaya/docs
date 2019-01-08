@@ -1,6 +1,6 @@
 ## Overview
 
-Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/people-based-attribution/) can be used to pull granular Branch event data directly. A few important notes for this API:
+Branch’s Daily Export API for [People-Based Attribution](/pages/dashboard/people-based-attribution/) can be used to pull granular Branch event data directly. A few important notes for this API:
 
 - The data will only be retrievable for the last 7 days
 - The data will only appear after end of day since it's processed every 24 hours
@@ -8,13 +8,13 @@ Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/p
 - The data will only be visible for your live key (not your test key)
 
 !!! note "Data Feeds is a premium solution"
-    The Data Export API is included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Daily Export API is included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [Bulk Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
     **If you are looking for the legacy Data Export API**, please see [these docs](/pages/exports/api/).
 
 ## Setup
 
-In order to use this API you must have an App ID and a Branch Public Key. You must also have a Data Feeds subscription. In order to enable the Data Export API, navigate to Data Import & Export in the Branch dashboard and then toggle on the Data Export API using the slider on the Manager page.
+In order to use this API you must have an App ID and a Branch Public Key. You must also have a Data Feeds subscription. In order to enable the Daily Export API, navigate to Data Import & Export in the Branch dashboard and then toggle on the Daily Export API using the slider on the Manager page.
 
 You can find your keys in your [Account Settings](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 
@@ -75,4 +75,4 @@ Data will be available through the API only for 7 days after the date it's poste
 
 ### Exporting beyond 7 days
 
-In accordance with our internal policies related to GDPR and other data protection laws, we hash many fields, including IP address and advertising identifiers, after 7 days. This means that if you want to export data beyond 7 days, either via the Dashboard's CSV Exports or by requesting a manual data dump, these fields will no longer contain the original values. For this reason, we highly recommend you always export raw data within 7 days.
+In accordance with our internal policies related to GDPR and other data protection laws, we hash many fields, including IP address and advertising identifiers, after 7 days. This means that if you want to export data beyond 7 days, either via the Dashboard's Bulk Exports or by requesting a manual data dump, these fields will no longer contain the original values. For this reason, we highly recommend you always export raw data within 7 days.

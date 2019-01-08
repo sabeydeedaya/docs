@@ -96,7 +96,7 @@ Branch imports events from mParticle as [commerce, user lifecycle, content, or c
 
 #### Using imported events
 
-Events imported from mParticle to Branch will be available wherever you can normally use events within Branch. This includes dashboard visualizations, Data Feeds (including Data Integrations, Query API, Webhooks, and Data Export API), Universal Ads postbacks, Journeys targeting, Liveview and more.
+Events imported from mParticle to Branch will be available wherever you can normally use events within Branch. This includes dashboard visualizations, Data Feeds (including Data Integrations, Query API, Webhooks, and Daily Export API), Universal Ads postbacks, Journeys targeting, Liveview and more.
 
 ## Advanced
 

@@ -485,7 +485,7 @@ pages:
         - Segment: pages/integrations/segment.md
         - Segment Event Import: pages/integrations/segment-import.md
         - Tune: pages/integrations/tune.md
-      - Data Export API: pages/exports/api-v3.md
+      - Daily Export API: pages/exports/api-v3.md
       - Webhooks: pages/exports/ua-webhooks.md
       - Query API: pages/exports/query-api.md
       - Query Recipe Book: pages/exports/query-recipe-book.md

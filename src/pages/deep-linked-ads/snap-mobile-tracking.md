@@ -125,4 +125,4 @@ There are many ways to access data pertaining to Snap.
 
 You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the Branch Dashboard, as well as the Query API.
 
-We cannot send device-level Snap attribution data to third parties. Thus we cannot send events attributed to Snap via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Data Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
+We cannot send device-level Snap attribution data to third parties. Thus we cannot send events attributed to Snap via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Daily Export API, or Bulk Exports), or using the Branch Dashboard for all of your analytics and attribution needs.
