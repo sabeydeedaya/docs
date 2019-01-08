@@ -339,6 +339,12 @@ If you see absolutely 0 data coming through from your integration, it's possible
 - iOS: Add the AdSupport.framework and read this extra info about [submitting](/pages/apps/ios-launch/) to the store.
 - Android: Add Google Play Services so that we can collect GAID. See [here](/pages/apps/android-launch/).
 
+##### Facebook campaigns attributing to deep links
+
+Facebook has a dedicated endpoint for deep linking in app install campaign types that is not used for attribution. Branch will not attribute to links received from that endpoint, and instead, uses the official MMP endpoint for attribution. However, we've seen that some Facebook ad formats, including Video Ads and Re-engagement Ads, do trigger true link clicks and therefore can cause attribution conflicts.
+
+To use links for deep linking without attributing to the link, please append `%24deeplink_no_attribution=true` to the link. If this parameter is used, then Branch will not attribute to that link and will instead use the MMP response in all cases.
+
 ##### Installs Counted as Reinstalls, Opens on Branch
 
 One discrepancy root cause we've seen before is the scenario where Branch will classify an install as a reinstall or open. We remember the history of a particular user via their IDFA or Google Advertising ID (in addition to using a few other methods) and will detect whether the user is actually a new user or a returning user who had previously uninstalled your app. Facebook has a different mechanism that is limited to 180 days. Branch in some cases has detected reinstalls that occurred more than a year later.
