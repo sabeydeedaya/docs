@@ -35,7 +35,7 @@
             | Instagram Profile | Fallback | *Able to force app open | App |
             | Instagram Browser | App | | App |
             | Instagram Stories | Fallback | *Able to force app open | App |
-            | Twitter Feed | Fallback | *Able to force app open | App |
+            | Twitter Feed | Fallback | *Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
             | Twitter Browser | App | | App |
             | Snap messages | App | | App | 
             | Snap stories | Fallback | deep linking blocked on iOS | App | 
