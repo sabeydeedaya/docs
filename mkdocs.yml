@@ -130,6 +130,7 @@ pages:
   - Create deep links: pages/links/integrate.md
   - Track analytics:
     - Dashboard analytics: pages/dashboard/analytics.md
+    - Importing Historical User Data: pages/dashboard/importing-historical-user-data.md
     - People-Based Attribution: pages/dashboard/people-based-attribution.md
     - Liveview: pages/exports/pba-liveview.md
     - Time zone support: pages/dashboard/timezone.md
