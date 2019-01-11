@@ -127,6 +127,9 @@
         - `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw`
         - `key_test_hlxrWC5Zx16DkYmWu4AHiimdqugRYMr`
 
+    !!! warning "Google Play App Install Referrer API"
+        Branch can use the [Google Play App Install Referrer API](https://developer.android.com/google/play/installreferrer/library.html) to return the Install Referrer click timestamp and the install-begin timestamp. Please make sure you include the `Branch install referrer tracking (optional)` receiver in the AndroidManifest.xml file as per the above code sample.
+
     !!! warning "Single Task launch mode required"
         If there is no singleTask Activity instance in the system yet, a new one would be created and simply placed on top of the stack in the same Task. If you are using the Single Task mode as is, it should not restart your entire app. The Single Task mode instantiates the Main/Splash Activity only if it does not exist in the Activity Stack. If the Activity exists in the background, every subsequent intent to the Activity just brings it to the foreground. You can read more about Single Task mode [here](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html#TaskLaunchModes).
 
