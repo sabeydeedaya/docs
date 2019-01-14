@@ -38,7 +38,7 @@ Then call the `registerView` method on your `BranchUniversalObject`. You will wa
     // Important! Set this flag to true for local spotlight indexing:
     branchUniversalObject.locallyIndex = true
 
-...
+    ...
 
     // Next, register the content view, perhaps in your `viewDidAppear` method:
     branchUniversalObject.registerView()
@@ -61,10 +61,10 @@ Then call the `registerView` method on your `BranchUniversalObject`. You will wa
     // Important! Set this flag to true for local spotlight indexing:
     branchUniversalObject.locallyIndex = YES;
 
-...
+    ...
 
     // Next, register the content view, perhaps in your `viewDidAppear` method:
-    [branchUniversalObject registerView];
+      [branchUniversalObject registerView];
     ```
 
 This will create the appropriate NSUserActivity and tell Apple that a view occurred, adding it to the local Spotlight index if not already present in addition to increasing it's ranking in the global index. To read more about this, check out [this blog post](https://blog.branch.io/ios-10-spotlight-app-discovery-nsuseractivity-and-search-relevancy).
@@ -105,8 +105,9 @@ If the user doesn't have the app installed and finds your content through search
 - You can use our identifier when indexing to perform advanced customizations of the content being listed.
 
      - *Swift 3*
+
         ```swift
-         branch.getSpotlightUrl(withParams: ["$og_title": "My App",
+        branch.getSpotlightUrl(withParams: ["$og_title": "My App",
                                             "$og_description": "My app is disrupting apps",
                                             "$og_thumb": "https://s3-us-west-1.amazonaws.com/branchhost/mosaic_og.png",
                                             "object_id": "1234"],
@@ -126,7 +127,8 @@ If the user doesn't have the app installed and finds your content through search
         ```
 
     - *Objective-C*
-        ```objc
+
+        ```obj-c
         [branch getSpotlightUrlWithParams:@{@"$og_title": @"My App",
                                                 @"$og_description": @"My app is disrupting apps",
                                                 @"$og_thumb": @"https://s3-us-west-1.amazonaws.com/branchhost/mosaic_og.png",
@@ -164,7 +166,7 @@ If the goal is to simply index the content of the app without creating a `Branch
     ```
 
 - *Objective-C*
-    ```objc
+    ```obj-c
     BranchCSSearchableItemAttributeSet *set = [[BranchCSSearchableItemAttributeSet alloc] init];
     set.title = @"My Content Title";
     set.contentDescription = @"My Content Description";
@@ -181,7 +183,8 @@ If the goal is to simply index the content of the app without creating a `Branch
 - Index single Branch Universal Object
 
     - *Swift 3*
-        ```swift
+
+        ````swift
         universalObject.listOnSpotlight(with: linkProperty) { (url, error) in
             if (!error) {
                 print("Successfully indexed on spotlight")
@@ -190,7 +193,7 @@ If the goal is to simply index the content of the app without creating a `Branch
         ```
 
     - *Objective-C*
-        ```objc
+        ```obj-c
         [universalObject listOnSpotlightWithLinkProperties:linkProperties callback:^(NSString * _Nullable url, NSError * _Nullable error) {
             if (!error) {
                  NSLog(@"Successfully indexed on spotlight");
@@ -203,6 +206,7 @@ If the goal is to simply index the content of the app without creating a `Branch
 - Index batch of Branch Universal Objects on Spotlight using CSSearchableIndex
 
     - *Swift 3*
+
         ```swift
         Branch.getInstance().indexOnSpotlight(usingSearchableItems: universalObjects,
                                                 completion: { (universalObjects, error) in
@@ -213,7 +217,7 @@ If the goal is to simply index the content of the app without creating a `Branch
         ```
 
     - *Objective-C*
-        ```objc
+        ```obj-c
         [[Branch getInstance] indexOnSpotlightUsingSearchableItems:universalObjects
                                                     completion:^(NSArray<BranchUniversalObject *> *universalObjects,
                                                                  NSError *error) {
@@ -240,7 +244,7 @@ If the goal is to simply index the content of the app without creating a `Branch
 
     - *Objective-C*
 
-        ```objc
+        ```obj-c
         [universalObject removeFromSpotlightWithCallback:^(NSError * _Nullable error) {
             if (!error) {
                 NSLog(@"universal Object removed from spotlight");
@@ -262,7 +266,7 @@ If the goal is to simply index the content of the app without creating a `Branch
 
     - *Objective-C*
 
-        ```objc
+        ```obj-c
         [[Branch getInstance] removeSearchableItemsWithBranchUniversalObjects:@[BUO1,BUO2] callback:^(NSError *error) {
             if (!error) {
                 NSLog(@"An array of BUOs removed from spotlight");
@@ -287,7 +291,7 @@ If the goal is to simply index the content of the app without creating a `Branch
 
     - *Objective-C*
 
-        ```objc
+        ```obj-c
         [[Branch getInstance] removeAllPrivateContentFromSpotLightWithCallback:^(NSError *error) {
             if (!error) {
                 NSLog(@"All branch privately indexed content removed from spotlight");
