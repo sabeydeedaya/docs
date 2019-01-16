@@ -2,7 +2,7 @@
 
 ![Apple_Search_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/search_ads-1528501330030.png)
 
-Branch can help track your **[Apple Search Ad](https://searchads.apple.com/)** campaigns by fetching the search ad attribution from Apple at app install.  You can then use the parameters you've set in the Apple Search Ad dashboard, parameters such as the campaign name, and take special action in you app after an install, or simply track the effectiveness of a campaign in the Branch dashboard, along with other your other Branch statistics, such as total installs, referrals, and app link statistics.
+Branch can help track your **[Apple Search Ad](https://searchads.apple.com/)** campaigns by fetching the search ad attribution from Apple at app install.  You can then use the parameters you've set in the Apple Search Ad dashboard, parameters such as the campaign name, and take special action in your app after an install, or simply track the effectiveness of a campaign in the Branch dashboard, along with other your other Branch statistics, such as total installs, referrals, and app link statistics.
 
 + [Apple Search Ads](https://searchads.apple.com/)
 + [Apple Search Ads for Developers](https://developer.apple.com/app-store/search-ads/)
