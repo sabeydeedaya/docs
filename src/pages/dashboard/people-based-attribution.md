@@ -1,8 +1,3 @@
-# People-Based Attribution
-
-!!! Note "Completing Dashboard Migration on June 25th "
-	On June 25th, 2018, the new dashboard powered by People-Based Attribution will come out of beta. All Branch analytics views will be automatically migrated over to the revamped dashboard. You will no longer be able to switch back to the legacy view of the Branch dashboard after this date. The vast majority of Branch partners are already using the new dashboard and can disregard this notice.
-
 ## Overview
 
 Branch is introducing a new and improved analytics platform for you to preview.
@@ -54,7 +49,12 @@ Note: no code changes are needed, and if you want to change the deep linking win
 
 ### Attribution Windows
 
-Now that deep linking and attribution analytics are separate, we have attribution windows for analytics. As a reminder, an attribution window simply defines the window of time for  when an eligible attribution or deep link can occur. In order to make changes, navigate to the [link settings](https://dashboard.branch.io/link-settings) page, and scroll down to "Attribution Window".
+Now that deep linking and attribution analytics are separate, we have attribution windows for analytics. As a reminder, an attribution window simply defines the window of time for  when an eligible attribution or deep link can occur.
+
+To access your attribution settings, navigate to the [Link Settings](https://dashboard.branch.io/link-settings) page, and click on the `Attribution Windows` tab.
+
+!!! info "Default Attribution Window Settings"
+		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.  
 
 ![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
 
@@ -63,6 +63,8 @@ Now that deep linking and attribution analytics are separate, we have attributio
 - `Click to x` refers to events that occur after someone clicks a Branch link. If someone clicks and installs from a link, and comes back 10 days later to purchase, we would count that as a conversion, and it would surface in our dashboard. Measured in days.
 
 - `Impression to x` refers to events that occur after someone views a Branch impression link. Measured in days.
+
+- `Re-engagement Inactivity` defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. USed in re-engagement cohort analysis but not activity analysis.
 
 Using the default value of 2 hours for deep linking and attribution under the old system, and 2 hours for deep linking with 7 days for install attribution, here's what you can expect.
 
@@ -150,7 +152,7 @@ One thing to be aware of is that unique counts may be within a 4% window of erro
 
 ### Differing Installs
 
-As part of People-Based Attribution, your install numbers will likely not line up one to one. What this means is that if you see 200 Branch driven installs on the old Analytics Platform, it's ok to see 190 Branch driven installs (or even 210) on the same day. This is due to the way we have fundamentally changed the way we count attributions. 
+As part of People-Based Attribution, your install numbers will likely not line up one to one. What this means is that if you see 200 Branch driven installs on the old Analytics Platform, it's ok to see 190 Branch driven installs (or even 210) on the same day. This is due to the way we have fundamentally changed the way we count attributions.
 
 Some installs on the old analytics platform were actually "reinstalls", but were not counted as such, which would be one reason why installs are lower. Some campaigns will count higher installs, because they may be clicked on a variety of browsers and platforms, and Branch is able to connect those touch points to accurately count an install.
 
