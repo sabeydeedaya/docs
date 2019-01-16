@@ -773,8 +773,8 @@
 
         ```java
         Intent resultIntent = new Intent(this, TargetClass.class);
-        intent.putExtra("branch","http://xxxx.app.link/testlink");
-        intent.putExtra("branch_force_new_session",true);
+        resultIntent.putExtra("branch","http://xxxx.app.link/testlink");
+        resultIntent.putExtra("branch_force_new_session",true);
         PendingIntent resultPendingIntent =  PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         ```
 
@@ -782,9 +782,9 @@
 
         ```java
         val resultIntent = Intent(this, TargetClass::class.java)
-        intent.putExtra("branch", "http://xxxx.app.link/testlink")
+        resultIntent.putExtra("branch", "http://xxxx.app.link/testlink")
         val resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT)
-        intent.putExtra("branch_force_new_session", true)
+        resultIntent.putExtra("branch_force_new_session", true)
         ```
 
 - ### Handle links in your own app
