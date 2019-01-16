@@ -58,7 +58,7 @@
 
     - Add Branch to your `AndroidManifest.xml`
 
-        ```xml hl_lines="9 17 26 27 28 29 30 31 32 34 35 36 37 38 39 40 44 45 46 47 49 50 51 52 53 54"
+        ```xml hl_lines="18 26 27 28 29 30 31 32 33 35 36 37 38 39 40 41 42 44 45 46 47 48 50 51 52 53 54 55"
         <?xml version="1.0" encoding="utf-8"?>
         <manifest xmlns:android="http://schemas.android.com/apk/res/android"
             package="com.eneff.branch.example.android">
@@ -139,7 +139,7 @@
 
     - *Java*
 
-        ```java hl_lines="3 9 14 16 17 31 32 33 34 35 36 37 38 39 40 41 44 45 46 47"
+        ```java hl_lines="16 17 31 32 33 34 35 36 37 38 39 40 41 42 43 46 47 48 49"
         package com.eneff.branch.example.android;
 
         import android.content.Intent;
@@ -194,7 +194,7 @@
 
     - *Kotlin*
 
-        ```java hl_lines="3 9 14 16 17 29 30 31 32 33 34 35 36 37 38 41 42 43"
+        ```java hl_lines="16 17 29 30 31 32 33 34 35 36 37 38 39 40 43 44 45"
         package com.eneff.branch.example.android
 
         import android.content.Intent
@@ -773,8 +773,8 @@
 
         ```java
         Intent resultIntent = new Intent(this, TargetClass.class);
-        intent.putExtra("branch","http://xxxx.app.link/testlink");
-        intent.putExtra("branch_force_new_session",true);
+        resultIntent.putExtra("branch","http://xxxx.app.link/testlink");
+        resultIntent.putExtra("branch_force_new_session",true);
         PendingIntent resultPendingIntent =  PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         ```
 
@@ -782,9 +782,9 @@
 
         ```java
         val resultIntent = Intent(this, TargetClass::class.java)
-        intent.putExtra("branch", "http://xxxx.app.link/testlink")
+        resultIntent.putExtra("branch", "http://xxxx.app.link/testlink")
         val resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT)
-        intent.putExtra("branch_force_new_session", true)
+        resultIntent.putExtra("branch_force_new_session", true)
         ```
 
 - ### Handle links in your own app
