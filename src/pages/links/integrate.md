@@ -295,7 +295,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 
         | Key | Default | Usage
         | --- | --- | ---
-        | alias | none | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/october-campaign` or `https://example.app.link/product/id1234`). Link aliases must be unique per app (a `409 error` will occur if you create an alias already taken).
+        | alias | none | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/october-campaign` or `https://example.app.link/product/id1234`). Link aliases must be unique per app (a `409 error` will occur if you create an alias already taken). Also note that we don't currently support single character path segments after the domain (`/a/`, `/b/`, `/c/`, etc).
 
 - ### Open Graph
 
