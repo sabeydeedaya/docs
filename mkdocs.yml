@@ -210,6 +210,7 @@ pages:
     - Blind Ferret Incent : pages/deep-linked-ads/blind-ferret-incent-mobile-tracking.md
     - Blind Ferret Non-Incent : pages/deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
     - Bright Storm DSP: pages/deep-linked-ads/bright-storm-mobile-tracking.md
+    - Cauly: pages/deep-linked-ads/cauly-mobile-tracking.md
     - Centro: pages/deep-linked-ads/centro-mobile-tracking.md
     - Chillofy Digital Agency: pages/deep-linked-ads/chillofy-digital-agency-mobile-tracking.md
     - CityAds : pages/deep-linked-ads/cityads-mobile-tracking.md
@@ -251,6 +252,7 @@ pages:
     - FeedMob : pages/deep-linked-ads/feedmob-mobile-tracking.md
     - Filly Media Solutions : pages/deep-linked-ads/filly-media-solutions-mobile-tracking.md
     - finaceAds: pages/deep-linked-ads/financeads-mobile-tracking.md
+    - Finaff: pages/deep-linked-ads/finaff-mobile-tracking.md
     - Flipmass: pages/deep-linked-ads/flipmass-mobile-tracking.md
     - Fyber : pages/deep-linked-ads/fyber-mobile-tracking.md
     - Galaksion : pages/deep-linked-ads/galaksion-mobile-tracking.md
@@ -405,16 +407,18 @@ pages:
     - Vizury: pages/deep-linked-ads/vizury-mobile-tracking.md
     - Volo Media: pages/deep-linked-ads/volo-media-mobile-tracking.md
     - Vserv : pages/deep-linked-ads/vserv-mobile-tracking.md
-    - Vungle: pages/deep-linked-ads/vungle-mobile-tracking.md
+    - Vungle : pages/deep-linked-ads/vungle-mobile-tracking.md
+    - Wagawin : pages/deep-linked-ads/wagawin-mobile-tracking.md
     - Wakeapp : pages/deep-linked-ads/wakeapp-mobile-tracking.md
-    - Webpals Mobile: pages/deep-linked-ads/webpals-mobile-mobile-tracking.md
+    - Webpals Mobile : pages/deep-linked-ads/webpals-mobile-mobile-tracking.md
     - Xapads Media : pages/deep-linked-ads/xapads-media-mobile-tracking.md
     - Yandex Direct : pages/deep-linked-ads/yandex-direct-mobile-tracking.md
     - YeahMobi : pages/deep-linked-ads/yeahmobi-mobile-tracking.md
+    - Yep Ads : pages/deep-linked-ads/yep-ads-mobile-tracking.md
     - YouAppi : pages/deep-linked-ads/youappi-mobile-tracking.md
     - YouAppi Retargeting : pages/deep-linked-ads/youappi-retargeting-mobile-tracking.md
-    - ZenAds: pages/deep-linked-ads/zenads-mobile-tracking.md
-    - Zorka.Mobi: pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
+    - ZenAds : pages/deep-linked-ads/zenads-mobile-tracking.md
+    - Zorka.Mobi : pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
     - Universal Email Partners: pages/emails/email-partners-list.md
     - Active Campaign: pages/emails/active-campaign.md
