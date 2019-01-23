@@ -2,7 +2,7 @@
 <div class="main-page">
   <!-- row 1 -->
   <div class="main-nav">
-    <div class="flex space-between" style="margin-bottom: 20px;">
+    <div class="flex" style="margin-bottom: 20px;">
       <a href="#">
         <div>
           <img src="../img/pages/main-page/branch-basics.jpg" alt="Branch Basics"/>
@@ -27,9 +27,6 @@
           <p>SDK Resources</p>
         </div>
       </a>
-    </div>
-    <!-- row 2 -->
-    <div class="flex space-between">
       <a href="#">
         <div>
           <img src="../img/pages/main-page/channels.jpg" alt="Channe;s"/>
@@ -39,13 +36,13 @@
       <a href="#">
       <div>
         <img src="../img/pages/main-page/partner-management.jpg" alt="Partner Management"/>
-        <p>Partner<br>Management</p>
+        <p>Partner Management</p>
       </div>
       </a>
       <a href="#">
         <div>
           <img src="../img/pages/main-page/activity-reports.jpg" alt="Activity Reports & Analytics"/>
-          <p>Activity Reports<br>& Analytics</p>
+          <p>Activity Reports & Analytics</p>
         </div>
       </a>
       <a href="#">
