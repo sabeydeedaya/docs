@@ -447,3 +447,28 @@ body.modal {
 .vglnk {
   word-break: break-word;
 }
+
+
+/* ////////////////////////////// */
+/* MAIN LANDING PAGE */
+/* ////////////////////////////// */
+.main-page img {
+  box-shadow: none;
+}
+.main-page div {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.f-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-nav img {
+  margin-right: 20px;
+}
