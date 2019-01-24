@@ -452,45 +452,33 @@ body.modal {
 /* ////////////////////////////// */
 /* MAIN LANDING PAGE */
 /* ////////////////////////////// */
-.main-page {
-  background-color: #0088D1;
-}
+
 .main-page img {
   box-shadow: none;
 }
-.main-page p {
-  margin-bottom: 0;
-}
-.main-nav .flex > a {
-  width: 23%;
-  margin: 1.5% 1%;
-  text-align: center;
-  background: #fff;
-}
-.main-nav .flex div ,
-.bottom-nav .flex div {
-  background-color: #fff;
-  padding: 10px;
-}
-.flex {
-  display: flex;
-  flex-flow: row wrap;
-}
-.f-center {
+
+.nav-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.bottom-nav .flex > a {
-  width: 47%;
-  margin: 1.5%;
-  text-align: left;
-}
-.bottom-nav img {
-  margin-right: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@media (min-width: 992px){
-  .main-page { padding: 20px; }
-  .main-nav a { height: 209px; }
+.nav-wrap a {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.main-nav.nav-wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.nav-wrap p {
+  color: #0075C9;
+  font-weight: bold;
 }

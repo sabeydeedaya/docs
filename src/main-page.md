@@ -2,89 +2,87 @@
 <div class="main-page">
   <!-- row 1 -->
   <div class="main-nav">
-    <div class="flex" style="margin-bottom: 20px;">
+    <div class="nav-wrap space-between">
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/branch-basics.jpg" alt="Branch Basics"/>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
           <p>Branch Basics</p>
         </div>
       </a>
       <a href="#">
       <div>
-        <img src="../img/pages/main-page/account-settings.jpg" alt="Account Settings"/>
+        <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
         <p>Account Settings</p>
       </div>
       </a>
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/link-settings.jpg" alt="link Settings"/>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
           <p>Link Settings</p>
         </div>
       </a>
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/sdk-resources.jpg" alt="SDK Resources"/>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
           <p>SDK Resources</p>
         </div>
       </a>
+    </div>
+    <div class="nav-wrap space-between">
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/channels.jpg" alt="Channe;s"/>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
           <p>Channels</p>
         </div>
       </a>
       <a href="#">
       <div>
-        <img src="../img/pages/main-page/partner-management.jpg" alt="Partner Management"/>
-        <p>Partner Management</p>
+        <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
+        <p>Partner<br>Management</p>
       </div>
       </a>
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/activity-reports.jpg" alt="Activity Reports & Analytics"/>
-          <p>Activity Reports & Analytics</p>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
+          <p>Activity Reports <br>& Analytics</p>
         </div>
       </a>
       <a href="#">
         <div>
-          <img src="../img/pages/main-page/data-feeds.jpg" alt="Data Feeds"/>
+          <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
           <p>Data Feeds</p>
         </div>
       </a>
     </div>
   </div>
   <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 20px 0;"/>
+  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
   <!-- bottom nav -->
-  <div class="bottom-nav">
-    <div class="flex space-between">
-      <a href="#">
-        <div class="f-center">
-          <img src="../img/pages/main-page/how-to-guides.jpg" alt="How To Guides"/>
-          How To Guides
-        </div>
-      </a>
-      <a href="#">
-      <div class="f-center">
-        <img src="../img/pages/main-page/troubleshooting.jpg" alt="Troubleshooting"/>
-        Troubleshooting
+  <div class="bottom-nav nav-wrap space-between">
+    <a href="#">
+      <div>
+        <img src="../img/pages/main-page/how-to.svg" alt="How To Guides"/>
+        <p>How To Guides</p>
       </div>
-      </a>
-    </div>
-    <div class="flex space-between">
-      <a href="#">
-        <div class="f-center">
-          <img src="../img/pages/main-page/product-updates.jpg" alt="Product Updates"/>
-          Product Updates
-        </div>
-      </a>
-      <a href="#">
-        <div class="f-center">
-          <img src="../img/pages/main-page/best-practices.jpg" alt="Best Practices"/>
-          Best Practices
-        </div>
-      </a>
-    </div>
+    </a>
+    <a href="#">
+      <div>
+        <img src="../img/pages/main-page/troubleshoot.svg" alt="Troubleshooting"/>
+        <p>Troubleshooting</p>
+      </div>
+    </a>
+    <a href="#">
+      <div>
+        <img src="../img/pages/main-page/product-updates.svg" alt="Product Updates"/>
+        <p>Product Updates</p>
+      </div>
+    </a>
+    <a href="#">
+      <div>
+        <img src="../img/pages/main-page/best-practices.svg" alt="Best Practices"/>
+        <p>Best Practices</p>
+      </div>
+    </a>
   </div> 
   <!--/bottom-nav-->
 </div>
