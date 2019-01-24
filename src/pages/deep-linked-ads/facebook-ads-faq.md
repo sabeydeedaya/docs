@@ -46,7 +46,7 @@ There are advanced options for tracking events, which you can read more about [b
 
 | **Permissions (OAuth scopes)** | **Why** |
 | - | - |
-| ads_read | Pulling marketing insights data (e.g. impressions, clicks) to present on the Branch Dashboard. Also used for pulling creative name and id, etc., to provide richer analytics for installs, opens and other events. |
+| ads_read | Pulling marketing insights data (e.g. impressions, clicks, cost) to present on the Branch Dashboard. Also used for pulling creative name and id, etc., to provide richer analytics for installs, opens and other events. |
 
 ### What is each piece of information needed during the onboarding process, and why?
 
