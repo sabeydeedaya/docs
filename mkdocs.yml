@@ -141,8 +141,8 @@ pages:
     - Text Me The App: pages/web/text-me-the-app.md
     - Hosted Deep Link Data: pages/web/hosted-data.md
   - Links in your paid ads:
-    - Universal Ads Partners: pages/deep-linked-ads/ad-networks-list.md
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
+    - Universal Ads Partners: pages/deep-linked-ads/ad-networks-list.md
     - 3.14 Digital : pages/deep-linked-ads/3.14-digital-mobile-tracking.md
     - A4G : pages/deep-linked-ads/a4g-mobile-tracking.md
     - Aarki : pages/deep-linked-ads/aarki-mobile-tracking.md
@@ -152,6 +152,7 @@ pages:
     - Ad2Click Media: pages/deep-linked-ads/ad2click-media-mobile-tracking.md
     - Ad4Screen : pages/deep-linked-ads/ad4screen-mobile-tracking.md
     - Ad4top: pages/deep-linked-ads/ad4top-mobile-tracking.md
+    - AdAction Engage : pages/deep-linked-ads/adaction-engage-mobile-tracking.md
     - Adaction Interactive : pages/deep-linked-ads/adaction-interactive-mobile-tracking.md
     - Adacts Digital: pages/deep-linked-ads/adacts-digital-mobile-tracking.md
     - Adbaazar : pages/deep-linked-ads/adbaazar-mobile-tracking.md
@@ -169,6 +170,7 @@ pages:
     - Admitad : pages/deep-linked-ads/admitad-mobile-tracking.md
     - Admobly : pages/deep-linked-ads/admobly-mobile-tracking.md
     - Admobs: pages/deep-linked-ads/admobs-mobile-tracking.md
+    - Adobe Advertising Cloud: pages/deep-linked-ads/adobe-advertising-cloud-mobile-tracking.md
     - Adperio : pages/deep-linked-ads/adperio-mobile-tracking.md
     - ADPick : pages/deep-linked-ads/adpick-mobile-tracking.md
     - ADSDOT : pages/deep-linked-ads/adsdot-mobile-tracking.md
@@ -231,6 +233,7 @@ pages:
     - Criteo: pages/deep-linked-ads/criteo-mobile-tracking.md
     - crobo : pages/deep-linked-ads/crobo-mobile-tracking.md
     - CrossInstall : pages/deep-linked-ads/crossinstall-mobile-tracking.md
+    - Crunchie Media : pages/deep-linked-ads/crunchie-media-mobile-tracking.md
     - Curate Mobile : pages/deep-linked-ads/curate-mobile-mobile-tracking.md
     - Daisycon : pages/deep-linked-ads/daisycon-mobile-tracking.md
     - Dangleads : pages/deep-linked-ads/dangleads-mobile-tracking.md
@@ -291,6 +294,7 @@ pages:
     - Liftoff : pages/deep-linked-ads/liftoff-mobile-tracking.md
     - Linking Mobile: pages/deep-linked-ads/linking-mobile-mobile-tracking.md
     - LinkShare : pages/deep-linked-ads/linkshare-mobile-tracking.md
+    - Madup: pages/deep-linked-ads/madup-mobile-tracking.md
     - Magnet: pages/deep-linked-ads/magnet-mobile-tracking.md
     - Maiden Marketing: pages/deep-linked-ads/maiden-marketing-mobile-tracking.md
     - Manage: pages/deep-linked-ads/manage-mobile-tracking.md
@@ -326,7 +330,9 @@ pages:
     - MundoMedia: pages/deep-linked-ads/mundomedia-mobile-tracking.md
     - myTarget : pages/deep-linked-ads/mytarget-mobile-tracking.md
     - NativeX : pages/deep-linked-ads/nativex-mobile-tracking.md
+    - Naver : pages/deep-linked-ads/naver-mobile-tracking.md
     - Netcore Solutions : pages/deep-linked-ads/netcore-solutions-mobile-tracking.md
+    - Nswitch : pages/deep-linked-ads/nswitch-mobile-tracking.md
     - Oath: pages/deep-linked-ads/oath-mobile-tracking.md
     - Offer18 : pages/deep-linked-ads/offer18-mobile-tracking.md
     - Oplytic : pages/deep-linked-ads/oplytic-mobile-tracking.md
@@ -344,6 +350,7 @@ pages:
     - Pick Media: pages/deep-linked-ads/pick-media-mobile-tracking.md
     - Picnic Media : pages/deep-linked-ads/picnic-media-mobile-tracking.md
     - Pinisight : pages/deep-linked-ads/pinisight-mobile-tracking.md
+    - Pinterest : pages/deep-linked-ads/pinterest-mobile-tracking.md
     - Pocketmath: pages/deep-linked-ads/pocketmath-mobile-tracking.md
     - Prappers : pages/deep-linked-ads/prappers-mobile-tracking.md
     - ProfiliAd : pages/deep-linked-ads/profiliad-mobile-tracking.md
@@ -411,6 +418,7 @@ pages:
     - Wagawin : pages/deep-linked-ads/wagawin-mobile-tracking.md
     - Wakeapp : pages/deep-linked-ads/wakeapp-mobile-tracking.md
     - Webpals Mobile : pages/deep-linked-ads/webpals-mobile-mobile-tracking.md
+    - Wider Planet : pages/deep-linked-ads/wider-planet-mobile-tracking.md
     - Xapads Media : pages/deep-linked-ads/xapads-media-mobile-tracking.md
     - Yandex Direct : pages/deep-linked-ads/yandex-direct-mobile-tracking.md
     - YeahMobi : pages/deep-linked-ads/yeahmobi-mobile-tracking.md
@@ -420,6 +428,7 @@ pages:
     - ZenAds : pages/deep-linked-ads/zenads-mobile-tracking.md
     - Zorka.Mobi : pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
+    - Branch Universal Email: pages/emails/universal-email.md
     - Universal Email Partners: pages/emails/email-partners-list.md
     - Active Campaign: pages/emails/active-campaign.md
     - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
