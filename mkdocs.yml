@@ -6,7 +6,7 @@ site_url: 'https://docs.branch.io'
 repo_name: 'Branch documentation'
 repo_url: 'https://github.com/branchmetrics/docs'
 edit_uri: 'edit/master/src/'
-copyright: 'Copyright &copy; 2018 <a href="https://branch.io">Branch</a>'
+copyright: 'Copyright &copy; 2019 <a href="https://branch.io">Branch</a>'
 
 # Files
 theme:
