@@ -109,7 +109,7 @@
           return true
         }
 
-        func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
           // handler for Universal Links
           Branch.getInstance().continue(userActivity)
           return true
