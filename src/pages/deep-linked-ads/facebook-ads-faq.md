@@ -46,41 +46,17 @@ There are advanced options for tracking events, which you can read more about [b
 
 | **Permissions (OAuth scopes)** | **Why** |
 | - | - |
-| ads_read | Pulling marketing insights data (e.g. impressions, clicks) to present on the Branch Dashboard. Also used for pulling creative name and id, etc., to provide richer analytics for installs, opens and other events. |
-| business_management | (1) We pull in ad accounts for you to choose from. (2) At the end of the login process, we add our System User to your business and ad account with REPORTS_ONLY permissions. Then we will no longer store the access token that has both of these permissions (ads_read and business_management). In the future, we can easily quarantine/decommission the System User if we detect unusual or unauthorized activity. |
+| ads_read | Pulling marketing insights data (e.g. impressions, clicks, cost) to present on the Branch Dashboard. Also used for pulling creative name and id, etc., to provide richer analytics for installs, opens and other events. |
 
 ### What is each piece of information needed during the onboarding process, and why?
 
 | **Identifier** | **Why** |
 | - | - |
-| Ad account | Pulling marketing insights data (e.g. impressions, clicks) to present on the Branch Dashboard. |
+| Ad account | Pulling marketing insights data (e.g. impressions, clicks, cost) to present on the Branch Dashboard. |
 | Facebook App ID | Sending installs, opens and other events to Facebook in order to see whether they were driven by a Facebook ad campaign. |
+| Facebook App Secret (Optional) | Used to create an app access token for deferred deep linking. The secret is not stored anywhere. |
 
-### I'm having problems finding or choosing the correct ad account(s)
-
-#### The ad account I want to select is greyed out
-
-![Not admin](/img/pages/deep-linked-ads/facebook-ads-faq/not-business-admin.png)
-
-If you are not an admin of the *business* linked to an ad account, you will not be able to add it. This is because we will not be able to add our System User for attribution and analytics purposes. To check whether you are a business admin, please visit the [business's settings page](https://business.facebook.com/settings/people){:target="_blank"}. If you can see yourself listed, and you can see that your role is shown as admin (see image below), you should be able to complete setup. Otherwise, please request that an admin at your business complete the setup on the Branch Dashboard.
-
-![admin](/img/pages/deep-linked-ads/facebook-ads-faq/business-admin.png)
-
-If you still have questions, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + Business Admin" in the subject.
-
-#### I see a warning underneath my ad account saying that I need to be an admin
-
-![warning about admin](/img/pages/deep-linked-ads/facebook-ads-faq/standalone-ad-account.png)
-
-If an ad account is not linked to a business, then we cannot guarantee that this account setup will succeed. Please visit [the ad account settings page](https://www.facebook.com/ads/manager/account_settings/information/), navigate to the appropriate ad account, and ensure you are an admin (see image below).
-
-![Ensure admin](/img/pages/deep-linked-ads/facebook-ads-faq/adaccount-settings.png)
-
-Alternatively, you may be able to grant the Branch Ads Manager permission to pull data for your account.
-
-![Grant Branch Ads Permission](/img/pages/deep-linked-ads/facebook-ads-faq/fb_grant_branch_permission.png)
-
-If you still have questions, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + Standalone Ad Account(s)" in the subject.
+If you still have questions, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + Permissions" in the subject.
 
 #### I can't see the ad account I want to use at all
 
@@ -88,7 +64,7 @@ Please try logging out and logging back in on Facebook. Note the email address t
 
 ### What is the difference between your previous Facebook Ads product, and the new Facebook Ads product?
 
-Branch is now a Facebook Mobile Measurement Partner (MMP). This means we are partnering with Facebook to more accurately attribute your installs, opens and custom events back to Facebook ad campaigns! 
+Branch is a Facebook Mobile Measurement Partner (MMP). This means we are partnering with Facebook to more accurately attribute your installs, opens and custom events back to Facebook ad campaigns! 
 
 The major differences: we can use this product *without* a Branch deep link. No need to manually create Branch links and add them to Facebook ads! 
 
