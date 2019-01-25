@@ -453,21 +453,30 @@ body.modal {
 /* MAIN LANDING PAGE */
 /* ////////////////////////////// */
 
-.main-page img {
-  box-shadow: none;
+.main-nav h2 {
+  border-bottom: 0;
 }
 
 .nav-wrap {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
   text-align: center;
   margin-bottom: 20px;
+}
+
+.nav-wrap img {
+  box-shadow: none;
 }
 
 .nav-wrap a {
   padding: 0 10px;
   margin: 10px 0;
+}
+
+.nav-wrap p {
+  color: #0075C9;
+  font-weight: bold;
 }
 
 .main-nav.nav-wrap {
@@ -478,7 +487,6 @@ body.modal {
   justify-content: space-between;
 }
 
-.nav-wrap p {
-  color: #0075C9;
-  font-weight: bold;
+.flex-wrap {
+  flex-wrap: wrap;
 }
