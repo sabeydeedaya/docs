@@ -420,6 +420,7 @@ pages:
     - ZenAds : pages/deep-linked-ads/zenads-mobile-tracking.md
     - Zorka.Mobi : pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
+    - Branch Universal Email: pages/emails/universal-email.md
     - Universal Email Partners: pages/emails/email-partners-list.md
     - Active Campaign: pages/emails/active-campaign.md
     - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
