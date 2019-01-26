@@ -49,33 +49,39 @@ This section is **not required for measurement** if you are running app-only ads
 1. Unfortunately, we've found that the direct S2S mechanism for retrieving deep links is rather unreliable. We recommend that you have the Facebook [Android](https://developers.facebook.com/docs/android/getting-started) / [iOS](https://developers.facebook.com/docs/ios/getting-started) SDKs installed so Branch can work directly with them on the client side for the best outcome.
 1. On Android, if you are using Proguard, make sure you add the necessary inclusions to keep the Facebook SDK during build time.
 
-	```-keep class com.facebook.applinks.** { *; }
+	```xml
+	-keep class com.facebook.applinks.** { *; }
 	-keepclassmembers class com.facebook.applinks.** { *; }
-	-keep class com.facebook.FacebookSdk { *; }```
+	-keep class com.facebook.FacebookSdk { *; }
+	```
 
 1. Tell Branch to use the Facebook SDK to read the App Links on initialization
 
 	- *iOS - Objective C*
 
-		```// This goes BEFORE initSession is called in didFinishLaunchingWithOptions
+		```objc
+		// This goes BEFORE initSession is called in didFinishLaunchingWithOptions
 		[[Branch getInstance] registerFacebookDeepLinkingClass:[FBSDKAppLinkUtility class]]
 		```
 
 	- *Android - Java*
 
-		```// This goes in the getAutoInstance call in your Application class
+		```java
+		// This goes in the getAutoInstance call in your Application class
 		Branch.getAutoInstance(this).enableFacebookAppLinkCheck();
 		```
 
 ##### Create an Ad Link for deep linking
 
 1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Facebook Link` button under the Facebook Partner and select `App Install or Engagement`
-<img src="/img/pages/deep-linked-ads/reusable-images/create-link-install-engagement.png" alt="Link Creation" class="three-quarters center">
+<img src="/img/pages/deep-linked-ads/reusable-images/create-link-install-engagement.png" alt="Link Creation" class="half left">
 1. Enter a Link Name for later reference.
 1. Configure the link with the Ad Format set to **App Only**, the Ad Partner set to **Facebook**, and the Secondary Ad Format set to **App Install Ads**.
 ![Create Ad Link](/img/pages/deep-linked-ads/facebook-app-install-ads/link-setup.png)
+
 1. Under the Configure Options tab, use the deep link data input section to add your deep linking parameters. You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
 ![Create Ad Link](/img/pages/deep-linked-ads/reusable-images/create-link-deep-link-data.png)
+
 1. Because this is an app install ad, the redirect section will be largely ignored. We highly recommend that you leave this section untouched.
 1. Analytics will be automatically pulled in from the direct Facebook integration above, and so you can ignore the analytics section of the configuration.
 
@@ -91,9 +97,13 @@ This section is **not required for measurement** if you are running app-only ads
 1. Now select an advertisement format and customize your ad
 1. Under the **Destination** field, you can select to direct your advertisement to the App Store or a Facebook Canvas Advertisement.
 	- If you select the App Store, fill in the **Deep Link** field with your Branch Ad link
+
 	![Deep Link Placement](/img/pages/deep-linked-ads/facebook-app-install-ads/deep-link.png)
+
 	- If you select Canvas, add your Branch Ad link as the **Destination** Website URL for your canvas advertisement components
+
 	![Canvas Setup](/img/pages/deep-linked-ads/facebook-app-install-ads/facebook-canvas-setup.png)
+
 1. Complete the rest of the ad campaign setup.
 
 Your Facebook Ad Campaign is now setup to use Branch Links to handle App Installs!
@@ -142,8 +152,8 @@ We recently discovered an issue where an app was calling Facebook's SDK to fetch
 
 If Facebook is having trouble reading the App Links from the Branch link, you might see messages like these while trying to test out the flow. This means that there is something corrupted in the OG tags causing Facebook to not parse your link.
 
-<img src="/img/ingredients/deep-linked-ads/fb-ads-support/invalid-app-links-error.png" alt="Invalid App Links" class="center three-quarters">
-<img src="/img/ingredients/deep-linked-ads/fb-ads-support/missing_applinks.png" alt="Troubleshooting" class="center">
+<img src="/img/ingredients/deep-linked-ads/fb-ads-support/invalid-app-links-error.png" alt="Invalid App Links" class="left half">
+<img src="/img/ingredients/deep-linked-ads/fb-ads-support/missing_applinks.png" alt="Troubleshooting" class="left">
 
 **Rescrape the OG Tags**
 
