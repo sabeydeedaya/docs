@@ -21,7 +21,7 @@ theme:
     code: 'Roboto Mono'
   feature: false
   logo: 'img/logo.svg'
-  favicon: 'img/favicon.ico'
+  favicon: 'img/branch.svg'
 docs_dir: 'src'
 extra_css:
   - 'css/main.css'
@@ -87,28 +87,20 @@ extra:
   nav_header:
     - index: 2
       title: Branch Basics
-    - index: 3
-      title: Account Settings
     - index: 5
+      title: Account Settings
+    - index: 8
       title: Link Settings
-    - index: 9
-      title: SDK Resources
     - index: 14
+      title: SDK & API Resources
+    - index: 19
       title: Marketing Channels
-    - index: 23
-      title: Partner Management
-    - index: 25
-      title: Activity Reports & Analytics
     - index: 28
+      title: Partner Management
+    - index: 31
+      title: Activity Reports & Analytics
+    - index: 43
       title: Data Feeds
-    - index: 35
-      title: How To Guides
-    - index: 36
-      title: Troubleshooting
-    - index: 37
-      title: Product Updates
-    - index: 38
-      title: Best Practices
   nav_hidden: 'Hidden'
   is_visible:
     footer_floater_beta: false
@@ -119,10 +111,11 @@ extra:
 
 # Pages
 pages:
-  - Main Page: main-page.md
-  - Attribution:
-    - Branch Matching Overview: pages/resources/matching.md
-    - People-Based Attribution: pages/dashboard/people-based-attribution.md
+  - HOME: main-page.md
+  - Overview: pages/resources/basics-overview.md
+  - Branch Matching Overview: pages/resources/matching.md
+  - People-Based Attribution: pages/dashboard/people-based-attribution.md
+  - Overview: pages/dashboard/account-settings.md
   - Basic Settings:
     - App Level Settings: pages/dashboard/integrate.md
     - Setting Your Dashboard Analytics Time Zone: pages/dashboard/timezone.md
@@ -130,18 +123,21 @@ pages:
     - View Billing Information: pages/dashboard/viewing-billing.md
     - Enable Single Sign On: pages/dashboard/sso.md
     - Defining Access Levels: pages/dashboard/access-level.md
+  - Overview: pages/links/branch-links-overview.md
   - Default Link Behavior Configuration: pages/links/default-link-behavior.md
   - Advanced Settings Configuration: pages/links/advanced-settings-configuration.md
   - Deep Linking Configuration:
     - iOS Universal Links: pages/deep-linking/universal-links.md
     - Android App Links: pages/deep-linking/android-app-links.md
     - In-app deep link routing: pages/deep-linking/routing.md
-  - Create Deep Links: pages/links/integrate.md
-  - Native SDKs and Plugins: pages/resources/native-sdks-and-plugins.md
-  - Native SDKs:
+  - Creating Deep Links: pages/links/integrate.md
+  - Creating Quick Links: pages/links/quick-links.md
+  - Overview: pages/resources/native-sdks-and-plugins.md
+  - Native SDKs & API:
     - iOS: pages/apps/ios.md
     - Android: pages/apps/android.md
     - Website: pages/web/integrate.md
+    - Deep Linking API: pages/apps/deep-linking-api.md
   - Plugins:
     - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
     - mParticle Android: pages/apps/mparticle-android.md
@@ -155,8 +151,9 @@ pages:
     - Segment iOS SDK: pages/apps/segment-ios.md
   - Advanced Configuration:
     - V2 Events: pages/apps/v2event.md
-  - Maximizing the Full User Journey: pages/resources/journeys.md
+  - Overview : pages/resources/branch-channels.md
   - Website:
+    - Overview: pages/web/branch-web-solutions.md
     - Deepviews: pages/web/deep-views.md
     - Journeys App Banners: pages/web/journeys.md
     - AMP Journeys: pages/web/amp-journeys.md
@@ -164,8 +161,28 @@ pages:
     - Hosted Deep Link Data: pages/web/hosted-data.md
   - Paid ads:
     - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
+    - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
     - SAN Web Tracking: pages/deep-linked-ads/san-web-tracking.md
     - Dynamic Product Feeds: pages/deep-linked-ads/dynamic-product-feeds.md
+  - Email:
+    - Branch Universal Email: pages/emails/universal-email.md
+    - Universal Email Partners: pages/emails/email-partners-list.md
+  - SMS:
+    - Vibes: pages/sms/vibes.md
+  - Push notifications: pages/advance/push-notifications.md
+  - Organic search:
+    - Overview: pages/organic-search/branch-organic-search.md
+    - Firebase App Indexing: pages/organic-search/firebase.md
+    - Spotlight Search: pages/organic-search/spotlight.md
+    - General SEO Compatibility: pages/organic-search/branch-seo.md
+  - Viral & Referral:
+    - Content sharing: pages/viral/content-sharing.md
+    - Referral programs: pages/viral/referrals.md
+  - New App Platforms:
+    - Android Instant Apps: pages/app-to-app/android-instant-apps.md
+    - iMessage Apps: pages/app-to-app/imessage-apps.md
+  - Overview: pages/partner-management/branch-integrated-partners.md
+  - Universal Ads Partners:
     - 3.14 Digital : pages/deep-linked-ads/3.14-digital-mobile-tracking.md
     - A4G : pages/deep-linked-ads/a4g-mobile-tracking.md
     - Aarki : pages/deep-linked-ads/aarki-mobile-tracking.md
@@ -416,7 +433,7 @@ pages:
     - YouAppi Retargeting : pages/deep-linked-ads/youappi-retargeting-mobile-tracking.md
     - ZenAds: pages/deep-linked-ads/zenads-mobile-tracking.md
     - Zorka.Mobi: pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
-  - Email:
+  - Universal Email Partners:
     - Active Campaign: pages/emails/active-campaign.md
     - Adobe Campaign Classic: pages/emails/adobe-campaign-classic.md
     - Adobe Campaign Standard: pages/emails/adobe-campaign-standard.md
@@ -458,54 +475,43 @@ pages:
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
     - Zeta: pages/emails/zeta.md
-  - SMS:
-    - Vibes: pages/sms/vibes.md
-  - Push notifications: pages/advance/push-notifications.md
-  - Organic search:
-    - Firebase App Indexing: pages/organic-search/firebase.md
-    - Spotlight Search: pages/organic-search/spotlight.md
-    - General SEO Compatibility: pages/organic-search/branch-seo.md
-  - Viral & Referral:
-    - Content sharing: pages/viral/content-sharing.md
-    - Referral programs: pages/viral/referrals.md
-  - New App Platforms:
-    - Android Instant Apps: pages/app-to-app/android-instant-apps.md
-    - iMessage Apps: pages/app-to-app/imessage-apps.md
-  - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
-  - Universal Email Partners: pages/emails/email-partners-list.md
-  - Dashboard analytics: pages/dashboard/analytics.md
+  - Overview: pages/dashboard/analytics-overview.md
+  - Paid Ads Analytics: pages/activity-reports-analytics/paid-ads-analytics.md
+  - Journeys Analytics: pages/activity-reports-analytics/journeys-analytics.md
+  - Deepviews Analytics: pages/activity-reports-analytics/deepviews-analytics.md
+  - Desktop SMS Analytics: pages/activity-reports-analytics/desktop-sms-analytics.md
+  - Email Analytics: pages/activity-reports-analytics/email-analytics.md
+  - Influencer Analytics: pages/activity-reports-analytics/influencer-analytics.md
+  - Link Level Analytics: pages/activity-reports-analytics/link-level-analytics.md
+  - Sources Analytics: pages/activity-reports-analytics/sources-analytics.md
+  - Content Analytics: pages/activity-reports-analytics/content-analytics.md
   - Liveview: pages/exports/pba-liveview.md
-  - Time zone support: pages/dashboard/timezone.md
-  - Getting Started: pages/exports/data-feeds.md
-  - Data Export Integrations:
-    - Get Started: pages/integrations/data-integrations.md
-    - New Data Integrations: pages/integrations/faq.md
-    - Event Ontology: pages/exports/event_ontology_data_schema.md
+  - Dashboard analytics: pages/dashboard/analytics.md
+  - Overview: pages/exports/data-feeds-overview.md
+  - Data Integrations:
+    - Overview: pages/integrations/data-integrations.md
     - Adobe Analytics: pages/integrations/adobe-analytics.md
     - Adjust: pages/integrations/adjust.md
     - Amplitude: pages/integrations/amplitude.md
     - AppMetrica: pages/integrations/appmetrica.md
-    - Braze: pages/integrations/braze.md
     - Appsflyer: pages/integrations/appsflyer.md
+    - Braze: pages/integrations/braze.md
     - CleverTap: pages/integrations/clevertap.md
     - Google Analytics: pages/integrations/google-analytics.md
     - Kochava: pages/integrations/kochava.md
     - Localytics: pages/integrations/localytics.md
     - Mixpanel: pages/integrations/mixpanel.md
-    - mParticle: pages/integrations/mparticle.md
-    - Segment: pages/integrations/segment.md
+    - mParticle (export): pages/integrations/mparticle.md
+    - mParticle (import): pages/integrations/mparticle-import.md
+    - Segment (export): pages/integrations/segment.md
+    - Segment (import): pages/integrations/segment-import.md
     - Tune: pages/integrations/tune.md
-  - Data Import Integrations:
-    - Segment Event Import: pages/integrations/segment-import.md
-    - mParticle Event Import: pages/integrations/mparticle-import.md
-  - Data Export API: pages/exports/api-v3.md
+    - Data Integrations FAQ: pages/integrations/faq.md
+    - Event Ontology: pages/exports/event_ontology_data_schema.md
   - Webhooks: pages/exports/ua-webhooks.md
+  - Data Export API: pages/exports/api-v3.md
   - Query API: pages/exports/query-api.md
   - Query Recipe Book: pages/exports/query-recipe-book.md
-  - Creating Quick Links: pages/how-to-guides/creating-quick-links.md
-  - Android App Not Opening via App Links: pages/troubleshooting/android-app-not-opening-via-app-links.md
-  - November 2018: pages/product-updates/november2018.md
-  - How to Track Your Influencers for Organic Growth: pages/best-practices/how-to-track-your-influencers-for-organic-growth.md
   - Hidden:
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md

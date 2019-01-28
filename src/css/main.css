@@ -366,7 +366,7 @@ body.modal {
 /* FOOTER FLOATERS */
 /* ////////////////////////////// */
 .branch-floater {
-  background-color: #004875;
+  background-color: #0075C9;
   color: white;
   font-size: 1.3em;
   padding: 0.75em;
@@ -391,11 +391,11 @@ body.modal {
 /* ////////////////////////////// */
 /* primary */
 .md-header, .modal-content a:not(.algolia-docsearch-footer--logo):not(.algolia-docsearch-suggestion), .modal-content button {
-  background-color: #004875 !important;
+  background-color: #0075C9 !important;
 }
 @media only screen and (max-width: 76.1875em) {
   .md-nav__title--site {
-    background-color: #004875 !important;
+    background-color: #0075C9 !important;
   }
 }
 /* secondary */
@@ -452,7 +452,6 @@ body.modal {
 /* ////////////////////////////// */
 /* MAIN LANDING PAGE */
 /* ////////////////////////////// */
-
 .main-nav h2 {
   border-bottom: 0;
 }

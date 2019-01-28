@@ -4,24 +4,30 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
 
 <div class="main-nav">
   <!-- native sdk -->
-  <h2>Native SDKs</h2>
+  <h2>Native SDKs & API</h2>
   <div class="nav-wrap flex-wrap">
-    <a href="#">
+    <a href="/pages/apps/ios">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="iOS SDK"/>
+        <img src="../../../img/pages/resources/sdk-resources/apple.png" alt="iOS SDK"/>
         <p>iOS</p>
       </div>
     </a>
-    <a href="#">
+    <a href="/pages/apps/android">
     <div>
-      <img src="../../../img/pages/main-page/how-to.svg" alt="Android SDK"/>
+      <img src="../../../img/pages/resources/sdk-resources/android1.png" alt="Android SDK"/>
       <p>Android</p>
     </div>
     </a>
-    <a href="#">
+    <a href="/pages/web/integrate">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="Website SDK"/>
+        <img src="../../../img/pages/resources/sdk-resources/web1.png" alt="Web SDK"/>
         <p>Website</p>
+      </div>
+    </a>
+    <a href="/pages/apps/deep-linking-api">
+      <div>
+        <img src="../../../img/pages/resources/sdk-resources/api1.png" alt="API"/>
+        <p>API</p>
       </div>
     </a>
   </div>
@@ -31,45 +37,37 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   <!-- Plugins -->
   <h2>Plugins</h2>
   <div class="nav-wrap flex-wrap">
-    <a href="#">
+    <a href="/pages/apps/cordova-phonegap-ionic">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="Cordova PhoneGap Ionic"/>
+        <img src="../../../img/pages/resources/sdk-resources/cordova_bot.png" alt="Cordova PhoneGap Ionic" height:"65" width="65"/>
         <p>Cordova<br>PhoneGap Ionic</p>
       </div>
     </a>
-    <a href="#">
-    <div>
-      <img src="../../../img/pages/main-page/how-to.svg" alt="mParticle Android"/>
-      <p>mParticle Android</p>
-    </div>
-    </a>
-    <a href="#">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="mParticle iOS"/>
-        <p>mParticle iOS</p>
-      </div>
-    </a>
-    <a href="#">
+        <img src="../../../img/pages/resources/sdk-resources/mparticle.png" alt="mParticle Android" height:"65" width="65"/>
+        <p>mParticle<br/><a href="/pages/apps/mparticle-android">Android</a> | <a href="/pages/apps/mparticle-ios">iOS</a></p>
+        </div>
+    <a href="/pages/apps/react-native">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="Titanium"/>
-        <p>Titanium</p>
-      </div>
-    </a>
-    <a href="#">
-      <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="React Native"/>
+        <img src="../../../img/pages/resources/sdk-resources/native-logo.png" alt="React Native" height:"75" width="75"/>
         <p>React Native</p>
       </div>
     </a>
-    <a href="#">
+    <a href="/pages/apps/titanium">
+      <div>
+        <img src="../../../img/pages/resources/sdk-resources/titanium-logo.png" alt="Titanium" height:"65" width="65"/>
+        <p>Titanium</p>
+      </div>
+    </a>
+    <a href="/pages/apps/unity">
     <div>
-      <img src="../../../img/pages/main-page/how-to.svg" alt="Unity"/>
+      <img src="../../../img/pages/resources/sdk-resources/unity-b-logo.png" alt="Unity" height:"65" width="65"/>
       <p>Unity</p>
     </div>
     </a>
-    <a href="#">
+    <a href="/pages/apps/xamarin">
       <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="mParticle iOS"/>
+        <img src="../../../img/pages/resources/sdk-resources/xamarin-logo.png" alt="Xamarin" height:"65" width="65"/>
         <p>Xamarin</p>
       </div>
     </a>
@@ -77,34 +75,29 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   <!--/ divider -->
   <!-- divider -->
   <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
-  <!-- Native SDKs -->
-  <h2>Native SDKs</h2>
+  <!-- SDK Integrations -->
+  <h2>SDK Integrations</h2>
   <div class="nav-wrap flex-wrap">
-    <a href="#">
-      <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="Segment Android SDK"/>
-        <p>Segment<br>Android SDK</p>
-      </div>
-    </a>
-    <a href="#">
     <div>
-      <img src="../../../img/pages/main-page/how-to.svg" alt="Segment iOS SDK"/>
-      <p>Segment<br>iOS SDK</p>
+      <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" alt="Adobe Launch Android SDK" height:"65" width="65"/>
+      <p>Adobe Launch<br><a href="/pages/apps/adobe-launch-android">Android</a> | <a href="/pages/apps/adobe-launch-ios">iOS</a></p>
     </div>
-    </a>
+    <div>
+      <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" alt="Segment Android SDK" height:"65" width="65"/>
+      <p>Segment<br><a href="/pages/apps/segment-android">Android</a> | <a href="/pages/apps/segment-ios">iOS</a></p>
+    </div>
   </div>
-  <!--/ Native SDKs -->
+  <!--/ SDK Integrations -->
+  <!--/ divider -->
   <!-- divider -->
   <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
-  <!-- Advance Configuration -->
-  <h2>Advance Configuration</h2>
+  <!-- Advanced Options -->
+  <h2>Advanced Configuration</h2>
   <div class="nav-wrap flex-wrap">
-    <a href="#">
-      <div>
-        <img src="../../../img/pages/main-page/how-to.svg" alt="V2 Events"/>
-        <p>V2 Events</p>
-      </div>
-    </a>
-  </div>
-  <!--/ Advance Configuration -->
+    <div>
+      <ul>
+      <li><a href="/pages/apps/v2event/">v2 Events</a></li>
+      </ul>
+    </div>
 </div>
+  <!--/ Advanced Options -->
