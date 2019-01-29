@@ -257,6 +257,8 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | $android_redirect_timeout | `750` | Control the timeout that the client side JS waits after trying to open up the app before redirecting to the Play Store. Specified in milliseconds
         | $custom_sms_text | | Text for SMS link sent for desktop clicks to this link. Must contain `{{ link }}` Value of Text me the app page in Settings
         | $marketing_title | | Set the marketing title for the deep link in the [Quick Links](https://dashboard.branch.io/marketing) when creating links from the API with `type` = `2`
+        | $deeplink_no_attribution | | Set to `true` for the links to only support deep linking without any attribution for that link.
+        
 
 - ### Content
 
