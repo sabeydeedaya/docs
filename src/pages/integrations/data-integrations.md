@@ -28,55 +28,55 @@ Data Integrations provide an easy way to automatically send Branch data to your 
   </a>
   <a href="/pages/integrations/appmetrica/">
     <div>
-      <img src="../../../img/pages//integrations/overview/appmetrica-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/appmetrica-logo.png" height:"65" width="65"/>
       <p>AppMetrica</p>
     </div>
   </a>
   <a href="/pages/integrations/appsflyer/">
     <div>
-      <img src="../../../img/pages//integrations/overview/appsflyer-logo.jpg" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/appsflyer-logo.jpg" height:"65" width="65"/>
       <p>Appsflyer</p>
     </div>
   </a>
   <a href="/pages/integrations/braze/">
     <div>
-      <img src="../../../img/pages//integrations/overview/braze-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/braze-logo.png" height:"65" width="65"/>
       <p>Braze</p>
     </div>
   </a>
   <a href="/pages/integrations/clevertap/">
     <div>
-      <img src="../../../img/pages//integrations/overview/clevertap-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/clevertap-logo.png" height:"65" width="65"/>
       <p>CleverTap</p>
     </div>
   </a>
   <a href="/pages/integrations/convertro/">
     <div>
-      <img src="../../../img/pages//integrations/overview/convertro-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/convertro-logo.png" height:"65" width="65"/>
       <p>Convertro</p>
     </div>
   </a>
   <a href="/pages/integrations/google-analytics/">
     <div>
-      <img src="../../../img/pages//integrations/overview/google.analytics.logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/google.analytics.logo.png" height:"65" width="65"/>
       <p>Google Analytics</p>
     </div>
   </a>
   <a href="/pages/integrations/kochava/">
     <div>
-      <img src="../../../img/pages//integrations/overview/kochava-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/kochava-logo.png" height:"65" width="65"/>
       <p>Kochava</p>
     </div>
   </a>
   <a href="/pages/integrations/localytics/">
     <div>
-      <img src="../../../img/pages//integrations/overview/localytics.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/localytics.png" height:"65" width="65"/>
       <p>Localytics</p>
     </div>
   </a>
   <a href="/pages/integrations/mixpanel/">
     <div>
-      <img src="../../../img/pages//integrations/overview/mixpanel-logo.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/mixpanel-logo.png" height:"65" width="65"/>
       <p>Mixpanel</p>
     </div>
   </a>
@@ -94,7 +94,7 @@ Data Integrations provide an easy way to automatically send Branch data to your 
   </a>
   <a href="/pages/integrations/tune/">
     <div>
-      <img src="../../../img/pages//integrations/overview/tune.png" height:"65" width="65"/>
+      <img src="../../../img/pages/integrations/overview/tune.png" height:"65" width="65"/>
       <p>TUNE</p>
     </div>
   </a>
