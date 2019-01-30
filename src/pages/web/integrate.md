@@ -1,6 +1,12 @@
 ## Overview
 
   - The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
+  
+### Notes
+
+- Journeys link data (data returned from Journeys event handlers) in WebSDK versions <= 2.48.0 will now contain escaped keys and values. Characters targeted for escaping include ", ', &, <, and >. These characters will be escaped to their corresponding HTML entities. Additionally URLs, in both keys and values will be URI encoded. 
+
+- Developers using WebSDK >= 2.49 will notice values in Journeys link data become escaped with the same rules as above. Keys will not be escaped.
 
 ## Integrate Branch
 
@@ -558,11 +564,6 @@
 
     - https://cdn.branch.io/example.html
     - http://cdn.branch.io/branchster-angular
-
-- ### Journeys link data in WebSDK versions <= 2.48.0
-
-    - Journeys link data (data returned from Journeys event handlers) in WebSDK versions <= 2.48.0 will now contain escaped keys and values. Characters targeted for escaping include ", ', &, <, and >. These characters will be escaped to their corresponding HTML entities. Additionally URLs, in both keys and values will be URI encoded. 
-    - Developers using WebSDK >= 2.49 will notice values in Journeys link data become escaped with the same rules as above. Keys will not be escaped.
 
 - ### Browser support
 
