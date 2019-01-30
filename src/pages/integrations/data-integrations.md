@@ -9,94 +9,64 @@ Data Integrations provide an easy way to automatically send Branch data to your 
   <h2>Data Export Partners</h2>
   <div class="nav-wrap flex-wrap">
   <a href="/pages/integrations/adobe-analytics/">
-    <div>
-      <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" height:"65" width="65"/>
-      <p>Adobe Analytics</p>
-    </div>
+    <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" height:"65" width="65"/>
+    <p>Adobe Analytics</p>
   </a>
   <a href="/pages/integrations/adjust/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/adjust.png" height:"65" width="65"/>
-      <p>Adjust</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/adjust.png" height:"65" width="65"/>
+    <p>Adjust</p>
   </a>
   <a href="/pages/integrations/amplitude/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/amplitude-logo.jpg" height:"65" width="65"/>
-      <p>Amplitude</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/amplitude-logo.jpg" height:"65" width="65"/>
+    <p>Amplitude</p>
   </a>
   <a href="/pages/integrations/appmetrica/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/appmetrica-logo.png" height:"65" width="65"/>
-      <p>AppMetrica</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/appmetrica-logo.png" height:"65" width="65"/>
+    <p>AppMetrica</p>
   </a>
   <a href="/pages/integrations/appsflyer/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/appsflyer-logo.jpg" height:"65" width="65"/>
-      <p>Appsflyer</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/appsflyer-logo.jpg" height:"65" width="65"/>
+    <p>Appsflyer</p>
   </a>
   <a href="/pages/integrations/braze/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/braze-logo.png" height:"65" width="65"/>
-      <p>Braze</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/braze-logo.png" height:"65" width="65"/>
+    <p>Braze</p>
   </a>
   <a href="/pages/integrations/clevertap/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/clevertap-logo.png" height:"65" width="65"/>
-      <p>CleverTap</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/clevertap-logo.png" height:"65" width="65"/>
+    <p>CleverTap</p>
   </a>
   <a href="/pages/integrations/convertro/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/convertro-logo.png" height:"65" width="65"/>
-      <p>Convertro</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/convertro-logo.png" height:"65" width="65"/>
+    <p>Convertro</p>
   </a>
   <a href="/pages/integrations/google-analytics/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/google.analytics.logo.png" height:"65" width="65"/>
-      <p>Google Analytics</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/google.analytics.logo.png" height:"65" width="65"/>
+    <p>Google Analytics</p>
   </a>
   <a href="/pages/integrations/kochava/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/kochava-logo.png" height:"65" width="65"/>
-      <p>Kochava</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/kochava-logo.png" height:"65" width="65"/>
+    <p>Kochava</p>
   </a>
   <a href="/pages/integrations/localytics/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/localytics.png" height:"65" width="65"/>
-      <p>Localytics</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/localytics.png" height:"65" width="65"/>
+    <p>Localytics</p>
   </a>
   <a href="/pages/integrations/mixpanel/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/mixpanel-logo.png" height:"65" width="65"/>
-      <p>Mixpanel</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/mixpanel-logo.png" height:"65" width="65"/>
+    <p>Mixpanel</p>
   </a>
   <a href="/pages/integrations/mParticle/">
-    <div>
-      <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
-      <p>mParticle</p>
-    </div>
+    <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
+    <p>mParticle</p>
   </a>
   <a href="/pages/integrations/segment/">
-    <div>
-      <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
-      <p>Segment</p>
-    </div>
+    <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
+    <p>Segment</p>
   </a>
   <a href="/pages/integrations/tune/">
-    <div>
-      <img src="../../../img/pages/integrations/overview/tune.png" height:"65" width="65"/>
-      <p>TUNE</p>
-    </div>
+    <img src="../../../img/pages/integrations/overview/tune.png" height:"65" width="65"/>
+    <p>TUNE</p>
   </a>
   </div>
   <!--/ Link Configuration -->
@@ -106,16 +76,12 @@ Data Integrations provide an easy way to automatically send Branch data to your 
   <h2>Data Import Partners</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/integrations/mparticle-import/">
-      <div>
-        <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
-        <p>mParticle</p>
-      </div>
+      <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
+      <p>mParticle</p>
     </a>
     <a href="/pages/integrations/segment-import/">
-    <div>
       <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
       <p>Segment</p>
-    </div>
     </a>
   </div>
   <!--/ Link Configuration -->
@@ -124,11 +90,9 @@ Data Integrations provide an easy way to automatically send Branch data to your 
   <!-- Advanced Options -->
   <h2>Supporting Information</h2>
   <div class="nav-wrap flex-wrap">
-    <div>
-      <ul>
-        <li><a href="/pages/integrations/faq/">Data Integrations FAQ</a></li>
-        <li><a href="/pages/exports/event_ontology_data_schema/">Event Entology</a></li>
-      </ul>
-    </div>
+    <ul>
+      <li><a href="/pages/integrations/faq/">Data Integrations FAQ</a></li>
+      <li><a href="/pages/exports/event_ontology_data_schema/">Event Entology</a></li>
+    </ul>
   </div>
 </div>

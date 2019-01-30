@@ -3,31 +3,22 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
 <!-- Deep Links -->
 <h2>Data Feeds</h2>
 <div class="nav-wrap flex-wrap">
-<a href="/pages/integrations/data-integrations/">
-  <div>
+  <a href="/pages/integrations/data-integrations/">
     <img src="../../../img/pages/main-page/feeds-dot.png" height:"65" width="65"/>
     <p>Data Integrations</p>
-  </div>
-</a>
-<a href="/pages/exports/ua-webhooks/">
-  <div>
+  </a>
+  <a href="/pages/exports/ua-webhooks/">
     <img src="../../../img/pages/exports/webhook.png" height:"65" width="65"/>
     <p>Webhooks</p>
-  </div>
-</a>
-
-<a href="/pages/exports/api-v3/">
-  <div>
+  </a>
+  <a href="/pages/exports/api-v3/">
     <img src="../../../img/pages/resources/sdk-resources/api1.png" height:"65" width="65"/>
     <p>Data Export API</p>
-  </div>
-</a>
-<a href="/pages/exports/query-api/">
-  <div>
+  </a>
+  <a href="/pages/exports/query-api/">
     <img src="../../../img/pages/resources/sdk-resources/api1.png" height:"65" width="65"/>
     <p>Query API</p>
-  </div>
-</a>
+  </a>
 </div>
 <!--/ Deep Links -->
 
