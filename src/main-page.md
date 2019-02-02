@@ -1,3 +1,5 @@
+template: main-lp.html
+
 <!-- ![image.full-width](img/pages/main-page/main-page.png) -->
 <div class="main-page">
   <!-- row 1 -->
