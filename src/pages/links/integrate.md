@@ -38,7 +38,7 @@
             | Twitter Feed | Fallback | *Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
             | Twitter Browser | App | | App |
             | Snap messages | App | | App | 
-            | Snap stories | Fallback | deep linking blocked on iOS | App | 
+            | Snap stories | Fallback | [Review custom instructions for using Branch in Snap stories](#branch-links-in-snapchat-stories-ios) | App | 
             | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback | 
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
@@ -470,7 +470,21 @@ You're free to add any of your own key-value parameters to a Branch link. These 
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
 
-- ### Deep Links in China
+- ### Branch links in Snapchat Stories iOS
+
+    - Snap won't let you attach redirecting links to stories. The following work around disables the redirects until you get the link attached, and then re-enables them after you create your story.
+
+        1. Create your Quick Link to be attached to your Snap story
+        1. On the Configure Options section, do the following:
+            - Add the key `$always_deeplink`, and the value of `false` in the Deep Linking tab
+            - Enable a deepview on the iOS platform in the Redirects tab
+
+        1. Attach this link to your Snap story
+        1. Come back and edit the Quick Link to:
+            - Delete the `$always_deeplink` key/value from the Deep Linking tab
+            - Remove the deepview on iOS in the Redirects tab
+
+- ### Deep links in China
     - We have found that our links don’t work with some Chinese ISPs. Here’s a list of the ones we have tested:
 
         | ISP Name | Behavior
