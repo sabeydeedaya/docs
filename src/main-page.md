@@ -19,7 +19,7 @@ template: main-lp.html
       </a>
       <a href="/pages/resources/native-sdks-and-plugins/">
         <img src="../img/pages/main-page/sdk-dot.png"/>
-        <p>SDK Resources</p>
+        <p>Developer<br/>Resources</p>
       </a>
     </div>
     <div class="nav-wrap space-between">
