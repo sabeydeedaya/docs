@@ -1,3 +1,7 @@
+<script>window.location = "/pages/exports/data-feeds/"</script>
+
+<!--
+
 ## Overview
 
 With a push of a button you can send your Branch data to your Tune dashboard, helping you segment users, calculate LTV and understand the power of Branch links in acquiring users.
@@ -168,3 +172,5 @@ When you integrate the Tune SDK, ensure you add the install referrer snippet pro
 If you are finding data discrepancies between Branch, Tune and Facebook - please ensure you have followed the Facebook Ads setup and troubleshooting steps [here](/features/facebook-ads/guide/ios/).
 
 If you're using the Tune integration and Branch links in Facebook ads, Branch must initialize and complete before the Tune SDK. When this happens, Branch will be able fetch the necessary attribution parameters and pass them to Tune via the integration.
+
+-->
