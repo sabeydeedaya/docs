@@ -208,6 +208,7 @@ pages:
     - BEdigitech: pages/deep-linked-ads/bedigitech-mobile-tracking.md
     - Beintoo : pages/deep-linked-ads/beintoo-mobile-tracking.md
     - Bidmotion : pages/deep-linked-ads/bidmotion-mobile-tracking.md
+    - Bidroid : pages/deep-linked-ads/bidroid-mobile-tracking.md
     - Billy Mobile : pages/deep-linked-ads/billy-mobile-mobile-tracking.md
     - Blind Ferret Incent : pages/deep-linked-ads/blind-ferret-incent-mobile-tracking.md
     - Blind Ferret Non-Incent : pages/deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
@@ -252,6 +253,7 @@ pages:
     - Everflow Technologies : pages/deep-linked-ads/everflow-technologies-mobile-tracking.md
     - Expand Mobile : pages/deep-linked-ads/expand-mobile-mobile-tracking.md
     - Facebook : pages/deep-linked-ads/facebook-ads-overview.md
+    - Fanbytes : pages/deep-linked-ads/fanbytes-mobile-tracking.md
     - FeedMob : pages/deep-linked-ads/feedmob-mobile-tracking.md
     - Filly Media Solutions : pages/deep-linked-ads/filly-media-solutions-mobile-tracking.md
     - finaceAds: pages/deep-linked-ads/financeads-mobile-tracking.md
@@ -283,6 +285,7 @@ pages:
     - InMobi: pages/deep-linked-ads/inmobi-mobile-tracking.md
     - Instal: pages/deep-linked-ads/instal-mobile-tracking.md
     - Interceptd: pages/deep-linked-ads/interceptd-mobile-tracking.md
+    - Involve Asia: pages/deep-linked-ads/involve-asia-mobile-tracking.md
     - IronSource: pages/deep-linked-ads/ironsource-mobile-tracking.md
     - IWOOP : pages/deep-linked-ads/iwoop-mobile-tracking.md
     - Jack Morris Media : pages/deep-linked-ads/jack-morris-media-mobile-tracking.md
@@ -311,6 +314,7 @@ pages:
     - Mobio : pages/deep-linked-ads/mobio-mobile-tracking.md
     - Mobipium: pages/deep-linked-ads/mobipium-mobile-tracking.md
     - Mobipuff: pages/deep-linked-ads/mobipuff-mobile-tracking.md
+    - Mobisummer: pages/deep-linked-ads/mobisummer-mobile-tracking.md
     - Mobixu: pages/deep-linked-ads/mobixu-mobile-tracking.md
     - Mobme Asia: pages/deep-linked-ads/mobme-asia-mobile-tracking.md
     - Mobobeat : pages/deep-linked-ads/mobobeat-mobile-tracking.md
@@ -401,6 +405,7 @@ pages:
     - Times Internet Limited: pages/deep-linked-ads/times-internet-limited-mobile-tracking.md
     - Tradedoubler : pages/deep-linked-ads/tradedoubler-mobile-tracking.md
     - Tunica Labs : pages/deep-linked-ads/tunica-labs-mobile-tracking.md
+    - TVSmiles : pages/deep-linked-ads/tvsmiles-mobile-tracking.md
     - TVSquared : pages/deep-linked-ads/tvsquared-mobile-tracking.md
     - Tyroo : pages/deep-linked-ads/tyroo-mobile-tracking.md
     - U2opia Mobile : pages/deep-linked-ads/u2opia-mobile-mobile-tracking.md
@@ -426,6 +431,7 @@ pages:
     - YouAppi : pages/deep-linked-ads/youappi-mobile-tracking.md
     - YouAppi Retargeting : pages/deep-linked-ads/youappi-retargeting-mobile-tracking.md
     - ZenAds : pages/deep-linked-ads/zenads-mobile-tracking.md
+    - Zoomd: pages/deep-linked-ads/zoomd-mobile-tracking.md
     - Zorka.Mobi : pages/deep-linked-ads/zorka-mobi-mobile-tracking.md
   - Links in your emails:
     - Branch Universal Email: pages/emails/universal-email.md
@@ -468,6 +474,7 @@ pages:
     - SendGrid: pages/emails/sendgrid.md
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
+    - WhatCounts: pages/emails/whatcounts.md
     - Zeta: pages/emails/zeta.md
   - Links in Social:
       - Hootsuite: pages/social-links/hootsuite.md
@@ -505,7 +512,6 @@ pages:
         - mParticle Event Import: pages/integrations/mparticle-import.md
         - Segment: pages/integrations/segment.md
         - Segment Event Import: pages/integrations/segment-import.md
-        - Tune: pages/integrations/tune.md
       - Data Export API: pages/exports/api-v3.md
       - Webhooks: pages/exports/ua-webhooks.md
       - Query API: pages/exports/query-api.md
@@ -545,6 +551,7 @@ pages:
     - Branch Universal Ads (old) : pages/deep-linked-ads/branch-universal-ads.md
     - Twitter (old): pages/deep-linked-ads/twitter-mobile-tracking.md
     - Cohort Analysis: pages/dashboard/cohort-analysis.md
+    - Tune (old): pages/integrations/tune.md
     - Branch 연동 가이드 - iOS: pages/kr/branch-ios.md
     - Branch 연동 가이드 - Android: pages/kr/branch-android.md
     - iOS Universal Links: pages/kr/universal-links.md
