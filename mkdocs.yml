@@ -468,6 +468,7 @@ pages:
     - SendGrid: pages/emails/sendgrid.md
     - SparkPost: pages/emails/sparkpost.md
     - Vero: pages/emails/vero.md
+    - WhatCounts: pages/emails/whatcounts.md
     - Zeta: pages/emails/zeta.md
   - Links in Social:
       - Hootsuite: pages/social-links/hootsuite.md
