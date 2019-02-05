@@ -1,13 +1,33 @@
 <style>
+.md-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 .md-content h1 {
   display: none !important;
 }
 
-@media (min-width: 992px){
+.main-page h2 {
+  border-bottom: 0;
+}
+
+.main-page .nav-wrap a {
+  margin-bottom: 20px;
+  width: 50%;
+  float: left;
+  font-size: 24px;
+}
+
+@media (min-width: 992px) {
   .md-sidebar {
     display: none !important;
   }
+
+  .main-page .nav-wrap a {
+    width: 33.333%;
+  }
 }
+
 </style>
 
 {% extends "base.html" %}
