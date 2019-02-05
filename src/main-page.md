@@ -17,13 +17,13 @@ template: main-lp.html
         <img src="../img/pages/main-page/links-dot.png"/>
         <p>Link Settings</p>
       </a>
-    </div>
-    <div class="clearfix"></div>
-    <div class="nav-wrap">
       <a href="/pages/resources/native-sdks-and-plugins/">
         <img src="../img/pages/main-page/sdk-dot.png"/>
         <p>SDK Resources</p>
       </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nav-wrap">
       <a href="/pages/resources/branch-channels">
         <img src="../img/pages/main-page/channel-dot.png"/>
         <p>Channels</p>
@@ -32,9 +32,6 @@ template: main-lp.html
         <img src="../img/pages/main-page/partner-dot.png"/>
         <p>Partner Management</p>
       </a>
-    </div>
-    <div class="clearfix"></div>
-    <div class="nav-wrap">
       <a href="/pages/dashboard/analytics-overview">
         <img src="../img/pages/main-page/reports-dot.png"/>
         <p>Activity Reports & Analytics</p>
@@ -63,9 +60,6 @@ template: main-lp.html
         <img src="../img/pages/main-page/updates-dot.png" alt="Product Updates"/>
         <p>Product Updates</p>
       </a>
-    </div>
-    <div class="clearfix"></div>
-    <div class="nav-wrap">
       <a href="https://support.branch.io/support/solutions/folders/6000232721">
         <img src="../img/pages/main-page/best-dot.png" alt="Best Practices"/>
         <p>Best Practices</p>
