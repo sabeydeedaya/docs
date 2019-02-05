@@ -365,7 +365,16 @@ body.modal {
 .md-nav--secondary > .md-nav__list > .md-nav__item, .md-nav--primary > .md-nav__list > .md-nav__item {
   padding-left: 1.2rem;
 }
-
+.md-nav--primary .md-nav__title--site {
+  display: none;
+}
+.md-nav--primary .md-nav__list .md-nav__item:nth-child(1) {
+  display: none;
+}
+.md-nav--primary .md-nav__list .md-nav__item:nth-child(2) {
+  padding-top: 0;
+  margin-top: 0;
+}
 
 
 /* ////////////////////////////// */
