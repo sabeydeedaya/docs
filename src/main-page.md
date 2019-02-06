@@ -1,20 +1,7 @@
 template: main-lp.html
-<center><p><font size="6">How can we help?</font></p></center>
-<br/>
-<br/>
+
 <!-- ![image.full-width](img/pages/main-page/main-page.png) -->
 <div class="main-page">
-  <div class="search-bar">
-    <div class="search-input">
-      <a href="#dialog-search" id="main-page-search" title="Search">
-        <input type="text" name="query" placeholder="Search..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-        <i class="branch-header-search md-icon material-icons">search</i>
-      </a>
-    </div>
-  </div>
-  <br/>
-  <br/>
-  <br/>
   <!-- row 1 -->
   <div class="main-nav">
     <div class="nav-wrap">
@@ -30,13 +17,13 @@ template: main-lp.html
         <img src="../img/pages/main-page/links-dot.png"/>
         <p>Link Settings</p>
       </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nav-wrap">
       <a href="/pages/resources/native-sdks-and-plugins/">
         <img src="../img/pages/main-page/sdk-dot.png"/>
         <p>Developer Resources</p>
       </a>
-    </div>
-    <div class="clearfix"></div>
-    <div class="nav-wrap">
       <a href="/pages/resources/branch-channels">
         <img src="../img/pages/main-page/channel-dot.png"/>
         <p>Channels</p>
@@ -45,6 +32,9 @@ template: main-lp.html
         <img src="../img/pages/main-page/partner-dot.png"/>
         <p>Partner Management</p>
       </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nav-wrap">
       <a href="/pages/dashboard/analytics-overview">
         <img src="../img/pages/main-page/reports-dot.png"/>
         <p>Reports & Analytics</p>
@@ -73,6 +63,9 @@ template: main-lp.html
         <img src="../img/pages/main-page/updates-dot.png" alt="Product Updates"/>
         <p>Product Updates</p>
       </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nav-wrap">
       <a href="https://support.branch.io/support/solutions/folders/6000232721">
         <img src="../img/pages/main-page/best-dot.png" alt="Best Practices"/>
         <p>Best Practices</p>
