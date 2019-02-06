@@ -48,6 +48,40 @@
 
         - (Optional) Add a branch.json file to the root of your app (next to package.json). See https://rnbranch.app.link/branch-json.
 
+- ### Updating from < 3.0.0
+
+    - To fix a longstanding build issue with Android, it is necessary to take the
+native Branch Android SDK from Maven rather than from the react-native-branch
+module, starting with version 3.0.0.
+
+    - Open the `android/app/build.gradle` file in your project.
+
+    - Remove this line:
+
+    ```gradle
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    ```
+
+    - Add this line:
+
+    ```gradle
+    implementation "io.branch.sdk.android:library:3.0.4"
+    ```
+
+    - The result should be something like
+    ```gradle
+    dependencies {
+        implementation project(':react-native-branch')
+        implementation "io.branch.sdk.android:library:3.0.4"
+        implementation "com.android.support:appcompat-v7:23.0.1"
+        implementation "com.facebook.react:react-native:+"  // From node_modules
+    }
+    ```
+
+    - If you're using an older version of Gradle, you may need `compile` instead of
+`implementation`.
+
+
 - ### Update from < 2.0.0
 
     - If also upgrading React Native, use `react-native-git-upgrade` to upgrade

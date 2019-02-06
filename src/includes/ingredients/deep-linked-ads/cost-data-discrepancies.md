@@ -8,6 +8,11 @@ Branch's last-click attribution model can lead to differences in install counts 
 
 #### Cost, click and impression data is all missing
 
+Generally, reauthenticating a partner and waiting 24 hours will re-enable cost data.
+
+When you reauthenticate, double check that you have selected the correct accounts. We will only pull cost data for accounts that you select as part of the authentication process.
+
+Background:
 Cost, click and impression data for SANs are generally sourced from Partner APIs (unless Branch impression pixels or links are being intentionally used for attribution, for example, in web campaigns). When you enable a SAN, you authenticate with your provider. Branch uses this authentication to retrieve click, cost and impression data. If the authentication token expires (for example, if you reset your password, or the partner force resets your token), then you may not see click, impression or cost data. In this case, simply reauthenticate and that will refresh your token.
 
 #### Cost data is missing or incorrect for certain "compare by" breakdowns

@@ -245,4 +245,4 @@ In the example above, "+91" is the code for the country your users are based in.
 
 ### Why have the SMS links sent from Text Me The App expired?
 
-All links links generated from the Text Me The App feature will expire after 7 days.
+All links generated from the Text Me The App feature will expire after 7 days.

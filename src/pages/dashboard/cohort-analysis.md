@@ -36,7 +36,7 @@ A re-engagement can be any event that creates a web or app session after a perio
 
 Since re-engagements can only occur after a period of inactivity, any event used for performance analysis can only be part of one re-engagement cohort. A session-qualifying event only counts as a re-engagement if it occurs after a period of inactivity. However, a user can be in multiple re-engagement cohorts if they are re-engaged multiple times.
 
-The default re-engagement inactivity window is 7 days.  You can modify this window under** Channels & Links** > **Link Settings** > **Attribution Windows**.
+The default re-engagement inactivity window is 7 days.  You can modify this window under **Channels & Links** > **Link Settings** > **Attribution Windows**.
 
 ![image](/img/pages/dashboard/cohort-analysis/image_1.png)
 
@@ -52,7 +52,7 @@ To create a cohort, click on the **Create New Cohort** button and provide the fo
 
     * Re-engagement (any session across web and app)
 
-* **Cohort Date Range **
+* **Cohort Date Range**
 
     * When the install or re-engagement event occurred
 
@@ -76,7 +76,7 @@ To create a cohort, click on the **Create New Cohort** button and provide the fo
 
 When creating a new cohort, the following measurement options are available to you.
 
-####Show
+#### Show
 
 Show measures include important KPIs and metrics which you can use to hone in on user activity.
 
@@ -100,7 +100,7 @@ Show measures include important KPIs and metrics which you can use to hone in on
 | Users             | The total number of unique users for each compare by in your cohort. Accessible in Table View only.                   |
 | View Cart         | View Cart events                                                                                                      |
 
-####Compare by & (where/and/equals) Filters
+#### Compare by & (where/and/equals) Filters
 
 Compare by and (where/and/equals) filters can be applied to any cohorting event - install or re-engagement - as well as any downstream event.
 

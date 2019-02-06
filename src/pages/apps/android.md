@@ -58,7 +58,7 @@
 
     - Add Branch to your `AndroidManifest.xml`
 
-        ```xml hl_lines="9 17 26 27 28 29 30 31 32 34 35 36 37 38 39 40 44 45 46 47 49 50 51 52 53 54"
+        ```xml hl_lines="18 26 27 28 29 30 31 32 33 35 36 37 38 39 40 41 42 44 45 46 47 48 50 51 52 53 54 55"
         <?xml version="1.0" encoding="utf-8"?>
         <manifest xmlns:android="http://schemas.android.com/apk/res/android"
             package="com.eneff.branch.example.android">
@@ -73,8 +73,9 @@
                 android:supportsRtl="true"
                 android:theme="@style/AppTheme">
 
+                <!-- Launcher Activity to handle incoming Branch intents -->    
                 <activity
-                    android:name=".MainActivity"
+                    android:name=".LauncherActivity"
                     android:launchMode="singleTask"
                     android:label="@string/app_name"
                     android:theme="@style/AppTheme.NoActionBar">
@@ -126,16 +127,19 @@
         - `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw`
         - `key_test_hlxrWC5Zx16DkYmWu4AHiimdqugRYMr`
 
+    !!! warning "Google Play App Install Referrer API"
+        Branch can use the [Google Play App Install Referrer API](https://developer.android.com/google/play/installreferrer/library.html) to return the Install Referrer click timestamp and the install-begin timestamp. Please make sure you include the `Branch install referrer tracking (optional)` receiver in the AndroidManifest.xml file as per the above code sample.
+
     !!! warning "Single Task launch mode required"
         If there is no singleTask Activity instance in the system yet, a new one would be created and simply placed on top of the stack in the same Task. If you are using the Single Task mode as is, it should not restart your entire app. The Single Task mode instantiates the Main/Splash Activity only if it does not exist in the Activity Stack. If the Activity exists in the background, every subsequent intent to the Activity just brings it to the foreground. You can read more about Single Task mode [here](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html#TaskLaunchModes).
 
 - ### Initialize Branch
 
-    - Add Branch to your `MainActivity.java`
+    - Add Branch to your `LauncherActivity.java`
 
     - *Java*
 
-        ```java hl_lines="3 9 14 16 17 31 32 33 34 35 36 37 38 39 40 41 44 45 46 47"
+        ```java hl_lines="16 17 31 32 33 34 35 36 37 38 39 40 41 42 43 46 47 48 49"
         package com.eneff.branch.example.android;
 
         import android.content.Intent;
@@ -154,12 +158,12 @@
         import io.branch.referral.Branch;
         import io.branch.referral.BranchError;
 
-        public class MainActivity extends AppCompatActivity {
+        public class LauncherActivity extends AppCompatActivity {
 
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_main);
+                setContentView(R.layout.activity_launcher);
             }
 
             @Override
@@ -172,6 +176,8 @@
                     public void onInitFinished(JSONObject referringParams, BranchError error) {
                         if (error == null) {
                             Log.i("BRANCH SDK", referringParams.toString());
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.i("BRANCH SDK", error.getMessage());
                         }
@@ -188,7 +194,7 @@
 
     - *Kotlin*
 
-        ```java hl_lines="3 9 14 16 17 29 30 31 32 33 34 35 36 37 38 41 42 43"
+        ```java hl_lines="16 17 29 30 31 32 33 34 35 36 37 38 39 40 43 44 45"
         package com.eneff.branch.example.android
 
         import android.content.Intent
@@ -207,11 +213,11 @@
         import io.branch.referral.Branch
         import io.branch.referral.BranchError
 
-        class MainActivity : AppCompatActivity() {
+        class LauncherActivity : AppCompatActivity() {
 
             override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)
-                setContentView(R.layout.activity_main)
+                setContentView(R.layout.activity_launcher)
             }
 
             override fun onStart() {
@@ -222,6 +228,8 @@
                     override fun onInitFinished(referringParams: JSONObject, error: BranchError?) {
                         if (error == null) {
                             Log.e("BRANCH SDK", referringParams.toString)
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.e("BRANCH SDK", error.message)
                         }
@@ -765,8 +773,8 @@
 
         ```java
         Intent resultIntent = new Intent(this, TargetClass.class);
-        intent.putExtra("branch","http://xxxx.app.link/testlink");
-        intent.putExtra("branch_force_new_session",true);
+        resultIntent.putExtra("branch","http://xxxx.app.link/testlink");
+        resultIntent.putExtra("branch_force_new_session",true);
         PendingIntent resultPendingIntent =  PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         ```
 
@@ -774,9 +782,9 @@
 
         ```java
         val resultIntent = Intent(this, TargetClass::class.java)
-        intent.putExtra("branch", "http://xxxx.app.link/testlink")
+        resultIntent.putExtra("branch", "http://xxxx.app.link/testlink")
         val resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT)
-        intent.putExtra("branch_force_new_session", true)
+        resultIntent.putExtra("branch_force_new_session", true)
         ```
 
 - ### Handle links in your own app

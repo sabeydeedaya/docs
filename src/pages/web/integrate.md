@@ -1,6 +1,12 @@
 ## Overview
 
   - The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
+  
+### Notes
+
+- Journeys link data (data returned from Journeys event handlers) in WebSDK versions <= 2.48.0 will now contain escaped keys and values. Characters targeted for escaping include ", ', &, <, and >. These characters will be escaped to their corresponding HTML entities. Additionally URLs, in both keys and values will be URI encoded. 
+
+- Developers using WebSDK >= 2.49 will notice values in Journeys link data become escaped with the same rules as above. Keys will not be escaped.
 
 ## Integrate Branch
 
@@ -35,6 +41,7 @@
     ```
 
     - Change `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt` to match your [Branch Dashboard](https://dashboard.branch.io/account-settings/app)
+    - If you'd like to use a specific version of the SDK, point to https://cdn.branch.io/branch-x.xx.x.min.js (e.g. https://cdn.branch.io/branch-2.47.1.min.js) rather than https://cdn.branch.io/branch-latest.min.js when initializing.
 
 ## Implement features
 
@@ -170,7 +177,7 @@
         ```
 
 - ### Create Journeys banner
-
+    
     - Converts mobile users to app users
 
     - Create a `Journey` on the [Branch Dashboard](https://dashboard.branch.io/web/journeys)
@@ -654,7 +661,7 @@
     - Make sure the Branch key is the same within the deep link and website
 
         ```
-        XMLHttpRequest cannot load https://api.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
+        XMLHttpRequest cannot load https://api2.branch.io/v1/open. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. The response had HTTP status code 400.
         ```
         
 - ### Browser Fingerprint ID

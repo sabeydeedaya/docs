@@ -1,7 +1,7 @@
-#### Enable Facebook as an Ad Partner
+#### Enable Facebook as an Ad Partner (for measurement)
 
 !!! Note
-    Completing this section -- "Enable Facebook as an Ad Partner" -- will result in Branch sending app events to Facebook in order to attribute them back to ad campaigns.
+    Completing this section -- "Enable Facebook as an Ad Partner" -- will result in Branch sending app events to Facebook in order to attribute them back to ad campaigns. **This does not enable deep linking for the ad**. Further work below is required for deep linking.
 
 If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow this section to do so. Advanced options for sending events can be found [here](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
 
@@ -25,11 +25,11 @@ If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow 
 
     ![Public profile](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/3-profile.png)
 
-1. Confirm that Branch can have permissions `ads_read` and `business_management`
+1. Confirm that Branch can have permissions `ads_read`
 
     ![OAuth scopes](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/4-scopes.png)
 
- 	`ads_read` is used to surface impressions and clicks on the Branch Dashboard. `business_management` is used to add Branch's system user to your ad account(s) with `REPORTS_ONLY` access. We will not make any other changes to your business.
+ 	`ads_read` is used to surface impressions and clicks on the Branch Dashboard.
 
 1. Select the ad accounts for which you want to run app install ads or app engagement ads
 

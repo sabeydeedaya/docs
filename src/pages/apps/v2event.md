@@ -62,7 +62,12 @@ Commerce events describe events that relate to a customer interacting with your 
 From there, add the Branch universal object to the tracked event, and use the right predefined constant. For example, the code snippet below is to track when a user adds to cart, but simply replace that constant with another constant to track a different event.
 
 **A note on currency and exchange rates:**
-If you track commerce events without a currency, we assume they are USD. If you track commerce events with a currency other than USD, we will convert the `revenue` specified to USD, using a recent exchange rate. This allows you to easily visualize revenue on the Dashboard, across many countries and currencies, because all units are USD. The exchange rate is pulled from [openexchangerates.org](https://openexchangerates.org) regularly, and is generally within an hour of the realtime exchange rate. If you view raw Branch events via either Webhooks or Exports, you can see the exchange rate used.
+If you track commerce events without a currency, we assume they are USD. If you track commerce events with a currency other than USD, we will convert the `revenue` specified to USD, using a recent exchange rate.
+
+!!! warning "Third Party Integrations"
+    We strongly recommend settings a currency code as it is required for third party integrations, including Facebook and Google Ads.
+
+This allows you to easily visualize revenue on the Dashboard, across many countries and currencies, because all units are USD. The exchange rate is pulled from [openexchangerates.org](https://openexchangerates.org) regularly, and is generally within an hour of the realtime exchange rate. If you view raw Branch events via either Webhooks or Exports, you can see the exchange rate used.
 
 ### iOS
 
@@ -77,6 +82,17 @@ If you track commerce events without a currency, we assume they are USD. If you 
     branchUniversalObject.canonicalUrl        = "https://branch.io/item/12345"
     branchUniversalObject.title               = "My Item Title"
 
+    branchUniversalObject.contentMetadata.contentSchema     = .commerceProduct
+    branchUniversalObject.contentMetadata.quantity          = 1
+    branchUniversalObject.contentMetadata.price             = 23.20
+    branchUniversalObject.contentMetadata.currency          = .USD
+    branchUniversalObject.contentMetadata.sku               = "1994320302"
+    branchUniversalObject.contentMetadata.productName       = "my_product_name1"
+    branchUniversalObject.contentMetadata.productBrand      = "my_prod_Brand1"
+    branchUniversalObject.contentMetadata.productCategory   = .apparel
+    branchUniversalObject.contentMetadata.productVariant    = "XL"
+    branchUniversalObject.contentMetadata.condition         = .new
+
     // Create a BranchEvent:
     let event = BranchEvent.standardEvent(.purchase)
 
@@ -85,13 +101,13 @@ If you track commerce events without a currency, we assume they are USD. If you 
 
     // Add relevant event data:
     event.transactionID    = "12344555"
-    event.currency         = .USD;
+    event.currency         = .USD
     event.revenue          = 1.5
     event.shipping         = 10.2
     event.tax              = 12.3
-    event.coupon           = "test_coupon";
-    event.affiliation      = "test_affiliation";
-    event.eventDescription = "Event_description";
+    event.coupon           = "test_coupon"
+    event.affiliation      = "test_affiliation"
+    event.eventDescription = "Event_description"
     event.searchQuery      = "item 123"
     event.customData       = [
         "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
@@ -99,7 +115,7 @@ If you track commerce events without a currency, we assume they are USD. If you 
     ]
     event.logEvent() // Log the event.
     ```
-    
+
 - *Objective-C*
 
     ```objc
@@ -110,6 +126,17 @@ If you track commerce events without a currency, we assume they are USD. If you 
     branchUniversalObject.canonicalIdentifier = @"item/12345";
     branchUniversalObject.canonicalUrl        = @"https://branch.io/item/12345";
     branchUniversalObject.title               = @"My Item Title";
+
+    branchUniversalObject.contentMetadata.contentSchema     = BranchContentSchemaCommerceProduct;
+    branchUniversalObject.contentMetadata.quantity          = @"1";
+    branchUniversalObject.contentMetadata.price             = 23.20;
+    branchUniversalObject.contentMetadata.currency          = BNCCurrencyUSD;
+    branchUniversalObject.contentMetadata.sku               = @"1994320302";
+    branchUniversalObject.contentMetadata.productName       = @"my_product_name1";
+    branchUniversalObject.contentMetadata.productBrand      = @"my_prod_Brand1";
+    branchUniversalObject.contentMetadata.productCategory   = BNCProductCategoryApparel;
+    branchUniversalObject.contentMetadata.productVariant    = @"XL";
+    branchUniversalObject.contentMetadata.condition         = @"NEW";
 
     // Create an event and add the BranchUniversalObject to it.
     BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
@@ -273,7 +300,7 @@ curl -vvv -d '{
    ],
    "metadata": {},
    "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
- }' https://api.branch.io/v2/event/standard
+ }' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-commerce-events).
@@ -403,7 +430,7 @@ curl -vvv -d '{
   ],
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/standard
+}' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-content-events).
@@ -428,7 +455,7 @@ Lifecycle events can be described as events a user takes in your app to continue
 
     ```obj-c
     BranchEvent *event = [BranchEvent standardEvent:BranchStandardEventCompleteRegistration];
-    event.transactionID = @"tx1234"
+    event.transactionID = @"tx1234";
     event.eventDescription = @"User completed registration.";
     event.customData[@"registrationID"] = @"12345";
     [event logEvent];
@@ -475,7 +502,7 @@ curl -vvv -d '{
   },
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/standard
+}' https://api2.branch.io/v2/event/standard
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-user-lifecycle-events).
@@ -494,7 +521,7 @@ If you want to track an event that isn't a predefined event, simply do the follo
     ```swift
     BranchEvent.customEventWithName("User_Scanned_Item").logEvent()
     ```
-      
+
 - *Objective-C*
 
     ```obj-c
@@ -539,7 +566,7 @@ curl -vvv -d '{
   },
   "metadata": {},
   "branch_key": "key_test_hdcBLUy1xZ1JD0tKg7qrLcgirFmPPVJc"
-}' https://api.branch.io/v2/event/custom
+}' https://api2.branch.io/v2/event/custom
 ```
 
 See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-public-api#logging-custom-events).

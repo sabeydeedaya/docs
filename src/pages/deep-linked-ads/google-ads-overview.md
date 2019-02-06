@@ -143,6 +143,16 @@ In order to track these events, please refer to this document for further [infor
 - Reporting on UAC clicks is done every 3 hours
 - Branch only reports on clicks from an AdWords campaign that led to an install or app engagement
 
+#### Universal App Campaigns (UAC) - Limited Campaign Information
+These campaign parameters are not supported by UAC and will not be available in reports:
+
+Google parameter | Branch parameter
+--- | ---
+keyword | ~keyword_id
+placement | ~placement
+ad_group_id | ~ad_set_id
+creative_id | ~creative_id
+
 ### FAQ
 
 **Q: I'm seeing a discrepancy between conversion counts in Branch and Google Adwords**
