@@ -1,0 +1,72 @@
+<style>
+.md-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.md-content h1 {
+  display: none !important;
+}
+
+.main-page h2 {
+  border-bottom: 0;
+}
+.main-page .greeting {
+  font-size: 32px;
+  text-align: center;
+}
+
+.main-page .nav-wrap {
+  display: inline-block;
+  width: 100%;
+}
+
+.main-page .nav-wrap a {
+  margin-bottom: 20px;
+  width: 50%;
+  float: left;
+  font-size: 24px;
+}
+
+.search-bar {
+  margin: 60px auto;
+}
+.search-input {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+}
+.search-input input {
+  width: 100%;
+  border: 1px #000000 solid;
+  border-radius: 100px;
+  font-size: 20px;
+  height: 3.6rem;
+  padding-left: 4.4rem;
+}
+.search-input i {
+  top: -3rem;
+  left: 1.2rem;
+  position: relative;
+  z-index: 2;
+  font-size: 28px;
+  display: block;
+}
+.search-input #main-page-search {
+  cursor: text;
+}
+
+@media (min-width: 992px) {
+  .md-sidebar {
+    display: none !important;
+  }
+
+  .main-page .nav-wrap a {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+}
+</style>
+
+{% extends "base.html" %}
