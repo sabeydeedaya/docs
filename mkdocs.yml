@@ -468,7 +468,7 @@ pages:
       - SparkPost: pages/emails/sparkpost.md
       - Vero: pages/emails/vero.md
       - Zeta: pages/emails/zeta.md
-  - Activity Reports & Analytics:
+  - Reports & Analytics:
     - Overview: pages/dashboard/analytics-overview.md
     - Paid Ads Analytics: pages/activity-reports-analytics/paid-ads-analytics.md
     - Journeys Analytics: pages/activity-reports-analytics/journeys-analytics.md
