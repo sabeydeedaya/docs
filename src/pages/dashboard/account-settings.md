@@ -1,5 +1,3 @@
-template: secondary-lp.html
-
 Within your Account Settings, you have access to the following functionality:
 
 - Global Account Related Information

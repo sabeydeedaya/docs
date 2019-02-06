@@ -1,5 +1,3 @@
-template: secondary-lp.html
-
 Branch combines every deep linking standard into a single, simple package. Easy to implement, and always up to date.
 
 A Branch link is an actual page on the web. When users click a Branch link, they open that webpage, and we get pinged. We use matching to detect your users’ device, operating system, and browser, and combine that with cookies to either remember or check whether they have the app installed. Then we can redirect them for an optimal experience.
