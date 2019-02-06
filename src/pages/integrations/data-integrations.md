@@ -39,7 +39,7 @@ Data Integrations provide an easy way to automatically send Branch data to your 
     <p>Convertro</p>
   </a>
   <a href="/pages/integrations/google-analytics/">
-    <img src="../../../img/pages/integrations/overview/google.analytics.logo.png" height:"65" width="65"/>
+    <img src="../../../img/pages/integrations/overview/google-analytics-logo.png" height:"65" width="65"/>
     <p>Google Analytics</p>
   </a>
   <a href="/pages/integrations/kochava/">
@@ -77,9 +77,5 @@ Data Integrations provide an easy way to automatically send Branch data to your 
 </div>
 
 ## Supporting Information
-<div class="nav-wrap">
-  <ul>
-    <li><a href="/pages/integrations/faq/">Data Integrations FAQ</a></li>
-    <li><a href="/pages/exports/event_ontology_data_schema/">Event Entology</a></li>
-  </ul>
-</div>
+- [Data Integrations FAQ](/pages/integrations/faq/)
+- [Event Entology](/pages/exports/event_ontology_data_schema/)

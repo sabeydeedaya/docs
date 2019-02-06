@@ -31,7 +31,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
     <p>Cordova PhoneGap<br>Ionic</p>
   </a>
   <div>
-    <img src="../../../img/pages/resources/sdk-resources/mparticle-logo.png" alt="mParticle Android" />
+    <img src="../../../img/pages/resources/sdk-resources/mparticle.png" alt="mParticle Android" />
     <p>mParticle<br/><a href="/pages/apps/mparticle-android">Android</a> | <a href="/pages/apps/mparticle-ios">iOS</a></p>
   </div>
   <a href="/pages/apps/react-native">
