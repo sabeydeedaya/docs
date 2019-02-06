@@ -7,33 +7,33 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 ## Channels & Links Analytics
 <!-- Link Configuration -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/activity-reports-analytics/paid-ads-analytics">
-    <img src="../../../img/pages/channels/paid-ads.png"/>
+  <a href="/pages/activity-reports-analytics/paid-ads-analytics/">
+    <img src="../../../img/pages/channels/paid-ads.png" />
     <p>Paid Ads Analytics</p>
   </a>
   <a href="/pages/activity-reports-analytics/journeys-analytics/">
-    <img src="../../../img/pages/channels/website.png"/>
+    <img src="../../../img/pages/channels/website.png" />
     <p>Journeys Analytics</p>
   </a>
 <!-- Need content
 	<a href="/pages/activity-reports-analytics/deepviews-analytics/">
-    <img src="../../../img/pages/analytics/deepview.png"/>
+    <img src="../../../img/pages/analytics/deepview.png" />
     <p>Deepviews Analytics</p>
   </a>
 	<a href="/pages/activity-reports-analytics/desktop-sms-analytics/">
-    <img src="../../../img/pages/analytics/desktop.png"/>
+    <img src="../../../img/pages/analytics/desktop.png" />
     <p>Desktop SMS Analytics</p>
   </a>
 	<a href="/pages/activity-reports-analytics/email-analytics/">
-		<img src="../../../img/pages/channels/email.png" height:"65" width="65"/>
+		<img src="../../../img/pages/channels/email.png" />
 		<p>Email Analytics</p>
 	</a>
 	<a href="/pages/activity-reports-analytics/influencer-analytics/">
-  	<img src="../../../img/pages/channels/referral.png" height:"65" width="65"/>
+  	<img src="../../../img/pages/channels/referral.png" />
   	<p>Influencer Analytics</p>
 	</a> -->
 	<a href="/pages/activity-reports-analytics/link-level-analytics/">
-		<img src="../../../img/pages/channels/link.png" height:"65" width="65"/>
+		<img src="../../../img/pages/channels/link.png" />
 		<p>Link Level Analytics</p>
 	</a>
 </div>
@@ -42,12 +42,12 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">
 <!-- Need content
-	<a href="/pages/activity-reports-analytics/sources-analytics">
-  	<img src="../../../img/pages/analytics/source.png" height:"65" width="65"/>
+	<a href="/pages/activity-reports-analytics/sources-analytics/">
+  	<img src="../../../img/pages/analytics/source.png" />
   	<p>Sources Analytics</p>
 	</a> -->
-	<a href="/pages/activity-reports-analytics/content-analytics">
-  	<img src="../../../img/pages/channels/content.png" height:"65" width="65"/>
+	<a href="/pages/activity-reports-analytics/content-analytics/">
+  	<img src="../../../img/pages/channels/content.png" />
   	<p>Content Analytics</p>
 	</a>
 </div>
@@ -56,7 +56,7 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">
 	<a href="/pages/exports/pba-liveview/">
-		<img src="../../../img/pages/dashboard/liveview.png" height:"65" width="65"/>
+		<img src="../../../img/pages/dashboard/liveview.png/" />
 		<p>Live View</p>
 	</a>
 </div>
