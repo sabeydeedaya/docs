@@ -22,7 +22,7 @@ template: main-lp.html
     <div class="nav-wrap">
       <a href="/pages/resources/native-sdks-and-plugins/">
         <img src="../img/pages/main-page/sdk-dot.png"/>
-        <p>Developer<br/>Resources</p>
+        <p>Developer Resources</p>
       </a>
       <a href="/pages/resources/branch-channels">
         <img src="../img/pages/main-page/channel-dot.png"/>
@@ -37,7 +37,7 @@ template: main-lp.html
     <div class="nav-wrap">
       <a href="/pages/dashboard/analytics-overview">
         <img src="../img/pages/main-page/reports-dot.png"/>
-        <p>Activity Reports & Analytics</p>
+        <p>Reports & Analytics</p>
       </a>
       <a href="/pages/exports/data-feeds-overview">
         <img src="../img/pages/main-page/feeds-dot.png"/>

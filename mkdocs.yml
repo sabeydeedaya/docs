@@ -111,7 +111,7 @@ extra:
 
 # Pages
 pages:
-  - HOME: index.md
+  - Home : index.md
   - Overview: pages/resources/basics-overview.md
   - Branch Matching Overview: pages/resources/matching.md
   - People-Based Attribution: pages/dashboard/people-based-attribution.md

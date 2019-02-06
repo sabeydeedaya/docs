@@ -1,17 +1,21 @@
 template: main-lp.html
-
+<center><p><font size="6">How can we help?</font></p></center>
+<br/>
+<br/>
 <!-- ![image.full-width](img/pages/main-page/main-page.png) -->
 <div class="main-page">
   <div class="search-bar">
     <div class="search-input">
       <a href="#dialog-search" id="main-page-search" title="Search">
-        <input type="text" name="query" placeholder="What are you looking for today?" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+        <input type="text" name="query" placeholder="Search..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
         <i class="branch-header-search md-icon material-icons">search</i>
       </a>
     </div>
   </div>
+  <br/>
+  <br/>
+  <br/>
   <!-- row 1 -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;">
   <div class="main-nav">
     <div class="nav-wrap">
       <a href="/pages/resources/basics-overview/">
@@ -28,7 +32,7 @@ template: main-lp.html
       </a>
       <a href="/pages/resources/native-sdks-and-plugins/">
         <img src="../img/pages/main-page/sdk-dot.png"/>
-        <p>SDK Resources</p>
+        <p>Developer Resources</p>
       </a>
     </div>
     <div class="clearfix"></div>
@@ -43,7 +47,7 @@ template: main-lp.html
       </a>
       <a href="/pages/dashboard/analytics-overview">
         <img src="../img/pages/main-page/reports-dot.png"/>
-        <p>Activity Reports & Analytics</p>
+        <p>Reports & Analytics</p>
       </a>
       <a href="/pages/exports/data-feeds-overview">
         <img src="../img/pages/main-page/feeds-dot.png"/>
