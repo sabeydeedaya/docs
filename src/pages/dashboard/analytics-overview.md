@@ -4,9 +4,9 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 - Filter performance by marketing campaign, channel and more
 - View link clicks and resulting conversions for all Branch links
 
+## Channels & Links Analytics
 <div class="main-nav">
   <!-- Link Configuration -->
-	<h2>Channels & Links Analytics</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/activity-reports-analytics/paid-ads-analytics">
       <img src="../../../img/pages/channels/paid-ads.png"/>
@@ -37,9 +37,11 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 			<p>Link Level Analytics</p>
 		</a>
 	</div>
-	<hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+</div>
+	<br/>
+## Cross Channel Analytics
+<div class="main-nav">
 		<!-- Deep Links -->
-		<h2>Cross Channel Analytics</h2>
 		<div class="nav-wrap flex-wrap">
 			<a href="/pages/activity-reports-analytics/sources-analytics">
       	<img src="../../../img/pages/analytics/source.png" height:"65" width="65"/>
@@ -49,14 +51,17 @@ Our reporting layer balances speed and efficiency with completeness and complexi
       	<img src="../../../img/pages/channels/content.png" height:"65" width="65"/>
       	<p>Content Analytics</p>
   		</a>
-			</div>
-		<hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+		</div>
+</div>
+<br/>
+## Testing Analytics
+<div class="main-nav">
 		<!-- Deep Links -->
-		<h2>Testing Analytics</h2>
 		<div class="nav-wrap flex-wrap">
 		<a href="/pages/exports/pba-liveview/">
 			<img src="../../../img/pages/dashboard/liveview.png" height:"65" width="65"/>
 			<p>Live View</p>
 		</a>
   </div>
+</div>
   <!--/ Deep Links -->

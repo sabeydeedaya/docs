@@ -2,63 +2,63 @@ The Branch SDKs for deferred deep and contextual deep linking help you grow your
 
 In addition to supporting Android, iOS and Web natively, Branch offers support for six extensions/plugins of the most popular development technologies in the mobile advertising industry.
 
+## Branch SDKs & Deep Linking API
 <div class="main-nav">
   <!-- native sdk -->
-  <h2>Branch SDKs & API</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/apps/ios">
-      <img src="../../../img/pages/resources/sdk-resources/apple.png" alt="iOS SDK"/>
+      <img src="../../../img/pages/resources/sdk-resources/apple-logo.png" alt="iOS SDK"/>
       <p>iOS</p>
     </a>
     <a href="/pages/apps/android">
-    <img src="../../../img/pages/resources/sdk-resources/android1.png" alt="Android SDK"/>
+    <img src="../../../img/pages/resources/sdk-resources/android-logo.png" alt="Android SDK"/>
     <p>Android</p>
     </a>
     <a href="/pages/web/integrate">
-      <img src="../../../img/pages/resources/sdk-resources/web1.png" alt="Web SDK"/>
+      <img src="../../../img/pages/resources/sdk-resources/website-logo.png" alt="Web SDK"/>
       <p>Website</p>
     </a>
     <a href="/pages/apps/deep-linking-api">
-      <img src="../../../img/pages/resources/sdk-resources/api1.png" alt="API"/>
-      <p>API</p>
+      <img src="../../../img/pages/resources/sdk-resources/api-logo.png" alt="API"/>
+      <p>Deep Linking API</p>
     </a>
   </div>
+</div>
+<br/>
+
+## Plugins
   <!--/ native sdk -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
-  <!-- Plugins -->
-  <h2>Plugins</h2>
-  <div class="nav-wrap flex-wrap">
-    <a href="/pages/apps/cordova-phonegap-ionic">
-      <img src="../../../img/pages/resources/sdk-resources/cordova_bot.png" alt="Cordova PhoneGap Ionic" height:"65" width="65"/>
-      <p>Cordova PhoneGap<br>Ionic</p>
-    </a>
-    <div>
-      <img src="../../../img/pages/resources/sdk-resources/mparticle.png" alt="mParticle Android" height:"65" width="65"/>
-      <p>mParticle<br/><a href="/pages/apps/mparticle-android">Android</a> | <a href="/pages/apps/mparticle-ios">iOS</a></p>
+  <div class="main-nav">
+      <div class="nav-wrap flex-wrap">
+      <a href="/pages/apps/cordova-phonegap-ionic">
+        <img src="../../../img/pages/resources/sdk-resources/cordova-logo.png" alt="Cordova PhoneGap Ionic" height:"65" width="65"/>
+        <p>Cordova PhoneGap<br>Ionic</p>
+      </a>
+      <div>
+        <img src="../../../img/pages/resources/sdk-resources/mparticle-logo.png" alt="mParticle Android" height:"65" width="65"/>
+        <p>mParticle<br/><a href="/pages/apps/mparticle-android">Android</a> | <a href="/pages/apps/mparticle-ios">iOS</a></p>
+      </div>
+      <a href="/pages/apps/react-native">
+        <img src="../../../img/pages/resources/sdk-resources/native-logo.png" alt="React Native" height:"75" width="75"/>
+        <p>React Native</p>
+      </a>
+      <a href="/pages/apps/titanium">
+        <img src="../../../img/pages/resources/sdk-resources/titanium-logo.png" alt="Titanium" height:"65" width="65"/>
+        <p>Titanium</p>
+      </a>
+      <a href="/pages/apps/unity">
+        <img src="../../../img/pages/resources/sdk-resources/unity-b-logo.png" alt="Unity" height:"65" width="65"/>
+        <p>Unity</p>
+      </a>
+      <a href="/pages/apps/xamarin">
+        <img src="../../../img/pages/resources/sdk-resources/xamarin-logo.png" alt="Xamarin" height:"65" width="65"/>
+        <p>Xamarin</p>
+      </a>
     </div>
-    <a href="/pages/apps/react-native">
-      <img src="../../../img/pages/resources/sdk-resources/native-logo.png" alt="React Native" height:"75" width="75"/>
-      <p>React Native</p>
-    </a>
-    <a href="/pages/apps/titanium">
-      <img src="../../../img/pages/resources/sdk-resources/titanium-logo.png" alt="Titanium" height:"65" width="65"/>
-      <p>Titanium</p>
-    </a>
-    <a href="/pages/apps/unity">
-      <img src="../../../img/pages/resources/sdk-resources/unity-b-logo.png" alt="Unity" height:"65" width="65"/>
-      <p>Unity</p>
-    </a>
-    <a href="/pages/apps/xamarin">
-      <img src="../../../img/pages/resources/sdk-resources/xamarin-logo.png" alt="Xamarin" height:"65" width="65"/>
-      <p>Xamarin</p>
-    </a>
   </div>
-  <!--/ divider -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+  <br/>
+## 3rd Party SDKs
   <!-- SDK Integrations -->
-  <h2>3rd Party SDKs</h2>
   <div class="nav-wrap flex-wrap">  
     <div>
       <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" alt="Adobe Launch Android SDK" height:"65" width="65"/>
@@ -69,12 +69,10 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
       <p>Segment<br><a href="/pages/apps/segment-android">Android</a> | <a href="/pages/apps/segment-ios">iOS</a></p>
     </div>
   </div>
+  <br/>
   <!--/ SDK Integrations -->
-  <!--/ divider -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+## Advanced Configuration
   <!-- Advanced Options -->
-  <h2>Advanced Configuration</h2>
   <div class="nav-wrap flex-wrap">
     <div>
       <ul>

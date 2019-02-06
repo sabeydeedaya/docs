@@ -6,9 +6,8 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 
   - Data Integrations provide an easy way to automatically send Branch data to your other analytics services and marketing tools using pre-formatted webhooks.
 
-
+## Integrated Partners
 <div class="main-nav">
-  <h2>Integrated Partners</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/deep-linked-ads/ad-networks-list">
       <img src="../../../img/pages/channels/paid-ads.png"/>

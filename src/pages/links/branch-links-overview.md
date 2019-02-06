@@ -2,9 +2,9 @@ Branch combines every deep linking standard into a single, simple package. Easy 
 
 A Branch link is an actual page on the web. When users click a Branch link, they open that webpage, and we get pinged. We use matching to detect your users’ device, operating system, and browser, and combine that with cookies to either remember or check whether they have the app installed. Then we can redirect them for an optimal experience.
 
+## Branch Link Configuration
 <div class="main-nav">
   <!-- Link Configuration -->
-  <h2>Branch Link Configuration</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/links/default-link-behavior">
       <img src="../../../img/pages/links/basic-config.png"/>
@@ -19,11 +19,12 @@ A Branch link is an actual page on the web. When users click a Branch link, they
       <p>Creating Quick Links</p>
     </a>
   </div>
+</div>
   <!--/ Link Configuration -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+<br/>
+## Deep Link Configuration
+<div class="main-nav">
   <!-- Deep Links -->
-  <h2>Deep Link Configuration</h2>
   <div class="nav-wrap flex-wrap">
 	 <a href="/pages/deep-linking/universal-links">
 			<img src="../../../img/pages/links/ios.png" height:"65" width="65"/>
@@ -41,5 +42,6 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 		<img src="../../../img/pages/links/create-link.png" height:"65" width="65"/>
 		<p>Creating Deep Links</p>
 	</a>
+</div>
 </div>
   <!--/ Deep Links -->

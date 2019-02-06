@@ -1,8 +1,8 @@
 User journeys happen across channels. To get accurate attribution, you need to measure all of them. Fortunately, Branch has been powering flawless cross-channel user experiences for years, which means our links have a proven track record of working everywhere.
 
+## Acquisition
 <div class="main-nav">
   <!-- Acquisition -->
-  <h2>Acquisition</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/deep-linked-ads/branch-universal-ads">
       <img src="../../../img/pages/channels/paid-ads.png"/>
@@ -25,11 +25,12 @@ User journeys happen across channels. To get accurate attribution, you need to m
       <p>iMessage Apps</p>
     </a>
   </div>
+</div>
   <!--/ Acquisition -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+<br/>
   <!-- Engagement -->
-  <h2>Engagement</h2>
+## Engagement
+<div class="main-nav">
   <div class="nav-wrap flex-wrap">
   <a href="/pages/emails/universal-email">
     <img src="../../../img/pages/channels/email.png" height:"65" width="65"/>
@@ -48,11 +49,12 @@ User journeys happen across channels. To get accurate attribution, you need to m
     <p>Dynamic<br/>Product Feeds</p>
   </a>
   </div>
+</div>
   <!--/ Engagement -->
-  <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+<br/>
   <!-- Referral -->
-  <h2>Referral</h2>
+## Referral
+<div class="main-nav">
 	<div class="nav-wrap flex-wrap">
   <a href="/pages/viral/referrals">
     <img src="../../../img/pages/channels/referral.png" height:"65" width="65"/>
@@ -62,5 +64,6 @@ User journeys happen across channels. To get accurate attribution, you need to m
 		<img src="../../../img/pages/channels/content-sharing.png" height:"65" width="65"/>
 		<p>Content Sharing</p>
 	</a>
+</div>
 </div>
   <!--/ Referral -->

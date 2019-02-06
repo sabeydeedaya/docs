@@ -553,7 +553,6 @@ pages:
       - mParticle (import): pages/integrations/mparticle-import.md
       - Segment (export): pages/integrations/segment.md
       - Segment (import): pages/integrations/segment-import.md
-      - TUNE: pages/integrations/tune.md
       - Data Integrations FAQ: pages/integrations/faq.md
       - Event Ontology: pages/exports/event_ontology_data_schema.md
     - Webhooks: pages/exports/ua-webhooks.md
@@ -577,6 +576,7 @@ pages:
     - Google Display App Engagement Ads (old): pages/deep-linked-ads/google-display-engagement-ads.md
     - Google Universal App Campaigns (old): pages/deep-linked-ads/google-uac.md
     - Cohort Analysis (BETA): pages/dashboard/cohort-analysis.md
+    - TUNE (old): pages/integrations/tune.md
     - Branch 연동 가이드 - iOS: pages/kr/branch-ios.md
     - Branch 연동 가이드 - Android: pages/kr/branch-android.md
     - iOS Universal Links: pages/kr/universal-links.md

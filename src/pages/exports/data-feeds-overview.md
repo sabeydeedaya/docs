@@ -1,7 +1,7 @@
 Data Feeds is Branch’s premium suite of tools for exporting data. If you want to export your Branch data programmatically or send your data to other analytics services, Data Feeds can help. It includes the following tools:
 
 <!-- Deep Links -->
-<h2>Data Feeds</h2>
+## Data Feeds
 <div class="nav-wrap flex-wrap">
   <a href="/pages/integrations/data-integrations/">
     <img src="../../../img/pages/main-page/feeds-dot.png" height:"65" width="65"/>
