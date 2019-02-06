@@ -49,11 +49,6 @@
     display: block;
   }
 }
-.branch-nav-header {
-  cursor: default;
-  padding-top: 1.25em;
-  font-weight: 700;
-}
 .md-logo.md-header-nav__button {
   padding: 0;
   margin: 0;
@@ -368,12 +363,19 @@ body.modal {
 .md-nav--primary .md-nav__title--site {
   display: none;
 }
-.md-nav--primary .md-nav__list .md-nav__item:nth-child(1) {
+.branch-nav-header {
   display: none;
 }
-.md-nav--primary .md-nav__list .md-nav__item:nth-child(2) {
-  padding-top: 0;
-  margin-top: 0;
+.md-nav--primary > .md-nav__list > .md-nav__item--nested,
+.md-nav--primary .md-nav__list .md-nav__item:nth-child(1) {
+  cursor: default;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item--nested .md-nav__item {
+  cursor: default;
+  font-weight: initial;
+  padding-top: initial;
 }
 
 
