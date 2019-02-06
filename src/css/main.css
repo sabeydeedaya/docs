@@ -496,3 +496,15 @@ body.modal {
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+.nav-wrap img {
+  height: 65px;
+}
+
+.nav-wrap div,
+.nav-wrap a {
+  padding: 0 10px;
+  margin: 10px 0;
+  min-width: 100px
+}
+

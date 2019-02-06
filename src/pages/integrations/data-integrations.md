@@ -4,9 +4,8 @@ Data Integrations provide an easy way to automatically send Branch data to your 
     Data Integrations are included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
 ## Data Export Partners
-<div class="main-nav">
   <!-- Deep Links -->
-  <div class="nav-wrap flex-wrap">
+<div class="nav-wrap flex-wrap">
   <a href="/pages/integrations/adobe-analytics/">
     <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" height:"65" width="65"/>
     <p>Adobe Analytics</p>
@@ -63,28 +62,24 @@ Data Integrations provide an easy way to automatically send Branch data to your 
     <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
     <p>Segment</p>
   </a>
-  </div>
-<br/>
+</div>
+
 ## Data Import Partners
-  <div class="main-nav">
-    <div class="nav-wrap flex-wrap">
-      <a href="/pages/integrations/mparticle-import/">
-        <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
-        <p>mParticle</p>
-      </a>
-      <a href="/pages/integrations/segment-import/">
-        <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
-        <p>Segment</p>
-      </a>
-    </div>
-  </div>
-<br/>
+<div class="nav-wrap flex-wrap">
+  <a href="/pages/integrations/mparticle-import/">
+    <img src="../../../img/pages/resources/sdk-resources/mparticle.png" height:"65" width="65"/>
+    <p>mParticle</p>
+  </a>
+  <a href="/pages/integrations/segment-import/">
+    <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" height:"65" width="65"/>
+    <p>Segment</p>
+  </a>
+</div>
+
 ## Supporting Information
-<div class="main-nav">
-  <div class="nav-wrap flex-wrap">
-    <ul>
-      <li><a href="/pages/integrations/faq/">Data Integrations FAQ</a></li>
-      <li><a href="/pages/exports/event_ontology_data_schema/">Event Entology</a></li>
-    </ul>
-  </div>
+<div class="nav-wrap">
+  <ul>
+    <li><a href="/pages/integrations/faq/">Data Integrations FAQ</a></li>
+    <li><a href="/pages/exports/event_ontology_data_schema/">Event Entology</a></li>
+  </ul>
 </div>

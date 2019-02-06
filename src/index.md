@@ -1,9 +1,6 @@
 template: main-lp.html
-<center><p><font size="6">How can we help?</font></p></center>
-<br/>
-<br/>
-<!-- ![image.full-width](img/pages/main-page/main-page.png) -->
 <div class="main-page">
+<p class="greeting">How can we help?</p>
   <div class="search-bar">
     <div class="search-input">
       <a href="#dialog-search" id="main-page-search" title="Search">
@@ -12,9 +9,6 @@ template: main-lp.html
       </a>
     </div>
   </div>
-  <br/>
-  <br/>
-  <br/>
   <!-- row 1 -->
   <div class="main-nav">
     <div class="nav-wrap">

@@ -1,3 +1,5 @@
+template: secondary-lp.html
+
 Within your Account Settings, you have access to the following functionality:
 
 - Global Account Related Information
@@ -15,21 +17,10 @@ Within your Account Settings, you have access to the following functionality:
 - SSO
 
 ## Basic Account Settings
-<div class="main-nav">
-  <!-- Basic Account Settings -->
-      <ul>
-			<li><a href="/pages/dashboard/integrate/">App Level Settings</a></li>
-			<li><a href="/pages/dashboard/timezone/">Setting Your Dashboard Analytics Timezone</a></li>
-      </ul>
-  <!--/ Basic Account Settings -->
-</div>
-  <!-- Advanced Account Settings -->
+- [App Level Settings](/pages/dashboard/integrate/)
+- [Setting Your Dashboard Analytics Timezone](/pages/dashboard/timezone/)
+
 ## Advanced Account Settings
-<div class="main-nav">
-      <ul>
-			<li><a href="/pages/apps/v2event/">Viewing Billing Info</a></li>
-			<li><a href="/pages/apps/v2event/">Enabling Single Sign On</a></li>
-			<li><a href="/pages/apps/v2event/">Defining Access Levels</a></li>
-      </ul>
-</div>
-  <!--/ Advanced Account Settings -->
+- [Viewing Billing Info](/pages/dashboard/viewing-billing)
+- [Enabling Single Sign On](/pages/dashboard/sso)
+- [Defining Access Levels](/pages/dashboard/access-level)
