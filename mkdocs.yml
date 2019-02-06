@@ -481,8 +481,8 @@ pages:
     - Content Analytics: pages/activity-reports-analytics/content-analytics.md
     - Liveview: pages/exports/pba-liveview.md
     - Dashboard analytics: pages/dashboard/analytics.md
-    - Overview: pages/exports/data-feeds-overview.md
   - Data Feeds:
+    - Overview: pages/exports/data-feeds-overview.md
     - Data Integrations:
       - Overview: pages/integrations/data-integrations.md
       - Adobe Analytics: pages/integrations/adobe-analytics.md
