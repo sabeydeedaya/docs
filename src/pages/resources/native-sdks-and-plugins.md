@@ -4,7 +4,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
 
 <div class="main-nav">
   <!-- native sdk -->
-  <h2>Native SDKs & API</h2>
+  <h2>Branch SDKs & API</h2>
   <div class="nav-wrap flex-wrap">
     <a href="/pages/apps/ios">
       <img src="../../../img/pages/resources/sdk-resources/apple.png" alt="iOS SDK"/>
@@ -31,7 +31,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   <div class="nav-wrap flex-wrap">
     <a href="/pages/apps/cordova-phonegap-ionic">
       <img src="../../../img/pages/resources/sdk-resources/cordova_bot.png" alt="Cordova PhoneGap Ionic" height:"65" width="65"/>
-      <p>Cordova<br>PhoneGap Ionic</p>
+      <p>Cordova PhoneGap<br>Ionic</p>
     </a>
     <div>
       <img src="../../../img/pages/resources/sdk-resources/mparticle.png" alt="mParticle Android" height:"65" width="65"/>
@@ -58,7 +58,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   <!-- divider -->
   <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
   <!-- SDK Integrations -->
-  <h2>SDK Integrations</h2>
+  <h2>3rd Party SDKs</h2>
   <div class="nav-wrap flex-wrap">  
     <div>
       <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" alt="Adobe Launch Android SDK" height:"65" width="65"/>

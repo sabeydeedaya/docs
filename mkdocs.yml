@@ -121,9 +121,9 @@ pages:
       - In-app deep link routing: pages/deep-linking/routing.md
     - Creating Deep Links: pages/links/integrate.md
     - Creating Quick Links: pages/links/quick-links.md
-  - SDK & API Resources:
+  - Developer Resources:
     - Overview: pages/resources/native-sdks-and-plugins.md
-    - Native SDKs & API:
+    - Branch SDKs & API:
       - iOS: pages/apps/ios.md
       - Android: pages/apps/android.md
       - Website: pages/web/integrate.md
@@ -136,7 +136,7 @@ pages:
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
       - Xamarin: pages/apps/xamarin.md
-    - SDK Integrations:
+    - 3rd Party SDKs:
       - Segment Android SDK: pages/apps/segment-android.md
       - Segment iOS SDK: pages/apps/segment-ios.md
     - Advanced Configuration:
