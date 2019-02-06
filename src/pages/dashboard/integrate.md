@@ -1,7 +1,7 @@
 
 ## Basic integration
 
-- ### Understand the Branch Key
+- ### Branch Key & Secret
 
     - Go to [Account settings](https://dashboard.branch.io/account-settings/app) on the Branch Dashboard
     - `Branch Keys` allow you to interact with your Branch SDKs and create deep links
@@ -65,10 +65,10 @@
             - Deep links have an `alias` behind them to uniquely identify the link data inside them
                 - e.g. https://example.app.link/VZsTctoINF
                 - e.g. https://example.app.link/custom-alias
-        
+
             ![image](/img/pages/dashboard/link-domain.png)
-    
-    - ##### Social media 
+
+    - ##### Social media
 
         - Set the default image preview for your deep links when shared on social media
         - These values are typically overridden by [Custom link behavior](/pages/links/integrate/#custom-link-behavior) which differentiate your deep links between one another
@@ -190,10 +190,10 @@
 
 - ### App Deletion
 
-If you navigate to `Account Settings`, and choose to delete your app, this will be a permanent change. Note the following actions that we apply once you delete your Branch app. 
+If you navigate to `Account Settings`, and choose to delete your app, this will be a permanent change. Note the following actions that we apply once you delete your Branch app.
 
     - We delete the dashboard user data of the original app creator associated with that particular app. They can still log in to other apps.
     - Your links will show a 404.
-    - All requests to our API (via the SDK), will return a server error. 
+    - All requests to our API (via the SDK), will return a server error.
     - Attribution and analytics infromation will no longer be tracked.
     - All data feed systems will stop sending data (such as webhooks and data integrations).

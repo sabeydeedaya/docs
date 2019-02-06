@@ -1,11 +1,3 @@
----
-title: Google Adwords Overview
-description: An overview page of using Branch in your Google Adwords campaigns.
-path: tree/master/src/pages/deep-linked-ads
-source: google-ads-overview.md
----
-# Google Adwords Overview
-
 ## Overview
 
 ![Google_Adwords](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adwords-1528518485386.png)
@@ -125,18 +117,6 @@ ecommerce_purchase | purchase
 custom | any custom event tracked through Branch
 
 In order to track these events, please refer to this document for further [information](/pages/apps/v2event/#v2-event).
-
-## Other Campaigns
-
-The above guide covered what was necessary to track Universal App Campaigns. If you are looking to track non app-install campaigns, click through below.
-
-Google Campaign | Campaign Type/Objective | Branch Documentation Link | Branch Ad Format
---- | --- | --- | ---
-Search Network | Standard  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#standard-search-ads)** | Cross-platform Search
-Search Network | Dynamic Search Ads  | **[link](/pages/deep-linked-ads/google-xplatform-search-ads/#dynamic-search-ads)** | Cross-platform Search
-Display Network | Others (Visit your website, Influence, etc.)  | **[link](/pages/deep-linked-ads/google-xplatform-display-ads/#overview)** | Cross-platform Display
-Video | Standard | **[link](/pages/deep-linked-ads/google-video-ads/#video-standard-ads)** | Cross-platform Display
-Shopping | Web and App Purchases | **[link](/pages/deep-linked-ads/google-shopping-ads/#overview)** | Cross-platform Display
 
 {! ingredients/deep-linked-ads/cost-data.md !}
 

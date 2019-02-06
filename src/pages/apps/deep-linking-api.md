@@ -594,7 +594,7 @@
         | filter | `json` | This is the set of keys and values that must be contained in the event metadata for this reward to be issued |
 
     !!! note "Please take note of the `type` parameter"
-        `type` = `credit` will create a reward rule on your dashboard, but `type` = `web_hook` will create a webhook each time the reward rule is triggered. To see the structure of the webhook callback, please test this with [RequestBin](https://requestb.in/) or a similar service.
+        `type` = `credit` will create a reward rule on your dashboard, but `type` = `web_hook` will create a webhook each time the reward rule is triggered. To see the structure of the webhook callback, please test this with [RequestBin](https://requestbin.com/) or a similar service.
 
 - ### Referral troubleshooting
 

@@ -23,7 +23,7 @@
       {% set index = loop.index %}
       {% for header in config.extra.nav_header %}
         {% if index == header.index %}
-          <li class="md-nav__item md-nav__link branch-nav-header">
+          <li class="md-nav__item md-nav__link branch-nav-header" >
             {{ header.title }}
           </li>
         {% endif %}
