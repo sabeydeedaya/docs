@@ -16,6 +16,7 @@ Our reporting layer balances speed and efficiency with completeness and complexi
       <img src="../../../img/pages/channels/website.png"/>
       <p>Journeys Analytics</p>
     </a>
+<!-- Need content
 		<a href="/pages/activity-reports-analytics/deepviews-analytics/">
       <img src="../../../img/pages/analytics/deepview.png"/>
       <p>Deepviews Analytics</p>
@@ -31,7 +32,7 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 		<a href="/pages/activity-reports-analytics/influencer-analytics/">
     	<img src="../../../img/pages/channels/referral.png" height:"65" width="65"/>
     	<p>Influencer Analytics</p>
-  	</a>
+  	</a> -->
 		<a href="/pages/activity-reports-analytics/link-level-analytics/">
 			<img src="../../../img/pages/channels/link.png" height:"65" width="65"/>
 			<p>Link Level Analytics</p>
@@ -43,10 +44,11 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 <div class="main-nav">
 		<!-- Deep Links -->
 		<div class="nav-wrap flex-wrap">
+		<!-- Need content
 			<a href="/pages/activity-reports-analytics/sources-analytics">
       	<img src="../../../img/pages/analytics/source.png" height:"65" width="65"/>
       	<p>Sources Analytics</p>
-  		</a>
+  		</a> -->
 			<a href="/pages/activity-reports-analytics/content-analytics">
       	<img src="../../../img/pages/channels/content.png" height:"65" width="65"/>
       	<p>Content Analytics</p>
