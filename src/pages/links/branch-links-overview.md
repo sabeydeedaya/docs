@@ -5,16 +5,16 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 ## Branch Link Configuration
 <!-- Link Configuration -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/links/default-link-behavior">
-    <img src="../../../img/pages/links/basic-config.png"/>
+  <a href="/pages/links/default-link-behavior/">
+    <img src="../../../img/pages/links/basic-config.png" />
     <p>Default Link Behavior</p>
   </a>
-  <a href="/pages/links/advanced-settings-configuration">
-    <img src="../../../img/pages/links/advanced-config.png"/>
+  <a href="/pages/links/advanced-settings-configuration/">
+    <img src="../../../img/pages/links/advanced-config.png" />
     <p>Advanced Settings</p>
   </a>
-  <a href="/pages/links/quick-links">
-    <img src="../../../img/pages/links/create-link.png"/>
+  <a href="/pages/links/quick-links/">
+    <img src="../../../img/pages/links/create-link.png" />
     <p>Creating Quick Links</p>
   </a>
 </div>
@@ -23,20 +23,20 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 ## Deep Link Configuration
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/deep-linking/universal-links">
-		<img src="../../../img/pages/links/ios.png" height:"65" width="65"/>
+  <a href="/pages/deep-linking/universal-links/">
+		<img src="../../../img/pages/links/ios.png" />
 		<p>iOS Universal Links</p>
 	</a>
-  <a href="/pages/deep-linking/android-app-links">
-    <img src="../../../img/pages/links/android.png" height:"65" width="65"/>
+  <a href="/pages/deep-linking/android-app-links/">
+    <img src="../../../img/pages/links/android.png" />
     <p>Android App Links</p>
   </a>
-	<a href="/pages/deep-linking/routing">
-    <img src="../../../img/pages/links/in-app-routing.png" height:"65" width="65"/>
+	<a href="/pages/deep-linking/routing/">
+    <img src="../../../img/pages/links/in-app-routing.png" />
     <p>In-App Deep Link Routing</p>
   </a>
-	<a href="/pages/links/integrate">
-		<img src="../../../img/pages/links/create-link.png" height:"65" width="65"/>
+	<a href="/pages/links/integrate/">
+		<img src="../../../img/pages/links/create-link.png" />
 		<p>Creating Deep Links</p>
 	</a>
 </div>

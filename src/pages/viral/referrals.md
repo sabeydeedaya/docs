@@ -3,7 +3,7 @@
 Branch allows you to reward users with credits, track those credits, and redeem them when appropriate. It is a unit-less currency available to your users without you having to build a system from scratch.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=-qyR6y0wtCM"><img class="branch-image-override" src="/img/pages/viral/referral-programs/referral-video.png"/></a>
+  <a href="https://www.youtube.com/watch?v=-qyR6y0wtCM"><img class="branch-image-override" src="/img/pages/viral/referral-programs/referral-video.png" /></a>
 </p>
 
 ## Guide
@@ -20,7 +20,7 @@ With every event that is recorded in Branch, we check automatically if that even
 
 !!! warning "Only use v1 custom events"
 	Our referral system only supports our v1 custom event SDK method which is `userCompletedAction()` and `track()`. The v2 events, `BranchEvent` and `logEvent()`, are not supported at this time.
-	
+
 !!! warning "Promo codes has been deprecated"
 	Our Promo codes feature on the dashboard has been deprecated. Please use reward rules to trigger referral rewards for your users.
 

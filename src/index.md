@@ -13,45 +13,45 @@ template: main-lp.html
   <div class="main-nav">
     <div class="nav-wrap">
       <a href="/pages/resources/basics-overview/">
-        <img src="../img/pages/main-page/basics-dot.png"/>
+        <img src="../img/pages/main-page/basics-dot.png" />
         <p>Branch Basics</p>
       </a>
       <a href="/pages/dashboard/account-settings/">
-        <img src="../img/pages/main-page/account-dot.png"/>
+        <img src="../img/pages/main-page/account-dot.png" />
         <p>Account Settings</p>
       </a>
       <a href="/pages/links/branch-links-overview/">
-        <img src="../img/pages/main-page/links-dot.png"/>
+        <img src="../img/pages/main-page/links-dot.png" />
         <p>Link Settings</p>
       </a>
       <a href="/pages/resources/native-sdks-and-plugins/">
-        <img src="../img/pages/main-page/sdk-dot.png"/>
+        <img src="../img/pages/main-page/sdk-dot.png" />
         <p>Developer Resources</p>
       </a>
     </div>
     <div class="clearfix"></div>
     <div class="nav-wrap">
-      <a href="/pages/resources/branch-channels">
-        <img src="../img/pages/main-page/channel-dot.png"/>
+      <a href="/pages/resources/branch-channels/">
+        <img src="../img/pages/main-page/channel-dot.png" />
         <p>Channels</p>
       </a>
-      <a href="/pages/partner-management/branch-integrated-partners">
-        <img src="../img/pages/main-page/partner-dot.png"/>
+      <a href="/pages/partner-management/branch-integrated-partners/">
+        <img src="../img/pages/main-page/partner-dot.png" />
         <p>Partner Management</p>
       </a>
-      <a href="/pages/dashboard/analytics-overview">
-        <img src="../img/pages/main-page/reports-dot.png"/>
+      <a href="/pages/dashboard/analytics-overview/">
+        <img src="../img/pages/main-page/reports-dot.png" />
         <p>Reports & Analytics</p>
       </a>
-      <a href="/pages/exports/data-feeds-overview">
-        <img src="../img/pages/main-page/feeds-dot.png"/>
+      <a href="/pages/exports/data-feeds-overview/">
+        <img src="../img/pages/main-page/feeds-dot.png" />
         <p>Data Feeds</p>
       </a>
     </div>
     <div class="clearfix"></div>
   </div>
   <!-- divider -->
-  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;"/>
+  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;" />
   <!-- bottom nav -->
   <div class="bottom-nav">
     <div class="nav-wrap">
