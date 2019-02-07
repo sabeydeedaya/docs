@@ -65,6 +65,11 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   </div>
 </div>
 <!--/ SDK Integrations -->
+## Validation Tools
+- [Branch CLI for Automated iOS Integration](/pages/resources/validation-tools/#branch-cli-for-automated-ios-integration)
+- [AASA Validator](/pages/resources/validation-tools/#aasa-validator)
+- [App Indexing Validator](/pages/resources/validation-tools/#app-indexing-validator)
+- [Universal Link Validator](/pages/resources/validation-tools/#universal-link-validator)
 
 ## Advanced Configuration
 - [v2 Events](/pages/apps/v2event/)
