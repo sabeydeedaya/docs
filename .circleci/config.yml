@@ -9,8 +9,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
       - run: export PATH=/home/circleci/.local/bin:$PATH
-
-  deploy:
+  deploy-staging:
     machine: true
     working_directory: ~/docs
     steps:
@@ -18,7 +17,12 @@ jobs:
       - run: pip install awscli --upgrade --user
       - run: pip install -r requirements.txt
       - run: mkdocs build --clean --verbose
-      - run: mkdocs gh-deploy
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync --delete-removed ~/docs/site/ s3://staging.docs.branch.io"
+      - run:
+          name: Clear CloudFront
+          command: aws cloudfront create-invalidation --distribution-id <%= ENV['CF_DISTRIBUTION_ID'] %> --paths "/*"
 
 workflows:
   version: 2
@@ -28,9 +32,17 @@ workflows:
           filters:
             branches:
               ignore: gh-pages
-      - deploy:
+      - deploy-staging:
           requires:
             - build
           filters:
             branches:
-              only: production
+              only:
+                - /staging-.*/
+      - deploy-production:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - production
