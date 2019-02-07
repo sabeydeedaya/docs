@@ -570,6 +570,7 @@ pages:
       - Redirect: pages/exports/data-feeds.md
       - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
+      - Redirect: pages/deep-linked-ads/google-conversions.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
@@ -586,7 +587,6 @@ pages:
     - Dashboard analytics: pages/dashboard/analytics.md
     - Temporary:
       - Importing Historical User Data: pages/dashboard/importing-historical-user-data.md
-      - Google Adwords Conversion Setup: pages/deep-linked-ads/google-conversions.md
       - Case Studies and Infographics: pages/resources/case-studies.md
       - Launch your app:
         - Apple App Store: pages/apps/ios-launch.md
