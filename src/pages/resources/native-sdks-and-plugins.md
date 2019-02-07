@@ -71,5 +71,9 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
 - [App Indexing Validator](/pages/resources/validation-tools/#app-indexing-validator)
 - [Universal Link Validator](/pages/resources/validation-tools/#universal-link-validator)
 
+##Launch Your App
+- [Apple App Store](pages/apps/ios-launch)
+- [Google Play](pages/apps/android-launch)
+
 ## Advanced Configuration
 - [v2 Events](/pages/apps/v2event/)
