@@ -133,6 +133,8 @@ pages:
       - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
       - mParticle Android: pages/apps/mparticle-android.md
       - mParticle iOS: pages/apps/mparticle-ios.md
+      - Adobe Launch Android: pages/apps/adobe-launch-android.md
+      - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
       - Titanium: pages/apps/titanium.md
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
@@ -140,6 +142,7 @@ pages:
     - 3rd Party SDKs:
       - Segment Android SDK: pages/apps/segment-android.md
       - Segment iOS SDK: pages/apps/segment-ios.md
+    - Validation Tools: pages/resources/validation-tools.md
     - Advanced Configuration:
       - V2 Events: pages/apps/v2event.md
   - Marketing Channels:
@@ -554,6 +557,18 @@ pages:
     - Query API: pages/exports/query-api.md
     - Query Recipe Book: pages/exports/query-recipe-book.md
   - Hidden:
+    - Redirects:
+      - Redirect: pages/deep-linked-ads/apple-search-ads-cost.md
+      - Redirect: pages/deep-linked-ads/branch-universal-ads.md
+      - Redirect: pages/deep-linked-ads/twitter-mobile-tracking.md
+      - Redirect: pages/deep-linked-ads/google-search-install-ads.md
+      - Redirect: pages/deep-linked-ads/google-search-engagement-ads.md
+      - Redirect: pages/deep-linked-ads/google-display-install-ads.md
+      - Redirect: pages/deep-linked-ads/google-display-engagement-ads.md
+      - Redirect: pages/deep-linked-ads/google-uac.md
+      - Redirect: pages/apps/api.md
+      - Redirect: pages/exports/data-feeds.md
+      - Redirect: pages/integrations/tune.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
@@ -561,16 +576,7 @@ pages:
     - Universal Ads Template (internal template): pages/deep-linked-ads/_template-mobile-tracking.md
     - Field-by-field guide for migrating from legacy Export API (old): pages/exports/export-api-migration-guide.md
     - Field-by-field guide for migrating from legacy webhooks (old): pages/exports/webhooks-migration-guide.md
-    - Apple Search Ads Cost Data (inlcuded in main doc): pages/deep-linked-ads/apple-search-ads-cost.md
-    - Branch Universal Ads (old) : pages/deep-linked-ads/branch-universal-ads.md
-    - Twitter (old): pages/deep-linked-ads/twitter-mobile-tracking.md
-    - Google Search App Install Ads (old): pages/deep-linked-ads/google-search-install-ads.md
-    - Google Search App Engagement Ads (old): pages/deep-linked-ads/google-search-engagement-ads.md
-    - Google Display App Install Ads (old): pages/deep-linked-ads/google-display-install-ads.md
-    - Google Display App Engagement Ads (old): pages/deep-linked-ads/google-display-engagement-ads.md
-    - Google Universal App Campaigns (old): pages/deep-linked-ads/google-uac.md
     - Cohort Analysis (BETA): pages/dashboard/cohort-analysis.md
-    - TUNE (old): pages/integrations/tune.md
     - Branch 연동 가이드 - iOS: pages/kr/branch-ios.md
     - Branch 연동 가이드 - Android: pages/kr/branch-android.md
     - iOS Universal Links: pages/kr/universal-links.md
