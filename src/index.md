@@ -13,38 +13,38 @@ template: main-lp.html
   <div class="main-nav">
     <div class="nav-wrap">
       <a href="/pages/resources/basics-overview/">
-        <img src="../img/pages/main-page/basics-dot.png" />
+        <img src="/img/pages/main-page/basics-dot.png" />
         <p>Branch Basics</p>
       </a>
       <a href="/pages/dashboard/account-settings/">
-        <img src="../img/pages/main-page/account-dot.png" />
+        <img src="/img/pages/main-page/account-dot.png" />
         <p>Account Settings</p>
       </a>
       <a href="/pages/links/branch-links-overview/">
-        <img src="../img/pages/main-page/links-dot.png" />
+        <img src="/img/pages/main-page/links-dot.png" />
         <p>Link Settings</p>
       </a>
       <a href="/pages/resources/native-sdks-and-plugins/">
-        <img src="../img/pages/main-page/sdk-dot.png" />
+        <img src="/img/pages/main-page/sdk-dot.png" />
         <p>Developer Resources</p>
       </a>
     </div>
     <div class="clearfix"></div>
     <div class="nav-wrap">
       <a href="/pages/resources/branch-channels/">
-        <img src="../img/pages/main-page/channel-dot.png" />
+        <img src="/img/pages/main-page/channel-dot.png" />
         <p>Channels</p>
       </a>
       <a href="/pages/partner-management/branch-integrated-partners/">
-        <img src="../img/pages/main-page/partner-dot.png" />
+        <img src="/img/pages/main-page/partner-dot.png" />
         <p>Partner Management</p>
       </a>
       <a href="/pages/dashboard/analytics-overview/">
-        <img src="../img/pages/main-page/reports-dot.png" />
+        <img src="/img/pages/main-page/reports-dot.png" />
         <p>Reports & Analytics</p>
       </a>
       <a href="/pages/exports/data-feeds-overview/">
-        <img src="../img/pages/main-page/feeds-dot.png" />
+        <img src="/img/pages/main-page/feeds-dot.png" />
         <p>Data Feeds</p>
       </a>
     </div>
@@ -56,19 +56,19 @@ template: main-lp.html
   <div class="bottom-nav">
     <div class="nav-wrap">
       <a href="https://support.branch.io/support/solutions/folders/6000232535">
-        <img src="../img/pages/main-page/how-to-dot.png" alt="How To Guides"/>
+        <img src="/img/pages/main-page/how-to-dot.png" alt="How To Guides"/>
         <p>How To Guides</p>
       </a>
       <a href="https://support.branch.io/support/solutions/folders/6000232536">
-        <img src="../img/pages/main-page/trouble-dot.png" alt="Troubleshooting"/>
+        <img src="/img/pages/main-page/trouble-dot.png" alt="Troubleshooting"/>
         <p>Troubleshooting</p>
       </a>
       <a href="https://support.branch.io/support/solutions/folders/6000232748">
-        <img src="../img/pages/main-page/updates-dot.png" alt="Product Updates"/>
+        <img src="/img/pages/main-page/updates-dot.png" alt="Product Updates"/>
         <p>Product Updates</p>
       </a>
       <a href="https://support.branch.io/support/solutions/folders/6000232721">
-        <img src="../img/pages/main-page/best-dot.png" alt="Best Practices"/>
+        <img src="/img/pages/main-page/best-dot.png" alt="Best Practices"/>
         <p>Best Practices</p>
       </a>
     </div>
