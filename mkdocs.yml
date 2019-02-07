@@ -101,8 +101,12 @@ pages:
   - Home: index.md
   - Branch Basics:
     - Overview: pages/resources/basics-overview.md
-    - Branch Matching Overview: pages/resources/matching.md
-    - People-Based Attribution: pages/dashboard/people-based-attribution.md
+    - Attribution:
+      - Branch Matching Overview: pages/resources/matching.md
+      - People-Based Attribution: pages/dashboard/people-based-attribution.md
+    - Starting with Branch:
+      - Importing Historical User Data: pages/dashboard/importing-historical-user-data.md
+      - Case Studies and Infographics: pages/resources/case-studies.md
   - Account Settings:
     - Overview: pages/dashboard/account-settings.md
     - Basic Settings:
@@ -143,6 +147,9 @@ pages:
       - Segment Android SDK: pages/apps/segment-android.md
       - Segment iOS SDK: pages/apps/segment-ios.md
     - Validation Tools: pages/resources/validation-tools.md
+    - Launch your app:
+      - Apple App Store: pages/apps/ios-launch.md
+      - Google Play: pages/apps/android-launch.md
     - Advanced Configuration:
       - V2 Events: pages/apps/v2event.md
   - Marketing Channels:
@@ -163,6 +170,7 @@ pages:
     - Email:
       - Branch Universal Email: pages/emails/universal-email.md
       - Universal Email Partners: pages/emails/email-partners-list.md
+      - Self Serve: pages/emails/self-serve.md
     - SMS:
       - Vibes: pages/sms/vibes.md
     - Push notifications: pages/advance/push-notifications.md
@@ -570,6 +578,7 @@ pages:
       - Redirect: pages/exports/data-feeds.md
       - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
+      - Redirect: pages/deep-linked-ads/google-conversions.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
@@ -584,11 +593,4 @@ pages:
     - Android App Links 가이드: pages/kr/android-app-links.md
     - 앱 내 딥링크 라우팅 가이드: pages/kr/deep-link-routing.md
     - Dashboard analytics: pages/dashboard/analytics.md
-    - Temporary:
-      - Importing Historical User Data: pages/dashboard/importing-historical-user-data.md
-      - Google Adwords Conversion Setup: pages/deep-linked-ads/google-conversions.md
-      - Case Studies and Infographics: pages/resources/case-studies.md
-      - Launch your app:
-        - Apple App Store: pages/apps/ios-launch.md
-        - Google Play: pages/apps/android-launch.md
-      - Self Serve: pages/emails/self-serve.md
+  
