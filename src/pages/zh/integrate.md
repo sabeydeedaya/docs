@@ -122,14 +122,14 @@
 		| utm_content | 标记
 		| utm_term | 关键字（控制面板上不可见）
 
-- ### 更改链接域¶
+- ### 更改链接域
 	- 转到 Branch 控制面板上的[链接设置](https://dashboard.branch.io/link-settings)
 
-	- #### 使用 app.link 域¶
+	- #### 使用 app.link 域
 		- 了解[域变更提醒](#domain-change-warning)
 		- 更改[链接设置](https://dashboard.branch.io/link-settings)或联系支持人员
 
-	- #### 使用自定义子域¶
+	- #### 使用自定义子域
 		- 了解[域变更提醒](#domain-change-warning)
 		- 了解[自定义域提醒](#custom-domain-warning)
 		- 了解[自定义域调试](#custom-domain-debugging)
@@ -139,7 +139,7 @@
 		- 在[链接设置](https://dashboard.branch.io/link-settings)中，单击“确认”。
 		- 如果您通过亚马逊云计算服务 (AWS) 的 Route 53 配置域，请确保在`注册域`选项卡下，而不是`托管区`部分编辑名称服务器
 
-- #### 使用自定义根域¶
+- #### 使用自定义根域
 	- 了解[域变更提醒](#domain-change-warning)
 	- 了解[自定义域提醒](#custom-domain-warning)
 	- 了解[自定义域调试](#custom-domain-debugging)
