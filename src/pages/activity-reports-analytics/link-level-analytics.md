@@ -24,7 +24,7 @@ If you created a marketing link on the Quick Links page, you can see a breakdown
 
 ## API
 
-To use any form of the API, you need the link ID. You can simply request it from [https://api.branch.io/v1/url](https://api2.branch.io/v1/url?url=https://example.app.link/WgiqvsepqF&branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt), for example:
+To use any form of the API, you need the link ID. You can simply request it from [https://api2.branch.io/v1/url](https://api2.branch.io/v1/url?url=https://example.app.link/WgiqvsepqF&branch_key=key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt), for example:
 
 Request:
 
