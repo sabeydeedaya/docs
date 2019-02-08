@@ -52,12 +52,12 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   </a>
 </div>
 
-## 3rd Party SDKs
+## 3rd Party SDKs & Plugins
 <!-- SDK Integrations -->
 <div class="nav-wrap flex-wrap">
   <div>
     <img src="../../../img/pages/resources/sdk-resources/adobe-launch.png" alt="Adobe Launch Android SDK" />
-    <p>Adobe Launch<br><a href="/pages/apps/adobe-launch-android/">Android</a> | <a href="/pages/apps/adobe-launch-ios/">iOS</a></p>
+    <p>Adobe Launch<br><a href="/pages/apps/adobe-launch-android/">Android SDK</a> | <a href="/pages/apps/adobe-launch-ios/">iOS SDK</a> | <a href="/pages/apps/adobe-launch-web-plugin/">Web Plugin</a></p>
   </div>
   <div>
     <img src="../../../img/pages/resources/sdk-resources/segment-logo.png" alt="Segment Android SDK" />

@@ -143,7 +143,10 @@ pages:
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
       - Xamarin: pages/apps/xamarin.md
-    - 3rd Party SDKs:
+    - 3rd Party SDKs & Plugins:
+      - Adobe Launch Android SDK: pages/apps/adobe-launch-android.md
+      - Adobe Launch iOS SDK: pages/apps/adobe-launch-ios.md
+      - Adobe Launch Web Plugin: pages/apps/adobe-launch-web-plugin.md
       - Segment Android SDK: pages/apps/segment-android.md
       - Segment iOS SDK: pages/apps/segment-ios.md
     - Validation Tools: pages/resources/validation-tools.md
