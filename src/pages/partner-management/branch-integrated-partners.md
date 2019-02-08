@@ -21,3 +21,7 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
     <p>Data Integration Partners</p>
   </a>
 </div>
+
+## Partner Resources
+
+- [Universal Ads Partner Integration QA Process](/pages/deep-linked-ads/universal-ads-partner-integration-qa-process)

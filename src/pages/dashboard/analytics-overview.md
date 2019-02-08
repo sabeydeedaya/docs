@@ -56,7 +56,7 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">
 	<a href="/pages/exports/pba-liveview/">
-		<img src="../../../img/pages/dashboard/liveview.png/" />
+		<img src="../../../img/pages/dashboard/liveview.png" />
 		<p>Live View</p>
 	</a>
 </div>

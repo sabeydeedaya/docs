@@ -21,7 +21,7 @@ theme:
     code: 'Roboto Mono'
   feature: false
   logo: 'img/logo.svg'
-  favicon: 'img/branch.svg'
+  favicon: 'img/branch-favicon.png'
 docs_dir: 'src'
 extra_css:
   - 'css/main.css'
@@ -143,7 +143,10 @@ pages:
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
       - Xamarin: pages/apps/xamarin.md
-    - 3rd Party SDKs:
+    - 3rd Party SDKs & Plugins:
+      - Adobe Launch Android SDK: pages/apps/adobe-launch-android.md
+      - Adobe Launch iOS SDK: pages/apps/adobe-launch-ios.md
+      - Adobe Launch Web Plugin: pages/apps/adobe-launch-web-plugin.md
       - Segment Android SDK: pages/apps/segment-android.md
       - Segment iOS SDK: pages/apps/segment-ios.md
     - Validation Tools: pages/resources/validation-tools.md
@@ -245,6 +248,7 @@ pages:
       - Art of Click : pages/deep-linked-ads/art-of-click-mobile-tracking.md
       - Artsai: pages/deep-linked-ads/artsai-mobile-tracking.md
       - ARVE Technologies : pages/deep-linked-ads/arve-technologies-mobile-tracking.md
+      - Aura Ironsource : pages/deep-linked-ads/aura-ironsource-mobile-tracking.md
       - Avazu : pages/deep-linked-ads/avazu-mobile-tracking.md
       - Avow : pages/deep-linked-ads/avow-mobile-tracking.md
       - Awin : pages/deep-linked-ads/awin-mobile-tracking.md
@@ -532,6 +536,8 @@ pages:
       - Vero: pages/emails/vero.md
       - WhatCounts: pages/emails/whatcounts.md
       - Zeta: pages/emails/zeta.md
+    - Partner Resources:
+      - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
     - Overview: pages/dashboard/analytics-overview.md
     - Paid Ads Analytics: pages/activity-reports-analytics/paid-ads-analytics.md
@@ -592,5 +598,5 @@ pages:
     - iOS Universal Links: pages/kr/universal-links.md
     - Android App Links 가이드: pages/kr/android-app-links.md
     - 앱 내 딥링크 라우팅 가이드: pages/kr/deep-link-routing.md
+    - 配置控制面板: pages/zh/integrate.md
     - Dashboard analytics: pages/dashboard/analytics.md
-  
