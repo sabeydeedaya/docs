@@ -532,6 +532,8 @@ pages:
       - Vero: pages/emails/vero.md
       - WhatCounts: pages/emails/whatcounts.md
       - Zeta: pages/emails/zeta.md
+    - Partner Resources:
+      - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
     - Overview: pages/dashboard/analytics-overview.md
     - Paid Ads Analytics: pages/activity-reports-analytics/paid-ads-analytics.md
