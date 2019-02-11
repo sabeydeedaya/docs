@@ -1,11 +1,3 @@
----
-title: Single Sign-on for the Branch dashboard
-description: How to set up SAML with the Branch dashboard and your identity provider.
-path: tree/master/src/pages/dashboard
-source: sso.md
----
-# Single Sign-on
-
 ## Overview
 
 Branch offers Security Assertion Markup Language (SAML) / Single Sign-on (SSO) support for the dashboard. This allows you to use your identity provider (IdP) to centralize access to various services for your team and leverage existing directory systems and security groups.
@@ -24,18 +16,18 @@ Branch offers Security Assertion Markup Language (SAML) / Single Sign-on (SSO) s
 SSO for the Branch dashboard restricts access for designated email domains to a specific dashboard subdomain. Contact your account manager or [support](https://support.branch.io/support/tickets/new){:target="\_blank"} when you are ready to get started. Please provide:
 
 1. **The email domain(s)** that you and your team use and will be required to sign in via SSO.
-1. **The Branch dashboard subdomain** you would like your team to use to log in. For example, if you chose `company`, then your dashboard subdomain would be `https://company.dashboard.branch.io`. 
+1. **The Branch dashboard subdomain** you would like your team to use to log in. For example, if you chose `company`, then your dashboard subdomain would be `https://company.dashboard.branch.io`.
 1. **The email addresses of any SSO admins** that will be allowed to configure SAML for your team. These SSO admins will also be allowed to log in both via SSO and via regular dashboard login after SSO is enabled, so that you have a fallback option to gain access to your account if the configuration goes wrong in some way.
 
 ### Add Branch to your identity provider
 
 If you want the dashboard to provide SSO for your team, You will need to add Branch to your IdP. Once this is complete, your IdP will provide you with details that you'll need to add to the Branch dashboard in order to enable SSO.
 
-Branch currently works with Okta and OneLogin, and should also be compatible with any identity provider that supports SAML. 
+Branch currently works with Okta and OneLogin, and should also be compatible with any identity provider that supports SAML.
 
 When you add Branch to your identity provider, add the following SAML attribute mappings:
 
-| SAML attribute | Field it should map to in your IdP 
+| SAML attribute | Field it should map to in your IdP
 | --- | ---
 | email | User's first name
 | firstName | User's first name
@@ -48,7 +40,7 @@ Here is some initial information that your IdP might ask for:
 | Platform | Web
 | Sign-on method | SAML 2.0
 | Application name | Branch
-| Logo | [Download here](https://branch.io/press/#kit){:target="\_blank"} 
+| Logo | [Download here](https://branch.io/press/#kit){:target="\_blank"}
 
 Ask your account manager or [support](https://support.branch.io/support/tickets/new){:target="\_blank"} for the additional configuration information that you need.
 
@@ -92,4 +84,4 @@ Not currently. One user can belong to multiple Branch apps, so admins must decid
 
 ### How much does SSO cost?
 
-Single Sign-on support for the Branch dashboard is a Premium feature. If you are already paying for any Branch product, SSO is free for you and your team. Please [contact support](https://support.branch.io/support/tickets/new){:target="\_blank"} or your account manager for more information.
+Single Sign-on support for the Branch dashboard is a Premium feature. Please [contact support](https://support.branch.io/support/tickets/new){:target="\_blank"} or your account manager for more information.
