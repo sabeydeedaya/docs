@@ -8,6 +8,10 @@ Snap is a self-attributing network (SAN).
 
 Snap campaign tracking can show you how many installs and conversion events were attributed to Snap, allowing you to make informed decisions with your advertising dollars.
 
+Branch supports attribution for the following Snap campaign types:
+  - App Installs
+  - Drive Traffic to App
+
 ## Setup
 
 Before you begin, be sure the following is confirmed.
@@ -56,6 +60,24 @@ Before you begin, be sure the following is confirmed.
 
 **Note:** The Snap measurement integration requires you to have configured your Android and iOS apps on the Link Settings page. If those have not been set up, you will not be able to track ads and you may see a validation warning.
 
+### Using Branch Links in Snap Campaigns
+
+While the `App Installs` campaign type does not require the use of Branch links, you can insert Branch links into the `Drive Traffic to App` campaign type for ensuring proper routing including deferred deep linking.
+
+To use Branch links in your `Drive Traffic to App` campaigns:
+
+1. Generate/fetch your Branch link from the Branch dashboard.
+1. Set up your Snap campaign, selecting `Drive Traffic to App`.
+  ![image](/img/pages/deep-linked-ads/snap/drive-traffic-to-app.png)
+1. On the `Build Your Ads` page:
+    1. Paste your Branch link into the `DEEPLINK URI` field.
+    1. Select `Web Site` as the `FALLBACK TYPE` to ensure deferred deep linking via your Branch link.
+  ![image](/img/pages/deep-linked-ads/snap/build-your-ad.png)
+1. Finish building your Snap campaign.
+
+!!! warning "Web Site as Fallback Required for Deferred Deep Linking"
+    Please ensure you choose `Web Site` as the `FALLBACK TYPE` and inserting the same Branch link into the provided field.  If you choose `App Install` as the `FALLBACK TYPE`, users not properly routed will be sent to the App Store without the Branch link and deferred deep linking will not occur.
+
 ### View Attribution on Dashboard
 
 All the attribution can be visible on the [Branch dashboard summary page](https://dashboard.branch.io/). All installs and opens registered from this channel will automatically be tagged with `Ad Partner`: `Snap`. Other analytics tags will reflect the campaign, ad squad and ad names you set up in the Snap Ads dashboard.
@@ -72,7 +94,7 @@ You can edit your attribution windows for Snap only. With this, you can preserve
       Please make sure your Branch attribution windows for Snap match those in your Snap account. See the Troubleshooting section for more detail.
 
 
-#### Mapping of Branch event names to Snap events
+### Mapping of Branch event names to Snap events
 
 Branch supports sending [Standard and Custom Events](/pages/apps/v2event/#v2-event){target:"\_blank"} to Snap. Here are the mappings for Branch events to Snap events.
 

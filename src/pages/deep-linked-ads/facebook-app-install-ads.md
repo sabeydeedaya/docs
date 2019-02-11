@@ -1,11 +1,3 @@
----
-title: Facebook App Install Ads
-description: An overview page of using Branch in your Facebook App Install campaigns.
-path: tree/master/src/pages/deep-linked-ads
-source: facebook-app-install-ads.md
----
-# Facebook App Install Ads
-
 ## Overview
 
 Branch links can be used together with Facebook App Install Campaign ads, allowing you to track ad-driven installs on the Branch dashboard and deep link those new users directly to content the first time they open your app.
@@ -73,7 +65,7 @@ This section is **not required for measurement** if you are running app-only ads
 
 ##### Create an Ad Link for deep linking
 
-1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Facebook Link` button under the Facebook Partner and select `App Install or Engagement`
+1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management) `Create Facebook Link` button under the Facebook Partner and select `App Install or Engagement`
 <img src="/img/pages/deep-linked-ads/reusable-images/create-link-install-engagement.png" alt="Link Creation" class="half left">
 1. Enter a Link Name for later reference.
 1. Configure the link with the Ad Format set to **App Only**, the Ad Partner set to **Facebook**, and the Secondary Ad Format set to **App Install Ads**.
@@ -90,7 +82,7 @@ This section is **not required for measurement** if you are running app-only ads
 
 ##### Configure your campaign to deep link the Ad Link
 
-1. Navigate to [https://www.facebook.com/ads/create](https://www.facebook.com/ads/create){:target="_blank"} while logged in to the account that owns your Facebook app.
+1. Navigate to [https://www.facebook.com/ads/create](https://www.facebook.com/ads/create) while logged in to the account that owns your Facebook app.
 1. Select **App Installs** as the campaign marketing objective.
 ![Campaign Selection](/img/pages/deep-linked-ads/facebook-app-install-ads/campaign-selection.png)
 1. Continue with campaign creation selecting the app to advertise, audience, placement, and budget. Then press continue to enter the Advert creation step.
@@ -117,7 +109,7 @@ Unfortunately, the demo/preview ads used during the ads creation flow on Faceboo
 
 The only way to test the deep linking functionality is outside of the actual ads system is a helper tool from Facebook. Follow these instructions to test the deep linking functionality:
 
-1. Head to the [Ads tester tool](https://developers.facebook.com/tools/app-ads-helper/){:target="_blank"}
+1. Head to the [Ads tester tool](https://developers.facebook.com/tools/app-ads-helper/)
 1. Choose the app that you're advertising with
 1. Scroll down to the button that says 'Test Deep Link'
 1. Paste in the Branch link
@@ -173,10 +165,10 @@ You can test the OG tags using the [OG tag tester tool](https://developers.faceb
 
 **If the OG tag tester continues to report problems**
 
-1. Examine your [Link Settings](https://dashboard.branch.io/#/settings/link){:target="_blank"} and ensure that for all platforms (for which an app is available), that a URI scheme and a link to the app in the Play/App Store is configured. If you are using a Custom URL for your iOS Redirect, then you need to append `?id[10-digit App Store ID]` to the URL. This is necessary in order to fully generate the App Links and OG tags that the Facebook scraper expects to find.
+1. Examine your [Link Settings](https://dashboard.branch.io/#/settings/link) and ensure that for all platforms (for which an app is available), that a URI scheme and a link to the app in the Play/App Store is configured. If you are using a Custom URL for your iOS Redirect, then you need to append `?id[10-digit App Store ID]` to the URL. This is necessary in order to fully generate the App Links and OG tags that the Facebook scraper expects to find.
     - For example, if your App Store URL is `https://itunes.apple.com/us/app/my-app-name/id1234567890`, then your Custom URL value should be `https://example.com?id1234567890`
 1. If errors from the output window pertain to OG tags i.e. missing title, description etc. then examine link OG tags by appending `?debug=true` as described on the [Integration Testing page]({{base.url}}/getting-started/integration-testing/guide/#debugging-an-individual-link).
-1. If you haven't set OG tags on a per link level, then please check your Dashboard's global Social Media Display Customization settings from the [Link Settings](https://dashboard.branch.io/#/settings/link){:target="_blank"} page.
+1. If you haven't set OG tags on a per link level, then please check your Dashboard's global Social Media Display Customization settings from the [Link Settings](https://dashboard.branch.io/#/settings/link) page.
 
 **Use a direct deep link**
 
@@ -202,5 +194,3 @@ We recently discovered a bug within the Facebook system that prevents App Links 
 It has to look like this **exactly**:
 
 ![App Restrictions Troubleshooting](/img/ingredients/deep-linked-ads/fb-ads-support/app_restrictions.png)
-
-

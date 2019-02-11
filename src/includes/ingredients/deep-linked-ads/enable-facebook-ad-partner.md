@@ -5,7 +5,7 @@
 
 If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow this section to do so. Advanced options for sending events can be found [here](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
 
-1. Navigate to the [Partner Management tab](https://dashboard.branch.io/ads/partner-management){:target="_blank"}.
+1. Navigate to the [Partner Management tab](https://dashboard.branch.io/ads/partner-management).
 
     ![Ads Partner Management](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/ads-partner-management.png)
 
