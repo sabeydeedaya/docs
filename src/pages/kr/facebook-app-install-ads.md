@@ -22,7 +22,6 @@ Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dyn
 
 !!! warning "전제 조건"
 	* [x] Facebook 광고에서 인스톨을 트래킹하길 원하신다면 [Branch SDK 연동](/pages/apps/ios/#integrate-branch) 이 필요합니다.
-	* [x] Facebook 앱 설치 광고에서 브랜치 링크를 사용하려면 올바른 라우팅 동작을 위해 Android에서 활성화 된 iOS 또는 앱 링크에서 유니버설 링크를 설정해야 합니다. 세팅 방법은 아래 [Universal](/pages/deep-linking/universal-links/) 와 [App Links](/pages/deep-linking/android-app-links/) 페이지 참조 부탁 드립니다.
 	* [x] 광고에서 유저를 특정 앱 내 컨텐츠로 리다이렉션 하기 위해서는 [딥링크 라우팅 구성](/pages/deep-linking/routing/)이 필요합니다.
 	* [x] Ads는 MAU 기반으로 가격이 책정된 프리미엄 제품입니다. 이 기능을 사용하려면 Ads 제품에 가입하십시오.
 
