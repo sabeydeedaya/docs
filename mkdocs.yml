@@ -136,7 +136,7 @@ pages:
     - Plugins:
       - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
       - mParticle Android: pages/apps/mparticle-android.md
-      - mParticle iOS: pages/apps/mparticle-ios.md
+      - mParticle iOS: pages/apps/mparticle-ios-v7.md
       - Adobe Launch Android: pages/apps/adobe-launch-android.md
       - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
       - Titanium: pages/apps/titanium.md
@@ -325,7 +325,7 @@ pages:
       - GlobalWide Media : pages/deep-linked-ads/globalwide-media-mobile-tracking.md
       - GMT Digital : pages/deep-linked-ads/gmt-digital-mobile-tracking.md
       - Go Mobile: pages/deep-linked-ads/gomobile-mobile-tracking.md
-      - Google Adwords:
+      - Google Google Ads:
         - Universal App Camapaigns: pages/deep-linked-ads/google-ads-overview.md
         - Search Network Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
         - Display Network Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
