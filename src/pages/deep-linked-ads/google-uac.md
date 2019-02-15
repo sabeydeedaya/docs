@@ -4,6 +4,8 @@ Universal App campaigns allow you to promote your app across Google Search, Goog
 
 Unlike most Google Ads campaigns, you don't design individual ads for Universal App campaigns (UAC). Instead, Google Ads use your ad text ideas and assets from your app's store listing to design a variety of ads across several formats and networks.
 
+{! ingredients/deep-linked-ads/link-to-google-ads-overview.md !}
+
 ## Prerequisites
 
 !!! info "For UAC Only"
@@ -24,7 +26,7 @@ For more detailed information, please see [Google Ads' help documentation](https
 
 ## Routing & Attribution
 
-As Universal App Campaigns link users directly to the respective app store, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the app store, upon which the user (hopefully) downloads the app.  With the Branch SDK implemented in your app, we measure said app download once the app opens and match the data we receive from our SDK to the iformation we receive directly from Google Ads via their Conversion API.
+As Universal App Campaigns link users directly to the respective app store, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the app store, upon which the user (hopefully) downloads the app.  With the Branch SDK implemented in your app, we measure said app download once the app opens and match the data we receive from our SDK to the information we receive directly from Google Ads via their Conversion API.
 
 ![image](/img/pages/deep-linked-ads/google/google-ads-uac.png)
 
