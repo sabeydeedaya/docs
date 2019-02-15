@@ -585,6 +585,8 @@ pages:
       - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
+      - Redirect: pages/apps/mparticle-ios.md
+      - Redirect: pages/apps/mparticle-android.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
