@@ -22,21 +22,6 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     ![image](/img/pages/dashboard/ios.png)
     ![image](/img/pages/dashboard/link-domain.png)
 
-#### Configure bundle identifier
-
-- Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-
-    ![image](/img/pages/apps/ios-bundle-id.png)
-
-#### Configure associated domains
-
-- Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-- `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
-- `test-` is needed if you need use a [test key](#use-test-key)
-- If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
-
-    ![image](/img/pages/apps/ios-entitlements.png)
-
 ## mParticle Setup
 
 ### Install the mParticle Branch Kit
@@ -59,6 +44,21 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     ```sh
     github "mparticle-integrations/mparticle-apple-integration-branchmetrics"
     ```
+#### Configure bundle identifier
+
+- Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+
+    ![image](/img/pages/apps/ios-bundle-id.png)
+
+#### Configure associated domains
+
+- Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+- `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+- `test-` is needed if you need use a [test key](#use-test-key)
+- If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+
+    ![image](/img/pages/apps/ios-entitlements.png)
+
 #### Configure entitlements
 
 - Confirm entitlements are within target
@@ -123,7 +123,7 @@ At this point you should start seeing your Branch session data - including insta
 - Long press on the deep link (not 3D Touch)
 - Click `Open in "APP_NAME"` to open your app ([example](/img/pages/apps/ios-notes.png))
 
-## Implement features
+## Implementing features
 
 Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/ios/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
 
