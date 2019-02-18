@@ -10,17 +10,59 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - [mParticle SDK for iOS](https://docs.mparticle.com/developers/sdk/ios/getting-started/)
 - [mParticle Branch Kit](https://github.com/mparticle-integrations/mparticle-apple-integration-branchmetrics)
-- [Retrieve Deep Link Data via mParticle](http://docs.mparticle.com/developers/sdk/ios/kits#deep-linking)
-- [Enable Universal Links in Branch](https://docs.branch.io/pages/deep-linking/universal-links/#enable-associated-domains-in-xcode)
 
 ## Branch Setup
 
-### Configure Branch Dashboard
+### Configure Branch Dashboard & Enable Universal Links
 
 - Configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
     ![image](/img/pages/dashboard/ios.png)
     ![image](/img/pages/dashboard/link-domain.png)
+
+- [Enable Universal Links in Branch](https://docs.branch.io/pages/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
+
+### Configure bundle identifier
+
+- Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+
+    ![image](/img/pages/apps/ios-bundle-id.png)
+
+### Configure associated domains
+
+- Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+- `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+- `test-` is needed if you need use a [test key](#use-test-key)
+- If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+
+    ![image](/img/pages/apps/ios-entitlements.png)
+
+### Configure entitlements
+
+- Confirm entitlements are within target
+
+  ![image](/img/pages/apps/ios-package.png)
+
+### Configure info.pList
+
+- Add [Branch Dashboard](https://dashboard.branch.io/account-settings/app) values
+
+    - Add `branch_app_domain` with your live key domain
+    - Add your URI scheme as `URL Types` -> `Item 0` -> `URL Schemes`
+
+    ![image](/img/pages/apps/ios-plist.png)
+
+### Confirm app prefix
+
+- From your [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle)
+
+    ![image](/img/pages/apps/ios-team-id.png)
+
+The mParticle iOS SDK (version 5.4.1 and later) will automatically call the following methods of the Branch Metrics SDK:
+
+- `initSessionWithLaunchOptions:` within `application:didFinishLaunchingWithOptions:`
+- `handleDeepLink:` within `application:openURL:options:`
+- `continueUserActivity:` within `application:continueUserActivity:restorationHandler:`
 
 ## mParticle Setup
 
@@ -44,49 +86,8 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     ```sh
     github "mparticle-integrations/mparticle-apple-integration-branchmetrics"
     ```
-#### Configure bundle identifier
 
-- Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-
-    ![image](/img/pages/apps/ios-bundle-id.png)
-
-#### Configure associated domains
-
-- Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-- `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
-- `test-` is needed if you need use a [test key](#use-test-key)
-- If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
-
-    ![image](/img/pages/apps/ios-entitlements.png)
-
-#### Configure entitlements
-
-- Confirm entitlements are within target
-
-  ![image](/img/pages/apps/ios-package.png)
-
-#### Configure info.pList
-
-- Add [Branch Dashboard](https://dashboard.branch.io/account-settings/app) values
-
-    - Add `branch_app_domain` with your live key domain
-    - Add your URI scheme as `URL Types` -> `Item 0` -> `URL Schemes`
-
-    ![image](/img/pages/apps/ios-plist.png)
-
-#### Confirm app prefix
-
-- From your [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle)
-
-    ![image](/img/pages/apps/ios-team-id.png)
-
-The mParticle iOS SDK (version 5.4.1 and later) will automatically call the following methods of the Branch Metrics SDK:
-
-- `initSessionWithLaunchOptions:` within `application:didFinishLaunchingWithOptions:`
-- `handleDeepLink:` within `application:openURL:options:`
-- `continueUserActivity:` within `application:continueUserActivity:restorationHandler:`
-
-#### Import iOS Support Libraries
+### Import iOS Support Libraries
 
 - `AdSupport`
 - `SafariServices`
@@ -100,6 +101,12 @@ As with any kit, mParticle will automatically handle initializing Branch session
 
 !!! warning "mParticle appDelegate proxy not enabled"
     If the mParticle appDelegate proxy is not enabled, you must add mParticle [URI & Domain relays](https://docs.mparticle.com/developers/sdk/ios/getting-started/#uiapplication-delegate-proxy) to the appDelegate.
+
+### Retrieve Deep Link Data via mParticle
+
+Our integration with mParticle supports the creation and attribution of deep links to install and open an app. A deep link will typically contain some additional information to be used when the user ultimately opens your application, so that you can properly route the user to the appropriate content, or otherwise customize their experience.
+
+Please ensure you've followed [mParticle's documentation] (http://docs.mparticle.com/developers/sdk/ios/kits#deep-linking) to ensure your deep link data is being retrieved.
 
 ### Enable Branch on mParticle
 

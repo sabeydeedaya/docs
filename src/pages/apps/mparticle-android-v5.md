@@ -7,19 +7,21 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - [mParticle SDK for Android](https://docs.mparticle.com/developers/sdk/android/getting-started/)
 - [mParticle Branch Kit](https://github.com/mparticle-integrations/mparticle-android-integration-branchmetrics)
-- [Retrieve Deep Link Data via mParticle](http://docs.mparticle.com/developers/sdk/android/kits#deep-linking)
-- [Enable App Links in Branch](https://docs.branch.io/pages/deep-linking/android-app-links/#add-intent-filter-to-manifest)
+-
+-
 
 ## Branch Setup
 
-### Configure Branch
+### Configure Branch & Enable App Links
 
 - Configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
     ![image](/img/pages/dashboard/android.png)
     ![image](/img/pages/dashboard/link-domain.png)
 
-- Add the following intent filter for the Branch URI scheme to your Android Manifest
+- [Enable App Links in Branch](https://docs.branch.io/pages/deep-linking/android-app-links/#generate-signing-certificate-fingerprint)
+
+- Add the following intent filter for the Branch URI scheme to the `LauncherActivity` in your Android Manifest
   ```
   <!-- Branch URI Scheme -->
             <intent-filter>
@@ -30,7 +32,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
             </intent-filter>
   ```
 
-- Add the following intent filter for the Branch app.link domains to your Android manifest
+- Add the following intent filter for the Branch `app.link` domains to the `LauncherActivity` in your Android manifest
   ```
   <!-- Branch App Links (optional) -->
             <intent-filter android:autoVerify="true">
@@ -75,6 +77,12 @@ As with any kit, mParticle will automatically handle initializing Branch session
 
 !!! warning "Requirements"
 	* [x] As with any attribution-related integration, be sure that you have added the mParticle `ReferrerReceiver` to your app’s `AndroidManifest.xml`
+
+### Retrieve Deep Link Data via mParticle
+
+Our integration with mParticle supports the creation and attribution of deep links to install and open an app. A deep link will typically contain some additional information to be used when the user ultimately opens your application, so that you can properly route the user to the appropriate content, or otherwise customize their experience.
+
+Please ensure you've followed [mParticle's documentation] (http://docs.mparticle.com/developers/sdk/android/kits#deep-linking) to ensure your deep link data is being retrieved.
 
 ### Enable Branch on mParticle
 
