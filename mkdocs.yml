@@ -191,6 +191,7 @@ pages:
   - Partner Management:
     - Overview: pages/partner-management/branch-integrated-partners.md
     - Universal Ads Partners:
+      - 1PlusAds: pages/deep-linked-ads/1plusads-mobile-tracking.md
       - 3.14 Digital : pages/deep-linked-ads/3.14-digital-mobile-tracking.md
       - A4G : pages/deep-linked-ads/a4g-mobile-tracking.md
       - Aarki : pages/deep-linked-ads/aarki-mobile-tracking.md
@@ -259,6 +260,7 @@ pages:
       - Bidmotion : pages/deep-linked-ads/bidmotion-mobile-tracking.md
       - Bidroid : pages/deep-linked-ads/bidroid-mobile-tracking.md
       - Billy Mobile : pages/deep-linked-ads/billy-mobile-mobile-tracking.md
+      - Bing Ads: pages/deep-linked-ads/bing-ads-mobile-tracking.md
       - Blind Ferret Incent : pages/deep-linked-ads/blind-ferret-incent-mobile-tracking.md
       - Blind Ferret Non-Incent : pages/deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
       - Bright Storm DSP: pages/deep-linked-ads/bright-storm-mobile-tracking.md
@@ -325,8 +327,8 @@ pages:
       - GlobalWide Media : pages/deep-linked-ads/globalwide-media-mobile-tracking.md
       - GMT Digital : pages/deep-linked-ads/gmt-digital-mobile-tracking.md
       - Go Mobile: pages/deep-linked-ads/gomobile-mobile-tracking.md
-      - Google Google Ads:
-        - Universal App Camapaigns: pages/deep-linked-ads/google-ads-overview.md
+      - Google Adwords:
+        - Universal App Campaigns: pages/deep-linked-ads/google-ads-overview.md
         - Search Network Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
         - Display Network Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
         - Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md

@@ -2,6 +2,7 @@ Interested in becoming a Universal Ads Partner? Just fill out this form: **[Part
 
 **Partner Website** | **Branch Integration Guide**
 --- | ---
+<a href="https://www.1plusads.com/" target="_blank">![1PlusAds](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/1Plusads-Logo-1548382391628.png)</a>|**[1PlusAds](/pages/deep-linked-ads/1plusads-mobile-tracking.md)**
 <a href="http://3dot14.co/" target="_blank">![3.14 Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/3point14-logo-1542223776084.png)</a>|**[3.14 Digital](/pages/deep-linked-ads/3.14-digital-mobile-tracking.md)**
 <a href="http://a4g.com" target="_blank">![A4G](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/A4G-Logo-exe-1524682939478.png)</a>|**[A4G](/pages/deep-linked-ads/a4g-mobile-tracking.md)**
 <a href="https://www.aarki.com/" target="_blank">![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)</a>|**[Aarki](/pages/deep-linked-ads/aarki-mobile-tracking.md)**
@@ -70,6 +71,7 @@ Interested in becoming a Universal Ads Partner? Just fill out this form: **[Part
 <a href="http://www.bidmotion.com" target="_blank">![Bidmotion](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/press-logo-bdm-vfct-eadf32ceea54a621d11a3d60b113540957a56067c7c7def780f8d07c4f848ed1-1533935670269.png)</a>|**[Bidmotion](/pages/deep-linked-ads/bidmotion-mobile-tracking.md)**
 <a href="https://www.bidroid.io/" target="_blank">![Bidroid](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Bidroid_logo-1548981980796.png)</a>|**[Bidroid](/pages/deep-linked-ads/bidroid-mobile-tracking.md)**
 <a href="http://billymob.com/en/" target="_blank">![Billy Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Billy-1528501571787.png)</a>|**[Billy Mobile](/pages/deep-linked-ads/billy-mobile-mobile-tracking.md)**
+<a href="https://bingads.microsoft.com/" target="_blank">![Bing Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Bing_Ads_logo-1549588753709.png)</a>|**[Bing Ads](/pages/deep-linked-ads/bing-ads-mobile-tracking.md)**
 <a href="https://blindferret.com/" target="_blank">![Blind Ferret Incent](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1524611055614.png)</a>|**[Blind Ferret Incent](/pages/deep-linked-ads/blind-ferret-incent-mobile-tracking.md)**
 <a href="https://blindferret.com/" target="_blank">![Blind Ferret Non-Incent](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1524611091963.png)</a>|**[Blind Ferret Non-Incent](/pages/deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md)**
 <a href="https://brightstorm.mobi/" target="_blank">![Bright Storm](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Bright-Storm-Logo-1545267936625.png)</a>|**[Bright Storm](/pages/deep-linked-ads/bright-storm-mobile-tracking.md)**
