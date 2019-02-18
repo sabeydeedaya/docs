@@ -17,7 +17,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ### Configure Branch Dashboard
 
-- Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+- Configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
     ![image](/img/pages/dashboard/ios.png)
     ![image](/img/pages/dashboard/link-domain.png)
@@ -93,7 +93,6 @@ The mParticle iOS SDK (version 5.4.1 and later) will automatically call the foll
 - `MobileCoreServices`
 - `CoreSpotlight`
 - `iAd`
-- `Linked Frameworks`
 
 ### Initializing Branch in the mParticle Kit
 
@@ -129,109 +128,10 @@ Please refer to mParticle's [marking direct calls to kits]( https://docs.mpartic
 
 Please refer to Branch's [native iOS SDK](/pages/apps/ios/#implement-features) documentation for how to implement secondary functionality.
 
+## Sample testing apps
+
+- [Examples](https://github.com/mparticle-integrations/mparticle-apple-integration-branchmetrics/tree/master/Examples)
+
 ## Troubleshooting
 
-If you are running into an issue with no data being received from the attribution callback on warm starts it could be a breakdown in the continueUserActivity connection. Adding the following should resolve the issue.
-
-```swift						
-func application(_ application: UIApplication, continue userActivity:
-  NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
-      MParticle.sharedInstance().continue(userActivity, restorationHandler: restorationHandler)						
-return true
-
-}
-```
-
-### Submitting to the App Store
-
-- Need to select `app uses IDFA or GAID` when publishing your app (for better deep link matching)
-
-### App not opening
-
-- Double check [Integrate Branch](#integrate-branch)
-
-- Investigate if the device disabled universal links ([Re-enable universal linking](##re-enable-universal-linking))
-
-- Investigate if it is a link related issue ([Deep links do not open app](/pages/links/integrate/#deep-links-do-not-open-app))
-
-- Use [Universal links validator](https://branch.io/resources/universal-links/)
-
-- Use [AASA validator](https://branch.io/resources/aasa-validator/)
-
-- Use [Test deep link](#test-deep-link)
-
-### App not passing data
-
-- See if issue is related to [App not opening](#app-not-opening)
-
-- Investigate Branch console logs ([Enable logging](#enable-logging))
-
-### Deep links are long
-
-- Happens whenever the app cannot make a connection to the Branch servers
-
-- The long deep links will still open the app and pass data
-
-### Sample apps
-
-- [Swift testbed](https://github.com/mparticle-integrations/mparticle-apple-integration-branchmetrics/tree/master/Examples/mParticle-Branch-Example)
-
-### Re-enable universal linking
-
-- Apple allows users to disable universal linking on a per app per device level on iOS 9 and iOS 10 (fixed in iOS 11)
-
-- Use [Test deep link](#test-deep-link) to re-enable universal linking on the device
-
-### Share to email options
-
-- Change the way your deep links behave when shared to email
-
-- Needs a [Share deep link](#share-deep-link)
-
-- *Swift 3*
-
-    ```swift
-    lp.addControlParam("$email_subject", withValue: "Your Awesome Deal")
-    lp.addControlParam("$email_html_header", withValue: "<style>your awesome CSS</style>\nOr Dear Friend,")
-    lp.addControlParam("$email_html_footer", withValue: "Thanks!")
-    lp.addControlParam("$email_html_link_text", withValue: "Tap here")
-    ```
-
-- *Objective C*
-
-    ```objc
-    [lp addControlParam:@"$email_subject" withValue:@"This one weird trick."];
-    [lp addControlParam:@"$email_html_header" withValue:@"<style>your awesome CSS</style>\nOr Dear Friend,"];
-    [lp addControlParam:@"$email_html_footer" withValue:@"Thanks!"];
-    [lp addControlParam:@"$email_html_link_text" withValue:@"Tap here"];
-    ```
-
-### Share message dynamically
-
-- Change the message you share based on the source the users chooses
-
-- Needs a [Share deep link](#share-deep-link)
-
-- *Swift 3*
-
-    ```swift
-    // import delegate
-    class ViewController: UITableViewController, BranchShareLinkDelegate
-
-    func branchShareLinkWillShare(_ shareLink: BranchShareLink) {
-      // choose shareSheet.activityType
-      shareLink.shareText = "\(shareLink.linkProperties.channel)"
-    }
-    ```
-
-- *Objective C*
-
-    ```objc
-    // import delegate
-    @interface ViewController () <BranchShareLinkDelegate>
-
-    - (void) branchShareLinkWillShare:(BranchShareLink*)shareLink {
-      // choose shareSheet.activityType
-      shareLink.shareText = [NSString stringWithFormat:@"@%", shareLink.linkProperties.channel];
-    }
-    ```
+Please refer to the [Branch iOS SDK troubleshooting section](/pages/apps/ios/#troubleshoot-issues).
