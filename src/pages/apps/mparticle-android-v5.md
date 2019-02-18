@@ -7,8 +7,6 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - [mParticle SDK for Android](https://docs.mparticle.com/developers/sdk/android/getting-started/)
 - [mParticle Branch Kit](https://github.com/mparticle-integrations/mparticle-android-integration-branchmetrics)
--
--
 
 ## Branch Setup
 
