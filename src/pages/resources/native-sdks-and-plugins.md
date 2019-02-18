@@ -32,7 +32,7 @@ In addition to supporting Android, iOS and Web natively, Branch offers support f
   </a>
   <div>
     <img src="../../../img/pages/resources/sdk-resources/mparticle.png" alt="mParticle Android" />
-    <p>mParticle<br/><a href="/pages/apps/mparticle-android/">Android</a> | <a href="/pages/apps/mparticle-ios/">iOS</a></p>
+    <p>mParticle<br/><a href="/pages/apps/mparticle-android-v5/">Android</a> | <a href="/pages/apps/mparticle-ios-v7/">iOS</a></p>
   </div>
   <a href="/pages/apps/react-native/">
     <img src="../../../img/pages/resources/sdk-resources/native-logo.png" alt="React Native" />
