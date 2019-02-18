@@ -54,6 +54,10 @@
         }
         ```
 
+!!! warning "Google Mobile Ads SDK 17+"
+    If you decide to implement the Google Mobile Ads SDK version 17+, you have to declare your app is an Ad Manager app. See [Google Developer Docs](https://developers.google.com/ad-manager/mobile-ads-sdk/android/quick-start#update_your_androidmanifestxml) on how to do so. Failure to add this <meta-data> tag results in a crash with the message: "The Google Mobile Ads SDK was initialized incorrectly."
+
+
 - ### Configure app
 
     - Add Branch to your `AndroidManifest.xml`
