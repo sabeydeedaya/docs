@@ -137,8 +137,6 @@ pages:
       - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
       - mParticle Android: pages/apps/mparticle-android-v5.md
       - mParticle iOS: pages/apps/mparticle-ios-v7.md
-      - Adobe Launch Android: pages/apps/adobe-launch-android.md
-      - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
       - Titanium: pages/apps/titanium.md
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
