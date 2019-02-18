@@ -157,8 +157,11 @@ pages:
     - Overview : pages/resources/branch-channels.md
     - Website:
       - Overview: pages/web/branch-web-solutions.md
-      - Deepviews: pages/web/deep-views.md
       - Journeys App Banners: pages/web/journeys.md
+      - Journeys via AMP: pages/web/amp-journeys.md
+      - Deepviews: pages/web/deep-views.md
+      - Text Me the App: pages/web/text-me-the-app.md
+      - Hosted Deep Link Data: pages/web/hosted-data.md
     - Paid ads:
       - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
