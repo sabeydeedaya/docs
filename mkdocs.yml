@@ -327,12 +327,11 @@ pages:
       - GlobalWide Media : pages/deep-linked-ads/globalwide-media-mobile-tracking.md
       - GMT Digital : pages/deep-linked-ads/gmt-digital-mobile-tracking.md
       - Go Mobile: pages/deep-linked-ads/gomobile-mobile-tracking.md
-      - Google Adwords:
-        - Universal App Campaigns: pages/deep-linked-ads/google-ads-overview.md
-        - Search Network Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
-        - Display Network Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
-        - Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md
-        - Video Ads: pages/deep-linked-ads/google-video-ads.md
+      - Google Ads:
+        - Overview: pages/deep-linked-ads/google-ads-overview.md
+        - Universal App Campaigns (UAC): pages/deep-linked-ads/google-uac.md
+        - Non-UAC Google Ads Campaigns: pages/deep-linked-ads/google-ads-non-uac.md
+        - Troubleshooting & FAQs: pages/deep-linked-ads/google-ads-troubleshooting.md
       - GreedyGame Media: pages/deep-linked-ads/greedygame-media-mobile-tracking.md
       - Hang My Ads : pages/deep-linked-ads/hang-my-ads-mobile-tracking.md
       - HasOffers : pages/deep-linked-ads/hasoffers-mobile-tracking.md
@@ -581,14 +580,17 @@ pages:
       - Redirect: pages/deep-linked-ads/google-search-engagement-ads.md
       - Redirect: pages/deep-linked-ads/google-display-install-ads.md
       - Redirect: pages/deep-linked-ads/google-display-engagement-ads.md
-      - Redirect: pages/deep-linked-ads/google-uac.md
       - Redirect: pages/apps/api.md
       - Redirect: pages/exports/data-feeds.md
       - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
-      - Redirect: pages/apps/mparticle-ios.md
       - Redirect: pages/apps/mparticle-android.md
+      - Redirect: pages/app/mparticle-ios.md
+    - Search Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
+    - Display Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
+    - Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md
+    - Video Ads: pages/deep-linked-ads/google-video-ads.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md

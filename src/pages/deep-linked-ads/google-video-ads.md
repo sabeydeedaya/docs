@@ -39,7 +39,7 @@ Android | Yes | Uses tracking template, must redirect to Google Play store | [li
 
 #### Create an Ad Link
 
-1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Google Adwords Link` button under the Google Adwords Partner and select `Create Display Link`
+1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management)s `Create Google Adwords Link` button under the Google Adwords Partner and select `Create Display Link`
 
 	![Create Display Link](/img/pages/deep-linked-ads/reusable-images/create-display-search.png)
 
@@ -98,7 +98,7 @@ To set up a Video Campaign, you will need to first create your campaign and then
 
 #### Create an Ad Link
 
-1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="_blank"}'s `Create Google Adwords Link` button under the Google Adwords Partner and select `Create Display Link`
+1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management)'s `Create Google Adwords Link` button under the Google Adwords Partner and select `Create Display Link`
 <img src="/img/pages/deep-linked-ads/reusable-images/create-link-display.png" alt="Link Creation" class="three-quarters center">
 1. Under the Define Section, pick a Link Name for later reference
 1. Configure the link with the Ad Format set to **Display** and the Ad Partner set to **Google Adwords**.
