@@ -586,7 +586,7 @@ pages:
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
       - Redirect: pages/apps/mparticle-android.md
-      - Redirect: pages/app/mparticle-ios.md
+      - Redirect: pages/apps/mparticle-ios.md
     - Search Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
     - Display Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
     - Shopping Ads: pages/deep-linked-ads/google-shopping-ads.md
