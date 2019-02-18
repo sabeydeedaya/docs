@@ -135,8 +135,8 @@ pages:
       - Deep Linking API: pages/apps/deep-linking-api.md
     - Plugins:
       - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
-      - mParticle Android: pages/apps/mparticle-android.md
-      - mParticle iOS: pages/apps/mparticle-ios.md
+      - mParticle Android: pages/apps/mparticle-android-v5.md
+      - mParticle iOS: pages/apps/mparticle-ios-v7.md
       - Adobe Launch Android: pages/apps/adobe-launch-android.md
       - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
       - Titanium: pages/apps/titanium.md
@@ -161,10 +161,6 @@ pages:
       - Overview: pages/web/branch-web-solutions.md
       - Deepviews: pages/web/deep-views.md
       - Journeys App Banners: pages/web/journeys.md
-      - Website 2:
-        - AMP Journeys: pages/web/amp-journeys.md
-        - Text Me The App: pages/web/text-me-the-app.md
-        - Hosted Deep Link Data: pages/web/hosted-data.md
     - Paid ads:
       - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
@@ -587,6 +583,8 @@ pages:
       - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
+      - Redirect: pages/apps/mparticle-ios.md
+      - Redirect: pages/apps/mparticle-android.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
     - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
