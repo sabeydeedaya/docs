@@ -5,6 +5,8 @@
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
 
+!!! warning "**Enabling Required**"
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
 
 Universal App campaigns allow you to promote your app across Google Search, Google Play, YouTube, Gmail, and within other apps and mobile websites on the Display Network.
 

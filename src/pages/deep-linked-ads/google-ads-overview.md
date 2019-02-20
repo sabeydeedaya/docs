@@ -1,19 +1,18 @@
 !!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- **Google Ads Overview** (this page)
+		- **Google Ads Overview (this page)**
 		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
 		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
 
+!!! warning "**Enabling Required**"
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
 
 ##Google Ads + Branch Use Cases
 
 With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)**, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dashboard.
 
 ![image](/img/pages/deep-linked-ads/google/branch-google-ads.png)
-
-!!! warning "**Enabling Required**"
-	Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
 
 ## Google Ads Campaign Support
 

@@ -5,7 +5,6 @@
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 		- **Troubleshooting & FAQs** (this page)  
 
-
 ## What is Parallel Tracking?
 
 !!! warning "Since October 30, 2018, parallel tracking is required for all Google Ads accounts."
