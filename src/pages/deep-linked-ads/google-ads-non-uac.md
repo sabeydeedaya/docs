@@ -1,4 +1,10 @@
-## Overview
+!!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
+		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
+		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
+		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
+		- **Web-based Ads** (this page)
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
+
 
 Whereas Universal App Campaigns are focused solely on the single conversion type of app download, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
@@ -182,7 +188,3 @@ iOS | Yes
 Android | Yes  
 
 {! ingredients/deep-linked-ads/link-to-google-ads-overview.md !}
-
-## Troubleshooting
-
-Having problems or concerns?  Please review our Google Ads [Troubleshooting and FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/).

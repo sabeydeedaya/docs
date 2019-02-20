@@ -1,3 +1,29 @@
+!!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
+		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
+		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
+		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
+		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
+		- **Troubleshooting & FAQs** (this page)  
+
+
+## What is Parallel Tracking?
+
+!!! warning "Since October 30, 2018, parallel tracking is required for all Google Ads accounts."
+
+In the past, Google Ads' non-UAC campaign clicks were tracked through “sequential tracking” (i.e. a client-side redirect). When an ad was clicked, the customer’s browser would go to the tracking URL, and then the tracking URL was responsible for forwarding the browser on to the Final URL.
+
+![image](/img/pages/deep-linked-ads/google/legacy-sequential-tracking.png)
+
+With the change to “parallel tracking”, Google sends the customer directly to the Final URL, and uses the new Beacon API to "click" the Tracking URL (including following any server side redirects) in the background. The key here is that the Tracking URL (and redirects) are still being visited by the end user's browser, but because this happens “in parallel” (i.e., not visible to the customer), the user experience is better. For browsers without Beacon API support, Google will fall back to legacy sequential tracking.
+
+![image](/img/pages/deep-linked-ads/google/new-parallel-tracking.png)
+
+### How Does This Impact Me?
+
+Attribution is unaffected because, although the Branch link is no longer the referring URL to the domain, parallel tracking still allows Branch link clicks to happen. This means the Branch Match ID parameter is still appended to the link that is being "clicked", and Branch can still store (and access) the Match ID in local storage because the web SDK can still load and read query parameters, even in the background.
+
+Furthermore, this is in line with Google & Safari’s expectations of how clicks should be tracked (i.e., using query parameters instead of third-party cookies), and is compliant with current policy.
+
 ### Google Ads Campaign Limitations
 
 #### Product Listing Ads (PLA) - Attribution

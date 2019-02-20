@@ -329,8 +329,9 @@ pages:
       - Go Mobile: pages/deep-linked-ads/gomobile-mobile-tracking.md
       - Google Ads:
         - Overview: pages/deep-linked-ads/google-ads-overview.md
-        - Universal App Campaigns (UAC): pages/deep-linked-ads/google-uac.md
-        - Non-UAC Google Ads Campaigns: pages/deep-linked-ads/google-ads-non-uac.md
+        - Enabling the Integration: pages/deep-linked-ads/google-ads-enable.md
+        - Universal App Campaigns (UAC): pages/deep-linked-ads/google-ads-uac.md
+        - Web-based Ads (non-UAC): pages/deep-linked-ads/google-ads-non-uac.md
         - Troubleshooting & FAQs: pages/deep-linked-ads/google-ads-troubleshooting.md
       - GreedyGame Media: pages/deep-linked-ads/greedygame-media-mobile-tracking.md
       - Hang My Ads : pages/deep-linked-ads/hang-my-ads-mobile-tracking.md
