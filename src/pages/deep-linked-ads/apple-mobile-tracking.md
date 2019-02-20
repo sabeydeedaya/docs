@@ -13,7 +13,7 @@ In order to check if the user came from an Apple Search Ads, you must make the a
 
 ### Import iAd and AdSupport
 
-You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ad checking.
+You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ads checking.
 
 ![image](/img/pages/apps/ios-frameworks.png)
 
