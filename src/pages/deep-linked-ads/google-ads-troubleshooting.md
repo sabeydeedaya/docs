@@ -58,7 +58,7 @@ creative_id | ~creative_id
 
 ### FAQ
 
-#### I'm seeing a discrepancy between conversion counts in Branch and Google Google Ads
+#### I'm seeing a discrepancy between conversion counts in Branch and Google Ads
 
 **A:** While we should always expect around a 5% discrepancy due to time zone differences and the like, if you are seeing significant discrepancies, it could be an indication of a broader problem.
 

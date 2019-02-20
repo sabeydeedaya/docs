@@ -5,69 +5,68 @@
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
 
+## Overview
 
-## OAuth
+By connecting your Google Ads and Branch accounts, the following is enabled:
 
-The first step is connecting Branch & Google Ads together. By connecting these accounts, Branch will have read-only access to import click and impression data at the aggregate level. This will also let Branch track metrics across your different Google Ads accounts, which means your manager (MCC) and children accounts.
+- App conversion data collected by the Branch SDK sent to Google Ads for attribution.
+- `Read-only` access to import click and impression data at the aggregate level from Google Ads into your Branch account.
+- Viewing Google Ads - your manager (MCC) and children accounts - metrics in your Branch dashboard.
 
-It is not necessary to connect all Google Ads accounts. However, you must connect the Google Ads account that owns in-app conversions for your mobile app. Often, this is the MCC account.
+## Linking Branch in Google Ads
 
-!!! tip
-	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the MCC > Management tab.
+To link Branch to your Google Ads account, please follow Google's **[Link a third-party app analytics provider and Google Ads](https://support.google.com/google-ads/answer/7365001?hl=en&ref_topic=7280929)**.
 
-	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
+!!! tip "Branch's Provider ID"
+	Please make sure to provide Branch's Provider ID - **3404357870** - during the linking process
 
-	If you only have access to the child account (but that account is attached to an MCC), you can see which account is recording conversions within the child account as well, by going to _Tools > Conversions > Settings > Conversion Account_ in Google Ads.
+**Things to Keep in Mind**
 
+- You’ll need to create a different link ID for each app you track with Branch. Once you've generated the link ID and shared it with Branch you'll be able to import conversion events into Google Ads.
+- You must be an admin in your Google Ads account in order to generate link IDs.
+- If you are creating link IDs in an MCC, you must share those link IDs with the child account to record conversions.
 
-### OAuth Google Ads Setup
+Store these Link IDs for easy access as you will need them to finish enabling the integration.
 
-1. Log in to your [Google Ads dashboard](https://adwords.google.com/aw/overview){:target="\_blank"} account that is responsible for conversions (usually the highest level account). You will have the ability to connect all your Google Ads accounts with Branch.
-1. Go to `Settings > Linked Accounts`.
-<img src="/img/pages/deep-linked-ads/google/linked-accounts.png" alt="Linked Accounts" class="three-quarters center">
-1. Create a new link ID: Go to `Third Party App Analytics > +`.
-1. Add a new provider: Select "other" in the drop down. Input Branch's provider ID: `3404357870`.
-1. Select iOS or Android.
-1. Create Link IDs for all platforms you run campaigns on.
-<img src="/img/pages/deep-linked-ads/google/link-id.png" alt="Link IDs" class="three-quarters center">
+## Connecting with Google Ads in Branch
 
-!!! tip
-	- You must be an admin in your Google Ads account in order to generate link IDs.
-	- If you are creating link IDs in an MCC, you must share those link IDs with the child account to record conversions. Do this by going to _Options > Share with another account_ and enter the child account ID.
+Once you've linked Branch in Google Ads:
 
-Store these Link IDs for easy access. The next step requires you to input them.
-
-####OAuth Branch Setup
-
-Once you're done with Google Ads, navigate to the [partner management](https://dashboard.branch.io/ads/partner-management){:target="\_blank"} tab and click `Connect with Google`. Choose the email address that is tied to the Google Ads accounts you want to connect.
-
+1. Navigate to Branch's [partner management](https://dashboard.branch.io/ads/partner-management){:target="\_blank"} tab and click `Connect with Google`. Choose the email address that is tied to the Google Ads accounts you want to connect.
 ![Connect Google](/img/pages/deep-linked-ads/google/connect-with-google.png)
-
-Select all the necessary accounts, and continue.
-
+1. Select all the necessary accounts, and continue.
 ![Connect Accounts](/img/pages/deep-linked-ads/google/connect-accounts.png)
-
-Finally, paste the Link IDs from earlier.
-
+1. Finally, paste the Link IDs from earlier.
 ![Create Link IDs](/img/pages/deep-linked-ads/google/link-ids.png)
 
-## Setting Attribution Windows
+## Importing Events Into Google Ads
 
-After you hit save, go to your [Partner Management dashboard](https://dashboard.branch.io/ads/partner-management/a_google_adwords?tab=attribution_windows){:target="\_blank"}, and navigate to Attribution Windows.
+After you have set both Branch & Google Ads up, wait ~20 minutes, and go back to the Google Ads dashboard. NOTE: You can expedite this process if you open your app and simulate the events you want forwarded.
 
-For example, if a user clicked an ad 8 days ago, and Google claims credit, we would *not* count attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use. Below is simply a **recommendation**:
+To import your app conversion data as measured by the Branch SDK, please follow Google's **[Track app conversion with third-party analytics providers](https://support.google.com/google-ads/answer/7382633)**.
+
+!!! warning "Include in Conversions"
+	For any **first open** event conversions, please ensure you've marked `Include in Conversions` to `YES`. Doing so includes the `first open` conversion action’s data in your `Conversions` reporting column in Google Ads. This is important as Branch reports `first open` events to Google Ads, whereas Google Ads reports on app installs.
+
+For more information, please refer to Google's [About the "Include in 'Conversions'" setting](https://support.google.com/google-ads/answer/4677036?hl=en&co=ADWORDS.IsAWNCustomer%3Dtrue&oco=0).
+
+## Setup FAQs
+
+### Do I have to set attribution windows?
+
+For example, if a user clicked an ad 8 days ago, and Google claims credit for the resulting app install, we would *not* count the install attribution, because our default is 7 days from click. However, it is ultimately up to you which attribution window you would like to use. Below is simply a **recommendation**:
 
 - Click to Install : 30 days
 - Click to Conversion Event : 90 days
 - Click to Open : 90 days
 
-## Importing Events In Google Ads
+### How do I handle multiple Google Ads accounts?
 
-All that remains is importing Branch events into Google Ads. After you have set both Branch & Google Ads up, wait ~20 minutes, and go back to the Google Ads dashboard. You can expedite this process if you open your app and simulate the events you want forwarded. Navigate back to the Google Ads dashboard.
+Firstly, it is not necessary to connect all Google Ads accounts. However, you must connect the Google Ads account that owns in-app conversions for your mobile app. Often, this is the MCC account.
 
-1. Go to `Conversions`.
-<img src="/img/pages/deep-linked-ads/google/conversions.png" alt="Linked Accounts" class="three-quarters center">
-1. Add a new conversion: `+ > App > Third Party App Analytics`.
-<img src="/img/pages/deep-linked-ads/google/create-conversion.png" alt="Linked Accounts" class="three-quarters center">
-1. Import your Branch specific events. Click `Import and Continue`.
-1. For any first open event conversions, mark `Include in Conversions` to `YES`.
+!!! tip
+	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the `MCC > Management` tab.
+
+	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
+
+If you only have access to the child account (but that account is attached to an MCC), you can see which account is recording conversions within the child account as well, by going to `Tools > Conversions > Settings > Conversion Account` in Google Ads.

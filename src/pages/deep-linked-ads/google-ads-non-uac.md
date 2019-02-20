@@ -10,11 +10,9 @@
 
 Whereas Universal App Campaigns are focused solely on the single conversion type of app download, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
-{! ingredients/deep-linked-ads/link-to-google-ads-overview.md !}
+## Parallel Tracking Specifics for Web-based Ads
 
-## Parallel Tracking Specifics for Non-UAC Campaigns
-
-While parallel tracking does not impact UAC campaigns as your Final URL must be an app store URL, it does impact all other campaigns type which do allow you to use other destinations as conversions can occur in web-based settings, not just the app store.
+While parallel tracking does not impact UAC campaigns as your Final URL must be an app store URL, it does impact all other campaign types which do allow you to use other destinations as conversions can occur in web-based settings, not just the app store.
 
 To ensure your desired routing functionality via Branch links is not impacted by parallel tracking in web-based settings, Branch has two solutions depending on your preferences and technical setup.
 
