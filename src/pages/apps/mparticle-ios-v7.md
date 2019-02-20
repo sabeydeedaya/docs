@@ -58,13 +58,18 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     ![image](/img/pages/apps/ios-team-id.png)
 
-The mParticle iOS SDK (version 5.4.1 and later) will automatically call the following methods of the Branch Metrics SDK:
-
-- `initSessionWithLaunchOptions:` within `application:didFinishLaunchingWithOptions:`
-- `handleDeepLink:` within `application:openURL:options:`
-- `continueUserActivity:` within `application:continueUserActivity:restorationHandler:`
 
 ## mParticle Setup
+
+### Enable Branch on mParticle
+
+- Before you can enable Branch in your mParticle dashboard, you must retrieve your Branch Key on the [Link Settings](https://dashboard.branch.io/settings/link) page of your Branch dashboard.
+
+- Please follow mParticle's documentation on how to [Connect an Event Output](https://docs.mparticle.com/guides/getting-started/connect-an-event-output/); i.e. enable the Branch integration.
+
+- If you have enabled Apple Search Ads for your Branch implementation, you must also check `Enable Apple Search Ads` in the Connection Settings.
+
+Once you have added the kit and configured your branch API key in the mParticle dashboard, the mParticle SDKs will take care of initializing the Branch SDK and forwarding the appropriate application lifecycle events to handle deep links.
 
 ### Install the mParticle Branch Kit
 
@@ -97,28 +102,24 @@ The mParticle iOS SDK (version 5.4.1 and later) will automatically call the foll
 
 ### Initializing Branch in the mParticle Kit
 
-As with any kit, mParticle will automatically handle initializing Branch sessions. Please ensure `.onAttributionComplete` is enabled in `mParticleOptions`.
+The mParticle iOS SDK (version 5.4.1 and later) will automatically call the following methods of the Branch Kit:
+
+- `initSessionWithLaunchOptions:` within `application:didFinishLaunchingWithOptions:`
+- `handleDeepLink:` within `application:openURL:options:`
+- `continueUserActivity:` within `application:continueUserActivity:restorationHandler:`
+
+This means mParticle will automatically handle initializing Branch sessions. However, please ensure `.onAttributionComplete` is enabled in the `mParticleOptions` object.
 
 !!! warning "mParticle appDelegate proxy not enabled"
-    If the mParticle appDelegate proxy is not enabled, you must add mParticle [URI & Domain relays](https://docs.mparticle.com/developers/sdk/ios/getting-started/#uiapplication-delegate-proxy) to the appDelegate.
+    If the mParticle appDelegate proxy is not enabled, you must add mParticle's [URI & Domain relays](https://docs.mparticle.com/developers/sdk/ios/getting-started/#uiapplication-delegate-proxy) to the appDelegate.
+
+At this point you should start seeing your Branch session data - including installs, re-opens, and any custom events - in your Branch dashboard.
 
 ### Retrieve Deep Link Data via mParticle
 
 Our integration with mParticle supports the creation and attribution of deep links to install and open an app. A deep link will typically contain some additional information to be used when the user ultimately opens your application, so that you can properly route the user to the appropriate content, or otherwise customize their experience.
 
-Please ensure you've followed [mParticle's documentation] (http://docs.mparticle.com/developers/sdk/ios/kits#deep-linking) to ensure your deep link data is being retrieved.
-
-### Enable Branch on mParticle
-
-- Before you can enable Branch in your mParticle dashboard, you must retrieve your Branch Key on the [Link Settings](https://dashboard.branch.io/settings/link) page of your Branch dashboard.
-
-- Please follow mParticle's documentation on how to [Connect an Event Output](https://docs.mparticle.com/guides/getting-started/connect-an-event-output/); i.e. enable the Branch integration.
-
-- If you have enabled Apple Search Ads for your Branch implementation, you must also check `Enable Apple Search Ads` in the Connection Settings.
-
-Once you have added the kit and configured your branch API key in the mParticle dashboard, the mParticle SDKs will take care of initializing the Branch SDK and forwarding the appropriate application lifecycle events to handle deep links.
-
-At this point you should start seeing your Branch session data - including installs, re-opens, and any custom events - in your Branch dashboard.
+Please ensure you've followed [mParticle's documentation](http://docs.mparticle.com/developers/sdk/ios/kits#deep-linking) to ensure your deep link data is being retrieved.
 
 ### Test deep link
 
@@ -131,9 +132,9 @@ At this point you should start seeing your Branch session data - including insta
 
 ## Implementing features
 
-Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/ios/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
+- Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/ios/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
 
-Please refer to Branch's [native iOS SDK](/pages/apps/ios/#implement-features) documentation for how to implement secondary functionality.
+- Please refer to Branch's [native iOS SDK](/pages/apps/ios/#implement-features) documentation for how to implement secondary functionality.
 
 ## Sample testing apps
 
