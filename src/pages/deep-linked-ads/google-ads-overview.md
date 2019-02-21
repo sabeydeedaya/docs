@@ -18,7 +18,7 @@ With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)
 
 Our integration with Google Ads supports the following:
 
-### [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-uac.md)
+### [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
 - Full attribution for:
 	- App Installs only
 - No 3rd Party Links
@@ -26,7 +26,7 @@ Our integration with Google Ads supports the following:
 - Destinations:
 	- App Stores only
 
-### [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-non-uac.md)
+### [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 - Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
 - Full attribution for:
 	- App conversions (install and in-app events)
