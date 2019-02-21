@@ -26,8 +26,10 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.localytics.com/" target="_blank">![Localytics](https://dashboard.branch.io/static/images/partners/partner_4.png)</a>|**[Localytics](/pages/data-integrations/localytics-data-integration.md)**
 <a href="https://www.mobileaction.co/" target="_blank">![MobileAction](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1545431424695.png)</a>|**[MobileAction](/pages/data-integrations/mobileaction-data-integration.md)**
 <a href="https://mixpanel.com/" target="_blank">![Mixpanel](https://cdn.branch.io/branch-assets/ad-partner-manager//mixpanel-1550716013249.png)</a>|**[Mixpanel](/pages/data-integrations/mixpanel-data-integration.md)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mparticle.png)</a>|**[mParticle](/pages/data-integrations/mparticle-data-integration.md)**
-<a href="https://segment.com/" target="_blank">![Segment](https://static.segment.com/site-public/2.66.17-238-gf660935/files/segment-7714a6a4af.svg)</a>|**[Segment](/pages/data-integrations/segment-data-integration.md)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mparticle.png)</a>|**[mParticle Export](/pages/data-integrations/mparticle-data-integration.md)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)**
+<a href="https://segment.com/" target="_blank">![Segment](https://static.segment.com/site-public/2.66.17-238-gf660935/files/segment-7714a6a4af.svg)</a>|**[Segment Export](/pages/data-integrations/segment-data-integration.md)**
+<a href="https://segment.com/" target="_blank">![Segment](https://static.segment.com/site-public/2.66.17-238-gf660935/files/segment-7714a6a4af.svg)</a>|**[Segment Import](/pages/integrations/segment-import.md)**
 <a href="https://www.singular.net/" target="_blank">![Singular](https://dashboard.branch.io/static/images/partners/partner_12.png)</a>|**[Singular](/pages/data-integrations/singular-data-integration.md)**
 <a href="https://www.tune.com" target="_blank">![TUNE](https://dashboard.branch.io/static/images/partners/partner_1.png)</a>|**[TUNE](/pages/data-integrations/tune-data-integration.md)**
 
