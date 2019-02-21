@@ -535,9 +535,9 @@ pages:
       - Vero: pages/emails/vero.md
       - WhatCounts: pages/emails/whatcounts.md
       - Zeta: pages/emails/zeta.md
-    - Data Integrations:
-      - Adobe Analytics: pages/integrations/adobe-analytics.md
+    - Data Integration Partners:
       - Adjust: pages/integrations/adjust.md
+      - Adobe Analytics: pages/integrations/adobe-analytics.md
       - Amplitude: pages/integrations/amplitude.md
       - AppMetrica: pages/integrations/appmetrica.md
       - Appsflyer: pages/integrations/appsflyer.md
@@ -553,7 +553,6 @@ pages:
       - Segment (import): pages/integrations/segment-import.md
     - Partner Resources:
       - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
-      - Event Ontology: pages/exports/event_ontology_data_schema.md
   - Reports & Analytics:
     - Overview: pages/dashboard/analytics-overview.md
     - Paid Ads Analytics: pages/activity-reports-analytics/paid-ads-analytics.md
@@ -568,6 +567,7 @@ pages:
     - Data Export API: pages/exports/api-v3.md
     - Query API: pages/exports/query-api.md
     - Query Recipe Book: pages/exports/query-recipe-book.md
+    - Event Ontology: pages/exports/event_ontology_data_schema.md
   - Hidden:
     - Redirects:
       - Redirect: pages/deep-linked-ads/apple-search-ads-cost.md
