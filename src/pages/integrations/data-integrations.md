@@ -77,5 +77,4 @@ Data Integrations provide an easy way to automatically send Branch data to your 
 </div>
 
 ## Supporting Information
-- [Data Integrations FAQ](/pages/integrations/faq/)
 - [Event Entology](/pages/exports/event_ontology_data_schema/)
