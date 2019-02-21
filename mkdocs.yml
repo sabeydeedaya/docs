@@ -536,21 +536,30 @@ pages:
       - WhatCounts: pages/emails/whatcounts.md
       - Zeta: pages/emails/zeta.md
     - Data Integration Partners:
+      - 24Metrics Fraudshield: pages/integrations/24metrics-fraudshield.md
       - Adjust: pages/integrations/adjust.md
       - Adobe Analytics: pages/integrations/adobe-analytics.md
       - Amplitude: pages/integrations/amplitude.md
       - AppMetrica: pages/integrations/appmetrica.md
+      - Appsee: pages/integrations/appsee.md
       - Appsflyer: pages/integrations/appsflyer.md
+      - Backinapp: pages/integrations/backinapp.md
       - Braze: pages/integrations/braze.md
       - CleverTap: pages/integrations/clevertap.md
+      - Convertro: pages/integrations/convertro.md
+      - Eulerian: pages/integrations/eulerian.md
+      - Fraud Defense: pages/integrations/fraud-defense.md
       - Google Analytics: pages/integrations/google-analytics.md
       - Kochava: pages/integrations/kochava.md
+      - Leanplum: pages/integrations/leanplum.md
       - Localytics: pages/integrations/localytics.md
       - Mixpanel: pages/integrations/mixpanel.md
+      - MobileAction: pages/integrations/mobileaction.md
       - mParticle (export): pages/integrations/mparticle.md
       - mParticle (import): pages/integrations/mparticle-import.md
       - Segment (export): pages/integrations/segment.md
       - Segment (import): pages/integrations/segment-import.md
+      - Singular: pages/integrations/singular.md
     - Partner Resources:
       - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
@@ -588,9 +597,6 @@ pages:
       - Redirect: pages/integrations/faq.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
-    - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
-    - Universal Email Template Full (internal template): pages/emails/_template-universal-email-full.md
-    - Universal Ads Template (internal template): pages/deep-linked-ads/_template-mobile-tracking.md
     - Field-by-field guide for migrating from legacy Export API (old): pages/exports/export-api-migration-guide.md
     - Field-by-field guide for migrating from legacy webhooks (old): pages/exports/webhooks-migration-guide.md
     - Universal Linking Validator: pages/getting-started/universal-linking-validator.md
