@@ -681,7 +681,7 @@
             [[Branch getInstance] delayInitToCheckForSearchAds];
             ```
 
-    - **Test only** Create Apple Search Ads events with fake campaign paramaters (remove before release)
+    - **Faking ASA calls** Create Apple Search Ads events with fake campaign parameters. However, this feature only shows data in Liveview for Branch "live" apps (not "test" apps). Remember to remove this before production release.
 
         - *Swift*
 
