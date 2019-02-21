@@ -681,7 +681,7 @@
             [[Branch getInstance] delayInitToCheckForSearchAds];
             ```
 
-    - Test with fake campaign params (do not test in production)
+    - **Test only** Create Apple Search Ads events with fake campaign paramaters (remove before release)
 
         - *Swift*
 
