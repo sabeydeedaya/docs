@@ -1,3 +1,5 @@
+<script>window.location = "/pages/deep-linked-ads/google-ads-overview/"</script>
+
 ---
 title: Google Search Network Ads
 description: A guide to using Branch in Adwords Search Network Campaigns.
