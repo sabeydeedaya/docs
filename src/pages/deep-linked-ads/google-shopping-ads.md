@@ -1,3 +1,6 @@
+
+<script>window.location = "/pages/deep-linked-ads/google-ads-overview/"</script>
+
 ---
 title: Google Shopping Ads
 description: A guide to using Branch in Google Shopping Ad Campaigns

@@ -595,6 +595,7 @@ pages:
       - Redirect: pages/deep-linked-ads/google-search-engagement-ads.md
       - Redirect: pages/deep-linked-ads/google-display-install-ads.md
       - Redirect: pages/deep-linked-ads/google-display-engagement-ads.md
+      - Redirect: pages/deep-linked-ads/google-video-ads.md
       - Redirect: pages/apps/api.md
       - Redirect: pages/exports/data-feeds.md
       - Redirect: pages/integrations/tune.md
