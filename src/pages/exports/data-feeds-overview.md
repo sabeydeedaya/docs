@@ -3,7 +3,7 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
 <!-- Deep Links -->
 ## Data Feeds
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/integrations/data-integrations/">
+  <a href="/pages/integrations/data-integrations-list/">
     <img src="../../../img/pages/main-page/feeds-dot.png" />
     <p>Data Integrations</p>
   </a>
