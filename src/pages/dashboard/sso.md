@@ -84,4 +84,4 @@ Not currently. One user can belong to multiple Branch apps, so admins must decid
 
 ### How much does SSO cost?
 
-Single Sign-on support for the Branch dashboard is a Premium feature. Please [contact support](https://support.branch.io/support/tickets/new){:target="\_blank"} or your account manager for more information.
+Single Sign-on support for the Branch dashboard is a Premium feature. Please [contact support](https://support.branch.io/support/tickets/new){:target="\_blank"} or your account manager for more information. NOTE: SSO is not available for trial subscriptions.
