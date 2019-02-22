@@ -137,8 +137,6 @@ pages:
       - Cordova PhoneGap Ionic: pages/apps/cordova-phonegap-ionic.md
       - mParticle Android: pages/apps/mparticle-android-v5.md
       - mParticle iOS: pages/apps/mparticle-ios-v7.md
-      - Adobe Launch Android: pages/apps/adobe-launch-android.md
-      - Adobe Launch iOS: pages/apps/adobe-launch-ios.md
       - Titanium: pages/apps/titanium.md
       - React Native: pages/apps/react-native.md
       - Unity: pages/apps/unity.md
@@ -159,12 +157,11 @@ pages:
     - Overview : pages/resources/branch-channels.md
     - Website:
       - Overview: pages/web/branch-web-solutions.md
-      - Deepviews: pages/web/deep-views.md
       - Journeys App Banners: pages/web/journeys.md
-      - Website 2:
-        - AMP Journeys: pages/web/amp-journeys.md
-        - Text Me The App: pages/web/text-me-the-app.md
-        - Hosted Deep Link Data: pages/web/hosted-data.md
+      - Journeys via AMP: pages/web/amp-journeys.md
+      - Deepviews: pages/web/deep-views.md
+      - Text Me the App: pages/web/text-me-the-app.md
+      - Hosted Deep Link Data: pages/web/hosted-data.md
     - Paid ads:
       - Branch Universal Ads: pages/deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: pages/deep-linked-ads/ad-networks-list.md
@@ -240,7 +237,7 @@ pages:
       - Appbooster: pages/deep-linked-ads/appbooster-mobile-tracking.md
       - Appcoachs : pages/deep-linked-ads/appcoachs-mobile-tracking.md
       - Appier: pages/deep-linked-ads/appier-mobile-tracking.md
-      - Apple Search : pages/deep-linked-ads/apple-mobile-tracking.md
+      - Apple Search Ads: pages/deep-linked-ads/apple-mobile-tracking.md
       - Applift : pages/deep-linked-ads/applift-mobile-tracking.md
       - Applift CPA : pages/deep-linked-ads/applift-cpa-mobile-tracking.md
       - Applovin : pages/deep-linked-ads/applovin-mobile-tracking.md

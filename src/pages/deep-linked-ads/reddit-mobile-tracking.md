@@ -2,9 +2,6 @@
 
 ![Reddit](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/reddit-1-logo-png-transparent-1535415950775.png)
 
-!!! info "PRIVATE BETA ONLY"
-    This integration is live but temporarily in a private BETA.
-
 This guide will walk you through how to setup your campaigns with **[Reddit](http://www.reddit.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 Branch Universal Ads provides everything you need for complete tracking.

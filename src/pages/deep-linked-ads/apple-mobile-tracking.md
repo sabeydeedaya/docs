@@ -2,7 +2,7 @@
 
 ![Apple_Search_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/search_ads-1528501330030.png)
 
-Branch can help track your **[Apple Search Ad](https://searchads.apple.com/)** campaigns by fetching the Apple Search Ads Attribution API.  You can then use the parameters you've set in the Apple Search Ads dashboard, parameters such as the campaign name, and take special action in your app after an install, or simply track the effectiveness of a campaign in the Branch dashboard, along with other your other Branch statistics, such as total installs, referrals, and app link statistics.
+Branch can help track your **[Apple Search Ads](https://searchads.apple.com/)** campaigns by fetching the Apple Search Ads Attribution API.  You can then use the parameters you've set in the Apple Search Ads dashboard, parameters such as the campaign name, and take special action in your app after an install, or simply track the effectiveness of a campaign in the Branch dashboard, along with other your other Branch statistics, such as total installs, referrals, and app link statistics.
 
 + [Apple Search Ads](https://searchads.apple.com/)
 + [Apple Search Ads WWDC](https://developer.apple.com/videos/play/wwdc2016/302/)
@@ -13,7 +13,7 @@ In order to check if the user came from an Apple Search Ads, you must make the a
 
 ### Import iAd and AdSupport
 
-You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ad checking.
+You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ads checking.
 
 ![image](/img/pages/apps/ios-frameworks.png)
 

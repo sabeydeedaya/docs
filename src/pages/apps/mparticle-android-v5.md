@@ -7,19 +7,19 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - [mParticle SDK for Android](https://docs.mparticle.com/developers/sdk/android/getting-started/)
 - [mParticle Branch Kit](https://github.com/mparticle-integrations/mparticle-android-integration-branchmetrics)
-- [Retrieve Deep Link Data via mParticle](http://docs.mparticle.com/developers/sdk/android/kits#deep-linking)
-- [Enable App Links in Branch](https://docs.branch.io/pages/deep-linking/android-app-links/#add-intent-filter-to-manifest)
 
 ## Branch Setup
 
-### Configure Branch
+### Configure Branch & Enable App Links
 
-- Configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
+- Retrieve your [app's fingerprint](https://docs.branch.io/pages/deep-linking/android-app-links/#generate-signing-certificate-fingerprint) to enable App Links in Branch
+
+- Decide on a URI scheme to use, and configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
     ![image](/img/pages/dashboard/android.png)
     ![image](/img/pages/dashboard/link-domain.png)
 
-- Add the following intent filter for the Branch URI scheme to your Android Manifest
+- Add the following intent filter for the Branch URI scheme to the `LauncherActivity` in your Android Manifest
   ```
   <!-- Branch URI Scheme -->
             <intent-filter>
@@ -30,7 +30,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
             </intent-filter>
   ```
 
-- Add the following intent filter for the Branch app.link domains to your Android manifest
+- Add the following intent filter for the Branch `app.link` domains to the `LauncherActivity` in your Android manifest
   ```
   <!-- Branch App Links (optional) -->
             <intent-filter android:autoVerify="true">
@@ -59,6 +59,14 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ## mParticle Setup
 
+### Enable Branch on mParticle
+
+- Before you can enable Branch in your mParticle dashboard, you must retrieve your Branch Key on the [Link Settings](https://dashboard.branch.io/settings/link) page of your Branch dashboard.
+
+- Please follow mParticle's documentation on how to [Connect an Event Output](https://docs.mparticle.com/guides/getting-started/connect-an-event-output/); i.e. enable the Branch integration.
+
+Once you have added the kit and configured your branch API key in the mParticle dashboard, the mParticle SDKs will take care of initializing the Branch SDK and forwarding the appropriate application lifecycle events to handle deep links.
+
 ### Install the mParticle Branch Kit
 
 - [mParticle Github](https://github.com/mparticle-integrations/mparticle-android-integration-branchmetrics)
@@ -73,18 +81,16 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 As with any kit, mParticle will automatically handle initializing Branch sessions. Please ensure `mParticle.start()` is called in your Android Application class (this should already be accounted for in your base mParticle integration).
 
+At this point you should start seeing your Branch session data - including installs, re-opens, and any custom events - in your Branch dashboard.
+
 !!! warning "Requirements"
 	* [x] As with any attribution-related integration, be sure that you have added the mParticle `ReferrerReceiver` to your app’s `AndroidManifest.xml`
 
-### Enable Branch on mParticle
+### Retrieve Deep Link Data via mParticle
 
-- Before you can enable Branch in your mParticle dashboard, you must retrieve your Branch Key on the [Link Settings](https://dashboard.branch.io/settings/link) page of your Branch dashboard.
+Our integration with mParticle supports the creation and attribution of deep links to install and open an app. A deep link will typically contain some additional information to be used when the user ultimately opens your application, so that you can properly route the user to the appropriate content, or otherwise customize their experience.
 
-- Please follow mParticle's documentation on how to [Connect an Event Output](https://docs.mparticle.com/guides/getting-started/connect-an-event-output/); i.e. enable the Branch integration.
-
-Once you have added the kit and configured your branch API key in the mParticle dashboard, the mParticle SDKs will take care of initializing the Branch SDK and forwarding the appropriate application lifecycle events to handle deep links.
-
-At this point you should start seeing your Branch session data - including installs, re-opens, and any custom events - in your Branch dashboard.
+Please ensure you've followed [mParticle's documentation](http://docs.mparticle.com/developers/sdk/android/kits#deep-linking) to ensure your deep link data is being retrieved.
 
 ### Test deep link
 
@@ -100,11 +106,11 @@ At this point you should start seeing your Branch session data - including insta
 
 ## Implementing features
 
-Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/android/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
+- Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/android/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
 
-Direct calls to the Branch SDK will also require using `.getAutoInstance()`, rather than `.getInstance()`.
+- Direct calls to the Branch SDK will also require using `.getAutoInstance()`, rather than `.getInstance()`.
 
-Please refer to Branch's [native iOS SDK](/pages/apps/ios/#implement-features) documentation for how to implement secondary functionality.
+- Please refer to Branch's [native Android SDK](/pages/apps/android/#implement-features) documentation for how to implement secondary functionality.
 
 ## Sample testing apps
 

@@ -2,7 +2,7 @@ Adding Branch to your Launch Property will allow you to use core functionality f
 
 ## Prerequisites
 
-- Have the [Adobe Marketing Cloud SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks) integrated into your site.
+- Have the [Adobe Experience Platform Launch SDK](https://docs.adobelaunch.com/) integrated into your site.
 - Have a Branch app created for your company: https://dashboard.branch.io.
 	- One Branch app per Launch Property is recommended.
 - Have the Branch [iOS SDK](/pages/apps/ios) and/or [Android SDK](/pages/apps/android) integrated into your mobile apps.
