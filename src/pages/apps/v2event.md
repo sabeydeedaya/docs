@@ -525,7 +525,7 @@ If you want to track an event that isn't a predefined event, simply do the follo
 - *Objective-C*
 
     ```obj-c
-    [BranchEvent.customEventWithName(@"User_Scanned_Item") logEvent];
+    [[BranchEvent customEventWithName:@"User_Scanned_Item"] logEvent];
     ```
 
 ### Android
