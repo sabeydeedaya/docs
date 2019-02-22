@@ -166,6 +166,8 @@
           }
           ```
 
+!!! warning "Conflict when using "
+
 - ### Test deep link iOS
 
     - Create a deep link from the [Branch Dashboard](https://dashboard.branch.io/marketing)
@@ -896,7 +898,81 @@
 
         - [Ionic Deeplinks Plugin](https://github.com/driftyco/ionic-plugin-deeplinks)
 
-    - PhoneGap Build is also not supported by the Branch SDK because we need plugin hooks to enable Entitlements, Universal Links, App Links, and URI Scheme redirects but PhoneGap Build does not allow plugin hooks
+    - PhoneGap Build is also not supported by the Branch SDK because we need plugin hooks to enable Entitlements, Universal Links, App Links, and URI Scheme redirects but PhoneGap Build does not allow plugin hooks.
+    - With both the 'branch-cordova-sdk' plugin and the 'cordova-plugin-siri-shortcuts' plugin installed, deep-linking breaks. This seems to most often happen when the siri shortcuts plugin is installed after the branch plugin.
+      - **Solution**
+        - Using a modified version of the `AppDelegate+SiriShortcuts` Category to include Branch. This version only works if both Branch and SiriShortcuts is present.
+        - From within the Xcode workspace, locate `AppDelegate+BranchSDK.m`. Either remove it or ignore it.
+        - From within the Xcode workspace, locate `AppDelegate+SiriShortcuts.m`. This is the file we want to modify.
+        - Update `AppDelegate+SiriShortcuts.m` to call Branch SDK. This version should work when dropped in with the current release of both SDKs.
+
+        ```
+        #import "AppDelegate+SiriShortcuts.h"
+        #import <objc/runtime.h>
+
+        #import "BranchNPM.h"
+
+        #ifdef BRANCH_NPM
+        #import "Branch.h"
+        #else
+        #import <Branch/Branch.h>
+        #endif
+
+        static void * UserActivityPropertyKey = &UserActivityPropertyKey;
+
+        @implementation AppDelegate (siriShortcuts)
+
+        - (NSUserActivity *)userActivity {
+            return objc_getAssociatedObject(self, UserActivityPropertyKey);
+        }
+
+        - (void)setUserActivity:(NSUserActivity *)activity {
+            objc_setAssociatedObject(self, UserActivityPropertyKey, activity, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        }
+
+        - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler {
+
+            // SiriShortcuts code
+            NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+            if ([userActivity.activityType isEqualToString:[NSString stringWithFormat:@"%@.shortcut", bundleIdentifier]]) {
+                self.userActivity = userActivity;
+            }
+
+            // Respond to Universal Links
+            if (![[Branch getInstance] continueUserActivity:userActivity]) {
+                // send unhandled URL to notification
+                if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+                    [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:[userActivity.webpageURL absoluteString]]];
+                }
+            }
+
+            return YES;
+        }
+
+        // Respond to URI scheme links
+        - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+            // pass the url to the handle deep link call
+            if (![[Branch getInstance] application:app openURL:url options:options]) {
+                // do other deep link routing for the Facebook SDK, Pinterest SDK, etc
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:CDVPluginHandleOpenURLNotification object:url]];
+                // send unhandled URL to notification
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:[url absoluteString]]];
+            }
+            return YES;
+        }
+
+        // Respond to Push Notifications
+        - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+            @try {
+                [[Branch getInstance] handlePushNotification:userInfo];
+            }
+            @catch (NSException *exception) {
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:userInfo]];
+            }
+        }
+
+        @end
+        ```
 
 - ### Cordova errors
 

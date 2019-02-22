@@ -1,11 +1,8 @@
 ## Overview
 
-![Pinterest](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/pinterest-1539022582075.png)
+![Kakao](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/kakao_logo-1546901639056.png)
 
-!!! warning "Private BETA Only"
-		Our integration with Pinterest is currently in private BETA. 
-
-This guide will walk you through how to setup your campaigns with **[Pinterest](https://www.pinterest.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Kakao](https://www.kakaocorp.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -17,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Pinterest](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/pinterest/pinterest-enable.png)
+![image](/img/pages/deep-linked-ads/kakao/kakao-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/pinterest/pinterest-postbacks.png)
+![image](/img/pages/deep-linked-ads/kakao/kakao-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

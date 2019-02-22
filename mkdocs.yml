@@ -195,6 +195,7 @@ pages:
       - Actionpay : pages/deep-linked-ads/actionpay-mobile-tracking.md
       - AcuityAds : pages/deep-linked-ads/acuityads-mobile-tracking.md
       - Ad-Venture: pages/deep-linked-ads/ad-venture-mobile-tracking.md
+      - Ad.net: pages/deep-linked-ads/ad.net-mobile-tracking.md
       - Ad2Click Media: pages/deep-linked-ads/ad2click-media-mobile-tracking.md
       - Ad4Screen : pages/deep-linked-ads/ad4screen-mobile-tracking.md
       - Ad4top: pages/deep-linked-ads/ad4top-mobile-tracking.md
@@ -232,6 +233,7 @@ pages:
       - Affifix Digital : pages/deep-linked-ads/affifix-digital-mobile-tracking.md
       - Affise: pages/deep-linked-ads/affise-mobile-tracking.md
       - Affle : pages/deep-linked-ads/affle-mobile-tracking.md
+      - Affonix: pages/deep-linked-ads/affonix-mobile-tracking.md
       - Altrooz : pages/deep-linked-ads/atlrooz-mobile-tracking.md
       - App Samurai : pages/deep-linked-ads/app-samurai-mobile-tracking.md
       - Appbooster: pages/deep-linked-ads/appbooster-mobile-tracking.md
@@ -278,6 +280,7 @@ pages:
       - Connected Interactive : pages/deep-linked-ads/connected-interactive-mobile-tracking.md
       - Conversant Media : pages/deep-linked-ads/conversant-media-mobile-tracking.md
       - Convertologic : pages/deep-linked-ads/convertologic-mobile-tracking.md
+      - Cooper Media: pages/deep-linked-ads/cooper-media-mobile-tracking.md
       - CPI Droid : pages/deep-linked-ads/cpi-droid-mobile-tracking.md
       - Criteo: pages/deep-linked-ads/criteo-mobile-tracking.md
       - crobo : pages/deep-linked-ads/crobo-mobile-tracking.md
@@ -351,6 +354,7 @@ pages:
       - Jampp : pages/deep-linked-ads/jampp-mobile-tracking.md
       - JetFuel Ads : pages/deep-linked-ads/jetfuel-ads-mobile-tracking.md
       - JungggleX : pages/deep-linked-ads/junggglex-mobile-tracking.md
+      - Kakao: pages/deep-linked-ads/kakao-mobile-tracking.md
       - Kiip : pages/deep-linked-ads/kiip-mobile-tracking.md
       - Kwanko: pages/deep-linked-ads/kwanko-mobile-tracking.md
       - Liftoff : pages/deep-linked-ads/liftoff-mobile-tracking.md
@@ -414,6 +418,7 @@ pages:
       - Picnic Media : pages/deep-linked-ads/picnic-media-mobile-tracking.md
       - Pinisight : pages/deep-linked-ads/pinisight-mobile-tracking.md
       - Pinterest : pages/deep-linked-ads/pinterest-mobile-tracking.md
+      - Plabs Ventures: pages/deep-linked-ads/plabs-ventures-mobile-tracking.md
       - Pocketmath: pages/deep-linked-ads/pocketmath-mobile-tracking.md
       - Prappers : pages/deep-linked-ads/prappers-mobile-tracking.md
       - ProfiliAd : pages/deep-linked-ads/profiliad-mobile-tracking.md
@@ -438,6 +443,8 @@ pages:
       - Signitech: pages/deep-linked-ads/signitech-mobile-tracking.md
       - SilverPush: pages/deep-linked-ads/silverpush-mobile-tracking.md
       - SilverPush - Affise : pages/deep-linked-ads/silverpush-affise-mobile-tracking.md
+      - Sizmek Adserver: pages/deep-linked-ads/sizmek-adserver-mobile-tracking.md
+      - Slavia Mobile: pages/deep-linked-ads/slavia-mobile-mobile-tracking.md
       - Smadex: pages/deep-linked-ads/smadex-mobile-tracking.md
       - Smart.bid : pages/deep-linked-ads/smart-bid-mobile-tracking.md
       - SmoorfApp : pages/deep-linked-ads/smoorfapp-mobile-tracking.md
@@ -450,6 +457,7 @@ pages:
       - Ströer Mobile Performance : pages/deep-linked-ads/stroer-mobile-performance-mobile-tracking.md
       - SVG Media : pages/deep-linked-ads/svg-media-mobile-tracking.md
       - TAB : pages/deep-linked-ads/tab-mobile-tracking.md
+      - Tabatoo: pages/deep-linked-ads/tabatoo-mobile-tracking.md
       - Taboola : pages/deep-linked-ads/taboola-mobile-tracking.md
       - Tapjoy: pages/deep-linked-ads/tapjoy-mobile-tracking.md
       - Tappx: pages/deep-linked-ads/tappx-mobile-tracking.md
@@ -517,6 +525,7 @@ pages:
       - Mailjet: pages/emails/mailjet.md
       - Mailup: pages/emails/mailup.md
       - Mandrill: pages/emails/mandrill.md
+      - Marketo: pages/emails/marketo.md
       - MessageGears: pages/emails/messagegears.md
       - MoEngage: pages/emails/moengage.md
       - Oracle Bronto: pages/emails/oracle-bronto.md
@@ -535,6 +544,31 @@ pages:
       - Vero: pages/emails/vero.md
       - WhatCounts: pages/emails/whatcounts.md
       - Zeta: pages/emails/zeta.md
+    - Data Integration Partners:
+      - 24Metrics Fraudshield: pages/integrations/24metrics-fraudshield.md
+      - Adjust: pages/integrations/adjust.md
+      - Adobe Analytics: pages/integrations/adobe-analytics.md
+      - Amplitude: pages/integrations/amplitude.md
+      - AppMetrica: pages/integrations/appmetrica.md
+      - Appsee: pages/integrations/appsee.md
+      - Appsflyer: pages/integrations/appsflyer.md
+      - Backinapp: pages/integrations/backinapp.md
+      - Braze: pages/integrations/braze.md
+      - CleverTap: pages/integrations/clevertap.md
+      - Convertro: pages/integrations/convertro.md
+      - Eulerian: pages/integrations/eulerian.md
+      - Fraud Defense: pages/integrations/fraud-defense.md
+      - Google Analytics: pages/integrations/google-analytics.md
+      - Kochava: pages/integrations/kochava.md
+      - Leanplum: pages/integrations/leanplum.md
+      - Localytics: pages/integrations/localytics.md
+      - Mixpanel: pages/integrations/mixpanel.md
+      - MobileAction: pages/integrations/mobileaction.md
+      - mParticle (export): pages/integrations/mparticle.md
+      - mParticle (import): pages/integrations/mparticle-import.md
+      - Segment (export): pages/integrations/segment.md
+      - Segment (import): pages/integrations/segment-import.md
+      - Singular: pages/integrations/singular.md
     - Partner Resources:
       - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
@@ -546,29 +580,12 @@ pages:
     - Liveview: pages/exports/pba-liveview.md
   - Data Feeds:
     - Overview: pages/exports/data-feeds-overview.md
-    - Data Integrations:
-      - Overview: pages/integrations/data-integrations.md
-      - Adobe Analytics: pages/integrations/adobe-analytics.md
-      - Adjust: pages/integrations/adjust.md
-      - Amplitude: pages/integrations/amplitude.md
-      - AppMetrica: pages/integrations/appmetrica.md
-      - Appsflyer: pages/integrations/appsflyer.md
-      - Braze: pages/integrations/braze.md
-      - CleverTap: pages/integrations/clevertap.md
-      - Google Analytics: pages/integrations/google-analytics.md
-      - Kochava: pages/integrations/kochava.md
-      - Localytics: pages/integrations/localytics.md
-      - Mixpanel: pages/integrations/mixpanel.md
-      - mParticle (export): pages/integrations/mparticle.md
-      - mParticle (import): pages/integrations/mparticle-import.md
-      - Segment (export): pages/integrations/segment.md
-      - Segment (import): pages/integrations/segment-import.md
-      - Data Integrations FAQ: pages/integrations/faq.md
-      - Event Ontology: pages/exports/event_ontology_data_schema.md
+    - Data Integrations: pages/integrations/data-integrations-list.md
     - Webhooks: pages/exports/ua-webhooks.md
     - Data Export API: pages/exports/api-v3.md
     - Query API: pages/exports/query-api.md
     - Query Recipe Book: pages/exports/query-recipe-book.md
+    - Event Ontology: pages/exports/event_ontology_data_schema.md
   - Hidden:
     - Redirects:
       - Redirect: pages/deep-linked-ads/apple-search-ads-cost.md
@@ -584,6 +601,7 @@ pages:
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
       - Redirect: pages/apps/mparticle-android.md
+      - Redirect: pages/integrations/faq.md
       - Redirect: pages/apps/mparticle-ios.md
     - Search Ads: pages/deep-linked-ads/google-xplatform-search-ads.md
     - Display Ads: pages/deep-linked-ads/google-xplatform-display-ads.md
@@ -591,9 +609,6 @@ pages:
     - Video Ads: pages/deep-linked-ads/google-video-ads.md
     - Legacy Data Export API (old): pages/exports/api.md
     - Legacy Webhooks (old): pages/exports/webhooks.md
-    - Universal Email Template Simplified (internal template): pages/emails/_template-universal-email-simplified.md
-    - Universal Email Template Full (internal template): pages/emails/_template-universal-email-full.md
-    - Universal Ads Template (internal template): pages/deep-linked-ads/_template-mobile-tracking.md
     - Field-by-field guide for migrating from legacy Export API (old): pages/exports/export-api-migration-guide.md
     - Field-by-field guide for migrating from legacy webhooks (old): pages/exports/webhooks-migration-guide.md
     - Universal Linking Validator: pages/getting-started/universal-linking-validator.md
