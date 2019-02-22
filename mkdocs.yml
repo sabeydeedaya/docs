@@ -525,6 +525,7 @@ pages:
       - Mailjet: pages/emails/mailjet.md
       - Mailup: pages/emails/mailup.md
       - Mandrill: pages/emails/mandrill.md
+      - Marketo: pages/emails/marketo.md
       - MessageGears: pages/emails/messagegears.md
       - MoEngage: pages/emails/moengage.md
       - Oracle Bronto: pages/emails/oracle-bronto.md

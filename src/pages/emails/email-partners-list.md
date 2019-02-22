@@ -25,6 +25,7 @@ Logo | Partner
 <a href="https://www.mailjet.com/" target="_blank">![Mailjet](/img/pages/email/mailjet/mailjet.png)</a>| **[Mailjet](/pages/emails/mailjet.md)**
 <a href="https://www.mailup.com/" target="_blank">![MailUp](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/mailup-1536710113288.png)</a>| **[MailUp](/pages/emails/mailup.md)**
 <a href="https://www.mandrill.com/" target="_blank">![Mandrill](/img/pages/email/mandrill/mandrill.png)</a>| **[Mandrill](/pages/emails/mandrill.md)**
+<a href="https://www.marketo.com/" target="_blank">![Marketo](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/marketo-logo-6318C65F92-seeklogo.com-1542389796874.png)</a>| **[Marketo](/pages/emails/marketo.md)**
 <a href="https://messagegears.com/" target="_blank">![MessageGears](/img/pages/email/messagegears/messagegears.png)</a>| **[MessageGears](/pages/emails/messagegears.md)**
 <a href="https://www.moengage.com/" target="_blank">![MoEngage](/img/pages/email/moengage/moengage.png)</a>| **[MoEngage](/pages/emails/moengage.md)**
 <a href="https://bronto.com/" target="_blank">![Oracle_Bronto](/img/pages/email/oracle-bronto/oracle-bronto.png)</a>| **[Oracle Bronto](/pages/emails/oracle-bronto.md)**
