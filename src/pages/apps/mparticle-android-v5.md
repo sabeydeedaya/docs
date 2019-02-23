@@ -92,6 +92,9 @@ Our integration with mParticle supports the creation and attribution of deep lin
 
 Please ensure you've followed [mParticle's documentation](http://docs.mparticle.com/developers/sdk/android/kits#deep-linking) to ensure your deep link data is being retrieved.
 
+!!! info "mParticle in React Native"
+    If you integrate mParticle in React Native, you will still integrate the Branch kit as a Native module and follow the setup steps above.  However, instead of retrieving deep link data in the the native layer, you'll retrieve deep link data via [mParticle's React Native function found here](https://github.com/mParticle/react-native-mparticle/blob/master/README.md#attribution).
+
 ### Test deep link
 
 - Create a deep link from the [Branch Dashboard](https://dashboard.branch.io/marketing)
@@ -106,11 +109,11 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 
 ## Implementing features
 
-- Please refer to mParticle's [marking direct calls to kits]( https://docs.mparticle.com/developers/sdk/android/kits/#making-direct-calls-to-kits) documentation for how to access the kit via the mParticle SDK.
+- Please refer to mParticle's [making direct calls to kits]( https://docs.mparticle.com/developers/sdk/android/kits/#making-direct-calls-to-kits) documentation for how to access the Branch kit via the mParticle SDK.
 
 - Direct calls to the Branch SDK will also require using `.getAutoInstance()`, rather than `.getInstance()`.
 
-- Please refer to Branch's [native Android SDK](/pages/apps/android/#implement-features) documentation for how to implement secondary functionality.
+- Once you have a reference to the Branch kit, refer to Branch's [native Android SDK](/pages/apps/android/#implement-features) documentation for how to implement secondary functionality.
 
 ## Sample testing apps
 
@@ -119,3 +122,38 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 ## Troubleshooting
 
 Please refer to the [Branch Android SDK troubleshooting section](/pages/apps/android/#troubleshoot-issues).
+
+### App not deep linking from cold start
+
+    - Make sure onNewIntent is setting a new intent every time your `LauncherActivity.java` opens
+
+    - *Java*
+
+        ```
+        public class LauncherActivity extends AppCompatActivity {	
+	...
+	
+            @Override
+            public void onNewIntent(Intent intent) {
+                this.setIntent(intent);
+            }
+	    
+	...
+	
+        }
+        ```
+	
+    - *Kotlin*
+
+        ```
+        class LauncherActivity : AppCompatActivity() {
+	...
+	
+            public override fun onNewIntent(intent: Intent) {
+                this.intent = intent
+            }
+	    
+	...
+	
+        }
+        ```
