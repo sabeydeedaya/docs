@@ -17,6 +17,14 @@ With the change to “parallel tracking”, Google sends the customer directly t
 
 ![image](/img/pages/deep-linked-ads/google/new-parallel-tracking.png)
 
+### How Does Parallel Tracking Work?
+
+If you are running a Universal App Install Campaign, parallel tracking does not come into play as this campaign type directs users solely to the respective app store and does not include a third party link.
+
+If you are running a non-UAC Web-based Ad (Display, Search, Shopping, Video), and using a Branch link as either the `Final URL` or `Tracking Template`, parallel tracking ensures your users are directly routed to the final destination while also allowing Branch to properly measure and attribute the resulting actions/conversions.
+
+![image](/img/pages/deep-linked-ads/google/google-ads-non-uac.png)
+
 ### How Does This Impact Me?
 
 Attribution is unaffected because, although the Branch link is no longer the referring URL to the domain, parallel tracking still allows Branch link clicks to happen. This means the Branch Match ID parameter is still appended to the link that is being "clicked", and Branch can still store (and access) the Match ID in local storage because the web SDK can still load and read query parameters, even in the background.
