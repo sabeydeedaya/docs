@@ -36,4 +36,4 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 Interested in becoming a Data Intgeration Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup)**
 
 ## Supporting Information
-- [Event Entology](/pages/exports/event_ontology_data_schema/)
+- [Event Ontology](/pages/exports/event_ontology_data_schema/)
