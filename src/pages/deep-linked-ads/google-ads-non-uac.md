@@ -5,9 +5,6 @@
 		- **Web-based Ads** (this page)
 		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
 
-!!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
-
 Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
 ## Requirements
@@ -40,6 +37,9 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 ![image](/img/pages/deep-linked-ads/google/web-based-ads-routing-options.png)
 
 ## Setup
+
+!!! warning "**Enabling Required**"
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
 
 ### Create a Branch Ad Link
 
