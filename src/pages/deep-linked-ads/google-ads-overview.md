@@ -29,13 +29,13 @@ Our integration with Google Ads supports the following:
 ### [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
 - Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
 - Full attribution for:
-	- App conversions (install and in-app events)
+	- App conversions (opens & in-app events)
 	- Web (Mobile & Desktop) conversions
 - Deep Linking via Branch Links
 - Destinations:
 	- Web (Mobile & Desktop) Only
 		- Requires the [Branch Web SDK](/pages/web/integrate.md)
-	- App (install and in-app events)
+	- App (if installed)
 		- Requires [Universal Links](/pages/deep-linking/universal-links/) and/or [App Links](/pages/deep-linking/android-app-links/)
 
 ## Data Mapping between Google Ads & Branch
