@@ -24,7 +24,10 @@ To link Branch to your Google Ads account, please follow Google's **[Link a thir
 
 - You’ll need to create a different link ID for each app you track with Branch. Once you've generated the link ID and shared it with Branch you'll be able to import conversion events into Google Ads.
 - You must be an admin in your Google Ads account in order to generate link IDs.
-- If you are creating link IDs in an MCC, you must share those link IDs with the child account to record conversions.
+- If you manage campaigns for the same app in multiple Google Ads accounts either:
+	- Use [cross-account conversion tracking](https://support.google.com/google-ads/answer/3030657) and setting up a link ID with your third-party app analytics provider in your manager account.
+	- Share a single link ID with another Google Ads account.
+		- The account you share from will be the “owner” of the link ID. Only the “owner” of the link ID can share their link ID with other accounts. Any account that has accepted the owner's invite will be able to import conversions from the corresponding third-party app analytics provider for the app associated with the shared link ID.
 
 Store these Link IDs for easy access as you will need them to finish enabling the integration.
 
