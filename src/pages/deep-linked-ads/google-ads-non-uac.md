@@ -5,9 +5,6 @@
 		- **Web-based Ads** (this page)
 		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
 
-!!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
-
 Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
 ## Requirements
@@ -25,15 +22,6 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 * [x] [Basic Integration Prerequisites](#basic-integration-prerequisites)
 * [x] [Branch Web SDK v2.48.0+](/pages/web/integrate/)
 * [x] [Measurement of relevant v2 events](/pages/web/integrate/#track-events)
-* [x] Ensure all redirects are set to websites to avoid any policy violations.
-* [x] Ensure that the link has the following properties:
-	* [x] **All desired analytics tags**. If you don't add analytics tags, you won't see clicks alongside downstream conversion events in the Branch dashboard later.
-		* [x] At a minimum you will want to set the *Campaign* tag (*~campaign* as query parameter or link data)
-	* [x] **Campaign ID** (*~campaign_id* in link data). Campaign ID is required to avoid duplicating clicks. More on this in the troubleshooting section.
-* [x] Place your Branch link in the `Tracking Template` field during Google Ads campaign setup.
-
-!!! tip "Analytics Tags"
-	In order to line up *impressions*, *clicks* and *cost* with all downstream events, analytics tags must be present on the link and the values must *exactly* match the values in the Ad Network's dashboard.
 
 ### Web + App Routing Prerequisites
 
@@ -50,6 +38,9 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 
 ## Setup
 
+!!! warning "**Enabling Required**"
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
+
 ### Create a Branch Ad Link
 
 1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management)'s `Create Google Ads Link` button under the Google Ads Partner and select `Create Search/Display Link` depending on the type of Google Ads campaign you are running.
@@ -59,14 +50,17 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 ![Create Ad Link](/img/pages/deep-linked-ads/google-xplatform-display-ads/link-setup.png)
 1. Under the Configure Options tab, navigate to the Redirects sub section and ensure that the Web redirect is set to the desired final website promoted by the ad campaign.
 ![Create Ad Link](/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
-1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Adwords Campaign, set the channel field to Google Adwords and set the campaign field to the same ad campaign name used in Adwords.
+1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Adwords Campaign:
+ 	1. Set the `Channel` field to Google Ads
+	1. Set the `Campaign` field to the same ad campaign name used in Google Ads
+	1. Add a new tag - `~campaign_id` - to the same campaign ID in Google Ads
 ![Analytics Tags](/img/pages/deep-linked-ads/reusable-images/adwords-analytics-tags.png)
+
+!!! warning "Analytics Tags"
+	In order to line up *impressions*, *clicks* and *cost* with all downstream events, analytics tags must be present on the link and the values must *exactly* match the values in the Ad Network's dashboard.
 
 !!! note "Optional: Deep Link Data"
 	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
-
-!!! tip "Setting Attribution Windows"
-	You can specify the attribution windows for your links either at an overall account or per link level. Use these windows to accurately measure attribution data for your Branch links. Refer to [Changing attribution windows](/pages/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for instructions.
 
 #### Modifying your Final URL to Include Your Branch Link as a Query Parameter
 
@@ -88,6 +82,9 @@ Please follow Google Ads help documentation on how to create a new [Google Ads c
 	- **For Deep Linking into App if App Installed else Routing to Web** - place your modified Branch Link in the `Final URL` field during Google Ads campaign setup.
 
 For additional information on Google Ads campaigns, please see [Create ads and campaigns](https://support.google.com/google-ads/topic/3119116?hl=en&ref_topic=311907).
+
+!!! tip "Setting Attribution Windows"
+	You can specify the attribution windows for your links either at an overall account or per link level. Use these windows to accurately measure attribution data for your Branch links. Refer to [Changing attribution windows](/pages/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for instructions.
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
