@@ -7,33 +7,33 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 
 **Partner Website** | **Branch Integration Guide**
 --- | ---
-<a href="https://24metrics.com/" target="_blank">![24Metrics](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/24metrics_logo-1539310784419.png)</a>|**[24Metrics](/pages/integrations/24metrics-fraudshield.md)**
-<a href="https://www.adjust.com/" target="_blank">![Adjust](https://dashboard.branch.io/static/images/partners/partner_8.png)</a>|**[Adjust](/pages/integrations/adjust.md)**
-<a href="https://my.omniture.com" target="_blank">![Adobe Analytics](https://dashboard.branch.io/static/images/partners/partner_9.png)</a>|**[Adobe Analytics](/pages/integrations/adobe-analytics.md)**
-<a href="https://amplitude.com" target="_blank">![Amplitude](https://dashboard.branch.io/static/images/partners/partner_5.png)</a>|**[Amplitude](/pages/integrations/amplitude.md)**
-<a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](https://dashboard.branch.io/static/images/partners/partner_11.svg)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)**
+<a href="https://24metrics.com/" target="_blank">![24Metrics](/img/pages/integrations/logos/24metrics-banner.png)</a>|**[24Metrics](/pages/integrations/24metrics-fraudshield.md)**
+<a href="https://www.adjust.com/" target="_blank">![Adjust](/img/pages/integrations/logos/adjust-logo.png)</a>|**[Adjust](/pages/integrations/adjust.md)**
+<a href="https://my.omniture.com" target="_blank">![Adobe Analytics](/img/pages/integrations/logos/adobe_analytics.png)</a>|**[Adobe Analytics](/pages/integrations/adobe-analytics.md)**
+<a href="https://amplitude.com" target="_blank">![Amplitude](/img/pages/integrations/logos/amplitude-logo.png)</a>|**[Amplitude](/pages/integrations/amplitude.md)**
+<a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)**
 <a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](https://dashboard.branch.io/static/images/partners/partner_10.svg)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/pages/integrations/appsee.md)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/pages/integrations/backinapp.md)**
 <a href="https://www.braze.com/" target="_blank">![Braze](https://www.braze.com/images/logos/logo-braze.svg)</a>|**[Braze](/pages/integrations/braze.md)**
-<a href="https://clevertap.com/" target="_blank">![CleverTap](https://cdn.branch.io/branch-assets/ad-partner-manager/CT_black-logo-1499387856654.png)</a>|**[CleverTap](/pages/integrations/clevertap.md)**
-<a href="https://www.convertro.com/" target="_blank">![Convertro](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/convertro.png)</a>|**[Convertro](/pages/integrations/convertro.md)**
-<a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-black-1540344824992.png)</a>|**[Eulerian](/pages/integrations/eulerian.md)**
+<a href="https://clevertap.com/" target="_blank">![CleverTap](/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/pages/integrations/clevertap.md)**
+<a href="https://www.convertro.com/" target="_blank">![Convertro](/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/pages/integrations/convertro.md)**
+<a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/pages/integrations/eulerian.md)**
 <a href="https://www.inmobi.com/" target="_blank">![Fraud Defense](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/FD_horizontal_png-1545435249497.png)</a>|**[Fraud Defense](/pages/integrations/fraud-defense.md)**
-<a href="https://analytics.google.com/" target="_blank">![Google Analytics](https://dashboard.branch.io/static/images/partners/partner_6.png)</a>|**[Google Analytics](/pages/integrations/google-analytics.md)**
-<a href="https://www.kochava.com/" target="_blank">![Kochava](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/kochava.png)</a>|**[Kochava](/pages/integrations/kochava.md)**
-<a href="https://www.leanplum.com/" target="_blank">![Leanplum](https://leanplum-wordpress.storage.googleapis.com/leanplum-black.svg)</a>|**[Leanplum](/pages/integrations/leanplum.md)**
-<a href="https://www.localytics.com/" target="_blank">![Localytics](https://dashboard.branch.io/static/images/partners/partner_4.png)</a>|**[Localytics](/pages/integrations/localytics.md)**
+<a href="https://analytics.google.com/" target="_blank">![Google Analytics](/img/pages/integrations/logos/google_analytics.png)</a>|**[Google Analytics](/pages/integrations/google-analytics.md)**
+<a href="https://www.kochava.com/" target="_blank">![Kochava](/img/pages/integrations/logos/kochava.png)</a>|**[Kochava](/pages/integrations/kochava.md)**
+<a href="https://www.leanplum.com/" target="_blank">![Leanplum](/img/pages/integrations/logos/leanplum.png)</a>|**[Leanplum](/pages/integrations/leanplum.md)**
+<a href="https://www.localytics.com/" target="_blank">![Localytics](/img/pages/integrations/logos/localytics.png)</a>|**[Localytics](/pages/integrations/localytics.md)**
 <a href="https://www.mobileaction.co/" target="_blank">![MobileAction](https://cdn.branch.io/branch-assets/ad-partner-manager//SearchAdsByMobileActionLogo-1550011543924.png)</a>|**[MobileAction](/pages/integrations/mobileaction.md)**
 <a href="https://mixpanel.com/" target="_blank">![Mixpanel](https://cdn.branch.io/branch-assets/ad-partner-manager//mixpanel-1550716013249.png)</a>|**[Mixpanel](/pages/integrations/mixpanel.md)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mparticle.png)</a>|**[mParticle Export](/pages/integrations/mparticle.md)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)**
-<a href="https://segment.com/" target="_blank">![Segment](https://static.segment.com/site-public/2.66.17-238-gf660935/files/segment-7714a6a4af.svg)</a>|**[Segment Export](/pages/integrations/segment.md)**
-<a href="https://segment.com/" target="_blank">![Segment](https://static.segment.com/site-public/2.66.17-238-gf660935/files/segment-7714a6a4af.svg)</a>|**[Segment Import](/pages/integrations/segment-import.md)**
-<a href="https://www.singular.net/" target="_blank">![Singular](https://dashboard.branch.io/static/images/partners/partner_12.png)</a>|**[Singular](/pages/integrations/singular.md)**
-<a href="https://www.tune.com" target="_blank">![TUNE](https://dashboard.branch.io/static/images/partners/partner_1.png)</a>|**[TUNE](/pages/integrations/tune.md)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)</a>|**[mParticle Export](/pages/integrations/mparticle.md)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)**
+<a href="https://segment.com/" target="_blank">![Segment](/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/pages/integrations/segment.md)**
+<a href="https://segment.com/" target="_blank">![Segment](/img/pages/integrations/logos/segment.png)</a>|**[Segment Import](/pages/integrations/segment-import.md)**
+<a href="https://www.singular.net/" target="_blank">![Singular](/img/pages/integrations/logos/singular.png)</a>|**[Singular](/pages/integrations/singular.md)**
+<a href="https://www.tune.com" target="_blank">![TUNE](/img/pages/integrations/logos/tune.png)</a>|**[TUNE](/pages/integrations/tune.md)**
 
 Interested in becoming a Data Intgeration Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup)**
 
 ## Supporting Information
-- [Event Entology](/pages/exports/event_ontology_data_schema/)
+- [Event Ontology](/pages/exports/event_ontology_data_schema/)
