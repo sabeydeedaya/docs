@@ -569,6 +569,8 @@ pages:
       - Segment (export): pages/integrations/segment.md
       - Segment (import): pages/integrations/segment-import.md
       - Singular: pages/integrations/singular.md
+      - TUNE: pages/integrations/tune.md
+      - WebEngage: pages/integrations/webengage.md
     - Partner Resources:
       - Universal Ads Partner Integration QA Process: pages/deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
@@ -598,7 +600,6 @@ pages:
       - Redirect: pages/deep-linked-ads/google-video-ads.md
       - Redirect: pages/apps/api.md
       - Redirect: pages/exports/data-feeds.md
-      - Redirect: pages/integrations/tune.md
       - Redirect: pages/emails/eloqua.md
       - Redirect: pages/deep-linked-ads/google-conversions.md
       - Redirect: pages/apps/mparticle-android.md

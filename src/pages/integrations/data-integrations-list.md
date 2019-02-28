@@ -15,7 +15,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/img/pages/integrations/logos/appsflyer.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/pages/integrations/appsee.md)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/pages/integrations/backinapp.md)**
-<a href="https://www.braze.com/" target="_blank">![Braze](/img/pages/integrations/logos/braze.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)</a>|**[Braze](/pages/integrations/braze.md)**
+<a href="https://www.braze.com/" target="_blank">![Braze](/img/pages/integrations/logos/braze.png)</a>|**[Braze](/pages/integrations/braze.md)**
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/pages/integrations/clevertap.md)**
 <a href="https://www.convertro.com/" target="_blank">![Convertro](/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/pages/integrations/convertro.md)**
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/pages/integrations/eulerian.md)**
@@ -26,12 +26,13 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.localytics.com/" target="_blank">![Localytics](/img/pages/integrations/logos/localytics.png)</a>|**[Localytics](/pages/integrations/localytics.md)**
 <a href="https://www.mobileaction.co/" target="_blank">![MobileAction](https://cdn.branch.io/branch-assets/ad-partner-manager//SearchAdsByMobileActionLogo-1550011543924.png)</a>|**[MobileAction](/pages/integrations/mobileaction.md)**
 <a href="https://mixpanel.com/" target="_blank">![Mixpanel](https://cdn.branch.io/branch-assets/ad-partner-manager//mixpanel-1550716013249.png)</a>|**[Mixpanel](/pages/integrations/mixpanel.md)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)</a>|**[mParticle Export](/pages/integrations/mparticle.md)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)**
 <a href="https://www.mparticle.com/" target="_blank">![mParticle](/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/pages/integrations/mparticle-import.md)**
 <a href="https://segment.com/" target="_blank">![Segment](/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/pages/integrations/segment.md)**
 <a href="https://segment.com/" target="_blank">![Segment](/img/pages/integrations/logos/segment.png)</a>|**[Segment Import](/pages/integrations/segment-import.md)**
 <a href="https://www.singular.net/" target="_blank">![Singular](/img/pages/integrations/logos/singular.png)</a>|**[Singular](/pages/integrations/singular.md)**
 <a href="https://www.tune.com" target="_blank">![TUNE](/img/pages/integrations/logos/tune.png)</a>|**[TUNE](/pages/integrations/tune.md)**
+<a href="https://webengage.com/" target="_blank">![WebEngage](https://cdn.branch.io/branch-assets/ad-partner-manager//webengage-1550629207966.png)</a>|**[WebEngage](/pages/integrations/webengage.md)**
 
 Interested in becoming a Data Intgeration Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup)**
 
