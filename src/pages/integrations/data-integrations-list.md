@@ -12,10 +12,10 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://my.omniture.com" target="_blank">![Adobe Analytics](/img/pages/integrations/logos/adobe_analytics.png)</a>|**[Adobe Analytics](/pages/integrations/adobe-analytics.md)**
 <a href="https://amplitude.com" target="_blank">![Amplitude](/img/pages/integrations/logos/amplitude-logo.png)</a>|**[Amplitude](/pages/integrations/amplitude.md)**
 <a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)**
-<a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](https://dashboard.branch.io/static/images/partners/partner_10.svg)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
+<a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/img/pages/integrations/logos/appsflyer.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/pages/integrations/appsee.md)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/pages/integrations/backinapp.md)**
-<a href="https://www.braze.com/" target="_blank">![Braze](https://www.braze.com/images/logos/logo-braze.svg)</a>|**[Braze](/pages/integrations/braze.md)**
+<a href="https://www.braze.com/" target="_blank">![Braze](/img/pages/integrations/logos/braze.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)</a>|**[Braze](/pages/integrations/braze.md)**
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/pages/integrations/clevertap.md)**
 <a href="https://www.convertro.com/" target="_blank">![Convertro](/img/pages/integrations/logos/convertro-logo.png)</a>|**[Convertro](/pages/integrations/convertro.md)**
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/pages/integrations/eulerian.md)**
