@@ -209,8 +209,9 @@ pages:
       - Adcash: pages/deep-linked-ads/adcash-mobile-tracking.md
       - Adcolony : pages/deep-linked-ads/adcolony-mobile-tracking.md
       - Adcolony Performance Media: pages/deep-linked-ads/adcolony-performance-media-mobile-tracking.md
-      - Addtitans Digital : pages/deep-linked-ads/addtitans-digital-mobile-tracking.md
       - AdCounty Media : pages/deep-linked-ads/adcounty-media-mobile-tracking.md
+      - Addtitans Digital : pages/deep-linked-ads/addtitans-digital-mobile-tracking.md
+      - AdFalcon Performance : pages/deep-linked-ads/adfalcon-performance-mobile-tracking.md
       - Adgoi Technologies: pages/deep-linked-ads/adgoi-technologies-mobile-tracking.md
       - Adikteev : pages/deep-linked-ads/adikteev-mobile-tracking.md
       - adMarketplace : pages/deep-linked-ads/admarketplace-mobile-tracking.md
@@ -282,6 +283,7 @@ pages:
       - Convertologic : pages/deep-linked-ads/convertologic-mobile-tracking.md
       - Cooper Media: pages/deep-linked-ads/cooper-media-mobile-tracking.md
       - CPI Droid : pages/deep-linked-ads/cpi-droid-mobile-tracking.md
+      - Creative Clicks : pages/deep-linked-ads/creative-clicks-mobile-tracking.md
       - Criteo: pages/deep-linked-ads/criteo-mobile-tracking.md
       - crobo : pages/deep-linked-ads/crobo-mobile-tracking.md
       - CrossInstall : pages/deep-linked-ads/crossinstall-mobile-tracking.md
@@ -292,6 +294,7 @@ pages:
       - Darriens: pages/deep-linked-ads/darriens-mobile-tracking.md
       - DataXu: pages/deep-linked-ads/dataxu-mobile-tracking.md
       - DAU-UP ClicksMob : pages/deep-linked-ads/dau-up-clicksmob-mobile-tracking.md
+      - Digital Optimist: pages/deep-linked-ads/digital-optimist-mobile-tracking.md
       - Digital Remedy: pages/deep-linked-ads/digital-remedy-mobile-tracking.md
       - Digital Turbine : pages/deep-linked-ads/digital-turbine-mobile-tracking.md
       - Display.io: pages/deep-linked-ads/display-io-mobile-tracking.md
@@ -455,6 +458,7 @@ pages:
       - Stargazer : pages/deep-linked-ads/stargazer-mobile-tracking.md
       - StartApp : pages/deep-linked-ads/startapp-mobile-tracking.md
       - Ströer Mobile Performance : pages/deep-linked-ads/stroer-mobile-performance-mobile-tracking.md
+      - SuperADS: pages/deep-linked-ads/superads-mobile-tracking.md
       - SVG Media : pages/deep-linked-ads/svg-media-mobile-tracking.md
       - TAB : pages/deep-linked-ads/tab-mobile-tracking.md
       - Tabatoo: pages/deep-linked-ads/tabatoo-mobile-tracking.md
@@ -471,6 +475,7 @@ pages:
       - TimeOneGroup : pages/deep-linked-ads/timeonegroup-mobile-tracking.md
       - Times Internet Limited: pages/deep-linked-ads/times-internet-limited-mobile-tracking.md
       - Tradedoubler : pages/deep-linked-ads/tradedoubler-mobile-tracking.md
+      - TradeTracker : pages/deep-linked-ads/tradetracker-mobile-tracking.md
       - Tunica Labs : pages/deep-linked-ads/tunica-labs-mobile-tracking.md
       - TVSmiles : pages/deep-linked-ads/tvsmiles-mobile-tracking.md
       - TVSquared : pages/deep-linked-ads/tvsquared-mobile-tracking.md
@@ -492,6 +497,7 @@ pages:
       - Webpals Mobile : pages/deep-linked-ads/webpals-mobile-mobile-tracking.md
       - Wider Planet : pages/deep-linked-ads/wider-planet-mobile-tracking.md
       - Xapads Media : pages/deep-linked-ads/xapads-media-mobile-tracking.md
+      - XiaoMi Global: pages/deep-linked-ads/xiaomi-global-mobile-tracking.md
       - Yandex Direct : pages/deep-linked-ads/yandex-direct-mobile-tracking.md
       - YeahMobi : pages/deep-linked-ads/yeahmobi-mobile-tracking.md
       - Yep Ads : pages/deep-linked-ads/yep-ads-mobile-tracking.md
