@@ -11,8 +11,6 @@ If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow 
 
 1. Search for **Facebook**.
 
-    ![Find Facebook in Partner Manager](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/find-facebook-partner.png)
-
 1. Click `Connect With Facebook`
 
     ![Connect with Facebook](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/1-connect.png)

@@ -1,7 +1,3 @@
-<script>window.location = "/pages/exports/data-feeds/"</script>
-
-<!--
-
 ## Overview
 
 With a push of a button you can send your Branch data to your Tune dashboard, helping you segment users, calculate LTV and understand the power of Branch links in acquiring users.
