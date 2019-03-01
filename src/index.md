@@ -67,9 +67,9 @@ template: main-lp.html
         <img src="/img/pages/main-page/updates-dot.png" alt="Product Updates"/>
         <p>Product Updates</p>
       </a>
-      <a href="https://support.branch.io/support/solutions/folders/6000232721">
-        <img src="/img/pages/main-page/best-dot.png" alt="Best Practices"/>
-        <p>Best Practices</p>
+      <a href="/pages/translations/overview">
+        <img src="/img/pages/main-page/supported-languages.png" alt="Translated Documentation"/>
+        <p>Translated Documentation</p>
       </a>
     </div>
   </div>
