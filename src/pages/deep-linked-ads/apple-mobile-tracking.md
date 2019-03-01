@@ -94,6 +94,17 @@ Still not working? Try downloading a new certificate and uploading that to Branc
 
 {! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
 
+## Apple Search Ads Data Mapped to Branch
+
+Branch receives and maps the following parameters from the Apple Search Ads Attribution API:
+
+| Apple Search Ads Parameter | Branch Mapped Field                           |
+|----------------------------|-----------------------------------------------|
+| iad-campaign-name          | last_attributed_touch_data_tilde_campaign     |
+| iad-campaign-id            | last_attributed_touch_data_tilde_campaign_id  |
+| iad-adgroup-name           | last_attributed_touch_data_tilde_ad_set_name  |
+| iad-adgroup-id             | last_attributed_touch_data_tilde_ad_set_id    |
+| iad-keyword                | last_attributed_touch_data_tilde_keyword_text |
 
 ## View Attribution on Dashboard
 
