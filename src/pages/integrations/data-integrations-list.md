@@ -12,7 +12,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://my.omniture.com" target="_blank">![Adobe Analytics](/img/pages/integrations/logos/adobe_analytics.png)</a>|**[Adobe Analytics](/pages/integrations/adobe-analytics.md)**
 <a href="https://amplitude.com" target="_blank">![Amplitude](/img/pages/integrations/logos/amplitude-logo.png)</a>|**[Amplitude](/pages/integrations/amplitude.md)**
 <a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)**
-<a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/img/pages/integrations/logos/appsflyer.png)</a>|**[Appmetrica](/pages/integrations/appmetrica.md)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
+<a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/img/pages/integrations/logos/appsflyer.png)</a>|**[AppsFlyer](/pages/integrations/appsflyer.md)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/pages/integrations/appsee.md)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/pages/integrations/backinapp.md)**
 <a href="https://www.braze.com/" target="_blank">![Braze](/img/pages/integrations/logos/braze.png)</a>|**[Braze](/pages/integrations/braze.md)**
