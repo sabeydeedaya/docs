@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.superfences:
   - attr_list:
   - markdown_include.include:
-      base_path: src/includes/
+      base_path: includes/
 
 # Options
 extra:
@@ -96,8 +96,8 @@ extra:
     header_git: false
     header_breadcrumb: true
 
-# Pages
-pages:
+# Navigation
+nav:
   - Home: index.md
   - Branch Basics:
     - Overview: pages/resources/basics-overview.md
