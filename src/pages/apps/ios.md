@@ -82,6 +82,45 @@
 
 - ### Initialize Branch
 
+    - *Swift 4.2*
+
+        ```swift hl_lines="2 10 11 12 13 14 15 16 21 22 27 28 33 34"
+        import UIKit
+        import Branch
+
+        @UIApplicationMain
+        class AppDelegate: UIResponder, UIApplicationDelegate {
+
+        var window: UIWindow?
+
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          // if you are using the TEST key
+          Branch.setUseTestBranchKey(true)
+          // listener for Branch Deep Link data
+          Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
+            // do stuff with deep link data (nav to page, display content, etc)
+            print(params as? [String: AnyObject] ?? {})
+          }
+          return true
+        }
+
+        func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+          Branch.getInstance().application(app, open: url, options: options)
+          return true
+        }
+
+        func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+          // handler for Universal Links
+          Branch.getInstance().continue(userActivity)
+          return true
+        }
+
+        func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+          // handler for Push Notifications
+          Branch.getInstance().handlePushNotification(userInfo)
+        }
+        ```
+
     - *Swift 3*
 
         ```swift hl_lines="2 10 11 12 13 14 15 16 21 22 27 28 33 34"
@@ -95,9 +134,7 @@
 
         func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
           // if you are using the TEST key
-          // Branch.setUseTestBranchKey(true)
-          // for debug and development only
-          Branch.getInstance().setDebug()
+          Branch.setUseTestBranchKey(true)
           // listener for Branch Deep Link data
           Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
             // do stuff with deep link data (nav to page, display content, etc)
@@ -137,9 +174,7 @@
 
         - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
           // if you are using the TEST key
-          // [Branch setUseTestBranchKey:YES];
-          // for debug and development only
-          [[Branch getInstance] setDebug];
+          [Branch setUseTestBranchKey:YES];
           // listener for Branch Deep Link data
           [[Branch getInstance] initSessionWithLaunchOptions:launchOptions andRegisterDeepLinkHandler:^(NSDictionary * _Nonnull params, NSError * _Nullable error) {
             // do stuff with deep link data (nav to page, display content, etc)
@@ -187,7 +222,7 @@
 
     - Uses [Universal Object properties](/pages/links/integrate/#universal-object)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         let buo = BranchUniversalObject.init(canonicalIdentifier: "content/12345")
@@ -219,7 +254,7 @@
 
     - Uses [Configure link data](/pages/links/integrate/#configure-deep-links) and custom data
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         let lp: BranchLinkProperties = BranchLinkProperties()
@@ -273,7 +308,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         buo.getShortUrl(with: lp) { (url, error) in
@@ -302,7 +337,7 @@
 
     - Uses [Deep Link Properties](/pages/links/integrate/)
 
-     - *Swift 3*
+     - *Swift*
 
         ```swift
         let message = "Check out this link"
@@ -327,7 +362,7 @@
 
     - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // listener (within AppDelegate didFinishLaunchingWithOptions)
@@ -366,7 +401,7 @@
 
     - Handled within `Branch.initSession()`
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // within AppDelegate application.didFinishLaunchingWithOptions
@@ -426,7 +461,7 @@
 
     - Needs a [Create content reference](#create-content-reference)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         buo.automaticallyListOnSpotlight = true
@@ -446,7 +481,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/content)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         BranchEvent.standardEvent(.viewItem, withContentItem: buo).logEvent()
@@ -464,7 +499,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/identities)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // login
@@ -487,113 +522,19 @@
 
 - ### Track events
 
-    - Registers a custom event
+    - All events related to a customer purchasing are bucketed into a "Commerce" class of data items
 
-    - Events named `open`, `close`, `install`, and `referred session` are Branch restricted
+    - All events related to users interacting with your in-app content are bucketed to a "Content" class of data items.
 
-    - Best to [Track users](#track-users) before [Track events](#track-events) to associate a custom event to a user
+    - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
+
+    - To track custom events - not found in the table below - please see [Track Custom Events](https://docs.branch.io/pages/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-    - *Swift 3*
 
-        ```swift
-        // option 1
-        BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo).logEvent()
+    {! ingredients/sdk/v2-events.md !}
 
-        // option 2
-        let event = BranchEvent.customEvent(withName: "your_custom_event", contentItem: buo)
-        event.customData["key"] = "value"
-        event.logEvent()
-        ```
-
-    - *Objective-C*
-
-        ```objc
-        // option 1
-        [[BranchEvent customEventWithName:@"your_custom_event" contentItem:buo] logEvent];
-
-        // option 2
-        BranchEvent *event = [BranchEvent customEventWithName:@"your_custom_event" contentItem:buo];
-        event.customData[@"key"] = @"value";
-        [event logEvent];
-        ```
-
-- ### Track commerce
-
-    - Registers a custom commerce event
-
-    - Uses [Track commerce properties](#commerce-properties) for `Currency` and `Category`
-
-    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
-
-    - *Swift 3*
-
-        ```swift
-        // Create a BranchUniversalObject with your content data:
-        let branchUniversalObject = BranchUniversalObject.init()
-
-        // ...add data to the branchUniversalObject as needed...
-        branchUniversalObject.canonicalIdentifier = "item/12345"
-        branchUniversalObject.canonicalUrl        = "https://branch.io/item/12345"
-        branchUniversalObject.title               = "My Item Title"
-
-        // Create a BranchEvent:
-        let event = BranchEvent.standardEvent(.purchase)
-
-        // Add the BranchUniversalObjects with the content:
-        event.contentItems     = [ branchUniversalObject ]
-
-        // Add relevant event data:
-        event.transactionID    = "12344555"
-        event.currency         = .USD;
-        event.revenue          = 1.5
-        event.shipping         = 10.2
-        event.tax              = 12.3
-        event.coupon           = "test_coupon";
-        event.affiliation      = "test_affiliation";
-        event.eventDescription = "Event_description";
-        event.searchQuery      = "item 123"
-        event.customData       = [
-            "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
-            "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
-        ]
-        event.logEvent() // Log the event.
-        ```
-
-    - *Objective C*
-
-        ```objc
-        // Create a BranchUniversalObject with your content data:
-        BranchUniversalObject *branchUniversalObject = [BranchUniversalObject new];
-
-        // ...add data to the branchUniversalObject as needed...
-        branchUniversalObject.canonicalIdentifier = @"item/12345";
-        branchUniversalObject.canonicalUrl        = @"https://branch.io/item/12345";
-        branchUniversalObject.title               = @"My Item Title";
-
-        // Create an event and add the BranchUniversalObject to it.
-        BranchEvent *event     = [BranchEvent standardEvent:BranchStandardEventAddToCart];
-
-        // Add the BranchUniversalObjects with the content:
-        event.contentItems     = (id) @[ branchUniversalObject ];
-
-        // Add relevant event data:
-        event.transactionID    = @"12344555";
-        event.currency         = BNCCurrencyUSD;
-        event.revenue          = [NSDecimalNumber decimalNumberWithString:@"1.5"];
-        event.shipping         = [NSDecimalNumber decimalNumberWithString:@"10.2"];
-        event.tax              = [NSDecimalNumber decimalNumberWithString:@"12.3"];
-        event.coupon           = @"test_coupon";
-        event.affiliation      = @"test_affiliation";
-        event.eventDescription = @"Event_description";
-        event.searchQuery      = @"item 123";
-        event.customData       = (NSMutableDictionary*) @{
-            @"Custom_Event_Property_Key1": @"Custom_Event_Property_val1",
-            @"Custom_Event_Property_Key2": @"Custom_Event_Property_val2"
-        };
-        [event logEvent];
-        ```
 
 - ### Handle referrals
 
@@ -607,7 +548,7 @@
 
     - Redeem credits
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             // option 1 (default bucket)
@@ -633,7 +574,7 @@
 
     - Load credits
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().loadRewards { (changed, error) in
@@ -664,7 +605,7 @@
 
     - Load history
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().getCreditHistory { (creditHistory, error) in
@@ -705,7 +646,7 @@
 
     - Allows you to deep link into your own from your app itself
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().handleDeepLink(withNewSession: URL(string: "https://example.app.link/u3fzDwyyjF"))
@@ -728,7 +669,7 @@
 
     - Add before `initSession` [Initialize Branch](#initialize-branch)
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().delayInitToCheckForSearchAds()
@@ -740,9 +681,9 @@
             [[Branch getInstance] delayInitToCheckForSearchAds];
             ```
 
-    - Test with fake campaign params (do not test in production)
+    - **Faking ASA calls** Create Apple Search Ads events with fake campaign parameters. However, this feature only shows data in Liveview for Branch "live" apps (not "test" apps). Remember to remove this before production release.
 
-        - *Swift 3*
+        - *Swift*
 
             ```swift
             Branch.getInstance().setAppleSearchAdsDebugMode()
@@ -769,7 +710,7 @@
 
     - Add before `initSession` [Initialize Branch](#initialize-branch)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().disableCookieBasedMatching()
@@ -907,7 +848,7 @@
 
     - Remove before releasing to production
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().setDebug()
@@ -933,7 +874,7 @@
 
     - Remove before releasing to production
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.setUseTestBranchKey(true)
@@ -957,7 +898,7 @@
 
     - Recommend to [Navigate to content](#navigate-to-content) instead
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         Branch.getInstance().registerDeepLinkController(ViewController(), forKey: "my-key", withPresentation: .optionShow)
@@ -988,10 +929,10 @@
 
     - Needs a [Share deep link](#share-deep-link)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
-        lp.addControlParam("$email_subject", withValue: "Therapists hate him.")
+        lp.addControlParam("$email_subject", withValue: "Your Awesome Deal")
         lp.addControlParam("$email_html_header", withValue: "<style>your awesome CSS</style>\nOr Dear Friend,")
         lp.addControlParam("$email_html_footer", withValue: "Thanks!")
         lp.addControlParam("$email_html_link_text", withValue: "Tap here")
@@ -1012,7 +953,7 @@
 
     - Needs a [Share deep link](#share-deep-link)
 
-    - *Swift 3*
+    - *Swift*
 
         ```swift
         // import delegate

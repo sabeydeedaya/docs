@@ -24,6 +24,7 @@ Branch Parameter | Description
 ~banner_dimensions | Banner Dimension
 ~placement | Placement
 ~keyword_id | Keyword ID
+~keyword_text | Keyword Text
 
 #### Device Information
 Branch Parameter | Description 

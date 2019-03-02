@@ -288,11 +288,11 @@ The technical definition is that they've clicked on a link with an Ad Network's 
 
 #### Has clicked on email
 
-A user is grouped into "Has clicked on Email" when they've clicked a link from [Deep Linked Email](https://dashboard.branch.io/email).
+A user is grouped into "Has clicked on Email" when they've clicked a link from [Universal Email](https://dashboard.branch.io/email).
 
 Use this to target users who have been part of an email campaign; maybe with a specific call to action to get them download the app if they don't have it and they've landed on mobile web.
 
-The technical definition is that they've clicked on a link with an Email Service Provider's custom `$3p` value in link data, but you just need to consider the way the link is created - in this case, through a Deep Linked Email integration.
+The technical definition is that they've clicked on a link with an Email Service Provider's custom `$3p` value in link data, but you just need to consider the way the link is created - in this case, through a Universal Email integration.
 
 #### Is viewing a page with metadata key
 
@@ -355,7 +355,7 @@ As opening the app automatically is the best user experience in most cases, this
     If you use the open_app setting within the web SDK, this setting will still work for old Journeys (older than 10/25). For all new Journeys, the template setting will take precedence.
 
 !!! caution "Open app behavior in in-app webviews"
-    Please avoid using the Branch Web SDK on webpages inside of native webviews. The Branch Web SDK's auto-open can cause unexpected user experiences.
+    Please avoid using the Branch Web SDK on webpages inside of native webviews in your own app. The Branch Web SDK's auto-open can cause unexpected user experiences.
 
 #### Auto-open the app on iOS
 

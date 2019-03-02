@@ -2,7 +2,7 @@
 
 ![Reddit](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/reddit-1-logo-png-transparent-1535415950775.png)
 
-This guide will walk you through how to setup your campaigns with **[Reddit](http://www.reddit.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Reddit](http://www.reddit.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 Branch Universal Ads provides everything you need for complete tracking.
 
@@ -24,7 +24,7 @@ The basic integration involves two parts:
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
 !!! caution "Tracking links"
-    You shoudl created a separate links to track iOS and Android campaigns 
+    You shoudl created a separate links to track iOS and Android campaigns
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

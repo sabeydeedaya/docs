@@ -29,11 +29,17 @@
   text-align: center;
 }
 .branch-header-search {
-  top: 0.8rem;
-  left: 1.2rem;
-  z-index: 2;
-  position: absolute;
+    top: 0;
+    left: 1.2rem;
+    z-index: 2;
 }
+
+@media (max-width: 992px) {
+  .md-search .branch-header-button {
+    display: none;
+  }
+}
+
 .branch-header-label {
   display: none;
   margin: 0;
@@ -42,11 +48,6 @@
   .branch-header-label {
     display: block;
   }
-}
-.branch-nav-header {
-  cursor: default;
-  padding-top: 1.25em;
-  font-weight: 700;
 }
 .md-logo.md-header-nav__button {
   padding: 0;
@@ -93,8 +94,8 @@
 /* ////////////////////////////// */
 .md-typeset img {
   box-shadow: 0px 0px 1px #ccc;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 100%;
 }
 .md-typeset h2 {
   font-weight: 700;
@@ -282,6 +283,13 @@ body.modal {
 .algolia-autocomplete .ds-dropdown-menu, .algolia-autocomplete .ds-dropdown-menu:before {
   box-shadow: none;
 }
+.algolia-docsearch-suggestion {
+  font-size: 1em !important;
+  margin-right: 0;
+}
+.algolia-docsearch-suggestion:hover {
+  opacity: 1 !important;
+}
 .algolia-docsearch-suggestion--category-header {
   display: none !important;
 }
@@ -352,14 +360,30 @@ body.modal {
 .md-nav--secondary > .md-nav__list > .md-nav__item, .md-nav--primary > .md-nav__list > .md-nav__item {
   padding-left: 1.2rem;
 }
-
+.md-nav--primary .md-nav__title--site {
+  display: none;
+}
+.branch-nav-header {
+  display: none;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item--nested,
+.md-nav--primary .md-nav__list .md-nav__item:nth-child(1) {
+  cursor: default;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item--nested .md-nav__item {
+  cursor: default;
+  font-weight: initial;
+  padding-top: initial;
+}
 
 
 /* ////////////////////////////// */
 /* FOOTER FLOATERS */
 /* ////////////////////////////// */
 .branch-floater {
-  background-color: #004875;
+  background-color: #0075C9;
   color: white;
   font-size: 1.3em;
   padding: 0.75em;
@@ -383,12 +407,12 @@ body.modal {
 /* BRANCH STYLING */
 /* ////////////////////////////// */
 /* primary */
-.md-header, .modal-content a:not(.algolia-docsearch-footer--logo), .modal-content button {
-  background-color: #004875 !important;
+.md-header, .modal-content a:not(.algolia-docsearch-footer--logo):not(.algolia-docsearch-suggestion), .modal-content button {
+  background-color: #0075C9 !important;
 }
 @media only screen and (max-width: 76.1875em) {
   .md-nav__title--site {
-    background-color: #004875 !important;
+    background-color: #0075C9 !important;
   }
 }
 /* secondary */
@@ -440,3 +464,46 @@ body.modal {
 .vglnk {
   word-break: break-word;
 }
+
+
+/* ////////////////////////////// */
+/* LANDING PAGE */
+/* ////////////////////////////// */
+.nav-wrap {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-wrap img {
+  box-shadow: none;
+}
+
+.nav-wrap a {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.nav-wrap p {
+  color: #0075C9;
+  font-weight: bold;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.nav-wrap img {
+  height: 65px;
+}
+
+.nav-wrap div,
+.nav-wrap a {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+

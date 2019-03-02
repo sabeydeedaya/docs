@@ -24,14 +24,14 @@ We've built out custom deep linking mechanisms that are specific to each platfor
 | --- | ---
 | **Facebook deferred deep linking API** | We've built a custom integration with Facebook where if a user originates from an app invite or advertisement, we connect with Facebook's API to know with 100% certainty if the install originated from this source. You'll need to authenticate with Facebook on the Branch dash if you want to support this.
 | **Android Google Play referrer** | Google Play supports passing a referrer through the install process that we listen for. It's notoriously unreliable and currently unsupported when redirecting from Chrome. However, we'll use it when available. Enabling this method is covered in the [SDK Integration Guide](/pages/apps/android/#configure-app).
-| **iOS 9/10 Safari cookie passthrough** | We built a custom technique into our iOS SDK that will guarantee 100% accuracy on iOS 9/10 when a user clicks from the Safari browser. This only applies if you include SafariServices.framework in your app. Please see our new recommended [path to use this feature](/pages/resources/matching/#configuring-your-ios-app-for-100-match). Note that this method has some risks due to a policy change on iOS on 9/1/16. 
+| **iOS 9/10 Safari cookie passthrough** | We built a custom technique into our iOS SDK that will guarantee 100% accuracy on iOS 9/10 when a user clicks from the Safari browser. This only applies if you include SafariServices.framework in your app. Please see our new recommended [path to use this feature](/pages/resources/matching/#configuring-your-ios-app-for-100-match). Note that this method has some risks due to a policy change on iOS on 9/1/16.
 | **Android Chrome Tabs cookie passthrough** | We built a custom technique into our Android SDK that will guarantee 100% accuracy when a user originates from the Chrome browser. We're automatically cookie match based on app.link, but you can configure the domain depending on your use case. Please see [the guide here](/pages/resources/matching/#configuring-your-android-app-for-100-match).
 
 ### Methods without 100% match accuracy
 
 #### Browser to app snapshot match
 
-Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital snapshot_** and can be obtained in the browser and in the app.
+Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address (including v6)**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital snapshot_** and can be obtained in the browser and in the app.
 
 When no 100% match method is available, we connect the unique snapshot collected in the app to the unique snapshot collected in the browser to determine where user originated.
 
@@ -42,9 +42,10 @@ When no 100% match method is available, we connect the unique snapshot collected
 
     This means that if two users with the same snapshot, on the same wifi, were to click a Branch link for your app, we would blacklist those digital snapshots for the expiration duration. Therefore, when either user opens up your app, no match would be made.
 
-## Configuring Your iOS App for 100% Match
+## Configuring Your iOS App for 100% Match ( > iOS 10 only)
 
-100% match is a bit of a misnomer, as it is only 100% match from when a user clicks from the Safari browser. According to our analysis, clicking through Safari happens about 50-75% of the time depending on the use case. For example, clicking from Facebook or Chrome won't trigger a 100% match here. However, it's still beneficial to the matching accuracy, so we recommend employing it.
+!!! warning "Applies only to iOS 10 and below"
+    100% match is a bit of a misnomer, as it is only 100% match from when a user clicks from the Safari browser. According to our analysis, clicking through Safari happens about 50-75% of the time depending on the use case. For example, clicking from Facebook or Chrome won't trigger a 100% match here. However, it's still beneficial to the matching accuracy, so we recommend employing it.
 
 ### Include SafariServices.framework
 

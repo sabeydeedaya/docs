@@ -98,7 +98,7 @@ In addition to any custom key/value pairs specified in the link data dictionary,
 
 * `~` denotes analytics
 * `+` denotes information added by Branch
-* (for the curious, `$` denotes reserved keywords used for controlling how the Branch service behaves. Read more about control parameters on the [Configuring Links page]({{base.url}}/getting-started/configuring-links))
+* (for the curious, `$` denotes reserved keywords used for controlling how the Branch service behaves. Read more about control parameters on the [Configuring Links page](/getting-started/configuring-links))
 
 
 | **Parameter** | **Meaning** |
@@ -227,7 +227,7 @@ All of the examples below create links that will cause Branch to display `myapp:
 Because Universal Links, Spotlight and Android App Links do not use URI schemes for deep link routing. If you populate `$deeplink_path`, `$ios_deeplink_path` or `$android_deeplink_path` with a URI path, you will need to a bit of additional work to ensure that Branch links route according to your original schema.
 
 1. Call initSession as described in [the app configuration steps](#dialog-code?ios=initialize-branch&android=initialize-branch&adobe=initialize-branch&cordova=initialize-branch&mparticleAndroid=initialize-branch&mparticleIos=initialize-branch&titanium=initialize-branch&reactNative=initialize-branch&unity=initialize-branch&xamarin=initialize-branch)
-1. In the callback function, add some custom code to read the appropriate `$deeplink_path` parameter in the `params` 
+1. In the callback function, add some custom code to read the appropriate `$deeplink_path` parameter in the `params`
 1. Use this value to call your existing routing logic to route users to the correct place in your app
 
 ## Option 3: Use Branch's easy config deep link routing

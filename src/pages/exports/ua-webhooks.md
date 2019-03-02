@@ -9,7 +9,7 @@ The webhook system is highly customizable. You can register to only receive noti
 Our new webhook infrastructure supports for all Branch events. The data is formatted according to our updated event naming and metadata format which will get you through implementation and onto analysis in no time.
 
 !!! note "Data Feeds is a premium solution"
-    The Webhooks are included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on MAU plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Deep Linked Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Webhooks are included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
     **If you are looking for legacy webhooks**, please see [these docs](/pages/exports/webhooks/).
 
@@ -34,7 +34,7 @@ As you fill out the configuration, you'll see the following options:
 
 | Event | Description
 | --- | ---
-| **install** | Triggered the first time a user ever launches your app on their device. 
+| **install** | Triggered the first time a user ever launches your app on their device.
 | **reinstall** | Triggered if a user deletes and reinstalls your app on their device.
 | **open** | Triggered whenever the app is opened (and the open is neither an install or reinstall)
 | **web session start** | Triggered when the user views a webpage using the Branch Web SDK
@@ -50,7 +50,7 @@ For an exhaustive list of events and more detailed definitions of each event, pl
 
 #### Basic filtering
 
-In the **Advanced** section of the page you can create a filter. Only events that *pass the filter criteria* will be sent. 
+In the **Advanced** section of the page you can create a filter. Only events that *pass the filter criteria* will be sent.
 
 You'll notice a default filter that checks to see whether the event is **not** triggered by a known crawler/robot. To do this, we check if the Operating System does not equal "robots." With that filter applied, only events without OS equal to robots (i.e. iOS and Android) will trigger a webhook.
 
@@ -243,7 +243,7 @@ If you'd like to template your postback URL, you’ll likely need to create one 
 
 #### Getting started with templates
 
-To start, we can add a simple template. Let's say we want to add campaign as a query parameter. The correct syntax is 
+To start, we can add a simple template. Let's say we want to add campaign as a query parameter. The correct syntax is
 
 `https://webhook.com?campaign=${(last_attributed_touch_data.~campaign)!}`
 

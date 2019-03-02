@@ -8,7 +8,7 @@ Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/p
 - The data will only be visible for your live key (not your test key)
 
 !!! note "Data Feeds is a premium solution"
-    The Data Export API is included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on MAU plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Deep Linked Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Data Export API is included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
     **If you are looking for the legacy Data Export API**, please see [these docs](/pages/exports/api/).
 
@@ -19,10 +19,10 @@ In order to use this API you must have an App ID and a Branch Public Key. You mu
 You can find your keys in your [Account Settings](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 
 ### Base URL:
-https://api.branch.io/v3/export/
+https://api2.branch.io/v3/export/
 
 ### Endpoint
-* POST https://api.branch.io/v3/export
+* POST https://api2.branch.io/v3/export
 * Content-Type: application/json
 
 ### Query Parameters
@@ -39,7 +39,7 @@ https://api.branch.io/v3/export/
 **Example request:**
 
 ```
-curl -X POST api.branch.io/v3/export -H 'content-type:application/json' -d '{"branch_key":"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1", "branch_secret": "secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86", "export_date": "2017-10-01"}'
+curl -X POST api2.branch.io/v3/export -H 'content-type:application/json' -d '{"branch_key":"key_live_gcASshuadd7l39m36NhdsDPWRjmkdcgh12jsg1", "branch_secret": "secret_live_ztPsdKIjUtcjkUYF732nsl81HJ75BJqiv24J86", "export_date": "2017-10-01"}'
 ```
 
 ### Response

@@ -1,70 +1,78 @@
-# Getting started with Branch
-
-## Mobile Linking and Attribution Platform
-
-Branch offers hosted, branded short links packed with 3 key value props:
-
-- Best in class deep linking that supports all major standards (Universal Links, Android App Links, URI schemes and more) that are fully customizable with every configuration you might want.
-- Cross platform attribution (desktop web, mobile web & app) of custom events back to the original source for complete insight into the performance of your campaigns.
-- Seamless integrations into your existing workflow, from integrations into email providers, ad networks or data analytics solutions.
-
-<p align="center">
-  <a href="https://youtu.be/MXgLQ8QDXk8"><img class="branch-image-override" src="https://i.imgur.com/NF2NEDn.gif"/></a>
-</p>
-
-<!-- 
-## Getting started
-
-- ### Basic integration
-
-    ||| 
-    |:-:|:-:|:-:
-    | Integrate your app | Create and share deep links | Track analytics
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|![image](https://d3js.org/ex/bullet.png)
-
-- ### Convert app users
-
-    ||| 
-    |:-:|:-:|:-:
-    | Links to app | Website to app | Desktop to app
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|![image](https://d3js.org/ex/bullet.png)
-    | Emails to app | Ads to app |
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|
-
-- ### Share app content
-
-    ||| 
-    |:-:|:-:|:-:
-    | Invites | Referrals | Content Navigation
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|![image](https://d3js.org/ex/bullet.png)
-
-- ### Track app engagement
-
-    ||| 
-    |:-:|:-:|:-:
-    | Link | Users | Content
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|![image](https://d3js.org/ex/bullet.png)
-    | Campaigns | Attribution | Revenue
-    |![image](https://d3js.org/ex/box.png)|![image](https://d3js.org/ex/bubble.png)|![image](https://d3js.org/ex/bullet.png)
-
-- Opening URL clicks to app users
-    + Install and open your app with a simple link click
-        + Deep linking 
-        + Content navigation on app open
-        + Deep link emails 
-- Convert web users to app users
-    - continue where they left off, seamless experience
-        - journeys
-        - deep views
-* Convert desktop users to app users
-    - Give the user the best experience
-        - text me the app
-- Share content between users
-    + In-app content sharing
-        * invites
-        + deferred deep linking
-        + referrals
-- Better social, email, and SMS campaigns
-    + Increase your reach, acquisition, conversation, and retention
-        * deep link feeds 
--->
+template: main-lp.html
+<div class="main-page">
+<p class="greeting">How can we help?</p>
+  <div class="search-bar">
+    <div class="search-input">
+      <a href="#dialog-search" id="main-page-search" title="Search">
+        <input type="text" name="query" placeholder="Search..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+        <i class="branch-header-search md-icon material-icons">search</i>
+      </a>
+    </div>
+  </div>
+  <!-- row 1 -->
+  <div class="main-nav">
+    <div class="nav-wrap">
+      <a href="/pages/resources/basics-overview/">
+        <img src="/img/pages/main-page/basics-dot.png" />
+        <p>Branch Basics</p>
+      </a>
+      <a href="/pages/dashboard/account-settings/">
+        <img src="/img/pages/main-page/account-dot.png" />
+        <p>Account Settings</p>
+      </a>
+      <a href="/pages/links/branch-links-overview/">
+        <img src="/img/pages/main-page/links-dot.png" />
+        <p>Link Settings</p>
+      </a>
+      <a href="/pages/resources/native-sdks-and-plugins/">
+        <img src="/img/pages/main-page/sdk-dot.png" />
+        <p>Developer Resources</p>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="nav-wrap">
+      <a href="/pages/resources/branch-channels/">
+        <img src="/img/pages/main-page/channel-dot.png" />
+        <p>Channels</p>
+      </a>
+      <a href="/pages/partner-management/branch-integrated-partners/">
+        <img src="/img/pages/main-page/partner-dot.png" />
+        <p>Partner Management</p>
+      </a>
+      <a href="/pages/dashboard/analytics-overview/">
+        <img src="/img/pages/main-page/reports-dot.png" />
+        <p>Reports & Analytics</p>
+      </a>
+      <a href="/pages/exports/data-feeds-overview/">
+        <img src="/img/pages/main-page/feeds-dot.png" />
+        <p>Data Feeds</p>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!-- divider -->
+  <hr style="border:0; background-color: #f0f0f0; height: 5px; margin: 40px 0;" />
+  <!-- bottom nav -->
+  <div class="bottom-nav">
+    <div class="nav-wrap">
+      <a href="https://support.branch.io/support/solutions/folders/6000232535">
+        <img src="/img/pages/main-page/how-to-dot.png" alt="How To Guides"/>
+        <p>How To Guides</p>
+      </a>
+      <a href="https://support.branch.io/support/solutions/folders/6000232536">
+        <img src="/img/pages/main-page/trouble-dot.png" alt="Troubleshooting"/>
+        <p>Troubleshooting</p>
+      </a>
+      <a href="https://support.branch.io/support/solutions/folders/6000232748">
+        <img src="/img/pages/main-page/updates-dot.png" alt="Product Updates"/>
+        <p>Product Updates</p>
+      </a>
+      <a href="/pages/translations/overview">
+        <img src="/img/pages/main-page/supported-languages.png" alt="Translated Documentation"/>
+        <p>Translated Documentation</p>
+      </a>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <!--/bottom-nav-->
+</div>

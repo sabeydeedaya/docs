@@ -97,6 +97,10 @@ Now, you simply need to edit the above manifest and paste in the following snipp
 </application>
 ```
 
+#### Custom pathing on your Branch links
+
+Optionally, when you [create shortened Branch links](/pages/links/integrate/#create-deep-links), you can specify a `alias` parameter (described [here](/pages/links/integrate/#link-appearance)) in the creation flow to define a custom path (e.g. `https://example.app.link/product/id12345` or any custom strings). This can be helpful if you are managing multiple Instant App paths.
+
 ### Retrieve Branch deep link data
 
 Add Branch initSession in Activities which are configured to open from a link click in order to receive the deep link params. This will return the deep link data from the referring link.

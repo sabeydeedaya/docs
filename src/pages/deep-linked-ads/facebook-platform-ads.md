@@ -24,7 +24,7 @@ Consideration | Lead Generation | Cross-platform Display
 #### Facebook Campaign Advert Format Support Table
 
 Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dynamic | Canvas
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | ---
 Brand Awareness | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  | ✔︎
 Reach | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  | ✔︎
 Video Views |  | ✔︎ | ✔︎ | ✔︎ |  |  | ✔︎

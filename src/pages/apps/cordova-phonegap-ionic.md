@@ -18,7 +18,7 @@
         <!-- sample config.xml -->
         <widget id="com.eneff.branch.cordovatestbed" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
           <!-- Branch -->
-          <plugin name="branch-cordova-sdk" spec="^2.5.0" />
+          <plugin name="branch-cordova-sdk" spec="^3.1.6" />
           <branch-config>
             <branch-key value="key_live_ndqptlgXNE4LHqIahH1WIpbiyFlb62J3" />
             <uri-scheme value="branchcordova" />
@@ -33,7 +33,7 @@
         <!-- sample config.xml -->
         <widget id="com.eneff.branch.cordovatestbed" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
           <!-- Branch -->
-          <plugin name="branch-cordova-sdk" spec="^2.5.0" />
+          <plugin name="branch-cordova-sdk" spec="^3.1.6" />
           <branch-config>
             <branch-key value="key_live_ndqptlgXNE4LHqIahH1WIpbiyFlb62J3" />
             <uri-scheme value="branchcordova" />
@@ -203,7 +203,7 @@
         ```js
         // for development and debugging only
         Branch.setDebug(true)
-        
+
         // for GDPR compliance (can be called at anytime)
         Branch.disableTracking(true);
 
@@ -481,7 +481,7 @@
         ```js
         var eventName = 'clicked_on_this'
         var metadata = { 'custom_dictionary': 123, 'anything': 'everything' }
-        Branch.userCompletedAction(eventName, metaData).then(function (res) {
+        Branch.logEvent(eventName, metaData).then(function (res) {
           alert('Response: ' + JSON.stringify(res))
         }).catch(function (err) {
           alert('Error: ' + JSON.stringify(err.message))
@@ -490,7 +490,7 @@
 
         ```js
         var eventName = 'clicked_on_this'
-        Branch.userCompletedAction(eventName).then(function (res) {
+        Branch.logEvent(eventName).then(function (res) {
           alert('Response: ' + JSON.stringify(res))
         }).catch(function (err) {
           alert('Error: ' + JSON.stringify(err.message))
@@ -506,47 +506,31 @@
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
 
         ```js
-        // only revenue is required
-        var event = {
-          'revenue': 50.29,
-          'currency': 148, // USD
-          'transactionID': 'transaction id',
-          'coupon': 'coupon',
-          'shipping': 2.22,
-          'tax': 5.11,
-          'affiliation': 'affiliation',
-          'products': [
-            {
-              'sku': 'u123',
-              'name': 'cactus',
-              'price': 4.99,
-              'quantity': 2,
-              'brand': 'brand',
-              'category': 17, // Software
-              'variant': 'variant'
-            },
-            {
-              'sku': 'u456',
-              'name': 'grass',
-              'price': 0.00,
-              'quantity': 1
-            }
-          ]
-        }
-
-        // optional fields
-        var metadata = {
-          'custom_dictionary': 123,
-          'anything': 'everything'
-        }
-
-        Branch.sendCommerceEvent(event, metadata).then(function (res) {
-          console.log(res)
-          alert('Response: ' + JSON.stringify(res))
-        }).catch(function (err) {
-          console.error(err)
-          alert('Error: ' + JSON.stringify(err.message))
-        })
+        Branch.getStandardEvents().then(function success(res) {
+            var event = res.STANDARD_EVENT_ADD_TO_CART;
+            var metadata = {
+                transactionID: '1234455',
+                currency: 'USD',
+                revenue: 1.5,
+                shipping: 10.2,
+                tax: 12.3,
+                coupon: 'test_coupon',
+                affiliation: 'test_affiliation',
+                description: 'Test add to cart event',
+                searchQuery: 'test keyword',
+                customData: {
+                    "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+                    "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
+                }
+            };
+            Branch.sendBranchEvent(event, metadata).then(function success(res) {
+                alert("Branch Event success " + res);
+            }).catch(function error(err) {
+                alert("Branch Event " + err);
+            });
+        }).catch(function error(err) {
+            alert("Get Standard Event " + err);
+        });
         ```
 
 - ### Handle referrals
@@ -614,7 +598,7 @@
     - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
 
     - Add before `Branch.initSession();` ([Initialize Branch Features](#initialize-branch-features))
- 
+
         ```js
         Branch.setRequestMetadata("insert_user_id", "value")
         ```
@@ -624,7 +608,7 @@
 - ### Recommendations
 
     - Need to select `"app uses IDFA or GAID"` when publishing your app
-    
+
     - Mobile browser capability: `Android 4.4.4+`, `Safari 8+`, `Chrome 32+`, `Firefox 29+`
 
 - ### Optional app config
@@ -896,7 +880,7 @@
         <!-- config.xml -->
         <plugin name="branch-cordova-sdk" spec="^2.5.0" />
         ```
-        
+
     - [Test Deep Link iOS](#test-deep-link-ios)
     - [Test Deep Link Android](#test-deep-link-android)
 
@@ -912,12 +896,86 @@
 
         - [Ionic Deeplinks Plugin](https://github.com/driftyco/ionic-plugin-deeplinks)
 
-    - PhoneGap Build is also not supported by the Branch SDK because we need plugin hooks to enable Entitlements, Universal Links, App Links, and URI Scheme redirects but PhoneGap Build does not allow plugin hooks
+    - PhoneGap Build is also not supported by the Branch SDK because we need plugin hooks to enable Entitlements, Universal Links, App Links, and URI Scheme redirects but PhoneGap Build does not allow plugin hooks.
+    - With both the 'branch-cordova-sdk' plugin and the 'cordova-plugin-siri-shortcuts' plugin installed, deep-linking breaks. This seems to most often happen when the siri shortcuts plugin is installed after the branch plugin.
+      - **Solution**
+        - Using a modified version of the `AppDelegate+SiriShortcuts` Category to include Branch. This version only works if both Branch and SiriShortcuts is present.
+        - From within the Xcode workspace, locate `AppDelegate+BranchSDK.m`. Either remove it or ignore it.
+        - From within the Xcode workspace, locate `AppDelegate+SiriShortcuts.m`. This is the file we want to modify.
+        - Update `AppDelegate+SiriShortcuts.m` to call Branch SDK. This version should work when dropped in with the current release of both SDKs.
+
+        ```
+        #import "AppDelegate+SiriShortcuts.h"
+        #import <objc/runtime.h>
+
+        #import "BranchNPM.h"
+
+        #ifdef BRANCH_NPM
+        #import "Branch.h"
+        #else
+        #import <Branch/Branch.h>
+        #endif
+
+        static void * UserActivityPropertyKey = &UserActivityPropertyKey;
+
+        @implementation AppDelegate (siriShortcuts)
+
+        - (NSUserActivity *)userActivity {
+            return objc_getAssociatedObject(self, UserActivityPropertyKey);
+        }
+
+        - (void)setUserActivity:(NSUserActivity *)activity {
+            objc_setAssociatedObject(self, UserActivityPropertyKey, activity, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        }
+
+        - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler {
+
+            // SiriShortcuts code
+            NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+            if ([userActivity.activityType isEqualToString:[NSString stringWithFormat:@"%@.shortcut", bundleIdentifier]]) {
+                self.userActivity = userActivity;
+            }
+
+            // Respond to Universal Links
+            if (![[Branch getInstance] continueUserActivity:userActivity]) {
+                // send unhandled URL to notification
+                if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+                    [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:[userActivity.webpageURL absoluteString]]];
+                }
+            }
+
+            return YES;
+        }
+
+        // Respond to URI scheme links
+        - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+            // pass the url to the handle deep link call
+            if (![[Branch getInstance] application:app openURL:url options:options]) {
+                // do other deep link routing for the Facebook SDK, Pinterest SDK, etc
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:CDVPluginHandleOpenURLNotification object:url]];
+                // send unhandled URL to notification
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:[url absoluteString]]];
+            }
+            return YES;
+        }
+
+        // Respond to Push Notifications
+        - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+            @try {
+                [[Branch getInstance] handlePushNotification:userInfo];
+            }
+            @catch (NSException *exception) {
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"BSDKPostUnhandledURL" object:userInfo]];
+            }
+        }
+
+        @end
+        ```
 
 - ### Cordova errors
 
     - ##### Migrate from SDK 2.5+ to 3.0+
-        
+
         ```diff
         // Branch initialization
         - Branch.initSession(function(data) {
@@ -928,7 +986,7 @@
           }
         });
         ```
-    
+
     - ##### Device only
 
         - Error

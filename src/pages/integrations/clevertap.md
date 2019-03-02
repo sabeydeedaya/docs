@@ -2,9 +2,6 @@
 
 With a push of a button you can send your Branch data to your CleverTap dashboard, helping you understand the power of Branch as an acquisition pathway.
 
-!!! tip
-    The CleverTap Data Integration is in private beta. Please contact your Account manager or [integrations@branch.io](mailto:integrations@branch.io) to enable the CleverTap Data Integration.
-
 ### How does it work?
 
 Once the Branch SDK is integrated into an app, Branch can detect which links are leading to installs, re-opens, and users' actions. Enabling this integration will result in Branch automatically forwarding referred events to CleverTap, in the exact format CleverTap expects.
@@ -39,11 +36,11 @@ Find your CleverTap Account Credentials. Later, you'll enter them into the Branc
 
 1. On the Branch Dashboard (dashboard.branch.io), navigate to the [Integrations page](https://dashboard.branch.io/data-import-export/integrations).
 1. Search for CleverTap. If you don't see CleverTap, please contact your Branch Account Manager or [integrations@branch.io](mailto:integrations@branch.io) to enable the CleverTap Data Integration.
-    
+
     ![image](/img/pages/integrations/clevertap/search-clevertap.png)
 
 1. Enter your CleverTap credentials into the corresponding boxes in the Branch Dashboard as shown below and hit **Save**.
-    
+
     ![image](/img/pages/integrations/clevertap/enter-clevertap-credentials.png)
 
 
@@ -56,7 +53,7 @@ Ensure that you are capturing both the Google Advertising Identifier (GAID) on A
 
 ### CleverTap identity support
 
-You must use the following code to send your CleverTap identity to Branch so that user identities are correctly assigned in CleverTap. 
+You must use the following code to send your CleverTap identity to Branch so that user identities are correctly assigned in CleverTap.
 
 #### iOS
 **Objective-C**

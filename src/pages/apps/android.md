@@ -54,11 +54,15 @@
         }
         ```
 
+!!! warning "Google Mobile Ads SDK 17+"
+    If you decide to implement the Google Mobile Ads SDK version 17+, you have to declare your app is an Ad Manager app. See [Google Developer Docs](https://developers.google.com/ad-manager/mobile-ads-sdk/android/quick-start#update_your_androidmanifestxml) on how to do so. Failure to add this <meta-data> tag results in a crash with the message: "The Google Mobile Ads SDK was initialized incorrectly."
+
+
 - ### Configure app
 
     - Add Branch to your `AndroidManifest.xml`
 
-        ```xml hl_lines="9 17 26 27 28 29 30 31 32 34 35 36 37 38 39 40 44 45 46 47 49 50 51 52 53 54"
+        ```xml hl_lines="18 26 27 28 29 30 31 32 33 35 36 37 38 39 40 41 42 44 45 46 47 48 50 51 52 53 54 55"
         <?xml version="1.0" encoding="utf-8"?>
         <manifest xmlns:android="http://schemas.android.com/apk/res/android"
             package="com.eneff.branch.example.android">
@@ -73,8 +77,9 @@
                 android:supportsRtl="true"
                 android:theme="@style/AppTheme">
 
+                <!-- Launcher Activity to handle incoming Branch intents -->    
                 <activity
-                    android:name=".MainActivity"
+                    android:name=".LauncherActivity"
                     android:launchMode="singleTask"
                     android:label="@string/app_name"
                     android:theme="@style/AppTheme.NoActionBar">
@@ -119,22 +124,26 @@
         </manifest>
         ```
 
-    - Replace the following with values from your [Branch Dashboard](https://dashboard.branch.io/account-settings/app)
+    - Replace the following with values from your Branch Dashboard [App settings](https://dashboard.branch.io/account-settings/app) and [Link settings](https://dashboard.branch.io/link-settings)
         - `androidexample`
         - `example.app.link`
+        - `example-alternate.app.link`
         - `key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw`
         - `key_test_hlxrWC5Zx16DkYmWu4AHiimdqugRYMr`
+
+    !!! warning "Google Play App Install Referrer API"
+        Branch can use the [Google Play App Install Referrer API](https://developer.android.com/google/play/installreferrer/library.html) to return the Install Referrer click timestamp and the install-begin timestamp. Please make sure you include the `Branch install referrer tracking (optional)` receiver in the AndroidManifest.xml file as per the above code sample.
 
     !!! warning "Single Task launch mode required"
         If there is no singleTask Activity instance in the system yet, a new one would be created and simply placed on top of the stack in the same Task. If you are using the Single Task mode as is, it should not restart your entire app. The Single Task mode instantiates the Main/Splash Activity only if it does not exist in the Activity Stack. If the Activity exists in the background, every subsequent intent to the Activity just brings it to the foreground. You can read more about Single Task mode [here](https://developer.android.com/guide/components/activities/tasks-and-back-stack.html#TaskLaunchModes).
 
 - ### Initialize Branch
 
-    - Add Branch to your `MainActivity.java`
+    - Add Branch to your `LauncherActivity.java`
 
     - *Java*
 
-        ```java hl_lines="3 9 14 16 17 31 32 33 34 35 36 37 38 39 40 41 44 45 46 47"
+        ```java hl_lines="16 17 31 32 33 34 35 36 37 38 39 40 41 42 43 46 47 48 49"
         package com.eneff.branch.example.android;
 
         import android.content.Intent;
@@ -153,12 +162,12 @@
         import io.branch.referral.Branch;
         import io.branch.referral.BranchError;
 
-        public class MainActivity extends AppCompatActivity {
+        public class LauncherActivity extends AppCompatActivity {
 
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_main);
+                setContentView(R.layout.activity_launcher);
             }
 
             @Override
@@ -171,6 +180,8 @@
                     public void onInitFinished(JSONObject referringParams, BranchError error) {
                         if (error == null) {
                             Log.i("BRANCH SDK", referringParams.toString());
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.i("BRANCH SDK", error.getMessage());
                         }
@@ -187,7 +198,7 @@
 
     - *Kotlin*
 
-        ```java hl_lines="3 9 14 16 17 29 30 31 32 33 34 35 36 37 38 41 42 43"
+        ```java hl_lines="16 17 29 30 31 32 33 34 35 36 37 38 39 40 43 44 45"
         package com.eneff.branch.example.android
 
         import android.content.Intent
@@ -206,11 +217,11 @@
         import io.branch.referral.Branch
         import io.branch.referral.BranchError
 
-        class MainActivity : AppCompatActivity() {
+        class LauncherActivity : AppCompatActivity() {
 
             override fun onCreate(savedInstanceState: Bundle?) {
                 super.onCreate(savedInstanceState)
-                setContentView(R.layout.activity_main)
+                setContentView(R.layout.activity_launcher)
             }
 
             override fun onStart() {
@@ -221,6 +232,8 @@
                     override fun onInitFinished(referringParams: JSONObject, error: BranchError?) {
                         if (error == null) {
                             Log.e("BRANCH SDK", referringParams.toString)
+                            // Retrieve deeplink keys from 'referringParams' and evaluate the values to determine where to route the user
+                            // Check '+clicked_branch_link' before deciding whether to use your Branch routing logic
                         } else {
                             Log.e("BRANCH SDK", error.message)
                         }
@@ -660,135 +673,19 @@
 
 - ### Track events
 
-    - Registers a custom event
+    - All events related to a customer purchasing are bucketed into a "Commerce" class of data items
 
-    - Events named `open`, `close`, `install`, and `referred session` are Branch restricted
+    - All events related to users interacting with your in-app content are bucketed to a "Content" class of data items.
 
-    - `63` character max for event name
+    - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
 
-    - Best to [Track users](#track-users) before [Track events](#track-events) to associate a custom event to a user
+    - To track custom events - not found in the table below - please see [Track Custom Events](https://docs.branch.io/pages/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-    - *Java*
 
-        ```java
-        // option 1:
-        new BranchEvent("your_custom_event").logEvent(MainActivity.this);
+    {! ingredients/sdk/v2-events.md !}
 
-        // option 2: with metadata
-        new BranchEvent("your_custom_event")
-                        .addCustomDataProperty("your_custom_key", "your_custom_value")
-                        .logEvent(MainActivity.this);
-        ```
-
-    - *Kotlin*
-
-        ```java
-        // option 1:
-        BranchEvent("your_custom_event").logEvent(context)
-
-        // option 2: with metadata
-        BranchEvent("your_custom_event")
-                .addCustomDataProperty("your_custom_key", "your_custom_value")
-                .logEvent(context)
-        ```
-
-- ### Track commerce
-
-    - Registers a custom commerce event
-
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency` 
-    
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/65f8c34ccc6705331b50348f99a66a13da19cf8c/Branch-SDK/src/io/branch/referral/util/ProductCategory.java) for `Category`
-
-    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
-
-    - Ensure to add `revenue` field to track purchase. All other fields are optional
-
-    - *Java*
-
-        ```java
-        BranchUniversalObject buo = new BranchUniversalObject()
-            .setCanonicalIdentifier("myprod/1234")
-            .setCanonicalUrl("https://test_canonical_url")
-            .setTitle("test_title")
-            .setContentMetadata(
-                new ContentMetadata()
-                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                .addImageCaptions("image_caption_1", "image_caption2", "image_caption3")
-                .setAddress("Street_Name", "test city", "test_state", "test_country", "test_postal_code")
-                .setRating(5.2, 6.0, 5)
-                .setLocation(-151.67, -124.0)
-                .setPrice(10.0, CurrencyType.USD)
-                .setProductBrand("test_prod_brand")
-                .setProductCategory(ProductCategory.APPAREL_AND_ACCESSORIES)
-                .setProductName("test_prod_name")
-                .setProductCondition(ContentMetadata.CONDITION.EXCELLENT)
-                .setProductVariant("test_prod_variant")
-                .setQuantity(1.5)
-                .setSku("test_sku")
-                .setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
-                .addKeyWord("keyword1")
-                .addKeyWord("keyword2");
-
-        new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
-                .setAffiliation("test_affiliation")
-                .setCoupon("Coupon Code")
-                .setCurrency(CurrencyType.USD)
-                .setDescription("Customer added item to cart")
-                .setShipping(0.0)
-                .setTax(9.75)
-                .setRevenue(1.5)
-                .setSearchQuery("Test Search query")
-                .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
-                .addCustomDataProperty("Custom_Event_Property_Key2", "Custom_Event_Property_val2")
-                .addContentItems(buo)
-                .logEvent(context);
-        ```
-
-    - *Kotlin*
-
-        ```java
-        val buo = BranchUniversalObject()
-                .setCanonicalIdentifier("myprod/1234")
-                .setCanonicalUrl("https://test_canonical_url")
-                .setTitle("test_title")
-                .setContentMetadata(
-                        ContentMetadata()
-                                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                                .addCustomMetadata("custom_metadata_key1", "custom_metadata_val1")
-                                .addImageCaptions("image_caption_1", "image_caption2", "image_caption3")
-                                .setAddress("Street_Name", "test city", "test_state", "test_country", "test_postal_code")
-                                .setRating(5.2, 6.0, 5)
-                                .setLocation(-151.67, -124.0)
-                                .setPrice(10.0, CurrencyType.USD)
-                                .setProductBrand("test_prod_brand")
-                                .setProductCategory(ProductCategory.APPAREL_AND_ACCESSORIES)
-                                .setProductName("test_prod_name")
-                                .setProductCondition(ContentMetadata.CONDITION.EXCELLENT)
-                                .setProductVariant("test_prod_variant")
-                                .setQuantity(1.5)
-                                .setSku("test_sku")
-                                .setContentSchema(BranchContentSchema.COMMERCE_PRODUCT))
-                .addKeyWord("keyword1")
-                .addKeyWord("keyword2")
-
-        BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
-                .setAffiliation("test_affiliation")
-                .setCoupon("Coupon Code")
-                .setCurrency(CurrencyType.USD)
-                .setDescription("Customer added item to cart")
-                .setShipping(0.0)
-                .setTax(9.75)
-                .setRevenue(1.5)
-                .setSearchQuery("Test Search query")
-                .addCustomDataProperty("Custom_Event_Property_Key1", "Custom_Event_Property_val1")
-                .addCustomDataProperty("Custom_Event_Property_Key2", "Custom_Event_Property_val2")
-                .addContentItems(buo)
-                .logEvent(this@MainActivity)
-        ```
 
 - ### Handle referrals
 
@@ -880,8 +777,8 @@
 
         ```java
         Intent resultIntent = new Intent(this, TargetClass.class);
-        intent.putExtra("branch","http://xxxx.app.link/testlink");
-        intent.putExtra("branch_force_new_session",true);
+        resultIntent.putExtra("branch","http://xxxx.app.link/testlink");
+        resultIntent.putExtra("branch_force_new_session",true);
         PendingIntent resultPendingIntent =  PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         ```
 
@@ -889,9 +786,9 @@
 
         ```java
         val resultIntent = Intent(this, TargetClass::class.java)
-        intent.putExtra("branch", "http://xxxx.app.link/testlink")
+        resultIntent.putExtra("branch", "http://xxxx.app.link/testlink")
         val resultPendingIntent = PendingIntent.getActivity(this, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT)
-        intent.putExtra("branch_force_new_session", true)
+        resultIntent.putExtra("branch_force_new_session", true)
         ```
 
 - ### Handle links in your own app
@@ -915,7 +812,7 @@
         intent.putExtra("branch_force_new_session", true)
         startActivity(intent)
         ```
-        
+
     - Replace "http://xxxx.app.link/testlink" with your own link URL
 
 !!! warning

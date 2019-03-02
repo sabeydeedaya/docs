@@ -224,7 +224,7 @@ The majority of share options only include one string of text, except email, whi
     BranchLinkProperties *linkProperties = [[BranchLinkProperties alloc] init];
     linkProperties.feature = @"share";
     linkProperties.channel = @"facebook";
-    [linkProperties addControlParam:@"$email_subject" withValue:@"Therapists hate him"];
+    [linkProperties addControlParam:@"$email_subject" withValue:@"Your Awesome Deal"];
     ```
 
 - *iOS - Swift*
@@ -233,13 +233,13 @@ The majority of share options only include one string of text, except email, whi
     let linkProperties: BranchLinkProperties = BranchLinkProperties()
     linkProperties.feature = "share"
     linkProperties.channel = "facebook"
-    linkProperties.addControlParam("$email_subject", withValue: "Therapists hate him")
+    linkProperties.addControlParam("$email_subject", withValue: "Your Awesome Deal")
     ```
 
 - *Android*
 
     ```java
-    ShareSheetStyle shareSheetStyle = new ShareSheetStyle(MainActivity.this, "Therapists hate him", "You will never believe what happened next!")
+    ShareSheetStyle shareSheetStyle = new ShareSheetStyle(MainActivity.this, "Your Awesome Deal", "You will never believe what happened next!")
                             .setCopyUrlStyle(getResources().getDrawable(android.R.drawable.ic_menu_send), "Copy", "Added to clipboard")
                             .setMoreOptionStyle(getResources().getDrawable(android.R.drawable.ic_menu_search), "Show more")
                             .addPreferredSharingOption(SharingHelper.SHARE_WITH.FACEBOOK)

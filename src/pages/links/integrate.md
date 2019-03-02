@@ -21,7 +21,7 @@
         -  Branch passes deep link `data` into your app
 
     - #### Expected link behavior
-    
+
         - Expected link behavior is dependent on whether or not the app supports deep linking
 
         - `*Able to force app open` using [`$uri_redirect_mode`](#forced-redirections) or enabling a [Deepview](/pages/web/deep-views/)
@@ -35,9 +35,11 @@
             | Instagram Profile | Fallback | *Able to force app open | App |
             | Instagram Browser | App | | App |
             | Instagram Stories | Fallback | *Able to force app open | App |
-            | Twitter Feed | Fallback | *Able to force app open | App |
+            | Twitter Feed | Fallback | *Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
             | Twitter Browser | App | | App |
-            | Snapchat | Fallback | *Able to force app open | App | HTTPS is not supported for organic posts using custom domains. Use HTTP, or use you app.link domain. We are currently working with Snapchat for a workaround.
+            | Snap messages | App | | App | 
+            | Snap stories | Fallback | [Review custom instructions for using Branch in Snap stories](#branch-links-in-snapchat-stories-ios) | App | 
+            | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback | 
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
@@ -114,10 +116,27 @@
         - Increases [install attribution](https://branch.io/deepview/)
         - Completes deep linking experience in [certain apps](#default-link-behavior)
 
+- ### UTM Behavior
+
+    - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
+
+        - ~campaign -> utm_campaign
+        - ~channel -> utm_source
+        - ~feature -> utm_medium
+
+    - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
+    - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
+    - To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
+    - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
+
 ## Create deep links
 
 - ### Short links
     - Short links are the most common deep link
+    - You can customize the subdomain of `example.app.link`, or change to your own personal domain (`links.yoursite.com`)
+    - You can tailor the appearance of the short code to a custom `alias` during creation
+        - Aliases can be short strings, e.g. `https://example.app.link/october-sale`
+        - Or can be full link path, e.g. `https://example.app.link/product/id1234`
     - Short links encapsulate [link data](#configure-deep-links) inside them on link creation
         - e.g. existing link `https://example.app.link/fzmLEhobLD`
     - Short links can have additional data appended to them
@@ -158,7 +177,6 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | ~campaign | | Use this field to organize the links by actual campaign. For example, if you launched a new feature or product and want to run a campaign around that
         | ~stage | | Use this to categorize the progress or category of a user when the link was generated. For example, if you had an invite system accessible on level 1, level 3 and 5, you could differentiate links generated at each level with this parameter
         | ~tags | | This is a free form entry with unlimited values `['string']`. Use it to organize your link data with labels that don't fit within the bounds of the above
-        | alias | | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/youralias`). Link aliases must be unique (a `409 error` will occur if you create an alias already taken). Appending a `/` will break the alias. `bnc.lt` link domain alias links are incompatible with Universal Links and Spotlight.
         | type | `0` | Must be an `int`. Set to `1` to limit deep link to a single use. Set to `2` to make the link show up under [Quick Links](https://dashboard.branch.io/marketing) while adding `$marketing_title` to `data`. Does not work with the Native SDKs.
 
     - These labels allow you to customize attribution windows for a single link
@@ -239,6 +257,8 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | $android_redirect_timeout | `750` | Control the timeout that the client side JS waits after trying to open up the app before redirecting to the Play Store. Specified in milliseconds
         | $custom_sms_text | | Text for SMS link sent for desktop clicks to this link. Must contain `{{ link }}` Value of Text me the app page in Settings
         | $marketing_title | | Set the marketing title for the deep link in the [Quick Links](https://dashboard.branch.io/marketing) when creating links from the API with `type` = `2`
+        | $deeplink_no_attribution | | Set to `true` for the links to only support deep linking without any attribution for that link.
+        
 
 - ### Content
 
@@ -270,6 +290,14 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | --- | --- | ---
         | $ios_passive_deepview | The name of the template to use for iOS. | `branch_default`
         | $android_passive_deepview | The name of the template to use for Android. | `branch_default`
+
+- ### Link appearance
+
+    - Customize the apperance of your short link
+
+        | Key | Default | Usage
+        | --- | --- | ---
+        | alias | none | Specify a link alias to replace of the standard encoded short URL (e.g. `https://example.app.link/aQXXDHaxKF` -> `https://example.app.link/october-campaign` or `https://example.app.link/product/id1234`). Link aliases must be unique per app (a `409 error` will occur if you create an alias already taken). Also note that we don't currently support single character path segments after the domain (`/a/`, `/b/`, `/c/`, etc).
 
 - ### Open Graph
 
@@ -367,7 +395,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
           "session_id": "429691081177874743",
           "data": {
             "$canonical_identifier": "item/1503684554354.28",
-            "$canonical_url": "https://example.com/home?utm_campaign=test&deeplink=value"
+            "$canonical_url": "https://example.com/home?utm_campaign=test&deeplink=value",
             "$desktop_url": "http://example.com/home",
             "$exp_date": 0,
             "$identity_id": "427469360685348303",
@@ -437,12 +465,26 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 - ### View deep link data
     - Add `?debug=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?debug=1
-    
+
 - ### View deep link stats
     - Add `?stats=1` to the end of your deep link
     - For example: https://example.app.link/aQXXDHaxKF?stats=1
 
-- ### Deep Links in China
+- ### Branch links in Snapchat Stories iOS
+
+    - Snap won't let you attach redirecting links to stories. The following work around disables the redirects until you get the link attached, and then re-enables them after you create your story.
+
+        1. Create your Quick Link to be attached to your Snap story
+        1. On the Configure Options section, do the following:
+            - Add the key `$always_deeplink`, and the value of `false` in the Deep Linking tab
+            - Enable a deepview on the iOS platform in the Redirects tab
+
+        1. Attach this link to your Snap story
+        1. Come back and edit the Quick Link to:
+            - Delete the `$always_deeplink` key/value from the Deep Linking tab
+            - Remove the deepview on iOS in the Redirects tab
+
+- ### Deep links in China
     - We have found that our links don’t work with some Chinese ISPs. Here’s a list of the ones we have tested:
 
         | ISP Name | Behavior
