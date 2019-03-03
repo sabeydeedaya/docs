@@ -3,7 +3,7 @@
 /* ////////////////////////////// */
 .branch-header-subtitle {
   font-size: 2em;
-  margin-top: 1em;
+  margin-top: 0.9em;
   padding-right: 1.5em;
   color: hsla(0,0%,100%,.7);
 }
@@ -23,14 +23,14 @@
 /* BRANCH HEADER BUTTONS */
 /* ////////////////////////////// */
 .branch-header-button {
-  padding: 0 1rem;
-  font-size: 1.2rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
   vertical-align: middle;
   text-align: center;
 }
 .branch-header-search {
     top: 0;
-    left: 1.2rem;
+    left: 0.6rem;
     z-index: 2;
 }
 
@@ -43,6 +43,7 @@
 .branch-header-label {
   display: none;
   margin: 0;
+  font-size: 0.6rem;
 }
 @media (min-width: 960px) {
   .branch-header-label {
@@ -104,18 +105,18 @@
 }
 .md-typeset h3, h4, h5 {
   font-weight: 600;
-  margin: 2rem 0 0.5rem !important;
+  margin: 1rem 0 0.25rem !important;
 }
 .md-typeset h3 {
-  font-size: 1.9rem;
+  font-size: 0.95rem;
 }
 .md-typeset h4 {
-  font-size: 1.75rem;
+  font-size: 0.875rem;
 }
 .md-typeset h5 {
   text-transform: none;
   color: rgba(0,0,0,.87);
-  font-size: 1.6rem;
+  font-size: 0.8rem;
 }
 .md-typeset li > h3:before, .md-typeset li > h4:before, .md-typeset li > h5:before, .md-typeset li > h6:before {
   /* corrects headers on the same line as bullet points */
@@ -130,7 +131,7 @@
 .codehilite .hll {
   background-color: rgba(231,255,238,1);
   display: inline;
-  padding: 0 0 0 1.2rem;
+  padding: 0 0 0 0.6rem;
 }
 .highlight pre {
   background-color: #f6f8fa;
@@ -342,7 +343,7 @@ body.modal {
 }
 .md-source__repository {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 0.9rem;
   overflow: visible;
 }
 .md-nav__link[data-md-state=blur] {
@@ -355,10 +356,10 @@ body.modal {
 /* NAVIGATION */
 /* ////////////////////////////// */
 .md-nav__item {
-  padding-left: 1.6rem;
+  padding-left: 0.8rem;
 }
 .md-nav--secondary > .md-nav__list > .md-nav__item, .md-nav--primary > .md-nav__list > .md-nav__item {
-  padding-left: 1.2rem;
+  padding-left: 0.6rem;
 }
 .md-nav--primary .md-nav__title--site {
   display: none;
@@ -369,7 +370,7 @@ body.modal {
 .md-nav--primary > .md-nav__list > .md-nav__item--nested,
 .md-nav--primary .md-nav__list .md-nav__item:nth-child(1) {
   cursor: default;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 700;
 }
 .md-nav--primary > .md-nav__list > .md-nav__item--nested .md-nav__item {
@@ -417,7 +418,7 @@ body.modal {
 }
 /* secondary */
 .md-nav--secondary {
-  border-left: .4rem solid #0075C9 !important;
+  border-left: .2rem solid #0075C9 !important;
 }
 .md-content a, .md-nav__link--active, .md-nav__link:hover, .md-typeset a:active, .md-typeset a:hover {
   color: #0075C9 !important;
