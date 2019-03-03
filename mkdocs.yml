@@ -22,7 +22,7 @@ theme:
   feature: false
   logo: 'img/logo.svg'
   favicon: 'img/favicon.ico'
-docs_dir: 'src'
+docs_dir: 'content/docs'
 extra_css:
   - 'css/main.css'
 extra_javascript:
@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.superfences:
   - attr_list:
   - markdown_include.include:
-      base_path: includes/
+      base_path: content/includes/
 
 # Options
 extra:
