@@ -1,3 +1,7 @@
+---
+title: Legacy Data Export API (old)
+---
+
 ## Overview
 
 The data export API can be used to pull the data visible via the Liveview & Exports tab directly via an API. A couple important notes worthy of mention of this API:

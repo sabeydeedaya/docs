@@ -1,8 +1,12 @@
+---
+title: Field-by-field guide for migrating from legacy webhooks (old)
+---
+
 # Field-by-field guide for migrating from legacy webhooks
 
 ## Introduction
 
-Branch will completely discontinue the functionality of its legacy Export API on in the future. Before then, we are advising all partners using webhooks to switch to our new webhooks. 
+Branch will completely discontinue the functionality of its legacy Export API on in the future. Before then, we are advising all partners using webhooks to switch to our new webhooks.
 
 This document is a guide to help you understand the differences in structure between the legacy and current webhooks. We will use two examples: a click and an install. In the legacy webhook format, these were fairly different (read: inconsistent, messy). In the current webhook format, clicks and installs share the same format.
 

@@ -1,3 +1,7 @@
+---
+title: Dashboard analytics
+---
+
 ## Understand tracking
 
 - ### Analytical behavior
