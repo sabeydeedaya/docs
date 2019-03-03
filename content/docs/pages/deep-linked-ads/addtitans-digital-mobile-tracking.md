@@ -2,7 +2,7 @@
 
 ![Addtitans Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1535588688022.png)
 
-This guide will walk you through how to setup your campaigns with **[Addtitans Digital](http://addtitans.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Addtitans Digital](http://addtitans.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Addtitans D
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/addtitans-digital/addtitans-digital-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/addtitans-digital/addtitans-digital-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/addtitans-digital/addtitans-digital-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/addtitans-digital/addtitans-digital-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

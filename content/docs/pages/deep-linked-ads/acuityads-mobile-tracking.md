@@ -2,7 +2,7 @@
 
 ![AcuityAds](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1537393959098.png)
 
-This guide will walk you through how to setup your campaigns with **[AcuityAds](http://www.acuityads.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[AcuityAds](http://www.acuityads.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[AcuityAds](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/acuityads/acuityads-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/acuityads/acuityads-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/acuityads/acuityads-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/acuityads/acuityads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

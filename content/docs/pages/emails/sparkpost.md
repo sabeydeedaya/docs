@@ -1,6 +1,6 @@
 ## Overview
 
-![Sparkpost](https://branchmetrics.github.io/docs/img/pages/email/sparkpost/sparkpost.png)
+![Sparkpost](https://branchmetrics.github.io/docs/_assets/img/pages/email/sparkpost/sparkpost.png)
 
 This guide will walk you through how to setup your email campaigns with **[Sparkpost](https://sparkpost.com){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[Spark
 
 1. Add and verify a custom click tracking domain in the **[Tracking Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** section of your SparkPost account:
 
-    ![image](/img/pages/email/sparkpost/create-domain.png)
+    ![image](/_assets/img/pages/email/sparkpost/create-domain.png)
 
 For more information on how to set up your domain, please visit Sparkpost's [documentation](https://www.sparkpost.com/docs/tech-resources/enabling-multiple-custom-tracking-domains/){:target="\_blank"}.
 
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** section of your Sparkpost account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sparkpost.com/account/tracking-domains){:target="\_blank"}** section of your Sparkpost account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/sparkpost/setup-config.png)
+![image](/_assets/img/pages/email/sparkpost/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

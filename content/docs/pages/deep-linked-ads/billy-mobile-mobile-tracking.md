@@ -2,7 +2,7 @@
 
 ![Billy-Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Billy-1528501571787.png)
 
-This guide will walk you through how to setup your campaigns with **[Billy Mobile](http://billymob.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Billy Mobile](http://billymob.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Billy Mobil
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/billy-mobile/billy-mobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/billy-mobile/billy-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/billy-mobile/billy-mobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/billy-mobile/billy-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

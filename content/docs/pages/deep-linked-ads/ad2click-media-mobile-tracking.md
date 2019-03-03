@@ -2,7 +2,7 @@
 
 ![Ad2Click Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ad2click-1532554507888.png)
 
-This guide will walk you through how to setup your campaigns with **[Ad2Click Media](http://www.ad2click.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Ad2Click Media](http://www.ad2click.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Ad2Click Me
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/ad2click-media/ad2click-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/ad2click-media/ad2click-media-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/ad2click-media/ad2click-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/ad2click-media/ad2click-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

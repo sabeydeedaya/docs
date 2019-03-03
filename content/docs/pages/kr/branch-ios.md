@@ -8,13 +8,13 @@
 
     - `I have an iOS app` 을 체크합니다.
 
-        ![image](/img/pages/dashboard/ios.png)
+        ![image](/_assets/img/pages/dashboard/ios.png)
 
 - ### Bundle Identifier 설정
 
     - 앱에 설정한 Bundle Identifier 와 [Branch Dashboard](https://dashboard.branch.io/settings/link) 에 설정한 것이 반드시 일치해야 합니다.
 
-        ![image](/img/pages/apps/ios-bundle-id.png)
+        ![image](/_assets/img/pages/apps/ios-bundle-id.png)
 
 - ### Associated domain 설정
 
@@ -23,13 +23,13 @@
     - 만약 test key](#use-test-key) 를 사용하신다면 `test-` 도 필요합니다.
     - 만약 귀사에서 [custom link domain](/pages/dashboard/integrate/#change-link-domain) 을 사용한다면 옛 링크 도메인, `-alternate` 링크 도메인, 새로운 링크 도메인 등을 포함시켜야 합니다.
 
-        ![image](/img/pages/apps/ios-entitlements.png)
+        ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
 - ### Entitlements 설정
 
     - Entitlements 가 타겟에 포함되어 있는지 확인합니다.
 
-        ![image](/img/pages/apps/ios-package.png)
+        ![image](/_assets/img/pages/apps/ios-package.png)
 
 - ### Info.plist 설정
 
@@ -39,13 +39,13 @@
         - `branch_key` 라는 key 를 생성하고 앱의 Branch Key 를 값으로 추가합니다.
         - `URL Types` -> `Item 0` -> `URL Schemes` 에 귀사의 URI 스키마를 추가합니다.
 
-        ![image](/img/pages/apps/ios-plist.png)
+        ![image](/_assets/img/pages/apps/ios-plist.png)
 
 - ### App prefix 를 확인
 
     - [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle) 에서 확인합니다.
 
-        ![image](/img/pages/apps/ios-team-id.png)
+        ![image](/_assets/img/pages/apps/ios-team-id.png)
 
 - ### Branch 설치
 
@@ -77,7 +77,7 @@
         - `Branch.framework` 을 `Embedded Binaries` 로 드래그합니다. (필요하면 `Copy items` 를 선택할 수 있음)
         - `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, 와 `iAd` 를 `Linked Frameworks`에 추가합니다.
 
-        ![image](/img/pages/apps/ios-frameworks.png)
+        ![image](/_assets/img/pages/apps/ios-frameworks.png)
 
 - ### Branch SDK 초기화
 
@@ -169,7 +169,7 @@
     - 디바이스에서 앱을 컴파일하고 설치하여 테스트합니다.
     - 딥링크를 복사하여 `Apple Notes` 에 붙여넣습니다.
     - 딥링크를 길게 누릅니다. (3D Touch 아님)
-    - `Open in "APP_NAME"` 을 클릭하여 앱을 실행합니다.([예시](/img/pages/apps/ios-notes.png))
+    - `Open in "APP_NAME"` 을 클릭하여 앱을 실행합니다.([예시](/_assets/img/pages/apps/ios-notes.png))
 
     !!! tip "디퍼드 딥링크 테스트"
         디퍼드 딥링킹은 앱을 설치하지 않은 사용자의 딥링킹을 지원해주는 기능입니다. 사용자가 링크를 클릭하고 앱을 설치하는 동시에 링크에 대한 컨텍스트가 보존했다가 앱을 최초 실행할 때 클릭했던 Branch Link 의 데이터를 전달 받아서 딥링크에 사용하는 것을 가리킵니다. 이것을 테스트하려면 디바이스에서 앱을 제거한 다음 Branch Link 를 클릭하고 XCode 에서 수동으로 앱을 설치하고 실행합니다. 정확하게 구현했다면 앱 내의 해당 컨텐츠로 정확하게 라우팅 될 것입니다.
@@ -846,7 +846,7 @@
 
 - ### Branch ViewController 로 딥링크 라우팅하기
 
-    - 아래 코드를 initSession [Initialize Branch](#initialize-branch) 이전에 추가합니다.  
+    - 아래 코드를 initSession [Initialize Branch](#initialize-branch) 이전에 추가합니다.
 
     - [Navigate to content](#navigate-to-content) 로 이 부분을 대체할 것을 추천합니다.
 
@@ -874,7 +874,7 @@
     - 오직 귀사에서 커스텀 링크 도메인을 가지고 있을 때만 사용합니다.
     - `Info.plist` 에 `branch_universal_link_domains` 를 추가하고 [Branch Dashboard](https://dashboard.branch.io/settings/link) 에 등록된 링크 도메인을 배열로 추가합니다.
 
-        ![image](/img/pages/apps/ios-link-domains.png)
+        ![image](/_assets/img/pages/apps/ios-link-domains.png)
 
 - ### 이메일로 공유하는 옵션
 

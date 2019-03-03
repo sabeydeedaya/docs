@@ -2,7 +2,7 @@
 
 ![Appcoachs](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appcoach-1536900213226.png)
 
-This guide will walk you through how to setup your campaigns with **[Appcoachs](https://www.appcoachs.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Appcoachs](https://www.appcoachs.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Appcoachs](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/appcoachs/appcoachs-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/appcoachs/appcoachs-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/appcoachs/appcoachs-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/appcoachs/appcoachs-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

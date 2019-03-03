@@ -1,4 +1,4 @@
-## Understand tracking 
+## Understand tracking
 
 - ### Analytical behavior
     - Whenever a user `clicks` on a deep link and `opens` the app
@@ -49,7 +49,7 @@
         - Measuring influencers
         The [Analytics](https://dashboard.branch.io/referrals/analytics) page on the dashboard will show you who is driving the most new signups.
 
-            ![image](/img/pages/dashboard/referrals.png)
+            ![image](/_assets/img/pages/dashboard/referrals.png)
 
 
 ## Dashboard pages
@@ -58,8 +58,8 @@
     - The [Dashboard Summary](https://dashboard.branch.io/) shows a high level overview of the success of your deep linking
     - View `Installs` which show both Branch and non-Branch installs
     - View `Click flow` to discover where your deep links are being clicked at
-    - View `Journeys` to see you Journey funnel from `view` to `click` to either `install` or `open` 
-    - View `Deepviews` to see you Deepview funnel from `view` to `click` to either `install` or `open` 
+    - View `Journeys` to see you Journey funnel from `view` to `click` to either `install` or `open`
+    - View `Deepviews` to see you Deepview funnel from `view` to `click` to either `install` or `open`
     - Note [Dashboard behavior](#dashboard-behavior)
 
 - ### Journey Banners
@@ -143,7 +143,7 @@
     - Use the `Event` dropdown to see a funnel of your analytics to a [custom event](#dialog-code?ios=track-events&android=track-events&adobe=track-events&cordova=track-events&mparticleAndroid=track-events&mparticleIos=track-events&titanium=track-events&reactNative=track-events&unity=track-events&xamarin=track-events) inside your app
     - Use the `Export` button to get a email with a `.csv` of your source data
     - Use the `Slice by platform` to remove robot traffic from your analytics
-    - Use the `filter` dropdowns to limit data 
+    - Use the `filter` dropdowns to limit data
 
 - ### Content
     - [Dashboard Content](https://dashboard.branch.io/content) tracks the attribution per content

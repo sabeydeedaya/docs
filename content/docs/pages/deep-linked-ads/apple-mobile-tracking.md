@@ -15,7 +15,7 @@ In order to check if the user came from an Apple Search Ads, you must make the a
 
 You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ads checking.
 
-![image](/img/pages/apps/ios-frameworks.png)
+![image](/_assets/img/pages/apps/ios-frameworks.png)
 
 #### Enable Apple Search Ads Check
 
@@ -58,20 +58,20 @@ branch.initSession.....
 1. Request access to the Cost Data beta through your account manager and it will be enabled in your dashboard.
 1. Navigate to the [Apple Search Ads UI > Settings > API](https://app.searchads.apple.com/cm/app/settings/apicertificates). *Verify you have selected the correct account by using the account selector in the top right hand corner.*
 
-    ![image](/img/pages/deep-linked-ads/apple-search/apple-api-screen.png)
+    ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-api-screen.png)
 
 1. Create an API certificate
 
-    ![image](/img/pages/deep-linked-ads/apple-search/apple-search-api.png)
+    ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-search-api.png)
 
 1. Download the API certificate to your computer. You'll unzip the folder and get one `.key` and one `.pem` file.
 
-    ![image](/img/pages/deep-linked-ads/apple-search/apple-download-certs.png)
+    ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-download-certs.png)
 
 1. Navigate to the [Apple Search Ads partner manager](https://dashboard.branch.io/ads/partner-management/a_apple?tab=settings) in the Branch dashboard.
 1. Upload the certificates there, selecting each file, and then clicking the blue upload arrow to upload the files. Click *Next* to continue.
 
-    ![image](/img/pages/deep-linked-ads/apple-search/apple-upload-certs.png)
+    ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-upload-certs.png)
 
 1. Select the organizations for which you would like to ingest data and click *Save* to enable Apple Search Ads with Cost Data.
 
@@ -123,7 +123,7 @@ Attribution windows can be specified at the global account level or on a per lin
 
 You can edit your attribution windows under Link Settings > Attribution Windows.
 
-   ![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+   ![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
 
 Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
 
@@ -131,7 +131,7 @@ Learn more about account level attribution windows in [People-Based Attribution]
 
 You can edit your attribution windows at the ad network level, if your ad network requires it. This is recommended when you enable networks like Apple Search Ads, Facebook and Google, who may have different windows for installs. With this, you can preserve your Account Level Attribution Windows, as well.
 
-   ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
+   ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/anaw_clear.png)
 
 ## Integration Support
 

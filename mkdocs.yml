@@ -20,22 +20,22 @@ theme:
     text: 'Open Sans'
     code: 'Roboto Mono'
   feature: false
-  logo: 'img/logo.svg'
-  favicon: 'img/favicon.ico'
+  logo: '_assets/img/logo.svg'
+  favicon: '_assets/img/favicon.ico'
 docs_dir: 'content/docs'
 extra_css:
-  - 'css/main.css'
+  - '_assets/css/main.css'
 extra_javascript:
-  - 'js/router.js'
-  - 'js/events.js'
-  - 'js/modals.js'
-  - 'js/images.js'
-  - 'js/buttons.js'
-  - 'js/progress.js'
-  - 'js/tabs.js'
-  - 'js/languages.js'
-  - 'js/utils.js'
-  - 'js/main.js'
+  - '_assets/js/router.js'
+  - '_assets/js/events.js'
+  - '_assets/js/modals.js'
+  - '_assets/js/images.js'
+  - '_assets/js/buttons.js'
+  - '_assets/js/progress.js'
+  - '_assets/js/tabs.js'
+  - '_assets/js/languages.js'
+  - '_assets/js/utils.js'
+  - '_assets/js/main.js'
 
 # Extensions
 markdown_extensions:

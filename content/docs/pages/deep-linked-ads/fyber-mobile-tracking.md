@@ -2,7 +2,7 @@
 
 ![Fyber](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/fyber-1528503082344.png)
 
-This guide will walk you through how to setup your campaigns with **[Fyber](http://fyber.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Fyber](http://fyber.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Fyber](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/fyber/fyber-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/fyber/fyber-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/fyber/fyber-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/fyber/fyber-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

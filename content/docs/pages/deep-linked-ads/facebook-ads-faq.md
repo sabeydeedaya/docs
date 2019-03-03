@@ -64,9 +64,9 @@ Please try logging out and logging back in on Facebook. Note the email address t
 
 ### What is the difference between your previous Facebook Ads product, and the new Facebook Ads product?
 
-Branch is a Facebook Mobile Measurement Partner (MMP). This means we are partnering with Facebook to more accurately attribute your installs, opens and custom events back to Facebook ad campaigns! 
+Branch is a Facebook Mobile Measurement Partner (MMP). This means we are partnering with Facebook to more accurately attribute your installs, opens and custom events back to Facebook ad campaigns!
 
-The major differences: we can use this product *without* a Branch deep link. No need to manually create Branch links and add them to Facebook ads! 
+The major differences: we can use this product *without* a Branch deep link. No need to manually create Branch links and add them to Facebook ads!
 
 If you use a Branch deep link, we will still return the Branch deep link information in app so that you can deep link your users to content. Attributed events will *not* have the Branch deep link information, but rather the Facebook ad campaign information. This info cannot be passed along to third parties via our Data Integrations.
 
@@ -107,7 +107,7 @@ Generally, no. Facebook MMP allows us to measure Facebook app install and app en
 !!! Warning
 	Data Integrations will never include events attributed to Facebook. This is because we cannot share device-level Facebook attribution data with third parties.
 
-There are many ways to access data pertaining to Facebook. 
+There are many ways to access data pertaining to Facebook.
 
 You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the [Branch Dashboard](https://dashboard.branch.io){:target="\_blank"}, as well as the [Query API](/pages/exports/query-api).
 
@@ -129,7 +129,7 @@ We cannot send device-level Facebook attribution data to third parties. Thus we 
 
 Here is the page where you can see which ad accounts have signed the AMM agreement:
 
-![AMM](/img/pages/deep-linked-ads/facebook-ads-faq/amm.png)
+![AMM](/_assets/img/pages/deep-linked-ads/facebook-ads-faq/amm.png)
 
 
 ### The data on Facebook and the data on Branch does not line up!
@@ -222,18 +222,18 @@ In addition to tracking installs and Facebook app events (see [Tracking other co
 When tracking custom events that have no equivalent [Facebook App Event](https://developers.facebook.com/docs/marketing-api/app-event-api){:target="\_blank"}, you have 2 options:
 
 1. *enable*: Branch will send custom events to Facebook. this allows us to get attribution data from Facebook. (default)
-2. *disable*: Use this option if you do not want Branch attributing custom events. In some cases, we may still be able to attribute these custom events based on previously retrieved attribution data from Facebook. But we will not send any custom events to Facebook in order to get attribution data back. 
+2. *disable*: Use this option if you do not want Branch attributing custom events. In some cases, we may still be able to attribute these custom events based on previously retrieved attribution data from Facebook. But we will not send any custom events to Facebook in order to get attribution data back.
 
 ### Migrating from the existing Facebook integration to MMP
 
 !!! Note
 	You can no longer see the previous Facebook onboarding flow that required you to copy-paste your Facebook app secret. Please use the "Authenticate with Facebook" option instead.
 
-If you have been using our integration with Facebook prior to February 14, 2018, then we highly recommend that you upgrade to our new integration that includes MMP. 
+If you have been using our integration with Facebook prior to February 14, 2018, then we highly recommend that you upgrade to our new integration that includes MMP.
 
 We are now certified by Facebook as a Mobile Measurement Partner! Branch can now help you attribute installs, opens, and conversion events to Facebook like never before.
 
-This integration includes full support for Facebook, Instagram, and the Audience Network. We also automatically pull in impressions and clicks from Facebook and surface those alongside your clicks on Branch links. The deep linking experience your users love is still supported. 
+This integration includes full support for Facebook, Instagram, and the Audience Network. We also automatically pull in impressions and clicks from Facebook and surface those alongside your clicks on Branch links. The deep linking experience your users love is still supported.
 
 Instructions on how to get set up with Facebook MMP are [here](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner). Note that this will replace your existing credentials on our backend. Instead of copy-pasting your Facebook app secret into the Branch Dashboard, you can now simply click through the normal Facebook login flow.
 
@@ -241,7 +241,7 @@ Branch will now automatically surface Facebook campaign, ad set, and ad informat
 
 ### Sources of Discrepancies between Facebook and Branch
 
-When using Branch as your Facebook MMP, you may notice some data discrepancies between the Branch dashboard and the Facebook dashboard if not configured correctly. We have highlighted several sources of discrepancies if they are present after you have onboarded with Facebook on the Branch dashboard. 
+When using Branch as your Facebook MMP, you may notice some data discrepancies between the Branch dashboard and the Facebook dashboard if not configured correctly. We have highlighted several sources of discrepancies if they are present after you have onboarded with Facebook on the Branch dashboard.
 
 There are many reasons why you may see different numbers on Facebook and Branch. Please note that we have one system for tracking impressions and clicks (via the Facebook Insights API) and a different system for tracking installs, reinstalls, opens and conversion events (via a private Facebook API). When trying to figure out differences, it's best to pick one event at a time (e.g. clicks or installs) and focus on causes of discrepancies there.
 
@@ -294,7 +294,7 @@ Branch will always report the install as having occurred on April 2.
 
 #### Timezones
 
-Please make sure the timezone is the same for your Facebook ad account and your Branch account. 
+Please make sure the timezone is the same for your Facebook ad account and your Branch account.
 
 You can see the timezone used by your Branch account [here](https://dashboard.branch.io/account-settings/app){:target="\_blank"}.
 
@@ -353,7 +353,7 @@ If you're unable to see installs, reinstalls, or opens on the Branch Dashboard, 
 
 If you turned on the integration within the last hour, then you may need to refresh the Branch Dashboard to see clicks. We automatically start a background job to pull in impressions and clicks from Facebook the first time you visit the [Ads Analytics](https://dashboard.branch.io/ads/analytics){:target="\_blank"} page after enabling Facebook.
 
-If it has been longer than an hour since you (1) enabled the MMP integration then (2) visited the Ads Analytics page then (3) pressed refresh and (4) see installs but still no clicks, then please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and put "Facebook MMP + 0 clicks" in the subject. Please include: 
+If it has been longer than an hour since you (1) enabled the MMP integration then (2) visited the Ads Analytics page then (3) pressed refresh and (4) see installs but still no clicks, then please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and put "Facebook MMP + 0 clicks" in the subject. Please include:
 
 * Branch app id
 * Facebook ad account id
@@ -369,14 +369,14 @@ If it has been longer than an hour since you (1) enabled the MMP integration the
 
 If the numbers line up pretty closely between Branch and Facebook, then it's possible the Facebook numbers are slightly more recent. The Facebook Insights API refreshes every 15 minutes. Branch tries to pull updated numbers as often as possible.
 
-If the numbers do not line up closely, but you recently started a new campaign, it may be that Branch has not yet pulled in data for that campaign. The numbers should line up much more closely within an hour. If they do not, then please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and put "Facebook MMP + Click Dicrepancies" in the subject. Please include: 
+If the numbers do not line up closely, but you recently started a new campaign, it may be that Branch has not yet pulled in data for that campaign. The numbers should line up much more closely within an hour. If they do not, then please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and put "Facebook MMP + Click Dicrepancies" in the subject. Please include:
 
 * Branch app id
 * Facebook ad account id
 * One Facebook campaign name for which you have clicks and installs
 * Date range
 * For every day in date range, the number of clicks Facebook is reporting for this campaign - include both a table and a screenshot
-* For every day in date range, the number of installs Facebook is reporting for this campaign - include both a table and a screenshot 
+* For every day in date range, the number of installs Facebook is reporting for this campaign - include both a table and a screenshot
 
 *If you are looking at impressions/clicks for a past day:*
 
@@ -397,7 +397,7 @@ Second, make sure you're running ads that are resulting in installs, reinstalls,
 
 Third, on the Facebook Dashboard, locate a campaign with installs, reinstalls, or opens. Determine the ad account id for which you are running an app campaign. Then navigate to the [Facebook page under Partner Management](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"} and make sure that ad account id is listed as part of the completed signup process. It should appear here (two ad accounts are shown as enabled in the screenshot, though the ad account ids are blurred out):
 
-![complete](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/9-complete.png)
+![complete](/_assets/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/9-complete.png)
 
 Fourth, make sure you have installs, reinstalls, or opens that have occurred after you enabled the Branch + Facebook integration. We cannot pull historical device-level data, as that's not how the Facebook APIs are architected. You should enable Branch + Facebook, wait for new installs to occur, then check the [Ads Analytics](https://dashboard.branch.io/ads/analytics){:target="\_blank"} page.
 

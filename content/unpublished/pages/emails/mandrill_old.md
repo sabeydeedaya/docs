@@ -13,7 +13,7 @@ On **Done** click, an AASA file - required for Universal Links - specific to tha
 
 1. Add and verify a custom click tracking domain in the **[Tracking & Return Path Domains](https://mandrillapp.com/settings/tracking-domains){:target="\_blank"}** section of your Mandrill account:
 
-    ![image](/img/pages/email/mandrill-create-domain.png)
+    ![image](/_assets/img/pages/email/mandrill-create-domain.png)
 
 1. To enable tracking on a subdomain, you must set up a CNAME record in DNS pointing your subdomain to `mandrillapp.com`.
 

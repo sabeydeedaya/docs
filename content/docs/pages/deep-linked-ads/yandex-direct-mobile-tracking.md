@@ -2,7 +2,7 @@
 
 ![Yandex-Direct](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/YandexDirect-копия-300x87-1528510884120.png)
 
-This guide will walk you through how to setup your campaigns with **[Yandex Direct](https://direct.yandex.ru/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Yandex Direct](https://direct.yandex.ru/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Yandex Dire
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/yandex-direct/yandex-direct-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/yandex-direct/yandex-direct-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/yandex-direct/yandex-direct-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/yandex-direct/yandex-direct-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

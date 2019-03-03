@@ -2,7 +2,7 @@
 
 ![Oplytic](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Oplytic-1528507792219.png)
 
-This guide will walk you through how to setup your campaigns with **[Oplytic](https://www.oplytic.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Oplytic](https://www.oplytic.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Oplytic](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/oplytic/oplytic-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/oplytic/oplytic-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/oplytic/oplytic-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/oplytic/oplytic-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

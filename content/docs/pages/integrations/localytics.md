@@ -19,10 +19,10 @@ We have built a custom integration to automatically send all Branch install data
 ### Set up Localytics
 
 1. On the Localytics dashboard, navigate to the **Attribution** section, click the **•••** (overflow) button, and select **Settings**.
-![image](/img/pages/integrations/localytics/localytics-more.png)
+![image](/_assets/img/pages/integrations/localytics/localytics-more.png)
 1. Once there, you'll need to add your **Store ID** (iTunes for iOS, Play Store for Android).
 1. Under the section **Ad Tracking Setup**, check the box labeled **Third-party Attribution**. This will enable an **Attribution ID** for you. Copy it, and have it handy for the next steps.
-![image](/img/pages/integrations/localytics/localytics-attr-settings.png)
+![image](/_assets/img/pages/integrations/localytics/localytics-attr-settings.png)
 
 !!! protip "What does this mean?"
     Once you have selected to allow third-party attribution, Localytics will attribute non-Localytics installs to your dashboard. **This information is delayed by 10 minutes.**
@@ -36,7 +36,7 @@ We have built a custom integration to automatically send all Branch install data
   * If you have not yet entered billing information, please do so now.
 1. Enter your Localytics Attribution ID for each platform and hit **Save**
 
-![image](/img/pages/integrations/localytics/enable-localytics-integration.png)
+![image](/_assets/img/pages/integrations/localytics/enable-localytics-integration.png)
 
 !!! warning "Please test your integration!"
     Branch is not responsible for inaccurate API keys.

@@ -2,7 +2,7 @@
 
 ![Mobvista](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Mobvista-logo-color-2015-1528505734611.png)
 
-This guide will walk you through how to setup your campaigns with **[Mobvista](https://www.mobvista.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Mobvista](https://www.mobvista.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Mobvista](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mobvista/mobvista-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mobvista/mobvista-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mobvista/mobvista-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mobvista/mobvista-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

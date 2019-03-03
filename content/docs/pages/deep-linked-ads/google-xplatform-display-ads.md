@@ -42,14 +42,14 @@ Android | Yes | Uses tracking template, must redirect to Google Play store | [li
 #### Create a Branch Ad Link
 
 1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management){:target="\_blank"}'s `Create Google Adwords Link` button under the Google Adwords Partner and select `Create Display Link`
-<img src="/img/pages/deep-linked-ads/reusable-images/create-link-display.png" alt="Link Creation" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/reusable-images/create-link-display.png" alt="Link Creation" class="three-quarters center">
 1. Under the Define Section, pick a Link Name for later reference
 1. Configure the link with the Ad Format set to **Display** and the Ad Partner set to **Google Adwords**.
-![Create Ad Link](/img/pages/deep-linked-ads/google-xplatform-display-ads/link-setup.png)
+![Create Ad Link](/_assets/img/pages/deep-linked-ads/google-xplatform-display-ads/link-setup.png)
 1. Under the Configure Options tab, navigate to the Redirects sub section and ensure that the Web redirect is set to the desired final website promoted by the ad campaign.
-![Create Ad Link](/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
+![Create Ad Link](/_assets/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
 1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Adwords Campaign, set the channel field to Google Adwords and set the campaign field to the same ad campaign name used in Adwords.
-![Analytics Tags](/img/pages/deep-linked-ads/reusable-images/adwords-analytics-tags.png)
+![Analytics Tags](/_assets/img/pages/deep-linked-ads/reusable-images/adwords-analytics-tags.png)
 
 !!! note "Optional: Deep Link Data"
 	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
@@ -64,9 +64,9 @@ To set up a Display Network Campaign, you will need to first create your campaig
 #### Create Your Campaign
 
 1. Select `Display Network only` on Adwords
-<img src="/img/pages/deep-linked-ads/reusable-images/adwords-display-network.png" alt="Adwords Network" class="half center">
+<img src="/_assets/img/pages/deep-linked-ads/reusable-images/adwords-display-network.png" alt="Adwords Network" class="half center">
 1. Select the desired type of Display Campaign
-![Adwords Setup](/img/pages/deep-linked-ads/google-xplatform-display-ads/adwords-display-network.png)
+![Adwords Setup](/_assets/img/pages/deep-linked-ads/google-xplatform-display-ads/adwords-display-network.png)
 1. Continue setting the campaign and ad group parameters
 
 #### Ad Creation
@@ -75,9 +75,9 @@ To set up a Display Network Campaign, you will need to first create your campaig
 1. Copy your Branch Ad Link from the last section and ensure the copied link has the appropriate additional params (~campaign_id, ~ad_set_id, lpurl, etc.) which should be automatically generated on your Branch dashboard.
 1. Expand the **Advanced URL options** and paste your Branch Ad link into the **Tracking URL template** field.
 
-![Example Link](/img/pages/deep-linked-ads/google-xplatform-display-ads/full-branch-link.png)
+![Example Link](/_assets/img/pages/deep-linked-ads/google-xplatform-display-ads/full-branch-link.png)
 
-![Example Adwords Config](/img/pages/deep-linked-ads/google-xplatform-display-ads/adwords-configuration.png)
+![Example Adwords Config](/_assets/img/pages/deep-linked-ads/google-xplatform-display-ads/adwords-configuration.png)
 
 !!! note ""
 	Because the **Final URL** for your app install campaigns must match your app store domain, you cannot put a Branch link in that box. However, capturing installs and deep linking users through content is still possible due to the **Tracking template** configuration.

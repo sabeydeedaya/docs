@@ -2,7 +2,7 @@
 
 ![Mpire-Network](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mpirenetworklogo_app_market-1528505798104.png)
 
-This guide will walk you through how to setup your campaigns with **[Mpire Network](http://mpirenetwork.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Mpire Network](http://mpirenetwork.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Mpire Netwo
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mpire-network/mpire-network-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mpire-network/mpire-network-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mpire-network/mpire-network-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mpire-network/mpire-network-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

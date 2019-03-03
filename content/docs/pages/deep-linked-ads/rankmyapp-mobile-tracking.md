@@ -2,7 +2,7 @@
 
 ![RankMyApp](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/rank-1528509066108.png)
 
-This guide will walk you through how to setup your campaigns with **[RankMyApp](http://www.rankmyapp.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[RankMyApp](http://www.rankmyapp.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[RankMyApp](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/rankmyapp/rankmyapp-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/rankmyapp/rankmyapp-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/rankmyapp/rankmyapp-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/rankmyapp/rankmyapp-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

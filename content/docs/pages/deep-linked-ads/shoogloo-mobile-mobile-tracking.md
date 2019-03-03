@@ -2,7 +2,7 @@
 
 ![Shoogloo Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ShooGloo_Facebook1-1531354962250.jpg)
 
-This guide will walk you through how to setup your campaigns with **[Shoogloo Mobile](http://shoogloomobile.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Shoogloo Mobile](http://shoogloomobile.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Shoogloo Mo
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/shoogloo-mobile/shoogloo-mobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/shoogloo-mobile/shoogloo-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/shoogloo-mobile/shoogloo-mobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/shoogloo-mobile/shoogloo-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

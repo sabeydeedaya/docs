@@ -2,7 +2,7 @@
 
 ![PapayaMobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1536711782437.png)
 
-This guide will walk you through how to setup your campaigns with **[PapayaMobile](https://www.papayamobile.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[PapayaMobile](https://www.papayamobile.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[PapayaMobil
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/papayamobile/papayamobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/papayamobile/papayamobile-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/papayamobile/papayamobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/papayamobile/papayamobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

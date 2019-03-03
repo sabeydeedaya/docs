@@ -2,7 +2,7 @@
 
 ![MobUpps](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mobupps3-1528505716841.png)
 
-This guide will walk you through how to setup your campaigns with **[MobUpps](http://mobupps.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[MobUpps](http://mobupps.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[MobUpps](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mobupps/mobupps-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mobupps/mobupps-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mobupps/mobupps-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mobupps/mobupps-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

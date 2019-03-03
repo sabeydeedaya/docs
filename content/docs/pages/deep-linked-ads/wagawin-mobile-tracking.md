@@ -2,7 +2,7 @@
 
 ![Wagawin](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Wagawin-Logo-1547682856531.png)
 
-This guide will walk you through how to setup your campaigns with **[Wagawin](https://www.wagawin.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Wagawin](https://www.wagawin.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Wagawin](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/wagawin/wagawin-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/wagawin/wagawin-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/wagawin/wagawin-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/wagawin/wagawin-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

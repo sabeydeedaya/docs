@@ -30,7 +30,7 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 1. In the Adobe dashboard, activate Branch and add your Branch key to your app's configuration.
 	- Activate Branch:
 
-	![image](/img/pages/apps/adobe-launch-install.png)
+	![image](/_assets/img/pages/apps/adobe-launch-install.png)
 
 1. Add the AdobeBranchExtension to your app's Podfile.
 	`pod 'AdobeBranchExtension'`

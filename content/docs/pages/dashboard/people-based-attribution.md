@@ -54,9 +54,9 @@ Now that deep linking and attribution analytics are separate, we have attributio
 To access your attribution settings, navigate to the [Link Settings](https://dashboard.branch.io/link-settings) page, and click on the `Attribution Windows` tab.
 
 !!! info "Default Attribution Window Settings"
-		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.  
+		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.
 
-![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
 
 - `Deep Linking Duration` refers to the duration of time someone is eligible to receive deep link data. This includes anyone clicking a Branch link, or being automatically redirected to the app through a Branch Web SDK call. Measured in minutes.
 
@@ -84,17 +84,17 @@ Select visualizations also allow you to see total (i.e. non-unique) numbers as w
 
 ### Branch Summary Analytics
 
-This section covers the changes found on the main page of the Branch [dashboard](https://dashboard.branch.io).  
+This section covers the changes found on the main page of the Branch [dashboard](https://dashboard.branch.io).
 
 #### Install Summary Section
 
 This is the first chart found on the main page. This chart surfaces install counts for your app using the new People-Based Analytics.
 
-![image](/img/pages/dashboard/people-based-attribution/installs-summary-old.png)
+![image](/_assets/img/pages/dashboard/people-based-attribution/installs-summary-old.png)
 
 *old*
 
-![image](/img/pages/dashboard/people-based-attribution/installs-summary-new.png)
+![image](/_assets/img/pages/dashboard/people-based-attribution/installs-summary-new.png)
 
 *new*
 
@@ -162,7 +162,7 @@ If the difference in numbers is still concerning, reach out to your Branch accou
 
 When you filter by tags and compare on tags, you may see something a bit unexpected. Here's an example:
 
-![image](/img/pages/dashboard/people-based-attribution/tags.png)
+![image](/_assets/img/pages/dashboard/people-based-attribution/tags.png)
 
 Here you'll see that even though we've filtered for only one tag, '201804082343', multiple tags are present on the graph. This is because links can have multiple tags. So in this example, there were 7 installs on 04/09 that were attributed to a link click with tag '201804082343'. Within those installs, 4 had tag 'Android' as well, and so on.
 

@@ -11,7 +11,7 @@ Branch will send all **Branch link clicks** to Tune. Branch also sends all the d
 
 See your Branch organic acquisition campaigns alongside your Tune data. You can also use Branch links with Tune measurement URL parameters to get the advantages of Branch deep linking with Tune's fine-grained attribution data and ROI analysis.
 
-![image](/img/pages/integrations/tune/tune-dashboard-example.png)
+![image](/_assets/img/pages/integrations/tune/tune-dashboard-example.png)
 
 ## Setup
 
@@ -24,11 +24,11 @@ To set up the integration you will need your **Tune Advertiser ID** (an account-
 
 You can find your **Advertiser ID** by navigating to "Accounts > Advertiser Account" in the left hand sidebar and finding the Advertiser ID in the Account Details.
 
-![image](/img/pages/integrations/tune/tune-advertiser-id.png)
+![image](/_assets/img/pages/integrations/tune/tune-advertiser-id.png)
 
 You can find your **Site ID** by navigating to "Mobile Apps" in the left hand sidebar and getting the relevant Site ID from the table.
 
-![image](/img/pages/integrations/tune/tune-app-ids.png)
+![image](/_assets/img/pages/integrations/tune/tune-app-ids.png)
 
 To retrieve Branch's **Publisher ID** from Tune it is first necessary to set Branch up as an [Integrated Partner](https://help.tune.com/marketing-console/setting-up-an-integrated-advertising-partner/#1-enable-the-advertising-partner-integration) and find the Publisher ID:
 
@@ -38,7 +38,7 @@ To retrieve Branch's **Publisher ID** from Tune it is first necessary to set Bra
 1. Select Branch and, in the far-right column, click: Enable
 1. Click on the Branch logo, then click on the "Attribution Settings" tab and copy the Partner ID (also known as the Branch Publisher ID)
 
-![image](/img/pages/integrations/tune/tune-branch-partner-id.png)
+![image](/_assets/img/pages/integrations/tune/tune-branch-partner-id.png)
 
 ### Enable the Tune card in your Branch dashboard
 
@@ -48,7 +48,7 @@ To retrieve Branch's **Publisher ID** from Tune it is first necessary to set Bra
 1. Enter your Branch Partner ID, the Tune Advertiser ID and your platform-specific Tune Site IDs.
 1. Hit **Save**.
 
-![image](/img/pages/integrations/tune/enable-tune-integration.png)
+![image](/_assets/img/pages/integrations/tune/enable-tune-integration.png)
 
 ## Advanced
 
@@ -91,7 +91,7 @@ If you are interested in advanced network attribution segmentation in Tune, you 
 	- After creating the measurement URL, copy everything after **action=click&** and append the parameters to the end of your Branch link.
 	- You should remove `&site_id={value}` from the parameters, as Branch will automatically fill that in for your app depending on platform.
 
-![image](/img/pages/integrations/tune/tune-measurement-url.png)
+![image](/_assets/img/pages/integrations/tune/tune-measurement-url.png)
 
 Your new URL will now pass useful parameters to Tune.
 

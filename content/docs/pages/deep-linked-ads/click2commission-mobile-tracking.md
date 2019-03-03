@@ -2,7 +2,7 @@
 
 ![Click2Commission](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/c2c-HD-logo-1528847880292.png)
 
-This guide will walk you through how to setup your campaigns with **[Click2Commission](http://www.click2commission.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Click2Commission](http://www.click2commission.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Click2Commi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/click2commission/click2commission-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/click2commission/click2commission-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/click2commission/click2commission-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/click2commission/click2commission-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

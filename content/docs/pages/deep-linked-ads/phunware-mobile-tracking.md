@@ -2,7 +2,7 @@
 
 ![Phunware](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/phunware-1528507820049.png)
 
-This guide will walk you through how to setup your campaigns with **[Phunware](http://www.phunware.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Phunware](http://www.phunware.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Phunware](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/phunware/phunware-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/phunware/phunware-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/phunware/phunware-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/phunware/phunware-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

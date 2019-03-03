@@ -2,7 +2,7 @@
 
 ![Impact-Radius](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ir-1528505569606.png)
 
-This guide will walk you through how to setup your campaigns with **[Impact Radius](http://impactradius.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Impact Radius](http://impactradius.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Impact Radi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/impact-radius/impact-radius-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/impact-radius/impact-radius-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/impact-radius/impact-radius-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/impact-radius/impact-radius-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

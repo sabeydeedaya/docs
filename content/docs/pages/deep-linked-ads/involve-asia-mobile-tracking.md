@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Involve Asi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/involve-asia/involve-asia-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/involve-asia/involve-asia-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/involve-asia/involve-asia-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/involve-asia/involve-asia-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

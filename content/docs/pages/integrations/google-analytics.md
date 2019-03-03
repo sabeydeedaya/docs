@@ -14,11 +14,11 @@ Branch will send *referred* **installs** and **opens**, as well as any **custom 
 
 Branch events will appear alongside your other tracked events in Google Analytics. Here is an example of the Sources screen with test information set.
 
-![image](/img/pages/integrations/google-analytics/google-analytics-sources.png)
+![image](/_assets/img/pages/integrations/google-analytics/google-analytics-sources.png)
 
 To view referred **installs** and **opens**, as well as any custom events you track with Branch as they are occur, navigate to Real-Time > Events. The event category for all referred Branch events is **BranchEvent**.
 
-![image](/img/pages/integrations/google-analytics/google-analytics-open.png)
+![image](/_assets/img/pages/integrations/google-analytics/google-analytics-open.png)
 
 ## Setup
 
@@ -31,7 +31,7 @@ For the basic, codeless integration: find your Google Analytics Tracking ID (tid
 
 1. To locate your Google Analytics Tracking ID, navigate to https://analytics.google.com and log in.
 1. Click on **Home** in the navigation bar at the top of the page. You should see your app(s), with accompanying Tracking ID.
-1. Copy the Tracking ID of whichever app you’re going to use with Branch. This is also known as the Property ID, and it is of the form UA-XXXXXX-YY (e.g. UA-000000-01). Here’s an example: ![image](/img/pages/integrations/google-analytics/tid.png)
+1. Copy the Tracking ID of whichever app you’re going to use with Branch. This is also known as the Property ID, and it is of the form UA-XXXXXX-YY (e.g. UA-000000-01). Here’s an example: ![image](/_assets/img/pages/integrations/google-analytics/tid.png)
 
 ### Configure the Branch Dashboard
 
@@ -40,11 +40,11 @@ For the basic, codeless integration: find your Google Analytics Tracking ID (tid
   * If you have not yet entered billing information, please do so now.
 1. Enter your Google Analytics Tracking ID and hit **Save**
 
-![image](/img/pages/integrations/google-analytics/enable-ga.png)
+![image](/_assets/img/pages/integrations/google-analytics/enable-ga.png)
 
 !!! warning "Please test your integration!"
     Branch is not responsible for inaccurate API keys.
-    
+
 ### Mandatory: pass Client ID to Branch
 
 !!! warning "Required for integration"
@@ -99,7 +99,7 @@ Branch.getInstance().setRequestMetadata("$google_analytics_user_id", "USER-ID-HE
 ### What Branch Sends to Google Analytics
 
 | Property Name | Value | Sourced from | Example | Req
-| --- | --- | --- | --- | --- 
+| --- | --- | --- | --- | ---
 | v | API version | [fixed] | 1 | Y
 | tid | Tracking ID | Branch Dashboard | UA-XXXXXX-Y | Y
 | ds | Source (mobile SDK) | [fixed] | app | Y

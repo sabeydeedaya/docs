@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[GreedyGame 
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/greedygame-media/greedygame-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/greedygame-media/greedygame-media-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/greedygame-media/greedygame-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/greedygame-media/greedygame-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

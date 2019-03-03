@@ -9,13 +9,13 @@
 
     - Make sure `I have an iOS app` is enabled
 
-        ![image](/img/pages/dashboard/ios.png)
+        ![image](/_assets/img/pages/dashboard/ios.png)
 
 - ### Configure bundle identifier
 
     - Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/apps/ios-bundle-id.png)
+        ![image](/_assets/img/pages/apps/ios-bundle-id.png)
 
 - ### Configure associated domains
 
@@ -24,13 +24,13 @@
     - `test-` is needed if you need use a [test key](#use-test-key)
     - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
-        ![image](/img/pages/apps/ios-entitlements.png)
+        ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
 - ### Configure entitlements
 
     - Confirm entitlements are within target
 
-        ![image](/img/pages/apps/ios-package.png)
+        ![image](/_assets/img/pages/apps/ios-package.png)
 
 - ### Configure Info.plist
 
@@ -40,13 +40,13 @@
         - Add `branch_key` with your current Branch key
         - Add your URI scheme as `URL Types` -> `Item 0` -> `URL Schemes`
 
-        ![image](/img/pages/apps/ios-plist.png)
+        ![image](/_assets/img/pages/apps/ios-plist.png)
 
 - ### Confirm app prefix
 
     - From your [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle)
 
-        ![image](/img/pages/apps/ios-team-id.png)
+        ![image](/_assets/img/pages/apps/ios-team-id.png)
 
 - ### Install Branch
 
@@ -78,7 +78,7 @@
         - Drag and drop `Branch.framework` into `Embedded Binaries` (select `Copy items if needed`)
         - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
 
-        ![image](/img/pages/apps/ios-frameworks.png)
+        ![image](/_assets/img/pages/apps/ios-frameworks.png)
 
 - ### Initialize Branch
 
@@ -209,7 +209,7 @@
     - Compile and test on a device
     - Paste deep link in `Apple Notes`
     - Long press on the deep link (not 3D Touch)
-    - Click `Open in "APP_NAME"` to open your app ([example](/img/pages/apps/ios-notes.png))
+    - Click `Open in "APP_NAME"` to open your app ([example](/_assets/img/pages/apps/ios-notes.png))
 
     !!! tip "Testing deferred deep linking"
         Deferred deep linking is simply deep linking into an app that is not yet installed. Once the app is installed, the context is preserved and the user's first app-open will have the deep link data from the original Branch link. To test this, uninstall the app from your device, click the Branch link, and manually launch the app from Xcode. You should be routed to the correct content within your app.
@@ -921,7 +921,7 @@
     - Use only if you have a custom link domain
     - Add `branch_universal_link_domains` to your `info.plist` with an array of your link domain from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/apps/ios-link-domains.png)
+        ![image](/_assets/img/pages/apps/ios-link-domains.png)
 
 - ### Share to email options
 

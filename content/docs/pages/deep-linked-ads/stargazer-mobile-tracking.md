@@ -2,7 +2,7 @@
 
 ![Stargazer](https://cdn.branch.io/branch-assets/ad-partner-manager/231171383021818628/slogo-1536620586755.png)
 
-This guide will walk you through how to setup your campaigns with **[Stargazer](http://stargazer.co)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Stargazer](http://stargazer.co)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Stargazer](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/stargazer/stargazer-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/stargazer/stargazer-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/stargazer/stargazer-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/stargazer/stargazer-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

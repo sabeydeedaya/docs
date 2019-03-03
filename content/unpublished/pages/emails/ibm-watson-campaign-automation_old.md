@@ -4,8 +4,8 @@
 {! ingredients/email/email-configure-esp.md !}
 
 You can retrieve your click tracking domain from the **[From Domain Settings](https://engage4.silverpop.com/viewOrganization.do){:target="\_blank"}** section of your Organisation Settings at IBM Watson Campaign Automation account.
- 
- ![image](/img/pages/email/wca-domain.png)
+
+ ![image](/_assets/img/pages/email/wca-domain.png)
 
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 

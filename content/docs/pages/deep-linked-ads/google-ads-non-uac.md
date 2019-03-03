@@ -1,9 +1,9 @@
-!!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
+!!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
 		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
 		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
 		- **Web-based Ads** (this page)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)
 
 Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
@@ -34,7 +34,7 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 	* [x] Adding `$uri_redirect_mode=1` to link's data.  If app link settings `URI Deep Link Mode` is set to `Intelligent`, then this link key is unnecessary.
 	* [x] [App links (Android)](/pages/deep-linking/android-app-links/) and/or [Universal Links (iOS)](/pages/deep-linking/universal-links/).
 
-![image](/img/pages/deep-linked-ads/google/web-based-ads-routing-options.png)
+![image](/_assets/img/pages/deep-linked-ads/google/web-based-ads-routing-options.png)
 
 ## Setup
 
@@ -44,17 +44,17 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 ### Create a Branch Ad Link
 
 1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management)'s `Create Google Ads Link` button under the Google Ads Partner and select `Create Search/Display Link` depending on the type of Google Ads campaign you are running.
-<img src="/img/pages/deep-linked-ads/reusable-images/create-link-display.png" alt="Link Creation" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/reusable-images/create-link-display.png" alt="Link Creation" class="three-quarters center">
 1. Under the Define Section, pick a Link Name for later reference
 1. Configure the link with the Ad Format set to **Search** or **Display** and the Ad Partner set to **Google Ads**.
-![Create Ad Link](/img/pages/deep-linked-ads/google-xplatform-display-ads/link-setup.png)
+![Create Ad Link](/_assets/img/pages/deep-linked-ads/google-xplatform-display-ads/link-setup.png)
 1. Under the Configure Options tab, navigate to the Redirects sub section and ensure that the Web redirect is set to the desired final website promoted by the ad campaign.
-![Create Ad Link](/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
+![Create Ad Link](/_assets/img/pages/deep-linked-ads/reusable-images/example-link-redirect.png)
 1. Under the Analytics Tags sub section additional tags can be set. It is recommended to fill in these fields as they can be used as filters in Branch's Ads Analytics view. To best connect your ad link with your Adwords Campaign:
  	1. Set the `Channel` field to Google Ads
 	1. Set the `Campaign` field to the same ad campaign name used in Google Ads
 	1. Add a new tag - `~campaign_id` - to the same campaign ID in Google Ads
-![Analytics Tags](/img/pages/deep-linked-ads/reusable-images/adwords-analytics-tags.png)
+![Analytics Tags](/_assets/img/pages/deep-linked-ads/reusable-images/adwords-analytics-tags.png)
 
 !!! warning "Analytics Tags"
 	In order to line up *impressions*, *clicks* and *cost* with all downstream events, analytics tags must be present on the link and the values must *exactly* match the values in the Ad Network's dashboard.
@@ -151,7 +151,7 @@ Web | Yes
 ##### Uploading to Google Merchant Center
 
 1. In Google Merchant Center, navigate to `Products` then `Feeds`.
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-merchant-center-home.png" alt="Merchant Center Home" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-merchant-center-home.png" alt="Merchant Center Home" class="three-quarters center">
 1. Click the large blue plus button to add a new feed.
 1. Follow the prompts to name your feed, select feed language, and upload or connect your feed.
 1. Once your feed has been created, Merchant Center will take a few minutes to process it. Once that has finished, you're feed is ready to be used in your Adwords campaigns.
@@ -159,10 +159,10 @@ Web | Yes
 ##### Using your Merchant Center Feed in Adwords
 
 1. In your Adwords dashboard, navigate to the All Campaigns page.
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-campaign-view.png" alt="AdWords Campaign View" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-campaign-view.png" alt="AdWords Campaign View" class="three-quarters center">
 1. Click the red campaign button, and create a new Shopping Campaign.
 1. On the Shopping Ads Setup page, make sure the correct Merchant Identifier is selected (this should match the value in your Merchant Center Dashboard).
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-merchant-identifier.png" alt="AdWords Merchant Identifier" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-merchant-identifier.png" alt="AdWords Merchant Identifier" class="three-quarters center">
 1. Complete the ad configuration and name your ad group.
 1. You should see your new Campaign and Ad Group.
 
@@ -184,4 +184,4 @@ Operating System | Supported by Adwords Video Ads?
 --- | ---
 Web | Yes
 iOS | Yes
-Android | Yes  
+Android | Yes

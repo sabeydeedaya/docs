@@ -2,7 +2,7 @@
 
 ![Taboola](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/taboola-1528510044405.png)
 
-This guide will walk you through how to setup your campaigns with **[Taboola](https://www.taboola.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Taboola](https://www.taboola.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Taboola](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/taboola/taboola-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/taboola/taboola-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/taboola/taboola-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/taboola/taboola-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

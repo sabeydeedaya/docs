@@ -7,7 +7,7 @@ After integrating the Branch SDK, you need to let Apple know that you use the ID
 	1. **Attribute this app installation to a previously served advertisement**
 	2. **Attribute an action taken within this app to a previously served advertisement**
 
-![image](/img/pages/apps/idfa.png)
+![image](/_assets/img/pages/apps/idfa.png)
 
 !!! note "Why does Branch use the IDFA?"
     Branch uses the IDFA to identify users across our entire partner network, greatly increasing match accuracy rate. You can read more about this on the [matching accuracy page](/pages/resources/matching/). You do not need to perform these steps if you installed the Branch framework manually and elected **not** to import `AdSupport.framework` or via Cocoapods and chose the Branch/without-IDFA subspec.

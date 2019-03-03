@@ -2,7 +2,7 @@
 
 When you enable an ad partner, your ad partner postbacks can be found under the **Postbacks** tab for that ad partner. It's easy to add additional postbacks.
 
-![image](/img/pages/deep-linked-ads/branch-universal-ads/postbacks-tab.png)
+![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/postbacks-tab.png)
 
 1. Click the **Add New Postback** button at the bottom of the screen.
 

@@ -2,7 +2,7 @@
 
 ![Stroer-Mobile-Performance](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1527829201082.png)
 
-This guide will walk you through how to setup your campaigns with **[Ströer Mobile Performance](https://www.stroeer.de/ )** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Ströer Mobile Performance](https://www.stroeer.de/ )** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Ströer Mob
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/stroer-mobile-performance/stroer-mobile-performance-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/stroer-mobile-performance/stroer-mobile-performance-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/stroer-mobile-performance/stroer-mobile-performance-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/stroer-mobile-performance/stroer-mobile-performance-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

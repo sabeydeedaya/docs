@@ -2,7 +2,7 @@
 
 ![Adxperience](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adxperience-1524620442557.png)
 
-This guide will walk you through how to setup your campaigns with **[Adxperience](https://adxperience.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adxperience](https://adxperience.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adxperience
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adxperience/adxperience-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adxperience/adxperience-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adxperience/adxperience-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adxperience/adxperience-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

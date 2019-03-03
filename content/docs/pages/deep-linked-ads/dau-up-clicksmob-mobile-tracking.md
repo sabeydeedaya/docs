@@ -2,7 +2,7 @@
 
 ![DAU-UP ClicksMob](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/thumbnail-1533252715185.png)
 
-This guide will walk you through how to setup your campaigns with **[DAU-UP ClicksMob](https://www.dauup-clicksmob.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[DAU-UP ClicksMob](https://www.dauup-clicksmob.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[DAU-UP Clic
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/dau-up-clicksmob/dau-up-clicksmob-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/dau-up-clicksmob/dau-up-clicksmob-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/dau-up-clicksmob/dau-up-clicksmob-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/dau-up-clicksmob/dau-up-clicksmob-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

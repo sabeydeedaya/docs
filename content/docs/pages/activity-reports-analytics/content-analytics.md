@@ -4,7 +4,7 @@ Content Analytics provides views, links, clicks, installs, and opens for your ap
 
 A piece of content could even be a monster! Yes, in the case of Branch Monster Factory (the Branch team's app), a piece of content is a single monster created by a user:
 
-![image](/img/pages/analytics/content-analytics0.png)
+![image](/_assets/img/pages/analytics/content-analytics0.png)
 
 
 ## Why does Content Analytics matter to me?

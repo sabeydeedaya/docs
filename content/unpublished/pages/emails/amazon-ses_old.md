@@ -3,7 +3,7 @@
 
 {! ingredients/email/email-configure-esp.md !}
 
-You can retrieve your click tracking domain from the **Domains** section of your Amazon SES account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Domains** section of your Amazon SES account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain).
 
 You will also need to add your AWS tracking domain next to your click tracking domain in the **Amazon SES Domain** field in the Configure ESP step. It should be one of the following:
 
@@ -21,7 +21,7 @@ On **Done** click, an AASA file - required for Universal Links - specific to tha
 
 Add and verify an email domain in the **Domains** section of your Amazon SES account:
 
-   ![image](/img/pages/email/amazon-ses-domain.png)
+   ![image](/_assets/img/pages/email/amazon-ses-domain.png)
 
 For more information on how to set up a click tracking domain please visit Amazon SES's [documentation](http://docs.aws.amazon.com/ses/latest/DeveloperGuide/configure-custom-open-click-domains.html){:target="\_blank"}.
 

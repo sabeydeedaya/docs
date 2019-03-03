@@ -2,7 +2,7 @@
 
 ![Roundcubez](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/RoundCubez_logo-1540433954678.png)
 
-This guide will walk you through how to setup your campaigns with **[Roundcubez](http://roundcubez.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Roundcubez](http://roundcubez.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Roundcubez]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/roundcubez/roundcubez-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/roundcubez/roundcubez-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/roundcubez/roundcubez-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/roundcubez/roundcubez-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

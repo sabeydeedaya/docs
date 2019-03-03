@@ -2,7 +2,7 @@
 
 ![Drawbridge](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Drawbridge_Logo_2015-1528503041291.png)
 
-This guide will walk you through how to setup your campaigns with **[Drawbridge](http://drawbridge.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Drawbridge](http://drawbridge.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Drawbridge]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/drawbridge/drawbridge-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/drawbridge/drawbridge-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/drawbridge/drawbridge-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/drawbridge/drawbridge-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

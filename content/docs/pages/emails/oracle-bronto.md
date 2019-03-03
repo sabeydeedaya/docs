@@ -1,6 +1,6 @@
 ## Overview
 
-![Oracle-Bronto](/img/pages/email/oracle-bronto/oracle-bronto.png)
+![Oracle-Bronto](/_assets/img/pages/email/oracle-bronto/oracle-bronto.png)
 
 This guide will walk you through how to setup your email campaigns with **[Oracle Bronto](https://bronto.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -33,12 +33,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-Contact your **Bronto Account Manager** to retrieve your private domain of your Bronto account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+Contact your **Bronto Account Manager** to retrieve your private domain of your Bronto account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/oracle-bronto/setup-config.png)
+![image](/_assets/img/pages/email/oracle-bronto/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

@@ -2,7 +2,7 @@
 
 ![Spyke-Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/spyke-1528509165837.png)
 
-This guide will walk you through how to setup your campaigns with **[Spyke Media](https://www.spykemedia.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Spyke Media](https://www.spykemedia.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Spyke Media
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/spyke-media/spyke-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/spyke-media/spyke-media-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/spyke-media/spyke-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/spyke-media/spyke-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -2,7 +2,7 @@
 
 ![Ads-Hero](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/ads-hero-1528497639410.png)
 
-This guide will walk you through how to setup your campaigns with **[Ads Hero](http://adshero.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Ads Hero](http://adshero.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Ads Hero](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/ads-hero/ads-hero-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/ads-hero/ads-hero-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/ads-hero/ads-hero-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/ads-hero/ads-hero-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

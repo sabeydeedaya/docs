@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Creative Cl
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/creative-clicks/creative-clicks-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/creative-clicks/creative-clicks-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/creative-clicks/creative-clicks-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/creative-clicks/creative-clicks-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

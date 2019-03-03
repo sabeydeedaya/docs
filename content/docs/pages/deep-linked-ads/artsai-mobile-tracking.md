@@ -2,7 +2,7 @@
 
 ![Artsai](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/artsai-1534206815949.png)
 
-This guide will walk you through how to setup your campaigns with **[Artsai](http://artsai.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Artsai](http://artsai.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Artsai](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/artsai/artsai-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/artsai/artsai-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/artsai/artsai-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/artsai/artsai-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

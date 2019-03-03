@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[CommerceX v
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/commercex-vnative/commercex-vnative-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/commercex-vnative/commercex-vnative-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/commercex-vnative/commercex-vnative-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/commercex-vnative/commercex-vnative-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

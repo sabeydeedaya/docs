@@ -2,7 +2,7 @@
 
 ![SilverPush - Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/silverpush-1533251641611-1533859791188.png)
 
-This guide will walk you through how to setup your campaigns with **[SilverPush - Affise](http://www.silverpush.co)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[SilverPush - Affise](http://www.silverpush.co)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[SilverPush 
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/silverpush-affise/silverpush-affise-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/silverpush-affise/silverpush-affise-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/silverpush-affise/silverpush-affise-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/silverpush-affise/silverpush-affise-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

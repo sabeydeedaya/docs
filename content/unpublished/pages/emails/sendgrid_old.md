@@ -9,16 +9,16 @@ You can retrieve your click tracking domains from your Sendgrid settings:
 1. Go to Settings > Sender Authentication > [Links](https://app.sendgrid.com/settings/sender_auth/links).
 1. Find your email link whitelabeled domain, click on the three-dot icon, and click "View" (or create a new whitelabel).
 
-    ![image](/img/pages/email/sendgrid/configure_sendgrid_1.png)
+    ![image](/_assets/img/pages/email/sendgrid/configure_sendgrid_1.png)
 
 1. Note the "Host" email click tracking domain (e.g. email.mydomain.com) and the SendGrid domain under "Data".
 
-    ![image](/img/pages/email/sendgrid/configure_sendgrid_2.png)
+    ![image](/_assets/img/pages/email/sendgrid/configure_sendgrid_2.png)
 
 1. Enter both the click tracking domain and the SendGrid domain in item 1 of this step:
 
-    ![image](/img/pages/email/sendgrid/configure-sendgrid-1.png)
-   
+    ![image](/_assets/img/pages/email/sendgrid/configure-sendgrid-1.png)
+
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 
 {! ingredients/email/email-technical-setup.md !}
@@ -42,7 +42,7 @@ Before you CNAME to Branch, you must CNAME your click tracking domain to sendgri
 ## Troubleshoot issues
 
 - ### Error validating whitelabel: Expect CNAME record
-    If you are seeing this [error message](/img/pages/email/sendgrid/sendgrid_error.png), the reason is that SendGrid will only consider the CNAME sendgrid.net valid. To get rid of this error, please:
+    If you are seeing this [error message](/_assets/img/pages/email/sendgrid/sendgrid_error.png), the reason is that SendGrid will only consider the CNAME sendgrid.net valid. To get rid of this error, please:
 
     1. CNAME your subdomain to sendgrid.net
     1. Validate records on SendGrid dashboard

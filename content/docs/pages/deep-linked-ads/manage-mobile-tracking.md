@@ -2,7 +2,7 @@
 
 ![Manage](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/manage_owler_20160228_060330_original-1528505646105.png)
 
-This guide will walk you through how to setup your campaigns with **[Manage](https://www.manage.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Manage](https://www.manage.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Manage](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/manage/manage-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/manage/manage-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/manage/manage-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/manage/manage-postbacks.png)
 
 !!! caution "OS specific Event IDs"
     You must replace **Android_Event_ID** and **iOS_Event_ID** with real values from your Manage dashboard.

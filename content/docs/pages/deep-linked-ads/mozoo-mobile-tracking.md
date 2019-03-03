@@ -2,7 +2,7 @@
 
 ![Mozoo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Mozoo-Performance-1528505916600.png)
 
-This guide will walk you through how to setup your campaigns with **[Mozoo](http://www.surikate.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Mozoo](http://www.surikate.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Mozoo](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mozoo/mozoo-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mozoo/mozoo-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mozoo/mozoo-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mozoo/mozoo-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -37,9 +37,9 @@
             | Instagram Stories | Fallback | *Able to force app open | App |
             | Twitter Feed | Fallback | *Able to force app open. Links with `$ios_url` or `$fallback_url` redirect fallbacks require [web SDK 2.48.0+](https://github.com/BranchMetrics/web-branch-deep-linking/releases/tag/v2.48.0) init on the website | App |
             | Twitter Browser | App | | App |
-            | Snap messages | App | | App | 
-            | Snap stories | Fallback | [Review custom instructions for using Branch in Snap stories](#branch-links-in-snapchat-stories-ios) | App | 
-            | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback | 
+            | Snap messages | App | | App |
+            | Snap stories | Fallback | [Review custom instructions for using Branch in Snap stories](#branch-links-in-snapchat-stories-ios) | App |
+            | Reddit | Fallback | Need to use `$use_https_app_store`: `true` in link to fallback to App Store | Fallback |
             | Pinterest | Fallback | | Fallback |
             | Pinterest Browser | App | | App |
             | Google+ | Fallback | App Store redirects will not work | Fallback |
@@ -231,7 +231,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | --- | --- | ---
         | $uri_redirect_mode | **0** | This is the default value that yields the standard behavior where we don't try to open the app if the user can see an error.
         | $uri_redirect_mode | **1** | Smart redirect mode. Same behavior as 0 until we know the user has the app installed through Branch persona data. In that case, force URI schemes to open the app.
-        | $uri_redirect_mode | **2** | Forceful redirect mode. Always try to force open the app, even if it risks showing an [error message](/img/pages/links/uri-error-message.png) when the app is not installed.
+        | $uri_redirect_mode | **2** | Forceful redirect mode. Always try to force open the app, even if it risks showing an [error message](/_assets/img/pages/links/uri-error-message.png) when the app is not installed.
 
     - Supported Apps
 
@@ -258,7 +258,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | $custom_sms_text | | Text for SMS link sent for desktop clicks to this link. Must contain `{{ link }}` Value of Text me the app page in Settings
         | $marketing_title | | Set the marketing title for the deep link in the [Quick Links](https://dashboard.branch.io/marketing) when creating links from the API with `type` = `2`
         | $deeplink_no_attribution | | Set to `true` for the links to only support deep linking without any attribution for that link.
-        
+
 
 - ### Content
 

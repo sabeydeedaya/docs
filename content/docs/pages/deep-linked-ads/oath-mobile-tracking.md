@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Oath](https
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/oath/oath-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/oath/oath-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/oath/oath-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/oath/oath-postbacks.png)
 
 !!! warning "Send All Events"
 	By default, postbacks to Oath are enabled to send all events to Oath, not just those events attributed to them. This allows Oath to attribute on Gemini and DSP inventory. Please ensure this setting remains set to `All Events`.

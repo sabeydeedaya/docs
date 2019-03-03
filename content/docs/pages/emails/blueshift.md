@@ -1,6 +1,6 @@
 ## Overview
 
-![Blueshift](/img/pages/email/blueshift/blueshift.png)
+![Blueshift](/_assets/img/pages/email/blueshift/blueshift.png)
 
 This guide will walk you through how to setup your email campaigns with **[Blueshift](https://blueshift.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -31,10 +31,10 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 You can retrieve your click tracking domains from your Blueshift settings.
 
-![image](/img/pages/email/blueshift/setup-config.png)
+![image](/_assets/img/pages/email/blueshift/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

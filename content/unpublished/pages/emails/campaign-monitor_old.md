@@ -3,7 +3,7 @@
 
 {! ingredients/email/email-configure-esp.md !}
 
-You can retrieve your click tracking domain from the **Account settings** section of your Campaign Monitor account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Account settings** section of your Campaign Monitor account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain).
 
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 
@@ -13,7 +13,7 @@ On **Done** click, an AASA file - required for Universal Links - specific to tha
 
 1. Add a custom click tracking domain in the **Account Settings** section of your Campaign Monitor account:
 
-    ![image](/img/pages/email/campaign-monitor-domain.png)
+    ![image](/_assets/img/pages/email/campaign-monitor-domain.png)
 
 1. Create a new CNAME record in your DNS zone file point it to Campaign Monitor
 1. Verify the domain in Campaign Monitor

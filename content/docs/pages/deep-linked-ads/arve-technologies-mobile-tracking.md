@@ -2,7 +2,7 @@
 
 ![ARVE Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/arvetechlogo-1535683392929.png)
 
-This guide will walk you through how to setup your campaigns with **[ARVE Technologies](http://www.arvetechnologies.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[ARVE Technologies](http://www.arvetechnologies.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[ARVE Techno
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/arve-technologies/arve-technologies-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/arve-technologies/arve-technologies-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/arve-technologies/arve-technologies-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/arve-technologies/arve-technologies-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

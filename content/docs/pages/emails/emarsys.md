@@ -31,15 +31,15 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/emarsys/setup-config.png)
+![image](/_assets/img/pages/email/emarsys/setup-config.png)
 
 !!! caution "Update Redirection logic"
     Don't forget to send a request to Emarsys support to update the redirection logic - you have to use a Server-Side redirect.
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

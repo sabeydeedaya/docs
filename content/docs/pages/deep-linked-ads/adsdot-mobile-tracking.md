@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[ADSDOT](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adsdot/adsdot-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adsdot/adsdot-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adsdot/adsdot-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adsdot/adsdot-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

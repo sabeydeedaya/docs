@@ -14,7 +14,7 @@
 
     - Complete the `Basic integration` within [Configure your dashboard](/pages/dashboard/integrate/)
 
-        ![image](/img/pages/dashboard/fallback.png)
+        ![image](/_assets/img/pages/dashboard/fallback.png)
 
 - ### Integrate app
 
@@ -273,7 +273,7 @@
 
     - Sets the identity of a user (email, ID, UUID, etc) for events, deep links, and referrals
 
-    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/identities)  
+    - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/identities)
 
         ```js
         branch.setIdentity('123456');
@@ -307,7 +307,7 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-        ```js        
+        ```js
         branch.logEvent(
              "custom_event",
              { metadata: '123' },

@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Tapjoy](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/tapjoy/tapjoy-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/tapjoy/tapjoy-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/tapjoy/tapjoy-postbacks-new.png)
+![image](/_assets/img/pages/deep-linked-ads/tapjoy/tapjoy-postbacks-new.png)
 
 If you are running CPE campaigns you should add **TAPJOY_APP_ID** in the Goal_ID field. Example **iOS_TAPJOY_APP_ID, Android_TAPJOY_APP_ID**
 Branch will send the postback **only** for events with matching TAPJOY_APP_ID.

@@ -2,7 +2,7 @@
 
 ![Clickky](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/clickky-1528501647002.png)
 
-This guide will walk you through how to setup your campaigns with **[Clickky](https://clickky.biz)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Clickky](https://clickky.biz)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Clickky](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/clickky/clickky-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/clickky/clickky-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/clickky/clickky-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/clickky/clickky-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

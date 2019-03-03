@@ -2,7 +2,7 @@
 
 ![Picnic-Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/picnicmedia-1528507830460.png)
 
-This guide will walk you through how to setup your campaigns with **[Picnic Media](https://www.picnic-media.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Picnic Media](https://www.picnic-media.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Picnic Medi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/picnic-media/picnic-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/picnic-media/picnic-media-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/picnic-media/picnic-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/picnic-media/picnic-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

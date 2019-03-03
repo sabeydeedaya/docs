@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[ResultsMedi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/resultsmedia/resultsmedia-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/resultsmedia/resultsmedia-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/resultsmedia/resultsmedia-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/resultsmedia/resultsmedia-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -28,11 +28,11 @@ We'll pass along all of the Branch link's analytics data, which will map to labe
 
 To set up the integration, you will need to navigate to your Adjust dashboard, and create a new tracking link for your mobile app. Start by selecting 'Settings' of your mobile app.
 
-![image](/img/pages/integrations/adjust/adjust-tracker-setting.png)
+![image](/_assets/img/pages/integrations/adjust/adjust-tracker-setting.png)
 
 From there, you will need to create a new tracker, which is found under Data Management > Trackers > Click Trackers, and "Create a new tracker" below. Be sure to call it "Branch." Once created, grab the 6 digit value after the `app.adjust.com` portion. This is your tracker.
 
-![image](/img/pages/integrations/adjust/adjust-tracker.png)
+![image](/_assets/img/pages/integrations/adjust/adjust-tracker.png)
 
 ### Enable the Adjust card in your Branch dashboard
 
@@ -42,7 +42,7 @@ From there, you will need to create a new tracker, which is found under Data Man
 1. Enter your tracker for iOS and Android.
 1. Hit **Save**.
 
-![image](/img/pages/integrations/adjust/enable-adjust-integration.png)
+![image](/_assets/img/pages/integrations/adjust/enable-adjust-integration.png)
 
 ### Add Adjust tracking link to your Branch Settings
 
@@ -54,7 +54,7 @@ You need to point the iOS Custom Redirect to Adjust. Take the tracker you just c
 | --- | ---
 | **iOS** | https://app.adjust.io/abcdef
 
-![image](/img/pages/integrations/adjust/adjust-redirect-settings.png)
+![image](/_assets/img/pages/integrations/adjust/adjust-redirect-settings.png)
 
 ## Advanced
 
@@ -76,4 +76,4 @@ By default, installs and events via Branch links will be attributed to Branch vi
 1. Name your Adjust tracker something like "TapjoyBranch"
 1. Take the 6 letter identifier for your tracker and put it as a key value pair with key `tracker_id` in your deep link data for that specific link.
 
-![image](/img/pages/integrations/adjust/override-adjust.png)
+![image](/_assets/img/pages/integrations/adjust/override-adjust.png)

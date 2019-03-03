@@ -2,7 +2,7 @@
 
 ![Rocket10](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo_rocket10_mobile-1536959875665.png)
 
-This guide will walk you through how to setup your campaigns with **[Rocket10](https://rocket10.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Rocket10](https://rocket10.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Rocket10](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/rocket10/rocket10-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/rocket10/rocket10-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/rocket10/rocket10-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/rocket10/rocket10-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

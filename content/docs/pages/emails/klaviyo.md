@@ -1,6 +1,6 @@
 ## Overview
 
-![Klaviyo](/img/pages/email/klaviyo/klaviyo.png)
+![Klaviyo](/_assets/img/pages/email/klaviyo/klaviyo.png)
 
 This guide will walk you through how to setup your email campaigns with **[Klaviyo](https://www.klaviyo.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -33,12 +33,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-Contact your **Klaviyo Account Manager** and request the name of your Custom Click Tracking domain. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+Contact your **Klaviyo Account Manager** and request the name of your Custom Click Tracking domain. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/klaviyo/setup-config.png)
+![image](/_assets/img/pages/email/klaviyo/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

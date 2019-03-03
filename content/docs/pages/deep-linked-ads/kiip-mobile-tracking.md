@@ -2,7 +2,7 @@
 
 ![Kiip](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Kiip-1527869653236.png)
 
-This guide will walk you through how to setup your campaigns with **[Kiip](http://www.kiip.me)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Kiip](http://www.kiip.me)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Kiip](http:
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/kiip/kiip-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/kiip/kiip-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/kiip/kiip-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/kiip/kiip-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

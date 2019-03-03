@@ -17,20 +17,20 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - Make sure Bundle Id matches your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-    ![image](/img/pages/apps/ios-bundle-id.png)
+    ![image](/_assets/img/pages/apps/ios-bundle-id.png)
 
 ### Confirm app prefix
 
 - From your [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle)
 
-    ![image](/img/pages/apps/ios-team-id.png)
+    ![image](/_assets/img/pages/apps/ios-team-id.png)
 
 ### Configure Branch Dashboard & Enable Universal Links
 
 - Enter a URI scheme in the [Branch Dashboard](https://dashboard.branch.io/settings/link) and [enable Universal Links](/pages/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
 
-    ![image](/img/pages/dashboard/ios.png)
-    ![image](/img/pages/dashboard/link-domain.png)
+    ![image](/_assets/img/pages/dashboard/ios.png)
+    ![image](/_assets/img/pages/dashboard/link-domain.png)
 
 ### Configure associated domains
 
@@ -39,13 +39,13 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 - `test-` is needed if you need use a [test key](#use-test-key)
 - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
-    ![image](/img/pages/apps/ios-entitlements.png)
+    ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
 ### Configure entitlements
 
 - Confirm entitlements are within target
 
-  ![image](/img/pages/apps/ios-package.png)
+  ![image](/_assets/img/pages/apps/ios-package.png)
 
 ### Configure info.pList
 
@@ -55,7 +55,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
     - Add your URI scheme as `URL Types` -> `Item 0` -> `URL Schemes`
     - Do NOT add your API keys to the file (mParticle handles this via the dashboard)
 
-    ![image](/img/pages/apps/ios-plist.png)
+    ![image](/_assets/img/pages/apps/ios-plist.png)
 
 ## mParticle Setup
 
@@ -129,7 +129,7 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 - Compile and test on a device
 - Paste deep link in `Apple Notes`
 - Long press on the deep link (not 3D Touch)
-- Click `Open in "APP_NAME"` to open your app ([example](/img/pages/apps/ios-notes.png))
+- Click `Open in "APP_NAME"` to open your app ([example](/_assets/img/pages/apps/ios-notes.png))
 
 ## Implementing features
 

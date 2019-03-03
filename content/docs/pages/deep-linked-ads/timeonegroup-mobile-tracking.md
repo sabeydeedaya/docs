@@ -2,7 +2,7 @@
 
 ![TimeOneGroup](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/timeone-1534544009568.png)
 
-This guide will walk you through how to setup your campaigns with **[TimeOneGroup](https://www.timeonegroup.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[TimeOneGroup](https://www.timeonegroup.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[TimeOneGrou
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/timeonegroup/timeonegroup-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/timeonegroup/timeonegroup-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/timeonegroup/timeonegroup-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/timeonegroup/timeonegroup-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

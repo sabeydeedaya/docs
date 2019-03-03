@@ -1,6 +1,6 @@
 ## Overview
 
-![Oracle-Eloqua](/img/pages/email/oracle-eloqua/oracle-eloqua.png)
+![Oracle-Eloqua](/_assets/img/pages/email/oracle-eloqua/oracle-eloqua.png)
 
 This guide will walk you through how to setup your email campaigns with **[Oracle Eloqua](http://www.eloqua.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -31,13 +31,13 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **Email Configuration** section of your Eloqua account. 
-If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Email Configuration** section of your Eloqua account.
+If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/oracle-eloqua/setup-config.png)
+![image](/_assets/img/pages/email/oracle-eloqua/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

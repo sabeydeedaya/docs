@@ -1,6 +1,6 @@
 ## Overview
 
-![SendGrid](/img/pages/email/sendgrid/sendgrid.png)
+![SendGrid](/_assets/img/pages/email/sendgrid/sendgrid.png)
 
 This guide will walk you through how to setup your email campaigns with **[SendGrid](https://sendgrid.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[SendG
 
 1. Add a custom click tracking domain in the **[Tracking Domains](https://app.sendgrid.com/settings/sender_auth/links){:target="\_blank"}** section of your SendGrid account:
 
-    ![image](/img/pages/email/sendgrid/create-domain.png)
+    ![image](/_assets/img/pages/email/sendgrid/create-domain.png)
 
 2. Validate the new click tracking domain in Sendgrid's dashboard, and also retrieve the secondary domain from the final step of that validation process (this secondary domain will be needed when you enable the Branch integration).
 
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sendgrid.com/settings/sender_auth/links){:target="\_blank"}** section of your SendGrid account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Tracking Domains](https://app.sendgrid.com/settings/sender_auth/links){:target="\_blank"}** section of your SendGrid account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/sendgrid/setup-config.png)
+![image](/_assets/img/pages/email/sendgrid/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

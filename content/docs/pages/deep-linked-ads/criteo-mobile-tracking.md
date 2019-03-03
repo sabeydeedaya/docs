@@ -90,7 +90,7 @@ func application(_
         continue userActivity: NSUserActivity,
         restorationHandler: @escaping ([Any]?) -> Void
     ) -> Bool {
-        
+
         // NOTE: you should sanitize the webpage URL to ensure no sensitive data is passed.
         Branch.getInstance().setRequestMetadataKey("$criteo_deep_link_url", value: userActivity.webpageURL?.absoluteString);
         let branchHandled = Branch.getInstance().continue(userActivity)
@@ -247,11 +247,11 @@ Once you've integrated the SDK and configured the relevant events, you can enabl
 2. Select [Partner Management](https://dashboard.branch.io/ads/partner-management) from the sidebar.
 3. Search for Criteo.
 
-![image](/img/pages/deep-linked-ads/criteo/search-criteo.png)
+![image](/_assets/img/pages/deep-linked-ads/criteo/search-criteo.png)
 
 4. Click **Save and Enable** in the bottom right hand corner.
 
-![image](/img/pages/deep-linked-ads/criteo/enable-criteo.png)
+![image](/_assets/img/pages/deep-linked-ads/criteo/enable-criteo.png)
 
 !!! tip "Enable postbacks"
     Postbacks will automatically be activated for the events listed above when you enable the integration. You can always [add additional postbacks](#adding-postbacks) or [edit postbacks](#editing-postbacks), as described below in the Advanced section.
@@ -262,7 +262,7 @@ It is possible to opt in to send all events occurring in your app to Criteo, not
 
 To send all events to Criteo, switch the "Send Postbacks For" toggle under the **Postback Config** in the [Ads Partner Manager](https://dashboard.branch.io/ads/partner-management/a_criteo?tab=postback) to **All events**.
 
-![image](/img/pages/deep-linked-ads/criteo/all-events-toggle.png)
+![image](/_assets/img/pages/deep-linked-ads/criteo/all-events-toggle.png)
 
 ### Link creation for deep linking and measurement
 
@@ -270,7 +270,7 @@ To send all events to Criteo, switch the "Send Postbacks For" toggle under the *
 
 *Recommended*
 
-Branch links function as Universal Links or App Links, as well as deferred deep links, meaning better conversions on all Criteo campaigns. 
+Branch links function as Universal Links or App Links, as well as deferred deep links, meaning better conversions on all Criteo campaigns.
 
 The same Branch link will do measurement as well as deep linking, so there's no need for additional "tracking-only" links. In fact, if you're using Branch links as your campaign links, you shouldn't use additional server to server tracking as well.
 
@@ -296,16 +296,16 @@ Some types of Criteo campaign require URI scheme style deep linking instead of H
 1. Start with your URI scheme `example://`
 1. Append `open?link_click_id=a-`. For example: `example://open?link_click_id=a-`
 1. Create a JSON blob of your link data, including `"~feature":"paid advertising", "$3p":"a_criteo"`
-    For example: 
+    For example:
     ```code
     {"~feature":"paid advertising", "$3p":"a_criteo", "~campaign":"My Summer Campaign", "product_id":1234, "category":"shoes"}
     ```
-1. Base64 encode your JSON blob. 
-    ```code 
+1. Base64 encode your JSON blob.
+    ```code
     eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
     ```
 1. Append that to your base link, and you're done!
-    ```code 
+    ```code
     example://link_click_id=a-eyJ+ZmVhdHVyZSI6InBhaWQgYWR2ZXJ0aXNpbmciLCAiJDNwIjoiYV9jcml0ZW8iLCAifmNhbXBhaWduIjoiTXkgU3VtbWVyIENhbXBhaWduIiwgInByb2R1Y3RfaWQiOjEyMzQsICJjYXRlZ29yeSI6InNob2VzIn0=
     ```
 
@@ -315,24 +315,24 @@ Just need a single link? It's easy to use the Branch dashboard to create a one-o
 
 1. First, click **Create Ad Link** in the top right hand side of the Criteo Partner Manager UI.
 
-    ![image](/img/pages/deep-linked-ads/criteo/criteo-create-link.png)
+    ![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-create-link.png)
 
 1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format.
 
     To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/pages/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
 
-    ![image](/img/pages/deep-linked-ads/criteo/criteo-link-chooser.png)
+    ![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-link-chooser.png)
 
 1. If you've select a simple App Engagement link, you'll start with a name for it. Select something that will make it easy to find if you need it later. Your Ad Format and Ad Partner should be selected already, but feel free to choose one if they aren't. It's important that you select the right Ad Partner for analytics later on. Click **Configure Options** to continue.
 
-    ![image](/img/pages/deep-linked-ads/criteo/criteo-engagement-link.png)
+    ![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-engagement-link.png)
 
 1. This is your chance to add deep link data and analytics tags.
 
     - Deep Link Data is used to provide the app with product information, so the app can take customers to the right content in the app.
     - Analytics tags are important for later segmentation, so click the **Analytics** sub tab to add a Channel and Campaign value.
 
-    ![image](/img/pages/deep-linked-ads/criteo/criteo-analytics-tags.png)
+    ![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-analytics-tags.png)
 
     !!! tip "Set Analytics tags"
 
@@ -340,11 +340,11 @@ Just need a single link? It's easy to use the Branch dashboard to create a one-o
 
 1. Click **Create Link Now**, and you have your tracking link! Take this link and give it to your Criteo Solutions Engineer as an example.
 
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/finished-ad-link.png)
+    ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/finished-ad-link.png)
 
 #### Option 3: Server to server tracking links
 
-If you just need a server to server tracking link, you can use the same flow as Option 2, above. 
+If you just need a server to server tracking link, you can use the same flow as Option 2, above.
 
 However, at the end, add `%24s2s=true` to your link, so we know it's a server to server to link.
 
@@ -359,7 +359,7 @@ For example, if a customer clicks a Branch email link, and then clicks an ad, in
 
 If the customer then goes on to purchase an item on web within the attribution window, Branch will also attribute the web purchase to the same ad link, connecting the web and app actions taken by a single user for a more accurate view of your marketing channels and customer behavior.
 
-![image](/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
+![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
 
 ## Advanced Configurations
 

@@ -8,7 +8,7 @@
 
         - Use these settings to control the default behavior of your deep links on iOS
 
-            ![image](/img/pages/dashboard/ios.png)
+            ![image](/_assets/img/pages/dashboard/ios.png)
 
         - The Apple App Prefix is found within the [Apple Developer Portal](https://developer.apple.com/account/ios/identifier/bundle) for your app
 
@@ -18,7 +18,7 @@
 
         - Play Store is for published apps, if your app cannot be located or is a local/dev build, please use the Custom URL option
 
-            ![image](/img/pages/dashboard/android.png)
+            ![image](/_assets/img/pages/dashboard/android.png)
 
         - Generate a SHA256 Cert Fingerprint
             - Navigate to your `keystore file` (used to build the debug and production version of your APK file before it gets deployed)
@@ -33,7 +33,7 @@
 
         - Use these settings to control the default behavior of your deep links on Desktop browsers
 
-            ![image](/img/pages/dashboard/desktop.png)
+            ![image](/_assets/img/pages/dashboard/desktop.png)
 
         - For Desktop apps
             - Enter your Desktop URI Scheme (e.g. `spotify://`)
@@ -44,7 +44,7 @@
     - ##### Fallback
         - Use these settings to control the default behavior of your deep links on any other platform
 
-            ![image](/img/pages/dashboard/fallback.png)
+            ![image](/_assets/img/pages/dashboard/fallback.png)
 
     - ##### Link domain
         - Choose a `link domain` which will be used for all your links
@@ -54,16 +54,16 @@
                 - e.g. https://example.app.link/VZsTctoINF
                 - e.g. https://example.app.link/custom-alias
 
-            ![image](/img/pages/dashboard/link-domain.png)
+            ![image](/_assets/img/pages/dashboard/link-domain.png)
 
     - ##### Social media
 
         - Set the default image preview for your deep links when shared on social media
         - These values are typically overridden by [Custom link behavior](/pages/links/integrate/#custom-link-behavior) which differentiate your deep links between one another
 
-            ![image](/img/pages/dashboard/social-media.png)
+            ![image](/_assets/img/pages/dashboard/social-media.png)
 
     - ##### Save
         - Make sure you commit any changes
 
-            ![image](/img/pages/dashboard/save.png)
+            ![image](/_assets/img/pages/dashboard/save.png)

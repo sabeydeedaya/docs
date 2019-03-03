@@ -7,9 +7,9 @@ Data Integrations are included as part of the Data Feeds product. For more infor
 1. Navigate to [Data Integrations](https://dashboard.branch.io/data-import-export/data-feeds/integrations) within Data Feeds.
 1. Find the integration you need by typing in the search box.
 
-    ![Ads Partner Management](/img/ingredients/data-integrations/search-for-integration.png)
+    ![Ads Partner Management](/_assets/img/ingredients/data-integrations/search-for-integration.png)
 
     !!! note "We've upgraded our Data Integrations!"
 		    We've upgraded our Data Integrations to use people-based attribution. If you see the below screen instead of the screenshot above, please click "Preview Now" to upgrade to our updated integrations. We will be deprecating our legacy integrations in 2018.
 
-        ![Ads Partner Management](/img/ingredients/data-integrations/legacy-data-integrations.png)
+        ![Ads Partner Management](/_assets/img/ingredients/data-integrations/legacy-data-integrations.png)

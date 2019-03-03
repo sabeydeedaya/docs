@@ -2,7 +2,7 @@
 
 ![Interceptd](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/HiRes_Logo-1539979882069.png)
 
-This guide will walk you through how to setup your campaigns with **[Interceptd](https://interceptd.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Interceptd](https://interceptd.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Interceptd]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/interceptd/interceptd-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/interceptd/interceptd-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/interceptd/interceptd-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/interceptd/interceptd-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

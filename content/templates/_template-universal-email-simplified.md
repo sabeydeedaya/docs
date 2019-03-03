@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[XXXXX
 
 1. Add and verify a custom click tracking domain in the **[Tracking Domains](https://app.XXXXX.com/account/tracking-domains){:target="\_blank"}** section of your XXXXX account:
 
-    ![image](/img/pages/email/XXXXX/create-domain.png)
+    ![image](/_assets/img/pages/email/XXXXX/create-domain.png)
 
 For more information on how to set up your domain, please visit XXXXX's [documentation](https://www.XXXXX.com/docs/tech-resources/enabling-multiple-custom-tracking-domains/){:target="\_blank"}.
 
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Tracking Domains](https://XXX.com){:target="\_blank"}** section of your XXX account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Tracking Domains](https://XXX.com){:target="\_blank"}** section of your XXX account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/XXXXX/setup-config.png)
+![image](/_assets/img/pages/email/XXXXX/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

@@ -2,7 +2,7 @@
 
 ![Smadex](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo_high_res-1526522009535.png)
 
-This guide will walk you through how to setup your campaigns with **[Smadex](http://www.smadex.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Smadex](http://www.smadex.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Smadex](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/smadex/smadex-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/smadex/smadex-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/smadex/smadex-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/smadex/smadex-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

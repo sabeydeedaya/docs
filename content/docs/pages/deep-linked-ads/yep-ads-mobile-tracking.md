@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Yep Ads](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/yep-ads/yep-ads-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/yep-ads/yep-ads-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/yep-ads/yep-ads-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/yep-ads/yep-ads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

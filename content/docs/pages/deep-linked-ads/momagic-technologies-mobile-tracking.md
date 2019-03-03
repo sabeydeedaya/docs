@@ -2,7 +2,7 @@
 
 ![MoMAGIC Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-light-1536897730386.png)
 
-This guide will walk you through how to setup your campaigns with **[MoMAGIC Technologies](https://www.momagic.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[MoMAGIC Technologies](https://www.momagic.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[MoMAGIC Tec
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/momagic-technologies/momagic-technologies-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/momagic-technologies/momagic-technologies-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/momagic-technologies/momagic-technologies-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/momagic-technologies/momagic-technologies-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

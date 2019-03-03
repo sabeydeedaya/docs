@@ -1,9 +1,9 @@
-!!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
+!!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
 		- **Enabling the Integration** (this page)
 		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)
 
 ## Overview
 
@@ -36,11 +36,11 @@ Store these Link IDs for easy access as you will need them to finish enabling th
 Once you've linked Branch in Google Ads:
 
 1. Navigate to Branch's [partner management](https://dashboard.branch.io/ads/partner-management){:target="\_blank"} tab and click `Connect with Google`. Choose the email address that is tied to the Google Ads accounts you want to connect.
-![Connect Google](/img/pages/deep-linked-ads/google/connect-with-google.png)
+![Connect Google](/_assets/img/pages/deep-linked-ads/google/connect-with-google.png)
 1. Select all the necessary accounts, and continue.
-![Connect Accounts](/img/pages/deep-linked-ads/google/connect-accounts.png)
+![Connect Accounts](/_assets/img/pages/deep-linked-ads/google/connect-accounts.png)
 1. Finally, paste the Link IDs from earlier.
-![Create Link IDs](/img/pages/deep-linked-ads/google/link-ids.png)
+![Create Link IDs](/_assets/img/pages/deep-linked-ads/google/link-ids.png)
 
 ## Importing Events Into Google Ads
 
@@ -70,6 +70,6 @@ Firstly, it is not necessary to connect all Google Ads accounts. However, you mu
 !!! tip
 	Inside an MCC, it is possible to configure which account (the MCC or the child account) is responsible for conversions. Ensure that you create link IDs with the account that is noted as the Conversion Account under the `MCC > Management` tab.
 
-	![MCC Accounts](/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
+	![MCC Accounts](/_assets/img/pages/deep-linked-ads/google/mcc-conversion-account.png)
 
 If you only have access to the child account (but that account is attached to an MCC), you can see which account is recording conversions within the child account as well, by going to `Tools > Conversions > Settings > Conversion Account` in Google Ads.

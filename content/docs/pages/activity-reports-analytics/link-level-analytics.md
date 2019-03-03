@@ -5,21 +5,21 @@
 
 Simply append ?stats=true to any link and you will see a breakdown of trends over any period of time.
 
-![image](/img/pages/analytics/link-level-analytics0.png)
+![image](/_assets/img/pages/analytics/link-level-analytics0.png)
 
 
 ### Click Flow
 
 You will also see a breakdown of clicks, installs, and re-opens by platform.
 
-![image](/img/pages/analytics/link-level-analytics1.png)
+![image](/_assets/img/pages/analytics/link-level-analytics1.png)
 
 
 ### Quick Links
 
 If you created a marketing link on the Quick Links page, you can see a breakdown of analytics for that specific link.
 
-![image](/img/pages/analytics/link-level-analytics2.png)
+![image](/_assets/img/pages/analytics/link-level-analytics2.png)
 
 
 ## API

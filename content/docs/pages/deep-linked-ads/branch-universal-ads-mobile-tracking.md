@@ -1,6 +1,6 @@
 ## Overview
 
-This guide will walk you through how to setup your campaigns using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 !!! note "Paid Product"
     Ads is a premium product priced on Monthly Active Users. [Sign up](https://branch.io/universal-ads/) for the Ads product to enable this functionality.
@@ -15,13 +15,13 @@ This guide will walk you through how to setup your campaigns using Branch Univer
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/noname/noname-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/noname/noname-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/noname/noname-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/noname/noname-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

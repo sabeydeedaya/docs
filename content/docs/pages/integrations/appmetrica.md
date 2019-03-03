@@ -11,7 +11,7 @@ Branch will send all **Branch link clicks** to AppMetrica. Branch also sends all
 
 See your Branch organic acquisition campaigns alongside your AppMetrica data.
 
-![image](/img/pages/integrations/appmetrica/appmetrica-dashboard-example.png)
+![image](/_assets/img/pages/integrations/appmetrica/appmetrica-dashboard-example.png)
 
 ## Setup
 
@@ -26,16 +26,16 @@ To set up the integration you will need to create new trackers in the AppMetrica
 
 1. To create a tracker navigate to the **Trackers** tab and press the **Create Tracker** button.
 
-![image](/img/pages/integrations/appmetrica/appmetrica-create-tracker.png)
+![image](/_assets/img/pages/integrations/appmetrica/appmetrica-create-tracker.png)
 
 1. Select "Branch" in **Partner** dropdown
 1. Select a **Destination URL**. If there are no active destination URL's created for this app press the **New destination URL** button and fill in a link to your website or app
 
-![image](/img/pages/integrations/appmetrica/appmetrica-destination-url.png)
+![image](/_assets/img/pages/integrations/appmetrica/appmetrica-destination-url.png)
 
 1. Copy the **Tracking URL**
 
-![image](/img/pages/integrations/appmetrica/appmetrica-tracking-url.png)
+![image](/_assets/img/pages/integrations/appmetrica/appmetrica-tracking-url.png)
 
 ### Enable the AppMetrica card in your Branch dashboard
 
@@ -45,7 +45,7 @@ To set up the integration you will need to create new trackers in the AppMetrica
 1. Enter your **Tracking URL**.
 1. Hit **Save**.
 
-![image](/img/pages/integrations/appmetrica/enable-appmetrica-integration.png)
+![image](/_assets/img/pages/integrations/appmetrica/enable-appmetrica-integration.png)
 
 ## Advanced
 

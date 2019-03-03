@@ -2,7 +2,7 @@
 
 ![Connected-Interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/connected_interactive-1528501661316.png)
 
-This guide will walk you through how to setup your campaigns with **[Connected Interactive](http://connectedinteractive.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Connected Interactive](http://connectedinteractive.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Connected I
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/connected-interactive/connected-interactive-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/connected-interactive/connected-interactive-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/connected-interactive/connected-interactive-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/connected-interactive/connected-interactive-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

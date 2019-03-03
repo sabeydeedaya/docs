@@ -14,11 +14,11 @@ The webhook system is very powerful and customizable. You can register to only r
 1. Open the [Webhooks](https://dashboard.branch.io/data-import-export/webhooks) page on the Branch dashboard.
 1. Click **+ Add A New Webhook**:
 
-![image](/img/pages/exports/add.png)
+![image](/_assets/img/pages/exports/add.png)
 
 ### Configure webhook criteria
 
-![image](/img/pages/exports/edit.png)
+![image](/_assets/img/pages/exports/edit.png)
 
 Here are explanations of what each field on this screen controls:
 
@@ -47,19 +47,19 @@ To test whether your webhook is configured correctly, you can use [requestb.in](
 
 1. Go to [requestb.in](https://requestb.in/) and click **+ Create a RequestBin**:
 
-	![image](/img/pages/exports/requestbin_create.png)
+	![image](/_assets/img/pages/exports/requestbin_create.png)
 
 1. Copy the **Bin URL**:
 
-	![image](/img/pages/exports/requestbin_inspect.png)
+	![image](/_assets/img/pages/exports/requestbin_inspect.png)
 
 1. Paste this into the URL field of your Branch webhook's configuration screen:
 
-	![image](/img/pages/exports/requestbin_add_webhook.png)
+	![image](/_assets/img/pages/exports/requestbin_add_webhook.png)
 
 1. Now whenever your webhook is triggered, you will see a full report on RequestBin:
 
-	![image](/img/pages/exports/requestbin_response.png)
+	![image](/_assets/img/pages/exports/requestbin_response.png)
 
 ## Advanced
 
@@ -183,12 +183,12 @@ Filters allow you to specify when a webhook gets sent to your URL based off crit
 !!! note "Example: Filtering installs by referring link campaign"
 	Let’s say you’re interested in receiving a webhook for every **install** event that is referred from a Branch link where you set the **Campaign** field to **App Install Campaign**. You would configure a filter to fire a webhook only when **~campaign** is equal to **App Install Campaign**. The key would equal **session.link_data.~campaign** and the value would equal **App Install Campaign**.
 
-	![image](/img/pages/exports/session-filter.png)
+	![image](/_assets/img/pages/exports/session-filter.png)
 
 !!! note "Example: Filtering clicks by link channel"
 	Let’s say you’re interested in receiving a webhook for every **click** event that is referred from a Branch link where you set the **Channel** field to **AppLovin**. You would configure a filter to fire a webhook only when **~channel** is equal to **AppLovin**. The key would equal **click.link_data.~channel** and the value would equal **AppLovin**.
 
-	![image](/img/pages/exports/click-filter.png)
+	![image](/_assets/img/pages/exports/click-filter.png)
 
 !!! note "Example: Filtering custom signup event by location"
 	Let’s say you’re interested in receiving a webhook for every **sign_up** event that is triggered via the **userCompletedAction** method in the SDKs, but only in a specific market, like Chicago. Your event metadata will look something like the following:
@@ -205,7 +205,7 @@ Filters allow you to specify when a webhook gets sent to your URL based off crit
 
 	You would configure a filter to fire a webhook only when **city** is equal to **Chicago**. The key would equal **event.metadata.city** and the value would equal **Chicago**.
 
-	![image](/img/pages/exports/filters.png)
+	![image](/_assets/img/pages/exports/filters.png)
 
 ### Templating your Postback URL
 
@@ -232,15 +232,15 @@ If you plan on sending click or install data to a third party, you’ll likely n
 
     - `http://myagency.com/tracking?event={{ event.name }}&clickId={{ session.link_click.query.clickId }}&idfa={{ device.hardware_id }}`
 
-    ![image](/img/pages/exports/templates.png)
+    ![image](/_assets/img/pages/exports/templates.png)
 
     Additionally, since you don’t want to send them _every_ install event, let’s add a [filter](#filtering-which-webhooks-are-sent) to only send the installs that are referred by links which have a **clickId** in the query parameter. In this case, we use a wildcard parameter (`*`) for the key **session.link_click.query.clickId**, which tells Branch to only trigger this webhook when an **install** event was referred by a link with a **clickId**.
 
-    ![image](/img/pages/exports/template-filters.png)
+    ![image](/_assets/img/pages/exports/template-filters.png)
 
     And with that, we’re finished creating our postback!
 
-    ![image](/img/pages/exports/template-finished.png)
+    ![image](/_assets/img/pages/exports/template-finished.png)
 
 ### Keys available for templating/filtering **Click** webhooks
 

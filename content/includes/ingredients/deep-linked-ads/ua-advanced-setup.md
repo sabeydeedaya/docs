@@ -2,7 +2,7 @@
 
 {! ingredients/deep-linked-ads/add-more-postbacks.md !}
 
-    ![image](/img/pages/deep-linked-ads/branch-universal-ads/add-new-postback-modal.png)
+    ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/add-new-postback-modal.png)
 
 {! ingredients/deep-linked-ads/edit-postbacks.md !}
 
@@ -16,7 +16,7 @@ For customer experience and data accuracy, please do not set your deep linking w
 
 You can edit your attribution windows under Link Settings > Attribution Windows.
 
-   ![image](/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+   ![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
 
 Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
 
@@ -24,7 +24,7 @@ Learn more about account level attribution windows in [People-Based Attribution]
 
 You can edit your attribution windows at the ad network level, if your ad network requires it. This is recommended when you enable networks like Facebook and Google, who may have different windows for installs. With this, you can preserve your Account Level Attribution Windows, as well.
 
-   ![image](/img/pages/deep-linked-ads/branch-universal-ads/anaw.png)
+   ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/anaw.png)
 
 #### Link Level Attribution Windows
 

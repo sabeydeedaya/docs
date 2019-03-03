@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Plabs Ventu
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/plabs-ventures/plabs-ventures-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/plabs-ventures/plabs-ventures-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/plabs-ventures/plabs-ventures-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/plabs-ventures/plabs-ventures-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -2,20 +2,20 @@
 
 Sending events from mParticle to Branch will allow you to attribute downstream conversions like purchases across web and app to Branch link clicks. Events imported from mParticle to Branch will be available wherever you can normally use events within Branch, including dashboard visualizations, Data Feeds, Universal Ads postbacks, Journeys targeting, Liveview and more.
 
-This guide walks through the server-side integration for data import from mParticle to Branch. For the client-side integration, see the [mParticle iOS](/pages/apps/mparticle-ios/) or [android](/pages/apps/mparticle-android/) documentation. For data export from Branch to mParticle, go [here](/pages/integrations/mparticle). 
+This guide walks through the server-side integration for data import from mParticle to Branch. For the client-side integration, see the [mParticle iOS](/pages/apps/mparticle-ios/) or [android](/pages/apps/mparticle-android/) documentation. For data export from Branch to mParticle, go [here](/pages/integrations/mparticle).
 
 ### What events does Branch import?
 
-Branch will import events that are not auto-tracked with the Branch SDKs. This includes commerce, content, user lifecycle, and custom events, and excludes events like clicks and installs. See the full list of supported events and associated mappings [here](#supported-events). Branch will only import events that can be [tied to a user](#identifiers). 
+Branch will import events that are not auto-tracked with the Branch SDKs. This includes commerce, content, user lifecycle, and custom events, and excludes events like clicks and installs. See the full list of supported events and associated mappings [here](#supported-events). Branch will only import events that can be [tied to a user](#identifiers).
 
 ## Setup
 
 1. [Contact Branch](https://support.branch.io){:target="\_blank"} to configure Branch to receive events from mParticle. Please note that a subscription to [Data Feeds](https://branch.io/data-feeds/){:target="\_blank"} is required to enable data import from mParticle to Branch.
 1. Navigate to the [Data Integrations page](https://dashboard.branch.io/data-import-export/data-feeds/integrations){:target="\_blank"} of the Branch dashboard.
     1. Select **mParticle** from the menu on the left.
-    1. Select the platforms you would like to import events from and click **Save**. 
-    
-    ![image](/img/pages/integrations/mparticle/mparticle-import.png)
+    1. Select the platforms you would like to import events from and click **Save**.
+
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-import.png)
 
 1. Navigate to your your mParticle UI’s Connections page.
     1. Select an input and add Branch S2S as the output.
@@ -80,17 +80,17 @@ Branch maps mParticle's identifiers to the following:
 | environment.Identity.DeviceIdentity.ANDROID_ID | android_id |
 | context.runtimeEnvironment.type | os |
 
-At this time, Branch [will not attribute logged out web events](#attribution-for-logged-out-users-on-web) received from the server-to-server integration. 
+At this time, Branch [will not attribute logged out web events](#attribution-for-logged-out-users-on-web) received from the server-to-server integration.
 
 #### Validating the integration
 
 Once you have import turned on in both mParticle and Branch, events should come through. You will see a green dot on the import card if Branch has seen events:
 
-![image](/img/pages/integrations/mparticle/mparticle-import-status.png)
+![image](/_assets/img/pages/integrations/mparticle/mparticle-import-status.png)
 
 To see more information on the events that are coming in, you can look at events with **origin** `MPARTICLE` in [Liveview](https://dashboard.branch.io/liveview/events){:target="\_blank"}:
 
-![image](/img/pages/integrations/mparticle/mparticle-import-liveview.png)
+![image](/_assets/img/pages/integrations/mparticle/mparticle-import-liveview.png)
 
 Branch imports events from mParticle as [commerce, user lifecycle, content, or custom events](#supported-events).
 

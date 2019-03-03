@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[finaceAds](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/finaceads/finaceads-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/finaceads/finaceads-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/finaceads/finaceads-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/finaceads/finaceads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

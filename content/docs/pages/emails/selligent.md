@@ -1,6 +1,6 @@
 ## Overview
 
-![Selligent Message Studio](/img/pages/email/selligent/selligent.png)
+![Selligent Message Studio](/_assets/img/pages/email/selligent/selligent.png)
 
 This guide will walk you through how to setup your email campaigns with **[Selligent Message Studio](https://www.selligent.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -33,15 +33,15 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the account settings section of your Selligent account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the account settings section of your Selligent account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/selligent/setup-config.png)
+![image](/_assets/img/pages/email/selligent/setup-config.png)
 
 !!! tip "Update Redirection logic"
     Don't forget to send a request to Selligent support to update the redirection logic - you'll want to send redirection URL as an HTTP location header instead of JavaScript redirection.
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

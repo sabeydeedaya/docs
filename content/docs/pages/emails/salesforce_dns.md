@@ -18,9 +18,9 @@ This guide will walk you through how to setup your email campaigns with **[Sales
 
 ### Setup a Sender Authentication Package
 
-1. Configure the Sender Authentication Package for your Salesforce Marketing Cloud account using instructions form your Salesforce account manger. 
+1. Configure the Sender Authentication Package for your Salesforce Marketing Cloud account using instructions form your Salesforce account manger.
 
-    ![image](/img/pages/email/salesforce_dns/create-domain.png)
+    ![image](/_assets/img/pages/email/salesforce_dns/create-domain.png)
 
 For more information on how to set up your domain, please visit Salesforce Marketing Cloud's [documentation](https://help.salesforce.com/articleView?id=mc_es_subdomain_delegation_guide.htm&type=5){:target="\_blank"}.
 
@@ -39,12 +39,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Authenticated Domains]** section of your settings at Salesforce Marketing Cloud account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Authenticated Domains]** section of your settings at Salesforce Marketing Cloud account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/salesforce_dns/setup-config.png)
+![image](/_assets/img/pages/email/salesforce_dns/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

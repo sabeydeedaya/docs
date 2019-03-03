@@ -1,6 +1,6 @@
 ## Overview
 
-![Sailthru](/img/pages/email/sailthru/sailthru.png)
+![Sailthru](/_assets/img/pages/email/sailthru/sailthru.png)
 
 This guide will walk you through how to setup your email campaigns with **[Sailthru](https://www.sailthru.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[Sailt
 
 1. Add and verify a custom click tracking domain in the **Domain** section of your Sailthru account:
 
-    ![image](/img/pages/email/sailthru/create-domain.png)
+    ![image](/_assets/img/pages/email/sailthru/create-domain.png)
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Sailthru.
@@ -31,9 +31,9 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **Domain** section of your Sailthru account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Domain** section of your Sailthru account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/sailthru/setup-config.png)
+![image](/_assets/img/pages/email/sailthru/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
 
@@ -42,7 +42,7 @@ You can retrieve your click tracking domain from the **Domain** section of your 
 Sailthru will host an Apple App Site Association (AASA) file for you, so that your click tracking domain appears to Apple as a Universal Link, and the app will open and deep link.
 
 To set up your AASA file, download the AASA file from the [email you received from Branch](#configure-your-app-for-your-click-tracking-domain), and follow the [instructions provided by Sailthru](https://getstarted.sailthru.com/mobile/apple-ios-app-universal-links/){:target="\_blank"} for setting up the HTTPS certificates.
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/simplified-usage-auto.md !}
@@ -124,7 +124,7 @@ After:
     <a href="{deeplink}">Click me</a>
     ```
 
-![image](/img/pages/email/sailthru/deep-linked-email-sailthru.png)
+![image](/_assets/img/pages/email/sailthru/deep-linked-email-sailthru.png)
 
 !!! protip "Using Branch Links with Zephyr"
     The Branch deep link script also works with Sailthru's Zephyr personalization language. Here's an example with the correct syntax.

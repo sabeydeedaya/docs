@@ -2,7 +2,7 @@
 
 ![RevX](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/revx-1528509107045.png)
 
-This guide will walk you through how to setup your campaigns with **[RevX](http://revx.io)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[RevX](http://revx.io)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[RevX](http:
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/revx/revx-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/revx/revx-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/revx/revx-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/revx/revx-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

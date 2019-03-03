@@ -4,7 +4,7 @@
 
 ![CPI Droid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/download-1529963783572.png)
 
-This guide will walk you through how to setup your campaigns with **[CPI Droid](https://cpidroid.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[CPI Droid](https://cpidroid.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -16,13 +16,13 @@ This guide will walk you through how to setup your campaigns with **[CPI Droid](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/cpi-droid/cpi-droid-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/cpi-droid/cpi-droid-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/cpi-droid/cpi-droid-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/cpi-droid/cpi-droid-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

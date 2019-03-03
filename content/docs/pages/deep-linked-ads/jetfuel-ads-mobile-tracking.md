@@ -2,7 +2,7 @@
 
 ![JetFuel-Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Wordmark-1526667867817.png)
 
-This guide will walk you through how to setup your campaigns with **[JetFuel Ads](http://jetfuel.it)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[JetFuel Ads](http://jetfuel.it)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[JetFuel Ads
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/jetfuel-ads/jetfuel-ads-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/jetfuel-ads/jetfuel-ads-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/jetfuel-ads/jetfuel-ads-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/jetfuel-ads/jetfuel-ads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

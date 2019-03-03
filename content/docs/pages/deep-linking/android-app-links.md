@@ -16,7 +16,7 @@ Start by generating a SHA256 fingerprint of your app's signing certificate.
 
 1. Head to the [Link Settings page](https://dashboard.branch.io/link-settings) on the Branch dashboard.
 1. Toggle the **Enable App Links** checkbox in the Android section.
-1. Paste the copied fingerprint value into the **SHA256 Cert Fingerprints** field that appears. ![image](/img/pages/deep-linking/universal-links/enable_app_links.png)
+1. Paste the copied fingerprint value into the **SHA256 Cert Fingerprints** field that appears. ![image](/_assets/img/pages/deep-linking/universal-links/enable_app_links.png)
 1. Scroll down and click `Save`.
 
 !!! tip "Using multiple fingerprints"
@@ -26,7 +26,7 @@ Start by generating a SHA256 fingerprint of your app's signing certificate.
 
 1. Go to the [Link Settings](https://dashboard.branch.io/link-settings) page on the dashboard.
 1. Scroll down to the `Link Domain` area.
-1. Copy your domain name. ![image](/img/pages/deep-linking/universal-links/subdomain-setting.png)
+1. Copy your domain name. ![image](/_assets/img/pages/deep-linking/universal-links/subdomain-setting.png)
 1. Choose the `Activity` you want to open up when a link is clicked. This is typically your `SplashActivity` or a `BaseActivity` that all other activities inherit from (and likely the same one you selected in the [SDK integration guide](/pages/apps/android/#configure-app)).
 1. Inside your `AndroidManifest.xml`, locate where the selected `Activity` is defined.
 1. Within the `Activity` definition, insert the intent filter provided below (making sure that `xxxx` matches the subdomain prefix you've been assigned or selected for yourself). Be sure to add this as its own separate intent filter.

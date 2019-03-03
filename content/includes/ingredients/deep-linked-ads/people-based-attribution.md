@@ -8,6 +8,6 @@ For example, if a customer clicks a Branch email link, and then clicks an ad, in
 
 If the customer then goes on to purchase an item on web within the attribution window, Branch will also attribute the web purchase to the same ad link, connecting the web and app actions taken by a single user for a more accurate view of your marketing channels and customer behavior.
 
-![image](/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
+![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
 
 You can read more about [People-Based Attribution here](/pages/dashboard/people-based-attribution/).

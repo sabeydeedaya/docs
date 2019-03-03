@@ -2,7 +2,7 @@
 
 ![actionpay](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/ap-1524762005860.png)
 
-This guide will walk you through how to setup your campaigns with **[Actionpay](http://actionpay.net)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Actionpay](http://actionpay.net)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Actionpay](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/actionpay/actionpay-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/actionpay/actionpay-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/actionpay/actionpay-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/actionpay/actionpay-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

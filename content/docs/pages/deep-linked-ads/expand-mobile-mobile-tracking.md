@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Expand Mobi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/expand-mobile/expand-mobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/expand-mobile/expand-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/expand-mobile/expand-mobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/expand-mobile/expand-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

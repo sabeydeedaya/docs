@@ -38,7 +38,7 @@ When no 100% match method is available, we connect the unique snapshot collected
 !!! tip "Customize the snapshot matching criteria"
     If you are concerned that users may potentially have the same snapshot, you can choose to have us not match users if two identical snapshots are outstanding. On the Dashboard's [Link Settings](https://dashboard.branch.io/link-settings) page, under advanced options, you should set **Match Type** to `Unique`. You can also modify the 7200 second (2 hour) default expiration for all links, or [configure it for individual links](/pages/links/integrate/#deep-linking) by using the `$match_duration` control parameter.
 
-    ![image](/img/pages/resources/matching/match_type.png)
+    ![image](/_assets/img/pages/resources/matching/match_type.png)
 
     This means that if two users with the same snapshot, on the same wifi, were to click a Branch link for your app, we would blacklist those digital snapshots for the expiration duration. Therefore, when either user opens up your app, no match would be made.
 
@@ -63,7 +63,7 @@ Because our Safari View Controller matching method works based on comparing the 
 
 Please set the `branch_app_domain` to `app.link` in your PLIST as shown below:
 
-![image](/img/pages/resources/matching/branch_app_domain.png)
+![image](/_assets/img/pages/resources/matching/branch_app_domain.png)
 
 ### Need to disable SafariViewController?
 

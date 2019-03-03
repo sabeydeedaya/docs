@@ -2,7 +2,7 @@
 
 ![Applift CPA](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/applift-1528498391745-1534379945016.png)
 
-This guide will walk you through how to setup your campaigns with **[Applift CPA](https://www.applift.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Applift CPA](https://www.applift.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Applift CPA
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/applift-cpa/applift-cpa-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/applift-cpa/applift-cpa-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/applift-cpa/applift-cpa-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/applift-cpa/applift-cpa-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

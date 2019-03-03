@@ -6,15 +6,15 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 <!-- Link Configuration -->
 <div class="nav-wrap flex-wrap">
   <a href="/pages/links/default-link-behavior/">
-    <img src="../../../img/pages/links/basic-config.png" />
+    <img src="../../../_assets/img/pages/links/basic-config.png" />
     <p>Default Link Behavior</p>
   </a>
   <a href="/pages/links/advanced-settings-configuration/">
-    <img src="../../../img/pages/links/advanced-config.png" />
+    <img src="../../../_assets/img/pages/links/advanced-config.png" />
     <p>Advanced Settings</p>
   </a>
   <a href="/pages/links/quick-links/">
-    <img src="../../../img/pages/links/create-link.png" />
+    <img src="../../../_assets/img/pages/links/create-link.png" />
     <p>Creating Quick Links</p>
   </a>
 </div>
@@ -24,19 +24,19 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">
   <a href="/pages/deep-linking/universal-links/">
-		<img src="../../../img/pages/links/ios.png" />
+		<img src="../../../_assets/img/pages/links/ios.png" />
 		<p>iOS Universal Links</p>
 	</a>
   <a href="/pages/deep-linking/android-app-links/">
-    <img src="../../../img/pages/links/android.png" />
+    <img src="../../../_assets/img/pages/links/android.png" />
     <p>Android App Links</p>
   </a>
 	<a href="/pages/deep-linking/routing/">
-    <img src="../../../img/pages/links/in-app-routing.png" />
+    <img src="../../../_assets/img/pages/links/in-app-routing.png" />
     <p>In-App Deep Link Routing</p>
   </a>
 	<a href="/pages/links/integrate/">
-		<img src="../../../img/pages/links/create-link.png" />
+		<img src="../../../_assets/img/pages/links/create-link.png" />
 		<p>Creating Deep Links</p>
 	</a>
 </div>

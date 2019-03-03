@@ -8,12 +8,12 @@ You can retrieve your click tracking domain from your Sailthru settings:
 1. Log in to your Sailthru account
 1. Go to Settings > Setup > Domains:
 
-    ![image](/img/pages/email/sailthru/sailthru-view-domain.png)
+    ![image](/_assets/img/pages/email/sailthru/sailthru-view-domain.png)
 
 1. Note or copy the value in the Link Domain field
 1. Enter the domain in item 1 of this step:
 
-    ![image](/img/pages/email/sailthru/configure-sailthru-1.png)
+    ![image](/_assets/img/pages/email/sailthru/configure-sailthru-1.png)
 
 1. Click **Done**
 
@@ -100,7 +100,7 @@ After:
     <a href="{deeplink}">Click me</a>
     ```
 
-![image](/img/pages/email/sailthru/deep-linked-email-sailthru.png)
+![image](/_assets/img/pages/email/sailthru/deep-linked-email-sailthru.png)
 
 !!! protip "Using Branch Links with Zephyr"
     The Branch deep link script also works with Sailthru's Zephyr personalization language. Here's an example with the correct syntax.

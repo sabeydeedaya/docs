@@ -1,6 +1,6 @@
 ## Overview
 
-![Betaout](/img/pages/email/betaout/betaout.png)
+![Betaout](/_assets/img/pages/email/betaout/betaout.png)
 
 This guide will walk you through how to setup your email campaigns with **[Betaout](https://www.betaout.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -14,7 +14,7 @@ This guide will walk you through how to setup your email campaigns with **[Betao
 
 ### Setup a custom click tracking domain
 
-Please reach out to Betaout support to request a new custom tracking domain for your account. 
+Please reach out to Betaout support to request a new custom tracking domain for your account.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Betaout.
@@ -33,10 +33,10 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 Contact Betaout support and request that they **disable the Smart URL feature***. Otherwise, deep links won't work.
 
-![image](/img/pages/email/betaout/setup-config.png)
+![image](/_assets/img/pages/email/betaout/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

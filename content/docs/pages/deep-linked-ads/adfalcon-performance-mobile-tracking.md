@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[AdFalcon Pe
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adfalcon-performance/adfalcon-performance-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adfalcon-performance/adfalcon-performance-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adfalcon-performance/adfalcon-performance-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adfalcon-performance/adfalcon-performance-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

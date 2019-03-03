@@ -2,7 +2,7 @@
 
 ![Aarki](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/aarkilogoP_black-1535588941367.png)
 
-This guide will walk you through how to setup your campaigns with **[Aarki](https://www.aarki.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Aarki](https://www.aarki.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Aarki](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/aarki/aarki-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/aarki/aarki-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/aarki/aarki-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/aarki/aarki-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

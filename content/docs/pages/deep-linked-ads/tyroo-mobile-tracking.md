@@ -2,7 +2,7 @@
 
 ![Tyroo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/tyroo-e1443682663900-1528510148563.png)
 
-This guide will walk you through how to setup your campaigns with **[Tyroo](http://www.tyroo.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Tyroo](http://www.tyroo.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Tyroo](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/tyroo/tyroo-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/tyroo/tyroo-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/tyroo/tyroo-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/tyroo/tyroo-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

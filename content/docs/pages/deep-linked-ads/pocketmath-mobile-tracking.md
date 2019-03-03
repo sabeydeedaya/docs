@@ -2,7 +2,7 @@
 
 ![Pocketmath](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/pocketmath_owler_20161103_061625_original-1528507850670.png)
 
-This guide will walk you through how to setup your campaigns with **[Pocketmath](https://www.pocketmath.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Pocketmath](https://www.pocketmath.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Pocketmath]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/pocketmath/pocketmath-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/pocketmath/pocketmath-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/pocketmath/pocketmath-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/pocketmath/pocketmath-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

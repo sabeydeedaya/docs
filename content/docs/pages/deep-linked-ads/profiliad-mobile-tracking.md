@@ -2,7 +2,7 @@
 
 ![ProfiliAd](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/profili-1528508080222.png)
 
-This guide will walk you through how to setup your campaigns with **[ProfiliAd](http://profiliad.com/ )** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[ProfiliAd](http://profiliad.com/ )** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[ProfiliAd](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/profiliad/profiliad-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/profiliad/profiliad-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/profiliad/profiliad-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/profiliad/profiliad-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

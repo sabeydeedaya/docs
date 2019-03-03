@@ -2,7 +2,7 @@
 
 ![Adtiming](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-black-1532646170078.png)
 
-This guide will walk you through how to setup your campaigns with **[Adtiming](http://www.adtiming.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adtiming](http://www.adtiming.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adtiming](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adtiming/adtiming-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adtiming/adtiming-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adtiming/adtiming-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adtiming/adtiming-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

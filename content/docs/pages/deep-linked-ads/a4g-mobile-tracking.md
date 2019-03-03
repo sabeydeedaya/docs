@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[A4G](http:/
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/a4g/a4g-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/a4g/a4g-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/a4g/a4g-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/a4g/a4g-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

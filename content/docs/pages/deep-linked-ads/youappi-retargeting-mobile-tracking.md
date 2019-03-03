@@ -2,7 +2,7 @@
 
 ![YouAppi-Retargeting](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524610899776.png)
 
-This guide will walk you through how to setup your campaigns with **[YouAppi Retargeting](http://www.youappi.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[YouAppi Retargeting](http://www.youappi.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[YouAppi Ret
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/youappi-retargeting/youappi-retargeting-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/youappi-retargeting/youappi-retargeting-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/youappi-retargeting/youappi-retargeting-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/youappi-retargeting/youappi-retargeting-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

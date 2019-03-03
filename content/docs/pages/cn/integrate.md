@@ -7,7 +7,7 @@
 	- 这些密钥是您的 Branch 应用所独有的, 每个app有不同组的密钥
 	- 请勿泄露您的 `Branch 口令`，以防遭人恶意使用
 
-		![image](/img/pages/dashboard/branch-keys.png)
+		![image](/_assets/img/pages/dashboard/branch-keys.png)
 
 - ### 设置默认行为
 
@@ -19,7 +19,7 @@
 
 		- 通过以下设置控制 iOS 上深度链的默认行为
 
-			![image](/img/pages/dashboard/ios.png)
+			![image](/_assets/img/pages/dashboard/ios.png)
 
 		- 您可在 [Apple Developer 门户网站](https://developer.apple.com/account/ios/identifier/bundle)中找到适用于您应用程序的 Apple App Prefix
 
@@ -29,7 +29,7 @@
 
 		- Play Store 应用商店适用于已发布的应用程序，如果您的应用程序未上架或是本地/开发版本，请使用自定义 URL 选项
 
-			![image](/img/pages/dashboard/android.png)
+			![image](/_assets/img/pages/dashboard/android.png)
 
 		- 生成 SHA256 证书指纹
 
@@ -46,7 +46,7 @@
 
 		- 通过以下设置控制 Desktop 浏览器上深度链的默认行为
 
-			![image](/img/pages/dashboard/desktop.png)
+			![image](/_assets/img/pages/dashboard/desktop.png)
 
 		- 针对 Desktop 应用程序
 			- 输入您的 Desktop URI Scheme（例如：spotify://)
@@ -57,7 +57,7 @@
 	- #### 回退
 		- 通过以下设置所有平台上深度链的默认行为
 
-			![image](/img/pages/dashboard/fallback.png)
+			![image](/_assets/img/pages/dashboard/fallback.png)
 
 	- #### 链接域
 		- 选择一个将用于所有链接的`链接域`
@@ -67,18 +67,18 @@
 				- 例如：https://example.app.link/VZsTctoINF
 				- 例如：https://example.app.link/custom-alias
 
-					![image](/img/pages/dashboard/link-domain.png)
+					![image](/_assets/img/pages/dashboard/link-domain.png)
 
 	- #### 社交媒体
 		- 在社交媒体上分享时，为深度链设置默认图像预览
 		- 这些值通常由[自定义链接行为](/pages/links/integrate/#custom-link-behavior)覆盖，用于区分不同的深度链
 
-			![image](/img/pages/dashboard/social-media.png)
+			![image](/_assets/img/pages/dashboard/social-media.png)
 
 	- #### 保存
 		- 确认提交所有更改
 
-			![image](/img/pages/dashboard/save.png)
+			![image](/_assets/img/pages/dashboard/save.png)
 
 - ### 启用 Deepview
 
@@ -87,7 +87,7 @@
 	- 这将使您的深度链在所有[受支持的平台](/pages/links/integrate/#expected-redirect-behavior)上以最佳方式执行
 	- 有关 [Deepview](/pages/web/deep-views/) 的更多详情
 
-		![image](/img/pages/dashboard/deepview.png)
+		![image](/_assets/img/pages/dashboard/deepview.png)
 
 ## 高级集成
 

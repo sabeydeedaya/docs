@@ -13,7 +13,7 @@ Access to pages and actions in the dashboard is controlled using a number of dif
 - **Sensitive Data:** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
 - **Export:** Allows a user to export Sensitive Data from pages they can view.
 
-Each page on the dashboard has its own access requirements. For example, in order to view the Summary page of the dashboard, a user must have view access to Aggregate Data. In order to view the Data Feeds Manager page, on the other hand, a user must have view access to both Channel-level Settings and Sensitive Data. 
+Each page on the dashboard has its own access requirements. For example, in order to view the Summary page of the dashboard, a user must have view access to Aggregate Data. In order to view the Data Feeds Manager page, on the other hand, a user must have view access to both Channel-level Settings and Sensitive Data.
 
 ### Access Roles
 
@@ -73,7 +73,7 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Data Import & Export/CSV Exports | Sensitive Data, Export | Admin |
   | Liveview | Sensitive Data | Admin |
   | Account Settings/App | App-level Settings | Admin, Team Member, Full Read |
-  | Account Settings/User | | All | 
+  | Account Settings/User | | All |
   | Account Settings/Billing | App-level Settings | Admin, Team Member, Full Read |
   | Account Settings/Team | App-level Settings, Sensitive Data | Admin |
   | Account Settings/SSO | App-level Settings | Admin, Team Member, Full Read |
@@ -85,13 +85,13 @@ You can set a user’s access levels when adding that user to your team in the d
 
 When adding a new team member, you will be presented with a modal that allows you to select a default profile from a dropdown; if you select the Custom profile from the dropdown, you will have full control over which permissions a user has.
 
-![image](/img/pages/dashboard/access-control-invitation.png)
+![image](/_assets/img/pages/dashboard/access-control-invitation.png)
 
 If you’d like to change the access levels of an existing user, navigate to the Team tab of the Account Settings section of the dashboard and click the “Edit” button next to the user whose access levels you’d like to modify. You will be presented with the same modal.
 
 ### Changes to Old Access Roles
 
-Branch previously had only two different access roles for users: Admin and Reports. With the introduction of new access roles, dashboard users with the Admin role were migrated to the new Admin role, and should not experience any change in dashboard access. Meanwhile, users with the old Reports role were migrated to the new Full Read role. 
+Branch previously had only two different access roles for users: Admin and Reports. With the introduction of new access roles, dashboard users with the Admin role were migrated to the new Admin role, and should not experience any change in dashboard access. Meanwhile, users with the old Reports role were migrated to the new Full Read role.
 
 While the Reports and Full Read roles have similar permission levels, Full Read users do not have access to several sections/actions on the Branch dashboard which were available to Reports users. Full Read users are not able to create, duplicate, or edit links, and they are not able to view or export Sensitive Data in the dashboard, like that in the Account Settings, Liveview, CSV Exports, and Data Integrations sections of the dashboard.
 

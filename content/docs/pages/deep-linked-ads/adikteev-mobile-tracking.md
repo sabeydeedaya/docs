@@ -2,7 +2,7 @@
 
 ![adikteev](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/916-1528403002042.png)
 
-This guide will walk you through how to setup your campaigns with **[Adikteev](http://adikteev.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adikteev](http://adikteev.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adikteev](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adikteev/adikteev-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adikteev/adikteev-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adikteev/adikteev-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adikteev/adikteev-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

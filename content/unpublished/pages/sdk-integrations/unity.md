@@ -7,11 +7,11 @@
 
     - Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/apps/unity-configure.png)
+        ![image](/_assets/img/pages/apps/unity-configure.png)
 
     - Customize your app.link domain:
 
-        ![image](/img/pages/apps/unity-link-domain.png)
+        ![image](/_assets/img/pages/apps/unity-link-domain.png)
 
 - ### Get the Branch SDK
 
@@ -25,7 +25,7 @@
 
     - ##### Update your Branch prefab
 
-        ![image](/img/pages/apps/unity-settings.png)
+        ![image](/_assets/img/pages/apps/unity-settings.png)
 
         > Do not forget to click on the **Update iOS Wrapper** and the **Update Android Manifest** buttons once you are done.
 
@@ -271,7 +271,7 @@ e02.AddContentItem(universalObject);
 
 Branch.sendEvent (e02);
 ```
-   
+
 
 - ### Handle referrals
 

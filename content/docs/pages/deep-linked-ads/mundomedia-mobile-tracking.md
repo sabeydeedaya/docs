@@ -2,7 +2,7 @@
 
 ![MundoMedia](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Mundo-1528505808317.png)
 
-This guide will walk you through how to setup your campaigns with **[MundoMedia](https://www.mundomedia.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[MundoMedia](https://www.mundomedia.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[MundoMedia]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mundomedia/mundomedia-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mundomedia/mundomedia-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mundomedia/mundomedia-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mundomedia/mundomedia-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

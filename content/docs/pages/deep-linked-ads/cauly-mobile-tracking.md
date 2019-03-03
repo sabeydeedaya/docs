@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Cauly](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/cauly/cauly-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/cauly/cauly-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/cauly/cauly-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/cauly/cauly-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

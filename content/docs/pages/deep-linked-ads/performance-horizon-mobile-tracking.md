@@ -2,7 +2,7 @@
 
 ![Performance-Horizon](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/PH_LOGO-1528507810596.png)
 
-This guide will walk you through how to setup your campaigns with **[Performance Horizon](https://performancehorizon.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Performance Horizon](https://performancehorizon.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,15 +14,15 @@ This guide will walk you through how to setup your campaigns with **[Performance
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/performance-horizon/performance-horizon-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/performance-horizon/performance-horizon-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/performance-horizon/performance-horizon-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/performance-horizon/performance-horizon-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
-**Please make sure** that you have a fallback URL configured `%24fallback_url=http://example.com` on your tracking links. 
+**Please make sure** that you have a fallback URL configured `%24fallback_url=http://example.com` on your tracking links.
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

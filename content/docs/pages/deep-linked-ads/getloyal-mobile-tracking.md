@@ -2,7 +2,7 @@
 
 ![Getloyal](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/getloyal_logo-1524621019885.png)
 
-This guide will walk you through how to setup your campaigns with **[Getloyal](http://getloyal.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Getloyal](http://getloyal.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Getloyal](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/getloyal/getloyal-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/getloyal/getloyal-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/getloyal/getloyal-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/getloyal/getloyal-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

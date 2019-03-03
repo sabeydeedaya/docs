@@ -2,7 +2,7 @@
 
 With a push of a button you can send your Branch data to your Segment dashboard, helping you to understand the power of Branch as an acquisition pathway, export your data to your entire suite of analytics tools and build custom audiences upon Branch data.
 
-This documentation explains how to send **Branch-referred events to Segment**. If you'd like to send Segment events to your Branch dashboard, please review the Branch/segment SDK Kit integration documentation for [iOS](https://github.com/BranchMetrics/Segment-Branch-iOS) and [Android](https://github.com/BranchMetrics/Segment-Branch-Android). 
+This documentation explains how to send **Branch-referred events to Segment**. If you'd like to send Segment events to your Branch dashboard, please review the Branch/segment SDK Kit integration documentation for [iOS](https://github.com/BranchMetrics/Segment-Branch-iOS) and [Android](https://github.com/BranchMetrics/Segment-Branch-Android).
 
 ### How does it work?
 
@@ -16,11 +16,11 @@ Branch will send *attributed* **installs** and **opens**, as well as any **custo
 
 Branch events will appear as an event prepended with **branch_** in your Segment debugger.
 
-![image](/img/pages/integrations/segment/segment-debugger_1.png)
+![image](/_assets/img/pages/integrations/segment/segment-debugger_1.png)
 
 Additionally, individual events, such as those seen in Live View or visible when looking at People, will have Branch link data included. Here's an example:
 
-![image](/img/pages/integrations/segment/segment-debugger_2.png)
+![image](/_assets/img/pages/integrations/segment/segment-debugger_2.png)
 
 ## Setup
 
@@ -32,14 +32,14 @@ Additionally, individual events, such as those seen in Live View or visible when
 Find your Segment Token and enter it into the Branch Dashboard.
 
 1. Navigate to [https://app.segment.com](https://app.segment.com/) and log into the Dashboard.
-1. In the dashboard, navigate to your desired Workspace. 
+1. In the dashboard, navigate to your desired Workspace.
 1. In that Workspace, navigate to **Sources** and select the Source that has your app listed. Branch is not yet an independent Source, so Branch events appear within your app's Source.
 
-    ![image](/img/pages/integrations/segment/segment-sources.png)
+    ![image](/_assets/img/pages/integrations/segment/segment-sources.png)
 
 1. Click through to _Settings > API Keys_
 
-    ![image](/img/pages/integrations/segment/segment-keys.png)
+    ![image](/_assets/img/pages/integrations/segment/segment-keys.png)
 
 1. Copy your key and secret - you'll enter it into the Branch dashboard in a minute.
 
@@ -52,7 +52,7 @@ Find your Segment Token and enter it into the Branch Dashboard.
 1. Search for Segment and click on the tile.
 1. Enter your Segment Token and hit **Enable**.
 
-    ![image](/img/pages/integrations/segment/enable-segment.png)
+    ![image](/_assets/img/pages/integrations/segment/enable-segment.png)
 
 !!! warning "Please test integration!"
     Branch is not responsible for inaccurate API keys.

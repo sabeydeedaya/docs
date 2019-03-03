@@ -2,7 +2,7 @@
 
 ![Affise](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/affise-1528497847994.png)
 
-This guide will walk you through how to setup your campaigns with **[Affise](https://affise.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Affise](https://affise.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Affise](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/affise/affise-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/affise/affise-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/affise/affise-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/affise/affise-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

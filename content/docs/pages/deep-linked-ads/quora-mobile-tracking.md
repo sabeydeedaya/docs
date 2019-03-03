@@ -2,7 +2,7 @@
 
 ![Quora](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/quora-1524679519985.png)
 
-This guide will walk you through how to setup your campaigns with **[Quora](https://www.quora.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Quora](https://www.quora.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Quora](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/quora/quora-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/quora/quora-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/quora/quora-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/quora/quora-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

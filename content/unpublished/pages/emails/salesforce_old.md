@@ -15,14 +15,14 @@ You can retrieve your click tracking domain from your Salesforce settings. We **
 
 Your Salesforce account must be configured to correctly handle Universal Links. Configure the settings in Deep Linking under the Admin section in Email Studio. Ensure you're in the account corresponding to the correct click tracking domain [you selected](#tell-us-your-click-tracking-domain) above.
 
-![image](/img/pages/email/salesforce/salesforce-aasa-toolbar.png)
+![image](/_assets/img/pages/email/salesforce/salesforce-aasa-toolbar.png)
 
 1. Enter the AppID value
 1. Check the "Exclude Profile" and "Unsub Center" checkboxes to force links to these items to open in the browser and not the app, if desired.
 1. Click "Save" to save the configuration.
 1. Let Salesforce and Branch know that you've finished this step and your Technical Account Manager will verify that everything looks good.
 
-![image](/img/pages/email/salesforce/salesforce-aasa-form.png)
+![image](/_assets/img/pages/email/salesforce/salesforce-aasa-form.png)
 
 {! ingredients/email/email-associated-domains.md !}
 
@@ -51,41 +51,41 @@ In this step, we'll add a new Content Area in Salesforce that makes it very easy
 
 1. After logging into Salesforce Marketing Cloud, click on **Email Studio** and then a sub-menu will appear. Click on **Email** in the dropdown menu:
 
-    ![image](/img/pages/email/salesforce/salesforce-dropdown.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-dropdown.png)
 
 1. This will take you to the landing page for the Email section. Click on **Content** in the menu bar to navigate to the Content section:
 
-    ![image](/img/pages/email/salesforce/salesforce-menu-bar.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-menu-bar.png)
 
 1. In the Content section, you will see a list of folders on the left side. Right click on the **My Contents** folder and choose **New Folder** in the context menu:
 
-    ![image](/img/pages/email/salesforce/salesforce-folders.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-folders.png)
 
 1. Name the folder `Branch`:
 
-    ![image](/img/pages/email/salesforce/salesforce-name-folder.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-name-folder.png)
 
 1. Once the folder is created, click on the **Branch** folder. On the right side, you will see a menu bar for the Branch folder. Click on **Create** and in the sub menu, click **Content** to create new content:
 
-    ![image](/img/pages/email/salesforce/salesforce-new-content.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-new-content.png)
 
 1. In the Create Content window that appears, enter `deeplink` in the text field named Content Name. Click on **Next** after you enter the text:
 
-    ![image](/img/pages/email/salesforce/salesforce-deeplink.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-deeplink.png)
 
 1. The next screen will ask you to select the format of the content. Choose **Free Form** and then click **Next**:
 
-    ![image](/img/pages/email/salesforce/salesforce-format.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-format.png)
 
 1. In the next screen, paste in the snippet you generated in **1**:
 
-    ![image](/img/pages/email/salesforce/salesforce-snippet.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-snippet.png)
 
 1. Click **Save**. You will now be back at your list of folders in the Content section with the file **deeplink** listed:
 
-    ![image](/img/pages/email/salesforce/salesforce-saved.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-saved.png)
 
-You have now successfully created the deep linking script.  
+You have now successfully created the deep linking script.
 
 !!! example "Code snippet"
     The snippet will follow this format:
@@ -96,7 +96,7 @@ You have now successfully created the deep linking script.
 
 ##### Configure your Salesforce email templates
 
-This section covers how to convert individual links in your existing email templates to use Branch deep links.  You will need to determine which links in your email template that you want to convert to Branch deep links.  
+This section covers how to convert individual links in your existing email templates to use Branch deep links.  You will need to determine which links in your email template that you want to convert to Branch deep links.
 
 To convert a link to a Branch deep link, let's use an example:
 ```
@@ -114,15 +114,15 @@ We recommend you create the deep link in a separate document and then paste it b
 1. Log in to Salesforce Marketing Cloud
 2. Click on **Email Studio** and then a sub-menu will appear. Click on **Email** in the dropdown menu:
 
-    ![image](/img/pages/email/salesforce/salesforce-dropdown.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-dropdown.png)
 
 1. This will take you to the landing page for the Email section. Click on **Content** in the menu bar to navigate to the Content section:
 
-    ![image](/img/pages/email/salesforce/salesforce-menu-bar.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-menu-bar.png)
 
 1. Navigate to your folder containing your emails and open an existing email. Make sure the email is in HTML layout as shown below:
 
-    ![image](/img/pages/email/salesforce/salesforce-email-html.png)
+    ![image](/_assets/img/pages/email/salesforce/salesforce-email-html.png)
 
 1. Choose a link that you want to convert to a Branch deep link. Copy the text right after the `href=` in your email template, and paste it into a separate document. In the example, it is:
 
@@ -152,7 +152,7 @@ We recommend you create the deep link in a separate document and then paste it b
 
 1. Repeat this for all your links in your email template that you want to convert to Branch deep links.
 
-These links are complete and will deep link to content in your app.  
+These links are complete and will deep link to content in your app.
 
 This converted code is referred to as the "Branch script" - this script will convert your web URLs to deep links. The script uses the [Content Area](#add-a-new-content-area-for-easy-deep-linking) to turn your web URL into a deep link.
 

@@ -2,7 +2,7 @@
 
 ![Espire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/espire-1528503056176.png)
 
-This guide will walk you through how to setup your campaigns with **[Espire](http://www.espireads.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Espire](http://www.espireads.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Espire](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/espire/espire-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/espire/espire-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/espire/espire-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/espire/espire-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -20,11 +20,11 @@ Our new webhook infrastructure supports for all Branch events. The data is forma
 1. Open the [Webhooks](https://dashboard.branch.io/data-import-export/webhooks) page on the Branch dashboard.
 1. Click **+ Add New Webhook**:
 
-![image](/img/pages/exports/ua-webhooks/add-new-webhook.png)
+![image](/_assets/img/pages/exports/ua-webhooks/add-new-webhook.png)
 
 ### Configure webhook criteria
 
-![image](/img/pages/exports/ua-webhooks/edit-webhook.png)
+![image](/_assets/img/pages/exports/ua-webhooks/edit-webhook.png)
 
 As you fill out the configuration, you'll see the following options:
 
@@ -65,17 +65,17 @@ To create a filter:
 
 This should be your final view before saving:
 
-![image](/img/pages/exports/ua-webhooks/basic-filtering.png)
+![image](/_assets/img/pages/exports/ua-webhooks/basic-filtering.png)
 
 !!! note "Example: Filtering installs by attributed link campaign"
     Let’s say you’re interested in receiving a webhook for every **install** event that is referred from a Branch link where you set the **Campaign** field to **App Install Campaign**. You would configure a filter to fire a webhook only when **Campaign** is equal to **"App Install Campaign"**. You would select **Campaign** from the dropdown, the key would be be autofilled and would equal **last_attributed_touch_data.~campaign**. Finally, you'd set the value equal to **App Install Campaign**.
 
-    ![image](/img/pages/exports/ua-webhooks/campaign-install-filter.png)
+    ![image](/_assets/img/pages/exports/ua-webhooks/campaign-install-filter.png)
 
 !!! note "Example: Filtering clicks by link channel"
     Let’s say you’re interested in receiving a webhook for every **click** event that is referred from a Branch link where you set the **Channel** field to **AppLovin**. You would configure a filter to fire a webhook only when **Channel** is equal to **AppLovin**. You would select **Channel** from the dropdown, the key would be be autofilled and would equal **last_attributed_touch_data.~channel**. Finally, you'd set the value equal to **AppLovin**.
 
-    ![image](/img/pages/exports/ua-webhooks/channel-click-filter.png)
+    ![image](/_assets/img/pages/exports/ua-webhooks/channel-click-filter.png)
 
 
 See the [Advanced Filtering](#advanced-filtering) page to read more about customizing when events are sent.
@@ -87,19 +87,19 @@ To test whether your webhook is configured correctly, you can use [RequestBin](h
 
 1. Go to [RequestBin](https://requestbin.fullcontact.com/) and click **+ Create a RequestBin**:
 
-	![image](/img/pages/exports/requestbin_create.png)
+	![image](/_assets/img/pages/exports/requestbin_create.png)
 
 1. Copy the **Bin URL**:
 
-	![image](/img/pages/exports/requestbin_inspect.png)
+	![image](/_assets/img/pages/exports/requestbin_inspect.png)
 
 1. Paste this into the URL field of your Branch webhook's configuration screen:
 
-    ![image](/img/pages/exports/ua-webhooks/requestbin.png)
+    ![image](/_assets/img/pages/exports/ua-webhooks/requestbin.png)
 
 1. Now whenever your webhook is triggered, you will see a full report on RequestBin:
 
-	![image](/img/pages/exports/requestbin_response.png)
+	![image](/_assets/img/pages/exports/requestbin_response.png)
 
     !!! caution
         Please archive your Requestbin webhook when you have finished testing. Requestbins only last for 24 hours and return errors once they expire.
@@ -232,7 +232,7 @@ To create a filter:
     1. Select "equals" on the equivalency dropdown
     1. Enter a value of **SUMMERDEALS10**
 
-	![image](/img/pages/exports/ua-webhooks/coupon-filter-purchase.png)
+	![image](/_assets/img/pages/exports/ua-webhooks/coupon-filter-purchase.png)
 
 !!! caution "Array filtering not yet available"
 	Currently, webhooks do not support filtering on values inside arrays. Example arrays that cannot be filtered by value are **tags**, **+via_features** and **content_items**.

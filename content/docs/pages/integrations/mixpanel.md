@@ -14,18 +14,18 @@ Branch will send *referred* **installs** and **opens**, as well as any **custom 
 
 Branch events will appear alongside your other tracked events in Mixpanel. These events will automatically have `[Branch]` prepended.
 
-![image](/img/pages/integrations/mixpanel/branch-mixpanel.png)
+![image](/_assets/img/pages/integrations/mixpanel/branch-mixpanel.png)
 
 Additionally, individual events, such as those seen in Live View or visible when looking at People, will have Branch link data included. Here's an example:
 
-![image](/img/pages/integrations/mixpanel/mixpanel-live-view.png)
+![image](/_assets/img/pages/integrations/mixpanel/mixpanel-live-view.png)
 
 Branch events are similar to Mixpanel events in that they can be used in your existing funnels and tracked on the various pages and dashboards. However, unlike normal events, Branch events contain invaluable information about how users ended up in your app in the first place.
 
 ## Setup
 
 ### Prerequisites
-- This guide requires you to have already integrated the Branch mobile SDKs. 
+- This guide requires you to have already integrated the Branch mobile SDKs.
 - You also need to be a Mixpanel customer and have the Mixpanel SDK ([iOS](https://mixpanel.com/help/reference/ios), [Android](https://mixpanel.com/help/reference/android)) installed in your app.
 
 ### Retrieve Mixpanel Token
@@ -34,7 +34,7 @@ For the basic, codeless integration: find your Mixpanel Token and enter it into 
 
 1. Navigate to [https://mixpanel.com](https://mixpanel.com) and log into the Dashboard.
 1. Click on **Account** in the navigation bar at the top of the page.
-1. Choose **Projects** in the modal that appears, then copy your app’s Token: ![image](/img/pages/integrations/mixpanel/mixpanel-token.png)
+1. Choose **Projects** in the modal that appears, then copy your app’s Token: ![image](/_assets/img/pages/integrations/mixpanel/mixpanel-token.png)
 
 ### Configure Branch Dashboard
 
@@ -44,7 +44,7 @@ For the basic, codeless integration: find your Mixpanel Token and enter it into 
 1. Search for Mixpanel and click on the tile.
 1. Enter your Mixpanel Token and hit **Enable**.
 
-![image](/img/pages/integrations/mixpanel/enable-mixpanel-integration.png)
+![image](/_assets/img/pages/integrations/mixpanel/enable-mixpanel-integration.png)
 
 !!! warning "Please test integration!"
     Branch is not responsible for inaccurate API keys.
@@ -93,7 +93,7 @@ For a high level overview of identities in Mixpanel, see [Identity Management in
 ### What Branch Sends to Mixpanel
 
 | Property Name | Value | Sourced from | Example | Req
-| --- | --- | --- | --- | --- 
+| --- | --- | --- | --- | ---
 | event | Branch event | event name | [Branch] install | Y
 | properties.distinct_id | Unique ID for device/user | [see section below](#why-we-recommend-passing-mixpanel-distinct-id) | AEBE52E7-03EE-455A-B3C4-E57283966239 | N
 | properties.token | Mixpanel Token | Branch Dashboard | eed14a8aaa8c8ef777b8e9cb30826399 | Y

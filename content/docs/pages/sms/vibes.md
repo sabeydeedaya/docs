@@ -33,7 +33,7 @@ Navigate to the [Universal Email](https://dashboard.branch.io/sms){:target="\_bl
 
 You can retrieve your click tracking domain from your Vibes account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/sms/vibes/setup-config.png)
+![image](/_assets/img/pages/sms/vibes/setup-config.png)
 
 {! ingredients/sms/technical-setup.md !}
 

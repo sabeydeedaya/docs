@@ -13,7 +13,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select SendGrid or Mailgun as your email service provider and click **Get Started**. If you do not know which ESP to select, please contact your Vero account manager. Then, follow the [SendGrid](/pages/emails/sendgrid/) or [Mailgun](/pages/emails/mailgun/) setup steps.
 
-![image](/img/pages/email/choose-esp.png)
+![image](/_assets/img/pages/email/choose-esp.png)
 
 ### Tell us your click tracking domain
 
@@ -28,7 +28,7 @@ You will need to request a custom click tracking domain from Vero.
 
 #### If you plug Vero into your own Mailgun account
 
-You will still need to request a custom click tracking domain from Vero, but with slightly different setup steps. 
+You will still need to request a custom click tracking domain from Vero, but with slightly different setup steps.
 
 1. Branch recommends that you create a new click tracking domain in order to not affect any existing email campaigns which may have been sent prior to integration.
 1. You should create new click tracking domain at your domain registrar dashboard.

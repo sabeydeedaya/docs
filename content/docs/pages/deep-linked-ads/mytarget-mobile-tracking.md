@@ -2,7 +2,7 @@
 
 ![myTarget](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/mytar-1528505817002.png)
 
-This guide will walk you through how to setup your campaigns with **[myTarget](https://target.my.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[myTarget](https://target.my.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[myTarget](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/mytarget/mytarget-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/mytarget/mytarget-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/mytarget/mytarget-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/mytarget/mytarget-postbacks.png)
 
 {! ingredients/deep-linked-ads/mytarget-create-ad-link.md !}
 
@@ -33,7 +33,7 @@ Tracking link from Branch:
 
 ``https://branchster.app.link/ct8eUb3utF?%243p=a_mytarget&banner_id={{banner_id}}&~ad_set_id={{banner_id}}&~campaign={{campaign_name}}&~campaign_id={{campaign_id}}&~click_id={clickid}&~secondary_publisher={{advertiser_id}}``
 
-![image](/img/pages/deep-linked-ads/mytarget/create-campaign.png)
+![image](/_assets/img/pages/deep-linked-ads/mytarget/create-campaign.png)
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

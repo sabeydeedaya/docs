@@ -2,7 +2,7 @@
 
 ![Minimob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/minimob_logo_new-1528505658274.png)
 
-This guide will walk you through how to setup your campaigns with **[Minimob](https://www.minimob.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Minimob](https://www.minimob.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Minimob](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/minimob/minimob-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/minimob/minimob-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/minimob/minimob-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/minimob/minimob-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

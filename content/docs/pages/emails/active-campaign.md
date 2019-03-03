@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[Activ
 
 1. Add and verify a custom click tracking domain in the **[Setting -> Domain]** section of your ActiveCampaign account:
 
-    ![image](/img/pages/email/activecampaign/create-domain.png)
+    ![image](/_assets/img/pages/email/activecampaign/create-domain.png)
 
 For more information on how to set up your domain, please visit ActiveCampaign's [documentation](http://www.activecampaign.com/help/using-your-own-custom-domain-name/){:target="\_blank"}.
 
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Setting -> Domain]** section of your ActiveCampaign account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Setting -> Domain]** section of your ActiveCampaign account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/activecampaign/setup-config.png)
+![image](/_assets/img/pages/email/activecampaign/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

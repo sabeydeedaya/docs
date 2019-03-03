@@ -2,20 +2,20 @@
 
 Sending events from Segment to Branch will allow you to attribute downstream conversions like purchases across web and app to Branch link clicks. Events imported from Segment to Branch will be available wherever you can normally use events within Branch, including dashboard visualizations, Data Feeds, Universal Ads postbacks, Journeys targeting, Liveview and more.
 
-This guide walks through the server-side integration for data import from Segment to Branch. For the client-side integration, see [Segment's documentation](https://segment.com/docs/destinations/branch-metrics/){:target="\_blank"}. For data export from Branch to Segment, go [here](/pages/integrations/segment). 
+This guide walks through the server-side integration for data import from Segment to Branch. For the client-side integration, see [Segment's documentation](https://segment.com/docs/destinations/branch-metrics/){:target="\_blank"}. For data export from Branch to Segment, go [here](/pages/integrations/segment).
 
 ### What events does Branch import?
 
-Branch will import events that are not auto-tracked with the Branch SDKs. This includes commerce, content, user lifecycle, and custom events, and excludes events like clicks and installs. See the full list of supported events and associated mappings [here](#supported-events). Branch will only import events that can be [tied to a user](#identifiers). 
+Branch will import events that are not auto-tracked with the Branch SDKs. This includes commerce, content, user lifecycle, and custom events, and excludes events like clicks and installs. See the full list of supported events and associated mappings [here](#supported-events). Branch will only import events that can be [tied to a user](#identifiers).
 
 ## Setup
 
 1. [Contact Branch](https://support.branch.io){:target="\_blank"} to configure Branch to receive events from Segment. Please note that a subscription to [Data Feeds](https://branch.io/data-feeds/){:target="\_blank"} is required to enable data import from Segment to Branch.
 1. Navigate to the [Data Integrations page](https://dashboard.branch.io/data-import-export/data-feeds/integrations){:target="\_blank"} of the Branch dashboard.
     1. Select **Segment** from the menu on the left.
-    1. Select the platforms you would like to import events from and click **Save**. 
-    
-    ![image](/img/pages/integrations/segment/segment-import.png)
+    1. Select the platforms you would like to import events from and click **Save**.
+
+    ![image](/_assets/img/pages/integrations/segment/segment-import.png)
 
 1. Navigate to your your Segment UI’s Destinations page.
     1. Click on **Add Destination**.
@@ -23,7 +23,7 @@ Branch will import events that are not auto-tracked with the Branch SDKs. This i
     1. Enter your Branch Key. This can be found in the [Account Settings > App](https://dashboard.branch.io/account-settings/app){:target="\_blank"} section of the Branch dashboard.
     1. Enter your Branch Secret. This can be found in the [Account Settings > App](https://dashboard.branch.io/account-settings/app){:target="\_blank"} section of the Branch dashboard.
 
-For server-side event import, **you can ignore the SDK integration instructions**. 
+For server-side event import, **you can ignore the SDK integration instructions**.
 
 !!! warning "Avoid duplicate data"
     To avoid duplicate data, you should either [track conversion events directly with Branch](/pages/apps/v2event) or track events with Segment and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
@@ -50,7 +50,7 @@ And here’s the corresponding Javascript event that would generate the above pa
 
 ```javascript
 analytics.track("Registered", {
-  plan: "Pro Annual", 
+  plan: "Pro Annual",
   accountType: "Facebook"
 });
 ```
@@ -126,11 +126,11 @@ At this time, Branch does not map Segment's anonymous ID to any field, and [will
 
 Once you have import turned on in both Segment and Branch, events should come through. You will see a green dot on the import card if Branch has seen events:
 
-![image](/img/pages/integrations/segment/segment-import-status.png)
+![image](/_assets/img/pages/integrations/segment/segment-import-status.png)
 
 To see more information on the events that are coming in, you can look at events with **origin** `SEGMENT` in [Liveview](https://dashboard.branch.io/liveview/events){:target="\_blank"}:
 
-![image](/img/pages/integrations/segment/segment-import-liveview.png)
+![image](/_assets/img/pages/integrations/segment/segment-import-liveview.png)
 
 Branch imports events from Segment as [commerce, user lifecycle, content, or custom events](#supported-events).
 

@@ -5,7 +5,7 @@
 
     - `Always try to open app` 와 `I have an Android App` 이 활성화되도록 합니다.
 
-        ![image](/img/pages/dashboard/android.png)
+        ![image](/_assets/img/pages/dashboard/android.png)
 
 - ### Branch 설치
 
@@ -1283,4 +1283,4 @@
     ```
 
 - ### Minimum versions
-    Android에서 최소 버전을 API 9까지 지원하려면 Branch 1.14.5 로 연동하시기 바랍니다. 만약 API 15 이상을 지원한다면 Branch 2.x 을 연동하시기 바랍니다. Branch 3.x 를 연동하려면 최소 API 16 이상이어야 합니다. 
+    Android에서 최소 버전을 API 9까지 지원하려면 Branch 1.14.5 로 연동하시기 바랍니다. 만약 API 15 이상을 지원한다면 Branch 2.x 을 연동하시기 바랍니다. Branch 3.x 를 연동하려면 최소 API 16 이상이어야 합니다.

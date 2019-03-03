@@ -7,8 +7,8 @@
 
     - Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/apps/cordova-configure.png)
-        ![image](/img/pages/apps/cordova-link-domain.png)
+        ![image](/_assets/img/pages/apps/cordova-configure.png)
+        ![image](/_assets/img/pages/apps/cordova-link-domain.png)
 
 - ### Install Branch
 
@@ -120,7 +120,7 @@
 
             - Bundle Id matches [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-                ![image](/img/pages/apps/ios-bundle-id.png)
+                ![image](/_assets/img/pages/apps/ios-bundle-id.png)
 
         - Configure associated domains
 
@@ -129,13 +129,13 @@
             - `test-` is needed if you need use a [test key](#use-test-key)
             - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
-                ![image](/img/pages/apps/ios-entitlements.png)
+                ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
         - Configure entitlements
 
             - Confirm entitlements are within target
 
-                ![image](/img/pages/apps/ios-package.png)
+                ![image](/_assets/img/pages/apps/ios-package.png)
 
         - Configure Info.plist
 
@@ -145,13 +145,13 @@
                 - Add `branch_key` with your current Branch key
                 - Add your URI scheme as `URL Types` -> `Item 0` -> `URL Schemes`
 
-                ![image](/img/pages/apps/ios-plist.png)
+                ![image](/_assets/img/pages/apps/ios-plist.png)
 
         - Confirm app prefix
 
             - From your [Apple Developer Account](https://developer.apple.com/account/ios/identifier/bundle)
 
-                ![image](/img/pages/apps/ios-team-id.png)
+                ![image](/_assets/img/pages/apps/ios-team-id.png)
 
     - #### Android
 
@@ -356,7 +356,7 @@
 
     - Long press on the deep link *(not 3D Touch)*
 
-    - Click `Open in "APP_NAME"` to open your app *([example](/img/pages/apps/ios-notes.png))*
+    - Click `Open in "APP_NAME"` to open your app *([example](/_assets/img/pages/apps/ios-notes.png))*
 
 - ### Test deep link Android
 

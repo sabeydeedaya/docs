@@ -2,7 +2,7 @@
 
 ![crobo](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/crobo-1528501732443.png)
 
-This guide will walk you through how to setup your campaigns with **[crobo](https://www.crobo.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[crobo](https://www.crobo.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[crobo](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/crobo/crobo-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/crobo/crobo-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/crobo/crobo-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/crobo/crobo-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

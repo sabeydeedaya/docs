@@ -2,7 +2,7 @@
 
 ![Teads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aaa-1528143294665.png)
 
-This guide will walk you through how to setup your campaigns with **[Teads](http://teads.tv)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Teads](http://teads.tv)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Teads](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/teads/teads-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/teads/teads-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/teads/teads-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/teads/teads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -2,7 +2,7 @@
 
 ![IWOOP](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo-1536896201937.png)
 
-This guide will walk you through how to setup your campaigns with **[IWOOP](https://iwoop.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[IWOOP](https://iwoop.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[IWOOP](http
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/iwoop/iwoop-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/iwoop/iwoop-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/iwoop/iwoop-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/iwoop/iwoop-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

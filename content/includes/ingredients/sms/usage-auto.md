@@ -1,6 +1,6 @@
 The conversion to Branch links will only work when your links are wrapped in your click tracking domain. To test links without wrapping, please generate a test link on the Verification step of email onboarding, also accessible by clicking the gear icon for your SMS provider on the [email page](https://dashboard.branch.io/email){:target="\_blank"}.
 
-![image](/img/pages/email/setup-test.png)
+![image](/_assets/img/pages/email/setup-test.png)
 
 !!! protip "What happens to your links behind the scenes?"
     This is what a link looks like within your email template:

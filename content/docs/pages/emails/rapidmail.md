@@ -1,6 +1,6 @@
 ## Overview
 
-![Rapidmail](/img/pages/email/rapidmail/rapidmail.png)
+![Rapidmail](/_assets/img/pages/email/rapidmail/rapidmail.png)
 
 This guide will walk you through how to setup your email campaigns with **[Rapidmail](https://www.rapidmail.com/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[Rapid
 
 1. Add and verify a custom click tracking domain in the **[Your domains](https://my.rapidmail.com/userhost/list.html){:target="\_blank"}** section of your Rapidmail account:
 
-    ![image](/img/pages/email/rapidmail/create-domain.png)
+    ![image](/_assets/img/pages/email/rapidmail/create-domain.png)
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Rapidmail.
@@ -33,12 +33,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Your domains](https://my.rapidmail.com/userhost/list.html){:target="\_blank"}** section of your Rapidmail account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Your domains](https://my.rapidmail.com/userhost/list.html){:target="\_blank"}** section of your Rapidmail account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/rapidmail/setup-config.png)
+![image](/_assets/img/pages/email/rapidmail/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

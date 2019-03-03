@@ -4,19 +4,19 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
 ## Data Feeds
 <div class="nav-wrap flex-wrap">
   <a href="/pages/integrations/data-integrations-list/">
-    <img src="../../../img/pages/main-page/feeds-dot.png" />
+    <img src="../../../_assets/img/pages/main-page/feeds-dot.png" />
     <p>Data Integrations</p>
   </a>
   <a href="/pages/exports/ua-webhooks/">
-    <img src="../../../img/pages/exports/webhook.png" />
+    <img src="../../../_assets/img/pages/exports/webhook.png" />
     <p>Webhooks</p>
   </a>
   <a href="/pages/exports/api-v3/">
-    <img src="../../../img/pages/resources/sdk-resources/api1.png" />
+    <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
     <p>Data Export API</p>
   </a>
   <a href="/pages/exports/query-api/">
-    <img src="../../../img/pages/resources/sdk-resources/api1.png" />
+    <img src="../../../_assets/img/pages/resources/sdk-resources/api1.png" />
     <p>Query API</p>
   </a>
 </div>

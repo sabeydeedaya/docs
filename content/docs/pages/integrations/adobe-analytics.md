@@ -16,7 +16,7 @@ Branch events will appear on the Adobe Analytics dashboard through `Reports > Cu
 
 You'll have the flexibility to analyze data as needed in the Adobe Analytics platform, as the data Branch sends maps in Adobe Analytics to a top level eVar. This eVar contains campaign, channel, target, event name, and action property, which are your analytics tags.
 
-![image](/img/pages/integrations/adobe-analytics/adobe-analytics-conversion.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/adobe-analytics-conversion.png)
 
 Branch events are similar to Adobe Analytics events in that they can be used to build custom reports and are tracked on the various pages and dashboards. However, unlike normal events, Branch events contain valuable information about how users ended up in your app in the first place.
 
@@ -31,11 +31,11 @@ Branch events are similar to Adobe Analytics events in that they can be used to 
 
 In your Adobe Analytics dashboard, under the *Admin* tab, find *Data Connectors*.
 
-![image](/img/pages/integrations/adobe-analytics/select-data-connectors.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/select-data-connectors.png)
 
 Click *+Add New*, search for "Branch," and click *Activate*.
 
-![image](/img/pages/integrations/adobe-analytics/activate-connector.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/activate-connector.png)
 
 ### Configure the Branch Data Connector
 
@@ -47,7 +47,7 @@ These are automatically configured when you activate the Data Connector.
 
 Map your Branch events to your chosen eVar. In the example below, it will be mapped to `Custom eVar 1`, renamed to the SiteCatalyst metric `Branch`.
 
-![image](/img/pages/integrations/adobe-analytics/variable-mappings.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/variable-mappings.png)
 
 #### Data Settings
 
@@ -61,13 +61,13 @@ Medium | Feature | Journeys
 Action | Branch Event Name | Install
 Action Property| Branch Tags | tag=bar&tag2=1234
 
-![image](/img/pages/integrations/adobe-analytics/data-settings.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/data-settings.png)
 
 #### Review Summary
 
 Finally, review the integration, scroll to the bottom of the screen and click *Activate Now* to enable the integration.
 
-![image](/img/pages/integrations/adobe-analytics/final-activation.png)
+![image](/_assets/img/pages/integrations/adobe-analytics/final-activation.png)
 
 ### Configure the Branch Dashboard
 
@@ -121,9 +121,9 @@ Branch *branch = [Branch getInstance];
 //Inside *didFinishLaunchingWithOptions*
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$marketing_cloud_visitor_id", value:ADBMobile.visitorMarketingCloudID());
-    
+
     ...
-    
+
     branch.initSession(...);
 }
 ```
@@ -172,9 +172,9 @@ ADBMobile.setUserIdentifier("Whipple")
 //Passing the Identifier to Branch
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$analytics_visitor_id", value:ADBMobile.userIdentifier())
-        
+
     ...
-    
+
     branch.initSession(...);
 }
 ```
@@ -220,9 +220,9 @@ Branch *branch = [Branch getInstance];
 
 if let branch = Branch.getInstance() {
     branch.setRequestMetadataKey("$adobe_visitor_id", value:ADBMobile.trackingIdentifier());
-        
+
     ...
-    
+
     branch.initSession(...);
 }
 ```

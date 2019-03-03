@@ -2,7 +2,7 @@
 
 ![adcolony](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-adcolony-1524610626366-1524683112325.png)
 
-This guide will walk you through how to setup your campaigns with **[Adcolony](http://adcolony.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adcolony](http://adcolony.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adcolony](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adcolony/adcolony-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adcolony/adcolony-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adcolony/adcolony-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adcolony/adcolony-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

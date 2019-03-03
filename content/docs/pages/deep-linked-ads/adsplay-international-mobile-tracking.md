@@ -2,7 +2,7 @@
 
 ![Adsplay International](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/adsplay-1535150458861.png)
 
-This guide will walk you through how to setup your campaigns with **[Adsplay International](http://www.adsplay.in)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adsplay International](http://www.adsplay.in)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adsplay Int
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adsplay-international/adsplay-international-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adsplay-international/adsplay-international-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adsplay-international/adsplay-international-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adsplay-international/adsplay-international-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

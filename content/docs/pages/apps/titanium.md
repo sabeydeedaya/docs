@@ -3,8 +3,8 @@
 - ### Configure Branch
     - Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/apps/cordova-configure.png)
-        ![image](/img/pages/apps/cordova-link-domain.png)
+        ![image](/_assets/img/pages/apps/cordova-configure.png)
+        ![image](/_assets/img/pages/apps/cordova-link-domain.png)
 
 - ### Configure App
     - iOS
@@ -135,7 +135,7 @@
 
     - Long press on the deep link *(not 3D Touch)*
 
-    - Click `Open in "APP_NAME"` to open your app *([example](/img/pages/apps/ios-notes.png))*
+    - Click `Open in "APP_NAME"` to open your app *([example](/_assets/img/pages/apps/ios-notes.png))*
 
 - ### Test deep link Android
 

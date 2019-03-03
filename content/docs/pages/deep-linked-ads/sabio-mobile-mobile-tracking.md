@@ -2,7 +2,7 @@
 
 ![Sabio-Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/sabio-1528509135800.png)
 
-This guide will walk you through how to setup your campaigns with **[Sabio Mobile](http://sabiomobile.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Sabio Mobile](http://sabiomobile.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Sabio Mobil
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/sabio-mobile/sabio-mobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/sabio-mobile/sabio-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/sabio-mobile/sabio-mobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/sabio-mobile/sabio-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

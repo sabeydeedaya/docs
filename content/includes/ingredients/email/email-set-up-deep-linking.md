@@ -4,7 +4,7 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_blank"} section of the Branch dashboard. Select {{page.title}} as your email service provider and click **Get Started**.
 
-![image](/img/pages/email/choose-esp.png)
+![image](/_assets/img/pages/email/choose-esp.png)
 
 ### Set up deep linking for email
 
@@ -12,27 +12,27 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 Branch turns the web URLs you put into your emails into Branch deep links, opening the app for users with your app installed to that same content in the app.
 
-![image](/img/pages/email/users-with-app.png)
+![image](/_assets/img/pages/email/users-with-app.png)
 
 To do this, it must be possible to map your web URL content (e.g. a page with brown loafers at `https://shop.com/shoes/brown-loafers`) into a working deep link that takes users to brown loafers in the app. The Universal Email [setup flow](https://dashboard.branch.io/email){:target="\_blank"} will attempt to automatically detect this mapping for you.
 
 If you do not want to set this up yet, you can select **No, just open to app homepage for now**.
 
-![image](/img/pages/email/app-homepage.png)
+![image](/_assets/img/pages/email/app-homepage.png)
 
 By default, email deep links will redirect users _without your app_ to the same content on the web instead.
 
-![image](/img/pages/email/users-without-app.png)
+![image](/_assets/img/pages/email/users-without-app.png)
 
 If you would like to send users to the App Store or another default you have specified in Link Settings, you can select **Open to default redirects**.
 
-![image](/img/pages/email/default-redirects.png)
+![image](/_assets/img/pages/email/default-redirects.png)
 
 #### Checking your deep linking setup
 
 If you chose **not** to set up deep linking to specific content within your app, then you can [skip this step](#configure-your-esp).
 
-![image](/img/pages/email/responsys/enter-web-url.png)
+![image](/_assets/img/pages/email/responsys/enter-web-url.png)
 
 In this step, you will want to enter a web URL that corresponds to a specific screen within your app. In other words, the webpage should have content that also exists in your app. If you do not know whether your web content also exists in-app, try any URL other than your website homepage. Some examples:
 
@@ -46,7 +46,7 @@ Once you choose one and click **Submit**, [meta tags that can be used for deep l
 
 If an app deep linking scheme that maps to your web content cannot be successfully detected, you can [configure your settings manually](#deep-linking-settings-for-email), or you can reach out to your Branch account manager or support for assistance.
 
-![image](/img/pages/email/failure-result.png)
+![image](/_assets/img/pages/email/failure-result.png)
 
 We will help you set up one of the following methods:
 
@@ -74,8 +74,8 @@ The following are all the possible settings you can configure for deep linking w
 
 | Setting | Example | Link Data Result
 | --- | --- | ---
-| **Open the app homepage** | No settings configured to generate deep link data for email; email links will route to the app homepage. | 
-| **Open to specific app content** | Deep link to specific app content based on one or more of the following settings. | 
+| **Open the app homepage** | No settings configured to generate deep link data for email; email links will route to the app homepage. |
+| **Open to specific app content** | Deep link to specific app content based on one or more of the following settings. |
 | Translate query parameters on URLs into Branch link data | **URL:** `https://shop.com/shoes/brown-loafers&product_id=123456` | `product_id: 123456`
 | Translate web URL into Branch link data: <br> Full URL for key ______ | **URL:** `https://shop.com/shoes/brown-loafers` <br> **Key:** `$canonical_url` | `$canonical_url: https://shop.com/shoes/brown-loafers`
 | Translate web URL into Branch link data: <br> URL path for key ______ | **URL:** `https://shop.com/shoes/brown-loafers` <br> **Key:** `$deeplink_path` | `$deeplink_path: shoes/brown-loafers`

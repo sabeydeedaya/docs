@@ -1,9 +1,9 @@
-!!! info "<img src="../../../img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
+!!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
 		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
 		- **Universal App Campaigns (UAC)**  (this page)
 		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)  
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)
 
 Universal App campaigns allow you to promote your app across Google Search, Google Play, YouTube, Gmail, and within other apps and mobile websites on the Display Network.
 
@@ -33,4 +33,4 @@ For more detailed information, please see [Google Ads' help documentation](https
 
 As Universal App Campaigns link users directly to the respective app store, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the app store, upon which the user (hopefully) downloads the app.  With the Branch SDK implemented in your app, we measure said app download once the app opens and match the data we receive from our SDK to the information we receive directly from Google Ads via their Conversion API.
 
-![image](/img/pages/deep-linked-ads/google/google-ads-uac.png)
+![image](/_assets/img/pages/deep-linked-ads/google/google-ads-uac.png)

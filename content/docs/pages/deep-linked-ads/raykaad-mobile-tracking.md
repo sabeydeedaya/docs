@@ -2,7 +2,7 @@
 
 ![Raykaad](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Raykaad-1528509075261.png)
 
-This guide will walk you through how to setup your campaigns with **[Raykaad](https://www.raykaad.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Raykaad](https://www.raykaad.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Raykaad](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/raykaad/raykaad-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/raykaad/raykaad-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/raykaad/raykaad-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/raykaad/raykaad-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

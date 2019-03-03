@@ -2,7 +2,7 @@
 
 ![Bidmotion](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/press-logo-bdm-vfct-eadf32ceea54a621d11a3d60b113540957a56067c7c7def780f8d07c4f848ed1-1533935670269.png)
 
-This guide will walk you through how to setup your campaigns with **[Bidmotion](http://www.bidmotion.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Bidmotion](http://www.bidmotion.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Bidmotion](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/bidmotion/bidmotion-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/bidmotion/bidmotion-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/bidmotion/bidmotion-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/bidmotion/bidmotion-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

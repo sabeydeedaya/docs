@@ -9,15 +9,15 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 ## Integrated Partners
 <div class="nav-wrap flex-wrap">
   <a href="/pages/deep-linked-ads/ad-networks-list/">
-    <img src="../../../img/pages/channels/paid-ads.png" />
+    <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Universal Ads Partners</p>
   </a>
   <a href="/pages/emails/email-partners-list/">
-    <img src="../../../img/pages/channels/email.png" />
+    <img src="../../../_assets/img/pages/channels/email.png" />
     <p>Universal Email Partners</p>
   </a>
   <a href="/pages/integrations/data-integrations-list/">
-    <img src="../../../img/pages/main-page/feeds-dot.png" />
+    <img src="../../../_assets/img/pages/main-page/feeds-dot.png" />
     <p>Data Integration Partners</p>
   </a>
 </div>

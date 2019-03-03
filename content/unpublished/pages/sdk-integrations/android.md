@@ -6,7 +6,7 @@
 
     - Make sure `Always try to open app` and `I have an Android App` are both enabled
 
-        ![image](/img/pages/dashboard/android.png)
+        ![image](/_assets/img/pages/dashboard/android.png)
 
 - ### Install Branch
 

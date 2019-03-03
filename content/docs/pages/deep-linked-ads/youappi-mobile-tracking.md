@@ -2,7 +2,7 @@
 
 ![YouAppi](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/youappi-1524611148376.png)
 
-This guide will walk you through how to setup your campaigns with **[YouAppi](http://www.youappi.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[YouAppi](http://www.youappi.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[YouAppi](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/youappi/youappi-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/youappi/youappi-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/youappi/youappi-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/youappi/youappi-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

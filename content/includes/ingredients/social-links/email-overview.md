@@ -2,7 +2,7 @@
 
 Universal Email allows you to automatically convert your email links into multi-platform deep links that take users directly to content in the app on mobile devices, while still maintaining the same web experience for desktop and mobile users without the app.
 
-![image](/img/pages/email/responsys/deep-linked-email.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email.png)
 
 With a script provided by Branch, you can dynamically create Branch links in email. In any place the script is called, the web URL is converted into its corresponding Branch link. The email is then sent.
 

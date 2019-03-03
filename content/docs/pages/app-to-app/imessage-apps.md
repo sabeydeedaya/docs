@@ -43,7 +43,7 @@ If you've read the above, you know that the iMessage App Store is a completely d
 
 First, create an entirely new app via the [Branch dashboard](https://dashboard.branch.io/). You can do this in the pull down selector that shows your app name in the top right section. Then head to the [link settings page](https://dashboard.branch.io/link-settings) and scroll to the iOS section to configure it as follows:
 
-![dashboard settings](/img/pages/app-to-app/imessage-apps/dashboard_link_settings.png){ .full-width }
+![dashboard settings](/_assets/img/pages/app-to-app/imessage-apps/dashboard_link_settings.png){ .full-width }
 
 Ensure you do the following:
 

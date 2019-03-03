@@ -2,7 +2,7 @@
 
 Branch makes it simple to enable Universal Links all while greatly improving on them, offering full attribution, supporting edge cases where Universal Links fail (common) and allowing you to deep link when the user doesn't have your app installed.
 
-![image](/img/pages/deep-linking/universal-links/how_branch_improves.png)
+![image](/_assets/img/pages/deep-linking/universal-links/how_branch_improves.png)
 
 ## Setup
 
@@ -14,16 +14,16 @@ Branch makes it simple to enable Universal Links all while greatly improving on 
 1. Type in your Apple App Prefix (found by clicking your app on [this page](https://developer.apple.com/account/ios/identifier/bundle) in Apple's Developer Portal).
 1. Scroll down and click on the `Save` button.
 
-![image](/img/pages/deep-linking/universal-links/dashboard_enable_universal_links.png)
+![image](/_assets/img/pages/deep-linking/universal-links/dashboard_enable_universal_links.png)
 
 ### Enable Associated Domains in Xcode
 
 1. Go to the `Capabilities` tab of your project file.
-1. Scroll down and enable `Associated Domains`. ![image](/img/pages/deep-linking/universal-links/enable_ass_domains.png)
+1. Scroll down and enable `Associated Domains`. ![image](/_assets/img/pages/deep-linking/universal-links/enable_ass_domains.png)
 
 !!! tip "If you see an error after this step"
-	![image](/img/pages/deep-linking/universal-links/enable_ass_domains_error.png)
-	
+	![image](/_assets/img/pages/deep-linking/universal-links/enable_ass_domains_error.png)
+
 	Please ensure...
 
 	- The right team selected for your Xcode project.
@@ -33,14 +33,14 @@ Branch makes it simple to enable Universal Links all while greatly improving on 
 
 1. Go to the [Link Settings](https://dashboard.branch.io/link-settings) page on the dashboard.
 1. Scroll down to the `Link Domain` area.
-1. Copy your domain name.![image](/img/pages/deep-linking/universal-links/subdomain-setting.png)
+1. Copy your domain name.![image](/_assets/img/pages/deep-linking/universal-links/subdomain-setting.png)
 1. In the `Domains` section, click the `+` icon and add the following entries: (making sure that `xxxx` matches the subdomain prefix you've been assigned or selected for yourself)
 	* `applinks:xxxx.app.link`
 	* `applinks:xxxx-alternate.app.link`
 	* `applinks:xxxx.test-app.link`
 	* `applinks:xxxx-alternate.test-app.link`
 
-![image](/img/pages/deep-linking/universal-links/add_domain.png)
+![image](/_assets/img/pages/deep-linking/universal-links/add_domain.png)
 
 !!! warning "Support for legacy links"
 	If the **Default domain name** box shows the legacy `bnc.lt` domain, you should use the following entry instead: `applinks:bnc.lt`
@@ -151,8 +151,8 @@ When users enter your app via a Universal Link, we check to see to see if the li
 For most implementations this will never be an issue, since your deep links will be routed correctly either way. However, if you use a custom link domain *and* you rely on `handledByBranch` to return `YES` for every incoming Branch-generated Universal Link, you can inform the Branch SDK by following these steps:
 
 1. In your **Info.plist** file, create a new key called `branch_universal_link_domains`.
-1. Add your custom domain(s) as a string. ![image](/img/pages/deep-linking/universal-links/branch-universal-link-domain.png)
+1. Add your custom domain(s) as a string. ![image](/_assets/img/pages/deep-linking/universal-links/branch-universal-link-domain.png)
 1. Save the file.
 
 !!! tip "Multiple custom domains"
-	If you have an unusual situation with multiple custom link domains, you may also configure `branch_universal_link_domains` as an array of strings. ![image](/img/pages/deep-linking/universal-links/branch-universal-link-domains.png)
+	If you have an unusual situation with multiple custom link domains, you may also configure `branch_universal_link_domains` as an array of strings. ![image](/_assets/img/pages/deep-linking/universal-links/branch-universal-link-domains.png)

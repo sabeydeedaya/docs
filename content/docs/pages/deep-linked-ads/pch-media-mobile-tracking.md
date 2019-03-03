@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[PCH Media](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/pch-media/pch-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/pch-media/pch-media-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/pch-media/pch-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/pch-media/pch-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

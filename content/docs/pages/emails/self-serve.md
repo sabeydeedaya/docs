@@ -5,7 +5,7 @@
 
 You can use Branch links in email campaigns to launch your app or gracefully fall back to the App or Play Store download page. For more advanced purposes, you can even deep link users directly to content after your app opens.
 
-![image](/img/pages/email/self-serve/email.png)
+![image](/_assets/img/pages/email/self-serve/email.png)
 
 ## Guide
 
@@ -23,7 +23,7 @@ Many third-party providers add redirects to your URLs. This facilitates click tr
 !!! proptip "Want to deep link your emails without sacrificing click tracking?"
     To keep click tracking *and* deep link on all devices, try one of our [Universal Email integrations](https://dashboard.branch.io/email){:target="\_blank"}. If you do not see your ESP there, let us know [here](https://dashboard.branch.io/email){:target="\_blank"}:
 
-    ![image](/img/pages/email/no-esp.png)
+    ![image](/_assets/img/pages/email/no-esp.png)
 
     And let your ESP know, too!
 

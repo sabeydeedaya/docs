@@ -2,7 +2,7 @@
 
 ![adaction-interactive](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/aai-1524683044611.png)
 
-This guide will walk you through how to setup your campaigns with **[AdAction Interactive](http://adactioninteractive.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[AdAction Interactive](http://adactioninteractive.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[AdAction In
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adaction-interactive/adaction-interactive-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adaction-interactive/adaction-interactive-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adaction-interactive/adaction-interactive-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adaction-interactive/adaction-interactive-postbacks.png)
 
 !!! caution "OS specific Goal IDs"
     You must replace **ANDROID_GOAL_ID** and **IOS_GOAL_ID** with real values from your AdAction dashboard.

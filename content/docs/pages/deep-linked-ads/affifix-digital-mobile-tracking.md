@@ -2,7 +2,7 @@
 
 ![Affifix Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_mail-1530575995247.png)
 
-This guide will walk you through how to setup your campaigns with **[Affifix Digital](http://www.affifix.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Affifix Digital](http://www.affifix.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Affifix Dig
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/affifix-digital/affifix-digital-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/affifix-digital/affifix-digital-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/affifix-digital/affifix-digital-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/affifix-digital/affifix-digital-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

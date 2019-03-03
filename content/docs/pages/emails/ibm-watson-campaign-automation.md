@@ -1,6 +1,6 @@
 ## Overview
 
-![IBM-Watson-Campaign-Automation](/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)
+![IBM-Watson-Campaign-Automation](/_assets/img/pages/email/ibm-watson-campaign-automation/ibm-watson-campaign-automation.png)
 
 This guide will walk you through how to setup your email campaigns with **[IBM Watson Campaign Automation](https://www.ibm.com/us-en/marketplace/digital-marketing-and-lead-management){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[IBM W
 
 If you need to add new custom click tracking domain please ask your IBM Watson Campaign Automation account
 
-![image](/img/pages/email/ibm-watson-campaign-automation/create-domain.png)
+![image](/_assets/img/pages/email/ibm-watson-campaign-automation/create-domain.png)
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at IBM Watson Campaign Automation.
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 You can retrieve your click tracking domain from the **Domain Settings** section of your Organisation Settings at IBM Watson Campaign Automation account.
 
-If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/ibm-watson-campaign-automation/setup-config.png)
+![image](/_assets/img/pages/email/ibm-watson-campaign-automation/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

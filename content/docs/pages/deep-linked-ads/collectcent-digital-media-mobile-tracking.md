@@ -2,7 +2,7 @@
 
 ![Collectcent Digital Media](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/download-1536897978496.png)
 
-This guide will walk you through how to setup your campaigns with **[Collectcent Digital Media](http://www.collectcent.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Collectcent Digital Media](http://www.collectcent.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Collectcent
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/collectcent-digital-media/collectcent-digital-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/collectcent-digital-media/collectcent-digital-media-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/collectcent-digital-media/collectcent-digital-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/collectcent-digital-media/collectcent-digital-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

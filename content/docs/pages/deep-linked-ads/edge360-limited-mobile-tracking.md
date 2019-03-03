@@ -2,7 +2,7 @@
 
 ![Edge360 Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/edge360_profile_logo-1539999010526.png)
 
-This guide will walk you through how to setup your campaigns with **[Edge360 Limited](http://www.edge360.co.uk/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Edge360 Limited](http://www.edge360.co.uk/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Edge360 Lim
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/edge360-limited/edge360-limited-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/edge360-limited/edge360-limited-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/edge360-limited/edge360-limited-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/edge360-limited/edge360-limited-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

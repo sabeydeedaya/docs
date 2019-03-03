@@ -2,7 +2,7 @@
 
 ![The-Trade-Desk](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/TTD-Logo-1528510078241.png)
 
-This guide will walk you through how to setup your campaigns with **[The Trade Desk](https://www.thetradedesk.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[The Trade Desk](https://www.thetradedesk.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,17 +14,17 @@ This guide will walk you through how to setup your campaigns with **[The Trade D
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 A hypothetical example of a partner UI configuration page might look like:
 
-![The-Trade-Desk-dashboard](/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-dashboard.png)
+![The-Trade-Desk-dashboard](/_assets/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-dashboard.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/the-trade-desk/the-trade-desk-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

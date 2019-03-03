@@ -2,7 +2,7 @@
 
 ![TaskBucks](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/task-1528510066682.png)
 
-This guide will walk you through how to setup your campaigns with **[TaskBucks](http://www.taskbucks.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[TaskBucks](http://www.taskbucks.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[TaskBucks](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/taskbucks/taskbucks-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/taskbucks/taskbucks-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/taskbucks/taskbucks-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/taskbucks/taskbucks-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

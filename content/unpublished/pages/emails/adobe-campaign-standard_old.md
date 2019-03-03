@@ -12,11 +12,11 @@ Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@bran
 
 The click-tracking domain is a key component to set up a Universal Email. Normally, when clients setup the click tracking domain, they provide a customized domain name and point it to the Adobe Campaign Standard tracking server.
 
-![image](/img/pages/email/click-tracking-1.png)
+![image](/_assets/img/pages/email/click-tracking-1.png)
 
 To make deep links work, the click tracking domain must be pointed to Branch - so Branch will receive the clicks, proxy requests to Adobe Campaign Standard and redirect users to the app or website. Branch recommends that a new click tracking domain is set up for all new campaigns that will use Branch.
 
-![image](/img/pages/email/click-tracking-2.png)
+![image](/_assets/img/pages/email/click-tracking-2.png)
 
 #### Interaction with the mobile app
 
@@ -32,7 +32,7 @@ To enable deep links, you need to create a new the click tracking domain and poi
 
 Pointing the click tracking domain to Branch is very easy. Using your domain management system - add a CNAME record and point the click tracking domain to `thirdparty.bnc.lt`.
 
-![image](/img/pages/email/click-tracking-3.png)
+![image](/_assets/img/pages/email/click-tracking-3.png)
 
 You can check the CNAME setting using this [DNS verification tool](https://toolbox.googleapps.com/apps/dig/#CNAME/).
 
@@ -42,7 +42,7 @@ Apple recognizes the click tracking domain as a Universal Link, and opens the ap
 
 Open the Brand Configuration page in Adobe Campaign Standard and find the field called **External URL of the tracking server**.
 
-![image](/img/pages/email/adobe-campaign-external-setup.png)
+![image](/_assets/img/pages/email/adobe-campaign-external-setup.png)
 
 #### Update the External Tracking Server URL
 
@@ -52,7 +52,7 @@ Open the Brand Configuration page (in Adobe Campaign Standard) and Replace the E
 
 Copy your new click tracking domain into the click tracking domain setting for the Adobe Campaign Standard integration in the [Branch Dashboard](https://branch.dashboard.branch.io/email/manager).
 
-![image](/img/pages/email/adobe-campaign-internal-setup.png)
+![image](/_assets/img/pages/email/adobe-campaign-internal-setup.png)
 
 ### Technical Setup
 
@@ -65,19 +65,19 @@ To enable Universal Links on your click tracking domain, you'll need to add the 
 1. In Xcode, go to the `Capabilities` tab of your project file.
 1. Scroll down and enable `Associated Domains` if it is not already enabled.
 
-    ![image](/img/pages/email/enable-associated-domains.png)
+    ![image](/_assets/img/pages/email/enable-associated-domains.png)
 
 1. Copy your click tracking domain from the [email you received from Branch](#configure-your-app-for-your-click-tracking-domain), or retrieve it from your ESP's settings.
 1. In the `Domains` section, click the `+` icon and add your click tracking domain. For example, if your click tracking domain is `email.example.com`, add an entry for `applinks:email.example.com`.
 
-    ![image](/img/pages/email/add-domain.png)
+    ![image](/_assets/img/pages/email/add-domain.png)
 
 !!! protip "Having trouble or new to Universal Links?"
     Follow [these instructions](/pages/deep-linking/universal-links/) for more details on enabling Universal Links in the Branch dashboard and in Xcode.
 
 **Android:** Add click tracking domain to intent filter in **AndroidManifest.xml**
 
-![image](/img/pages/email/android-manifest.png)
+![image](/_assets/img/pages/email/android-manifest.png)
 
 #### Add the deep link handler to the mobile app
 

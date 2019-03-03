@@ -2,7 +2,7 @@
 
 ![Liftoff](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/liftoff-logo-1528505628430.png)
 
-This guide will walk you through how to setup your campaigns with **[Liftoff](http://liftoff.io)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Liftoff](http://liftoff.io)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Liftoff](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/liftoff/liftoff-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/liftoff/liftoff-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/liftoff/liftoff-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/liftoff/liftoff-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

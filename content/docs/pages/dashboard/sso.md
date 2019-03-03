@@ -48,7 +48,7 @@ Ask your account manager or [support](https://support.branch.io/support/tickets/
 
 When you have added Branch, your IdP should provide you with an **Identity provider Entity ID**, an **Identity provider SSO URL**, and a **Public x509 certificate**. Go to [Account Settings > SSO](https://dashboard.branch.io/account-settings/sso){:target="\_blank"} and paste in the information:
 
-![image](/img/pages/dashboard/sso/configure-saml.png)
+![image](/_assets/img/pages/dashboard/sso/configure-saml.png)
 
 Click **Save** to save your information. SSO will not be enabled for your team yet.
 
@@ -66,7 +66,7 @@ Branch does not currently support just-in-time or SCIM provisioning. [Learn More
 
 Return to the [Account Settings > SSO](https://dashboard.branch.io/account-settings/sso){:target="\_blank"} page and toggle SAML/SSO to **On**. When you click **Save** at the bottom, SSO will be enabled and users will have to login via your branded subdomain:
 
-![image](/img/pages/dashboard/sso/enable-saml.png)
+![image](/_assets/img/pages/dashboard/sso/enable-saml.png)
 
 Users on your claimed email domain(s) trying to log in, reset password, or sign up the regular way via `https://dashboard.branch.io`, will be redirected to your branded subdomain and your IdP login page.
 

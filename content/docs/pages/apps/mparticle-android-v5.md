@@ -16,8 +16,8 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - Decide on a URI scheme to use, and configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-    ![image](/img/pages/dashboard/android.png)
-    ![image](/img/pages/dashboard/link-domain.png)
+    ![image](/_assets/img/pages/dashboard/android.png)
+    ![image](/_assets/img/pages/dashboard/link-domain.png)
 
 - Add the following intent filter for the Branch URI scheme to the `LauncherActivity` in your Android Manifest
   ```

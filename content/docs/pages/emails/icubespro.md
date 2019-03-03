@@ -16,7 +16,7 @@ This guide will walk you through how to setup your email campaigns with **[iCube
 
 1. Add and verify a custom click tracking domain in the **[Acount Settings](https://app.icubespro.com/Masters/AccountSettings){:target="\_blank"}** section of your iCubesPro account:
 
-    ![image](/img/pages/email/icubes_pro/create-domain.png)
+    ![image](/_assets/img/pages/email/icubes_pro/create-domain.png)
 
 For more information on how to set up your domain, please ask your account manager at iCubesPro.
 
@@ -35,12 +35,12 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 
 ### Tell us your click tracking domain
 
-You can retrieve your click tracking domain from the **[Acount Settings](https://app.icubespro.com/Masters/AccountSettings){:target="\_blank"}** section of your iCubesPro account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **[Acount Settings](https://app.icubespro.com/Masters/AccountSettings){:target="\_blank"}** section of your iCubesPro account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
 
-![image](/img/pages/email/icubes_pro/setup-config.png)
+![image](/_assets/img/pages/email/icubes_pro/setup-config.png)
 
 {! ingredients/email/technical-setup.md !}
-	
+
 {! ingredients/email/validate-test.md !}
 
 {! ingredients/email/usage-auto.md !}

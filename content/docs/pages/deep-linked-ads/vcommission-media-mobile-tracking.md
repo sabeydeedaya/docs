@@ -2,7 +2,7 @@
 
 ![vCommission Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Vcommi-1533342472151.png)
 
-This guide will walk you through how to setup your campaigns with **[vCommission Media](http://www.vcommission.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[vCommission Media](http://www.vcommission.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[vCommission
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/vcommission-media/vcommission-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/vcommission-media/vcommission-media-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/vcommission-media/vcommission-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/vcommission-media/vcommission-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

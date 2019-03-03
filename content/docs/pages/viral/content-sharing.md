@@ -150,7 +150,7 @@ Then, trigger the share sheet to appear without having to create a link. Calling
 
 Here's an example of what you'll see with iOS on the left and Android on the right:
 
-![image](/img/pages/viral/content-sharing/combined_share_sheet.png)
+![image](/_assets/img/pages/viral/content-sharing/combined_share_sheet.png)
 
 !!! note "To learn more about the concepts we used, visit these pages"
     - [Creating Links in Apps](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)

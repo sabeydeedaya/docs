@@ -2,7 +2,7 @@
 
 ![Adgoi Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_black-1530576240115.png)
 
-This guide will walk you through how to setup your campaigns with **[Adgoi Technologies](https://www.adgoi.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Adgoi Technologies](https://www.adgoi.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adgoi Techn
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/adgoi-technologies/adgoi-technologies-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adgoi-technologies/adgoi-technologies-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/adgoi-technologies/adgoi-technologies-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adgoi-technologies/adgoi-technologies-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

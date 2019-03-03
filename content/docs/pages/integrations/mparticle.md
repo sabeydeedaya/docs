@@ -22,7 +22,7 @@ Branch attribution events are mapped as follows:
 - Custom Event Type = attribution
 - Event Name = attribution
 
-![image](/img/pages/integrations/mparticle/mparticle-showing-branch-data.png)
+![image](/_assets/img/pages/integrations/mparticle/mparticle-showing-branch-data.png)
 
 For information on how to test your integration and see more detailed data, please review our [testing instructions below](#testing-your-integration).
 
@@ -41,17 +41,17 @@ Find your mParticle key & secret and enter it into the Branch Dashboard.
 1. Click the Branch tile, and click **Add Branch Metrics to Setup**
 1. Select the **Input Feed** Integration Type and click **Add to Setup**
 
-    ![image](/img/pages/integrations/mparticle/mparticle-add-feed-to-setup.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-add-feed-to-setup.png)
 
 1. Specify the following configuration parameters:
     - Configuration Name
     - Act as Application _(select the right platform here)_
 
-    ![image](/img/pages/integrations/mparticle/mparticle-configure-feed.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-configure-feed.png)
 
 1. Copy your server to server key and secret - you'll enter them into the Branch dashboard in a moment.
 
-    ![image](/img/pages/integrations/mparticle/mparticle-keys.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-keys.png)
 
 
 ### Configure Branch Dashboard
@@ -62,7 +62,7 @@ Find your mParticle key & secret and enter it into the Branch Dashboard.
 1. Search for mParticle and click on the tile.
 1. Enter your mParticle key & secret and hit **Enable**.
 
-    ![image](/img/pages/integrations/mparticle/mparticle-branch-settings.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-branch-settings.png)
 
     !!! warning "Please test integration!"
         Branch is not responsible for inaccurate API keys.
@@ -89,22 +89,22 @@ You can find additional information about the Branch and mParticle integration i
 
 ## Testing your integration
 
-To see the data being passed to mParticle in more detail, you can set up a webhook to Requestbin. This will allow you to send only a subset of your Branch events to Requestbin and verify the data is coming through as expected. 
+To see the data being passed to mParticle in more detail, you can set up a webhook to Requestbin. This will allow you to send only a subset of your Branch events to Requestbin and verify the data is coming through as expected.
 
-1. Enable the Branch Data Integration above. Install your app from a Branch link to generate some data in mParticle. It can take up to an hour for the custom attributes to show in mParticle. 
+1. Enable the Branch Data Integration above. Install your app from a Branch link to generate some data in mParticle. It can take up to an hour for the custom attributes to show in mParticle.
 1. Create a Branch link from the Quick Links section of the dashboard, with a campaign of *branch_test*.
 
-    ![image](/img/pages/integrations/mparticle/mparticle-test-link.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-test-link.png)
 
 1. In mParticle, navigate to the Directory in mParticle and add **Webhooks** as an option. Add a Requestbin URL generated from [https://requestb.in](https://requestb.in).
 
-    ![image](/img/pages/integrations/mparticle/mparticle-add-webhooks.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-add-webhooks.png)
 
-1. To refine the data being sent to the webhook, navigate to **Connections > Connect**. 
+1. To refine the data being sent to the webhook, navigate to **Connections > Connect**.
 1. Select the Branch Feed as the input, and **Webhooks** as the output.
-1. Finally, view the Requestbin. You can do this by appending **?inspect** to your requestbin URL. You should be able to copy paste the POST body from the request bin into a JSON formatter like [https://jsonlint.com/](https://jsonlint.com/) to view the event details. 
+1. Finally, view the Requestbin. You can do this by appending **?inspect** to your requestbin URL. You should be able to copy paste the POST body from the request bin into a JSON formatter like [https://jsonlint.com/](https://jsonlint.com/) to view the event details.
 
-    ![image](/img/pages/integrations/mparticle/mparticle-requestbin.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-requestbin.png)
 
 1. Once you're done testing, delete the webhook.
 

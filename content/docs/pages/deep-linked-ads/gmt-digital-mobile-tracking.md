@@ -2,7 +2,7 @@
 
 ![GMT Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/433199835823231943/download-1530305688845.png)
 
-This guide will walk you through how to setup your campaigns with **[GMT Digital](http://gmtdigital.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[GMT Digital](http://gmtdigital.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[GMT Digital
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/gmt-digital/gmt-digital-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/gmt-digital/gmt-digital-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/gmt-digital/gmt-digital-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/gmt-digital/gmt-digital-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

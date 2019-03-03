@@ -2,7 +2,7 @@
 
 ![FeedMob](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/feedmob-logo_highres-teal_2-1528503064943.png)
 
-This guide will walk you through how to setup your campaigns with **[FeedMob](http://feedmob.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[FeedMob](http://feedmob.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[FeedMob](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/feedmob/feedmob-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/feedmob/feedmob-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/feedmob/feedmob-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/feedmob/feedmob-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

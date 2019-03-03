@@ -2,7 +2,7 @@
 
 ![Tradedoubler](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tradedoubler_logo-1527830816887.png)
 
-This guide will walk you through how to setup your campaigns with **[Tradedoubler](https://www.tradedoubler.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Tradedoubler](https://www.tradedoubler.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Tradedouble
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/tradedoubler/tradedoubler-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/tradedoubler/tradedoubler-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/tradedoubler/tradedoubler-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/tradedoubler/tradedoubler-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

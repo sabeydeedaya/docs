@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[MANPLUS](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/manplus/manplus-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/manplus/manplus-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/manplus/manplus-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/manplus/manplus-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

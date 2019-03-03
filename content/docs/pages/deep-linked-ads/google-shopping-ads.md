@@ -44,9 +44,9 @@ Web | Yes | Uses Branch link, must redirect to web
 
 If you need more customization for any reason, you can also convert your feed manually.
 
-1. Tell your Branch account manager, or support@branch.io, that you'd like to use Google Shopping Ads so they can enable your account. 
+1. Tell your Branch account manager, or support@branch.io, that you'd like to use Google Shopping Ads so they can enable your account.
 1. Find your Branch base domain by going to the [Link Settings Page](https://branch.dashboard.branch.io/link-settings) of your Branch Dashboard.
-<img src="/img/pages/dashboard/link-domain.png" alt="Link Domain" class="three-quarters center">
+<img src="/_assets/img/pages/dashboard/link-domain.png" alt="Link Domain" class="three-quarters center">
 1. Take the link in the `link` column of your existing product feed, and URL encode it.
 1. Prepend the encoded link from the previous step with your Branch base domain and the following parameters:
 ```3p?$3p=a_google_adwords&~advertising_partner_name=Google%20AdWords&~campaign_id={campaignid}&~ad_set_id={adgroupid}&~keyword_text={keyword}&~placement={placement}&$original_url=```
@@ -74,7 +74,7 @@ Now that you have your feed, it's time to upload it to Google Merchant Center an
 #### Uploading to Google Merchant Center
 
 1. In Google Merchant Center, navigate to `Products` then `Feeds`.
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-merchant-center-home.png" alt="Merchant Center Home" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-merchant-center-home.png" alt="Merchant Center Home" class="three-quarters center">
 1. Click the large blue plus button to add a new feed.
 1. Follow the prompts to name your feed, select feed language, and upload or connect your feed.
 1. Once your feed has been created, Merchant Center will take a few minutes to process it. Once that has finished, you're feed is ready to be used in your Adwords campaigns.
@@ -82,10 +82,10 @@ Now that you have your feed, it's time to upload it to Google Merchant Center an
 #### Using your Merchant Center Feed in Adwords
 
 1. In your Adwords dashboard, navigate to the All Campaigns page.
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-campaign-view.png" alt="AdWords Campaign View" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-campaign-view.png" alt="AdWords Campaign View" class="three-quarters center">
 1. Click the red campaign button, and create a new Shopping Campaign.
 1. On the Shopping Ads Setup page, make sure the correct Merchant Identifier is selected (this should match the value in your Merchant Center Dashboard).
-<img src="/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-merchant-identifier.png" alt="AdWords Merchant Identifier" class="three-quarters center">
+<img src="/_assets/img/pages/deep-linked-ads/google-xplatform-shopping-ads/google-adwords-merchant-identifier.png" alt="AdWords Merchant Identifier" class="three-quarters center">
 1. Complete the ad configuration and name your ad group.
 1. You should see your new Campaign and Ad Group.
 

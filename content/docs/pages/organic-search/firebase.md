@@ -69,7 +69,7 @@ The first step to listing your app content in Google is to tell Branch what the 
 
  Enable automatic sitemap generation on the [Organic Search](https://dashboard.branch.io/search) page of the Branch Dashboard. Check the `Automatic sitemap generation` checkbox.
 
-![image](/img/pages/organic-search/firebase/db-settings.png)
+![image](/_assets/img/pages/organic-search/firebase/db-settings.png)
 
 Once you enable this, your app will be included in our nightly job to automatically generate sitemaps. These sitemaps can be scraped by Google, and all of the included links can then be indexed.
 
@@ -82,7 +82,7 @@ After you've enabled App Indexing, this page will showcase the following data:
 
 Both the sitemap itself and statistics about Google scraping your links are updated via nightly map-reduce jobs.
 
-![image](/img/pages/organic-search/firebase/db-summary.png)
+![image](/_assets/img/pages/organic-search/firebase/db-summary.png)
 
 !!! note "Google does not scrape sitemaps for apps with custom domains"
     If you're using a custom domain for your Branch links, Google will not scrape your auto-generated sitemap.

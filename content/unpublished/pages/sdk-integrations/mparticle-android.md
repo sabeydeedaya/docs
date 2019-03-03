@@ -9,8 +9,8 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Complete your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
-        ![image](/img/pages/dashboard/android.png)
-        ![image](/img/pages/dashboard/link-domain.png)
+        ![image](/_assets/img/pages/dashboard/android.png)
+        ![image](/_assets/img/pages/dashboard/link-domain.png)
 
 - ### Install Branch
 
@@ -386,8 +386,8 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Registers a custom commerce event
 
-    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency` 
-    
+    - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/7fb24798d06f02a90acc3c73ec907dbb769caae1/Branch-SDK/src/io/branch/referral/util/CurrencyType.java) for `Currency`
+
     - Uses [Commerce properties](https://github.com/BranchMetrics/android-branch-deep-linking/blob/65f8c34ccc6705331b50348f99a66a13da19cf8c/Branch-SDK/src/io/branch/referral/util/ProductCategory.java) for `Category`
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/commerce)
@@ -554,7 +554,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
         - `/LVeu` (live)
         - `/eVeu` (test)
         - `your.app.com`
-        
+
 - ### Generate signing certificate
 
     - Used for Android `App Link` deep linking

@@ -2,7 +2,7 @@
 
 ![iCubesWire](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/icub_new-1534174553980.png)
 
-This guide will walk you through how to setup your campaigns with **[iCubesWire](http://www.icubeswire.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[iCubesWire](http://www.icubeswire.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[iCubesWire]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/icubeswire/icubeswire-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/icubeswire/icubeswire-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/icubeswire/icubeswire-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/icubeswire/icubeswire-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -218,7 +218,7 @@ Link Data Dictionary 에 정의한 커스텀 Key/value 외에 Branch에서는 �
 
 	Branch Dashboard 에서 Quick Link 를 생성할 때 _Deep Link Data(Advanced)_ 섹션에서 제어 파라미터를 Key/Value 형식으로 입력함으로써 특정 딥링크 URI 를 Branch Link 에 추가할 수 있습니다.
 
-	![image](/img/pages/deep-linking/routing/deep-link_path.png)
+	![image](/_assets/img/pages/deep-linking/routing/deep-link_path.png)
 
 
 ### Universal Link 와 App Link 에서 딥링크 URI Path 를 핸들링하는 방법

@@ -219,7 +219,7 @@ All of the examples below create links that will cause Branch to display `myapp:
 
 	You can specify the control parameters for individual Quick Links by inserting the keys and values into the _Deep Link Data (Advanced)_ section.
 
-	![image](/img/pages/deep-linking/routing/deep-link_path.png)
+	![image](/_assets/img/pages/deep-linking/routing/deep-link_path.png)
 
 
 ### How to handle URI paths with Universal Links or App Links

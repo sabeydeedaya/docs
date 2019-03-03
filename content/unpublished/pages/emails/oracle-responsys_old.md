@@ -45,29 +45,29 @@ In this step, we'll upload an SDK that makes it very easy to create deep links i
     ```
 
 1. Log in to your Responsys account.
-1. In the Responsys Dashboard, open your Content Library. You can also access it via the Shortcuts screen on the main page: 
+1. In the Responsys Dashboard, open your Content Library. You can also access it via the Shortcuts screen on the main page:
 
-    ![image](/img/pages/email/responsys/responsys-shortcuts.png)
+    ![image](/_assets/img/pages/email/responsys/responsys-shortcuts.png)
 
 1. Once you are in the Content Manager, you’ll see a list of folders where content is stored. Under **All Content**, create a new folder named `Branch_SDK`:
 
-    ![image](/img/pages/email/responsys/responsys-new-folder.png)
+    ![image](/_assets/img/pages/email/responsys/responsys-new-folder.png)
 
 1. Select the **Branch_SDK** folder and then click **Create Document**:
 
-    ![image](/img/pages/email/responsys/responsys-create-document.png)
+    ![image](/_assets/img/pages/email/responsys/responsys-create-document.png)
 
 1. In the Create Document window:
     * Enter `branch-sdk` in the “Document Name” field.
     * In the **Content Box**, delete all the text.
     * Paste the snippet you copied in **1**.
-    * Click Save. 
+    * Click Save.
 
-      ![image](/img/pages/email/responsys/responsys-snippet.png)
+      ![image](/_assets/img/pages/email/responsys/responsys-snippet.png)
 
 You have now successfully created the deep linking script. Your file structure should look as follows:
 
-![image](/img/pages/email/responsys/deep-linked-email-manage-content.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email-manage-content.png)
 
 ##### Configure your Responsys email templates
 
@@ -88,7 +88,7 @@ Copy the following snippet, and using the “Source” view, paste the snippet d
 
 For the Branch SDK to generate Branch links in the email or the 3P links while redirections, the Link Tracking table for the email template should contain the following two LINK NAME with the `${deeplink}` as the **LINK URL**.
 
-![image](/img/pages/email/responsys/configure-responsys-5.png)
+![image](/_assets/img/pages/email/responsys/configure-responsys-5.png)
 
 *For creating tracked links, ensure that **‘Track Link’** is set to **ON**. Tracked links will be generated under the Responsys Click Tracking Domain and will then redirect to a Branch 3p link (the link added as the base URL in the Branch_SDK.htm file.*
 ##### Create deep links
@@ -115,7 +115,7 @@ With link tracking enabled, you can still use Branch links in emails.
 
 This latter example pulls from a Link Table.
 
-![image](/img/pages/email/responsys/deep-linked-email-template.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email-template.png)
 
 {! ingredients/email/email-link-options.md !}
 
@@ -123,9 +123,9 @@ This latter example pulls from a Link Table.
 
 In some cases you may have content on web that isn’t in the app - for example, a temporary Mother’s Day promotion or an unsubscribe button. You can designate links to only open on web if you use the Responsys Link Table feature. There are three URL fields in the link table when creating a new link: `LINK_URL`, `IOS_LINK_URL`, and `ANDROID_LINK_URL`. If you only enter the link in the `LINK_URL` field, the path of the final click-wrapped url will begin with `/pub/cc`.  However, if you also input the same link in `IOS_LINK_URL`, then the path of the final click-wrapped url will begin with `pub/acc`. You should set up your AASA file to whitelist only the path `/pub/acc*` in order to not launch the app from web-only links.
 
-![image](/img/pages/email/responsys/branch_responsys_webonly.png)
+![image](/_assets/img/pages/email/responsys/branch_responsys_webonly.png)
 
-![image](/img/pages/email/responsys/branch_responsys_deeplink.png)
+![image](/_assets/img/pages/email/responsys/branch_responsys_deeplink.png)
 
 ## Support
 

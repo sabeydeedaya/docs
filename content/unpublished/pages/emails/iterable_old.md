@@ -3,7 +3,7 @@
 
 {! ingredients/email/email-configure-esp.md !}
 
-You can retrieve your click tracking domain from the **Mail Domains page, in the Tracking Domains** section of your Iterable account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain). 
+You can retrieve your click tracking domain from the **Mail Domains page, in the Tracking Domains** section of your Iterable account. If you have not added a custom click tracking domain yet, follow the instructions [here](#create-a-custom-click-tracking-domain).
 
 On **Done** click, an AASA file - required for Universal Links - specific to that domain will be generated.
 
@@ -13,7 +13,7 @@ On **Done** click, an AASA file - required for Universal Links - specific to tha
 
 1. Add and verify a custom click tracking domain on the Mail Domains page, in the Tracking Domains section of your Iterable account:
 
-    ![image](/img/pages/email/iterable-create-domain.png)
+    ![image](/_assets/img/pages/email/iterable-create-domain.png)
 
 1. Create a new CNAME record in your DNS zone file and set the host of your domain to the value `links.iterable.com`
 

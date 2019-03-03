@@ -2,7 +2,7 @@
 
 ![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/J_bBfz8g-1533069311294.png)
 
-This guide will walk you through how to setup your campaigns with **[Everflow Technologies](https://everflow.io/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Everflow Technologies](https://everflow.io/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,19 +14,19 @@ This guide will walk you through how to setup your campaigns with **[Everflow Te
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 
-To find the Network ID, the best way is to go into Network > Settings > And look in the Global Postback. The "nid" is the network ID. 
-In the example attached, it would be 63, 
+To find the Network ID, the best way is to go into Network > Settings > And look in the Global Postback. The "nid" is the network ID.
+In the example attached, it would be 63,
 
-![image](/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-credentials.png)
+![image](/_assets/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-credentials.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/everflow-technologies/everflow-technologies-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

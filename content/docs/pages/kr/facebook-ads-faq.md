@@ -120,7 +120,7 @@ Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파�
 
 다음은 '고급 모바일 측정' 계약서에 서명한 광고 계정을 볼 수 있는 페이지입니다.
 
-![AMM](/img/pages/deep-linked-ads/facebook-ads-faq/amm.png)
+![AMM](/_assets/img/pages/deep-linked-ads/facebook-ads-faq/amm.png)
 
 ### Facebook 데이터와 Branch 데이터가 일치하지 않는 경우
 
@@ -389,7 +389,7 @@ Facebook 연동을 처음 설정한 경우 [Ads Analytics](https://dashboard.bra
 
 셋째, Facebook 대시보드에서 설치, 재설치 또는 실행을 유도하는 캠페인을 찾습니다. 앱 캠페인을 진행 중인 광고 계정 ID를 확인하세요. 그런 다음 [파트너 관리에서 Facebook 페이지](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"}로 이동하여 광고 계정 ID가 완료된 연결 프로세스의 일부로 표시되는지 확인해야 합니다. 해당 정보는 여기에 표시되어야 합니다(광고 계정 두 개가 화면에서 활성화된 것으로 표시되지만 광고 계정 ID는 흐리게 표시됨).
 
-![complete](/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/9-complete.png)
+![complete](/_assets/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/9-complete.png)
 
 넷째, Branch와 Facebook 통합을 사용하도록 설정한 후에 발생한 설치, 재설치 또는 실행을 확인해야 합니다. Branch는 디바이스 레벨의 과거 데이터를 가져올 수 없습니다. Facebook API가 이에 맞게 설계되지 않았기 때문입니다. Branch와 Facebook을 사용하도록 설정한 다음 신규 설치가 발생할 때까지 기다린 후에 [광고 분석](https://dashboard.branch.io/ads/analytics){:target="\_blank"} 페이지를 확인하세요.
 

@@ -2,7 +2,7 @@
 
 ![Volo Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1536798446832.png)
 
-This guide will walk you through how to setup your campaigns with **[Volo Media](http://www.volo.mobi)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Volo Media](http://www.volo.mobi)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Volo Media]
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/volo-media/volo-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/volo-media/volo-media-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/volo-media/volo-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/volo-media/volo-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

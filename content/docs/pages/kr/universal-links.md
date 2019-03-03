@@ -2,7 +2,7 @@
 
 Branch는 Universal Link를 쉽게 활성화할 수 있게 하고 동시에 이를 향상시키고 있습니다. 이는 온전한 Attribution 매칭 기능을 지원하고 Universal Link 랜딩이 실패할 때 기타 UX 를 파괴하지 않은 대안을 제공하며 앱 미설치자가 앱 설치하고 최초 실행할 때도 지정한 컨텐츠로 라우팅할 수 있게 도와줍니다.
 
-![image](/img/pages/deep-linking/universal-links/how_branch_improves.png)
+![image](/_assets/img/pages/deep-linking/universal-links/how_branch_improves.png)
 
 ## 설정
 
@@ -14,15 +14,15 @@ Branch는 Universal Link를 쉽게 활성화할 수 있게 하고 동시에 이�
 1. 귀사 앱의 App Prefix를 입력합니다. (Apple Developer Portal의 [해당 페이지](https://developer.apple.com/account/ios/identifier/bundle) 에서 지정 앱을 클릭하여 찾을 수 있습니다. )
 1. `Save` 버튼을 눌러서 저장합니다.
 
-![image](/img/pages/deep-linking/universal-links/dashboard_enable_universal_links.png)
+![image](/_assets/img/pages/deep-linking/universal-links/dashboard_enable_universal_links.png)
 
 ### XCode에서 Associated Domains 를 활성화
 
 1. 프로젝트 파일에서 `Capabilities` 탭으로 이동합니다.
-1. 마우스 스크롤 다운하여 `Associated Domains` 를 활성화 합니다. ![image](/img/pages/deep-linking/universal-links/enable_ass_domains.png)
+1. 마우스 스크롤 다운하여 `Associated Domains` 를 활성화 합니다. ![image](/_assets/img/pages/deep-linking/universal-links/enable_ass_domains.png)
 
 !!! tip "If you see an error after this step"
-	![image](/img/pages/deep-linking/universal-links/enable_ass_domains_error.png)
+	![image](/_assets/img/pages/deep-linking/universal-links/enable_ass_domains_error.png)
 
 	만약 진행과정에 에러가 발생한다면 다음과 같이 처리합니다.
 
@@ -33,14 +33,14 @@ Branch는 Universal Link를 쉽게 활성화할 수 있게 하고 동시에 이�
 
 1. Branch Dashboard 에서 [Link Settings](https://dashboard.branch.io/link-settings) 페이지로 이동합니다.
 1. 마우스로 `Link Domain` 영역으로 이동합니다
-1. 도메인을 복사합니다.![image](/img/pages/deep-linking/universal-links/subdomain-setting.png)
+1. 도메인을 복사합니다.![image](/_assets/img/pages/deep-linking/universal-links/subdomain-setting.png)
 1. XCode Associated Domains의 `Domains` 섹션에서 `+` 아이콘을 클릭하여 다음 도메인을 추가합니다. (xxxx 을 귀사 앱이 Branch로부터 부여받거나 귀사에서 선택한 subdomain prefix로 치환해야 합니다.)
 	* `applinks:xxxx.app.link`
 	* `applinks:xxxx-alternate.app.link`
 	* `applinks:xxxx.test-app.link`
 	* `applinks:xxxx-alternate.test-app.link`
 
-![image](/img/pages/deep-linking/universal-links/add_domain.png)
+![image](/_assets/img/pages/deep-linking/universal-links/add_domain.png)
 
 !!! warning "구 버전 링크에 대한 지원"
 	만약 Default domain name 박스에 구 버전인 bnc.lt 도메인이 표시된다면 다음 내용을 바꿔야 합니다: `applinks:bnc.lt`
@@ -142,7 +142,7 @@ Sep 21 14:27:01 Derricks-iPhone swcd[2044] <Notice>: 2015-09-21 02:27:01.878907 
 
 위 로그는 실제 디바이스를 XCode 에 연결하여 확인할 수 있습니다. (Window->Devices->해당 디바이스 선택하고 XCode 메인 뷰에서 왼쪽 아래에 있는 “UP” 화살표를 클릭합니다.)
 
-만약 귀사에서 현재 커스텀 서브 도메인을 사용하고 있다면 해당 도메인의 CNAME 은 `custom.bnc.lt` 로 포이팅 되어야 합니다.  
+만약 귀사에서 현재 커스텀 서브 도메인을 사용하고 있다면 해당 도메인의 CNAME 은 `custom.bnc.lt` 로 포이팅 되어야 합니다.
 
 ### continueUserActivity 에 YES 를 반환합니다.
 
@@ -151,5 +151,5 @@ Sep 21 14:27:01 Derricks-iPhone swcd[2044] <Notice>: 2015-09-21 02:27:01.878907 
 대부분의 구현사례에서는 딥링크 라우팅이 어떤 방식으로든 정확하게 처리되므로 이슈가 되지 않습니다. 하지만 만약 커스텀 링크 도메인을 사용되고 있고 들어오는 모든 Branch 에서 생성한 Universal Link 에 대해 `handledByBranch` 값을 `YES` 로 반환하려면 아래와 같은 방식으로 커스텀 도메인을  Branch SDK 에 알려주어야 합니다.
 
 1. 앱의 **Info.plist** 파일에서 `branch_universal_link_domains` 라는 Key 를 생성합니다.
-1. 커스텀 도메인을 하나의 String 으로 추가합니다. ![image](/img/pages/deep-linking/universal-links/branch-universal-link-domain.png)
+1. 커스텀 도메인을 하나의 String 으로 추가합니다. ![image](/_assets/img/pages/deep-linking/universal-links/branch-universal-link-domain.png)
 1. 저장합니다.

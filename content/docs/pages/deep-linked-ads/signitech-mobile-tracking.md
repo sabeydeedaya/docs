@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Signitech](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/signitech/signitech-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/signitech/signitech-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/signitech/signitech-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/signitech/signitech-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

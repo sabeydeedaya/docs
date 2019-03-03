@@ -6,8 +6,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Summary Page - Installs
 
 - ### All Installs
-    
-    ![image](/img/pages/exports/query-api/summary-installs-all.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-installs-all.png)
 
     - *Request*
 
@@ -78,8 +78,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Attributed Installs
-    
-    ![image](/img/pages/exports/query-api/summary-installs-attributed.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-installs-attributed.png)
 
     - *Request*
 
@@ -153,8 +153,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Attributed Installs, Split by Campaign
-    
-    ![image](/img/pages/exports/query-api/summary-installs-by-campaign.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-installs-by-campaign.png)
 
     - *Request*
 
@@ -529,8 +529,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Attributed Installs, With Filter on Campaign
-    
-    ![image](/img/pages/exports/query-api/summary-installs-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-installs-with-filter.png)
 
     - *Request*
 
@@ -586,8 +586,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 
 - ### Attributed Installs, Split by Campaign, With Filter on Campaign
-    
-    ![image](/img/pages/exports/query-api/summary-installs-by-campaign-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-installs-by-campaign-with-filter.png)
 
     - *Request*
 
@@ -645,10 +645,10 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Summary Page - Click Flow
 
 - ### No filters
-    
-    ![image](/img/pages/exports/query-api/summary-click-flow.png)
 
-    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above. 
+    ![image](/_assets/img/pages/exports/query-api/summary-click-flow.png)
+
+    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
 
     "Click" includes both eo_click and eo_web_to_app_auto_redirect.
 
@@ -999,8 +999,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 
 - ### Filter on Campaign
-    
-    ![image](/img/pages/exports/query-api/summary-click-flow-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-click-flow-with-filter.png)
 
     This example looks at feature: journeys. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs.
 
@@ -1065,8 +1065,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 
 - ### Filter for an individual Quick Link
-    
-    ![image](/img/pages/exports/query-api/quick-link-click-flow.png)
+
+    ![image](/_assets/img/pages/exports/query-api/quick-link-click-flow.png)
 
     It’s also possible to pull Click Flow statistics for individual Quick Links. You simply need the id of the Quick Link, which can be found in the URL when viewing the individual link stats page. In the screenshot above, the Quick Link’s ID is 271026075193177506.
 
@@ -1128,10 +1128,10 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Summary Page - Journeys
 
 - ### No filters
-    
-    ![image](/img/pages/exports/query-api/summary-journeys.png)
 
-    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above. 
+    ![image](/_assets/img/pages/exports/query-api/summary-journeys.png)
+
+    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
 
     "Clicks" includes both eo_click and eo_web_to_app_auto_redirect.
 
@@ -1433,8 +1433,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Filter on Tags
-    
-    ![image](/img/pages/exports/query-api/summary-journeys-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-journeys-with-filter.png)
 
     This example looks at tags: tag1. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs.
 
@@ -1496,10 +1496,10 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Summary Page - Deepviews
 
 - ### No filters
-    
-    ![image](/img/pages/exports/query-api/summary-deepviews.png)
 
-    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above. 
+    ![image](/_assets/img/pages/exports/query-api/summary-deepviews.png)
+
+    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
 
     "Clicks" includes both eo_click and eo_web_to_app_auto_redirect.
 
@@ -1810,8 +1810,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Filter on Stage
-    
-    ![image](/img/pages/exports/query-api/summary-deepviews-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/summary-deepviews-with-filter.png)
 
     This example looks at stage: stage88. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs.
 
@@ -1873,11 +1873,11 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Quick Links
 
 - ### No filters
-    
-    ![image](/img/pages/exports/query-api/quick-links.png)
 
-    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above. 
-    
+    ![image](/_assets/img/pages/exports/query-api/quick-links.png)
+
+    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
+
     "Clicks" includes both eo_click and eo_web_to_app_auto_redirect.
 
     "Opens" includes both eo_open and eo_reinstall.
@@ -2152,11 +2152,11 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 ## Source Analytics
 
 - ### No filters
-    
-    ![image](/img/pages/exports/query-api/source-analytics.png)
 
-    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above. 
-    
+    ![image](/_assets/img/pages/exports/query-api/source-analytics.png)
+
+    Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
+
     If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
 
     "Clicks" does *not* include eo_web_to_app_auto_redirect on this visualization. This is different from the Summary page charts and Quick Links. Those visualizations have historically included Web-to-App Auto-Redirects, folded into the Clicks number. This visualization breaks them out separately.
@@ -3399,8 +3399,8 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
         ```
 
 - ### Filter on Ad Partner
-    
-    ![image](/img/pages/exports/query-api/source-analytics-with-filter.png)
+
+    ![image](/_assets/img/pages/exports/query-api/source-analytics-with-filter.png)
 
     This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs.
 
@@ -3458,7 +3458,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 - ### Installs, Split by Campaign
 
-    ![image](/img/pages/exports/query-api/ads-analytics-trends.png)
+    ![image](/_assets/img/pages/exports/query-api/ads-analytics-trends.png)
 
     *Install*
 
@@ -3621,7 +3621,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 - ### Installs, Split by Campaign, With Filter on Platform
 
-    ![image](/img/pages/exports/query-api/ads-analytics-trends-with-filter.png)
+    ![image](/_assets/img/pages/exports/query-api/ads-analytics-trends-with-filter.png)
 
     *Install*
 
@@ -3790,10 +3790,10 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 - ### Split by Ad Partner
 
-    ![image](/img/pages/exports/query-api/ads-analytics-events.png)
+    ![image](/_assets/img/pages/exports/query-api/ads-analytics-events.png)
 
     Pulling this data requires 7 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
-     
+
     If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
 
     "Clicks" does *not* include eo_web_to_app_auto_redirect on this visualization. This is different from the Summary page charts and Quick Links. Those visualizations have historically included Web-to-App Auto-Redirects, folded into the Clicks number. This visualization breaks them out separately.
@@ -4261,7 +4261,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
 - ### Split by Ad Partner, With Filter on Ad Partner
 
-    ![image](/img/pages/exports/query-api/ads-analytics-events-with-filter.png)
+    ![image](/_assets/img/pages/exports/query-api/ads-analytics-events-with-filter.png)
 
     This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api.md) reference docs.
 

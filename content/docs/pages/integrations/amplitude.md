@@ -14,11 +14,11 @@ Branch will send *referred* **installs** and **opens**, as well as any **custom 
 
 Branch events will appear alongside your other tracked events in Amplitude. These events will automatically have `[Branch]` prepended. Here is an example of a Branch event in the Real Time Activity view:
 
-![image](/img/pages/integrations/amplitude/amplitude-live-view.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-live-view.png)
 
 Additionally, individual events, such as those seen in Live View or visible when looking at individual users, will have Branch link data included. Here's an example:
 
-![image](/img/pages/integrations/amplitude/branch-amplitude.png)
+![image](/_assets/img/pages/integrations/amplitude/branch-amplitude.png)
 
 Branch events are similar to Amplitude events in that they can be used in your existing funnels and tracked on the various pages and dashboards. However, unlike normal events, Branch events contain invaluable information about how users ended up in your app in the first place.
 
@@ -34,11 +34,11 @@ Branch events are similar to Amplitude events in that they can be used in your e
 Find your Amplitude Project Key and enter it into the Branch Dashboard.
 
 1. Log in to your [Amplitude account](https://analytics.amplitude.com/){:target="\_blank"}  and navigate to Settings by clicking your username in the top right hand corner.
-![image](/img/pages/integrations/amplitude/amplitude-settings.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-settings.png)
 1. In settings, select "Projects" from the left hand navigation.
-![image](/img/pages/integrations/amplitude/amplitude-settings-projects.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-settings-projects.png)
 1. Copy the Project Key of whichever app you’re going to use with Branch.
-![image](/img/pages/integrations/amplitude/amplitude-project-key.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-project-key.png)
 
 
 ### Configure the Branch Dashboard
@@ -48,7 +48,7 @@ Find your Amplitude Project Key and enter it into the Branch Dashboard.
   * If you have not yet entered billing information, please do so now.
 1. Enter your Amplitude Project Key in the relevant app under "[iOS/Android] API key" and hit **Save**. If you use the same key for iOS and Android, it's fine to enter the same key twice.
 
-![image](/img/pages/integrations/amplitude/amplitude-marketplace.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-marketplace.png)
 
 
 ### Capture IDFA/GAID
@@ -113,8 +113,8 @@ The simplest way to test your integration is working end to end is to open your 
 1. Click that Branch link to open your app.
 1. In your Branch dashboard, verify you see the open event show as a "referred session" with a "session referring link URL" in your Branch dashboard under "Liveview > Events"
 
-![image](/img/pages/integrations/amplitude/branch-amplitude-liveview.png)
+![image](/_assets/img/pages/integrations/amplitude/branch-amplitude-liveview.png)
 
 1. Go to your Amplitude dashboard and click on "User Activity" and look at the "Real-time activity" section. You should see events with `[Branch]` prepended. There can sometimes be a delay in events appearing, so check back 30 minutes after testing.
 
-![image](/img/pages/integrations/amplitude/amplitude-user-activity.png)
+![image](/_assets/img/pages/integrations/amplitude/amplitude-user-activity.png)

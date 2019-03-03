@@ -2,7 +2,7 @@
 
 ![Hybrid](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/logo-1527869464817.png)
 
-This guide will walk you through how to setup your campaigns with **[Hybrid](https://hybrid.ai/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Hybrid](https://hybrid.ai/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Hybrid](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/hybrid/hybrid-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/hybrid/hybrid-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/hybrid/hybrid-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/hybrid/hybrid-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

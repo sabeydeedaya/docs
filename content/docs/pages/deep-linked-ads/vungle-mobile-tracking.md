@@ -2,7 +2,7 @@
 
 ![Vungle](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Vungle-1528510860118.png)
 
-This guide will walk you through how to setup your campaigns with **[Vungle](https://vungle.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Vungle](https://vungle.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Vungle](htt
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/vungle/vungle-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/vungle/vungle-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/vungle/vungle-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/vungle/vungle-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

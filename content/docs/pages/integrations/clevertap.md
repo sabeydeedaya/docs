@@ -23,11 +23,11 @@ Find your CleverTap Account Credentials. Later, you'll enter them into the Branc
 
 1. Log in to your [CleverTap account](https://dashboard.clevertap.com/){:target="\_blank"}  and navigate to Settings by clicking the cog at the top of the screen, then `Settings Dashboard`.
 
-    ![image](/img/pages/integrations/clevertap/clevertap-settings.png)
+    ![image](/_assets/img/pages/integrations/clevertap/clevertap-settings.png)
 
 1. Ensure you're looking at the correct app for your integration, then click the eye icon to show your account credentials.
 
-    ![image](/img/pages/integrations/clevertap/clevertap-account-credentials.png)
+    ![image](/_assets/img/pages/integrations/clevertap/clevertap-account-credentials.png)
 
 1. Copy these account credentials into the Branch dashboard as instructed below.
 
@@ -37,11 +37,11 @@ Find your CleverTap Account Credentials. Later, you'll enter them into the Branc
 1. On the Branch Dashboard (dashboard.branch.io), navigate to the [Integrations page](https://dashboard.branch.io/data-import-export/integrations).
 1. Search for CleverTap. If you don't see CleverTap, please contact your Branch Account Manager or [integrations@branch.io](mailto:integrations@branch.io) to enable the CleverTap Data Integration.
 
-    ![image](/img/pages/integrations/clevertap/search-clevertap.png)
+    ![image](/_assets/img/pages/integrations/clevertap/search-clevertap.png)
 
 1. Enter your CleverTap credentials into the corresponding boxes in the Branch Dashboard as shown below and hit **Save**.
 
-    ![image](/img/pages/integrations/clevertap/enter-clevertap-credentials.png)
+    ![image](/_assets/img/pages/integrations/clevertap/enter-clevertap-credentials.png)
 
 
 ### Capture IDFA/GAID
@@ -102,6 +102,6 @@ The simplest way to test your integration is working end to end is to open your 
 
 #### Screenshots of where data should appear in the CleverTap Dashboard
 
-![image](/img/pages/integrations/clevertap/clevertap-people.png)
+![image](/_assets/img/pages/integrations/clevertap/clevertap-people.png)
 
-![image](/img/pages/integrations/clevertap/clevertap-events.png)
+![image](/_assets/img/pages/integrations/clevertap/clevertap-events.png)

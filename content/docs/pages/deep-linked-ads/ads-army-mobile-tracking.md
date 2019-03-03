@@ -2,7 +2,7 @@
 
 ![Ads-Army](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/adsarmy-1528497509052.png)
 
-This guide will walk you through how to setup your campaigns with **[Ads Army](https://adsarmy.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Ads Army](https://adsarmy.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Ads Army](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/ads-army/ads-army-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/ads-army/ads-army-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/ads-army/ads-army-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/ads-army/ads-army-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

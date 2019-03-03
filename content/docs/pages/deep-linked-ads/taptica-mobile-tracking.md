@@ -2,7 +2,7 @@
 
 ![Taptica](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Taptica_Logo-1524764688949.png)
 
-This guide will walk you through how to setup your campaigns with **[Taptica](http://taptica.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Taptica](http://taptica.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Taptica](ht
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/taptica/taptica-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/taptica/taptica-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/taptica/taptica-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/taptica/taptica-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

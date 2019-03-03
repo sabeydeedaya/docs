@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[TVSquared](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/tvsquared/tvsquared-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/tvsquared/tvsquared-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/tvsquared/tvsquared-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/tvsquared/tvsquared-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Slavia Mobi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/slavia-mobile/slavia-mobile-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/slavia-mobile/slavia-mobile-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/slavia-mobile/slavia-mobile-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/slavia-mobile/slavia-mobile-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

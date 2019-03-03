@@ -23,17 +23,17 @@ Note that the `Links` and `Credits` screens are largely unchanged from the previ
 
 Choose among the supported objects using the tabs at the top of the screen.
 
-  ![liveview object](/img/pages/exports/pba-liveview/liveview-object.png)
+  ![liveview object](/_assets/img/pages/exports/pba-liveview/liveview-object.png)
 
 ### 2. Choose event type
 
 If you are viewing `Events`, then be sure to choose the appropriate event type from the dropdown, e.g. `commerce event`.
 
-  ![liveview filter on name](/img/pages/exports/pba-liveview/liveview-filter-topic.png)
+  ![liveview filter on name](/_assets/img/pages/exports/pba-liveview/liveview-filter-topic.png)
 
 ### 3. Add advanced filters (optional)
 
 Add advanced filters. Some of the most useful include `name` (e.g. `PURCHASE`), `feature`, `channel`, `campaign`, and device identifiers like `IDFA`.
 
-  ![liveview filter on name](/img/pages/exports/pba-liveview/liveview-filter-name.png)
+  ![liveview filter on name](/_assets/img/pages/exports/pba-liveview/liveview-filter-name.png)
 

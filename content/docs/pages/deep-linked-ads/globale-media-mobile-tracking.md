@@ -2,7 +2,7 @@
 
 ![Globale Media](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/globale-media-brand-logo-transparent-1532565563544.png)
 
-This guide will walk you through how to setup your campaigns with **[Globale Media](http://www.globalemedia.net)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**. 
+This guide will walk you through how to setup your campaigns with **[Globale Media](http://www.globalemedia.net)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Globale Med
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/img/pages/deep-linked-ads/globale-media/globale-media-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/globale-media/globale-media-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/img/pages/deep-linked-ads/globale-media/globale-media-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/globale-media/globale-media-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

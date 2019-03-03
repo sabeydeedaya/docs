@@ -8,13 +8,13 @@
 | Branch link | https://branch.shop.com/?original_url=https%3A%2F%2Fwww.shop.com%2Fproduct | A Branch deep link, that handles all redirection for users on any platform, with or without the app.
 | Click Tracking URL | https://email.shop.com/click/abcde12345 | An ESP generated click tracking URL. The URL doesn’t signify anything, but when clicked, records the click and redirects to a given destination.
 
-![image](/img/pages/email/responsys/deep-linked-email-creation-flow.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email-creation-flow.png)
 
 ### Redirect behavior and tracking
 
 When your customer clicks the click tracking link in an email, the browser will generally open. Once in the browser, the click tracking redirect will happen, followed by an instant redirect to the Branch link. At this point, Branch will either stay in the browser, and load the original URL (if the app is not installed, or the customer is on a desktop device), or Branch will open the app and deep link to content. Branch uses the information from the original URL to deep link to the correct in-app content.
 
-![image](/img/pages/email/responsys/deep-linked-email-post-click.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email-post-click.png)
 
 ## Universal links and click tracking
 
@@ -28,7 +28,7 @@ When you click a Branch link directly from an email inside the Mail app on iOS 9
 
 To solve this, Branch will host the AASA file on your click tracking domain. We’ll help you get set up with this.
 
-![image](/img/pages/email/responsys/deep-linked-email-universal-links.png)
+![image](/_assets/img/pages/email/responsys/deep-linked-email-universal-links.png)
 
 ## Deep linking setup messages
 
@@ -36,7 +36,7 @@ In the **Set up Deep Linking** step of the email onboarding flow, you will see a
 
 ### We think you use your web URL for deep linking
 
-![image](/img/pages/email/responsys/web-url-result.png)
+![image](/_assets/img/pages/email/responsys/web-url-result.png)
 
 If your webpage, for instance at the URL `https://shop.com/shoes/brown-loafers`, has a tag like this:
 
@@ -50,7 +50,7 @@ Your deep linking setup for email will use all or part of your **web URL** as a 
 
 ### We think you host your deep link data on your website
 
-![image](/img/pages/email/responsys/hosted-data-result.png)
+![image](/_assets/img/pages/email/responsys/hosted-data-result.png)
 
 If instead, your webpage has a tag like this:
 
@@ -66,7 +66,7 @@ Your deep linking setup for email will use the **hosted deep link data** method.
 
 If there are no meta tags for deep linking on your webpage, or you indicate that the mapping is incorrect, you can try a Branch link instead.
 
-![image](/img/pages/email/responsys/enter-branch-link.png)
+![image](/_assets/img/pages/email/responsys/enter-branch-link.png)
 
 Here, you will want to enter a Branch link that opens to a page within your app (not the home screen).
 
@@ -76,6 +76,6 @@ When you click **Submit**, the link's values for `$canonical_url`, `$desktop_url
 
 When you submit a web URL or Branch link, you will be prompted with a test link. Click this link on iOS and Android devices, and verify that it will open your app to the right place.
 
-![image](/img/pages/email/responsys/test-link.png)
+![image](/_assets/img/pages/email/responsys/test-link.png)
 
 Once you click **Yes**, your deep linking will be set up for email. When a user clicks a link in your emails, we will embed the full web URL, path of the web URL, or retrieved deep link data from the webpage into a Branch version of that link and pass it to your app, so that it will open to the right place.
