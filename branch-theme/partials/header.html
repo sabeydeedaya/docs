@@ -56,44 +56,39 @@
 
       <!-- Header title -->
       <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          <span class="md-header-nav__topic">
-            {{ page.title }}
-          </span>
+        <div class="md-flex__ellipsis md-header-nav__title"
+            data-md-component="title">
+          {% if config.site_name == page.title %}
+            {{ config.site_name }}
+          {% else %}
+            <span class="md-header-nav__topic">
+              {{ config.site_name }}
+            </span>
+            <span class="md-header-nav__topic">
+              {{ page.title }}
+            </span>
+          {% endif %}
         </div>
       </div>
 
-      {% if config.extra.sources.algolia %}
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <label class="md-icon md-icon--search md-header-nav__button"></label>
-          {% include "partials/search.html" %}
-        </div>
-        <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
-          <a href="#" class="improve-doc" title="Improve This Doc">
-            <i class="branch-header-icon md-icon material-icons">mode_edit</i>
-            <p class="branch-header-label">Improve</p>
-          </a>
-        </div>
-        <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
-          <a href="#" class="contact-support" title="Contact support">
-            <i class="branch-header-icon md-icon material-icons">help_outline</i>
-            <p class="branch-header-label">Support</p>
-          </a>
-        </div>
-      {% else %}
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        <!-- Search interface -->
+        {% include "partials/search.html" %}
+      </div>
+      <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
+        <a href="#" class="improve-doc" title="Improve This Doc">
+          <i class="branch-header-icon md-icon material-icons">mode_edit</i>
+          <p class="branch-header-label">Improve</p>
+        </a>
+      </div>
+      <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
+        <a href="#" class="contact-support" title="Contact support">
+          <i class="branch-header-icon md-icon material-icons">help_outline</i>
+          <p class="branch-header-label">Support</p>
+        </a>
+      </div>
 
-        <!-- Button to open search dialogue -->
-        <div class="md-flex__cell md-flex__cell--shrink">
-          {% if "search" in config["plugins"] %}
-            <label class="md-icon md-icon--search md-header-nav__button"
-                for="__search"></label>
-
-            <!-- Search interface -->
-            {% include "partials/search.html" %}
-          {% endif %}
-        </div>
-
-      {% endif %}
     </div>
   </nav>
 </header>
