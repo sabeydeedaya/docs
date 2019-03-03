@@ -1,1 +1,1 @@
-<script>window.location = "/pages/exports/data-feeds-overview/"</script>
+redirect: /pages/exports/data-feeds-overview/

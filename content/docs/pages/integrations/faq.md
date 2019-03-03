@@ -1,1 +1,1 @@
-<script>window.location = "/pages/integrations/data-integrations/"</script>
+redirect: /pages/integrations/data-integrations/

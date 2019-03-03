@@ -1,1 +1,1 @@
-<script>window.location = "/pages/resources/validation-tools/#universal-link-validator"</script>
+redirect: /pages/resources/validation-tools/#universal-link-validator/

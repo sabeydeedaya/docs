@@ -88,7 +88,7 @@
     - Tabbed sections `*title*`, `code`, `*title*`, `code`
 
 - #### Navigation
-    
+
     - Different page `click [here](/pages/apps/ios/)` (must have trailing slash)
 
     - Different page anchor `click [here](/pages/apps/ios/#configure-bundle-identifier)`
@@ -109,9 +109,9 @@
 
 - #### Images
 
-    - Content pages are kept in the `img/pages`
+    - Content pages are kept in the `_assets/img/pages`
 
-    - Example images used in ingredients are kept in the `img/ingredients`
+    - Example images used in ingredients are kept in the `_assets/img/ingredients`
 
     - `![image](http://i.imgur.com/dyfhN0L.png)`
 
@@ -125,7 +125,7 @@
     - Prevent search results by adding production url to `stop_urls` ([config](https://github.com/algolia/docsearch-configs/blob/master/configs/branchmetrics.json))
 
 - #### Redirection
-    - Add `<script>window.location = "/pages/dashboard/people-based-attribution"</script>` to the top of the file
+    - Add `redirect: /pages/dashboard/people-based-attribution/` to the top of the file/
 
 ## Additional
 
@@ -139,14 +139,6 @@
 
     - docsearch config https://github.com/algolia/docsearch-configs/blob/master/configs/branchmetrics.json
 
-- #### Mkdocs Local Deploy
-
-    - not recommended
-
-        ```bash
-        mkdocs gh-deploy
-        ```
-
 - ####  Mkdocs Locally
 
     - readme http://www.mkdocs.org/about/contributing/
@@ -158,15 +150,15 @@
 - ####  Mkdocs Fix
 
     - remove mkdocs `sudo rm -rf /usr/local/bin/mkdocs`
-    
+
     - remove mkdocs link `rm -rf /Library/Python/2.7/site-packages/mkdocs.egg-link`
 
     - remove pip `rm -rf /Library/Python/2.7/site-packages`
-    
+
     - reinstall pip `curl https://bootstrap.pypa.io/get-pip.py > a.py && chmod -x a.py && sudo ./a.py`
-    
+
     - reinstall [dependencies](#dependencies)
-    
+
     - run [develop](#evelop)
 
 - #### Mkdocs-Material Locally
@@ -208,5 +200,5 @@
     - The docs should load within `1400ms`. If it takes `5000ms`, please disable `Ghostery` (Google Analytics) and `Adblocker` (the docs have AB testing)
 
 - #### Missing search
-    
+
     - Some ad blockers prevent the search from appearing

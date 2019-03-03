@@ -1,1 +1,1 @@
-<script>window.location = "/pages/deep-linked-ads/ad-networks-list/"</script>
+redirect: /pages/deep-linked-ads/ad-networks-list/
