@@ -12,7 +12,7 @@ The [Branch CLI](https://github.com/BranchMetrics/branch_io_cli) is a simple plu
 * **Fastlane Plugin**: There is also a Fastlane plugin available [here](https://github.com/BranchMetrics/branch_io_cli#using-fastlane), should you prefer to use it instead.
 
 ### Prerequisites:
-1. Ensure that you’ve set up your Branch Dashboard using the instructions [here](/pages/dashboard/integrate/), and have your Branch Key and Branch link domain handy.
+1. Ensure that you’ve set up your Branch Dashboard using the instructions [here](/dashboard/integrate/), and have your Branch Key and Branch link domain handy.
 2. An iOS project with which you’d like to integrate Branch.
 
 ### Installation

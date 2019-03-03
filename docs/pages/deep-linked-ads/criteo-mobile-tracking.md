@@ -19,8 +19,8 @@ The Branch SDKs for iOS and Android allow you to get up and running quickly. Cri
 If you haven't already integrated Branch, follow the below guides.
 
 1. Start by following the integration guides for Android and iOS:
-	- [Android](/pages/apps/android/){:target="\_blank"}
-	- [iOS](/pages/apps/ios/){:target="\_blank"}
+	- [Android](/apps/android/){:target="\_blank"}
+	- [iOS](/apps/ios/){:target="\_blank"}
 1. Once this is complete, you can test your basic integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter for **OPEN** to verify that the Branch SDK is recording app opens.
 
 	!!! warning "Limitations with setDebug and seeing data in Branch"
@@ -160,8 +160,8 @@ Branch allows you to identify your users and will send those user identities to 
 
 The method used to identify users is called `setIdentity`, and the value you set is called the `developer_identity`. Set this upon a user login event in your app, and Branch will use it for all subsequent events attributed to that user.
 
-- [Android](/pages/apps/android/#track-users){:target="\_blank"}
-- [iOS](/pages/apps/ios/#track-users){:target="\_blank"}
+- [Android](/apps/android/#track-users){:target="\_blank"}
+- [iOS](/apps/ios/#track-users){:target="\_blank"}
 
 !!! warning "Do not send emails or PII with setIdentity"
 	To respect user privacy, please do not use names, emails or other identifiable information as your developer identity.
@@ -173,7 +173,7 @@ Install and open events are automatically tracked using just the Branch SDK inte
 
 Please reference the general Branch V2 Event tracking guide as well as the Criteo specific information below. This will help ensure that you've integrated the right Branch events with the correct metadata, and the postbacks to Criteo will be preconfigured for you.
 
-- [V2 Event Tracking Guide](/pages/apps/v2event/#overview)
+- [V2 Event Tracking Guide](/apps/v2event/#overview)
 
 !!! note "Testing your events with Liveview"
 	You can test your integration by going to our [Liveview page](https://dashboard.branch.io/liveview/events){:target="\_blank"}. Set a filter with the event name to verify that the Branch SDK is recording each event.
@@ -278,12 +278,12 @@ Criteo accepts a catalog with product details and links. We recommend replacing 
 
 ##### Creating http deep links for your catalog
 
-The easiest way to create deep links for your product feed is to create a ["long link"](/pages/links/integrate/#long-links) for each product.
+The easiest way to create deep links for your product feed is to create a ["long link"](/links/integrate/#long-links) for each product.
 
 1. Take your base domain, e.g. `https://example.app.link`
 1. Add your deep link data as query parameters. Be sure to URI encode each query parameter! e.g. `https://example.app.link?product_id=123&category=shoes`
-1. Add any [fallback urls](/pages/links/integrate/#fallback-to-a-specific-url) for if the app isn't installed e.g. `https://example.app.link?product_id=123&category=shoes&$fallback_url=https%3A%2F%2Fbranch.io%2Funiversal-ads%2F`
-1. Finally, add this string, which contains the [analytics parameters](/pages/links/integrate/#analytical-labels) needed to categorize your data accurately. If you want to add more, go for it! `%243p=a_criteo&~feature=paid%20advertising`.
+1. Add any [fallback urls](/links/integrate/#fallback-to-a-specific-url) for if the app isn't installed e.g. `https://example.app.link?product_id=123&category=shoes&$fallback_url=https%3A%2F%2Fbranch.io%2Funiversal-ads%2F`
+1. Finally, add this string, which contains the [analytics parameters](/links/integrate/#analytical-labels) needed to categorize your data accurately. If you want to add more, go for it! `%243p=a_criteo&~feature=paid%20advertising`.
 
 Your final link looks like this, and additional query parameters can be added.
 
@@ -319,7 +319,7 @@ Just need a single link? It's easy to use the Branch dashboard to create a one-o
 
 1. First, select an ad format. For App Install or App Engagement campaigns you'll want to select the **App Only** format.
 
-    To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/pages/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
+    To bulk create links for Dynamic Product Ads, select **Product Links**, which are for shopping or dynamic remarketing campaigns. This will take you to create a [Deep Linked Product Feed](/deep-linked-ads/dynamic-product-feeds/) for Criteo with Universal Links and URI schemes.
 
     ![image](/_assets/img/pages/deep-linked-ads/criteo/criteo-link-chooser.png)
 
@@ -365,20 +365,20 @@ If the customer then goes on to purchase an item on web within the attribution w
 
 #### Adding postbacks
 
-If you'd like to track additional events, you can set up a custom event and [add a new postback](/pages/deep-linked-ads/branch-universal-ads/#add-more-postbacks).
+If you'd like to track additional events, you can set up a custom event and [add a new postback](/deep-linked-ads/branch-universal-ads/#add-more-postbacks).
 
 By default, postbacks not listed in [the table above](#branch-and-criteo-event-mapping) are created with a generic template, but you can copy templates from any of the existing postbacks and paste that template into your new event.
 
 #### Editing postbacks
 
-If you'd like to send more data in your Criteo postbacks, you can [customize your postbacks](/pages/deep-linked-ads/branch-universal-ads/#edit-postbacks).
+If you'd like to send more data in your Criteo postbacks, you can [customize your postbacks](/deep-linked-ads/branch-universal-ads/#edit-postbacks).
 
 !!! example "Adding Static Track Transaction"
 	*Static Track Transaction* is a custom template that replaces the default PURCHASE (Track Transaction) template. You should see STATIC_TRACK_TRANSACTION as an event under the **Postback Config** in the Criteo Partner Manager UI. You can copy the postback template from STATIC_TRACK_TRANSACTION, and paste it into the PURCHASE postback, replacing the previous postback. Click *Save* at the bottom of the screen, and you're good to go!
 
 #### Change attribution windows
 
-If you need to change the default attribution windows, you can [edit attribution windows](/pages/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for all your Criteo campaigns, and also specific campaigns at a link-level.
+If you need to change the default attribution windows, you can [edit attribution windows](/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for all your Criteo campaigns, and also specific campaigns at a link-level.
 
 #### Sending dates for Travel campaigns
 

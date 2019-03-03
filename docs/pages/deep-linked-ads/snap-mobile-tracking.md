@@ -17,7 +17,7 @@ Branch supports attribution for the following Snap campaign types:
 Before you begin, be sure the following is confirmed.
 
 1. First, the Branch SDK must be integrated into your app, for both iOS and Android.
-1. You must also collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
+1. You must also collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/apps/ios/#install-branch) and [Android](/apps/android/#install-branch) respectively.
 1. Make sure to track all necessary events through the SDKs, with instructions [here](#forward-events-to-snap)
 
 ### Authenticate with Snap
@@ -96,7 +96,7 @@ You can edit your attribution windows for Snap only. With this, you can preserve
 
 ### Mapping of Branch event names to Snap events
 
-Branch supports sending [Standard and Custom Events](/pages/apps/v2event/#v2-event){target:"\_blank"} to Snap. Here are the mappings for Branch events to Snap events.
+Branch supports sending [Standard and Custom Events](/apps/v2event/#v2-event){target:"\_blank"} to Snap. Here are the mappings for Branch events to Snap events.
 
 By default, all events in the below table will be sent to Snap.
 
@@ -113,7 +113,7 @@ By default, all events in the below table will be sent to Snap.
 | ACHIEVE_LEVEL | LEVEL_COMPLETE
 | OPEN, REINSTALL | APP_OPEN
 
-The below events can be sent to Snap by registering [custom events ](/pages/apps/v2event/#track-custom-events){target:"\_blank"} that exactly match the Branch custom event name below. Snap does not accept other custom events, so they will not be sent to Snap.
+The below events can be sent to Snap by registering [custom events ](/apps/v2event/#track-custom-events){target:"\_blank"} that exactly match the Branch custom event name below. Snap does not accept other custom events, so they will not be sent to Snap.
 
 | Branch custom event name | Snap event name
 | --- | ---

@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=/pages/integrations/braze/" />
+<meta http-equiv="refresh" content="0; url=/integrations/braze/" />

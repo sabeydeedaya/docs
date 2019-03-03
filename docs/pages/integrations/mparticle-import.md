@@ -2,7 +2,7 @@
 
 Sending events from mParticle to Branch will allow you to attribute downstream conversions like purchases across web and app to Branch link clicks. Events imported from mParticle to Branch will be available wherever you can normally use events within Branch, including dashboard visualizations, Data Feeds, Universal Ads postbacks, Journeys targeting, Liveview and more.
 
-This guide walks through the server-side integration for data import from mParticle to Branch. For the client-side integration, see the [mParticle iOS](/pages/apps/mparticle-ios/) or [android](/pages/apps/mparticle-android/) documentation. For data export from Branch to mParticle, go [here](/pages/integrations/mparticle).
+This guide walks through the server-side integration for data import from mParticle to Branch. For the client-side integration, see the [mParticle iOS](/apps/mparticle-ios/) or [android](/apps/mparticle-android/) documentation. For data export from Branch to mParticle, go [here](/integrations/mparticle).
 
 ### What events does Branch import?
 
@@ -23,7 +23,7 @@ Branch will import events that are not auto-tracked with the Branch SDKs. This i
     1. Enter your Branch Secret. This can be found in the [Account Settings > App](https://dashboard.branch.io/account-settings/app){:target="\_blank"} section of the Branch dashboard.
 
 !!! warning "Avoid duplicate data"
-    To avoid duplicate data, you should either [track conversion events directly with Branch](/pages/apps/v2event) or track events with mParticle and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
+    To avoid duplicate data, you should either [track conversion events directly with Branch](/apps/v2event) or track events with mParticle and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
 
 
 ### Supported events

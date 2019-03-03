@@ -12,7 +12,7 @@ Below are examples of the kinds of events you'll likely be interested in trackin
 
 ## Prerequisites
 
-With event tracking, it's important to track the objects related to the event occurring. Branch provides a class to describe your in-app content items  called the [Branch Universal Object](/pages/apps/ios/#create-content-reference). For any of the events tracked below, make sure to include the universal object(s) involved. For example, if you want to track when someone purchases 3 items, you'd want to create a Branch Universal Object per item, and pass them along when tracking the event.
+With event tracking, it's important to track the objects related to the event occurring. Branch provides a class to describe your in-app content items  called the [Branch Universal Object](/apps/ios/#create-content-reference). For any of the events tracked below, make sure to include the universal object(s) involved. For example, if you want to track when someone purchases 3 items, you'd want to create a Branch Universal Object per item, and pass them along when tracking the event.
 
 Refer to the above document to set up Branch Universal Objects.
 
@@ -24,13 +24,13 @@ There are a few products and features unsupported by this new method of tracking
 
 Tracking these events will propagate to Ad Networks, like Criteo. For example, if you track the purchase event through Branch, this will map to Criteo's Purchase event.
 
-These events will also have analytics, so you can understand their performance, using the new [People-Based Attribution](/pages/dashboard/people-based-attribution/).
+These events will also have analytics, so you can understand their performance, using the new [People-Based Attribution](/dashboard/people-based-attribution/).
 
 ### Limitations
 
 As of now, any calls made through these SDK methods will **not** yet:
 
-- Work with our [referrals system](/pages/viral/referrals/).
+- Work with our [referrals system](/viral/referrals/).
 
 ## Available Events
 
@@ -579,4 +579,4 @@ See [full API docs here](https://github.com/BranchMetrics/branch-deep-linking-pu
 
 ## Testing v2/event
 
-In order to test whether v2/events are being received on Branch's backend, check out [Liveview](pages/exports/pba-liveview). Be sure you have opted into the new [People-Based Attribution](/pages/dashboard/people-based-attribution/).
+In order to test whether v2/events are being received on Branch's backend, check out [Liveview](exports/pba-liveview). Be sure you have opted into the new [People-Based Attribution](/dashboard/people-based-attribution/).

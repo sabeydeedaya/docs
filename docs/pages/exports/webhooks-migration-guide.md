@@ -191,7 +191,7 @@ Legacy events included many different types of events. In our current system, ev
 * content event
 * user lifecycle event
 
-Read more about that [here](pages/dashboard/people-based-attribution/).
+Read more about that [here](dashboard/people-based-attribution/).
 
 As an example, here we focus on an example install event.
 

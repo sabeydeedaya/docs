@@ -13,4 +13,4 @@ To enable Universal Links on your click tracking domain, you'll need to add the 
     ![image](/_assets/img/pages/email/add-domain.png)
 
 !!! protip "Having trouble or new to Universal Links?"
-    Follow [these instructions](/pages/deep-linking/universal-links/) for more details on enabling Universal Links in the Branch dashboard and in Xcode.
+    Follow [these instructions](/deep-linking/universal-links/) for more details on enabling Universal Links in the Branch dashboard and in Xcode.

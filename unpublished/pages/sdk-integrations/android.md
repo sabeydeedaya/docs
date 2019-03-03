@@ -2,7 +2,7 @@
 
 - ### Configure Branch
 
-    - Complete the `Basic integration` within [Configure your dashboard](/pages/dashboard/integrate/)
+    - Complete the `Basic integration` within [Configure your dashboard](/dashboard/integrate/)
 
     - Make sure `Always try to open app` and `I have an Android App` are both enabled
 
@@ -309,7 +309,7 @@
 
     - The `Branch Universal Object` encapsulates the thing you want to share (content or user)
 
-    - Uses the [Universal Object Properties](#/pages/links/integrate/#universal-object)
+    - Uses the [Universal Object Properties](#/links/integrate/#universal-object)
 
     - *Java*
 
@@ -343,7 +343,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
@@ -394,7 +394,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - *Java*
 
@@ -470,7 +470,7 @@
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - *Java*
 
@@ -667,7 +667,7 @@
 
     - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
 
-    - To track custom events - not found in the table below - please see [Track Custom Events](/pages/apps/v2event/#track-custom-events)
+    - To track custom events - not found in the table below - please see [Track Custom Events](/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
@@ -683,7 +683,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 

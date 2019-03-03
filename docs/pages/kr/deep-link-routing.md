@@ -171,7 +171,7 @@ Link Data Dictionary 에 정의한 커스텀 Key/value 외에 Branch에서는 �
 만약 귀사의 앱이 이미 URI 를 통한 딥링킹을 지원한다면 `$deeplink_path`, `$ios_deeplink_path`, `$android_deeplink_path` 파라미터에 앱내 컨텐츠에 라우팅할 수 있는 딥링크 URI 를 추가할 수 있습니다. Branch SDK가 위 파라미터 중 하나가 포함한 링크를 받았을 때 자동으로 지정한 URI 를 로딩합니다.
 
 !!! warning "iOS 에서의 불완전한 지원"
-	[Universal Links](/pages/deep-linking/universal-links/) 와 [Spotlight](/pages/organic-search/spotlight/) 는 URI path 를 통한 딥링킹을 지원하지 않습니다. 만약 `$deeplink_path` 또는 `ios_deeplink_path`를 사용하고 있다면 커스텀 로직 구현이 필요합니다. [여기](#how-to-handle-uri-paths-with-universal-links-or-app-links)를 클릭하여 상세한 정보를 확인하실 수 있습니다.
+	[Universal Links](/deep-linking/universal-links/) 와 [Spotlight](/organic-search/spotlight/) 는 URI path 를 통한 딥링킹을 지원하지 않습니다. 만약 `$deeplink_path` 또는 `ios_deeplink_path`를 사용하고 있다면 커스텀 로직 구현이 필요합니다. [여기](#how-to-handle-uri-paths-with-universal-links-or-app-links)를 클릭하여 상세한 정보를 확인하실 수 있습니다.
 
 ### 커스텀 딥링크 라우팅을 Branch Link 에 추가하는 방법
 
@@ -295,7 +295,7 @@ Universal Link, Spotlight 및 App Link는 URI Scheme 를 딥링크 라우팅에 
 	```
 
 !!! tip "Link Data Key는 무엇인가?"
-	예시에서 `product_picture`라는 Key 는 클릭된 링크의 [data dictionary](/pages/links/integrate/#custom-data)에 포함된 파라미터이고 [Branch Link 생성](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)단계에 이미 정의되었을 것입니다.
+	예시에서 `product_picture`라는 Key 는 클릭된 링크의 [data dictionary](/links/integrate/#custom-data)에 포함된 파라미터이고 [Branch Link 생성](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)단계에 이미 정의되었을 것입니다.
 
 딥링크 된 화면의 View Controller 에서 다음 Delegate 함수를 호출하여 딥링크 된 ViewController  해제를 처리할 수 있게 합니다. (상속한 BranchDeepLinkingControllerCompletionDelegate는 Delegate의 역할을 합니다. )
 
@@ -404,7 +404,7 @@ protected void onResume() {
 ```
 
 !!! tip "Link Data Key는 무엇인가?"
-	예시에서 `product_picture`라는 Key 는 클릭된 링크의 [data dictionary](/pages/links/integrate/#custom-data)에 포함된 파라미터이고 [Branch Link 생성](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)단계에 이미 정의되었을 것입니다.
+	예시에서 `product_picture`라는 Key 는 클릭된 링크의 [data dictionary](/links/integrate/#custom-data)에 포함된 파라미터이고 [Branch Link 생성](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)단계에 이미 정의되었을 것입니다.
 
 #### Activity 를 등록하여 딥링크 라우팅합니다.
 

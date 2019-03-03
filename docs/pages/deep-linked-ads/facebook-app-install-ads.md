@@ -21,14 +21,14 @@ App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 ## Setup
 
 !!! warning "Prerequisites"
-	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/pages/apps/ios/#integrate-branch) into your app.
+	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app.
 	* [x] To use Branch links in Facebook App Install Ads ensure you have:
 		* [x] URI schemes configured on iOS
 		* [x] URI schemes configured on Android
 		* [x] iOS App Store ID set
 		* [x] Android Package Name set
-		* [x] Social Media Settings filled out (i.e. OG tags at the bottom of [Link Settings](/pages/links/default-link-behavior/#social-media))
-	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/pages/deep-linking/routing/).
+		* [x] Social Media Settings filled out (i.e. OG tags at the bottom of [Link Settings](/links/default-link-behavior/#social-media))
+	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/deep-linking/routing/).
 	* [x] Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
 
 {! ingredients/deep-linked-ads/enable-facebook-ad-partner.md !}
@@ -76,14 +76,14 @@ This section is **not required for measurement** if you are running app-only ads
 1. Configure the link with the Ad Format set to **App Only**, the Ad Partner set to **Facebook**, and the Secondary Ad Format set to **App Install Ads**.
 ![Create Ad Link](/_assets/img/pages/deep-linked-ads/facebook-app-install-ads/link-setup.png)
 
-1. Under the Configure Options tab, use the deep link data input section to add your deep linking parameters. You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
+1. Under the Configure Options tab, use the deep link data input section to add your deep linking parameters. You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/deep-linking/routing/) page to learn more.
 ![Create Ad Link](/_assets/img/pages/deep-linked-ads/reusable-images/create-link-deep-link-data.png)
 
 1. Because this is an app install ad, the redirect section will be largely ignored. We highly recommend that you leave this section untouched.
 1. Analytics will be automatically pulled in from the direct Facebook integration above, and so you can ignore the analytics section of the configuration.
 
 !!! warning ""
-	In order for your campaign to run effectively, be sure to disable Deepviews. You can either [disable Deepviews](/pages/web/deep-views/) for your entire account or [disable Deepviews for one link](/pages/web/deep-views/#disable-per-link-deepviews).
+	In order for your campaign to run effectively, be sure to disable Deepviews. You can either [disable Deepviews](/web/deep-views/) for your entire account or [disable Deepviews for one link](/web/deep-views/#disable-per-link-deepviews).
 
 ##### Configure your campaign to deep link the Ad Link
 

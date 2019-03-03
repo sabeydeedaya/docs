@@ -1,7 +1,7 @@
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
-    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 - ### Configure Branch
 
@@ -38,14 +38,14 @@
         | **Test Branch Key** | This is the test Branch key found on the [App Settings page](https://dashboard.branch.io/account-settings/app) of your Test Branch app|
         | **Test Branch URI** | This is the test URI scheme that you have set for your app on the [Link Settings page](https://dashboard.branch.io/link-settings) for your Test Branch app|
         | **Test Android Path Prefix** | This field is only applicable if you are on the `bnc.lt` domain of your Test Branch app. You can find it underneath the field labeled SHA256 Cert Fingerprints on the [Link Settings page](https://dashboard.branch.io/link-settings) once you’ve enabled App Links. It will look something like this: `/WSuf` (the initial / character should be included).|
-        | **Test App Links** | This field is applicable if you want to enable `APPLINKS` and `UNIVERSAL LINKS` for your domain. Please make sure to add the correct domain found on the bottom of the [Link Settings page](https://dashboard.branch.io/link-settings) of your Test Branch app. Add the -alternate domain to have your Branch links deeplink from your [Deepviews](/pages/web/deep-views/) and [Journeys](/pages/web/journeys/). If you are not using a `app.links` domain please write into [integrations@branch.io](mailto:integrations@branch.io)|
+        | **Test App Links** | This field is applicable if you want to enable `APPLINKS` and `UNIVERSAL LINKS` for your domain. Please make sure to add the correct domain found on the bottom of the [Link Settings page](https://dashboard.branch.io/link-settings) of your Test Branch app. Add the -alternate domain to have your Branch links deeplink from your [Deepviews](/web/deep-views/) and [Journeys](/web/journeys/). If you are not using a `app.links` domain please write into [integrations@branch.io](mailto:integrations@branch.io)|
         | **Live Branch Key** | This is the Live Branch key found on the [App Settings page](https://dashboard.branch.io/account-settings/app) of your Live Branch app|
         | **Live Branch URI** | This is the Live URI scheme that you have set for your app on the [Link Settings page](https://dashboard.branch.io/link-settings) for your Live Branch app|
         | **Live Android Path Prefix** | This field is only applicable if you are on the `bnc.lt` domain [Link Settings page](https://dashboard.branch.io/link-settings) for your Live Branch app. You can find it underneath the field labeled SHA256 Cert Fingerprints on the [Link Settings page](https://dashboard.branch.io/link-settings) once you’ve enabled App Links. It will look something like this: `/WSuf` (the initial / character should be included).|
-        | **Live App Links** | This field is applicable if you want to enable `APPLINKS` and `UNIVERSAL LINKS` for your domain. Please make sure to add the correct domain found on the bottom of the [Link Settings page](https://dashboard.branch.io/link-settings) of your Live Branch app. Add the -alternate domain to have your Branch links deeplink from your [Deepviews](/pages/web/deep-views/) and [Journeys](/pages/web/journeys/). If you are not using a `app.links` domain please write into [integrations@branch.io](mailto:integrations@branch.io)|
+        | **Live App Links** | This field is applicable if you want to enable `APPLINKS` and `UNIVERSAL LINKS` for your domain. Please make sure to add the correct domain found on the bottom of the [Link Settings page](https://dashboard.branch.io/link-settings) of your Live Branch app. Add the -alternate domain to have your Branch links deeplink from your [Deepviews](/web/deep-views/) and [Journeys](/web/journeys/). If you are not using a `app.links` domain please write into [integrations@branch.io](mailto:integrations@branch.io)|
 
         - Note for Android
-        >   Occasionally, Android will barf after you add our library due to generic issues unrelated to Branch. Please see this [Android troubleshooting section](/pages/apps/android/#troubleshoot-issues)
+        >   Occasionally, Android will barf after you add our library due to generic issues unrelated to Branch. Please see this [Android troubleshooting section](/apps/android/#troubleshoot-issues)
 
 - ### Initialize Branch
 
@@ -169,7 +169,7 @@
 
     - Read Deeplink params from a **BUO** in your `BranchInitSession callback`
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
 
         ```csharp
@@ -278,13 +278,13 @@ Branch.sendEvent (e02);
     - ##### Typical Referral Flow
 
         1. Setup a Reward rule on your [Branch Dashboard](https://dashboard.branch.io/referrals/rules).
-        2. Referrer has his/her identity set at [login/signup](/pages/apps/unity/#set-user-ids-on-loginregister)
-        3. Referrer [creates](/pages/apps/unity/#create-deep-link) a Branch link.
-        4. Referrer [shares](/pages/apps/unity/#create-deep-link) the Branch link.
+        2. Referrer has his/her identity set at [login/signup](/apps/unity/#set-user-ids-on-loginregister)
+        3. Referrer [creates](/apps/unity/#create-deep-link) a Branch link.
+        4. Referrer [shares](/apps/unity/#create-deep-link) the Branch link.
         5. Referee clicks on the Branch link, installs the app.
-        6. The referee has his/her identity set at [login/signup](/pages/apps/unity/#set-user-ids-on-loginregister)
-        7. Referee [triggers a custom event](/pages/apps/unity/#track-events) after login/Signup.
-        8. Use the following SDK methods to see a user's [current credits](/pages/apps/unity/#get-reward-balance), [redeem credits](/pages/apps/unity/#redeem-rewards) and check a user's entire [credit history](/pages/apps/unity/#get-credit-history).
+        6. The referee has his/her identity set at [login/signup](/apps/unity/#set-user-ids-on-loginregister)
+        7. Referee [triggers a custom event](/apps/unity/#track-events) after login/Signup.
+        8. Use the following SDK methods to see a user's [current credits](/apps/unity/#get-reward-balance), [redeem credits](/apps/unity/#redeem-rewards) and check a user's entire [credit history](/apps/unity/#get-credit-history).
 
     - ##### Get Reward balance
 

@@ -26,7 +26,7 @@ You'll be asked to enter some attribution tags and optionally configure linking.
 A couple of things to note:
 
 - Be sure that your Feed Source has a `link` column with each product's web URL. This is the minimum requirement for Branch to create deep links (although it will likely not be sufficient to be accepted by Facebook or partners.)
-- We recommend [hosting deep link data](/pages/web/hosted-data/) on your website for each web URL in your feed. We won't use it to modify your feed, but when your link is clicked from an ad, we'll get the link data from your website and return it to your app.
+- We recommend [hosting deep link data](/web/hosted-data/) on your website for each web URL in your feed. We won't use it to modify your feed, but when your link is clicked from an ad, we'll get the link data from your website and return it to your app.
 
 If you choose this option, go to your [Link Settings](https://dashboard.branch.io/link-settings) > Advanced Settings and check **Enable Link Scraping**. This option is only available once you've enabled the Deep Linked Feeds product for your account (you can enable the product by creating and downloading a Deep Linked Feed).
 
@@ -106,7 +106,7 @@ You can see all of the **Deep Linked Feeds** you've created by going to the [Dee
 After you've downloaded your feed, it's time to use it!
 
 !!! tip "Facebook Dynamic Ads"
-    Launch a [Facebook Dynamic Ad Campaign](/pages/deep-linked-ads/facebook-dynamic-ads/) to drive engagement or installs with your Deep Linked Feed!
+    Launch a [Facebook Dynamic Ad Campaign](/deep-linked-ads/facebook-dynamic-ads/) to drive engagement or installs with your Deep Linked Feed!
 
 
 !!! tip "Ad Network Integrations"
@@ -167,13 +167,13 @@ We look for the presence of the following columns, and for each one we either mo
 
 ### Links don't open the app
 
-- First, understand what the [intended behavior](/pages/links/integrate/#default-link-behavior) of your link should be.
+- First, understand what the [intended behavior](/links/integrate/#default-link-behavior) of your link should be.
 - Links created by the Deep Linked Feeds tool currently fall back to the Web URL you originally specified in the `link` column by default. You can override this behavior by including a column called `branch_query_params` and including `$fallback_method=app_wide` as the value for every row. This will make each link fall back to the platform fallback you have specified in your [Link Settings](https://dashboard.branch.io/link-settings), which is usually the App Store.
 - Facebook requires certain ["applink treatment"](https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/mobile-app-events#deeplinksetup) values to be present to change fallback behavior. We're working on adding these to our interface, but for the moment, include them in your feed source.
 
 ### Deep links aren't working
 
-- Ensure you've included your deep link data. Branch will scrape any [Hosted Deep Link Data](/pages/web/hosted-data/) corresponding to the Web URL in your Feed Source's `link` column for every link. Alternatively, you can include deep link data as a column in your Feed Source and then select the relevant data in Step 2 of Deep Linked creation.
+- Ensure you've included your deep link data. Branch will scrape any [Hosted Deep Link Data](/web/hosted-data/) corresponding to the Web URL in your Feed Source's `link` column for every link. Alternatively, you can include deep link data as a column in your Feed Source and then select the relevant data in Step 2 of Deep Linked creation.
 - To see which data is getting through to your app, click the link and then view the link click in [Live View](https://dashboard.branch.io/liveview/clicks) to see the data going through to your app.
 -  If you don't know what deep link data you need to include, ask a technical teammate to show you which data is included in a working Branch link.
 
@@ -186,6 +186,6 @@ We look for the presence of the following columns, and for each one we either mo
 - The largest file size accepted by the tool is 50MB. Please contact [integrations@branch.io](mailto:integrations@branch.io) if you need to upload a larger file.
 
 ### Report issues
-- For Facebook data discrepancies, please see our [Facebook Advertising troubleshooting documentation](/pages/deep-linked-ads/facebook-app-install-ads/#troubleshooting).
+- For Facebook data discrepancies, please see our [Facebook Advertising troubleshooting documentation](/deep-linked-ads/facebook-app-install-ads/#troubleshooting).
 
 If you run into any issues, or have questions, please contact [integrations@branch.io](mailto:integrations@branch.io).

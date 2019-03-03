@@ -1,7 +1,7 @@
 # Query API
 
 !!! protip "Getting started"
-    For newcomers to this API, we strongly suggest you check out our [Query Recipe Book](/pages/exports/query-recipe-book/). It has screenshots of Dashboard visualizations, accompanied by what queries you need to make to pull the same data. It's a quick way to get up and running with this API.
+    For newcomers to this API, we strongly suggest you check out our [Query Recipe Book](/exports/query-recipe-book/). It has screenshots of Dashboard visualizations, accompanied by what queries you need to make to pull the same data. It's a quick way to get up and running with this API.
 
 An HTTP API usable for programmatically querying pre-aggregated analytics. It can be used to fetch any of the same information displayed on nearly any the Branch dashboard, without accessing the Dashboard itself.
 

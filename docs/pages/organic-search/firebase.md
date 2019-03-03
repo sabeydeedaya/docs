@@ -14,7 +14,7 @@ When enabling App Indexing, you will likely want to make these changes to your w
 
 If Google knows your website opens the app, when it shows up in a search result, and the user has the app installed, the app will open instead of the website, therefore achieveing App Indexing results in organic search portals.
 
-Branch's App Indexing integration is designed for businesses that don't have a website, and want Branch to host their site for them. If you have a website, Branch can dynamically inject App Indexing tags through the WebSDK function `autoAppIndex()` described [here](/pages/organic-search/firebase/#alternative-have-the-websdk-inject-app-indexing-tags-into-your-webpage).
+Branch's App Indexing integration is designed for businesses that don't have a website, and want Branch to host their site for them. If you have a website, Branch can dynamically inject App Indexing tags through the WebSDK function `autoAppIndex()` described [here](/organic-search/firebase/#alternative-have-the-websdk-inject-app-indexing-tags-into-your-webpage).
 
 Note that in order for you to get traffic from this feature, your Branch link will need to appear in search results. We've just now supercharged our app indexing feature with AMP tech to leverage Google's new prioritization of these pages.
 
@@ -112,8 +112,8 @@ If you don’t want to implement Universal or App Links then you can allow the W
 This requires:
 
 1. Branch to be integrated for URI based deep linking. Please ensure that steps 1, 2, 3 and 4 (*iOS* only) of the following guides are completed:
-    - [Android SDK Integration Guide](/pages/apps/android/)
-    - [iOS SDK Integration Guide](/pages/apps/ios/)
+    - [Android SDK Integration Guide](/apps/android/)
+    - [iOS SDK Integration Guide](/apps/ios/)
 
 2. A call to `autoAppIndex()` (a WebSDK function) to be made with the appropriate parameters (see below).
 

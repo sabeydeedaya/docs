@@ -23,10 +23,10 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 
 1. You'll need to configure your app and get a Branch API key in the [Branch Metrics dashboard](https://branch.dashboard.branch.io/account-settings/app). You can read more about configuring your dashboard in the Branch docs here.
 1. For deep linking, you'll need to add associated domains for universal links as described in the Branch docs here:
-	- [Configure associated domains](/pages/apps/ios/#configure-associated-domains)
-	- [Configure entitlements](/pages/apps/ios/#configure-entitlements)
+	- [Configure associated domains](/apps/ios/#configure-associated-domains)
+	- [Configure entitlements](/apps/ios/#configure-entitlements)
 1. Also add an app URI scheme and your Branch key to the plist file for you app for deep linking.
-	- [Configure your Info.plist with Branch key and for URI schemes](/pages/apps/ios/#configure-infoplist)
+	- [Configure your Info.plist with Branch key and for URI schemes](/apps/ios/#configure-infoplist)
 1. In the Adobe dashboard, activate Branch and add your Branch key to your app's configuration.
 	- Activate Branch:
 
@@ -48,7 +48,7 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
     return YES; // Important! If you return `NO` iOS will not handle deep linking as expected.
 }
 ```
-1. Add the Branch deep link routers and receivers in your AppDelegate class in three places as shown below. You can see some [best practices on deep link routing in this doc](/pages/deep-linking/routing/).
+1. Add the Branch deep link routers and receivers in your AppDelegate class in three places as shown below. You can see some [best practices on deep link routing in this doc](/deep-linking/routing/).
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
@@ -93,7 +93,7 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 
 ## Implementing Branch Features
 
-Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for iOS.](/pages/apps/ios/)
+Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for iOS.](/apps/ios/)
 
 
 ### Automatic: Track Action and State

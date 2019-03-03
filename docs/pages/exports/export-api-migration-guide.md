@@ -6,7 +6,7 @@ title: Field-by-field guide for migrating from legacy Export API (old)
 
 ## Introduction
 
-Branch will completely discontinue the functionality of its legacy Export API on in the future. Before then, we are advising all partners using this API to switch to our new [Export API](/pages/exports/api-v3/#search).
+Branch will completely discontinue the functionality of its legacy Export API on in the future. Before then, we are advising all partners using this API to switch to our new [Export API](/exports/api-v3/#search).
 
 This document is a guide to help you understand the differences in structure between the legacy and current Export API. We will use two examples: a click and an install. In the legacy format, click & install were fairly different (read: inconsistent, messy). In the current Export API format, clicks and installs share the same format.
 
@@ -98,7 +98,7 @@ Legacy events included many different types of events. In our current system, ev
 * content event
 * user lifecycle event
 
-Read more about that [here](pages/dashboard/people-based-attribution/).
+Read more about that [here](dashboard/people-based-attribution/).
 
 As an example, here we focus on an example install event.
 

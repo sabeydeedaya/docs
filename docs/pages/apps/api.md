@@ -1,1 +1,1 @@
-redirect: /pages/apps/deep-linking-api/
+redirect: /apps/deep-linking-api/

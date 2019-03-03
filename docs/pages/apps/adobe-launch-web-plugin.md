@@ -5,7 +5,7 @@ Adding Branch to your Launch Property will allow you to use core functionality f
 - Have the [Adobe Experience Platform Launch SDK](https://docs.adobelaunch.com/) integrated into your site.
 - Have a Branch app created for your company: https://dashboard.branch.io.
 	- One Branch app per Launch Property is recommended.
-- Have the Branch [iOS SDK](/pages/apps/ios) and/or [Android SDK](/pages/apps/android) integrated into your mobile apps.
+- Have the Branch [iOS SDK](/apps/ios) and/or [Android SDK](/apps/android) integrated into your mobile apps.
 - Have [Link Settings](https://dashboard.branch.io/link-settings) in Branch’s Dashboard correctly configured
 
 If these steps have not been completed, please refer to Adobe Launch’s [documentation](https://developer.adobelaunch.com/). For Branch integration issues, please reach out to integrations@branch.io.
@@ -45,7 +45,7 @@ Once configured, please remember to publish your changes!
 
 Branch provides out-of-box support to show a mobile banner/Journey on your website. During the initialization process, Branch will fire an event to determine whether a page is eligible to display a Journey on. If it is eligible, then users on that page will see it.
 
-There are myriad of ways that your Journey banners can be configured. To set one up, follow [this guide](/pages/web/journeys/#create-journey-banner-or-interstitial).
+There are myriad of ways that your Journey banners can be configured. To set one up, follow [this guide](/web/journeys/#create-journey-banner-or-interstitial).
 
 Once your Journey is setup in Branch’s Dashboard and you’ve configured Branch to initialize through a rule in Adobe Launch, a Journey banner should appear on various pages of your mobile website (depending on how you’ve set up your Journey’s Audience Rules). Furthermore, a click by one of your users on the CTA button (“GET” in the screenshot) will take users to the App/Play Store to download the app. If the app is already installed, then they will get Deep Linked to it.
 

@@ -1,1 +1,1 @@
-redirect: /pages/integrations/data-integrations-list/
+redirect: /integrations/data-integrations-list/

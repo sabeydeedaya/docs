@@ -46,7 +46,7 @@ Branch makes it simple to enable Universal Links all while greatly improving on 
 	If the **Default domain name** box shows the legacy `bnc.lt` domain, you should use the following entry instead: `applinks:bnc.lt`
 
 !!! tip "Using a custom domain or subdomain?"
-	If you use a [custom domain or subdomain for your Branch links](/pages/dashboard/integrate/#change-link-domain), you should instead add entries for `applinks:[mycustomdomainorsubdomain]` and `XXXX-alternate.app.link`. If you're unsure of your Branch-assigned app.link subdomain, contact integrations@branch.io, and we can provide it.
+	If you use a [custom domain or subdomain for your Branch links](/dashboard/integrate/#change-link-domain), you should instead add entries for `applinks:[mycustomdomainorsubdomain]` and `XXXX-alternate.app.link`. If you're unsure of your Branch-assigned app.link subdomain, contact integrations@branch.io, and we can provide it.
 
 ## Advanced
 
@@ -84,7 +84,7 @@ Apple has limited Universal Links in certain situations, apparently to avoid con
 
 Apps with built-in webviews (Google, Twitter, Facebook, Facebook Messenger, WeChat, etc.) work with Universal Links only when a webview is already open. In other words, Universal Links do not work in-app from the feed or main app views.
 
-To work around this limitation, your links must have [deepviews](/pages/web/deep-views/) or something similar enabled, with a call-to-action link/button that has a Universal Link behind it. This way, clicking a link from the app feed will open a webview containing your deepview page, and the user can then click the link/button to launch your app. All of Apple's limitations (in the section above) still apply for the deepview page.
+To work around this limitation, your links must have [deepviews](/web/deep-views/) or something similar enabled, with a call-to-action link/button that has a Universal Link behind it. This way, clicking a link from the app feed will open a webview containing your deepview page, and the user can then click the link/button to launch your app. All of Apple's limitations (in the section above) still apply for the deepview page.
 
 | App/Browser | Status
 | --- | ---
@@ -114,7 +114,7 @@ To work around this limitation, your links must have [deepviews](/pages/web/deep
 ### Common issues that cause Universal Links to fail
 
 !!! tip "Automated Validation for Your Xcode Project"
-	You can check if your Xcode project is correctly configured by using our [Universal Links Validator](/pages/resources/validation-tools/#universal-link-validator).
+	You can check if your Xcode project is correctly configured by using our [Universal Links Validator](/resources/validation-tools/#universal-link-validator).
 
 ##### Are you testing by manually entering into Safari?
 Universal Links don't work properly when entered into Safari. Use Notes or iMessage for testing.

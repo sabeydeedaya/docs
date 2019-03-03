@@ -42,10 +42,10 @@ title: Dashboard analytics
 
 - ### Growth attribution
     + You can measure your app growth in the [Dashboard](https://dashboard.branch.io) through automatic event tracking and user identity tracking.
-    + You can also define as many custom events (signups, purchases, shares, etc.) as you wish - see the [User Value Attribution](/pages/dashboard/analytics/#user-value-attribution) guide for more on tracking custom events. You can see these events as they occur on the Live View > Events page.
+    + You can also define as many custom events (signups, purchases, shares, etc.) as you wish - see the [User Value Attribution](/dashboard/analytics/#user-value-attribution) guide for more on tracking custom events. You can see these events as they occur on the Live View > Events page.
 
     - You can measure your app growth in the [Dashboard](https://dashboard.branch.io) through automatic event tracking and user identity tracking.
-        - You can also define as many custom events (signups, purchases, shares, etc.) as you wish - see the [User Value Attribution](/pages/dashboard/analytics/#user-value-attribution) guide for more on tracking custom events. You can see these events as they occur on the Live View > Events page.
+        - You can also define as many custom events (signups, purchases, shares, etc.) as you wish - see the [User Value Attribution](/dashboard/analytics/#user-value-attribution) guide for more on tracking custom events. You can see these events as they occur on the Live View > Events page.
 
         - You must [identify your users](#dialog-code?ios=track-users&android=track-users&adobe=track-users&cordova=track-users&mparticleAndroid=track-users&mparticleIos=track-users&titanium=track-users&reactNative=track-users&unity=track-users&xamarin=track-users) in order for the `User ID` column to be populated. The `Branch ID` refers to the internal Branch ID associated with that user. The `Developer ID` is the value you assign when you set the identity
         - You must [setting identities](#dialog-code?ios=track-users&android=track-users&adobe=track-users&cordova=track-users&mparticleAndroid=track-users&mparticleIos=track-users&titanium=track-users&reactNative=track-users&unity=track-users&xamarin=track-users) within your app
@@ -68,29 +68,29 @@ title: Dashboard analytics
 
 - ### Journey Banners
     - The [Dashboard Journey](https://dashboard.branch.io/) allows you to create, configure, and add a banner to your website to convert mobile users to app users
-    - Find more information in [Journey app banners](/pages/web/journeys/) and [Journey Amp banners](/pages/web/amp-journeys/)
+    - Find more information in [Journey app banners](/web/journeys/) and [Journey Amp banners](/web/amp-journeys/)
 
 - ### Deepview Preview
     - The [Dashboard Preview](https://dashboard.branch.io/) is a content preview for your app to increase app install conversion
-    - Find more information in [Deepviews](/pages/web/deep-views/)
-    - Deepviews also help deep links work in all platforms [Supported Platforms](/pages/links/integrate/#expected-redirect-behavior)
+    - Find more information in [Deepviews](/web/deep-views/)
+    - Deepviews also help deep links work in all platforms [Supported Platforms](/links/integrate/#expected-redirect-behavior)
 
 - ### Desktop SMS
     - The [Dashboard Text Me The App](https://dashboard.branch.io/) allows you to send a deep link with in a text message to users to convert desktop users to app users
-    - Find more information in [Text Me The App](/pages/web/text-me-the-app/)
+    - Find more information in [Text Me The App](/web/text-me-the-app/)
 
 - ### Ads
     - [Dashboard Ads](https://dashboard.branch.io/email) allows you to easily integrate Branch deep links with your email providers
-    - Find more information in [Ads](/pages/deep-linked-ads/dynamic-product-feeds/)
+    - Find more information in [Ads](/deep-linked-ads/dynamic-product-feeds/)
 
 - ### Emails
     - [Dashboard Emails](https://dashboard.branch.io/email) allows you to easily integrate Branch deep links with your email providers
-    - Find more information in [Emails](/pages/emails/braze/)
+    - Find more information in [Emails](/emails/braze/)
 
 - ### Organic Search
 
     - [Dashboard Organic Search](https://dashboard.branch.io/search) shows you how your deep links and content are being scraped by search engines
-    - Use [app indexing](/pages/organic-search/firebase/) within your app to enable
+    - Use [app indexing](/organic-search/firebase/) within your app to enable
     - Validate with the [App indexing validator](https://branch.io/resources/app-indexing/)
 
 - ### Referrals
@@ -122,7 +122,7 @@ title: Dashboard analytics
     - ##### Tracking
         - Use the [Referral analytics](https://dashboard.branch.io/referrals/analytics)
         - Use the [LiveView export](https://dashboard.branch.io/liveview/link_clicks) to get data as a `.csv`
-        - Create a [Webhook](/pages/exports/webhooks/) to send data to your server
+        - Create a [Webhook](/exports/webhooks/) to send data to your server
 
     - ##### Querying
         - Query the events export the custom referral event that triggered the referral rule
@@ -139,10 +139,10 @@ title: Dashboard analytics
 
 - ### Link Settings
     - [Dashboard Link Settings](https://dashboard.branch.io/link-settings) allow you to make configurations to your default link behavior
-    - Find more information in [Configure your dashboard](/pages/dashboard/integrate/)
+    - Find more information in [Configure your dashboard](/dashboard/integrate/)
 
 - ### Sources
-    - [Dashboard Sources](https://dashboard.branch.io/sources) display `clicks`, `installs`, `sessions`, and `custom events` per [analytical label](/pages/links/integrate/#analytical-labels)
+    - [Dashboard Sources](https://dashboard.branch.io/sources) display `clicks`, `installs`, `sessions`, and `custom events` per [analytical label](/links/integrate/#analytical-labels)
     - Updates every 1.5 hours
     - Use the `Event` dropdown to see a funnel of your analytics to a [custom event](#dialog-code?ios=track-events&android=track-events&adobe=track-events&cordova=track-events&mparticleAndroid=track-events&mparticleIos=track-events&titanium=track-events&reactNative=track-events&unity=track-events&xamarin=track-events) inside your app
     - Use the `Export` button to get a email with a `.csv` of your source data
@@ -162,11 +162,11 @@ title: Dashboard analytics
 
 - ### Data Integrations
     - [Dashboard Integrations](https://dashboard.branch.io/data-import-export/integrations) allows you to create data integrations to send Branch data to third party vendors
-    - Find more information in [Data Integrations](/pages/integrations/adobe-analytics/)
+    - Find more information in [Data Integrations](/integrations/adobe-analytics/)
 
 - ### Webhooks
     - [Dashboard Webhooks](https://dashboard.branch.io/data-import-export/webhooks) allows you to create webhooks to send Branch data to your servers
-    - Find more information in [Webhooks](/pages/exports/webhooks/)
+    - Find more information in [Webhooks](/exports/webhooks/)
     - Best to test with [Liveview](#liveview)
 
 - ### LiveView
@@ -175,5 +175,5 @@ title: Dashboard analytics
 
 - ### Account settings
     - [Dashboard Account Setting](https://dashboard.branch.io/account-settings/app) is where you find your `Branch Keys`, `User information`, `Billing`, and `Team`
-    - Find more information in [Configure your dashboard](/pages/dashboard/integrate/#advance-integration)
+    - Find more information in [Configure your dashboard](/dashboard/integrate/#advance-integration)
 

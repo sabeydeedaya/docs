@@ -1,9 +1,9 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview/)
+		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
 		- **Enabling the Integration** (this page)
-		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac/)
-		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/)
+		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
+		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
 ## Overview
 

@@ -10,4 +10,4 @@ If the customer then goes on to purchase an item on web within the attribution w
 
 ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
 
-You can read more about [People-Based Attribution here](/pages/dashboard/people-based-attribution/).
+You can read more about [People-Based Attribution here](/dashboard/people-based-attribution/).

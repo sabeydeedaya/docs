@@ -1,7 +1,7 @@
 ---
 title: Deep Linking and Attributing your Android Instant App
 description: A guide to enable Branch links to your Android Instant App, in addition to deferred deep linking to your full Android app.
-path: tree/master/src/pages/app-to-app
+path: tree/master/src/app-to-app
 source: android-instant-apps.md
 ---
 
@@ -76,7 +76,7 @@ Instant Apps can be rather confusing as there are many different manifests, but 
 
 ### Configure your Branch links as Android App Links
 
-This guide presumes that you've already configured Branch for Android App Links in the past. If you haven't configured your full native app to use Branch as Android App Links, [please complete this guide](/pages/apps/universal-app-links/) which will correctly configure the dashboard and manifest.
+This guide presumes that you've already configured Branch for Android App Links in the past. If you haven't configured your full native app to use Branch as Android App Links, [please complete this guide](/apps/universal-app-links/) which will correctly configure the dashboard and manifest.
 
 Now, you simply need to edit the above manifest and paste in the following snippet _inside_ the desired `activity.` Then you'll need to replace the `xxxx` with your own custom subdomain which will be visible on [the Branch link settings dashboard](https://dashboard.branch.io/link-settings){:target="\_blank"} at the bottom of the page. If you're using a custom subdomain, you can find the advanced instructions in the above link regarding configuring Android App Links.
 
@@ -99,7 +99,7 @@ Now, you simply need to edit the above manifest and paste in the following snipp
 
 #### Custom pathing on your Branch links
 
-Optionally, when you [create shortened Branch links](/pages/links/integrate/#create-deep-links), you can specify a `alias` parameter (described [here](/pages/links/integrate/#link-appearance)) in the creation flow to define a custom path (e.g. `https://example.app.link/product/id12345` or any custom strings). This can be helpful if you are managing multiple Instant App paths.
+Optionally, when you [create shortened Branch links](/links/integrate/#create-deep-links), you can specify a `alias` parameter (described [here](/links/integrate/#link-appearance)) in the creation flow to define a custom path (e.g. `https://example.app.link/product/id12345` or any custom strings). This can be helpful if you are managing multiple Instant App paths.
 
 ### Retrieve Branch deep link data
 

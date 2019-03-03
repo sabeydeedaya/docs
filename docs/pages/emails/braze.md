@@ -14,7 +14,7 @@ This guide will walk you through how to setup your email campaigns with **[Braze
 
 ### Setup a custom click tracking domain
 
-Contact your **Braze Account Manager** and request the Email Click Tracking Domain and the SendGrid Data domain associated with your SendGrid account. Here is guide to configure SendGrid account [documentation](/pages/emails/sendgrid/#configure-your-esp/){:target="\_blank"}.
+Contact your **Braze Account Manager** and request the Email Click Tracking Domain and the SendGrid Data domain associated with your SendGrid account. Here is guide to configure SendGrid account [documentation](/emails/sendgrid/#configure-your-esp/){:target="\_blank"}.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Braze.

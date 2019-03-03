@@ -3,23 +3,23 @@ User journeys happen across channels. To get accurate attribution, you need to m
 ## Acquisition
 <!-- Acquisition -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/deep-linked-ads/branch-universal-ads/">
+  <a href="/deep-linked-ads/branch-universal-ads/">
     <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Paid Ads</p>
   </a>
-  <a href="/pages/web/branch-web-solutions/">
+  <a href="/web/branch-web-solutions/">
     <img src="../../../_assets/img/pages/channels/website.png" />
     <p>Website</p>
   </a>
-  <a href="/pages/organic-search/branch-organic-search/">
+  <a href="/organic-search/branch-organic-search/">
     <img src="../../../_assets/img/pages/channels/organic.png" />
     <p>Organic Search</p>
   </a>
-	<a href="/pages/app-to-app/android-instant-apps/">
+	<a href="/app-to-app/android-instant-apps/">
     <img src="../../../_assets/img/pages/channels/instant-app.png" />
     <p>Android<br/>Instant Apps</p>
   </a>
-	<a href="/pages/app-to-app/imessage-apps/">
+	<a href="/app-to-app/imessage-apps/">
     <img src="../../../_assets/img/pages/channels/imessage.png" />
     <p>iMessage Apps</p>
   </a>
@@ -29,19 +29,19 @@ User journeys happen across channels. To get accurate attribution, you need to m
 ## Engagement
 <!-- Engagement -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/emails/universal-email/">
+  <a href="/emails/universal-email/">
     <img src="../../../_assets/img/pages/channels/email.png" />
     <p>Email</p>
   </a>
-	<a href="/pages/sms/vibes/">
+	<a href="/sms/vibes/">
 		<img src="../../../_assets/img/pages/channels/sms.png" />
 		<p>SMS</p>
 	</a>
-  <a href="/pages/advance/push-notifications/">
+  <a href="/advance/push-notifications/">
     <img src="../../../_assets/img/pages/channels/push-notifications.png" />
     <p>Push Notifications</p>
   </a>
-	<a href="/pages/deep-linked-ads/dynamic-product-feeds/">
+	<a href="/deep-linked-ads/dynamic-product-feeds/">
     <img src="../../../_assets/img/pages/channels/product-feed.png" />
     <p>Dynamic<br/>Product Feeds</p>
   </a>
@@ -51,11 +51,11 @@ User journeys happen across channels. To get accurate attribution, you need to m
 ## Referral
 <!-- Referral -->
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/viral/referrals/">
+  <a href="/viral/referrals/">
     <img src="../../../_assets/img/pages/channels/referral.png" />
     <p>Referral Programs</p>
   </a>
-	<a href="/pages/viral/content-sharing/">
+	<a href="/viral/content-sharing/">
 		<img src="../../../_assets/img/pages/channels/content-sharing.png" />
 		<p>Content Sharing</p>
 	</a>

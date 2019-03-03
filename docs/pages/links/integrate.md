@@ -24,7 +24,7 @@
 
         - Expected link behavior is dependent on whether or not the app supports deep linking
 
-        - `*Able to force app open` using [`$uri_redirect_mode`](#forced-redirections) or enabling a [Deepview](/pages/web/deep-views/)
+        - `*Able to force app open` using [`$uri_redirect_mode`](#forced-redirections) or enabling a [Deepview](/web/deep-views/)
 
             | App | iOS | Notes | Android | Notes
             | --- | :-: | :-: | :-: | :-:
@@ -74,7 +74,7 @@
 
         - Add [link data](#configure-deep-links) to each deep link
 
-        - Add key-values pairs to your [Quick Links](/pages/dashboard/analytics/#quick-links)
+        - Add key-values pairs to your [Quick Links](/dashboard/analytics/#quick-links)
 
         - Append query strings `https://example.app.link/fzmLEhobLD?$custom_data=123&hello=world`
 
@@ -88,10 +88,10 @@
 
         - Fallback overrides *(ordered by precedence)*
             - Add query string `https://example.app.link?$ios_url=https://example.com`
-            - Add link data `$ios_url = 'https://example.com'` ([docs](/pages/links/integrate/#redirections))
-            - Add link data for a deep view `$ios_deepview = 'deepviewId'`  ([docs](/pages/links/integrate/#deepview))
+            - Add link data `$ios_url = 'https://example.com'` ([docs](/links/integrate/#redirections))
+            - Add link data for a deep view `$ios_deepview = 'deepviewId'`  ([docs](/links/integrate/#deepview))
             - Enable a `Deep View` globally on the [Branch Dashboard](https://dashboard.branch.io/web/deepviews)
-            - Add link data `$fallback_url = 'https://example.com'` ([docs](/pages/links/integrate/#redirections))
+            - Add link data `$fallback_url = 'https://example.com'` ([docs](/links/integrate/#redirections))
             - Add `iOS/Android Custom URL` on the [Branch Dashboard](https://dashboard.branch.io/link-settings)
             - Add `Default URL` (`$fallback_url`) on the [Branch Dashboard](https://dashboard.branch.io/link-settings)
 
@@ -100,14 +100,14 @@
             - Device `navigates` to the [fallback](#custom-link-behavior) (e.g. an app store or website)
         - Your app is installed
             - *iOS:* need to override `Universal Links`
-                - Add `$web_only = true` ([docs](/pages/links/integrate/#redirections))
-                - Add redirect `$ios_url = 'https://google.com'` ([docs](/pages/links/integrate/#redirections))
+                - Add `$web_only = true` ([docs](/links/integrate/#redirections))
+                - Add redirect `$ios_url = 'https://google.com'` ([docs](/links/integrate/#redirections))
                 - *[or]* Append `/e/` to the deep link
                     - e.g. `https://example.app.link/fzmLEhobLD` -> `https://example.app.link/e/fzmLEhobLD`
             - *Android:* need to override `App Links`
                 - Uncheck `Enable App Links` and then hit `Save` the [Branch Dashboard](https://dashboard.branch.io/link-settings)
-                - Add redirect `$android_url = 'https://google.com'` ([docs](/pages/links/integrate/#redirections))
-                - Add a broken URI Scheme with `$android_deeplink_path = 'random'` ([docs](/pages/links/integrate/#deep-linking))
+                - Add redirect `$android_url = 'https://google.com'` ([docs](/links/integrate/#redirections))
+                - Add a broken URI Scheme with `$android_deeplink_path = 'random'` ([docs](/links/integrate/#deep-linking))
 
 - ### Social link behavior
     - Use [OG Tags](#open-graph) to display content as a preview card in Facebook, Twitter, Pinterest, iMessage, etc.
@@ -142,10 +142,10 @@
     - Short links can have additional data appended to them
         - e.g. dynamic link `https://example.app.link/fzmLEhobLD?content_id=123`
     - Methods of creating short links
-        - Use [Quick Links](/pages/dashboard/analytics/#quick-links) for fast link creation and easy tracking
+        - Use [Quick Links](/dashboard/analytics/#quick-links) for fast link creation and easy tracking
         - Use our [App SDK](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link) to create and share links within your app
-        - Use our [Web SDK](/pages/web/integrate/#create-deep-link) to create links which help convert your web users to app users
-        - Use our [HTTP API](/pages/apps/api/#link-create) to programmatically create links from your server
+        - Use our [Web SDK](/web/integrate/#create-deep-link) to create links which help convert your web users to app users
+        - Use our [HTTP API](/apps/api/#link-create) to programmatically create links from your server
         - Use our [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf) to generate links from your browser
 
 - ### Long links
@@ -153,10 +153,10 @@
     - Long links need [link data](#configure-deep-links) to be added as a query string. Be sure to URI encode any urls in the link.
         - e.g. existing link `https://example.app.link/fzmLEhobLD?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
         - e.g. dynamic link `https://example.app.link/?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
-    - Long links need a `/a/` and a [Branch Key](/pages/dashboard/integrate/#understand-the-branch-key) if you use a `custom link domain`
+    - Long links need a `/a/` and a [Branch Key](/dashboard/integrate/#understand-the-branch-key) if you use a `custom link domain`
         - e.g. existing link `https://link.example.com/5NPh/p4M09KRLrD?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
         - e.g. dynamic link `https://link.example.com/a/key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
-    - Long links need a `/a/` and a [Branch Key](/pages/dashboard/integrate/#understand-the-branch-key) if you use a `bnc.lt`
+    - Long links need a `/a/` and a [Branch Key](/dashboard/integrate/#understand-the-branch-key) if you use a `bnc.lt`
         - e.g. existing link `https://bnc.lt/5NPh/p4M09KRLrD?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
         - e.g. dynamic link `https://bnc.lt/a/key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt?foo=bar&baz=456&$fallback_url=https%3A%2F%2Fbranch.io%2F`
     - When adding `tags` to a dynamic link, enter each tag separately
@@ -276,7 +276,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 
 - ### Deepview
 
-    - Enable / control [active deepview](/pages/web/deep-views/#active-deepviews) properties
+    - Enable / control [active deepview](/web/deep-views/#active-deepviews) properties
 
         | Key | Default | Usage
         | --- | --- | ---
@@ -284,7 +284,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
         | $android_deepview | `branch_default` | The name of the deepview template to use for Android
         | $desktop_deepview | `branch_default` | The name of the deepview template to use for the Desktop
 
-    - Control [passive deepview](/pages/web/deep-views/#passive-deepviews) templates
+    - Control [passive deepview](/web/deep-views/#passive-deepviews) templates
 
         | Key | Value | Default
         | --- | --- | ---
@@ -382,7 +382,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 
 ## Read deep links
 
-- Deep link data gets sent from your link to your [app](#dialog-code?ios=read-deep-link&android=read-deep-link&adobe=read-deep-link&cordova=read-deep-link&mparticleAndroid=read-deep-link&mparticleIos=read-deep-link&titanium=read-deep-link&reactNative=read-deep-link&unity=read-deep-link&xamarin=read-deep-link) or [website](/pages/web/integrate/) integration
+- Deep link data gets sent from your link to your [app](#dialog-code?ios=read-deep-link&android=read-deep-link&adobe=read-deep-link&cordova=read-deep-link&mparticleAndroid=read-deep-link&mparticleIos=read-deep-link&titanium=read-deep-link&reactNative=read-deep-link&unity=read-deep-link&xamarin=read-deep-link) or [website](/web/integrate/) integration
 
 - ### Data structure
 
@@ -437,7 +437,7 @@ You're free to add any of your own key-value parameters to a Branch link. These 
 
 - ### Callback values
 
-    - Additional properties read from the `initSession` within your [app](#dialog-code?ios=initialize-branch&android=initialize-branch&adobe=initialize-branch&cordova=initialize-branch&mparticleAndroid=initialize-branch&mparticleIos=initialize-branch&titanium=initialize-branch&reactNative=initialize-branch&unity=initialize-branch&xamarin=initialize-branch) and [website](/pages/web/integrate/) integrations
+    - Additional properties read from the `initSession` within your [app](#dialog-code?ios=initialize-branch&android=initialize-branch&adobe=initialize-branch&cordova=initialize-branch&mparticleAndroid=initialize-branch&mparticleIos=initialize-branch&titanium=initialize-branch&reactNative=initialize-branch&unity=initialize-branch&xamarin=initialize-branch) and [website](/web/integrate/) integrations
 
         | Key | Default | Usage
         | --- | --- | ---
@@ -456,9 +456,9 @@ You're free to add any of your own key-value parameters to a Branch link. These 
     - Make sure you are clicking on a deep link (e.g. `https://example.app.link/fzmLEhobLD`)
     - Make sure you are not pasting a deep link in the address bar (in most cases, deep links must be clicked on)
     - Make sure the deep link is not wrapped (e.g. `http://bit.ly/2yz3b8D` instead of `https://example.app.link/fzmLEhobLD`)
-    - Make sure you have [configure your dashboard](/pages/dashboard/integrate/) and [configure your app](#dialog-code)
+    - Make sure you have [configure your dashboard](/dashboard/integrate/) and [configure your app](#dialog-code)
     - Make sure the `Branch key` [in your app](#dialog-code) matches the `Branch key` [in your deep link](#view-deep-link-data)
-    - Make sure you have not [disabled universal linking on iOS](/pages/apps/ios/#re-enable-universal-linking)
+    - Make sure you have not [disabled universal linking on iOS](/apps/ios/#re-enable-universal-linking)
     - Make sure you understand the [expected behavior of deep links](#default-link-behavior)
     - Make sure the deep link domain matches your [link domain](https://dashboard.branch.io/link-settings) (e.g. link domain = `example.app.link`, deep link = `https://example.app.link/fzmLEhobLD`)
 

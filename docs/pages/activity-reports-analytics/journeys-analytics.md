@@ -1,6 +1,6 @@
 **Important Note:**
 
-To get the Analytics for Journeys, you need to have Journeys enabled and set up on the dashboard as per the documentation [here](/pages/web/journeys/).
+To get the Analytics for Journeys, you need to have Journeys enabled and set up on the dashboard as per the documentation [here](/web/journeys/).
 
 
 ## Step by Step Process
@@ -12,7 +12,7 @@ To get the Analytics for Journeys, you need to have Journeys enabled and set up 
 
 ## Top Menu
 
-At the top of the page, you'll see a menu of options that apply to both the graph and table views. Here, you can set the date range you'd like to see data for. This date range will apply to both the graph and table views on the page. You won't be able to see data from prior to October 14th, 2017, as that is the date Branch switched to our updated attribution model and data pipeline. [For more information on this, click here.](/pages/dashboard/people-based-attribution/#cutoff-date)
+At the top of the page, you'll see a menu of options that apply to both the graph and table views. Here, you can set the date range you'd like to see data for. This date range will apply to both the graph and table views on the page. You won't be able to see data from prior to October 14th, 2017, as that is the date Branch switched to our updated attribution model and data pipeline. [For more information on this, click here.](/dashboard/people-based-attribution/#cutoff-date)
 
 Additionally, you can share your current dashboard view using the share button, preserving filters and time windows. This is useful for circulating a specific set of filters among your team or with your Branch Technical Account Manager.
 
@@ -54,4 +54,4 @@ The Table View lets you see a more granular view of your event data. Here you ca
 
 ![image](/_assets/img/pages/analytics/journeys4.png)
 
-The Unique checkbox on both the graph and table views allows you to restrict reports to one event of each type per user. For example, take a user who clicked an ad link, then opened the app 7 times within the attribution window for that link. With the Unique box checked, we'd report one of those opens, with it unchecked, we'd report all 7. [Click here to read more about unique events.](/pages/dashboard/people-based-attribution/#unique-behavior)
+The Unique checkbox on both the graph and table views allows you to restrict reports to one event of each type per user. For example, take a user who clicked an ad link, then opened the app 7 times within the attribution window for that link. With the Unique box checked, we'd report one of those opens, with it unchecked, we'd report all 7. [Click here to read more about unique events.](/dashboard/people-based-attribution/#unique-behavior)

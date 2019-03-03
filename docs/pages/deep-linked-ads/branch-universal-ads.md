@@ -1,1 +1,1 @@
-redirect: /pages/deep-linked-ads/branch-universal-ads-mobile-tracking/
+redirect: /deep-linked-ads/branch-universal-ads-mobile-tracking/

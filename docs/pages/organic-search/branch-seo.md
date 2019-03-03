@@ -1,10 +1,10 @@
 ## Overview
 
-Branch has invested a lot of time and effort to ensure that we only help with SEO and search rankings while delivering our value. We've very thoughtfully designed how we treat Google and other search engine bots that crawl links to ensure that SEO juice is properly passed on to your website domain and not ours. 
+Branch has invested a lot of time and effort to ensure that we only help with SEO and search rankings while delivering our value. We've very thoughtfully designed how we treat Google and other search engine bots that crawl links to ensure that SEO juice is properly passed on to your website domain and not ours.
 
 ## Branch redirects don't affect SEO / rankings
 
-Commonly, you'll want to put Branch links on social and other public platforms to get the benefit of Branch's deep linking and attribution. You might configure your Branch link to send your users to the website when the app is not installed by using `$fallback_url` or one of the platform fallbacks like `$desktop_url` or `$ios_url`. 
+Commonly, you'll want to put Branch links on social and other public platforms to get the benefit of Branch's deep linking and attribution. You might configure your Branch link to send your users to the website when the app is not installed by using `$fallback_url` or one of the platform fallbacks like `$desktop_url` or `$ios_url`.
 
 There's no need to worry about SEO in this case. Branch uses HTTP 307 redirects to fallback to your website when the app is not installed and a Google representative has [commented publicly](http://searchengineland.com/google-no-pagerank-dilution-using-301-302-30x-redirects-anymore-254608) that these do not harm SEO or rankings.
 
@@ -39,6 +39,6 @@ This can be set via the native libaries while using the BUO as shown below. For 
 
 ## Journeys banners and other web integrations
 
-The other common concern is around Branch's web products such as [Journeys banners](/pages/web/journeys/) or the [web library](/pages/web/integrate/). After deploying your banners to the wild, you can check your Branch-integrated site using Google's [Page Speed analyzer](https://developers.google.com/speed/pagespeed/). You'll be pleased to know that Branch is fully optimized.
+The other common concern is around Branch's web products such as [Journeys banners](/web/journeys/) or the [web library](/web/integrate/). After deploying your banners to the wild, you can check your Branch-integrated site using Google's [Page Speed analyzer](https://developers.google.com/speed/pagespeed/). You'll be pleased to know that Branch is fully optimized.
 
 You'll find that all assets such as images, text and image are compressed and optimized for page loads speed. Plus, our static assets are cached in our CDN to deliver fast load times globally. We won't be a hindrance to your site performance.

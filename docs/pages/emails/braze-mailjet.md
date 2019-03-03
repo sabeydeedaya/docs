@@ -14,7 +14,7 @@ This guide will walk you through how to setup your email campaigns with **[Braze
 
 ### Setup a custom click tracking domain
 
-Contact your **Braze Account Manager** and request the Custom Click Tracking Domain associated with your MailJet account. Here is guide to configure MailJet account [documentation](/pages/emails/mailjet/#configure-your-esp/){:target="\_blank"}.
+Contact your **Braze Account Manager** and request the Custom Click Tracking Domain associated with your MailJet account. Here is guide to configure MailJet account [documentation](/emails/mailjet/#configure-your-esp/){:target="\_blank"}.
 
 !!! tip "Adding a custom click-tracking domain"
     If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Braze.

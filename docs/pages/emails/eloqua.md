@@ -1,1 +1,1 @@
-redirect: /pages/emails/oracle-eloqua/
+redirect: /emails/oracle-eloqua/

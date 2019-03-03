@@ -1,8 +1,8 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview/)
-		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable/)
-		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac/)
-		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
+		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
+		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
+		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
 		- **Troubleshooting & FAQs** (this page)
 
 ## What is Parallel Tracking?
@@ -78,7 +78,7 @@ Finally, Google Ads can delay reporting up to 24 hours. It's best to measure cam
 
 #### Post-install events are attributed to Google Ads in the Branch dashboard but are not appearing in Google Ads
 
-**A:** Ensure that, in the [Google Ads dashboard, you have imported all Branch events](/pages/deep-linked-ads/google-ads-overview/#import-events-in-adwords) that you want to see in Google Ads.
+**A:** Ensure that, in the [Google Ads dashboard, you have imported all Branch events](/deep-linked-ads/google-ads-overview/#import-events-in-adwords) that you want to see in Google Ads.
 
 #### My UAC data looks misaligned when I compare by certain filters
 
@@ -86,7 +86,7 @@ Finally, Google Ads can delay reporting up to 24 hours. It's best to measure cam
 
 #### My click data is missing or duplicated for my web campaign
 
-**A:** Click data for web campaigns is available with full breakdowns, but there are specific requirements for setting up web campaigns. Please see the [SAN Web Tracking](/pages/deep-linked-ads/san-web-tracking) guide for more information on setting up web campaigns.
+**A:** Click data for web campaigns is available with full breakdowns, but there are specific requirements for setting up web campaigns. Please see the [SAN Web Tracking](/deep-linked-ads/san-web-tracking) guide for more information on setting up web campaigns.
 
 #### My campaign is reporting a number of conversions much higher than the number of conversions shown in the conversion table in Google Ads
 

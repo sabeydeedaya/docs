@@ -1,7 +1,7 @@
 
 - ### Branch 설정
 
-    - [Configure your dashboard](/pages/dashboard/integrate/) 내에서 Basic Integration 을 완료합니다.
+    - [Configure your dashboard](/dashboard/integrate/) 내에서 Basic Integration 을 완료합니다.
 
     - `Always try to open app` 와 `I have an Android App` 이 활성화되도록 합니다.
 
@@ -308,7 +308,7 @@
 
     - `Branch Universal Object` 는 공유하고자는 컨텐츠를 포장할 수 있습니다.
 
-    - [Universal Object Properties](#/pages/links/integrate/#universal-object) 를 사용합니다.
+    - [Universal Object Properties](#/links/integrate/#universal-object) 를 사용합니다.
 
     - *Java*
 
@@ -342,7 +342,7 @@
 
     - [Branch Universal Object](#create-content-reference) 가 필요합니다.
 
-    - [Deep Link Properties](/pages/links/integrate/) 를 사용합니다. (딥링크에 추가될 데이터)
+    - [Deep Link Properties](/links/integrate/) 를 사용합니다. (딥링크에 추가될 데이터)
 
     - [Branch Dashboard](https://dashboard.branch.io/liveview/links) 와 검증합니다.
 
@@ -393,7 +393,7 @@
 
     - [Branch Universal Object](#create-content-reference) 가 필요합니다.
 
-    - [Deep Link Properties](/pages/links/integrate/) 를 사용합니다.
+    - [Deep Link Properties](/links/integrate/) 를 사용합니다.
 
     - *Java*
 
@@ -469,7 +469,7 @@
 
     - `Listener` 로부터 데이터를 전달 받을 때의 Best Practice 는 Race Condition 을 피하는 것입니다.
 
-    - [Deep link properties](/pages/links/integrate/#read-deep-links) 를 반환합니다.
+    - [Deep link properties](/links/integrate/#read-deep-links) 를 반환합니다.
 
     - *Java*
 
@@ -681,7 +681,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Credits 보상
 

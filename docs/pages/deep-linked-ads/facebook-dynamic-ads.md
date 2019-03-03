@@ -1,7 +1,7 @@
 ---
 title: Facebook Dynamic Ads
 description: An overview page of using Branch in Facebook Dynamic Ad campaigns.
-path: tree/master/src/pages/deep-linked-ads
+path: tree/master/src/deep-linked-ads
 source: facebook-dynamic-ads.md
 ---
 # Facebook Dynamic Ads
@@ -27,10 +27,10 @@ Product Catalogue Sales | ✔︎ |  | ✔︎ |  |  |  |
 {! ingredients/deep-linked-ads/link-to-facebook-ads-overview.md !}
 
 !!! warning "Prerequisites"
-	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/pages/apps/ios/#integrate-branch) into your app.
-	* [x] To use Branch links in Facebook App Install Ads ensure you have Universal Links set up on iOS or App Links enabled on Android to ensure correct routing behavior. For setup, checkout [Universal](/pages/deep-linking/universal-links/) and [App Links](/pages/deep-linking/android-app-links/).
-	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/pages/deep-linking/routing/).
-	* [x] Use [Branch Deep Linked Feeds](/pages/deep-linked-ads/dynamic-product-feeds/) to create your Facebook Dynamic Ad compatible deep links.
+	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app.
+	* [x] To use Branch links in Facebook App Install Ads ensure you have Universal Links set up on iOS or App Links enabled on Android to ensure correct routing behavior. For setup, checkout [Universal](/deep-linking/universal-links/) and [App Links](/deep-linking/android-app-links/).
+	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/deep-linking/routing/).
+	* [x] Use [Branch Deep Linked Feeds](/deep-linked-ads/dynamic-product-feeds/) to create your Facebook Dynamic Ad compatible deep links.
 	* [x] Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
 
 {! ingredients/deep-linked-ads/enable-facebook-ad-partner.md !}
@@ -82,7 +82,7 @@ To set up a Facebook Product Catalogue campaign, you will need to first create y
 
 Facebook requires you to report events about your users interacting with your content, for example: viewing, adding to cart, and purchasing. To add the Facebook Pixel to your website, and event tracking using the Branch SDK (which forwards to Facebook) to your app, follow these instructions:
 
-- [Sending App Events with the Branch SDK](/pages/deep-linked-ads/facebook-ads-faq/#tracking-other-conversion-events)
+- [Sending App Events with the Branch SDK](/deep-linked-ads/facebook-ads-faq/#tracking-other-conversion-events)
 - [Sending Web Events with the Facebook Pixel](https://developers.facebook.com/docs/marketing-api/facebook-pixel/v2.8){:target="_blank"}
 
 Use the "Product events" tab in your Product Catalog view to ensure that Facebook is registering the events against your Product Catalog items correctly.

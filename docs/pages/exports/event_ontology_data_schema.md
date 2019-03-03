@@ -2,13 +2,13 @@
 
 ## Overview
 
-[People-Based Attribution](/pages/dashboard/people-based-attribution/) relies on a new, unified data format. We refer to this as Branch's Event Ontology.  This unified format is shared across all Branch products:
+[People-Based Attribution](/dashboard/people-based-attribution/) relies on a new, unified data format. We refer to this as Branch's Event Ontology.  This unified format is shared across all Branch products:
 
 - Dashboard
-- [Data Feeds](/pages/exports/data-feeds/):
-    - [Webhooks](/pages/exports/ua-webhooks/)
-    - [Data Integrations](/pages/integrations/data-integrations/)
-    - [Data Export API](/pages/exports/api-v3/)
+- [Data Feeds](/exports/data-feeds/):
+    - [Webhooks](/exports/ua-webhooks/)
+    - [Data Integrations](/integrations/data-integrations/)
+    - [Data Export API](/exports/api-v3/)
 
 Previously, we had different formats for Webhooks vs Data Integrations vs Exports. With the release of People-Based Attribution, we have reconciled these differences.
 
@@ -34,9 +34,9 @@ We split out events into logical groupings. We now have the following distinct e
 
 The last four are groupings of multiple events.
 
-- **Custom events** are any events you choose to track with Branch that fall outside our list of standard events. 
-- **Commerce events** include a short list of events such as PURCHASE that involve e-commerce. 
--  **Content events** include a short list of events such as VIEW_ITEM that involve content and are not directly related to e-commerce. 
+- **Custom events** are any events you choose to track with Branch that fall outside our list of standard events.
+- **Commerce events** include a short list of events such as PURCHASE that involve e-commerce.
+-  **Content events** include a short list of events such as VIEW_ITEM that involve content and are not directly related to e-commerce.
 -  **User lifecycle events** are events marking a distinct action completed by a user as they progress through your app, such as COMPLETE_REGISTRATION.
 
 ### Branch Standard Events
@@ -74,6 +74,6 @@ On each event, we provide a considerable amount of information. The following ta
 
 ## Full list of fields
 
-If you are building an integration with Branch or simply wish to learn more about the fields we offer, please download one of the CSV files below. They provide a comprehensive list of events and fields, along with definitions and data types. 
+If you are building an integration with Branch or simply wish to learn more about the fields we offer, please download one of the CSV files below. They provide a comprehensive list of events and fields, along with definitions and data types.
 
 [Full Event Ontology for Webhooks, Data Integrations and Exports](webhook_export_di_export.csv)

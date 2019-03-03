@@ -9,7 +9,7 @@ This article covers the generic setup & troubleshooting steps for Facebook & Goo
 !!! info
 	This article is about tracking web campaigns with Self-Attributing Networks (SANs), particularly Google and Facebook. "Web" campaigns means ads that serve on either mobile web or app inventory but direct to a website rather than an app.
 
-	For tracking app campaigns, please see the relevant documentation for [Google](/pages/deep-linked-ads/google-ads-overview/#other-campaigns) and [Facebook](/pages/deep-linked-ads/facebook-ads-overview/).
+	For tracking app campaigns, please see the relevant documentation for [Google](/deep-linked-ads/google-ads-overview/#other-campaigns) and [Facebook](/deep-linked-ads/facebook-ads-overview/).
 
 	For non-SAN web campaigns (for example, affiliate web tracking), please find the relevant partner's documentation in the Branch docs sidebar.
 
@@ -17,11 +17,11 @@ This article covers the generic setup & troubleshooting steps for Facebook & Goo
 
 ### Integrate the Web SDK
 
-First, you'll want to ensure you are capturing web conversions by [integrating the Branch Web SDK](/pages/web/integrate/#overview) and the [relevant conversion events for web](/pages/web/integrate/#track-commerce). When the SDK is integrated, important metrics such as *web session starts* are automatically captured, and you should add additional conversion events as noted above.
+First, you'll want to ensure you are capturing web conversions by [integrating the Branch Web SDK](/web/integrate/#overview) and the [relevant conversion events for web](/web/integrate/#track-commerce). When the SDK is integrated, important metrics such as *web session starts* are automatically captured, and you should add additional conversion events as noted above.
 
 ### Creating links
 
-1. Navigate to the relevant partner (e.g. Google) to [create an ad link](/pages/deep-linked-ads/google-xplatform-search-ads/#standard-search-ads).
+1. Navigate to the relevant partner (e.g. Google) to [create an ad link](/deep-linked-ads/google-xplatform-search-ads/#standard-search-ads).
 1. Ensure all the redirects are set to *websites* to avoid any policy violations.
 1. **IMPORTANT**. Ensure that the link has the following properties:
     1. **All desired analytics tags**. If you don't add analytics tags, you won't see clicks alongside downstream conversion events in the Branch dashboard later. At a minimum you will want to set the *Campaign* (*~campaign* as query parameter or link data), but if you want to filter by other analytics tags, please add those.

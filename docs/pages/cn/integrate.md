@@ -13,7 +13,7 @@
 
 	- 在[链接设置]https://dashboard.branch.io/link-settings)中设置深度链接的默认行为
 
-	- 这些数值会被每个深度链的[自定义链接行为](/pages/links/integrate/#custom-link-behavior)所覆盖
+	- 这些数值会被每个深度链的[自定义链接行为](/links/integrate/#custom-link-behavior)所覆盖
 
 	- #### iOS
 
@@ -71,7 +71,7 @@
 
 	- #### 社交媒体
 		- 在社交媒体上分享时，为深度链设置默认图像预览
-		- 这些值通常由[自定义链接行为](/pages/links/integrate/#custom-link-behavior)覆盖，用于区分不同的深度链
+		- 这些值通常由[自定义链接行为](/links/integrate/#custom-link-behavior)覆盖，用于区分不同的深度链
 
 			![image](/_assets/img/pages/dashboard/social-media.png)
 
@@ -84,8 +84,8 @@
 
 	- 转到 Branch 控制面板上的 [Deepview 预览](https://dashboard.branch.io/web/deepviews)
 	- 为 `iOS` 和 `Android` 的 `branch_default` 启用切换功能
-	- 这将使您的深度链在所有[受支持的平台](/pages/links/integrate/#expected-redirect-behavior)上以最佳方式执行
-	- 有关 [Deepview](/pages/web/deep-views/) 的更多详情
+	- 这将使您的深度链在所有[受支持的平台](/links/integrate/#expected-redirect-behavior)上以最佳方式执行
+	- 有关 [Deepview](/web/deep-views/) 的更多详情
 
 		![image](/_assets/img/pages/dashboard/deepview.png)
 
@@ -103,7 +103,7 @@
 - ### 配置团队
 	- 点击 Branch 控制面板上的[账户配置](https://dashboard.branch.io/account-settings/user)
 	- 将团队成员添加并更新到 Branch 控制面板
-		- 设置用户的[控制面板权限](/pages/dashboard/access-level)
+		- 设置用户的[控制面板权限](/dashboard/access-level)
 
 - ### 更改高级设置
 	- 转到 Branch 控制面板上的[链接设置](https://dashboard.branch.io/link-settings)

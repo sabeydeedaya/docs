@@ -1,1 +1,1 @@
-redirect: /pages/dashboard/people-based-attribution/
+redirect: /dashboard/people-based-attribution/

@@ -1,6 +1,6 @@
 ## Integrate Branch
 
-This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/pages/integrations/mparticle).
+This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/integrations/mparticle).
 
 !!! warning "These instructions apply to any integration below mParticle SDK version 5"
     mParticle introduced a new attribution & deep linking API in v5 of their SDK (http://docs.mparticle.com/developers/sdk/android/getting-started/#upgrade-to-version-5-of-the-sdk), so please contact your Branch or mParticle Account Managers for more details, if you have mParticle SDK v5+ installed in your app.
@@ -241,7 +241,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
         ```java
         @Override
@@ -442,7 +442,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 

@@ -1,7 +1,7 @@
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
-    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 - ### Configure Branch
 
@@ -131,7 +131,7 @@
           import { Platform } from 'ionic-angular';
           import { StatusBar, Splashscreen } from 'ionic-native';
 
-          import { TabsPage } from '../pages/tabs/tabs
+          import { TabsPage } from '../tabs/tabs
 
           @Component({
             template: `<ion-nav [root]="rootPage"></ion-nav>`
@@ -220,7 +220,7 @@
 
     - The `Branch Universal Object` encapsulates the thing you want to share (content or user)
 
-    - Uses the [Universal Object Properties](#/pages/links/integrate/#universal-object)
+    - Uses the [Universal Object Properties](#/links/integrate/#universal-object)
 
         ```js
         // only canonicalIdentifier is required
@@ -256,7 +256,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
@@ -295,7 +295,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
         ```js
         // optional fields
@@ -343,7 +343,7 @@
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - Listener
 
@@ -557,7 +557,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 
@@ -611,7 +611,7 @@
 
 - ### Append metadata to Branch network call
 
-    - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
+    - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/integrations/data-integrations/)
 
     - Add before `Branch.initSession();` ([Initialize Branch Features](#initialize-branch-features))
 

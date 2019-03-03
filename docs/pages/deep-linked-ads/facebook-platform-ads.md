@@ -1,7 +1,7 @@
 ---
 title: Facebook Platform Ads
 description: An overview page of using Branch in your Facebook Platform Ad campaigns.
-path: tree/master/src/pages/deep-linked-ads
+path: tree/master/src/deep-linked-ads
 source: facebook-platform-ads.md
 ---
 # Facebook Platform Ads
@@ -35,9 +35,9 @@ Lead Generation | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  |
 ## Setup
 
 !!! warning "Prerequisites"
-	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/pages/apps/ios/#integrate-branch) into your app.
-	* [x] To use Branch links in Facebook App Install Ads ensure you have Universal Links set up on iOS or App Links enabled on Android to ensure correct routing behavior. For setup, checkout [Universal](/pages/deep-linking/universal-links/) and [App Links](/pages/deep-linking/android-app-links/).
-	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/pages/deep-linking/routing/).
+	* [x] To track installs from Facebook Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app.
+	* [x] To use Branch links in Facebook App Install Ads ensure you have Universal Links set up on iOS or App Links enabled on Android to ensure correct routing behavior. For setup, checkout [Universal](/deep-linking/universal-links/) and [App Links](/deep-linking/android-app-links/).
+	* [x] If you want to deep link from your ads directly to content, you should [configure deep link routing](/deep-linking/routing/).
 	* [x] Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
 
 {! ingredients/deep-linked-ads/enable-facebook-ad-partner.md !}
@@ -55,10 +55,10 @@ Lead Generation | ✔︎ | ✔︎ | ✔︎ | ✔︎ |  |  |
 ![Analytics Tags](/_assets/img/pages/deep-linked-ads/reusable-images/facebook-analytics-tags.png)
 
 !!! warning ""
-	In order for your campaign to run effectively, be sure to disable Deepviews. You can either [disable Deepviews](/pages/web/deep-views/) for your entire account or [disable Deepviews for one link](/pages/web/deep-views/).
+	In order for your campaign to run effectively, be sure to disable Deepviews. You can either [disable Deepviews](/web/deep-views/) for your entire account or [disable Deepviews for one link](/web/deep-views/).
 
 !!! note "Optional: Deep Link Data"
-	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
+	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/deep-linking/routing/) page to learn more.
 
 ### Brand Awareness Campaign Setup
 

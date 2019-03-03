@@ -18,20 +18,20 @@ Branch SDK를 사용하면 설치 및 기타 이벤트를 추적할 수 있습�
 
 ### Facebook 광고에 딥링크를 사용하려면 어떻게 해야 하나요?
 
-딥링크는 간편하게 만들 수 있습니다. 먼저 Branch 대시보드에서 [Facebook MMP 통합을 설정했는지 확인](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) 하고, []파트너 관리 섹션에서 Facebook 페이지](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings) 로 이동한 다음 'Facebook 링크 만들기'를 클릭하세요.
+딥링크는 간편하게 만들 수 있습니다. 먼저 Branch 대시보드에서 [Facebook MMP 통합을 설정했는지 확인](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) 하고, []파트너 관리 섹션에서 Facebook 페이지](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings) 로 이동한 다음 'Facebook 링크 만들기'를 클릭하세요.
 
-[Facebook 개요] (/pages/deep-linked-ads/facebook-ads-overview/) 페이지를 통해 연결된 가이드에서 자세한 지침을 확인하실 수 있습니다. 예를 들어, [앱 설치 가이드의 이 섹션](/pages/deep-linked-ads/facebook-app-install-ads/#create-an-ad-link)을 참조하세요.
+[Facebook 개요] (/deep-linked-ads/facebook-ads-overview/) 페이지를 통해 연결된 가이드에서 자세한 지침을 확인하실 수 있습니다. 예를 들어, [앱 설치 가이드의 이 섹션](/deep-linked-ads/facebook-app-install-ads/#create-an-ad-link)을 참조하세요.
 
 ### 컨버젼 이벤트에 대한 Facebook 광고의 기여도를 측정하려면 어떻게 해야 하나요?
 
-먼저 Branch 대시보드에서 [Facebook MMP 통합](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) 을 설정했는지 확인하고 [표준 이벤트 추적을 설정](/pages/apps/v2event/#v2-event)하세요. 이벤트에 대한 Facebook 광고의 기여도를 자동으로 손쉽게 측정할 수 있습니다.
+먼저 Branch 대시보드에서 [Facebook MMP 통합](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) 을 설정했는지 확인하고 [표준 이벤트 추적을 설정](/apps/v2event/#v2-event)하세요. 이벤트에 대한 Facebook 광고의 기여도를 자동으로 손쉽게 측정할 수 있습니다.
 
 *Facebook은 40자를 초과하거나 하이픈으로 시작하는 맞춤 이벤트 이름을 허용하지 않으며 문자, 숫자, 하이픈, 공백 및 밑줄만 사용하도록 합니다.*.  Branch는 자동으로 40자를 초과하는 이벤트 이름을 조정하며, 이벤트가 승인 절차를 통과할 수 있도록 이름을 수정할 수 있습니다. 아래 예시를 확인해 보세요.
 
 - **입력한 이벤트 이름**: This & Is & A * Bad Event That's So SO SOOOOOO Long
 - **Branch에서 수정한 이름**: This _ Is _ A _ Bad Event That_s So SO S
 
-이벤트 트래킹 관련 고급 옵션은 [아래](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options)에서 자세히 확인하실 수 있습니다.
+이벤트 트래킹 관련 고급 옵션은 [아래](/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options)에서 자세히 확인하실 수 있습니다.
 
 ### 온보딩 과정의 일환으로 요청하는 권한과 그 이유
 
@@ -67,7 +67,7 @@ Branch는 노출에서 설치까지 최대 24시간 동안 설치에 대한 기�
 
 ### 이전 Facebook 연동에서 신규 Facebook 연동으로 업그레이드하려면?
 
-방법은 간단합니다. [광고 관리 포털의 Facebook 섹션](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings)으로 이동하세요. 'Facebook과 연결'을 선택하고 안내에 따라 [Facebook MMP와의 연동을 설정](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)할 수 있습니다.
+방법은 간단합니다. [광고 관리 포털의 Facebook 섹션](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings)으로 이동하세요. 'Facebook과 연결'을 선택하고 안내에 따라 [Facebook MMP와의 연동을 설정](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)할 수 있습니다.
 
 이 연결 절차를 완료하면 MMP 기능을 모두 사용하실 수 있도록 업그레이드해 드립니다. 이제 설치 및 기타 분석에 Facebook의 캠페인, 광고 세트, 광고 및 크리에이티브 관련 데이터를 활용할 수 있습니다.
 
@@ -75,7 +75,7 @@ Branch는 노출에서 설치까지 최대 24시간 동안 설치에 대한 기�
 
 [광고 관리 포털의 Facebook 섹션](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings)으로 이동하면 'Facebook과 연결' 메시지만 표시됩니다. 어떻게 해야 하나요?
 
-기존의 Facebook 설정 과정은 표시되지 않도록 처리했습니다. 'Facebook과 연결'을 선택하고 안내에 따라 [Facebook MMP와의 연동을 설정](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)하세요.
+기존의 Facebook 설정 과정은 표시되지 않도록 처리했습니다. 'Facebook과 연결'을 선택하고 안내에 따라 [Facebook MMP와의 연동을 설정](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)하세요.
 
 이전에 사용된 연동 계정 절차는 더 이상 지원되지 않습니다. 기존의 연결 절차를 이용해야 하는 경우 제목에 'Facebook MMP + 기존 연결 절차'를 기재하여 [문의]https://support.branch.io/support/tickets/new){:target="\_blank"}해 주세요.
 
@@ -100,21 +100,21 @@ Branch 링크를 Facebook 광고에 삽입하면 해당 링크가 앱에 반환�
 
 Facebook 관련 데이터에 액세스하는 방법은 다양합니다.
 
-[쿼리 API](/pages/exports/query-api)뿐 아니라 [Branch 대시보드](https://dashboard.branch.io){:target="\_blank"}의 여러 페이지에서 노출, 클릭, 설치, 실행 및 전환 이벤트에 대한 분석 데이터를 확인할 수 있습니다.
+[쿼리 API](/exports/query-api)뿐 아니라 [Branch 대시보드](https://dashboard.branch.io){:target="\_blank"}의 여러 페이지에서 노출, 클릭, 설치, 실행 및 전환 이벤트에 대한 분석 데이터를 확인할 수 있습니다.
 
-Facebook의 ['고급 모바일 측정' 계약서('고급 모바일 앱 측정에 대한 데이터 이용 약관')](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"})에 서명한 경우 [Webhook](/pages/exports/ua-webhooks/), [Data Export API](/pages/exports/api-v3/) 및 [CSV Export](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}를 통해 기기 수준의 데이터를 가져올 수 있습니다. 이 계약서에 서명하지 않았다면, Webhook, Data Export API 및 CSV Export를 통해 액세스한 경우 Facebook 광고를 통해 발생한 모든 이벤트는 오가닉 이벤트로 표시됩니다.
+Facebook의 ['고급 모바일 측정' 계약서('고급 모바일 앱 측정에 대한 데이터 이용 약관')](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"})에 서명한 경우 [Webhook](/exports/ua-webhooks/), [Data Export API](/exports/api-v3/) 및 [CSV Export](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}를 통해 기기 수준의 데이터를 가져올 수 있습니다. 이 계약서에 서명하지 않았다면, Webhook, Data Export API 및 CSV Export를 통해 액세스한 경우 Facebook 광고를 통해 발생한 모든 이벤트는 오가닉 이벤트로 표시됩니다.
 
 Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파티에 전송할 수 없으므로, Facebook을 통해 발생한 이벤트를 데이터 통합을 사용하여 보낼 수 없습니다. 대신, 해당 데이터에 대해 사내 분석(웹훅, 데이터 내보내기 API 또는 CSV 내보내기 사용)을 실시하거나 모든 분석 및 어트리뷰션 요구 사항을 충족할 수 있도록 Branch 대시보드를 사용해 보시기 바랍니다. Branch 대시보드로 해결되지 않는 분석 요구 사항이 있는 경우 제목에 'Facebook MMP + 기능 요청'을 기재하여 [문의](https://support.branch.io/support/tickets/new){:target="\_blank"}해 주세요.
 
 | **Branch feature** | **Facebook data included** |
 | - | - |
 | [대시보드 시각화](https://dashboard.branch.io/){:target="\_blank"} | 사전 집계된 분석 |
-| [쿼리 API](/pages/exports/query-api/) | 사전 집계된 분석 |
+| [쿼리 API](/exports/query-api/) | 사전 집계된 분석 |
 | [라이브뷰](https://dashboard.branch.io/liveview){:target="\_blank"} | 디바이스 레벨 데이터 분석 * |
-| [Data Export API](/pages/exports/api-v3/) | 디바이스 레벨 데이터 분석 * |
+| [Data Export API](/exports/api-v3/) | 디바이스 레벨 데이터 분석 * |
 | [CSV Exports](https://branch.dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"} | 디바이스 레벨 데이터 분석 * |
-| [Webhooks](/pages/exports/ua-webhooks/) | 디바이스 레벨 데이터 분석 * |
-| [데이터 통합](/pages/integrations/data-integrations/) | 지원되지 않음 |
+| [Webhooks](/exports/ua-webhooks/) | 디바이스 레벨 데이터 분석 * |
+| [데이터 통합](/integrations/data-integrations/) | 지원되지 않음 |
 
 (`*`) Facebook의 ['고급 모바일 측정' 계약서('고급 모바일 앱 측정에 대한 데이터 이용 약관')](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"} 에 서명해야 이 데이터를 확인할 수 있습니다.
 
@@ -124,7 +124,7 @@ Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파�
 
 ### Facebook 데이터와 Branch 데이터가 일치하지 않는 경우
 
-아래에서 [Facebook과 Branch 데이터 간의 불일치 원인](/pages/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch) 섹션을 참조하시기 바랍니다.
+아래에서 [Facebook과 Branch 데이터 간의 불일치 원인](/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch) 섹션을 참조하시기 바랍니다.
 
 ## Facebook 광고 고급 옵션
 
@@ -133,7 +133,7 @@ Branch는 디바이스 레의 Facebook 어트리뷰션 데이터를 서드 파�
 !!! info "팁"
 	아래의 옵션을 Branch 대시보드에서 보려면 [여기를 클릭](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=events){:target="\_blank"}하세요.
 
-Branch와 Facebook MMP를 사용하면 이벤트가 Facebook 광고 캠페인을 통해 발생하는지 측정할 수 있습니다. Branch가 Facebook에 광고 ID를 포함한 메타데이터와 이벤트를 보내면, Facebook은 사용자가 마지막으로 보거나 클릭한 광고에 대한 데이터를 반환합니다. 그런 다음 Branch 대시보드에 이 데이터가 표시되며, 조건에 따라* 이 데이터를 Branch의 [데이터 피드](/pages/exports/data-feeds/) 상품에서 사용할 수 있습니다.
+Branch와 Facebook MMP를 사용하면 이벤트가 Facebook 광고 캠페인을 통해 발생하는지 측정할 수 있습니다. Branch가 Facebook에 광고 ID를 포함한 메타데이터와 이벤트를 보내면, Facebook은 사용자가 마지막으로 보거나 클릭한 광고에 대한 데이터를 반환합니다. 그런 다음 Branch 대시보드에 이 데이터가 표시되며, 조건에 따라* 이 데이터를 Branch의 [데이터 피드](/exports/data-feeds/) 상품에서 사용할 수 있습니다.
 
 파트너는 Facebook에 이벤트를 보낼 때 아래와 같이 여러 옵션을 사용합니다.
 
@@ -159,7 +159,7 @@ Branch가 모든 인스톨 데이터를 Facebook으로 보내면, Facebook은 �
 !!! warning "경고"
 	Facebook은 백엔드에서 중복되는 커스텀 앱 이벤트를 제거하지 않습니다. 따라서 Facebook SDK가 통합되어 있거나 다른 MMP 추적 앱이 열려 있는 경우 아래의 옵션 1을 선택하시기 바랍니다.
 
-Branch만으로도 [앱 이벤트를 추적](/pages/apps/v2event/#v2-event)할 수 있습니다. Branch를 통해 한 번 추적하면 Branch에서 해당 이벤트를 Facebook과 기타 분석 시스템으로 전송합니다. 여기에 간략히 나와 있는 [v2/이벤트 로깅 방법](/pages/apps/v2event/#v2-event)을 사용하시기 바랍니다.
+Branch만으로도 [앱 이벤트를 추적](/apps/v2event/#v2-event)할 수 있습니다. Branch를 통해 한 번 추적하면 Branch에서 해당 이벤트를 Facebook과 기타 분석 시스템으로 전송합니다. 여기에 간략히 나와 있는 [v2/이벤트 로깅 방법](/apps/v2event/#v2-event)을 사용하시기 바랍니다.
 
 장바구니에 추가, 구매 및 기타 Facebook 앱 이벤트를 추적할 경우 다음과 같은 3가지 옵션을 사용할 수 있습니다.
 
@@ -225,7 +225,7 @@ Branch는 현재 Facebook 공인 모바일 측정 파트너입니다. 이전보�
 
 이 통합에는 Facebook, Instagram 및 Audience Network에 대한 모든 지원이 포함됩니다. Branch는 Facebook에서 자동으로 노출 및 클릭 데이터를 가져와 Branch 링크에 대한 클릭 데이터와 함께 보여줍니다. 사용자들의 만족도가 높은 딥링킹은 계속해서 지원됩니다.
 
-Facebook MMP를 설정하는 방법은 [여기](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)에서 확인하세요. 이렇게 하면 백엔드에서 기존 자격 증명이 대체됩니다. Branch 대시보드에 Facebook 앱 비밀번호를 복사하여 붙여넣는 대신, 클릭만으로 손쉽게 일반 Facebook 로그인 절차를 따를 수 있습니다.
+Facebook MMP를 설정하는 방법은 [여기](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)에서 확인하세요. 이렇게 하면 백엔드에서 기존 자격 증명이 대체됩니다. Branch 대시보드에 Facebook 앱 비밀번호를 복사하여 붙여넣는 대신, 클릭만으로 손쉽게 일반 Facebook 로그인 절차를 따를 수 있습니다.
 
 Branch는 Branch 대시보드 시각화를 통해 Facebook 캠페인, 광고 세트 및 광고 데이터를 자동으로 보여줍니다. 대시보드에서 [광고 분석]https://dashboard.branch.io/ads/analytics){:target="\_blank"}뿐 아니라 [출처 분석](https://dashboard.branch.io/sources){:target="\_blank"}과 같은 크로스 채널 분석에 대한 시각적인 데이터도 확인할 수 있습니다.
 
@@ -241,7 +241,7 @@ Facebook 및 Branch 대시보드상에서 서로 다른 수치가 발견되는 �
 
 어트리뷰션 윈도우는 초기 액션(클릭 또는 노출)과 이러한 초기 액션을 통해 발생한 것으로 파악한 전환 이벤트(설치 또는 실행) 사이의 최대 시간입니다.
 
-3일의 조회 어트리뷰션 윈도우를 예시로 들어보겠습니다. 사용자가 광고를 보고 2일 후에 앱을 설치하면 해당 설치는 광고 조회를 통해 발생한 것으로 간주합니다. 하지만 사용자가 광고를 보고 4일 후에 앱을 설치하면 해당 설치는 오가닉 설치로 간주되며, 광고 조회를 통해 발생한 것으로 간주하지 않습니다. 자세한 내용은 [여기](/pages/dashboard/unified-analytics/#attribution-windows)를 참조하세요.
+3일의 조회 어트리뷰션 윈도우를 예시로 들어보겠습니다. 사용자가 광고를 보고 2일 후에 앱을 설치하면 해당 설치는 광고 조회를 통해 발생한 것으로 간주합니다. 하지만 사용자가 광고를 보고 4일 후에 앱을 설치하면 해당 설치는 오가닉 설치로 간주되며, 광고 조회를 통해 발생한 것으로 간주하지 않습니다. 자세한 내용은 [여기](/dashboard/unified-analytics/#attribution-windows)를 참조하세요.
 
 Branch 대시보드의 어트리뷰션 윈도우 중 하나가 Facebook 대시보드의 해당 윈도우와 다른 경우 대시보드 간 데이터가 일치하지 않습니다. Branch 대시보드에서 어트리뷰션 기간을 변경하거나 특정 광고 계정에 대한 Facebook 대시보드를 변경하여 데이터 간의 차이를 줄일 수 있습니다.
 
@@ -303,8 +303,8 @@ Apple은 iOS 10에서 사용자가 앱 추적 제한 옵션을 사용할 경우 
 
 연동 과정에서 데이터가 전혀 표시되지 않을 경우 Android에서 Google 광고 ID(GAID)를 수집하지 않았거나 iOS에서 IDFA를 수집하지 않았을 가능성이 있습니다.
 
-- iOS: AdSupport.framework를 추가하고 스토어에 대한 [제출]/pages/apps/ios-launch/)과 관련된 추가 정보를 확인합니다.
-- Android: GAID를 수집할 수 있도록 Google Play 서비스를 추가합니다. [여기](/pages/apps/android-launch/)를 참조하세요.
+- iOS: AdSupport.framework를 추가하고 스토어에 대한 [제출]/apps/ios-launch/)과 관련된 추가 정보를 확인합니다.
+- Android: GAID를 수집할 수 있도록 Google Play 서비스를 추가합니다. [여기](/apps/android-launch/)를 참조하세요.
 
 ##### 딥링크에 대한 Facebook 캠페인의 기여도 측정
 
@@ -318,20 +318,20 @@ Branch에서 이전에 발견한 불일치의 근본 원인은 Branch가 설치�
 
 ##### setDebug를 사용할 수 없음
 
-[디버그 모드](/pages/apps/ios/#simulate-an-install)는 Facebook에 올바른 하드웨어 ID를 전송하지 못하게 하므로, Facebook 광고는 디버그 모드와 호환되지 않습니다.
+[디버그 모드](/apps/ios/#simulate-an-install)는 Facebook에 올바른 하드웨어 ID를 전송하지 못하게 하므로, Facebook 광고는 디버그 모드와 호환되지 않습니다.
 
 ##### 캠페인, 광고 세트 및 광고 이름 변경
 
 Facebook 대시보드에서 캠페인, 광고 세트, 광고 또는 크리에이티브의 이름을 변경할 경우 Branch와 Facebook 데이터 사이에 불일치가 발생할 수 있습니다. 예를 들어 캠페인 이름을 변경할 경우 Branch는 신규 캠페인 이름을 사용하여 거의 모든 신규 설치(및 기타 이벤트)를 거의 즉시 추적합니다. 하지만 기존 이벤트를 신규 캠페인 이름으로 재분류하지는 않습니다.
 
-하지만 Branch에서는 데이터를 적절하게 처리하고 있습니다. 2018년 초부터 대시보드에 게시하지는 않지만, 캠페인 ID, 광고 세트 ID, 광고 ID 및 크리에이티브 ID를 기반으로도 데이터를 추적합니다. 해당 항목은 이름을 변경해도 변경되지 않습니다. Branch의 [데이터 피드](/pages/exports/data-feeds/) 상품을 사용하여 여기에 포함된 데이터를 확인할 수 있습니다.
+하지만 Branch에서는 데이터를 적절하게 처리하고 있습니다. 2018년 초부터 대시보드에 게시하지는 않지만, 캠페인 ID, 광고 세트 ID, 광고 ID 및 크리에이티브 ID를 기반으로도 데이터를 추적합니다. 해당 항목은 이름을 변경해도 변경되지 않습니다. Branch의 [데이터 피드](/exports/data-feeds/) 상품을 사용하여 여기에 포함된 데이터를 확인할 수 있습니다.
 
 
 #### 노출 및 클릭 데이터 간 불일치
 
 ##### 1. Branch 대시보드에 클릭 또는 설치 데이터가 표시되지 않는 경우
 
-첫째, Facebook 연동이 정상적으로 이루어졌는지 확인해야 합니다. [이 절차](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)를 정확하게 확인해 주세요. 하나 이상의 광고 계정이 활성화되어 있어야 하며 Facebook 앱 ID가 연결되어 있어야 합니다.
+첫째, Facebook 연동이 정상적으로 이루어졌는지 확인해야 합니다. [이 절차](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)를 정확하게 확인해 주세요. 하나 이상의 광고 계정이 활성화되어 있어야 하며 Facebook 앱 ID가 연결되어 있어야 합니다.
 
 둘째, 설치, 재설치 또는 실행으로 이어지는 광고를 집행 중인지 확인하세요. 앱이 설치되면 곧바로 클릭 데이터가 표시되어야 합니다. 자세한 내용은 다음 FAQ 항목을 참조하세요.
 
@@ -383,7 +383,7 @@ Facebook 연동을 처음 설정한 경우 [Ads Analytics](https://dashboard.bra
 
 ##### 1. Branch 대시보드에서 설치, 재설치 또는 실행 데이터가 표시되지 않는 경우
 
-첫째, Facebook 연동이 정상적으로 이루어졌는지 확인해야 합니다. [이 절차](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)를 정확하게 확인해 주세요. 하나 이상의 광고 계정이 활성화되어 있어야 하며 Facebook 앱 ID가 연결되어 있어야 합니다.
+첫째, Facebook 연동이 정상적으로 이루어졌는지 확인해야 합니다. [이 절차](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner)를 정확하게 확인해 주세요. 하나 이상의 광고 계정이 활성화되어 있어야 하며 Facebook 앱 ID가 연결되어 있어야 합니다.
 
 둘째, 설치, 재설치 또는 실행으로 이어지는 광고를 집행 중인지 확인하세요.
 
@@ -424,11 +424,11 @@ Facebook 연동을 처음 설정한 경우 [Ads Analytics](https://dashboard.bra
 * 날짜 범위에 해당하는 Branch 대시보드에서 확인되는 설치 수(테이블과 스크린샷 모두 포함)
 
 !!! note "참고"
-	드문 경우지만 광고주 측에서 동일한 이름의 복수의 Facebook 캠페인을 진행하는 경우가 있었습니다. 이 경우 Branch 대시보드는 동일한 이름으로 모든 캠페인에 대한 통계 수치를 합산하여 보여주지만 Facebook 캠페인 ID가 다르므로 해당 데이터는 백엔드에서 별도로 보관됩니다. Branch 대시보드에 이 데이터를 표시하지는 않지만, 캠페인 ID를 기준으로 [Query API](/pages/exports/query-api)를 통해 통계 자료를 가져올 수 있습니다.
+	드문 경우지만 광고주 측에서 동일한 이름의 복수의 Facebook 캠페인을 진행하는 경우가 있었습니다. 이 경우 Branch 대시보드는 동일한 이름으로 모든 캠페인에 대한 통계 수치를 합산하여 보여주지만 Facebook 캠페인 ID가 다르므로 해당 데이터는 백엔드에서 별도로 보관됩니다. Branch 대시보드에 이 데이터를 표시하지는 않지만, 캠페인 ID를 기준으로 [Query API](/exports/query-api)를 통해 통계 자료를 가져올 수 있습니다.
 
 ##### 3. Branch 대시보드에 전환 이벤트가 표시되지 않는 경우
 
-v2/이벤트를 추적하고 있는지 확인합니다. [v2/이벤트 문서에서 자세한 내용을 확인해 보세요](/pages/apps/v2event/#v2-event).
+v2/이벤트를 추적하고 있는지 확인합니다. [v2/이벤트 문서에서 자세한 내용을 확인해 보세요](/apps/v2event/#v2-event).
 
 전환 이벤트를 Facebook에 전송하는 옵션을 사용 중인지 확인합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: Facebook Ads FAQ and Advanced Options
 description: An FAQ page of using Branch in your Facebook Ad campaigns.
-path: tree/master/src/pages/deep-linked-ads
+path: tree/master/src/deep-linked-ads
 source: facebook-ads-faq.md
 ---
 
@@ -27,20 +27,20 @@ No! The Branch SDK collects adequate information in order to attribute events ba
 
 ### How can I use deep links in Facebook ads?
 
-Creating a deep link is easy! First, make sure you have [set up the integration with Facebook MMP](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) on the Branch Dashboard. Then navigate to the [Facebook page under Partner Management](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"} and click "Create Facebook Link".
+Creating a deep link is easy! First, make sure you have [set up the integration with Facebook MMP](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) on the Branch Dashboard. Then navigate to the [Facebook page under Partner Management](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"} and click "Create Facebook Link".
 
-Longer instructions can be found in the guides linked to from the [Facebook overview](/pages/deep-linked-ads/facebook-ads-overview/) page. For example, see [this section of the App Installs guide](/pages/deep-linked-ads/facebook-app-install-ads/#create-an-ad-link).
+Longer instructions can be found in the guides linked to from the [Facebook overview](/deep-linked-ads/facebook-ads-overview/) page. For example, see [this section of the App Installs guide](/deep-linked-ads/facebook-app-install-ads/#create-an-ad-link).
 
 ### How can I attribute conversion events to Facebook ads?
 
-First, make sure you have [set up the integration with Facebook MMP](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) on the Branch Dashboard. Second, [set up tracking for Standard Events](/pages/apps/v2event/#v2-event). It's that simple! We will automatically attribute events to Facebook ads.
+First, make sure you have [set up the integration with Facebook MMP](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) on the Branch Dashboard. Second, [set up tracking for Standard Events](/apps/v2event/#v2-event). It's that simple! We will automatically attribute events to Facebook ads.
 
 *Facebook will not accept custom event names over 40 characters or those that start with a hyphen, and will only accept letters, numbers, hyphens, spaces, and underscores*.  Branch will automatically truncate event names over 40 characters and may further sanitize your event names to help ensure they pass validation.  For example:
 
 - **Event name entered**: This & Is & A * Bad Event That's So SO SOOOOOO Long
 - **Sanitized by Branch to**: This _ Is _ A _ Bad Event That_s So SO S
 
-There are advanced options for tracking events, which you can read more about [below](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
+There are advanced options for tracking events, which you can read more about [below](/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
 
 ### What are the permissions you ask for as part of the onboarding process, and why?
 
@@ -76,7 +76,7 @@ Branch is able to provide device-level view-through attribution for installs onl
 
 ### How do I upgrade from the old Facebook integration to the new Facebook integration?
 
-Easy. Navigate to [Facebook within the Ads Management portal](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"}. Choose "Connect with Facebook" and follow the guide to [set up the integration with Facebook MMP](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner).
+Easy. Navigate to [Facebook within the Ads Management portal](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"}. Choose "Connect with Facebook" and follow the guide to [set up the integration with Facebook MMP](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner).
 
 The moment you complete this signup flow, we will upgrade you to getting the full MMP functionality! Now installs and other analytics will include info on campaign, ad set, ad, and creative from Facebook.
 
@@ -84,7 +84,7 @@ The moment you complete this signup flow, we will upgrade you to getting the ful
 
 _...but now when I navigate to [Facebook within the Ads Management portal](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=settings){:target="\_blank"}, I just see "Connect with Facebook". What gives?_
 
-We've hidden the old Facebook setup flow. Please choose "Connect with Facebook" and follow the guide to [set up the integration with Facebook MMP](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner).
+We've hidden the old Facebook setup flow. Please choose "Connect with Facebook" and follow the guide to [set up the integration with Facebook MMP](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner).
 
 The previous signup flow is no longer supported. If for some reason you need to access the previous signup flow, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + legacy signup flow" in the subject.
 
@@ -109,21 +109,21 @@ Generally, no. Facebook MMP allows us to measure Facebook app install and app en
 
 There are many ways to access data pertaining to Facebook.
 
-You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the [Branch Dashboard](https://dashboard.branch.io){:target="\_blank"}, as well as the [Query API](/pages/exports/query-api).
+You can see analytics on impressions, clicks, installs, opens and conversion events on various pages of the [Branch Dashboard](https://dashboard.branch.io){:target="\_blank"}, as well as the [Query API](/exports/query-api).
 
-If you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"}, then you can get device level data out via [Webhooks](/pages/exports/ua-webhooks/), the [Data Export API](/pages/exports/api-v3/), and [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}. If you have not signed this agreement, any event attributed to a Facebook ad will look like an organic event when accessed via Webhooks, the Data Export API, and CSV Exports.
+If you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"}, then you can get device level data out via [Webhooks](/exports/ua-webhooks/), the [Data Export API](/exports/api-v3/), and [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}. If you have not signed this agreement, any event attributed to a Facebook ad will look like an organic event when accessed via Webhooks, the Data Export API, and CSV Exports.
 
 We cannot send device-level Facebook attribution data to third parties. Thus we cannot send events attributed to Facebook via Data Integrations. Please instead consider analyzing this data in-house (using Webhooks, the Data Export API, or CSV Exports), or using the Branch Dashboard for all of your analytics and attribution needs. If you have analytics needs that are not met by the Branch Dashboard, please [contact us](https://support.branch.io/support/tickets/new){:target="\_blank"} and include "Facebook MMP + Feature Request" in the subject.
 
 | **Branch feature** | **Facebook data included** |
 | - | - |
 | [Dashboard visualizations](https://dashboard.branch.io/){:target="\_blank"} | Pre-aggregated analytics |
-| [Query API](/pages/exports/query-api/) | Pre-aggregated analytics |
+| [Query API](/exports/query-api/) | Pre-aggregated analytics |
 | [Liveview](https://dashboard.branch.io/liveview){:target="\_blank"} | Device-level analytics * |
-| [Data Export API](/pages/exports/api-v3/) | Device-level analytics * |
+| [Data Export API](/exports/api-v3/) | Device-level analytics * |
 | [CSV Exports](https://branch.dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"} | Device-level analytics * |
-| [Webhooks](/pages/exports/ua-webhooks/) | Device-level analytics * |
-| [Data Integrations](/pages/integrations/data-integrations/) | Not supported |
+| [Webhooks](/exports/ua-webhooks/) | Device-level analytics * |
+| [Data Integrations](/integrations/data-integrations/) | Not supported |
 
 (*) You must have signed you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"} to view this data
 
@@ -134,7 +134,7 @@ Here is the page where you can see which ad accounts have signed the AMM agreeme
 
 ### The data on Facebook and the data on Branch does not line up!
 
-Please see the section below, [Sources of Discrepancies between Facebook and Branch](/pages/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch).
+Please see the section below, [Sources of Discrepancies between Facebook and Branch](/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch).
 
 ## Facebook Ads Advanced Options
 
@@ -143,7 +143,7 @@ Please see the section below, [Sources of Discrepancies between Facebook and Bra
 !!! Tip
 	To see the options below on the Branch Dashboard, [click here](https://dashboard.branch.io/ads/partner-management/a_facebook?tab=events){:target="\_blank"}.
 
-Branch + Facebook MMP allows you to attribute events back to your Facebook ad campaigns. Branch sends events to Facebook, along with metadata including advertising ID. Facebook then returns info on the ad that the user last viewed or clicked, if any. Branch then surfaces this on our Dashboard, and conditionally* makes this data available in our [Data Feeds](/pages/exports/data-feeds/) product.
+Branch + Facebook MMP allows you to attribute events back to your Facebook ad campaigns. Branch sends events to Facebook, along with metadata including advertising ID. Facebook then returns info on the ad that the user last viewed or clicked, if any. Branch then surfaces this on our Dashboard, and conditionally* makes this data available in our [Data Feeds](/exports/data-feeds/) product.
 
 Partners have several options when it comes to sending events to Facebook. These are discussed below.
 
@@ -169,7 +169,7 @@ When tracking reinstalls and opens, you have 3 options:
 !!! Warning
 	Facebook does not de-duplicate custom app events on their backend. If you are tracking conversion events with the Facebook SDK or another MMP, choose option 1 below.
 
-It's possible to track app events using only Branch! You can [track the events](/pages/apps/v2event/#v2-event) with Branch once, and then we send them to Facebook as well as other analytics systems. Use the [v2/event logging methods](/pages/apps/v2event/#v2-event) outlined here.
+It's possible to track app events using only Branch! You can [track the events](/apps/v2event/#v2-event) with Branch once, and then we send them to Facebook as well as other analytics systems. Use the [v2/event logging methods](/apps/v2event/#v2-event) outlined here.
 
 When tracking add to cart, purchase, and other Facebook app events, you have 3 options:
 
@@ -235,7 +235,7 @@ We are now certified by Facebook as a Mobile Measurement Partner! Branch can now
 
 This integration includes full support for Facebook, Instagram, and the Audience Network. We also automatically pull in impressions and clicks from Facebook and surface those alongside your clicks on Branch links. The deep linking experience your users love is still supported.
 
-Instructions on how to get set up with Facebook MMP are [here](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner). Note that this will replace your existing credentials on our backend. Instead of copy-pasting your Facebook app secret into the Branch Dashboard, you can now simply click through the normal Facebook login flow.
+Instructions on how to get set up with Facebook MMP are [here](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner). Note that this will replace your existing credentials on our backend. Instead of copy-pasting your Facebook app secret into the Branch Dashboard, you can now simply click through the normal Facebook login flow.
 
 Branch will now automatically surface Facebook campaign, ad set, and ad information on the Branch Dashboard's visualizations! This isn't limited to [Ads Analytics](https://dashboard.branch.io/ads/analytics){:target="\_blank"} -- it also includes cross-channel analytics such as [Source Analytics](https://dashboard.branch.io/sources){:target="\_blank"}.
 
@@ -251,7 +251,7 @@ The first two sections below covers common causes of discrepancies: attribution 
 
 An attribution window is the maxiumum amount of time between an initial action (click or impression) and a conversion event (install or open) for which you attribute that conversion event as occuring _because of_ that initial action.
 
-Example with 3 day view attribution window: If a user views your ad and 2 days later installs your app, that install would be attributed to that ad view. However if the user views your ad and 4 days later installs the app, that install would be considered an organic install and would NOT be attributed to that ad view.  You can read more in our documentation [here](/pages/dashboard/unified-analytics/#attribution-windows)
+Example with 3 day view attribution window: If a user views your ad and 2 days later installs your app, that install would be attributed to that ad view. However if the user views your ad and 4 days later installs the app, that install would be considered an organic install and would NOT be attributed to that ad view.  You can read more in our documentation [here](/dashboard/unified-analytics/#attribution-windows)
 
 If one of your attribution windows on the Branch dashboard is different than the corresponding window on the Facebook dashboard, the data between the two will not align. You can mitigate this by changing one of more of your attribution windows on the Branch dashboard, or changing your Facebook dashboard for the given ad account.
 
@@ -312,8 +312,8 @@ In iOS 10, Apple broke the ability for app developers to collect the `IDFA` if t
 
 If you see absolutely 0 data coming through from your integration, it's possible that you're not collecting Google Advertising ID (GAID) on Android or IDFA on iOS.
 
-- iOS: Add the AdSupport.framework and read this extra info about [submitting](/pages/apps/ios-launch/) to the store.
-- Android: Add Google Play Services so that we can collect GAID. See [here](/pages/apps/android-launch/).
+- iOS: Add the AdSupport.framework and read this extra info about [submitting](/apps/ios-launch/) to the store.
+- Android: Add Google Play Services so that we can collect GAID. See [here](/apps/android-launch/).
 
 ##### Facebook campaigns attributing to deep links
 
@@ -327,24 +327,24 @@ One discrepancy root cause we've seen before is the scenario where Branch will c
 
 ##### Don't Use setDebug
 
-Facebook ads are incompatible with [debug mode](/pages/apps/ios/#simulate-an-install), as this prevents us from sending the correct hardware ID to Facebook.
+Facebook ads are incompatible with [debug mode](/apps/ios/#simulate-an-install), as this prevents us from sending the correct hardware ID to Facebook.
 
 ##### Renaming campaigns, ad sets, and ads
 
 If you rename a campaign, ad set, ad, or creative on the Facebook dashboard, then it can result in weird discrepancies between Branch and Facebook. If you change the campaign name, for example, Branch will nearly immediately start tracking all new installs (and other events) using the new campaign name. However, we will not reclassify existing events as having the new campaign name.
 
-Rest assured, however, that we are treating the data properly. Though we do not expose it on our Dashboard as of early 2018, we also track data by campaign id, ad set id, ad id, and creative id. These do not change with a rename. You can view this data using and of our [Data Feeds](/pages/exports/data-feeds/) products!
+Rest assured, however, that we are treating the data properly. Though we do not expose it on our Dashboard as of early 2018, we also track data by campaign id, ad set id, ad id, and creative id. These do not change with a rename. You can view this data using and of our [Data Feeds](/exports/data-feeds/) products!
 
 
 #### Discrepancies with Impressions and Clicks
 
 ##### 1. I don't see any clicks or installs on the Branch Dashboard
 
-First, be sure you've set up the Facebook integration! Work through [these steps](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) and ensure you reach the bottom. You should have at least one ad account enabled, and a Facebook app id listed.
+First, be sure you've set up the Facebook integration! Work through [these steps](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) and ensure you reach the bottom. You should have at least one ad account enabled, and a Facebook app id listed.
 
 Second, make sure you're running ads that are resulting in installs, reinstalls, or opens. Once you see installs, you should shortly start seeing clicks. For more, see the next FAQ item.
 
-If you're unable to see installs, reinstalls, or opens on the Branch Dashboard, skip down to the section below: [I don't see any installs, reinstalls or opens on the Branch Dashboard](/pages/deep-linked-ads/facebook-ads-faq/#1-i-dont-see-any-installs-reinstalls-or-opens-on-the-branch-dashboard).
+If you're unable to see installs, reinstalls, or opens on the Branch Dashboard, skip down to the section below: [I don't see any installs, reinstalls or opens on the Branch Dashboard](/deep-linked-ads/facebook-ads-faq/#1-i-dont-see-any-installs-reinstalls-or-opens-on-the-branch-dashboard).
 
 ##### 2. I see installs on the Facebook Dashboard, but no clicks
 
@@ -391,7 +391,7 @@ When you initially enable the Facebook integration, then visit the [Ads Analytic
 
 ##### 1. I don't see any installs, reinstalls or opens on the Branch Dashboard
 
-First, be sure you've set up the Facebook integration! Work through [these steps](/pages/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) and ensure you reach the bottom. You should have at least one ad account enabled, and a Facebook app id listed.
+First, be sure you've set up the Facebook integration! Work through [these steps](/deep-linked-ads/facebook-app-install-ads/#enable-facebook-as-an-ad-partner) and ensure you reach the bottom. You should have at least one ad account enabled, and a Facebook app id listed.
 
 Second, make sure you're running ads that are resulting in installs, reinstalls, or opens.
 
@@ -415,9 +415,9 @@ If you've made it this far, the integration between Branch + Facebook is at leas
 
 Try comparing (1) just installs, and (2) just for one campaign. On the Branch [Ads Analytics](https://dashboard.branch.io/ads/analytics){:target="\_blank"} page, you can view data for just one campaign by choosing "Add Filter", selecting "campaign" from the first dropdown, and the individual campaign name from the second dropdown. Again, try to get numbers to line up between Facebook and Branch just for installs on one campaign.
 
-First, make sure the attribution windows line up between Facebook and Branch. You can read more on this [above](/pages/deep-linked-ads/facebook-ads-faq/#attribution-windows).
+First, make sure the attribution windows line up between Facebook and Branch. You can read more on this [above](/deep-linked-ads/facebook-ads-faq/#attribution-windows).
 
-Second, make sure the timezones line up between Facebook and Branch. You can read more on this [above](/pages/deep-linked-ads/facebook-ads-faq/#timezones).
+Second, make sure the timezones line up between Facebook and Branch. You can read more on this [above](/deep-linked-ads/facebook-ads-faq/#timezones).
 
 Note that attribution windows are not applied to events that occurred in the past. So if you have a 30-day attribution window for click-to-install on Branch, and a 7-day window for clicks on Facebook, once you change the Branch click-to-install attribution window to 7 days, it will not automatically update historical numbers. Instead, you'll need to wait for new installs to occur under the stricter 7-day Branch click-to-install attribution window. The next day you should be able to come back and look at just the current day's install numbers, and they should line up more closely.
 
@@ -432,13 +432,13 @@ If after all this you're still seeing discrepancies, please [contact us](https:/
 * For every day in date range, the number of installs Branch is reporting - include both a table and a screenshot
 
 !!! Note
-	In some rare cases, we've seen partners running multiple Facebook campaigns with the same name. In this case, the Branch Dashboard will combine stats for all of these campaigns under the same name. We still retain this data separately on our backend, as there are different Facebook campaign ids. While we do not expose this on the Branch Dashboard, you can pull statistics by campaign id via the [Query API](/pages/exports/query-api).
+	In some rare cases, we've seen partners running multiple Facebook campaigns with the same name. In this case, the Branch Dashboard will combine stats for all of these campaigns under the same name. We still retain this data separately on our backend, as there are different Facebook campaign ids. While we do not expose this on the Branch Dashboard, you can pull statistics by campaign id via the [Query API](/exports/query-api).
 
 ##### 3. I don't see any conversion events on the Branch Dashboard
 
-Be sure you are tracking v2/events - [learn more from our v2/event docs](/pages/apps/v2event/#v2-event).
+Be sure you are tracking v2/events - [learn more from our v2/event docs](/apps/v2event/#v2-event).
 
-Be sure you are opting to send conversion events to Facebook - learn more from the section [Facebook MMP event options](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options) above.
+Be sure you are opting to send conversion events to Facebook - learn more from the section [Facebook MMP event options](/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options) above.
 
 Be reasonably confident that users coming from Facebook ads are completing conversion events. If you have, for example, only a small percentage of users completing purchases, and only a small percentage of users downloading your app from Facebook, it's possible that there is no overlap between users making purchases and users coming from Facebook.
 
@@ -456,7 +456,7 @@ If after all this you're still seeing discrepancies, please [contact us](https:/
 
 ##### 4. I see conversion events on the Branch Dashboard, but the numbers look different from what I see on the Facebook Dashboard
 
-We have not encountered any issues here so far. Please see [I see installs, reinstalls or opens on the Branch Dashboard, but the numbers look different from what I see on the Facebook Dashboard](/pages/deep-linked-ads/facebook-ads-faq/#1-i-dont-see-any-installs-reinstalls-or-opens-on-the-branch-dashboard) for steps to follow, and for information to send to us if we need to debug together.
+We have not encountered any issues here so far. Please see [I see installs, reinstalls or opens on the Branch Dashboard, but the numbers look different from what I see on the Facebook Dashboard](/deep-linked-ads/facebook-ads-faq/#1-i-dont-see-any-installs-reinstalls-or-opens-on-the-branch-dashboard) for steps to follow, and for information to send to us if we need to debug together.
 
 **No IP Whitelists**
 

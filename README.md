@@ -89,9 +89,9 @@
 
 - #### Navigation
 
-    - Different page `click [here](/pages/apps/ios/)` (must have trailing slash)
+    - Different page `click [here](/apps/ios/)` (must have trailing slash)
 
-    - Different page anchor `click [here](/pages/apps/ios/#configure-bundle-identifier)`
+    - Different page anchor `click [here](/apps/ios/#configure-bundle-identifier)`
 
     - Same page anchor `click [here](#configure-bundle-identifier)`
 
@@ -125,7 +125,7 @@
     - Prevent search results by adding production url to `stop_urls` ([config](https://github.com/algolia/docsearch-configs/blob/master/configs/branchmetrics.json))
 
 - #### Redirection
-    - Add `redirect: /pages/dashboard/people-based-attribution/` to the top of the file/
+    - Add `redirect: /dashboard/people-based-attribution/` to the top of the file/
 
 ## Additional
 

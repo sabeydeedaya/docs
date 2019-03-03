@@ -10,7 +10,7 @@ You can edit your attribution windows under Link Settings > Attribution Windows.
 
    ![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
 
-Learn more about account level attribution windows in [People-Based Attribution](/pages/dashboard/people-based-attribution/#attribution-windows).
+Learn more about account level attribution windows in [People-Based Attribution](/dashboard/people-based-attribution/#attribution-windows).
 
 #### Ad Network Attribution Windows
 

@@ -177,7 +177,7 @@ Here's an example to illustrate this scenario.
 
 ### SendSMS() parameters
 
-The `sendSMS()` method requires a phone number and [link parameters](/pages/links/integrate/#configure-deep-links). You may optionally specify configuration options and a callback.
+The `sendSMS()` method requires a phone number and [link parameters](/links/integrate/#configure-deep-links). You may optionally specify configuration options and a callback.
 
 ```javascript
 branch.sendSMS(

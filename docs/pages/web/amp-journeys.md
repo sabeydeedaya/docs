@@ -6,7 +6,7 @@ AMP pages by design make it difficult for users to go anywhere except back to Go
 
 !!! note "Pre-reqs"
     - To host AMP Journeys and show in Google search as an AMP page, your webpage must be [AMP](https://www.ampproject.org/docs/)-compatible.
-    - Journeys uses your alternate domain for Universal Links. Make sure you include your `xxxx-alternate.app.link` domain in your [Associated Domains](/pages/apps/ios/#configure-associated-domains). If you’re unsure of your Branch-assigned app.link subdomain, [contact support](https://support.branch.io/support/tickets/new)
+    - Journeys uses your alternate domain for Universal Links. Make sure you include your `xxxx-alternate.app.link` domain in your [Associated Domains](/apps/ios/#configure-associated-domains). If you’re unsure of your Branch-assigned app.link subdomain, [contact support](https://support.branch.io/support/tickets/new)
 
 ## Setup
 
@@ -42,7 +42,7 @@ AMP Journeys can be created as part of the normal [Journeys creation flow](https
 
 ![image](/_assets/img/pages/journeys/amp-checkbox.png)
 
-See the [Journeys Guide](/pages/web/journeys/#select-audience){:target="\_blank"} for more information on selecting your audience.
+See the [Journeys Guide](/web/journeys/#select-audience){:target="\_blank"} for more information on selecting your audience.
 
 ### Select an AMP-compatible template
 
@@ -66,7 +66,7 @@ If Branch has detected that you have selected a template that is not compatible 
 
 ### Track Analytics
 
-Analytics for AMP Journeys works the [same way as for regular Journeys](/pages/web/journeys/#visualizing-journeys-performance), in that you can see clicks, opens, installs, and custom events tied to your Journey by clicking **View Performance** from the actions menu for your AMP Journey.
+Analytics for AMP Journeys works the [same way as for regular Journeys](/web/journeys/#visualizing-journeys-performance), in that you can see clicks, opens, installs, and custom events tied to your Journey by clicking **View Performance** from the actions menu for your AMP Journey.
 
 ![image](/_assets/img/pages/journeys/view-performance.png)
 
@@ -127,11 +127,11 @@ Because javascript is limited on AMP and cookies are restricted on both AMP and 
 
 * Event-based audience rules work within AMP only or after a Branch link click on an AMP page. [Read more](#audience-rule-limitations).
 * Only templates on the bottom of the page and equal to 76px in height show on AMP. [Read more](#customization-limitations).
-* [Dismiss period](/pages/web/journeys/#dismiss) is not supported - after dismiss, Journeys will show again during the next AMP session.
-* [Client-side javascript controls](/pages/web/journeys/#clientside-javascript-journeys-controls) are not supported.
+* [Dismiss period](/web/journeys/#dismiss) is not supported - after dismiss, Journeys will show again during the next AMP session.
+* [Client-side javascript controls](/web/journeys/#clientside-javascript-journeys-controls) are not supported.
 * Auto-opening the app with open_app: true is not supported.
-* [Deep linking with setBranchViewData](/pages/web/journeys/#deep-linking-from-the-banner-or-interstitial) is not supported. [Learn how](#deep-linking-with-amp) you can deep link to content from AMP pages.
-* [Branch hosted deep link data](/pages/web/hosted-data/#add-metatags-to-your-site) will not be scraped. This also means that the [Is viewing a page with metadata key](pages/web/journeys/#is-viewing-a-page-with-metadata-key) filter will not be supported.
+* [Deep linking with setBranchViewData](/web/journeys/#deep-linking-from-the-banner-or-interstitial) is not supported. [Learn how](#deep-linking-with-amp) you can deep link to content from AMP pages.
+* [Branch hosted deep link data](/web/hosted-data/#add-metatags-to-your-site) will not be scraped. This also means that the [Is viewing a page with metadata key](web/journeys/#is-viewing-a-page-with-metadata-key) filter will not be supported.
 * If your site uses a template engine like Jinja that looks for and replaces liquid tags (ex: {{ yourObject }}), then you should confirm that it does not remove Branch tags on render. For Jinja specifically, you should wrap the Branch code on your AMP page with raw tags:
 ```
 {% raw %}

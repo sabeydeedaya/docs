@@ -182,7 +182,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
@@ -208,7 +208,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     ```js
 
@@ -260,7 +260,7 @@
 
     - Refer to `$.onInitSessionFinished()` in [Initialize Branch](#initialize-branch)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
 - ### Track content
 
@@ -322,7 +322,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 

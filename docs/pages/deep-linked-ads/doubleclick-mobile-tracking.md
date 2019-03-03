@@ -85,7 +85,7 @@ If you don't have two different tags for iOS and Android, then it will look simp
 
 If you're looking to see data in the Branch dashboard and postback to ad partners, create an ad link for the relevant partner.
 
-For example, if you're running a campaign on Pandora via DoubleClick, follow the [instructions for enabling Pandora and creating a Pandora link](/pages/deep-linked-ads/pandora-mobile-tracking/), then use that link in the click tracking URL field of your DCM creative tag.
+For example, if you're running a campaign on Pandora via DoubleClick, follow the [instructions for enabling Pandora and creating a Pandora link](/deep-linked-ads/pandora-mobile-tracking/), then use that link in the click tracking URL field of your DCM creative tag.
 
 !!! warning
-	If a placement's "click" is handled *server-side* by a specific publisher and there is *no [device ID macro]*(/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information), Branch will record clicks but not attribute downstream events in Branch's dashboard (client-side clicks will attribute downstream events in Branch's dashboard). Clicks with a device ID macro or client-side handling will attribute downstream events in Branch. Please contact integrations@branch.io or contact your Account Manager for details on specific networks before implementation.
+	If a placement's "click" is handled *server-side* by a specific publisher and there is *no [device ID macro]*(/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information), Branch will record clicks but not attribute downstream events in Branch's dashboard (client-side clicks will attribute downstream events in Branch's dashboard). Clicks with a device ID macro or client-side handling will attribute downstream events in Branch. Please contact integrations@branch.io or contact your Account Manager for details on specific networks before implementation.

@@ -1,10 +1,10 @@
-This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/pages/integrations/mparticle).
+This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/integrations/mparticle).
 
 !!! info "These instructions apply to the mParticle SDK version 7+ integration"
     mParticle introduced a new attribution & deep linking API in v7 of their SDK (http://docs.mparticle.com/developers/sdk/ios/getting-started/#upgrade-to-version-7-of-the-sdk), so please contact your Branch or mParticle Account Managers for more details, if you have mParticle SDK < v7 installed in your app.
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
-    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 ## Technical Requirements
 
@@ -27,7 +27,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ### Configure Branch Dashboard & Enable Universal Links
 
-- Enter a URI scheme in the [Branch Dashboard](https://dashboard.branch.io/settings/link) and [enable Universal Links](/pages/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
+- Enter a URI scheme in the [Branch Dashboard](https://dashboard.branch.io/settings/link) and [enable Universal Links](/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
 
     ![image](/_assets/img/pages/dashboard/ios.png)
     ![image](/_assets/img/pages/dashboard/link-domain.png)
@@ -35,9 +35,9 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 ### Configure associated domains
 
 - Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-- `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+- `-alternate` is needed for Universal Linking with the [Web SDK](/web/integrate/) inside your Website
 - `test-` is needed if you need use a [test key](#use-test-key)
-- If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+- If you use a [custom link domain](/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
     ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
@@ -135,7 +135,7 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 
 - Please refer to mParticle's [making direct calls to kits]( https://docs.mparticle.com/developers/sdk/ios/kits/#making-direct-calls-to-kits) documentation for how to access the Branch kit via the mParticle SDK.
 
-- Once you have a reference to the Branch kit, refer to Branch's [native iOS SDK](/pages/apps/ios/#implement-features) documentation on how to implement secondary functionality.
+- Once you have a reference to the Branch kit, refer to Branch's [native iOS SDK](/apps/ios/#implement-features) documentation on how to implement secondary functionality.
 
 ## Sample testing apps
 
@@ -143,4 +143,4 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 
 ## Troubleshooting
 
-Please refer to the [Branch iOS SDK troubleshooting section](/pages/apps/ios/#troubleshoot-issues).
+Please refer to the [Branch iOS SDK troubleshooting section](/apps/ios/#troubleshoot-issues).

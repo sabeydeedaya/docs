@@ -12,7 +12,7 @@
 
 - ### Configure Branch
 
-    - Complete the `Basic integration` within [Configure your dashboard](/pages/dashboard/integrate/)
+    - Complete the `Basic integration` within [Configure your dashboard](/dashboard/integrate/)
 
         ![image](/_assets/img/pages/dashboard/fallback.png)
 
@@ -78,7 +78,7 @@
 
     - Creates a deep link URL with encapsulated data
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
@@ -109,7 +109,7 @@
 
     -  Will generate a Branch deep link and tag it with the channel the user selects
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
         ```html
         <!-- shareable elements -->
@@ -224,7 +224,7 @@
 
     - Sends a SMS text message with a deep link to a phone number
 
-    - Feature has certain [SMS limits](/pages/web/text-me-the-app/#what-are-the-sms-rate-limits)
+    - Feature has certain [SMS limits](/web/text-me-the-app/#what-are-the-sms-rate-limits)
 
 
         ```js
@@ -259,7 +259,7 @@
 - ### Host deep link data
 
     - Make it easier for marketers to create deep links
-    - Used for [Journeys](/pages/web/journeys/), [Universal Emails](/pages/emails/braze/), [Quick links](/pages/dashboard/analytics/#quick-links), and the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf)
+    - Used for [Journeys](/web/journeys/), [Universal Emails](/emails/braze/), [Quick links](/dashboard/analytics/#quick-links), and the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf)
     - Branch will scrape the web URL for deep link data on link creation
     - Validate by creating a [Quick Link](https://dashboard.branch.io/quick-links) and fill in `web URL` to your web page
 
@@ -267,7 +267,7 @@
         | --- | --- | ---
         | https://shop.com/shoes/brown-loafers | productId=1234, productView=true | `<meta name="branch:deeplink:productId" content="1234" />`, `<meta name="branch:deeplink:productView" content="true" />`
         | https://shop.com/shoes | categoryId=5678 | `<meta name="branch:deeplink:categoryId" content="5678" />`
-        |https://shop.com/your-mother-is-great | No corresponding app content ([open web](/pages/links/integrate/#open-web-instead-of-app)) | `<meta name="branch:deeplink:$web_only" content="true" />`
+        |https://shop.com/your-mother-is-great | No corresponding app content ([open web](/links/integrate/#open-web-instead-of-app)) | `<meta name="branch:deeplink:$web_only" content="true" />`
 
 - ### Track users
 
@@ -422,7 +422,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 
@@ -608,7 +608,7 @@
         https://example.app.link/kJNbhZ1PrF?$fallback_url=https://example.com
         ```
 
-    - Website will open to [$fallback_url](/pages/links/integrate/#redirections) with `_branch_match_id`
+    - Website will open to [$fallback_url](/links/integrate/#redirections) with `_branch_match_id`
 
         ```
         https://example.app.link/kJNbhZ1PrF?$fallback_url=https://www.website.com/&_branch_match_id=418480444086051524

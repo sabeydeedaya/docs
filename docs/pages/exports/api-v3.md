@@ -1,6 +1,6 @@
 ## Overview
 
-Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/people-based-attribution/) can be used to pull granular Branch event data directly. A few important notes for this API:
+Branch’s new Data Export API for [People-Based Attribution](/dashboard/people-based-attribution/) can be used to pull granular Branch event data directly. A few important notes for this API:
 
 - The data will only be retrievable for the last 7 days
 - The data will only appear after end of day since it's processed every 24 hours
@@ -8,9 +8,9 @@ Branch’s new Data Export API for [People-Based Attribution](/pages/dashboard/p
 - The data will only be visible for your live key (not your test key)
 
 !!! note "Data Feeds is a premium solution"
-    The Data Export API is included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Data Export API is included in Branch’s [Data Feeds](/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
-    **If you are looking for the legacy Data Export API**, please see [these docs](/pages/exports/api/).
+    **If you are looking for the legacy Data Export API**, please see [these docs](/exports/api/).
 
 ## Setup
 
@@ -62,7 +62,7 @@ The response payload will be in JSON format and for each export it will have an 
 }
 ```
 
-All exports via Data Feeds are powered by Branch's [People-Based Attribution](/pages/dashboard/people-based-attribution/). For an exhaustive list of events included in these exports and more detailed definitions of each event, please see the [Event Ontology Data Schema](/pages/exports/event_ontology_data_schema/).
+All exports via Data Feeds are powered by Branch's [People-Based Attribution](/dashboard/people-based-attribution/). For an exhaustive list of events included in these exports and more detailed definitions of each event, please see the [Event Ontology Data Schema](/exports/event_ontology_data_schema/).
 
 !!! tip
     A full day's files will be available on our S3 bucket at that location to download around 7:00pm UTC. It will return a blank array from S3 for any empty files until the UTC day is over and the data has been transfered to S3, therefore it is recommended you schedule any ETLs to fetch the data for the previous day around 7:00pm UTC (12pm PST).

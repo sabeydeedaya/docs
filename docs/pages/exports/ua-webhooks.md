@@ -2,16 +2,16 @@
 
 Branch’s new webhook system for People-Based Attribution allows you to export install and down-funnel event data as it occurs. You can import this data into your internal systems for analysis. You simply need to specify a URL for the POST or GET requests.
 
-If you are looking for postback integrations for ad networks, please visit our [Universal Ads documentation](/pages/deep-linked-ads/branch-universal-ads/). For pre-configured integrations into popular analytics tools, please visit our [Data Integrations documentation](/pages/integrations/amplitude/).
+If you are looking for postback integrations for ad networks, please visit our [Universal Ads documentation](/deep-linked-ads/branch-universal-ads/). For pre-configured integrations into popular analytics tools, please visit our [Data Integrations documentation](/integrations/amplitude/).
 
 The webhook system is highly customizable. You can register to only receive notifications for specific events, as well as specific subsections of events, filtered by link data, user data or event properties.
 
 Our new webhook infrastructure supports for all Branch events. The data is formatted according to our updated event naming and metadata format which will get you through implementation and onto analysis in no time.
 
 !!! note "Data Feeds is a premium solution"
-    The Webhooks are included in Branch’s [Data Feeds](/pages/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
+    The Webhooks are included in Branch’s [Data Feeds](/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
-    **If you are looking for legacy webhooks**, please see [these docs](/pages/exports/webhooks/).
+    **If you are looking for legacy webhooks**, please see [these docs](/exports/webhooks/).
 
 ## Setup
 
@@ -44,7 +44,7 @@ As you fill out the configuration, you'll see the following options:
 !!! tip
     Events will only appear in the event dropdown if at least one of those events has been recorded in the past 30 days.
 
-For an exhaustive list of events and more detailed definitions of each event, please see the [Event Ontology Data Schema](/pages/exports/event_ontology_data_schema/).
+For an exhaustive list of events and more detailed definitions of each event, please see the [Event Ontology Data Schema](/exports/event_ontology_data_schema/).
 
 - **NB**: Event frequency is not yet supported. At this time webhooks can only be sent every time an event occurs. The option to send webhooks **the first time** an event occurs is roadmapped for release in late 2018.
 
@@ -107,7 +107,7 @@ To test whether your webhook is configured correctly, you can use [RequestBin](h
 
 ## Data Format
 
-One of the major advantages of People-Based Attribution's data format is that metadata is consistently located across all events. We call this schema the [Event Ontology Data Schema](/pages/exports/event_ontology_data_schema/). This consistent schema makes it easy to replicate Branch dashboards in your internal warehouse and compare large sets of data for different events.
+One of the major advantages of People-Based Attribution's data format is that metadata is consistently located across all events. We call this schema the [Event Ontology Data Schema](/exports/event_ontology_data_schema/). This consistent schema makes it easy to replicate Branch dashboards in your internal warehouse and compare large sets of data for different events.
 
 Setting up Advanced Filters or Freemarker macros requires an understanding of the Event Ontology data format. Before diving into the schema, you should understand some high level concepts about event metadata structure:
 
@@ -119,7 +119,7 @@ Setting up Advanced Filters or Freemarker macros requires an understanding of th
 - Journeys or Deepviews view data (e.g. Journey banners loads, not clicks) is "Last CTA View Data"
 - Client-specified custom data (e.g. internal fields your company requires on specific events) is nested in "Custom Data"
 
-You can find an [overview of critical fields](/pages/exports/event_ontology_data_schema/#fields-included) in that documentation, as well as an [exhaustive list of fields](/pages/exports/event_ontology_data_schema/#full-list-of-fields).
+You can find an [overview of critical fields](/exports/event_ontology_data_schema/#fields-included) in that documentation, as well as an [exhaustive list of fields](/exports/event_ontology_data_schema/#full-list-of-fields).
 
 ### Sample webhook POST body syntax
 
@@ -221,11 +221,11 @@ To create a filter:
 
 1. Click the **Add Filter** button
 1. Select the metadata you'd like to filter on. For advanced filtering, choose "Custom"
-1. Type in the key that you'd like to filter on. To find the key you'd like to filter on, reference our quick introduction to the [People-Based Attribution's data format](#data-format) to figure out where your key is likely nested. Another foolproof way to find your key is looking at your data in full before setting up your filter. You can do this by doing a [CSV export](https://dashboard.branch.io/data-import-export/csv-exports), [API export](/pages/exports/api-v3/) or send a single webhook with a POST body, and locate your key in that POST body.
+1. Type in the key that you'd like to filter on. To find the key you'd like to filter on, reference our quick introduction to the [People-Based Attribution's data format](#data-format) to figure out where your key is likely nested. Another foolproof way to find your key is looking at your data in full before setting up your filter. You can do this by doing a [CSV export](https://dashboard.branch.io/data-import-export/csv-exports), [API export](/exports/api-v3/) or send a single webhook with a POST body, and locate your key in that POST body.
 1. Unless your key is part of the top level data (e.g. **timestamp** or **id**), it will likely be nested one level deep. Most keys will be of the format **object_name.key**. For example, if you want to filter for a custom key in deep link data called "product_deeplink_id", that would take the form **last_attributed_touch_data.product_deeplink_id**.
 
 !!! note "Example: Filtering purchases for a specific coupon"
-	Let’s say you’re interested in receiving a webhook for every **Purchase** event using a specific coupon. When you set up the Purchase event in your app or on your website, you [added a specific piece of metadata for "coupon"](/pages/apps/v2event/#track-commerce-events). In the [Event Ontology Schema](/pages/exports/event_ontology_data_schema/#full-list-of-fields) you saw that "coupon" is inside "event_data". To configure your filter to fire a webhook only when **coupon** is equal to **SUMMERDEALS10** you will:
+	Let’s say you’re interested in receiving a webhook for every **Purchase** event using a specific coupon. When you set up the Purchase event in your app or on your website, you [added a specific piece of metadata for "coupon"](/apps/v2event/#track-commerce-events). In the [Event Ontology Schema](/exports/event_ontology_data_schema/#full-list-of-fields) you saw that "coupon" is inside "event_data". To configure your filter to fire a webhook only when **coupon** is equal to **SUMMERDEALS10** you will:
 
     1. Select "Custom" from the filter key dropdown
     1. Make the key **event_data.coupon**
@@ -249,7 +249,7 @@ To start, we can add a simple template. Let's say we want to add campaign as a q
 
 Let's walk through the syntax:
 
-1. First, find the key for the value you want to template in. As with filtering, to find the key, reference our quick introduction to the [People-Based Attribution's data format](#data-format) to figure out where your key is likely nested. Another foolproof way to find your key is looking at your data in full before setting up your filter. You can do this by doing a [CSV export](https://dashboard.branch.io/data-import-export/csv-exports), [API export](/pages/exports/api-v3/) or send a single webhook with a POST body, and locate your key in that POST body.
+1. First, find the key for the value you want to template in. As with filtering, to find the key, reference our quick introduction to the [People-Based Attribution's data format](#data-format) to figure out where your key is likely nested. Another foolproof way to find your key is looking at your data in full before setting up your filter. You can do this by doing a [CSV export](https://dashboard.branch.io/data-import-export/csv-exports), [API export](/exports/api-v3/) or send a single webhook with a POST body, and locate your key in that POST body.
 1. This exercise tells us that Campaign is nested inside `last_attributed_touch_data` and is represented by `last_attributed_touch_data.~campaign`.
 1. The additional syntax around `last_attributed_touch_data.~campaign` is because Branch's templating engine uses Freemarker. In Freemarker, you can print variables by surrounding them with `${}`. Finally, we add `()!` to the variable because we want to prevent errors in the case that there is no value.
 1. This leaves us with `${(last_attributed_touch_data.~campaign)!}`.
@@ -290,4 +290,4 @@ To request authentication headers for your webhooks, please contact `integration
 
 ##### Why is my webhook not firing?
 
-Check to see if you are in [Test Mode](/pages/apps/ios/#simulate-an-install) with your SDK. If you are in test mode, we will not send a webhook.
+Check to see if you are in [Test Mode](/apps/ios/#simulate-an-install) with your SDK. If you are in test mode, we will not send a webhook.

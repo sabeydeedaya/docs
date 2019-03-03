@@ -1,1 +1,1 @@
-redirect: /pages/apps/mparticle-ios-v7/
+redirect: /apps/mparticle-ios-v7/

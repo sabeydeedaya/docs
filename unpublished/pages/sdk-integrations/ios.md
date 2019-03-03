@@ -1,11 +1,11 @@
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2+"
-    After updating a device to iOS 11.2+, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal Links will no longer open the app consistently. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2+, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal Links will no longer open the app consistently. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 - ### Configure Branch
 
-    - Complete the `Basic integration` within [Configure your dashboard](/pages/dashboard/integrate/)
+    - Complete the `Basic integration` within [Configure your dashboard](/dashboard/integrate/)
 
     - Make sure `I have an iOS app` is enabled
 
@@ -20,9 +20,9 @@
 - ### Configure associated domains
 
     - Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-    - `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+    - `-alternate` is needed for Universal Linking with the [Web SDK](/web/integrate/) inside your Website
     - `test-` is needed if you need use a [test key](#use-test-key)
-    - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+    - If you use a [custom link domain](/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
         ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
@@ -181,7 +181,7 @@
 
     - The `Branch Universal Object` encapsulates the thing you want to share
 
-    - Uses [Universal Object properties](/pages/links/integrate/#universal-object)
+    - Uses [Universal Object properties](/links/integrate/#universal-object)
 
     - *Swift 3*
 
@@ -213,7 +213,7 @@
 
     - Used for [Create deep link](#create-deep-link) and [Share deep link](#share-deep-link)
 
-    - Uses [Configure link data](/pages/links/integrate/#configure-deep-links) and custom data
+    - Uses [Configure link data](/links/integrate/#configure-deep-links) and custom data
 
     - *Swift 3*
 
@@ -296,7 +296,7 @@
 
     - Needs a [Create link reference](#create-link-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
      - *Swift 3*
 
@@ -321,7 +321,7 @@
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - *Swift 3*
 
@@ -489,7 +489,7 @@
 
     - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
 
-    - To track custom events - not found in the table below - please see [Track Custom Events](/pages/apps/v2event/#track-custom-events)
+    - To track custom events - not found in the table below - please see [Track Custom Events](/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
@@ -505,7 +505,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 
@@ -745,7 +745,7 @@
 
     - Investigate if the device disabled universal links ([Re-enable universal linking](#re-enable-universal-linking))
 
-    - Investigate if it is a link related issue ([Deep links do not open app](/pages/links/integrate/#deep-links-do-not-open-app))
+    - Investigate if it is a link related issue ([Deep links do not open app](/links/integrate/#deep-links-do-not-open-app))
 
     - Use [Universal links validator](https://branch.io/resources/universal-links/)
 

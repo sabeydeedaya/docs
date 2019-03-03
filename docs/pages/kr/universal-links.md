@@ -46,7 +46,7 @@ Branch는 Universal Link를 쉽게 활성화할 수 있게 하고 동시에 이�
 	만약 Default domain name 박스에 구 버전인 bnc.lt 도메인이 표시된다면 다음 내용을 바꿔야 합니다: `applinks:bnc.lt`
 
 !!! tip "커스텀 도메인 또는 서브 도메인의 사용"
-	만약 귀사에서 [Branch Link 에게 커스텀 도메인 또는 서브 도메인](/pages/dashboard/integrate/#change-link-domain)을 사용한다면 `applinks: 뒤의 값을 [mycustomdomainorsubdomain]`와 `XXXX-alternate.app.link`로 추가해야 합니다. 만약 Branch로부터 부여받은 app.link 서브 도메인에 확실하지 않다면 integrations@branch.io 로 연락주시기 바랍니다.
+	만약 귀사에서 [Branch Link 에게 커스텀 도메인 또는 서브 도메인](/dashboard/integrate/#change-link-domain)을 사용한다면 `applinks: 뒤의 값을 [mycustomdomainorsubdomain]`와 `XXXX-alternate.app.link`로 추가해야 합니다. 만약 Branch로부터 부여받은 app.link 서브 도메인에 확실하지 않다면 integrations@branch.io 로 연락주시기 바랍니다.
 
 ## Advanced
 
@@ -84,7 +84,7 @@ Apple 에서는 사용자가 헷갈리게 하는 상황을 피하기 위해 특�
 
 Web View 가 빌드되어 있는 앱 (Google, Twitter, Facebook, Facebook Messenger, WeChat 등)에서는 오직 WebView 가 이미 오픈되었을 때만 Universal Links 가 작동합니다. 다르게 말하면 Universal Links 는 앱의 feed 또는 메인 App View 에서 작동하지 않습니다.
 
-이런 제한 아래에서 작업하려면 링크에 반드시 [deepviews](/pages/web/deep-views/) 또는 기타 유사한 것이 있어야 합니다. Deep View에는 뒤에 Universal Link 가 삽입되어 있는 call-to-action 링크/버튼이 있습니다. 이렇게 하면 Branch Link 가 App Feed 에서 클릭되었을 때 Deep View 가 포함한 Web View 를 오픈합니다. 그 다음 사용자가 Deep View 에 있는 링크/버튼을 클릭하여 앱을 실행할 수 있습니다. Apple 에서 제한하고 있는 부분(이전 섹션에서 언급)은 Deep View에서도 동일하게 적용됩니다.
+이런 제한 아래에서 작업하려면 링크에 반드시 [deepviews](/web/deep-views/) 또는 기타 유사한 것이 있어야 합니다. Deep View에는 뒤에 Universal Link 가 삽입되어 있는 call-to-action 링크/버튼이 있습니다. 이렇게 하면 Branch Link 가 App Feed 에서 클릭되었을 때 Deep View 가 포함한 Web View 를 오픈합니다. 그 다음 사용자가 Deep View 에 있는 링크/버튼을 클릭하여 앱을 실행할 수 있습니다. Apple 에서 제한하고 있는 부분(이전 섹션에서 언급)은 Deep View에서도 동일하게 적용됩니다.
 
 | 앱/브라우저 | 지원상태
 | --- | ---
@@ -114,7 +114,7 @@ Web View 가 빌드되어 있는 앱 (Google, Twitter, Facebook, Facebook Messen
 ### Universal Links 를 실패하게 하는 일반적인 이슈
 
 !!! tip "XCode 프로젝트를 위한 자동화된 검증"
-	[Universal Links Validator](/pages/resources/validation-tools/#universal-link-validator). 를 이용하여 XCode 프로젝트가 정확하게 설정되었는지 확인할 수 있습니다.
+	[Universal Links Validator](/resources/validation-tools/#universal-link-validator). 를 이용하여 XCode 프로젝트가 정확하게 설정되었는지 확인할 수 있습니다.
 
 ##### Universal Link 를 수동으로 Safari 브라우저에 입력하여 테스트하셨나요?
 Universal Links 는 Safari 에 입력했을 때 적절하게 작동하지 않습니다. Notes 또는 iMessage 앱을 사용하여 테스트하시기 바랍니다.

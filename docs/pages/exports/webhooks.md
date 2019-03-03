@@ -5,7 +5,7 @@ title: Legacy Webhooks (old)
 ## Overview
 
 !!! note
-    You are viewing docs for our legacy Webhooks system. We recommend viewing docs on the newer [Webhooks](/pages/exports/ua-webhooks/) offering, which is powered by [People-Based Attribution](/pages/dashboard/people-based-attribution).
+    You are viewing docs for our legacy Webhooks system. We recommend viewing docs on the newer [Webhooks](/exports/ua-webhooks/) offering, which is powered by [People-Based Attribution](/dashboard/people-based-attribution).
 
 Branch’s webhook system allows you to receive install and down funnel event data from us as it occurs, for install attribution or conversion funnels in your own database. You simply need to specify a URL for us to send all this data to.
 
@@ -286,7 +286,7 @@ When a Branch link is opened, triggering a **click** event, you may access:
 
 ### Keys available for templating/filtering **Event** webhooks
 
-When a user triggers an event inside your app, either one [created by you](/pages/apps/ios/#track-events) or one tracked by Branch automatically (**install**, **open**, **referred session**, and **web session start**), you may access:
+When a user triggers an event inside your app, either one [created by you](/apps/ios/#track-events) or one tracked by Branch automatically (**install**, **open**, **referred session**, and **web session start**), you may access:
 
 - Properties of the event.
 - Identity properties of the user who triggered the event.
@@ -385,7 +385,7 @@ You can also create events through the Branch SDK, and specify a secret key insi
 
 ##### Why is my app not sending a device ID?
 
-Check to see if you are in [Test Mode](/pages/apps/ios/#simulate-an-install) with your SDK. If we are sending a fake ID to simulate installs, we will not send it inside a webhook.
+Check to see if you are in [Test Mode](/apps/ios/#simulate-an-install) with your SDK. If we are sending a fake ID to simulate installs, we will not send it inside a webhook.
 
 ##### What is the difference between first referring data and session referring data?
 

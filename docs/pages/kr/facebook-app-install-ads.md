@@ -16,13 +16,13 @@ Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dyn
 --- | --- | --- | --- | --- | --- | --- | ---
 앱 인스톨 | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 
-다른 페이스북 광고 캠페인 타입을 찾으시는 경우 [Facebook Ads Overview Guide](/pages/deep-linked-ads/facebook-ads-overview) 에서 확인 부탁 드립니다.
+다른 페이스북 광고 캠페인 타입을 찾으시는 경우 [Facebook Ads Overview Guide](/deep-linked-ads/facebook-ads-overview) 에서 확인 부탁 드립니다.
 
 ## 설정 방법
 
 !!! warning "전제 조건"
-	* [x] Facebook 광고에서 인스톨을 트래킹하길 원하신다면 [Branch SDK 연동](/pages/apps/ios/#integrate-branch) 이 필요합니다.
-	* [x] 광고에서 유저를 특정 앱 내 컨텐츠로 리다이렉션 하기 위해서는 [딥링크 라우팅 구성](/pages/deep-linking/routing/)이 필요합니다.
+	* [x] Facebook 광고에서 인스톨을 트래킹하길 원하신다면 [Branch SDK 연동](/apps/ios/#integrate-branch) 이 필요합니다.
+	* [x] 광고에서 유저를 특정 앱 내 컨텐츠로 리다이렉션 하기 위해서는 [딥링크 라우팅 구성](/deep-linking/routing/)이 필요합니다.
 	* [x] Ads는 MAU 기반으로 가격이 책정된 프리미엄 제품입니다. 이 기능을 사용하려면 Ads 제품에 가입하십시오.
 
 
@@ -31,7 +31,7 @@ Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dyn
 !!! info "참고"
 	본 연동 작업을 진행해 주시게 되면 어트리뷰션을 위해 Branch에서는 앱 이벤트를 페이스북으로 전송하게 됩니다. **이 작업은 딥링킹 활성화와는 무관하며** 해당 활성화를 위해서는 아래 작업이 필요합니다.
 
-Branch 대시보드 내에서 페이스북을 광고 파트너로 연동하는 방법은 다음과 같습니다. 이벤트 전송을 위한 고급 옵션 세팅은 [여기](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options) 를 참조해 주십시오.
+Branch 대시보드 내에서 페이스북을 광고 파트너로 연동하는 방법은 다음과 같습니다. 이벤트 전송을 위한 고급 옵션 세팅은 [여기](/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options) 를 참조해 주십시오.
 
 1. [Partner Management tab](https://dashboard.branch.io/ads/partner-management) 으로 이동합니다.
 
@@ -64,7 +64,7 @@ Branch 대시보드 내에서 페이스북을 광고 파트너로 연동하는 �
     ![Choose ad accounts](/_assets/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/5-adaccounts.png)
 
     !!! Note
-        광고 집행 어카운트 확인에 어려움이 있으시다면 [FAQ](/pages/deep-linked-ads/facebook-ads-faq/#im-having-problems-finding-or-choosing-the-correct-ad-accounts)페이지를 확인해 주십시오.
+        광고 집행 어카운트 확인에 어려움이 있으시다면 [FAQ](/deep-linked-ads/facebook-ads-faq/#im-having-problems-finding-or-choosing-the-correct-ad-accounts)페이지를 확인해 주십시오.
 
 1. Facebook 광고 집행을 위해 Facebook 앱 아이디를 선택합니다.
 
@@ -162,14 +162,14 @@ eCPA | 구매 (웹과 앱 구매 포함) 당 비용 | 모든 네트워크의 구
 1. 링크의 광고 형식을 **App Only** 로 선택한 뒤, 광고 파트너를 **Facebook** 으로 선택, 그리고 두번째 광고 형식을 **App Install Ads** 로 설정합니다.
 ![Create Ad Link](/_assets/img/pages/deep-linked-ads/facebook-app-install-ads/link-setup.png)
 
-1. Configure Options 탭에서 딥링크 데이터 삽입 칸에 사용하고 있는 딥링킹 파라미터를 추가해 주십시오. 해당 섹션을 사용하여 앱 인스톨 이후 딥링킹 되어질 커스텀 링크 파라미터를 설정하실 수 있습니다. 쿠폰 코드나 페이지 식별자 등을 포함할 수 있으며 자세한 사항은 [Deep Link Routing](/pages/deep-linking/routing/) 에서 확인 부탁 드립니다.
+1. Configure Options 탭에서 딥링크 데이터 삽입 칸에 사용하고 있는 딥링킹 파라미터를 추가해 주십시오. 해당 섹션을 사용하여 앱 인스톨 이후 딥링킹 되어질 커스텀 링크 파라미터를 설정하실 수 있습니다. 쿠폰 코드나 페이지 식별자 등을 포함할 수 있으며 자세한 사항은 [Deep Link Routing](/deep-linking/routing/) 에서 확인 부탁 드립니다.
 ![Create Ad Link](/_assets/img/pages/deep-linked-ads/reusable-images/create-link-deep-link-data.png)
 
 1. 이것은 앱 인스톨 광고인 관계로 리다이렉션은 무시될 수 있습니다. 따라서 본 섹션을 변경하지 않은 상태로 유지하는 것을 권장합니다.
 1. 애널리틱스는 위 Facebook 연동을 통해 자동적으로 기록되는 관계로 해당 애널리틱스 섹션에서의 설정은 무시하셔도 됩니다.
 
 !!! warning ""
-	캠페인을 보다 효과적으로 집행하기 위해서 Deepviews가 비활성화 되어 있는지 확인해 주십시오. 전체 계정 단에서 [Deepviews 비활성화](/pages/web/deep-views/) 하거나 [링크 단에서 Deepviews 를 비활성화 ](/pages/web/deep-views/#disable-per-link-deepviews)하실 수 있습니다.
+	캠페인을 보다 효과적으로 집행하기 위해서 Deepviews가 비활성화 되어 있는지 확인해 주십시오. 전체 계정 단에서 [Deepviews 비활성화](/web/deep-views/) 하거나 [링크 단에서 Deepviews 를 비활성화 ](/web/deep-views/#disable-per-link-deepviews)하실 수 있습니다.
 
 #####  Ad Link를 딥링크로 설정하기
 
@@ -216,7 +216,7 @@ UFacebook에서 광고 제작 과정에 사용되는 데모/미리보기 광고�
 
 ## 문제 해결 방법
 
-Facebook 앱 광고 관련하여 문의 사항이 있으신 경우  [Facebook app ads FAQ](/pages/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch)페이지를 참조 부탁 드립니다.
+Facebook 앱 광고 관련하여 문의 사항이 있으신 경우  [Facebook app ads FAQ](/deep-linked-ads/facebook-ads-faq/#sources-of-discrepancies-between-facebook-and-branch)페이지를 참조 부탁 드립니다.
 
  만일 Facebook의 web-only ads 관련 문의 사항이 있으신 경우 위의 FAQ 페이지 참조 부탁 드리며 [contact us](https://support.branch.io/support/tickets/new)  페이지에 "Facebook web-only ads issues" 제목으로 문의 주십시오.
 

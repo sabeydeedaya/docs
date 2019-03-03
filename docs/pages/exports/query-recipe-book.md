@@ -1,5 +1,5 @@
 !!! protip "Want to see a Query API reference?"
-    For an exhaustive list of options for this Query API, flip over to the [Query API](/pages/exports/query-api/) reference page.
+    For an exhaustive list of options for this Query API, flip over to the [Query API](/exports/query-api/) reference page.
 
 You can find your Branch Key and Branch Secret on the [Account Settings](https://dashboard.branch.io/account-settings/app) page of the Branch Dashboard. Give the curls below a try from any terminal!
 
@@ -1002,7 +1002,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     ![image](/_assets/img/pages/exports/query-api/summary-click-flow-with-filter.png)
 
-    This example looks at feature: journeys. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs.
+    This example looks at feature: journeys. For a full list of dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs.
 
     *Click, with a filter for feature: journeys*
 
@@ -1436,7 +1436,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     ![image](/_assets/img/pages/exports/query-api/summary-journeys-with-filter.png)
 
-    This example looks at tags: tag1. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs.
+    This example looks at tags: tag1. For a full list of dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs.
 
     *Branch CTA View, with a filter for tags: tag1*
 
@@ -1813,7 +1813,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     ![image](/_assets/img/pages/exports/query-api/summary-deepviews-with-filter.png)
 
-    This example looks at stage: stage88. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs.
+    This example looks at stage: stage88. For a full list of dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs.
 
     *Branch CTA View, with a filter for stage: stage88*
 
@@ -2157,7 +2157,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     Pulling this data requires 6 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
 
-    If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
+    If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
 
     "Clicks" does *not* include eo_web_to_app_auto_redirect on this visualization. This is different from the Summary page charts and Quick Links. Those visualizations have historically included Web-to-App Auto-Redirects, folded into the Clicks number. This visualization breaks them out separately.
 
@@ -3402,7 +3402,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     ![image](/_assets/img/pages/exports/query-api/source-analytics-with-filter.png)
 
-    This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs.
+    This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs.
 
     *Click, with a filter for ad partner name: Taptica*
 
@@ -3794,7 +3794,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     Pulling this data requires 7 requests. For ease of understanding, we show the requests and responses below that correspond exactly to the data above.
 
-    If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
+    If you add additional columns, then you will need to adjust the requests accordingly. For a full list of events and dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs. If you are still not sure how to query for data, write in to integrations@branch.io and we’ll (1) get you a response, and (2) add to this documentation.
 
     "Clicks" does *not* include eo_web_to_app_auto_redirect on this visualization. This is different from the Summary page charts and Quick Links. Those visualizations have historically included Web-to-App Auto-Redirects, folded into the Clicks number. This visualization breaks them out separately.
 
@@ -4263,7 +4263,7 @@ You can find your Branch Key and Branch Secret on the [Account Settings](https:/
 
     ![image](/_assets/img/pages/exports/query-api/ads-analytics-events-with-filter.png)
 
-    This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/pages/exports/query-api/) reference docs.
+    This example looks at ad partner name: Taptica. For a full list of dimensions that can be queried against, see our [Query API](/exports/query-api/) reference docs.
 
     *Click, with a filter for ad partner name: Taptica*
 

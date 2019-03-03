@@ -14,4 +14,4 @@
 
 - ### Create a Branch powered push message
 
-    - Now that your app is setup, you just need to [create a Branch deep link](/pages/links/integrate/) and place it into your push message. Simply add the link as additional key/value to your payload. Use the key `branch` and place the link as the value.
+    - Now that your app is setup, you just need to [create a Branch deep link](/links/integrate/) and place it into your push message. Simply add the link as additional key/value to your payload. Use the key `branch` and place the link as the value.

@@ -23,10 +23,10 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 1. You'll need to configure your app and get a Branch API key in the [Branch Metrics dashboard](https://branch.dashboard.branch.io/account-settings/app). You can read more about configuring your dashboard in the Branch docs here.
 
 2. For application integration, you'll need to follow the instructions as described in the Branch docs here:
-	- [Integrate Branch](/pages/apps/android/)
+	- [Integrate Branch](/apps/android/)
 
 3. Also add an app URI scheme and your Branch key to the manifest file for you app for deep linking.
-	- [Configure your application with Branch key and for URI schemes](/pages/apps/android/#configure-app)
+	- [Configure your application with Branch key and for URI schemes](/apps/android/#configure-app)
 
 4. In the Adobe dashboard, activate Branch and add your Branch key to your app's configuration.
 	- Activate Branch:
@@ -57,7 +57,7 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 
 ## Implementing Branch Features
 
-Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for Android.](/pages/apps/android/)
+Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for Android.](/apps/android/)
 
 
 ### Automatic: Track Action and State

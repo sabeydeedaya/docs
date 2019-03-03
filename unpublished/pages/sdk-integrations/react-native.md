@@ -1,7 +1,7 @@
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
-    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 - ### Configure Branch
 
@@ -125,9 +125,9 @@
         - Configure associated domains
 
             - Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-            - `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+            - `-alternate` is needed for Universal Linking with the [Web SDK](/web/integrate/) inside your Website
             - `test-` is needed if you need use a [test key](#use-test-key)
-            - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+            - If you use a [custom link domain](/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
                 ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
@@ -385,7 +385,7 @@
 
     - The `Branch Universal Object` encapsulates the thing you want to share (content or user)
 
-    - Uses the [Universal Object Properties](/pages/links/integrate/#universal-object)
+    - Uses the [Universal Object Properties](/links/integrate/#universal-object)
 
     ```js
     // only canonicalIdentifier is required
@@ -409,7 +409,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/links)
 
@@ -432,7 +432,7 @@
 
     - Needs a [Branch Universal Object](#create-content-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
     ```js
     let shareOptions = { messageHeader: 'Check this out', messageBody: 'No really, check this out!' }
@@ -447,7 +447,7 @@
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - Listener
 
@@ -636,7 +636,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem rewards
 
@@ -778,7 +778,7 @@
 
 - ### Append metadata to Branch network call
 
-    - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/pages/integrations/data-integrations/)
+    - Functions to append additional metadata, for use cases like inserting user ID's to enable third-party [Data Integrations](/integrations/data-integrations/)
 
         - *Swift 3 & 4*
 
@@ -856,7 +856,7 @@
         **Android**
 
         Simulated installs may be enabled on Android by adding `<meta-data android:name="io.branch.sdk.TestMode" android:value="true"/>` to the `application` element of your Android manifest. Use this in a build type
-        such as `debug` or a product flavor, or be sure to remove it from your manifest before releasing to prod. [Click here](/pages/apps/android/#simulate-an-install) for more details.
+        such as `debug` or a product flavor, or be sure to remove it from your manifest before releasing to prod. [Click here](/apps/android/#simulate-an-install) for more details.
 
         Alternately, add `RNBranchModule.setDebug();` in your MainActivity before the call to `initSession`. Be sure to remove it
         before releasing to prod.
@@ -938,8 +938,8 @@
 
     See the troubleshooting guide for each native SDK:
 
-    - [iOS](/pages/apps/ios/#troubleshoot-issues)
-    - [Android](/pages/apps/android/#troubleshoot-issues)
+    - [iOS](/apps/ios/#troubleshoot-issues)
+    - [Android](/apps/android/#troubleshoot-issues)
 
 - ### Sample apps
 

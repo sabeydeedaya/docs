@@ -1,4 +1,4 @@
-This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/pages/integrations/mparticle).
+This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/integrations/mparticle).
 
 !!! info "These instructions apply to the mParticle SDK version 5+ integration"
     mParticle introduced a new attribution & deep linking API in v5 of their SDK (http://docs.mparticle.com/developers/sdk/android/getting-started/#upgrade-to-version-5-of-the-sdk), so please contact your Branch or mParticle Account Managers for more details, if you have mParticle SDK <v5 installed in your app.
@@ -12,7 +12,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ### Configure Branch & Enable App Links
 
-- Retrieve your [app's fingerprint](/pages/deep-linking/android-app-links/#generate-signing-certificate-fingerprint) to enable App Links in Branch
+- Retrieve your [app's fingerprint](/deep-linking/android-app-links/#generate-signing-certificate-fingerprint) to enable App Links in Branch
 
 - Decide on a URI scheme to use, and configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
@@ -113,7 +113,7 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 
 - Direct calls to the Branch SDK will also require using `.getAutoInstance()`, rather than `.getInstance()`.
 
-- Once you have a reference to the Branch kit, refer to Branch's [native Android SDK](/pages/apps/android/#implement-features) documentation for how to implement secondary functionality.
+- Once you have a reference to the Branch kit, refer to Branch's [native Android SDK](/apps/android/#implement-features) documentation for how to implement secondary functionality.
 
 ## Sample testing apps
 
@@ -121,7 +121,7 @@ Please ensure you've followed [mParticle's documentation](http://docs.mparticle.
 
 ## Troubleshooting
 
-Please refer to the [Branch Android SDK troubleshooting section](/pages/apps/android/#troubleshoot-issues).
+Please refer to the [Branch Android SDK troubleshooting section](/apps/android/#troubleshoot-issues).
 
 ### App not deep linking from cold start
 

@@ -1,1 +1,1 @@
-redirect: /pages/exports/data-feeds-overview/
+redirect: /exports/data-feeds-overview/

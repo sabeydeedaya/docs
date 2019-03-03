@@ -1,1 +1,1 @@
-redirect: /pages/apps/mparticle-android-v5/
+redirect: /apps/mparticle-android-v5/

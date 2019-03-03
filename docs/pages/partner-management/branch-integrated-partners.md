@@ -8,15 +8,15 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 
 ## Integrated Partners
 <div class="nav-wrap flex-wrap">
-  <a href="/pages/deep-linked-ads/ad-networks-list/">
+  <a href="/deep-linked-ads/ad-networks-list/">
     <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Universal Ads Partners</p>
   </a>
-  <a href="/pages/emails/email-partners-list/">
+  <a href="/emails/email-partners-list/">
     <img src="../../../_assets/img/pages/channels/email.png" />
     <p>Universal Email Partners</p>
   </a>
-  <a href="/pages/integrations/data-integrations-list/">
+  <a href="/integrations/data-integrations-list/">
     <img src="../../../_assets/img/pages/main-page/feeds-dot.png" />
     <p>Data Integration Partners</p>
   </a>
@@ -24,4 +24,4 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 
 ## Partner Resources
 
-- [Universal Ads Partner Integration QA Process](/pages/deep-linked-ads/universal-ads-partner-integration-qa-process)
+- [Universal Ads Partner Integration QA Process](/deep-linked-ads/universal-ads-partner-integration-qa-process)

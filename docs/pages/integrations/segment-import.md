@@ -2,7 +2,7 @@
 
 Sending events from Segment to Branch will allow you to attribute downstream conversions like purchases across web and app to Branch link clicks. Events imported from Segment to Branch will be available wherever you can normally use events within Branch, including dashboard visualizations, Data Feeds, Universal Ads postbacks, Journeys targeting, Liveview and more.
 
-This guide walks through the server-side integration for data import from Segment to Branch. For the client-side integration, see [Segment's documentation](https://segment.com/docs/destinations/branch-metrics/){:target="\_blank"}. For data export from Branch to Segment, go [here](/pages/integrations/segment).
+This guide walks through the server-side integration for data import from Segment to Branch. For the client-side integration, see [Segment's documentation](https://segment.com/docs/destinations/branch-metrics/){:target="\_blank"}. For data export from Branch to Segment, go [here](/integrations/segment).
 
 ### What events does Branch import?
 
@@ -26,7 +26,7 @@ Branch will import events that are not auto-tracked with the Branch SDKs. This i
 For server-side event import, **you can ignore the SDK integration instructions**.
 
 !!! warning "Avoid duplicate data"
-    To avoid duplicate data, you should either [track conversion events directly with Branch](/pages/apps/v2event) or track events with Segment and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
+    To avoid duplicate data, you should either [track conversion events directly with Branch](/apps/v2event) or track events with Segment and then enable import to Branch, not both. Branch will warn you if you try to import events to Branch that you are already tracking.
 
 
 ### Track
@@ -118,7 +118,7 @@ Branch maps Segment's identifiers to the following:
 | context.device.id | idfv or android_id |
 | context.device.type | os |
 
-If using User ID with Segment, Branch will automatically map this to [developer identity](/pages/apps/ios/#track-users). Check out Segment's [User ID docs](https://segment.com/docs/spec/identify#user-id){:target="\_blank"} for more details.
+If using User ID with Segment, Branch will automatically map this to [developer identity](/apps/ios/#track-users). Check out Segment's [User ID docs](https://segment.com/docs/spec/identify#user-id){:target="\_blank"} for more details.
 
 At this time, Branch does not map Segment's anonymous ID to any field, and [will not attribute logged out web events](#attribution-for-logged-out-users-on-web) received from the server-to-server integration. Anonymous ID [can still be attached to events](#attaching-anonymous-id-to-events).
 
@@ -142,7 +142,7 @@ Events imported from Segment to Branch will be available wherever you can normal
 
 ### Attaching anonymous ID to events
 
-Events imported from Segment with anonymous ID attached will retain that value on the event, and will be available in the custom_data field if exported back out from Branch. To attach anonymous ID to events auto-tracked by Branch (installs, opens, etc.), follow the instructions [here](/pages/integrations/segment/#pass-segment-anonymous-id).
+Events imported from Segment with anonymous ID attached will retain that value on the event, and will be available in the custom_data field if exported back out from Branch. To attach anonymous ID to events auto-tracked by Branch (installs, opens, etc.), follow the instructions [here](/integrations/segment/#pass-segment-anonymous-id).
 
 ### Attribution for logged out users on web
 

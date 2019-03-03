@@ -8,7 +8,7 @@ Deepviews are discoverable in all search portals (Google, Apple Spotlight, Bing,
 ![image](/_assets/img/pages/deepviews/deepviews_allthecooks.gif)
 
 !!! note "Intended for apps without a mobile website"
-    If you already have a mobile website with content, [Journeys](/pages/web/journeys/) is better suited.
+    If you already have a mobile website with content, [Journeys](/web/journeys/) is better suited.
 
 ## Setup
 
@@ -24,7 +24,7 @@ Deepviews are discoverable in all search portals (Google, Apple Spotlight, Bing,
 
     ![image](/_assets/img/pages/deepviews/deepviews_desktop.png)
 
-    Note that this will override any [Text-Me-The-App](/pages/web/text-me-the-app/) page you have configured.
+    Note that this will override any [Text-Me-The-App](/web/text-me-the-app/) page you have configured.
 
 !!! note "Changing the app icon"
     If we pulled the wrong app icon, you can upload a new one in the _Social Media Display Customization_ section of the [dashboard Settings](https://dashboard.branch.io/link-settings).
@@ -48,7 +48,7 @@ Only users who do not have the app will go through this flow. You can view the t
 
 ### Customizing Deepviews
 
-The default Deepview template simply displays the content from three of the link's [control parameters](/pages/links/integrate/#redirections). You can specify the content of these parameters when creating your link to control what will display in that link’s Deepview. If nothing is set for a particular link, we will gracefully fall back to the OG values set for your entire app in _Settings > Link Settings > Social Media Display Customization._
+The default Deepview template simply displays the content from three of the link's [control parameters](/links/integrate/#redirections). You can specify the content of these parameters when creating your link to control what will display in that link’s Deepview. If nothing is set for a particular link, we will gracefully fall back to the OG values set for your entire app in _Settings > Link Settings > Social Media Display Customization._
 
 | Key | Value
 | --- | ---
@@ -118,7 +118,7 @@ Edit the Title, Description and Image URL in the _Social Media_ section.
 
 ### Enable per-link Deepviews
 
-If you don't want to enable Deepviews globally, you can do it for each platform on a per link basis by inserting custom link control parameters [link control parameters](/pages/links/integrate/#deepview).
+If you don't want to enable Deepviews globally, you can do it for each platform on a per link basis by inserting custom link control parameters [link control parameters](/links/integrate/#deepview).
 
 Enable Desktop Deepviews by appending query parameters:
 
@@ -223,7 +223,7 @@ You can use the Deepview editor to edit created templates. You cannot edit pre-c
 
 ### Inject Other Data Into Deepviews
 
-By customizing your Deepview template, you have the ability to pass through other parameters from your link's [data dictionary](/pages/links/integrate/#configure-deep-links).
+By customizing your Deepview template, you have the ability to pass through other parameters from your link's [data dictionary](/links/integrate/#configure-deep-links).
 
 Here's a full list of liquid available tags:
 
@@ -249,7 +249,7 @@ This is the App object, which contains app data not specific to any link. This w
 
 **link data**
 
-Link Object, which contains all of your link's parameters, including your deep link values from the data dictionary. See the [Configuring Links](/pages/links/integrate/#configure-deep-links) page for more information. You can surface this object in your Deepview like so:
+Link Object, which contains all of your link's parameters, including your deep link values from the data dictionary. See the [Configuring Links](/links/integrate/#configure-deep-links) page for more information. You can surface this object in your Deepview like so:
 
 ```
 {{link_data}}
@@ -292,4 +292,4 @@ To disable passive deepviews, simply set the value to `false` in the link data.
 | $ios_passive_deepview | The name of the template to use for iOS. | `default_template`
 | $android_passive_deepview | The name of the template to use for Android. | `default_template`
 
-To enable another template as the default passive deepview, select the 'Set as Passive Default' option. You can also change the template **on a link level** by providing the template name in the [control parameters](/pages/links/integrate/#deepview). If you're creating a link by appending query parameters, you simply need to append the parameters to the URL. Please make sure to URL encode everything, lest the link will break.
+To enable another template as the default passive deepview, select the 'Set as Passive Default' option. You can also change the template **on a link level** by providing the template name in the [control parameters](/links/integrate/#deepview). If you're creating a link by appending query parameters, you simply need to append the parameters to the URL. Please make sure to URL encode everything, lest the link will break.

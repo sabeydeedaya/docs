@@ -27,7 +27,7 @@ Start by generating a SHA256 fingerprint of your app's signing certificate.
 1. Go to the [Link Settings](https://dashboard.branch.io/link-settings) page on the dashboard.
 1. Scroll down to the `Link Domain` area.
 1. Copy your domain name. ![image](/_assets/img/pages/deep-linking/universal-links/subdomain-setting.png)
-1. Choose the `Activity` you want to open up when a link is clicked. This is typically your `SplashActivity` or a `BaseActivity` that all other activities inherit from (and likely the same one you selected in the [SDK integration guide](/pages/apps/android/#configure-app)).
+1. Choose the `Activity` you want to open up when a link is clicked. This is typically your `SplashActivity` or a `BaseActivity` that all other activities inherit from (and likely the same one you selected in the [SDK integration guide](/apps/android/#configure-app)).
 1. Inside your `AndroidManifest.xml`, locate where the selected `Activity` is defined.
 1. Within the `Activity` definition, insert the intent filter provided below (making sure that `xxxx` matches the subdomain prefix you've been assigned or selected for yourself). Be sure to add this as its own separate intent filter.
 
@@ -44,7 +44,7 @@ Start by generating a SHA256 fingerprint of your app's signing certificate.
 ```
 
 !!! tip "Using a custom domain or subdomain?"
-	If you use a [custom domain or subdomain for your Branch links](/pages/dashboard/integrate/#change-link-domain), you should also add an entry for:
+	If you use a [custom domain or subdomain for your Branch links](/dashboard/integrate/#change-link-domain), you should also add an entry for:
 
 	```xml
 	<data android:scheme="https" android:host="mycustomdomainorsubdomain" />

@@ -1,8 +1,8 @@
 ### Prerequisites
 
 This guide requires you to have already integrated the Branch SDK into your app:
-- [iOS](/pages/apps/ios/)
-- [Android](/pages/apps/android/)
+- [iOS](/apps/ios/)
+- [Android](/apps/android/)
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
@@ -73,7 +73,7 @@ To enable Universal Links on your click tracking domain, you'll need to add the 
     ![image](/_assets/img/pages/email/add-domain.png)
 
 !!! protip "Having trouble or new to Universal Links?"
-    Follow [these instructions](/pages/deep-linking/universal-links/) for more details on enabling Universal Links in the Branch dashboard and in Xcode.
+    Follow [these instructions](/deep-linking/universal-links/) for more details on enabling Universal Links in the Branch dashboard and in Xcode.
 
 **Android:** Add click tracking domain to intent filter in **AndroidManifest.xml**
 

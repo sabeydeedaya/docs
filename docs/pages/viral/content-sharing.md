@@ -154,15 +154,15 @@ Here's an example of what you'll see with iOS on the left and Android on the rig
 
 !!! note "To learn more about the concepts we used, visit these pages"
     - [Creating Links in Apps](#dialog-code?ios=create-deep-link&android=create-deep-link&adobe=create-deep-link&cordova=create-deep-link&mparticleAndroid=create-deep-link&mparticleIos=create-deep-link&titanium=create-deep-link&reactNative=create-deep-link&unity=create-deep-link&xamarin=create-deep-link)
-    - [Configuring Links](/pages/links/integrate/#configure-deep-links)
+    - [Configuring Links](/links/integrate/#configure-deep-links)
     - [Branch Universal Object](#dialog-code?ios=create-content-reference&android=create-content-reference&adobe=create-deep-link&cordova=create-content-reference&mparticleAndroid=create-content-reference&mparticleIos=create-content-reference&titanium=create-content-reference&reactNative=create-content-reference&unity=create-content-reference&xamarin=create-content-reference)
-    - [Deep Link Routing](/pages/deep-linking/routing/)
+    - [Deep Link Routing](/deep-linking/routing/)
 
 ### Route incoming users directly to content
 
-Now that your user has created a link and sent it to a friend, you should detect the incoming link when that friend opens your app, and route directly to the shared content. Read more about how to do this on the [Deep Link Routing](/pages/deep-linking/routing/) page.
+Now that your user has created a link and sent it to a friend, you should detect the incoming link when that friend opens your app, and route directly to the shared content. Read more about how to do this on the [Deep Link Routing](/deep-linking/routing/) page.
 
-If you want to give a preview of the content to users who have not yet downloaded your app, try out [Deepviews](/pages/web/deep-views/).
+If you want to give a preview of the content to users who have not yet downloaded your app, try out [Deepviews](/web/deep-views/).
 
 ### Viewing live data on the Branch dashboard
 

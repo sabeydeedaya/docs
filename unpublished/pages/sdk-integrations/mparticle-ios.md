@@ -1,9 +1,9 @@
 ## Integrate Branch
 
-This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/pages/integrations/mparticle).
+This documentation explains how to send **mParticle events to your Branch dashboard**. If you'd like to send Branch installs to your mParticle dashboard, please review the [Branch/mParticle Data Integration](/integrations/mparticle).
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2"
-    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/pages/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
+    After updating a device to iOS 11.2, we found that the app's AASA file is no longer downloaded reliably onto your user’s device after an app install. As a result, clicking on Universal links will no longer open the app consistenly. You can set [forced uri redirect mode](/links/integrate/#forced-redirections) on your Branch links to open the app with URI schemes. View details of the issue on the [Apple Bug report](http://www.openradar.me/radar?id=4999496467480576).
 
 
 !!! warning "These instructions apply to any integration below mParticle SDK version 7"
@@ -26,9 +26,9 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 - ### Configure associated domains
 
     - Add your link domains from your [Branch Dashboard](https://dashboard.branch.io/settings/link)
-    - `-alternate` is needed for Universal Linking with the [Web SDK](/pages/web/integrate/) inside your Website
+    - `-alternate` is needed for Universal Linking with the [Web SDK](/web/integrate/) inside your Website
     - `test-` is needed if you need use a [test key](#use-test-key)
-    - If you use a [custom link domain](/pages/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
+    - If you use a [custom link domain](/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your `-alternate` link domain, and your new link domain
 
         ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
@@ -248,7 +248,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - The `Branch Universal Object` encapsulates the thing you want to share
 
-    - Uses [Universal Object properties](/pages/links/integrate/#universal-object)
+    - Uses [Universal Object properties](/links/integrate/#universal-object)
 
     - *Swift 3*
 
@@ -289,7 +289,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Used for [Create deep link](#create-deep-link) and [Share deep link](#share-deep-link)
 
-    - Uses [Configure link data](/pages/links/integrate/#configure-deep-links) and custom data
+    - Uses [Configure link data](/links/integrate/#configure-deep-links) and custom data
 
     - *Swift 3*
 
@@ -371,7 +371,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Needs a [Create link reference](#create-link-reference)
 
-    - Uses [Deep Link Properties](/pages/links/integrate/)
+    - Uses [Deep Link Properties](/links/integrate/)
 
      - *Swift 3*
 
@@ -396,7 +396,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Best practice to receive data from the `listener` (to prevent a race condition)
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - *Swift 3*
         ```swift
@@ -681,7 +681,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Redeem credits
 
@@ -770,7 +770,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
     - Investigate if the device disabled universal links ([Re-enable universal linking](##re-enable-universal-linking))
 
-    - Investigate if it is a link related issue ([Deep links do not open app](/pages/links/integrate/#deep-links-do-not-open-app))
+    - Investigate if it is a link related issue ([Deep links do not open app](/links/integrate/#deep-links-do-not-open-app))
 
     - Use [Universal links validator](https://branch.io/resources/universal-links/)
 

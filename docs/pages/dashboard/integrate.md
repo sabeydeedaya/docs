@@ -14,7 +14,7 @@
 
     - Set the default behavior for your deep links on [Link Settings](https://dashboard.branch.io/link-settings)
 
-    - These values are typically overridden by [Custom link behavior](/pages/links/integrate/#custom-link-behavior) for each deep link
+    - These values are typically overridden by [Custom link behavior](/links/integrate/#custom-link-behavior) for each deep link
 
     - ##### iOS
 
@@ -71,7 +71,7 @@
     - ##### Social media
 
         - Set the default image preview for your deep links when shared on social media
-        - These values are typically overridden by [Custom link behavior](/pages/links/integrate/#custom-link-behavior) which differentiate your deep links between one another
+        - These values are typically overridden by [Custom link behavior](/links/integrate/#custom-link-behavior) which differentiate your deep links between one another
 
             ![image](/_assets/img/pages/dashboard/social-media.png)
 
@@ -84,8 +84,8 @@
 
     - Go to [Deepview Previews](https://dashboard.branch.io/web/deepviews) on the Branch Dashboard
     - Toggle `Enabled` for `branch_default` for `iOS` and `Android`
-    - This will make your deep links perform optimally on all [Supported platforms](/pages/links/integrate/#expected-redirect-behavior)
-    - Additional details about [Deepviews](/pages/web/deep-views/)
+    - This will make your deep links perform optimally on all [Supported platforms](/links/integrate/#expected-redirect-behavior)
+    - Additional details about [Deepviews](/web/deep-views/)
 
         ![image](/_assets/img/pages/dashboard/deepview.png)
 
@@ -103,7 +103,7 @@
 - ### Configure team
     - Go to [Account settings](https://dashboard.branch.io/account-settings/team) on the Branch Dashboard
     - Add and update team members to your Branch dashboard
-        - Set users' [dashboard permissions](/pages/dashboard/access-level)
+        - Set users' [dashboard permissions](/dashboard/access-level)
 
 - ### Change advanced settings
     - Go to [Link Settings](https://dashboard.branch.io/link-settings) on the Branch Dashboard

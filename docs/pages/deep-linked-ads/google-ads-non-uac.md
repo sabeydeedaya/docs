@@ -1,9 +1,9 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview/)
-		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable/)
-		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac/)
+		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
+		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
+		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
 		- **Web-based Ads** (this page)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/)
+		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
 Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
 
@@ -11,7 +11,7 @@ Whereas Universal App Campaigns are focused solely on the single conversion type
 
 ### Basic Integration Prerequisites
 * [x] Branch SDK integrated into your app.
-* [x] Collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
+* [x] Collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/apps/ios/#install-branch) and [Android](/apps/android/#install-branch) respectively.
 * [x] Track all necessary events through the SDKs, with instructions [here](#forwarding-events-to-google-ads).
 * [x] Have admin access to your Google Ads account; required for generating Link IDs in Google Ads.
 
@@ -20,8 +20,8 @@ Whereas Universal App Campaigns are focused solely on the single conversion type
 If you are running any Web-based (non-UAC) Google Ads campaigns and want to leverage the power of Branch for **desktop and mobile web** conversions, please make sure you complete the following:
 
 * [x] [Basic Integration Prerequisites](#basic-integration-prerequisites)
-* [x] [Branch Web SDK v2.48.0+](/pages/web/integrate/)
-* [x] [Measurement of relevant v2 events](/pages/web/integrate/#track-events)
+* [x] [Branch Web SDK v2.48.0+](/web/integrate/)
+* [x] [Measurement of relevant v2 events](/web/integrate/#track-events)
 
 ### Web + App Routing Prerequisites
 
@@ -32,14 +32,14 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 * [x] Place your [modified Branch link](#modifying-your-final-url-to-include-your-branch-link-as-a-query-parameter) in the `Final URL` field during Google Ads campaign setup.
 * [x] Branch Deep Linking enabled via either:
 	* [x] Adding `$uri_redirect_mode=1` to link's data.  If app link settings `URI Deep Link Mode` is set to `Intelligent`, then this link key is unnecessary.
-	* [x] [App links (Android)](/pages/deep-linking/android-app-links/) and/or [Universal Links (iOS)](/pages/deep-linking/universal-links/).
+	* [x] [App links (Android)](/deep-linking/android-app-links/) and/or [Universal Links (iOS)](/deep-linking/universal-links/).
 
 ![image](/_assets/img/pages/deep-linked-ads/google/web-based-ads-routing-options.png)
 
 ## Setup
 
 !!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
 
 ### Create a Branch Ad Link
 
@@ -60,7 +60,7 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 	In order to line up *impressions*, *clicks* and *cost* with all downstream events, analytics tags must be present on the link and the values must *exactly* match the values in the Ad Network's dashboard.
 
 !!! note "Optional: Deep Link Data"
-	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/pages/deep-linking/routing/) page to learn more.
+	You can use this configuration section to specify custom link parameters that will be deep linked into the app after install. These could include a coupon code or a page identifier to route the user. Visit the [Deep Link Routing](/deep-linking/routing/) page to learn more.
 
 #### Modifying your Final URL to Include Your Branch Link as a Query Parameter
 
@@ -84,7 +84,7 @@ Please follow Google Ads help documentation on how to create a new [Google Ads c
 For additional information on Google Ads campaigns, please see [Create ads and campaigns](https://support.google.com/google-ads/topic/3119116?hl=en&ref_topic=311907).
 
 !!! tip "Setting Attribution Windows"
-	You can specify the attribution windows for your links either at an overall account or per link level. Use these windows to accurately measure attribution data for your Branch links. Refer to [Changing attribution windows](/pages/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for instructions.
+	You can specify the attribution windows for your links either at an overall account or per link level. Use these windows to accurately measure attribution data for your Branch links. Refer to [Changing attribution windows](/deep-linked-ads/branch-universal-ads/#change-attribution-windows) for instructions.
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

@@ -49,7 +49,7 @@
         | Key | Value | Usage | Required
         | --- | :-: | --- | :-:
         | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/account-settings/app) | √
-        | ... | ... | Parameters from [Configuring Links](/pages/links/integrate/) |
+        | ... | ... | Parameters from [Configuring Links](/links/integrate/) |
 
 - ### Link create bulk
 
@@ -112,13 +112,13 @@
         | Key | Value | Usage | Required
         | --- | :-: | --- | :-:
         | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
-        | ... | ... | Parameters from [Configuring Links](/pages/links/integrate/) |
+        | ... | ... | Parameters from [Configuring Links](/links/integrate/) |
 
     - Bulk link creator is limited to `1000` links at a time
 
 - ### Link read
 
-    - Returns [deep link properties](/pages/links/integrate/#read-deep-links)
+    - Returns [deep link properties](/links/integrate/#read-deep-links)
 
     - *Request*
 

@@ -1,6 +1,6 @@
 ### Enable Data Feeds
 
-Data Integrations are included as part of the Data Feeds product. For more information on Data Feeds, and how to enable it, please read the [Data Feeds summary](/pages/exports/data-feeds/).
+Data Integrations are included as part of the Data Feeds product. For more information on Data Feeds, and how to enable it, please read the [Data Feeds summary](/exports/data-feeds/).
 
 ### Select the integration
 

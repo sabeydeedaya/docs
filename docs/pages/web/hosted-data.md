@@ -1,6 +1,6 @@
 ## Why
 
-- Make it easier for your marketers to create deep links whenever they create [Journeys](/pages/web/journeys/), [Universal Emails](/pages/emails/braze/), [Quick links](/pages/dashboard/analytics/#quick-links), or use the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf).
+- Make it easier for your marketers to create deep links whenever they create [Journeys](/web/journeys/), [Universal Emails](/emails/braze/), [Quick links](/dashboard/analytics/#quick-links), or use the [Chrome Extension](https://chrome.google.com/webstore/detail/branch-link-creator/pekdpppibljpmpbcjelehhnldnfbglgf).
 
 ## What
 
@@ -15,17 +15,17 @@
 
         - Do you have any content on web that doesn’t exist in the app? Examples include: time-sensitive promotions, splash pages, micro-sites.
         - For content that has corresponding app content, what type of pages do you have? Examples include: search result pages, category homepages, product pages.
-        - If you’ve already set up deep linking (if you haven’t set up deep linking skip this step): what does your deep linking schema look like? Do you use different keys for different content? Do you have required key/value pairs that aren’t content specific? Examples include: `productPage` or `categoryPage` keys, or `product_view=true`.  
+        - If you’ve already set up deep linking (if you haven’t set up deep linking skip this step): what does your deep linking schema look like? Do you use different keys for different content? Do you have required key/value pairs that aren’t content specific? Examples include: `productPage` or `categoryPage` keys, or `product_view=true`.
 
 - ### Add metatags to your site
 
     - This will become the key-value pair in your deep link data, for example:
-          
+
         | Example URL | URL data | Metatags to add to your site
-        | --- | --- | --- 
+        | --- | --- | ---
         | https://shop.com/shoes/brown-loafers | productId=1234, productView=true | `<meta name="branch:deeplink:productId" content="1234" />`, `<meta name="branch:deeplink:productView" content="true" />`
         | https://shop.com/shoes | categoryId=5678 | `<meta name="branch:deeplink:categoryId" content="5678" />`
-        |https://shop.com/your-mother-is-great | No corresponding app content ([open web](/pages/links/integrate/#open-web-instead-of-app)) | `<meta name="branch:deeplink:$web_only" content="true" />`
+        |https://shop.com/your-mother-is-great | No corresponding app content ([open web](/links/integrate/#open-web-instead-of-app)) | `<meta name="branch:deeplink:$web_only" content="true" />`
 
 ## Troubleshoot
 

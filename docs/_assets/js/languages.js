@@ -3,7 +3,7 @@
 var languages = (function() {
   // cache
   var cache = {
-    base: '/pages/apps',
+    base: '/apps',
     hash: '#dialog-code',
     pages: {
       ios: {

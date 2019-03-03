@@ -15,10 +15,10 @@ Within your Account Settings, you have access to the following functionality:
 - SSO
 
 ## Basic Account Settings
-- [App Level Settings](/pages/dashboard/integrate/)
-- [Setting Your Dashboard Analytics Timezone](/pages/dashboard/timezone/)
+- [App Level Settings](/dashboard/integrate/)
+- [Setting Your Dashboard Analytics Timezone](/dashboard/timezone/)
 
 ## Advanced Account Settings
-- [Viewing Billing Info](/pages/dashboard/viewing-billing)
-- [Enabling Single Sign On](/pages/dashboard/sso)
-- [Defining Access Levels](/pages/dashboard/access-level)
+- [Viewing Billing Info](/dashboard/viewing-billing)
+- [Enabling Single Sign On](/dashboard/sso)
+- [Defining Access Levels](/dashboard/access-level)

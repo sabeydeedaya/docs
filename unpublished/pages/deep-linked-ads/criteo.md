@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=/pages/deep-linked-ads/criteo-mobile-tracking/" />
+<meta http-equiv="refresh" content="0; url=/deep-linked-ads/criteo-mobile-tracking/" />

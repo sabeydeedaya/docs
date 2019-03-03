@@ -10,7 +10,7 @@ Listing your app content on Apple's new Spotlight search with Branch is easy. No
 
 ### Prerequisites
 
-This guide requires you to have already [integrated the Branch SDK](/pages/apps/ios/) into your app. For Spotlight search results to function as intended, you should also [configure deep link routing](/pages/apps/ios/#navigate-to-content).
+This guide requires you to have already [integrated the Branch SDK](/apps/ios/) into your app. For Spotlight search results to function as intended, you should also [configure deep link routing](/apps/ios/#navigate-to-content).
 
 
 ### List Content
@@ -98,7 +98,7 @@ Open your **AppDelegate.m** file and add the following method. If you completed 
 
 ### Use deepviews for user acquisition
 
-If the user doesn't have the app installed and finds your content through search, Spotlight will open up the browser. In this situation, you can [show a Deepview](/pages/web/deep-views/), which is an automatically-generated, mobile web render of the app content.
+If the user doesn't have the app installed and finds your content through search, Spotlight will open up the browser. In this situation, you can [show a Deepview](/web/deep-views/), which is an automatically-generated, mobile web render of the app content.
 
 ### Customize content
 

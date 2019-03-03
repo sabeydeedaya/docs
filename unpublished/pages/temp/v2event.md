@@ -8,7 +8,7 @@ Find the event you're interested in tracking, and we'll show you the way to trac
 
 ## Prerequisites
 
-With event tracking, it's important to track the objects related to the event occurring. Branch provides a map for all your in-app objects, and wraps them around a class called the [Branch Universal Object](/pages/apps/ios/#create-content-reference). For any of the events tracked below, make sure to include the universal object(s) involved. For example, if you want to track when someone purchases 3 items, you'd want to create a Branch Universal Object per item, and pass them along when saving the event.
+With event tracking, it's important to track the objects related to the event occurring. Branch provides a map for all your in-app objects, and wraps them around a class called the [Branch Universal Object](/apps/ios/#create-content-reference). For any of the events tracked below, make sure to include the universal object(s) involved. For example, if you want to track when someone purchases 3 items, you'd want to create a Branch Universal Object per item, and pass them along when saving the event.
 
 Refer to the above document to set up Branch Universal Objects.
 

@@ -1,9 +1,9 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview/)
-		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable/)
+		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
+		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
 		- **Universal App Campaigns (UAC)**  (this page)
-		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/)
+		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
+		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
 Universal App campaigns allow you to promote your app across Google Search, Google Play, YouTube, Gmail, and within other apps and mobile websites on the Display Network.
 
@@ -15,12 +15,12 @@ Unlike most Google Ads campaigns, you don't design individual ads for Universal 
 	Branch's integration with Google Ads supports linking and attribution for Universal App Campaigns without the use of Branch links. As all UACs direct users to the respective app store, please make sure you complete the following.
 
 * [x] Branch SDK integrated into your app.
-* [x] Collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/pages/apps/ios/#install-branch) and [Android](/pages/apps/android/#install-branch) respectively.
+* [x] Collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/apps/ios/#install-branch) and [Android](/apps/android/#install-branch) respectively.
 * [x] Track all necessary events through the SDKs, with instructions [here](#forwarding-events-to-google-ads).
 * [x] Have admin access to your Google Ads account; required for generating Link IDs in Google Ads.
 
 !!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
 
 ## Creating a Universal App Campaign
 

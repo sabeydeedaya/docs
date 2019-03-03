@@ -3,7 +3,7 @@
 !!! Note
     Completing this section -- "Enable Facebook as an Ad Partner" -- will result in Branch sending app events to Facebook in order to attribute them back to ad campaigns. **This does not enable deep linking for the ad**. Further work below is required for deep linking.
 
-If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow this section to do so. Advanced options for sending events can be found [here](/pages/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
+If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow this section to do so. Advanced options for sending events can be found [here](/deep-linked-ads/facebook-ads-faq/#facebook-mmp-event-options).
 
 1. Navigate to the [Partner Management tab](https://dashboard.branch.io/ads/partner-management).
 
@@ -34,7 +34,7 @@ If you haven't enabled Facebook as an Ad Partner on the Branch dashboard follow 
     ![Choose ad accounts](/_assets/img/ingredients/deep-linked-ads/enable-facebook-ad-partner/5-adaccounts.png)
 
     !!! Note
-        If you are having trouble finding or selecting the ad account(s) for which you want to run ads, please visit our [FAQ](/pages/deep-linked-ads/facebook-ads-faq/#im-having-problems-finding-or-choosing-the-correct-ad-accounts).
+        If you are having trouble finding or selecting the ad account(s) for which you want to run ads, please visit our [FAQ](/deep-linked-ads/facebook-ads-faq/#im-having-problems-finding-or-choosing-the-correct-ad-accounts).
 
 1. Click to select a Facebook app id for which you want to run Facebook ads
 

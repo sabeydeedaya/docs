@@ -1,7 +1,7 @@
 ---
 title: Marketing your iOS 10 iMessage app
 description: A quick guide on how to configure your Branch links to track installs and deep link your iOS 10 iMessage app.
-path: tree/master/src/pages/app-to-app
+path: tree/master/src/app-to-app
 source: imessage-apps.md
 ---
 ## Overview
@@ -58,4 +58,4 @@ You're all set! All of your Branch links will correctly link to the iMessages Ap
 
 ### Tracking installs
 
-To track installs and personalize the first time user experience, you simply need to follow the instructions in the [SDK integration guide](/pages/apps/ios/) for iMessage apps. You'll integrate the SDK just as you have for your main App Store app.
+To track installs and personalize the first time user experience, you simply need to follow the instructions in the [SDK integration guide](/apps/ios/) for iMessage apps. You'll integrate the SDK just as you have for your main App Store app.

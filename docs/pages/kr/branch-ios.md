@@ -4,7 +4,7 @@
 
 - ### Branch 설정
 
-    - [Configure your dashboard](/pages/dashboard/integrate/) 내에서 기본 연동을 완료합니다.
+    - [Configure your dashboard](/dashboard/integrate/) 내에서 기본 연동을 완료합니다.
 
     - `I have an iOS app` 을 체크합니다.
 
@@ -19,9 +19,9 @@
 - ### Associated domain 설정
 
     - Branch Dashboard](https://dashboard.branch.io/settings/link) 로부터 받은 링크 도메인을 추가합니다.
-    - `-alternate` 는 귀사의 웹 사이트 내에서 저희 [Web SDK](/pages/web/integrate/)를 통해 Universal Link 연결하는데 반드시 필요합니다.
+    - `-alternate` 는 귀사의 웹 사이트 내에서 저희 [Web SDK](/web/integrate/)를 통해 Universal Link 연결하는데 반드시 필요합니다.
     - 만약 test key](#use-test-key) 를 사용하신다면 `test-` 도 필요합니다.
-    - 만약 귀사에서 [custom link domain](/pages/dashboard/integrate/#change-link-domain) 을 사용한다면 옛 링크 도메인, `-alternate` 링크 도메인, 새로운 링크 도메인 등을 포함시켜야 합니다.
+    - 만약 귀사에서 [custom link domain](/dashboard/integrate/#change-link-domain) 을 사용한다면 옛 링크 도메인, `-alternate` 링크 도메인, 새로운 링크 도메인 등을 포함시켜야 합니다.
 
         ![image](/_assets/img/pages/apps/ios-entitlements.png)
 
@@ -181,7 +181,7 @@
 
     - `Branch Universal Object` 는 공유하고자는 컨텐츠를 포장할 수 있습니다.
 
-    - [Universal Object properties](/pages/links/integrate/#universal-object) 를 사용합니다.
+    - [Universal Object properties](/links/integrate/#universal-object) 를 사용합니다.
 
     - *Swift 3*
 
@@ -213,7 +213,7 @@
 
     - [딥링크 생성](#create-deep-link)과 [딥링크 공유](#share-deep-link)에 사용됩니다.
 
-    - [링크 데이터 설정](/pages/links/integrate/#configure-deep-links)과 커스텀 데이터에 사용됩니다.
+    - [링크 데이터 설정](/links/integrate/#configure-deep-links)과 커스텀 데이터에 사용됩니다.
 
     - *Swift 3*
 
@@ -296,7 +296,7 @@
 
     - Branch Link Properties(Link Reference) 가 필요합니다.
 
-    - [Deep Link Properties](/pages/links/integrate/)를 사용해야 합니다.
+    - [Deep Link Properties](/links/integrate/)를 사용해야 합니다.
 
      - *Swift 3*
 
@@ -321,7 +321,7 @@
 
     - `listener` 로부터 데이터를 전달 받을 때의 Best Practice 는 Race Condition 을 피하는 것입니다.
 
-    - [deep link properties](/pages/links/integrate/#read-deep-links)(딥링크 속성) 을 반환합니다.
+    - [deep link properties](/links/integrate/#read-deep-links)(딥링크 속성) 을 반환합니다.
 
     - *Swift 3*
 
@@ -502,7 +502,7 @@
 
     - Reward credits
 
-        -  [Referral guide](/pages/dashboard/analytics/#referrals)
+        -  [Referral guide](/dashboard/analytics/#referrals)
 
     - Credits 보상
 
@@ -736,7 +736,7 @@
 
     - 디바이스가 Universal Link를 비활성화하지는 않았는지 조사합니다. ([Re-enable universal linking](#re-enable-universal-linking))
 
-    - 링크 관련 이슈가 아닌지 확인합니다. ([Deep links do not open app](/pages/links/integrate/#deep-links-do-not-open-app))
+    - 링크 관련 이슈가 아닌지 확인합니다. ([Deep links do not open app](/links/integrate/#deep-links-do-not-open-app))
 
     - [Universal links validator](https://branch.io/resources/universal-links/) 를 사용합니다.
 

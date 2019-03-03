@@ -12,7 +12,7 @@ When a link is clicked by a user without the app, it will route that user to the
 
 ### Prerequisites
 
-- This guide requires you to have already [integrated the Branch SDK](/pages/apps/ios/) into your app.
+- This guide requires you to have already [integrated the Branch SDK](/apps/ios/) into your app.
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
@@ -56,7 +56,7 @@ In this step, you will want to enter a web URL that corresponds to a specific sc
 - An article
 - A content page, like a video or image
 
-Once you choose one and click **Submit**, [meta tags that can be used for deep linking](/pages/web/hosted-data/) will be retrieved from your webpage. You will see a result indicating the mapping between your web content and your app content. For a full explanation of the tests run on this page and the possible results, check out the [support section](/pages/emails/support/#deep-linking-setup-messages).
+Once you choose one and click **Submit**, [meta tags that can be used for deep linking](/web/hosted-data/) will be retrieved from your webpage. You will see a result indicating the mapping between your web content and your app content. For a full explanation of the tests run on this page and the possible results, check out the [support section](/emails/support/#deep-linking-setup-messages).
 
 #### We couldn't determine your deep linking setup
 

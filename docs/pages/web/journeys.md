@@ -6,7 +6,7 @@ On a daily basis, Google Search drives **more app installs** than all of Faceboo
 
 - **Customizable presentation.** WYSIWYG designer for smart banner or full-page interstitial, with more coming soon.
 - **Powerful targeting rules.** Want to show your Journey only visitors without your app installed already? All iOS users from Japan? Just users viewing your checkout page? Android users who have visited your website twice AND purchased something using your app? The possibilities are infinite.
-- **AMP-compatible.** You can convert mobile search traffic to your app by [showing Journeys on AMP pages](/pages/web/amp-journeys/).
+- **AMP-compatible.** You can convert mobile search traffic to your app by [showing Journeys on AMP pages](/web/amp-journeys/).
 - **Run A/B tests.** Design multiple campaign versions to see which converts most effectively.
 - **Optimized user experience.** If installed, your app will open and users can be routed directly to the content they expect. If not, the App/Play store will open and users can still be routed directly to the content they expect after installing.
 - **Comprehensive analytics.** Measure the downstream performance and retention of every Journeys campaign.
@@ -21,7 +21,7 @@ On a daily basis, Google Search drives **more app installs** than all of Faceboo
 ## Setup
 
 !!! note "Include your alternate domain for Universal Links"
-    Journeys uses your alternate domain for Universal Links. Make sure you include your `xxxx-alternate.app.link` domain in your [Associated Domains](/pages/apps/ios/#configure-associated-domains). If you use a custom domain or subdomain for your Branch links, you should instead add entries for `applinks:[mycustomdomainorsubdomain]` and `XXXX-alternate.app.link`. If you’re unsure of your Branch-assigned app.link subdomain, [contact support](https://support.branch.io), and we can provide it.
+    Journeys uses your alternate domain for Universal Links. Make sure you include your `xxxx-alternate.app.link` domain in your [Associated Domains](/apps/ios/#configure-associated-domains). If you use a custom domain or subdomain for your Branch links, you should instead add entries for `applinks:[mycustomdomainorsubdomain]` and `XXXX-alternate.app.link`. If you’re unsure of your Branch-assigned app.link subdomain, [contact support](https://support.branch.io), and we can provide it.
 
 ### Add the Branch Web SDK to your site
 
@@ -36,12 +36,12 @@ Add the following code somewhere inside the `<head></head>` tags on your website
 {! partials/replace-branch-key.md !}
 
 !!! note "GDPR considerations"
-    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links. Click [here](/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
+    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links. Click [here](/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
 
 
 ### Deep linking from the banner or interstitial
 
-Like all Branch deep links, you can pass custom parameters by specifying keys in the link's [data dictionary](/pages/links/integrate/#configure-deep-links). This is useful if you are showing the Smart Banner on a website page with equivalent in-app content, because you can route directly to that content in your app.
+Like all Branch deep links, you can pass custom parameters by specifying keys in the link's [data dictionary](/links/integrate/#configure-deep-links). This is useful if you are showing the Smart Banner on a website page with equivalent in-app content, because you can route directly to that content in your app.
 
 This example will take the visitor straight to a picture with id “12345” after installing and opening the app.
 
@@ -67,7 +67,7 @@ branch.setBranchViewData({
 });
 ```
 
-If a user is referred to a page running Journeys via a Branch link, then referring link data will be passed into the Journeys call-to-action by default. If you’re using setBranchViewData() to specify link data for Journeys on that page, the only data from setBranchViewData() that will be used are [dynamic Journeys layout parameters](/pages/web/journeys/#dynamic-journeys-layout-customization); all other data in that call will be ignored, unless `make_new_link` is set to `true` in `branch.init()`. You can find more information [here](/pages/web/journeys/#preserve-or-discard-referring-link-data).
+If a user is referred to a page running Journeys via a Branch link, then referring link data will be passed into the Journeys call-to-action by default. If you’re using setBranchViewData() to specify link data for Journeys on that page, the only data from setBranchViewData() that will be used are [dynamic Journeys layout parameters](/web/journeys/#dynamic-journeys-layout-customization); all other data in that call will be ignored, unless `make_new_link` is set to `true` in `branch.init()`. You can find more information [here](/web/journeys/#preserve-or-discard-referring-link-data).
 
 ### Create Journey banner or interstitial
 
@@ -90,7 +90,7 @@ You can customize the audience that will see your Journey by choosing target pla
 | --- | --- |
 | Platform | Branch currently offers Journeys on one platform: **Mobile web**. This will display for mobile users on your website. _More options coming soon._
 | Devices | Which devices would you like to target? For example, if you only have an iOS app, then you might want to show a Journey only to users viewing your mobile website on iOS.
-| Additional Filters | Read about advanced filtering criteria [here](/pages/web/journeys/#advanced-audience-rules).
+| Additional Filters | Read about advanced filtering criteria [here](/web/journeys/#advanced-audience-rules).
 
 ### Select and style the banner or interstitial
 
@@ -102,10 +102,10 @@ You can customize the audience that will see your Journey by choosing target pla
     - _The fourth option shown is an alternate preconfiguration of the full screen interstitial_![image](/_assets/img/pages/journeys/select-template-type.png)
 1. Click **Customize** to make changes to the template.
 1. In the **Customize Template** heading, you may edit the the name to use for internal reference.
-1. Click any object in the preview to edit it. To see documentation on all customization options, [click here](/pages/web/journeys/#template-customization-options).
+1. Click any object in the preview to edit it. To see documentation on all customization options, [click here](/web/journeys/#template-customization-options).
 1. When finished, click **Save & Close** button to continue.
 
-**Note about generic deep linking params** If you are running a generic download campaign or a site-wide discount offer, your users would go to the same place inside your app regardless of where they originated on your website. You can configure this destination by setting **Deep Link Data** for the **Button** element when you [customize your template options](/pages/web/journeys/#template-customization-options).
+**Note about generic deep linking params** If you are running a generic download campaign or a site-wide discount offer, your users would go to the same place inside your app regardless of where they originated on your website. You can configure this destination by setting **Deep Link Data** for the **Button** element when you [customize your template options](/web/journeys/#template-customization-options).
 
 ### Validate & Test
 
@@ -205,7 +205,7 @@ You're now in Priority View.
     When you save Journeys priorities, **ALL** Journeys will be prioritized in the order they appear in the table.
 
 
-For more detailed Journeys prioritization questions, visit our [Advanced section](/pages/web/journeys/#prioritization).
+For more detailed Journeys prioritization questions, visit our [Advanced section](/web/journeys/#prioritization).
 
 
 ### Visualizing Journeys performance
@@ -239,20 +239,20 @@ You can also access Journeys analytics by selecting the above filters from the [
 
 !!! protip "Attribute Journeys events to referring links"
 
-    By default, when users arrive on a page running Journeys via a Branch link, then any interaction with the Journey (click/install/re-open) will be attributed to the referring Branch link, rather than to the Journey. [Learn how](/pages/web/journeys/#preserve-or-discard-referring-link-data) to attribute this data to the Journey instead.
+    By default, when users arrive on a page running Journeys via a Branch link, then any interaction with the Journey (click/install/re-open) will be attributed to the referring Branch link, rather than to the Journey. [Learn how](/web/journeys/#preserve-or-discard-referring-link-data) to attribute this data to the Journey instead.
 
 
 ## Advanced
 
 ### Advanced audience rules
 
-You can target users on a more granular level - based on behavior like where they came from, whether they already have your app installed, and what they’ve done on your website or in your app. We've created a bunch of great examples on the [next tab](/pages/web/journeys/#examples).
+You can target users on a more granular level - based on behavior like where they came from, whether they already have your app installed, and what they’ve done on your website or in your app. We've created a bunch of great examples on the [next tab](/web/journeys/#examples).
 
 ![image](/_assets/img/pages/journeys/advanced-audience-rules.png)
 
 #### Has completed event
 
-If you have [custom event tracking](/pages/apps/ios/#track-events) set up, you can target users based on events that you define. For instance, you might want to show a Journey to users who have completed a purchase within the last week, or who add an item to their shopping cart more than three times.
+If you have [custom event tracking](/apps/ios/#track-events) set up, you can target users based on events that you define. For instance, you might want to show a Journey to users who have completed a purchase within the last week, or who add an item to their shopping cart more than three times.
 
 <!-- #### Referred from site
 
@@ -280,7 +280,7 @@ You might choose to only show a Journey that asks a user to open the app to thos
 
 #### Has clicked on ad
 
-A user is grouped into "Has clicked on Ad" when they've clicked a link from [Deep Linked Feeds](/pages/deep-linked-ads/dynamic-product-feeds/).
+A user is grouped into "Has clicked on Ad" when they've clicked a link from [Deep Linked Feeds](/deep-linked-ads/dynamic-product-feeds/).
 
 Use this to target users who have been part of an ad campaign to improve your ROI; maybe with a specific call to action to open the app and buy something if they've also never made a purchase in the app.
 
@@ -296,7 +296,7 @@ The technical definition is that they've clicked on a link with an Email Service
 
 #### Is viewing a page with metadata key
 
-Use this filter to target users viewing web pages with certain metadata specified. This data can be specified in HTML `<meta>` tags on a webpage, passed in as options in the `init()` call that you use to initialize the Branch web SDK, or passed in using the `track()` call in Branch’s web SDK. Note that if you opt to use HTML `<meta>` tags, your tags should be formatted as [Branch hosted deep link data](/pages/web/hosted-data/#add-metatags-to-your-site).
+Use this filter to target users viewing web pages with certain metadata specified. This data can be specified in HTML `<meta>` tags on a webpage, passed in as options in the `init()` call that you use to initialize the Branch web SDK, or passed in using the `track()` call in Branch’s web SDK. Note that if you opt to use HTML `<meta>` tags, your tags should be formatted as [Branch hosted deep link data](/web/hosted-data/#add-metatags-to-your-site).
 
 For example, you could target users on pages containing the metadata key “foo” and value “bar” by adding this tag to the page’s HTML: `<meta name="branch:deeplink:foo" content="bar" />`
 
@@ -312,7 +312,7 @@ branch.init( 'BRANCH_KEY',
 );
 ```
 
-Or, finally, by using the track() call to [programmatically trigger a Journey to show](https://branchmetrics.github.io/docs/pages/web/journeys/#trigger-a-journey-to-show-by-firing-an-event):
+Or, finally, by using the track() call to [programmatically trigger a Journey to show](https://branchmetrics.github.io/docs/web/journeys/#trigger-a-journey-to-show-by-firing-an-event):
 
 ```javascript
 branch.track(‘pageview’,
@@ -420,7 +420,7 @@ branch.init( 'BRANCH_KEY',
 Prioritization only takes effect when two Journeys are overlapping. If you have a Journey targeting iOS users and a Journey targeting Android users, the prioritization won't matter. If you update the Journey targeting iOS to now target iOS and Android users, the higher priority Journey will show to Android users.
 
 #### What happens if a user dismisses a banner or interstitial?
-When a user dismisses a banner or interstitial, that banner or interstitial will be dismissed for the amount of time specified in the Journey’s [dismissal settings](/pages/web/journeys/#dismissal-settings).
+When a user dismisses a banner or interstitial, that banner or interstitial will be dismissed for the amount of time specified in the Journey’s [dismissal settings](/web/journeys/#dismissal-settings).
 
 If the Journey has been configured to dismiss all Journeys when dismissed, no other Journey will be shown to the user for the duration of the dismissal period. If the Journey has been configured to dismiss only that Journey when dismissed, other Journeys will be shown to the user if they apply.
 
@@ -474,7 +474,7 @@ Note that not all template support all override keys. For example, the floating 
 
 #### Custom tags for dynamic Journeys layout customization
 
-In addition to using [pre-defined keys](/pages/web/journeys/#dynamic-journeys-layout-customization) (e.g. $journeys_title) to dynamically customize the appearance/content of a Journey, you can use custom liquid tags. Custom tags can be inserted in both the View Editor and the CSS Editor when you’re setting up a Journeys template. Then, you can use `setBranchViewData()` to dynamically provide values for these tags.  You can also embed those values statically on a page with [Branch Meta Tags](/pages/web/hosted-data/#add-metatags-to-your-site).
+In addition to using [pre-defined keys](/web/journeys/#dynamic-journeys-layout-customization) (e.g. $journeys_title) to dynamically customize the appearance/content of a Journey, you can use custom liquid tags. Custom tags can be inserted in both the View Editor and the CSS Editor when you’re setting up a Journeys template. Then, you can use `setBranchViewData()` to dynamically provide values for these tags.  You can also embed those values statically on a page with [Branch Meta Tags](/web/hosted-data/#add-metatags-to-your-site).
 
 **Note that if you include custom liquid tags in your templates and also set a value for a pre-defined key (e.g. $journeys_title) in `setBranchViewData()`, the value of the pre-defined key will take precedence.**
 
@@ -558,7 +558,7 @@ branch.track('pageview');
 
 You can disable Journeys animations on a page by setting two flags - `disable_entry_animation` and `disable_exit_animation` - when you’re calling either init() or track() with Branch’s Web SDK.
 
-Journeys animations can be disabled in order to reduce the amount of time it takes to load a Journey on a page. They can also be disabled in order to improve Journeys UX on single-page web apps, where Journeys animations can be jarring. When switching between multiple Journeys on a single-page web app, remember to use [setBranchViewData()](/pages/web/journeys/#deep-linking-from-the-banner-or-interstitial) to change the link behind the CTA.
+Journeys animations can be disabled in order to reduce the amount of time it takes to load a Journey on a page. They can also be disabled in order to improve Journeys UX on single-page web apps, where Journeys animations can be jarring. When switching between multiple Journeys on a single-page web app, remember to use [setBranchViewData()](/web/journeys/#deep-linking-from-the-banner-or-interstitial) to change the link behind the CTA.
 
 To disable animations during initialization, insert `disable_entry_animation` and/or `disable_exit_animation`, with values of `true`, into the options:
 
@@ -661,9 +661,9 @@ If you have an upgraded premium account, you may also modify your CSS code direc
 
 The customization options available depend on the template chosen:
 
-- [Smart Banner](/pages/web/journeys/#smart-banner)
-- [Full Screen Interstitial](/pages/web/journeys/#full-screen-interstitial)
-- [Half Page Interstitial](/pages/web/journeys/#full-screen-interstitial)
+- [Smart Banner](/web/journeys/#smart-banner)
+- [Full Screen Interstitial](/web/journeys/#full-screen-interstitial)
+- [Half Page Interstitial](/web/journeys/#full-screen-interstitial)
 - Floating Button
 
 #### Smart Banner
@@ -724,9 +724,9 @@ The available configuration options are identical for banners at both the top an
 | Text Color | Change the color of the button text and button outline |
 | Background Color | Change the color of the button background
 | Button Text | Change the text shown when the app is installed and not installed. |
-| Channel | Set the **[Channel](/pages/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `website`
-| Tags | Set the **[Tags](/pages/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
-| Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/pages/links/integrate/#configure-deep-links)
+| Channel | Set the **[Channel](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `website`
+| Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
+| Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
 
 ##### Dismiss
 
@@ -801,9 +801,9 @@ The content block contains everything except for the background image. Dimension
 | Text Color | Change the color of the button text and button outline |
 | Background Color | Change the color of the button background
 | Button Text | Change the text shown when the app is installed and not installed. |
-| Channel | Set the **[Channel](/pages/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `website`
-| Tags | Set the **[Tags](/pages/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
-| Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/pages/links/integrate/#configure-deep-links)
+| Channel | Set the **[Channel](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `website`
+| Tags | Set the **[Tags](/links/integrate/#analytical-labels)** for the Branch link attached to the button. For example, `purchase` and `fall-sale`
+| Deep Link Data | Insert deep link data and advanced link control parameters. Can contain any [Branch link parameter](/links/integrate/#configure-deep-links)
 
 ##### Dismiss
 
@@ -833,7 +833,7 @@ If you maintain a mobile website, Branch allows you to deep link mobile visitors
 
 ### Open app if installed
 
-Add the following code somewhere inside the `<head></head>` tags on your website and customize the [link parameters](/pages/links/integrate/#configure-deep-links) to suit your needs.
+Add the following code somewhere inside the `<head></head>` tags on your website and customize the [link parameters](/links/integrate/#configure-deep-links) to suit your needs.
 
 !!! protip
     What this script does is move a lot of the Branch redirection logic to the Javascript on your own page, effectively 'clicking a Branch link' on page load.
@@ -926,11 +926,11 @@ The image will not look scaled properly in the editor view. This is because the 
 
 The Journeys audience tool is extremely powerful, but sometimes a few examples can help kickstart your creative juices. Here are are a couple common audience use cases to help you get started.
 
-1. [New users](/pages/web/journeys/#example-new-users)
-2. [Loyal users](/pages/web/journeys/#example-loyal-users)
-3. [Retargeting users who have taken some action](/pages/web/journeys/#example-retargeting-users)
-4. [Users from Google (for SEO)](/pages/web/journeys/#example-seo-friendly)
-5. [iOS users from English-speaking countries](/pages/web/journeys/#example-english-speaking-ios-users)
+1. [New users](/web/journeys/#example-new-users)
+2. [Loyal users](/web/journeys/#example-loyal-users)
+3. [Retargeting users who have taken some action](/web/journeys/#example-retargeting-users)
+4. [Users from Google (for SEO)](/web/journeys/#example-seo-friendly)
+5. [iOS users from English-speaking countries](/web/journeys/#example-english-speaking-ios-users)
 
 All of these examples require you to configure advanced audience rules, which is a premium feature. You can add any set of complex rules using the following button:
 
@@ -1019,7 +1019,7 @@ Next, go through and choose the following countries: `United States`, `Canada`, 
 Save and continue!
 
 ## Journeys and GDPR
-In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links.
+In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links.
 
 If you enable that mode, you can still display some Journeys to your users. Whether or not a Journey will display for users in Do Not Track mode depends on the targeting criteria you’ve defined for that Journey. If the Journey uses any of the following audience filters, it will *not* display for users in Do Not Track mode. Otherwise, the Journey will display.
 

@@ -2,7 +2,7 @@
 
 With a push of a button you can send your Branch data to your mParticle dashboard, helping you to understand the power of Branch as an acquisition pathway, export your data to your entire suite of analytics tools and build custom audiences upon Branch data.
 
-This documentation explains how to send **Branch install events to mParticle**. mParticle calls this an Inbound Feed Integration. If you'd like to send mParticle events to your Branch dashboard through your app, please review the Branch/mParticle SDK Kit integration documentation for [iOS](/pages/apps/mparticle-ios/) and [Android](/pages/apps/mparticle-android/). At present there is no server to server integration for sending mParticle data to Branch.
+This documentation explains how to send **Branch install events to mParticle**. mParticle calls this an Inbound Feed Integration. If you'd like to send mParticle events to your Branch dashboard through your app, please review the Branch/mParticle SDK Kit integration documentation for [iOS](/apps/mparticle-ios/) and [Android](/apps/mparticle-android/). At present there is no server to server integration for sending mParticle data to Branch.
 
 ### How does it work?
 
@@ -30,7 +30,7 @@ For information on how to test your integration and see more detailed data, plea
 
 ### Prerequisites
 - This guide requires you to have already integrated the Branch and mParticle mobile SDK(s).
-- This guide requires you to have the [AdSupportFramework](/pages/apps/ios-launch/#submitting-to-the-app-store) on iOS and [Google Play Services library](/pages/apps/android-launch/#submitting-to-the-play-store) on Android.
+- This guide requires you to have the [AdSupportFramework](/apps/ios-launch/#submitting-to-the-app-store) on iOS and [Google Play Services library](/apps/android-launch/#submitting-to-the-play-store) on Android.
 
 ### Retrieve mParticle Key & Secret
 
