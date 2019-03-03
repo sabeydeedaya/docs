@@ -11,7 +11,7 @@ copyright: 'Copyright &copy; 2019 <a href="https://branch.io">Branch</a>'
 # Files
 theme:
   name: 'material'
-  custom_dir: 'lib/mkdocs-material/material'
+  custom_dir: 'lib/branch-theme/'
   language: 'en'
   palette:
     primary: 'indigo'
