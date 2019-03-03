@@ -11,7 +11,7 @@ copyright: 'Copyright &copy; 2019 <a href="https://branch.io">Branch</a>'
 # Files
 theme:
   name: 'material'
-  custom_dir: 'lib/branch-theme'
+  custom_dir: 'branch-theme'
   language: 'en'
   palette:
     primary: 'indigo'
@@ -22,7 +22,7 @@ theme:
   feature: false
   logo: '_assets/img/logo.svg'
   favicon: '_assets/img/favicon.ico'
-docs_dir: 'content/docs'
+docs_dir: 'docs'
 extra_css:
   - '_assets/css/main.css'
 extra_javascript:
@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.superfences:
   - attr_list:
   - markdown_include.include:
-      base_path: content/includes/
+      base_path: includes/
 
 # Options
 extra:
