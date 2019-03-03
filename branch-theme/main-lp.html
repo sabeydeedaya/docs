@@ -57,9 +57,7 @@
       top: -1.5rem;
       left: 0.6rem;
       position: relative;
-      z-index: 2;
       font-size: 28px;
-      display: block;
     }
     .search-input #main-page-search {
       cursor: text;
@@ -77,6 +75,67 @@
 <!-- Navigation -->
 {% block site_nav %}
   <!-- No nav -->
+{% endblock %}
+
+<!-- Application header -->
+    {% block header %}
+
+  <header class="md-header" data-md-component="header">
+
+    <!-- Top-level navigation -->
+    <nav class="md-header-nav md-grid">
+      <div class="md-flex">
+
+        <!-- Link to home -->
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <a href="{{ config.site_url | default(nav.homepage.url, true) | url }}"
+              title="{{ config.site_name }}"
+              class="md-header-nav__button md-logo">
+            {% if config.theme.logo.icon %}
+              <i class="md-icon">{{ config.theme.logo.icon }}</i>
+            {% else %}
+              <img src="{{ config.theme.logo | url }}" />
+            {% endif %}
+          </a>
+        </div>
+
+        <!-- Button to toggle drawer -->
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <label class="md-icon md-icon--menu md-header-nav__button"
+              for="__drawer"></label>
+        </div>
+
+        {% if config.theme.logo %}
+          <div class="md-flex__cell md-flex__cell--shrink">
+            <a href="{{ config.site_url | default(nav.homepage.url, true) }}" title="{{ config.site_name }}">
+              <div class="branch-header-subtitle">Docs</div>
+            </a>
+          </div>
+        {% endif %}
+
+        <!-- Header title -->
+        <div class="md-flex__cell md-flex__cell--stretch">
+          <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+            <span class="md-header-nav__topic">
+              {{ page.title }}
+            </span>
+          </div>
+        </div>
+
+        <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
+          <a href="#" class="improve-doc" title="Improve This Doc">
+            <i class="branch-header-icon md-icon material-icons">mode_edit</i>
+            <p class="branch-header-label">Improve</p>
+          </a>
+        </div>
+        <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
+          <a href="#" class="contact-support" title="Contact support">
+            <i class="branch-header-icon md-icon material-icons">help_outline</i>
+            <p class="branch-header-label">Support</p>
+          </a>
+      </div>
+    </nav>
+  </header>
 {% endblock %}
 
 <!-- Content -->

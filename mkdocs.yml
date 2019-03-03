@@ -83,18 +83,8 @@ extra:
       key: '887017d17a2c1e9490ad2c44caa7e817'
       index: 'branchmetrics'
       selector: '#algolia-doc-search'
-      debug: true
+      debug: false
       hits: 15
-  nav_header:
-    - index: 2
-      title: Branch Docs
-  nav_hidden: 'Hidden'
-  is_visible:
-    footer_floater_beta: false
-    footer_floater_old_docs: false
-    footer_nav: false
-    header_git: false
-    header_breadcrumb: true
 
 # Navigation
 nav:

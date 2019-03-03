@@ -7,7 +7,6 @@
   buttons.init();
   tabs.init();
   images.init();
-  modals.route();
   languages.init();
   router.init();
 })();

@@ -3,10 +3,8 @@ template: main-lp.html
 <p class="greeting">How can we help?</p>
   <div class="search-bar">
     <div class="search-input">
-      <a href="#dialog-search" id="main-page-search" title="Search">
-        <input type="text" name="query" placeholder="Search..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-        <i class="branch-header-search md-icon material-icons">search</i>
-      </a>
+      <input type="text" id="algolia-doc-search" name="query" placeholder="Search..." autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <i class="md-icon material-icons">search</i>
     </div>
   </div>
   <!-- row 1 -->

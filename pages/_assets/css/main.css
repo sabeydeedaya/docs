@@ -272,9 +272,6 @@ body.modal {
 /* ////////////////////////////// */
 /* SEARCH */
 /* ////////////////////////////// */
-#algolia-doc-search {
-  margin: 1em 0 0;
-}
 .algolia-autocomplete, #algolia-doc-search {
   width: 100%;
 }
@@ -304,8 +301,15 @@ body.modal {
   margin-top: 1em !important;
   max-width: 100% !important;
   min-width: 100% !important;
-  position: relative !important;
-  font-size: 1.25em;
+}
+.md-header .ds-dropdown-menu {
+  font-size: 1.5em
+}
+.ds-dataset-1 {
+  max-height: 300px;
+}
+.md-header .ds-dataset-1 {
+  max-height: 75vh;
 }
 .algolia-docsearch-footer--logo {
   background-color: white !important;
