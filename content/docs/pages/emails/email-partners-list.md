@@ -6,7 +6,7 @@ Logo | Partner
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank" target="_blank">![Adobe_Campaign_Classic](/img/pages/email/adobe-campaign-classic/adobe-campaign-classic.png)</a>| **[Adobe Campaign Classic](/pages/emails/adobe-campaign-classic.md)**
 <a href="https://www.adobe.com/marketing-cloud/campaign.html" target="_blank">![Adobe_Campaign_Standard](/img/pages/email/adobe-campaign-standard/adobe-campaign-standard.png)</a>| **[Adobe Campaign Standard](/pages/emails/adobe-campaign-standard.md)**
 <a href="https://aws.amazon.com/ses/" target="_blank">![Amazon_SES](/img/pages/email/amazon-ses/amazon-ses.png)</a>| **[Amazon Simple Email Service](/pages/emails/amazon-ses.md)**
-<a href="https://www.betaout.com/" target="_blank">![Betaout](../../../img/pages/email/betaout/betaout.png)</a>| **[Betaout](/pages/emails/betaout.md)**
+<a href="https://www.betaout.com/" target="_blank">![Betaout](/img/pages/email/betaout/betaout.png)</a>| **[Betaout](/pages/emails/betaout.md)**
 <a href="https://blueshift.com/" target="_blank">![Blueshift](/img/pages/email/blueshift/blueshift.png)</a>| **[Blueshift](/pages/emails/blueshift.md)**
 <a href="https://www.braze.com/" target="_blank">![Braze (via SendGrid)](/img/pages/email/braze/braze.png)</a>| **[Braze (via SendGrid)](/pages/emails/braze.md)**
 <a href="https://www.braze.com/" target="_blank">![Braze (via Mailjet)](/img/pages/email/braze/braze.png)</a>| **[Braze (via Mailjet)](/pages/emails/braze-mailjet.md)**
