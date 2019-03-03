@@ -28,11 +28,6 @@
   vertical-align: middle;
   text-align: center;
 }
-.branch-header-search {
-    top: 0;
-    left: 0.6rem;
-    z-index: 2;
-}
 
 @media (max-width: 992px) {
   .md-search .branch-header-button {
@@ -315,7 +310,14 @@ body.modal {
   background-color: white !important;
 }
 
-
+.algolia-autocomplete:focus-within~.md-search__icon {
+    color: rgba(0,0,0,.54)
+}
+.algolia-autocomplete:focus-within~.md-search__icon[type=reset] {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+}
 
 /* ////////////////////////////// */
 /* IMAGES */
