@@ -17,7 +17,7 @@ theme:
     primary: 'indigo'
     accent: 'indigo'
   font:
-    text: 'Roboto'
+    text: 'Open Sans'
     code: 'Roboto Mono'
   feature: false
   logo: 'img/logo.svg'
