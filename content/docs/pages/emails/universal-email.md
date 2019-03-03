@@ -27,4 +27,4 @@ Using Branch Universal Email involves four basic steps:
 - Configuring your mobile app
 - Updating the links in your email
 
-Find your ESP - a [Branch Universal Email Partner](/pages/emails/email-partners-list.md) - and get started today!
+Find your ESP - a [Branch Universal Email Partner](/pages/emails/email-partners-list/) - and get started today!

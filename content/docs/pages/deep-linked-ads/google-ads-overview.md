@@ -1,9 +1,9 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- **Google Ads Overview (this page)**
-		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
-		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
-		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)
+		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable/)
+		- [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac/)
+		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/)
 
 ##Google Ads + Branch Use Cases
 
@@ -14,11 +14,11 @@ With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)
 ## Google Ads Campaign Support
 
 !!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
 
 Our integration with Google Ads supports the following:
 
-### [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac.md)
+### [Universal App Campaigns (UAC)](/pages/deep-linked-ads/google-ads-uac/)
 - Full attribution for:
 	- App Installs only
 - No 3rd Party Links
@@ -26,7 +26,7 @@ Our integration with Google Ads supports the following:
 - Destinations:
 	- App Stores only
 
-### [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
+### [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
 - Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
 - Full attribution for:
 	- App conversions (opens & in-app events)
@@ -34,7 +34,7 @@ Our integration with Google Ads supports the following:
 - Deep Linking via Branch Links
 - Destinations:
 	- Web (Mobile & Desktop) Only
-		- Requires the [Branch Web SDK](/pages/web/integrate.md)
+		- Requires the [Branch Web SDK](/pages/web/integrate/)
 	- App (if installed)
 		- Requires [Universal Links](/pages/deep-linking/universal-links/) and/or [App Links](/pages/deep-linking/android-app-links/)
 

@@ -1,9 +1,9 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
-		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview.md)
-		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable.md)
+		- [Google Ads Overview](/pages/deep-linked-ads/google-ads-overview/)
+		- [Enabling the Integration](/pages/deep-linked-ads/google-ads-enable/)
 		- **Universal App Campaigns (UAC)**  (this page)
-		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac.md)
-		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting.md)
+		- [Web-based Ads (non-UAC)](/pages/deep-linked-ads/google-ads-non-uac/)
+		- [Troubleshooting & FAQs](/pages/deep-linked-ads/google-ads-troubleshooting/)
 
 Universal App campaigns allow you to promote your app across Google Search, Google Play, YouTube, Gmail, and within other apps and mobile websites on the Display Network.
 
@@ -20,7 +20,7 @@ Unlike most Google Ads campaigns, you don't design individual ads for Universal 
 * [x] Have admin access to your Google Ads account; required for generating Link IDs in Google Ads.
 
 !!! warning "**Enabling Required**"
-		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable.md)** in your Branch dashboard.
+		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/pages/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
 
 ## Creating a Universal App Campaign
 
