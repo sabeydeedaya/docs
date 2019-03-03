@@ -31,9 +31,9 @@ The installation has five steps:
    - Tell Segment to use the Branch integration when your application launches.
    - Pass along URLs to Segment in your `application:continueUserActivity:restorationHandler:` method.
    - Pass along URLs to Segment in your `application:openURL:options:` method.
-3. Configure your app in the Branch dashboard: [Branch Dashboard.](https://docs.branch.io/pages/dashboard/integrate/)
-4. Configure your app to handle universal URLs: [Universal Links.](https://docs.branch.io/pages/apps/ios/#configure-associated-domains)
-5. Configure your app to handle app scheme URLs: [App Schemes.](https://docs.branch.io/pages/apps/ios/#configure-infoplist)
+3. Configure your app in the Branch dashboard: [Branch Dashboard.](/pages/dashboard/integrate/)
+4. Configure your app to handle universal URLs: [Universal Links.](/pages/apps/ios/#configure-associated-domains)
+5. Configure your app to handle app scheme URLs: [App Schemes.](/pages/apps/ios/#configure-infoplist)
 
 
 ## Step 1: Add the Segment-Branch integration to your CocoaPod pod file
@@ -182,6 +182,6 @@ class AppDelegate ...
 Refer to the Branch documentation for setting up the Branch dashboard and configuring your app
 to accept URLs from iOS.
 
-3. Configure your app in the Branch dashboard: [Branch Dashboard.](https://docs.branch.io/pages/dashboard/integrate/)
-4. Configure your app to handle universal links: [Universal Links.](https://docs.branch.io/pages/apps/ios/#configure-associated-domains)
-5. Configure your app to handle app schemes: [App Schemes.](https://docs.branch.io/pages/apps/ios/#configure-infoplist)
+3. Configure your app in the Branch dashboard: [Branch Dashboard.](/pages/dashboard/integrate/)
+4. Configure your app to handle universal links: [Universal Links.](/pages/apps/ios/#configure-associated-domains)
+5. Configure your app to handle app schemes: [App Schemes.](/pages/apps/ios/#configure-infoplist)

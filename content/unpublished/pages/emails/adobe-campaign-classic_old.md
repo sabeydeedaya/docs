@@ -1,8 +1,8 @@
 ### Prerequisites
 
 This guide requires you to have already integrated the Branch SDK into your app:
-- [iOS](https://docs.branch.io/pages/apps/ios/)
-- [Android](https://docs.branch.io/pages/apps/android/)
+- [iOS](/pages/apps/ios/)
+- [Android](/pages/apps/android/)
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 
@@ -20,7 +20,7 @@ To make deep links work, the click tracking domain must be pointed to Branch - s
 
 #### Interaction with the mobile app
 
-When integrating the Branch SDK, Branch will generate and host a file, which associates the click-tracking domain domain with the client’s native app (Apple App Site Association for Apple, assetlinks.json for Android )The Mobile OS recognizes the click tracking domain as a Universal/Application Link, and opens the app immediately without the browser opening. Once the app has opened, Branch will collect the referring URL that opened the app (at this time, it will be the click tracking url). Inside the app, Branch will automatically “click” the link, registering the click with the ESP, and providing the Branch link information to the Branch SDK inside the app. This information is then used to deep link the user to the correct in-app content. 
+When integrating the Branch SDK, Branch will generate and host a file, which associates the click-tracking domain domain with the client’s native app (Apple App Site Association for Apple, assetlinks.json for Android )The Mobile OS recognizes the click tracking domain as a Universal/Application Link, and opens the app immediately without the browser opening. Once the app has opened, Branch will collect the referring URL that opened the app (at this time, it will be the click tracking url). Inside the app, Branch will automatically “click” the link, registering the click with the ESP, and providing the Branch link information to the Branch SDK inside the app. This information is then used to deep link the user to the correct in-app content.
 
 ## Integration Guide
 
@@ -38,7 +38,7 @@ You can check the CNAME setting using this [DNS verification tool](https://toolb
 
 Apple recognizes the click tracking domain as a Universal Link, and opens the app immediately without opening the browser. Once the app has opened, Branch will collect the referring URL that opened the app (at this time, it will be the click tracking URL). Inside the app, Branch will automatically “click” the link, registering the click with Adobe Campaign Classic, and returning the Branch link information to the Branch SDK inside the app. This information is then used to deep link the user to the correct in-app content.
 
-#### Configure the External Tracking Server 
+#### Configure the External Tracking Server
 
 Open the Brand Configuration page in Adobe Campaign Classic and find the field called **External URL of the tracking server**.
 
@@ -91,9 +91,9 @@ To enable Universal Links on your click tracking domain, you'll need to add the 
             if (url) {
                 [application openURL:url]; // check to make sure your existing deep linking logic, if any, is not executed, perhaps by returning early
             }
-  } else { 
+  } else {
     // it is a deep link
-    GDLog(@"branch deep link: %@", [params description]); 
+    GDLog(@"branch deep link: %@", [params description]);
     [self handleBranchDeeplink:params];
   }
 }];

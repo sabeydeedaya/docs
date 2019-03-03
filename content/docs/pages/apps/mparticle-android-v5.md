@@ -12,7 +12,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ### Configure Branch & Enable App Links
 
-- Retrieve your [app's fingerprint](https://docs.branch.io/pages/deep-linking/android-app-links/#generate-signing-certificate-fingerprint) to enable App Links in Branch
+- Retrieve your [app's fingerprint](/pages/deep-linking/android-app-links/#generate-signing-certificate-fingerprint) to enable App Links in Branch
 
 - Decide on a URI scheme to use, and configure your [Branch Dashboard](https://dashboard.branch.io/settings/link)
 
@@ -44,7 +44,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 - Add `android:launchMode="singleTask"` to the `LauncherActivity`
   ```
-  <!-- Launcher Activity to handle incoming Branch intents -->    
+  <!-- Launcher Activity to handle incoming Branch intents -->
         <activity
             android:name=".LauncherActivity"
             android:launchMode="singleTask"
@@ -130,30 +130,30 @@ Please refer to the [Branch Android SDK troubleshooting section](/pages/apps/and
     - *Java*
 
         ```
-        public class LauncherActivity extends AppCompatActivity {	
+        public class LauncherActivity extends AppCompatActivity {
 	...
-	
+
             @Override
             public void onNewIntent(Intent intent) {
                 this.setIntent(intent);
             }
-	    
+
 	...
-	
+
         }
         ```
-	
+
     - *Kotlin*
 
         ```
         class LauncherActivity : AppCompatActivity() {
 	...
-	
+
             public override fun onNewIntent(intent: Intent) {
                 this.intent = intent
             }
-	    
+
 	...
-	
+
         }
         ```

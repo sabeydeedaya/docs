@@ -36,7 +36,7 @@ Add the following code somewhere inside the `<head></head>` tags on your website
 {! partials/replace-branch-key.md !}
 
 !!! note "GDPR considerations"
-    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links. Click [here](https://docs.branch.io/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
+    In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links. Click [here](/pages/web/journeys/#journeys-and-gdpr) for information on how this mode impacts Journeys.
 
 
 ### Deep linking from the banner or interstitial
@@ -474,7 +474,7 @@ Note that not all template support all override keys. For example, the floating 
 
 #### Custom tags for dynamic Journeys layout customization
 
-In addition to using [pre-defined keys](/pages/web/journeys/#dynamic-journeys-layout-customization) (e.g. $journeys_title) to dynamically customize the appearance/content of a Journey, you can use custom liquid tags. Custom tags can be inserted in both the View Editor and the CSS Editor when you’re setting up a Journeys template. Then, you can use `setBranchViewData()` to dynamically provide values for these tags.  You can also embed those values statically on a page with [Branch Meta Tags](https://docs.branch.io/pages/web/hosted-data/#add-metatags-to-your-site).
+In addition to using [pre-defined keys](/pages/web/journeys/#dynamic-journeys-layout-customization) (e.g. $journeys_title) to dynamically customize the appearance/content of a Journey, you can use custom liquid tags. Custom tags can be inserted in both the View Editor and the CSS Editor when you’re setting up a Journeys template. Then, you can use `setBranchViewData()` to dynamically provide values for these tags.  You can also embed those values statically on a page with [Branch Meta Tags](/pages/web/hosted-data/#add-metatags-to-your-site).
 
 **Note that if you include custom liquid tags in your templates and also set a value for a pre-defined key (e.g. $journeys_title) in `setBranchViewData()`, the value of the pre-defined key will take precedence.**
 
@@ -1019,7 +1019,7 @@ Next, go through and choose the following countries: `United States`, `Canada`, 
 Save and continue!
 
 ## Journeys and GDPR
-In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](https://docs.branch.io/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links.
+In order to help our customers comply with [GDPR](https://branch.io/gdpr/), and other laws that restrict data collection from certain users, we’ve updated our Web SDK with a [Do Not Track mode](/pages/web/integrate/#enable-do-not-track-mode). This way, if a user indicates that they want to remain private on your website, or if you otherwise determine that a particular user should not be tracked, you can continue to make use of the Branch Web SDK (e.g. for creating Branch links) while not tracking that user. This setting can also be enabled across all users for a particular link, or across your Branch links.
 
 If you enable that mode, you can still display some Journeys to your users. Whether or not a Journey will display for users in Do Not Track mode depends on the targeting criteria you’ve defined for that Journey. If the Journey uses any of the following audience filters, it will *not* display for users in Do Not Track mode. Otherwise, the Journey will display.
 

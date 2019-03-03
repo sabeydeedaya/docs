@@ -489,7 +489,7 @@
 
     - All events related to users progressing in your app are bucketed to a "Lifecycle" class of data items.
 
-    - To track custom events - not found in the table below - please see [Track Custom Events](https://docs.branch.io/pages/apps/v2event/#track-custom-events)
+    - To track custom events - not found in the table below - please see [Track Custom Events](/pages/apps/v2event/#track-custom-events)
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 

@@ -48,9 +48,9 @@ https://www.youtube.com/watch?v=-qyR6y0wtCM
 How-to:
 Sign up and Integrate the Branch SDK.
 
-https://docs.branch.io/pages/apps/ios/
+/pages/apps/ios/
 
-https://docs.branch.io/pages/apps/android/
+/pages/apps/android/
 
 
 
@@ -72,9 +72,9 @@ After setIdentity() has been correctly implemented, if users create a link or ca
 
 
 
-https://docs.branch.io/pages/apps/ios/#track-users
+/pages/apps/ios/#track-users
 
-https://docs.branch.io/pages/apps/android/#track-users
+/pages/apps/android/#track-users
 
 
 
@@ -87,9 +87,9 @@ HTML
 branch.userCompletedAction(“sign_up”)
 
 
-https://docs.branch.io/pages/apps/ios/#track-events
+/pages/apps/ios/#track-events
 
-https://docs.branch.io/pages/apps/android/#track-events
+/pages/apps/android/#track-events
 
 
 
@@ -112,9 +112,9 @@ In order to redeem credits, your users will first need to know how many credits 
 
 Once you’ve figured out where you want to display a user’s credit balance, use loadRewards() to display how many credits a user has. When a user decides to spend credits in your app (for something awesome), simply call redeemRewards() for the amount that you wish to deduct from their balance.
 
-https://docs.branch.io/pages/apps/ios/#handle-referrals
+/pages/apps/ios/#handle-referrals
 
-https://docs.branch.io/pages/apps/android/#handle-referrals
+/pages/apps/android/#handle-referrals
 
 
 Analytics

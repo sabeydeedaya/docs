@@ -27,7 +27,7 @@ This documentation explains how to send **mParticle events to your Branch dashbo
 
 ### Configure Branch Dashboard & Enable Universal Links
 
-- Enter a URI scheme in the [Branch Dashboard](https://dashboard.branch.io/settings/link) and [enable Universal Links](https://docs.branch.io/pages/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
+- Enter a URI scheme in the [Branch Dashboard](https://dashboard.branch.io/settings/link) and [enable Universal Links](/pages/deep-linking/universal-links/#enable-universal-links-on-the-branch-dashboard)
 
     ![image](/img/pages/dashboard/ios.png)
     ![image](/img/pages/dashboard/link-domain.png)

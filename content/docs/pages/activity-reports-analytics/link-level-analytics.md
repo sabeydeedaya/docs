@@ -193,4 +193,4 @@ HTML
 }
 ```
 
-[https://docs.branch.io/pages/exports/query-recipe-book/#no-filters_3](https://docs.branch.io/pages/exports/query-recipe-book/#no-filters_3)
+[/pages/exports/query-recipe-book/#no-filters_3](/pages/exports/query-recipe-book/#no-filters_3)

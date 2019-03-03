@@ -23,8 +23,8 @@ Apple recognizes the click tracking domain as a Universal Link, and opens the ap
 ### Integrate the mobile SDKs
 
 This guide requires you to have already integrated the Branch SDK into your app:
-- [iOS](https://docs.branch.io/pages/apps/ios/)
-- [Android](https://docs.branch.io/pages/apps/android/)
+- [iOS](/pages/apps/ios/)
+- [Android](/pages/apps/android/)
 
 Contact your Branch Account Manager or [accounts@branch.io](mailto:accounts@branch.io) at any time for assistance with the setup steps.
 

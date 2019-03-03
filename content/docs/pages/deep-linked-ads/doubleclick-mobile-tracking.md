@@ -58,9 +58,9 @@ Find DoubleClick in the search box. Hit enable. In the **Account Settings** tab,
 
 #### Map Events
 
-At this point, you have enabled Branch to communicate with Doubleclick. Now we need to map Branch events to **Floodlight Activities** found on the Doubleclick dashboard. 
+At this point, you have enabled Branch to communicate with Doubleclick. Now we need to map Branch events to **Floodlight Activities** found on the Doubleclick dashboard.
 
-1. Click the **Postback Config** tab. 
+1. Click the **Postback Config** tab.
 1. Set *Send Postbacks For* to **All Events**
 1. You should see a URL for the event **Install**. For demonstration purposes, we will assume you have a corresponding Install event on the Doubleclick dashboard, but this applies to any event you add.
 1. Start by grabbing your **Advertiser ID**, **Activity tag String**, and **Group tag String**.
@@ -85,7 +85,7 @@ If you don't have two different tags for iOS and Android, then it will look simp
 
 If you're looking to see data in the Branch dashboard and postback to ad partners, create an ad link for the relevant partner.
 
-For example, if you're running a campaign on Pandora via DoubleClick, follow the [instructions for enabling Pandora and creating a Pandora link](https://docs.branch.io/pages/deep-linked-ads/pandora-mobile-tracking/), then use that link in the click tracking URL field of your DCM creative tag.
+For example, if you're running a campaign on Pandora via DoubleClick, follow the [instructions for enabling Pandora and creating a Pandora link](/pages/deep-linked-ads/pandora-mobile-tracking/), then use that link in the click tracking URL field of your DCM creative tag.
 
-!!! warning 
-	If a placement's "click" is handled *server-side* by a specific publisher and there is *no [device ID macro]*(https://docs.branch.io/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information), Branch will record clicks but not attribute downstream events in Branch's dashboard (client-side clicks will attribute downstream events in Branch's dashboard). Clicks with a device ID macro or client-side handling will attribute downstream events in Branch. Please contact integrations@branch.io or contact your Account Manager for details on specific networks before implementation.
+!!! warning
+	If a placement's "click" is handled *server-side* by a specific publisher and there is *no [device ID macro]*(/pages/deep-linked-ads/branch-universal-ads-mobile-tracking/#device-information), Branch will record clicks but not attribute downstream events in Branch's dashboard (client-side clicks will attribute downstream events in Branch's dashboard). Clicks with a device ID macro or client-side handling will attribute downstream events in Branch. Please contact integrations@branch.io or contact your Account Manager for details on specific networks before implementation.
