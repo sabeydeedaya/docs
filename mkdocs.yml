@@ -2,7 +2,6 @@
 site_name: 'Branch Docs'
 site_description: 'Branch documentation for mobile deep linking and attribution'
 site_author: 'Branch'
-site_url: 'https://docs.branch.io'
 repo_name: 'Branch documentation'
 repo_url: 'https://github.com/branchmetrics/docs'
 edit_uri: 'edit/master/src/'
