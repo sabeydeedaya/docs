@@ -109,7 +109,7 @@ nav:
     - Overview: links/branch-links-overview.md
     - Default Link Behavior Configuration: links/default-link-behavior.md
     - Advanced Settings Configuration: links/advanced-settings-configuration.md
-    - Deep Linking Configuration:
+    - Deep Link Configuration:
       - iOS Universal Links: deep-linking/universal-links.md
       - Android App Links: deep-linking/android-app-links.md
       - In-app deep link routing: deep-linking/routing.md
