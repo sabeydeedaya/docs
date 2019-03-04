@@ -25,7 +25,7 @@ var images = (function() {
   }
 
   function _wrapImages(images) {
-    for (var i = 1; i < images.length; i++) {
+    for (var i = 0; i < images.length; i++) {
       var image = images[i]
       var wrapper = document.createElement('a');
       var src = image.getAttribute('src');

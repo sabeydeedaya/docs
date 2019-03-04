@@ -58,24 +58,24 @@ var modals = (function() {
   }
 
   function _handleModalClose(modal) {
-    modal.classList.remove('active')
-    document.body.classList.remove('modal')
-    router.remove()
+    modal.classList.remove('active');
+    document.documentElement.classList.remove('modal');
+    router.remove();
   }
 
   function _handleModalOpen(modal) {
-    modal.className += ' active'
-    document.body.className += ' modal'
+    modal.classList.add('active');
+    document.documentElement.classList.add('modal');
   }
 
   function clear() {
     for (var key in cache) {
       if (cache.hasOwnProperty(key)) {
-        var modal = cache[key]
+        var modal = cache[key];
         modal.classList.remove('active');
       }
     }
-    document.body.classList.remove('modal');
+    document.documentElement.classList.remove('modal');
   }
 
   // public
