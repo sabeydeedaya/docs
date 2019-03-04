@@ -68,11 +68,9 @@
       </div>
 
       <div class="md-flex__cell md-flex__cell--shrink">
-        {% if "search" in config["plugins"] %}
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-          <!-- Search interface -->
-          {% include "partials/search.html" %}
-        {% endif %}
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        <!-- Search interface -->
+        {% include "partials/search.html" %}
       </div>
       <div class="branch-header-button md-flex__cell md-flex__cell--shrink">
         <a href="#" class="improve-doc" title="Improve This Doc">

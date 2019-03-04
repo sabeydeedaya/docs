@@ -55,6 +55,9 @@ markdown_extensions:
   - markdown_include.include:
       base_path: includes/
 
+# Plugins
+plugins: []
+
 # Options
 extra:
   social:
