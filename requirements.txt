@@ -1,7 +1,7 @@
-mkdocs==0.17.3
-pygments==2.2.0
-pymdown-extensions==4.10.2
+mkdocs==1.0.4
+pygments==2.3.1
+pymdown-extensions==6.0.0
 markdown-include==0.5.1
-mkdocs-material==2.7.3
-Markdown==2.6.11
-requests==2.20.0
+mkdocs-material==4.0.2
+Markdown==3.0.1
+requests==2.21.0

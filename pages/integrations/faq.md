@@ -1,0 +1,1 @@
+redirect: /integrations/data-integrations/
