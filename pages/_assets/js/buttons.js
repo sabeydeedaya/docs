@@ -23,7 +23,7 @@ var buttons = (function() {
     var trim = window.location.pathname.replace(/^\/|\/$/g, '').split('/');
     trim = trim[0] === 'docs' ? trim.slice(1, trim.length).join('/') : trim.join('/');
     var path = (trim === '') ? 'index' : trim;
-    return 'https://github.com/branchmetrics/docs/edit/master/src/' + path + '.md' + '?description=Click%20on%20->%20"Propose%20file%20change"%20->%20"Create%20pull%20request"%20->%20"Create%20pull%20request"%20->%20to%20submit%20your%20changes.';
+    return 'https://github.com/branchmetrics/docs/edit/master/pages/' + path + '.md' + '?description=Click%20on%20->%20"Propose%20file%20change"%20->%20"Create%20pull%20request"%20->%20"Create%20pull%20request"%20->%20to%20submit%20your%20changes.';
   }
 
   // public
