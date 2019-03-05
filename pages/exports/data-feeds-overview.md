@@ -3,7 +3,6 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
 !!! note "Data Feeds is a premium solution"
     Data Feeds is a premium product, and can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
-<!-- Deep Links -->
 ## Data Feeds
 <div class="nav-wrap flex-wrap">
   <a href="/integrations/data-integrations-list/">
@@ -23,7 +22,6 @@ Data Feeds is Branch’s premium suite of tools for exporting data. If you want 
     <p>Query API</p>
   </a>
 </div>
-<!--/ Deep Links -->
 
 ## Supplemental Information
 
