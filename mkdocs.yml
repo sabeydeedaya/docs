@@ -4,7 +4,7 @@ site_description: 'Branch documentation for mobile deep linking and attribution'
 site_author: 'Branch'
 repo_name: 'Branch documentation'
 repo_url: 'https://github.com/branchmetrics/docs'
-edit_uri: 'edit/master/src/'
+edit_uri: 'edit/master/pages/'
 copyright: 'Copyright &copy; 2019 <a href="https://branch.io">Branch</a>'
 
 # Files
