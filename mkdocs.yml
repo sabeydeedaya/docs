@@ -155,7 +155,7 @@ nav:
       - Text Me the App: web/text-me-the-app.md
       - Hosted Deep Link Data: web/hosted-data.md
     - Paid ads:
-      - Branch Universal Ads: deep-linked-ads/branch-universal-ads-mobile-tracking.md
+      - Branch Universal Ads: deep-linked-ads/branch-universal-ads.md
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
       - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
@@ -585,8 +585,14 @@ nav:
     - Webhooks: exports/ua-webhooks.md
     - Data Export API: exports/api-v3.md
     - Query API: exports/query-api.md
-    - Query Recipe Book: exports/query-recipe-book.md
-    - Event Ontology: exports/event_ontology_data_schema.md
+    - Supplemental Information:
+      - Query Recipe Book: exports/query-recipe-book.md
+      - Event Ontology: exports/event_ontology_data_schema.md
+      - Export API Migration Guide: exports/export-api-migration-guide.md
+      - Webhooks Migration Guide: exports/webhooks-migration-guide.md
+    - Legacy Functionality:
+      - Legacy Export API: exports/api.md
+      - Legacy Webhooks: exports/webhooks.md
   - Translated Documentation:
     - Overview: translations/overview.md
     - 中文:
