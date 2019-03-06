@@ -55,7 +55,6 @@ branch.initSession.....
 
 ## Cost Data Setup
 
-1. Request access to the Cost Data beta through your account manager and it will be enabled in your dashboard.
 1. Navigate to the [Apple Search Ads UI > Settings > API](https://app.searchads.apple.com/cm/app/settings/apicertificates). *Verify you have selected the correct account by using the account selector in the top right hand corner.*
 
     ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-api-screen.png)
