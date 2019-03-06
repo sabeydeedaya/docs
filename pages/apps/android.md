@@ -872,9 +872,13 @@
             <meta-data android:name="io.branch.sdk.TestMode" android:value="true" />
             ```
             - Do not use `TestMode` in production or in the Google Play Store
-        *[OR]*
+            
+        **OR**
+        
         - add `Branch.enableSimulateInstalls()`; called before `initSession` in `onStart()`
+        
           - Can be used on Live and Test apps
+          
     - Uninstall your app from the device
 
     - Click on any Branch deep link (will navigate to the fallback URL since the app is not installed)
