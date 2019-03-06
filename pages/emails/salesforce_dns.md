@@ -55,15 +55,17 @@ You can retrieve your click tracking domain from the **[Authenticated Domains]**
 
 {! ingredients/email/associated-domains.md !}
 
-{! ingredients/email/bounce-web.md !}
-
 ## Using Universal email
 
 {! ingredients/email/usage.md !}
 
 {! ingredients/email/usage-auto-bounce-deep.md !}
 
-{! ingredients/email/usage-auto-bounce-web.md !}
+### Flag your web-only links
+
+With your email service provider, you need to explicitly mark web links. Just add mc-deep-link="false" to your HTML code for every web link, for example:
+
+`<a href="links.example.com" mc-deep-link="false" >Link to your app!</a>`
 
 ## Support
 

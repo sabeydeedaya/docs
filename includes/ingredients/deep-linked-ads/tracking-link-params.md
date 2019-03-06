@@ -1,12 +1,16 @@
-Branch Tracking links allow tracking many parameters about the performance of your ad campaigns and individual ads. Additional parameters for advanced analysis may be added to the link after the '?' or '&' character, to trace extra information. 
-
 ### Tracking Link Parameters
+
+Branch Tracking links allow tracking many parameters about the performance of your ad campaigns and individual ads. Additional parameters for advanced analysis may be added to the link after the '?' or '&' character, to trace extra information.
+
+!!! tip "Example Tracking Link with Additional Parameters"
+    Example Branch link including additional parameters to pass Agency and Sub Publisher information:`https://tracking.app.link?%243p=a_partner&~agency=myAgency&~secondary_publisher=best_publisher`
+
 The following parameters are available to use within the pre-generated tracking link:
 
 #### Campaign Information
 
-Branch Parameter | Description 
---- | --- 
+Branch Parameter | Description
+--- | ---
 ~agency | Agency name
 ~secondary_publisher | Sub Publisher
 ~campaign | Campaign name
@@ -27,18 +31,19 @@ Branch Parameter | Description
 ~keyword_text | Keyword Text
 
 #### Device Information
-Branch Parameter | Description 
---- | --- 
+
+Branch Parameter | Description
+--- | ---
 %24aaid | Google AAID
 %24idfa | Apple IDFA
 
 #### Spend Calculation
-Branch Parameter | Description 
---- | --- 
+
+!!! info "Cost Data Availability"
+    Cost data passed via these macros is available in exports but is not visible in the Branch dashboard.
+
+Branch Parameter | Description
+--- | ---
 ~cost_model | Cost Model
 ~cost_value | Cost Value
 ~cost_currency | Cost Currency
-
-!!! tip "Tracking link with additional parameters"
-    Here is the example how to pass Agency and Sub Publisher with Tracking link:
-    https://tracking.app.link?%243p=a_partner&~agency=myAgency&~secondary_publisher=best_publisher
