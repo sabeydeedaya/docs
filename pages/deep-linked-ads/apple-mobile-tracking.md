@@ -1,6 +1,6 @@
 ## Overview
 
-![Apple_Search_Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/search_ads-1528501330030.png)
+![Apple Search Ads](/_assets/img/pages/deep-linked-ads/apple-search/search-ads-reduced-logo.png)
 
 Branch can help track your **[Apple Search Ads](https://searchads.apple.com/)** campaigns by fetching the Apple Search Ads Attribution API.  You can then use the parameters you've set in the Apple Search Ads dashboard, parameters such as the campaign name, and take special action in your app after an install, or simply track the effectiveness of a campaign in the Branch dashboard, along with other your other Branch statistics, such as total installs, referrals, and app link statistics.
 
@@ -55,7 +55,6 @@ branch.initSession.....
 
 ## Cost Data Setup
 
-1. Request access to the Cost Data beta through your account manager and it will be enabled in your dashboard.
 1. Navigate to the [Apple Search Ads UI > Settings > API](https://app.searchads.apple.com/cm/app/settings/apicertificates). *Verify you have selected the correct account by using the account selector in the top right hand corner.*
 
     ![image](/_assets/img/pages/deep-linked-ads/apple-search/apple-api-screen.png)

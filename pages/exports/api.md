@@ -1,6 +1,5 @@
----
-title: Legacy Data Export API (old)
----
+!!! warning "Legacy Functionality"
+	Please use the [Export API Migration Guide](/exports/export-api-migration-guide/) to upgrade to the current version.
 
 ## Overview
 

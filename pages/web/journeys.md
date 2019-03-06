@@ -647,6 +647,24 @@ If you have an upgraded premium account, you may also modify your CSS code direc
 
 ![image](/_assets/img/pages/journeys/view-css-editor.png)
 
+#### Adding a Second Line of Text
+
+You can add a second line of text to your Journey either before or after by adding it to the CSS element:
+
+- Before
+```
+branch-banner .branch-banner-description::before
+
+{ display: block; content: 'Chat with other Fans'; }
+```
+
+- After
+```
+#branch-banner .branch-banner-description::after
+
+{ display: block; content: 'Watch in Dark Mode'; }
+```
+
 #### Custom fonts with Journeys
 
 1) Go to [Google Fonts](https://fonts.google.com/) and select a font.

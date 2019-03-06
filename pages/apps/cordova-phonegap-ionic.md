@@ -886,6 +886,64 @@
 
 - ### Incompatibilities
 
+    - The newest Android Studio - 3.3.1 - is not compatible with the current Cordova project.
+      - **Solution**
+        - Install Gradle 4.4 (or higher version), then modify the below files.
+          - platforms/android/build.gradle
+          ```
+          buildscript {
+            repositories {
+              jcenter()
+              maven {
+                url "https://maven.google.com"
+              }
+            }
+            dependencies {
+
+              // NOTE: Do not place your application dependencies here; they belong
+              // in the individual module build.gradle files
+              classpath 'com.android.tools.build:gradle:3.1.2'  <-- from 3.0.0 to 3.1.2
+            }
+          }
+          ```
+          - platforms/android/app/build.gradle
+          ```
+          buildscript {
+            repositories {
+              mavenCentral()
+              jcenter()
+              maven {
+                url "https://maven.google.com"
+              }
+            }
+
+            dependencies {
+              classpath 'com.android.tools.build:gradle:3.1.2'  <-- from 3.0.0 to 3.1.2
+            }
+          }
+          ...
+
+          task wrapper(type: Wrapper) {
+              gradleVersion = '4.4.0'  <-- from 4.1.0 to 4.4.0
+          }
+          ```
+          - platforms/android/CordovaLib/build.gradle
+          ```
+          buildscript {
+            repositories {
+              jcenter()
+              maven {
+                url "https://maven.google.com"
+              }
+            }
+
+            dependencies {
+              classpath 'com.android.tools.build:gradle:3.1.2'  <-- from 3.0.0 to 3.1.2
+              classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+              classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+            }
+          }
+          ```
     - The following plugins will not work with the Branch SDK
 
         - [PhoneGap NFC Plugin](https://github.com/chariotsolutions/phonegap-nfc)

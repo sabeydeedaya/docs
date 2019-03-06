@@ -1,6 +1,5 @@
----
-title: Legacy Webhooks (old)
----
+!!! warning "Legacy Functionality"
+	Please use the [Webhooks Migration Guide](/exports/webhooks-migration-guide/) to upgrade to the current version.
 
 ## Overview
 
