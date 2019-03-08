@@ -1,6 +1,6 @@
 ## Overview
 
-![Creative Clicks](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/creativeclicks.png)
+![Creative Clicks](/_assets/img/pages/deep-linked-ads/creative-clicks/creative-clicks-logo.png)
 
 This guide will walk you through how to setup your campaigns with **[Creative Clicks](http://creativeclicks.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
@@ -20,7 +20,7 @@ This guide will walk you through how to setup your campaigns with **[Creative Cl
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/creative-clicks/creative-clicks-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/creative-clicks/creative-clicks-interactive-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
