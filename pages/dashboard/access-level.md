@@ -1,14 +1,14 @@
-## Overview
-
 In order to ensure that teams have granular control over which parts of the Branch dashboard their team members can and cannot access, Branch provides a robust dashboard access control system. This system allows account administrators to set and modify access levels for other members, and thus to control what those users can view, edit, and export when using the dashboard.
 
 ### Permissions Definitions
 
-Access to pages and actions in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
+Access to pages, actions and data in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
 
-- **App-level Settings:** Settings or features that can impact functionality app-wide.
-- **Channel-level Settings:** Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
-- **Link-level Settings:** Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
+- **[Organization-level Settings](/dashboard/organization-level-access/)**: Settings or features that can impact functionality at the highest account level.
+- **[Agency-level Settings](/dashboard/agency-level-acces/)**: Settings or features that can impact functionality for agencies you connect to your Branch account.
+- **[App-level Settings](/dashboard/app-level-access/)**: Settings or features that can impact functionality app-wide.
+- **[Channel-level Settings](/dashboard/channel-level-access/)**: Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
+- **[Link-level Settings](/dashobard/link-level-access/)**: Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
 - **Aggregate Data:** Summary data that contains no granular information (e.g. data on Sources page).
 - **Sensitive Data:** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
 - **Export:** Allows a user to export Sensitive Data from pages they can view.
@@ -19,12 +19,12 @@ Each page on the dashboard has its own access requirements. For example, in orde
 
 Each dashboard user will have an access role that determines what they will and will not be able to access in the dashboard. We provide several default profiles with predefined access levels, and we also offer the option of creating custom roles to give you as much flexibility as possible when assigning access. The default profiles, along with their permissions, are below:
 
-  | Role | App-level Settings | Channel-level settings | Link-level Settings | Aggregate Data | Sensitive Data | Export
-  | --- | :-: | :-: | :-: | :-: | :-: | :-:
-  | Admin | Edit | Edit | Edit | View | View | Access
-  | Team Member | View | Edit | Edit | View | No Access | No Access
-  | Full Read | View | View | View | View | No Access | No Access
- 	| Limited Read | No Access | No Access | No Access | View | No Access | No Access
+  | Role | Organization-Level Settings | Agency-level Settings | App-level Settings | Channel-level settings | Link-level Settings | Aggregate Data | Sensitive Data | Export
+  | --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
+  | Admin | Edit | Edit| Edit | Edit | Edit | View | View | Access
+  | Team Member | View| View| View | Edit | Edit | View | No Access | No Access
+  | Full Read | View| NA| View | View | View | View | No Access | No Access
+ 	| Limited Read | No Access| NA| No Access | No Access | No Access | View | No Access | No Access
 
 ### Access Level Definitions
 

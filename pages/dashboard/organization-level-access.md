@@ -1,0 +1,191 @@
+The "Organization" level of a Branch account is the highest level of access and includes access (either edit or read-only) to the following functionality:
+
+<table>
+  <tr>
+    <th></th>
+    <th><b>Account Settings</b></th>
+    <th><b>Link Settings</b></th>
+    <th><b>Ads</b></th>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="/_assets/img/pages/dashboard/access-levels/org-level-nav.png"</td>
+    <td><a href="/dashboard/organization-level-access/#managing-your-organization-profile">Profile</a></td>
+    <td><a href="/dashboard/organization-level-access/#attribution-windows">Attribution Windows</a></td>
+    <td><a href="/dashboard/organization-level-access/#partner-management">Partner Management</a></td>
+  </tr>
+  <tr>
+    <td><a href="/dashboard/organization-level-access/#managing-your-user-profile">User</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/dashboard/organization-level-access/#managing-your-organizations-team">Team</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+## Account Settings
+
+### Managing your Organization Profile
+
+If you are an Organization Admin, you have edit access to the **Profile** tab.
+
+- **Organization Name** - provided by you; editable.
+- **Organization ID** - assigned by Branch; not editable.
+- **Time Zone** - Your time zone affects your dashboard analytics and how your Branch data matches up with external data sources. Use the drop-down to select the appropriate time zone.
+
+### Managing your User Profile
+
+Any user type - Admin, Team Member, Full Read, Limited Read - has the ability to edit the **User** tab.
+
+- **Dashboard UID** - assigned by Branch; not editable.
+- **First and Last Names** - provided by you; editable.
+- **Email Address** - provided by you; editable.
+- **Change Password** - provided by you; editable.
+
+### Managing Your Organization's Team
+
+If you are an Organization Admin, you have edit access to the **Team** tab.
+
+#### Adding an Organization User
+
+To add a new Organization User:
+
+1. Click the **Add Organization Team Member** button.
+2. In the **Add Organization Team Member** modal:
+	1. Provide the user's **Email Address**
+	1. Provide the user's **First** and **Last** names
+	1. Select the appropriate **Access Level**
+		- **Admin** - Edit access to all settings and export access to all data.
+		- **Team Member** - Edit access to channels and links, read-only access to app settings, and access to aggregate data.
+		- **Full Read** - Read-only access to all settings and access to aggregate data.
+		- **Limited Read**  - Access to aggregate data only.
+		- **Custom** - Customize settings and data access.
+		- **No Access** - no dashboard access.
+	1. Click **Invite**.
+
+#### Defining Permissions
+
+Each access level - as defined above - comes with predefined permissions which you can edit if you choose.
+
+!!! tip "Modifying Permissions"
+	If you want to modify a predefined access level, click the pencil icon to (de)select the available options.
+
+- **Link-level Settings** - Settings or features that can impact functionality for single links.
+- **Channel-level Settings** - Settings or features that can impact functionality across a marketing channel.
+- **App-level Settings** - Settings or features that can impact functionality app-wide.
+- **Aggregate Data** - Summary data that contains no granular data.
+- **Sensitive Data** - Data that can contain user-identifying, payment-related, or secret information.
+
+#### Modifying an Organization Team Member
+
+To modify an existing Organization Team Member:
+
+1. Find the Organization Team member you want to modify and click the **...** button in the **Actions** column for that user.
+1. To edit the Agency member:
+	1. Click **Edit** and modify any of the following:
+		- Email
+		- First and Last names
+		- Access Level
+	1. Click **Save**.
+1. To resend the invitation to join the Agency account:
+	1. Click **Resend Invite**.
+1. To delete the Agency member:
+	1. Click **Delete**.
+	1. In the **Are you sure you want to delete?** modal, click **Yes, Delete**.
+
+### Managing Agency Access to your Branch Account
+
+If you are an Organization Admin, you have full edit access to all of the Account Settings mentioned above including the ability to add an Agency - both a Full Access and/or Limited Access Agency - to your Branch account.
+
+!!! info ""
+	You can only add agencies via the **Agencies** tab. Trying to add agencies via the **Team** tab will throw an error as only non-agency users should be added via the Team Tab.
+
+#### Adding an Agency
+
+To add an Agency:
+
+1. Go to **Account Settings** and click on the **Agencies** tab.
+1. On the **Agencies** tab, click the **Add New Agency** button.
+1. In the **Add New Agency** modal:
+	1. Select the Agency name from the drop-down.
+	1. Select the appropriate level of access.
+		- **Admin** - Edit access to all settings and export access to all data.
+		- **Team Member** - Edit access to channels and links, read-only access to app settings, and access to aggregate data.
+		- **Full Read** - Read-only access to all settings and access to aggregate data.
+		- **Limited Read**  - Access to aggregate data only.
+		- **Custom** - Customize settings and data access.
+		- **No Access** - no dashboard access.
+
+#### Defining Permissions
+
+Each access level - as defined above - comes with predefined permissions which you can edit if you choose.
+
+!!! tip "Modifying Permissions"
+	If you want to modify a predefined access level, click the pencil icon to (de)select the available options.
+
+- **Link-level Settings** - Settings or features that can impact functionality for single links.
+- **Channel-level Settings** - Settings or features that can impact functionality across a marketing channel.
+- **App-level Settings** - Settings or features that can impact functionality app-wide.
+- **Aggregate Data** - Summary data that contains no granular data.
+- **Sensitive Data** - Data that can contain user-identifying, payment-related, or secret information.
+
+#### Additional Data Filters
+
+During the process of granting an agency access to your Branch account, you can also impose limitations around what data is available to the agency at any given time.
+
+- **Only Show Agency-tagged Data** - When toggled on, agency users can only see events tagged with their Agency ID.
+- **Restrict Access to Revenue Data** - When toggled on, agency users cannot view revenue data.
+- **Only Show Data from Specific Ad Networks** - When toggled on, agency users can only view events from a specific list of ad networks.
+- **Only Show Data from Specific Locations** - When toggled on, agency users can only view events that have taken place in a specific list of countries.
+
+!!! warning "Agency Invitation"
+	Once you've defined the appropriate levels of access for your Agency, you must **Invite** them to access the Branch dashboard. Only Organization Admins can invite an Agency to access the Branch dashboard.
+
+#### Modifying an Agency Team Member
+
+To modify an existing Agency Team member:
+
+1. Find the Agency Team member you want to modify and click the **...** button in the **Actions** column for that user.
+1. To edit the Agency member:
+	1. Click **Edit** and modify any of the following:
+		- Email
+		- First and Last names
+		- Access Level
+	1. Click **Save**.
+1. To resend the invitation to join the Agency account:
+	1. Click **Resend Invite**.
+1. To delete the Agency member:
+	1. Click **Delete**.
+	1. In the **Are you sure you want to delete?** modal, click **Yes, Delete**.
+
+### Single Sign On
+
+Branch offers Security Assertion Markup Language (SAML) / Single Sign-on (SSO) support for the dashboard. This allows you to use your identity provider (IdP) to centralize access to various services for your team and leverage existing directory systems and security groups.
+
+Please see [Enabling Single Sign On](/dashboard/sso/) for instructions.
+
+## Link Settings
+
+### Attribution Windows
+
+!!! info "Default Attribution Window Settings"
+		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.
+
+![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+
+- `Deep Linking Duration` refers to the duration of time someone is eligible to receive deep link data. This includes anyone clicking a Branch link, or being automatically redirected to the app through a Branch Web SDK call. Measured in minutes.
+
+- `Click to x` refers to events that occur after someone clicks a Branch link. If someone clicks and installs from a link, and comes back 10 days later to purchase, we would count that as a conversion, and it would surface in our dashboard. Measured in days.
+
+- `Impression to x` refers to events that occur after someone views a Branch impression link. Measured in days.
+
+- `Re-engagement Inactivity` defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. Used in re-engagement cohort analysis but not activity analysis.
+
+## Ads
+
+### Partner Management
+
+!!! info "COMING SOON"
+	Allow enabling and editing of ad networks at the org level.
