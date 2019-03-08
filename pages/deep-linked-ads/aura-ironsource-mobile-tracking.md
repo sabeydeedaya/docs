@@ -1,6 +1,6 @@
 ## Overview
 
-![Aura Ironsource](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/logo_ironsource-aura-1544482799137.png)
+![Aura Ironsource](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/ironsourceaura_new.png)
 
 This guide will walk you through how to setup your campaigns with **[Aura Ironsource](https://company.ironsrc.com/enterprise-solutions/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
@@ -22,7 +22,7 @@ This guide will walk you through how to setup your campaigns with **[Aura Ironso
 
 ![image](/_assets/img/pages/deep-linked-ads/aura-ironsource/aura-ironsource-postbacks.png)
 
-{! ingredients/deep-linked-ads/create-ad-link.md !}
+{! ingredients/deep-linked-ads/aura-ironsource-create-ad-link.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
