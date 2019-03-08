@@ -1,8 +1,8 @@
 ## Overview
 
-![Aura Ironsource](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/ironsourceaura_new.png)
+![Sense Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/584040990008955077/Sense%20Digital_logo-1544225537123.png)
 
-This guide will walk you through how to setup your campaigns with **[Aura Ironsource](https://company.ironsrc.com/enterprise-solutions/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Sense Digital](http://www.sensedigital.in/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,15 +14,15 @@ This guide will walk you through how to setup your campaigns with **[Aura Ironso
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/aura-ironsource/aura-ironsource-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/sense-digital/sense-digital-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/aura-ironsource/aura-ironsource-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/sense-digital/sense-digital-postbacks.png)
 
-{! ingredients/deep-linked-ads/aura-ironsource-create-ad-link.md !}
+{! ingredients/deep-linked-ads/create-ad-link.md !}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

@@ -26,8 +26,8 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.localytics.com/" target="_blank">![Localytics](/_assets/img/pages/integrations/logos/localytics.png)</a>|**[Localytics](/integrations/localytics/)**
 <a href="https://www.mobileaction.co/" target="_blank">![MobileAction](https://cdn.branch.io/branch-assets/ad-partner-manager//SearchAdsByMobileActionLogo-1550011543924.png)</a>|**[MobileAction](/integrations/mobileaction/)**
 <a href="https://mixpanel.com/" target="_blank">![Mixpanel](https://cdn.branch.io/branch-assets/ad-partner-manager//mixpanel-1550716013249.png)</a>|**[Mixpanel](/integrations/mixpanel/)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](/_assets/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/integrations/mparticle-import/)**
-<a href="https://www.mparticle.com/" target="_blank">![mParticle](/_assets/img/pages/integrations/logos/mparticle.png)</a>|**[mParticle Import](/integrations/mparticle-import/)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://cdn.branch.io/branch-assets/ad-partner-manager//mParticle-1552066868841.png)</a>|**[mParticle Export](/integrations/mparticle/)**
+<a href="https://www.mparticle.com/" target="_blank">![mParticle](https://cdn.branch.io/branch-assets/ad-partner-manager//mParticle-1552066868841.png)</a>|**[mParticle Import](/integrations/mparticle-import/)**
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/integrations/segment/)**
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Import](/integrations/segment-import/)**
 <a href="https://www.singular.net/" target="_blank">![Singular](/_assets/img/pages/integrations/logos/singular.png)</a>|**[Singular](/integrations/singular/)**
