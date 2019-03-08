@@ -16,7 +16,12 @@ This guide will walk you through how to setup your campaigns with **[Applovin](h
 
 ![image](/_assets/img/pages/deep-linked-ads/applovin/applovin-enable.png)
 
-{! ingredients/deep-linked-ads/add-credentials.md !}
+#### Provide account credentials
+
+Enter any credentials that may be required, and click Save and Enable in the bottom right hand corner.
+
+!!! tip "Applovin SDK Key"
+	You can find your SDK Key in the Account > Keys section on Applovin UI
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
