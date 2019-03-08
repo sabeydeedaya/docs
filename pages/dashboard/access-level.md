@@ -79,22 +79,6 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Account Settings/SSO | App-level Settings | Admin, Team Member, Full Read |
   | Set up SDK | App-level Settings, Sensitive Data | Admin |
 
-### Setting/Modifying Access Roles
-
-You can set a user’s access levels when adding that user to your team in the dashboard, and you can edit existing users’ access levels anytime thereafter (if you have the permissions required to do so).
-
-When adding a new team member, you will be presented with a modal that allows you to select a default profile from a dropdown; if you select the Custom profile from the dropdown, you will have full control over which permissions a user has.
-
-![image](/_assets/img/pages/dashboard/access-control-invitation.png)
-
-If you’d like to change the access levels of an existing user, navigate to the Team tab of the Account Settings section of the dashboard and click the “Edit” button next to the user whose access levels you’d like to modify. You will be presented with the same modal.
-
-### Changes to Old Access Roles
-
-Branch previously had only two different access roles for users: Admin and Reports. With the introduction of new access roles, dashboard users with the Admin role were migrated to the new Admin role, and should not experience any change in dashboard access. Meanwhile, users with the old Reports role were migrated to the new Full Read role.
-
-While the Reports and Full Read roles have similar permission levels, Full Read users do not have access to several sections/actions on the Branch dashboard which were available to Reports users. Full Read users are not able to create, duplicate, or edit links, and they are not able to view or export Sensitive Data in the dashboard, like that in the Account Settings, Liveview, CSV Exports, and Data Integrations sections of the dashboard.
-
 ### Getting More Permissions
 
 As a non-Admin user, you may not be able to access/use certain sections of the Branch dashboard. If you’d like more access, please contact an Admin user on your account to ask for more permissions.

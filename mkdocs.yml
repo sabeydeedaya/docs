@@ -102,11 +102,6 @@ nav:
   - Account Settings:
     - Overview: dashboard/account-settings.md
     - Basic Settings:
-      - App Level Settings: dashboard/integrate.md
-      - Setting Your Dashboard Analytics Time Zone: dashboard/timezone.md
-    - Advanced Settings:
-      - View Billing Information: dashboard/viewing-billing.md
-      - Enable Single Sign On: dashboard/sso.md
       - Access Levels:
         - Overview: dashboard/access-level.md
         - Organization Level: dashboard/organization-level-access.md
@@ -114,6 +109,10 @@ nav:
         - App Level: dashboard/app-level-access.md
         - Channel Level: dashboard/channel-level-access.md
         - Link Level: dashboard/link-level-access.md
+    - Advanced Settings:
+      - View Billing Information: dashboard/viewing-billing.md
+      - Enable Single Sign On: dashboard/sso.md
+      - Changing Link Domains: dashboard/changing-link-domains.md
   - Link Settings:
     - Overview: links/branch-links-overview.md
     - Default Link Behavior Configuration: links/default-link-behavior.md
