@@ -2,26 +2,37 @@ The "Organization" level of a Branch account is the highest level of access and 
 
 <table>
   <tr>
-    <th></th>
-    <th><b>Account Settings</b></th>
-    <th><b>Link Settings</b></th>
-    <th><b>Ads</b></th>
+    <th rowspan="6"><img src="/_assets/img/pages/dashboard/access-levels/org-level-nav.png"></th>
   </tr>
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th><b>Org Level</b></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
   <tr>
-    <td rowspan="3"><img src="/_assets/img/pages/dashboard/access-levels/org-level-nav.png"</td>
-    <td><a href="/dashboard/organization-level-access/#managing-your-organization-profile">Profile</a></td>
-    <td><a href="/dashboard/organization-level-access/#attribution-windows">Attribution Windows</a></td>
-    <td><a href="/dashboard/organization-level-access/#partner-management">Partner Management</a></td>
-  </tr>
-  <tr>
-    <td><a href="/dashboard/organization-level-access/#managing-your-user-profile">User</a></td>
+		<th><b>Ads</b></th>
+		<td><a href="/dashboard/organization-level-access/#partner-management">Partner<br/>Management</a></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th><b>Link<br/>Settings</b></th>
+		<td><a href="/dashboard/organization-level-access/#attribution-windows">Attribution<br/>Windows</a></td>
     <td></td>
-    <td></td>
+		<td></td>
   </tr>
-  <tr>
+	<tr>
+		<th><b>Account<br/>Settings</b></th>
+		<td><a href="/dashboard/organization-level-access/#managing-your-organization-profile">Profile</a></td>
+		<td><a href="/dashboard/organization-level-access/#managing-your-user-profile">User</a></td>
     <td><a href="/dashboard/organization-level-access/#managing-your-organizations-team">Team</a></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
