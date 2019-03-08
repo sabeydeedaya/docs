@@ -9,30 +9,35 @@ The "Organization" level of a Branch account is the highest level of access and 
 		<th></th>
 		<th></th>
 		<th></th>
+    <th></th>
 	</tr>
 	<tr>
 		<th><b>Org Level</b></th>
 		<th></th>
 		<th></th>
 		<th></th>
+    <th></th>
 	</tr>
   <tr>
 		<th><b>Ads</b></th>
 		<td><a href="/dashboard/organization-level-access/#partner-management">Partner<br/>Management</a></td>
 		<td></td>
 		<td></td>
+    <td></td>
 	</tr>
 	<tr>
 		<th><b>Link<br/>Settings</b></th>
 		<td><a href="/dashboard/organization-level-access/#attribution-windows">Attribution<br/>Windows</a></td>
     <td></td>
 		<td></td>
+    <td></td>
   </tr>
 	<tr>
 		<th><b>Account<br/>Settings</b></th>
 		<td><a href="/dashboard/organization-level-access/#managing-your-organization-profile">Profile</a></td>
 		<td><a href="/dashboard/organization-level-access/#managing-your-user-profile">User</a></td>
     <td><a href="/dashboard/organization-level-access/#managing-your-organizations-team">Team</a></td>
+    <td><a href="/dashboard/organization-level-access/#single-sign-on">SSO</a></td>
   </tr>
 </table>
 
@@ -106,15 +111,15 @@ Each access level - as defined above - comes with predefined permissions which y
 To modify an existing Organization Team Member:
 
 1. Find the Organization Team member you want to modify and click the **...** button in the **Actions** column for that user.
-1. To edit the Agency member:
+1. To edit the Organization Team member:
 	1. Click **Edit** and modify any of the following:
 		- Email
 		- First and Last names
 		- Access Level
 	1. Click **Save**.
-1. To resend the invitation to join the Agency account:
+1. To resend the invitation to join the account:
 	1. Click **Resend Invite**.
-1. To delete the Agency member:
+1. To delete the Organization Team member:
 	1. Click **Delete**.
 	1. In the **Are you sure you want to delete?** modal, click **Yes, Delete**.
 
