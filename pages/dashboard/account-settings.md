@@ -2,13 +2,13 @@ Within your Account Settings, you have access to the following functionality:
 
 ## Basic Account Settings
 
-  - [Access Level Overview](/access-level/)
-    - [Organization Level](/organization-level-access/)
-    - [Agency Level](/agency-level-access/)
-    - [App Level](/app-level-access/)
-    - [Channel Level](/channel-level-access/)
-    - [Link Level](/link-level-access/)
-  - [Setting Your Dashboard Analytics Timezone](/timezone/)
+  - [Access Level Overview](/dashboard/access-level/)
+    - [Organization Level](/dashboard/organization-level-access/)
+    - [Agency Level](/dashboard/agency-level-access/)
+    - [App Level](/dashboard/app-level-access/)
+    - [Channel Level](/dashboard/channel-level-access/)
+    - [Link Level](/dashboard/link-level-access/)
+  - [Setting Your Dashboard Analytics Timezone](/dashboard/timezone/)
 
 ## Advanced Account Settings
 

@@ -40,6 +40,8 @@ The "Organization" level of a Branch account is the highest level of access and 
 
 ### Managing your Organization Profile
 
+![image](/_assets/img/pages/dashboard/access-levels/org-profile.png)
+
 If you are an Organization Admin, you have edit access to the **Profile** tab.
 
 - **Organization Name** - provided by you; editable.
@@ -47,6 +49,8 @@ If you are an Organization Admin, you have edit access to the **Profile** tab.
 - **Time Zone** - Your time zone affects your dashboard analytics and how your Branch data matches up with external data sources. Use the drop-down to select the appropriate time zone.
 
 ### Managing your User Profile
+
+![image](/_assets/img/pages/dashboard/access-levels/org-user.png)
 
 Any user type - Admin, Team Member, Full Read, Limited Read - has the ability to edit the **User** tab.
 
@@ -60,6 +64,8 @@ Any user type - Admin, Team Member, Full Read, Limited Read - has the ability to
 If you are an Organization Admin, you have edit access to the **Team** tab.
 
 #### Adding an Organization User
+
+![image](/_assets/img/pages/dashboard/access-levels/org-team-add.gif)
 
 To add a new Organization User:
 
@@ -75,6 +81,10 @@ To add a new Organization User:
 		- **Custom** - Customize settings and data access.
 		- **No Access** - no dashboard access.
 	1. Click **Invite**.
+  1. In the **Organization Settings** modal, select either:
+    - All apps that inherit from the organization
+    - All apps
+  1. Click **Save**
 
 #### Defining Permissions
 
@@ -90,6 +100,8 @@ Each access level - as defined above - comes with predefined permissions which y
 - **Sensitive Data** - Data that can contain user-identifying, payment-related, or secret information.
 
 #### Modifying an Organization Team Member
+
+![image](/_assets/img/pages/dashboard/access-levels/org-team-edit.png)
 
 To modify an existing Organization Team Member:
 
