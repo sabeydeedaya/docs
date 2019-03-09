@@ -131,14 +131,22 @@ If you are an Admin, you have edit access to the **General** tab.
 
 #### General Redirect Settings
 
- ![image](/_assets/img/pages/dashboard/access-levels/general-redirect-settings.png)
+![image](/_assets/img/pages/dashboard/access-levels/general-redirect-settings.png)
+
+This selector allows you to control how and when Branch uses URI schemes to open your app when Universal Links and Android App Links fail. See browser specifics in the docs here.
+
+- **Conservative** mode will never use URI schemes if there is a risk of error messages.
+- **Intelligent** mode is recommended, and uses Branch data to safely use URI schemes everywhere, with the slight risk of error messages in certain browsers if the app is uninstalled.
+- **Aggressive** will force URI schemes everywhere, causing users without the app to see error messages in some browsers.
 
 #### iOS Redirects
 
 ![image](/_assets/img/pages/dashboard/access-levels/ios-redirects.png)
 
 - Use these settings to control the default behavior of your deep links on iOS
-- The Apple App Prefix is found within the [Apple Developer Portal](https://developer.apple.com/account/ios/identifier/bundle) for your app
+- Enable Universal Links
+    - Starting with iOS 9, Apple offers Universal Linking functionality, which will open URLs directly into an app, rather than the usual Link -> Safari -> App handoff cycle. This requires some set up, but we do this for you, we just need your Apple App Prefix and your app's Bundle identifier.
+    - The Apple App Prefix is found within the [Apple Developer Portal](https://developer.apple.com/account/ios/identifier/bundle) for your app.
 
 #### Android Redirects
 
@@ -146,14 +154,18 @@ If you are an Admin, you have edit access to the **General** tab.
 
 - Use these settings to control the default behavior of your deep links on Android
 - Play Store is for published apps, if your app cannot be located or is a local/dev build, please use the Custom URL option
-- Generate a SHA256 Cert Fingerprint
-    - Navigate to your `keystore file` (used to build the debug and production version of your APK file before it gets deployed)
-    - Run `keytool -list -v -keystore my-release-key.keystore` to generate a fingerprint
-    - Example fingerprint `AA:C9:D9:A5:E9:76:3E:51:1B:FB:35:00:06:9B:56:AC:FB:A6:28:CE:F3:D6:65:38:18:E3:9C:63:94:FB:D2:C1` to add to your [Branch Dashboard](https://dashboard.branch.io/link-settings)
+- Enabling App Links
+    - Starting with Android 6.0 (API level 23) and higher allow an app to designate itself as the default handler of a given type of link. App Links will open URLs directly into an app, rather than the usual Link -> Browser -> App handoff cycle. This requires some set up, but we do this for you. We need your sha256_cert_fingerprints.
+    - Generate a SHA256 Cert Fingerprint
+        - Navigate to your `keystore file` (used to build the debug and production version of your APK file before it gets deployed)
+        - Run `keytool -list -v -keystore my-release-key.keystore` to generate a fingerprint
+        - Example fingerprint `AA:C9:D9:A5:E9:76:3E:51:1B:FB:35:00:06:9B:56:AC:FB:A6:28:CE:F3:D6:65:38:18:E3:9C:63:94:FB:D2:C1` to add to your [Branch Dashboard](https://dashboard.branch.io/link-settings)
 
 #### Fire Redirects
 
 ![image](/_assets/img/pages/dashboard/access-levels/fire-redirects.png)
+
+- Use these settings to control the default behavior of your deep links on Fire
 
 #### Default URL
 
@@ -179,6 +191,8 @@ If you are an Admin, you have edit access to the **General** tab.
 #### Advanced Mobile Redirects
 
 ![image](/_assets/img/pages/dashboard/access-levels/advanced-mobile-redirects.png)
+
+- Use these settings to control the default behavior of your deep links on other devices.
 
 #### Advanced Settings
 
@@ -249,3 +263,18 @@ If you choose to delete your app, this will be a permanent change. Note the foll
 ## Ads
 
 ### Partner Management
+
+If you are an Admin, you have edit access to the **Partner Management** tab.
+
+![image](/_assets/img/pages/dashboard/access-levels/app-partner-management.gif)
+
+Each Universal Ad Partner has the following settings:
+
+- **Account Settings**
+    - Partner Credentials; e.g. API Key, SDK Key, Security Token.
+- **Postback Config**
+    - Partner supported postback templates per conversion type
+- **Link Parameters**
+    - Parameters added to the Partner's link by default; not editable.
+- **Attribution Windows**
+    - Use a custom attribution window to match AdAction Engage's attribution windows. This overrides your app level attribution windows.
