@@ -135,13 +135,13 @@ This section covers how to convert individual links in your existing email templ
 
 To convert a link to a Branch deep link, let's use an example:
 ```
-<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;" href="https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel">I want it!</a>
+<a href="https://www.blueapron.com/"> I want it! </a>
 ```
 
 This is what the link will look like **after** you have modified it to support Branch deep links:
 ```
-%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%%
-<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"  href="%%=RedirectTo(@deeplink)=%%">I want this!</a>
+%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%%
+<a href="%%=RedirectTo(@deeplink)=%%">I want this!</a>
 ```
 
 We recommend you create the deep link in a separate document and then paste it back into the HTML editor in Salesforce marketing cloud. To begin:
@@ -161,27 +161,27 @@ We recommend you create the deep link in a separate document and then paste it b
 
 1. Choose a link that you want to convert to a Branch deep link. Copy the text right after the `href=` in your email template, and paste it into a separate document. In the example, it is:
 
-    **`"https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`**
+    **`"https://www.blueapron.com/"`**
 
 1. Add `%%[ SET @link_to_be_wrapped = ` before the link in your separate document. In the example, this is now:
 
-    **`%%[ SET @link_to_be_wrapped = `**`"https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`
+    **`%%[ SET @link_to_be_wrapped = `**`"https://www.blueapron.com/"`
 
 1. Add `ContentAreaByName("My Contents\deeplink")]%%` after the link:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`**`ContentAreaByName("My Contents\deeplink")]%%`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/"`**`ContentAreaByName("My Contents\deeplink")]%%`**
 
 1. From the original link in your template, copy the text from and including `<a` until the `href=`.  Add it to the text after `%%` in the last step. Please include the `<a` but not the `href=`:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%%`**`<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%%`**`<a style="_any css can be added here_"`**
 
 1. Add `href="%%=RedirectTo(@deeplink)=%%"` to the end:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%% <a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"`**`href="%%=RedirectTo(@deeplink)=%%"`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%% <a style="_any css can be added here_"`**`href="%%=RedirectTo(@deeplink)=%%"`**
 
 1. From the original link in your template, copy the end of the tag, the link text, and the closing tag (`>I want it!</a>` in the example) and add it to the end:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%% <a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;" href="%%=RedirectTo(@deeplink)=%%"`**`>I want it!</a>`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%% <a style="_any css can be added here_" href="%%=RedirectTo(@deeplink)=%%"`**`>I want it!</a>`**
 
 1. Copy your final result from the separate document back into your email template, replacing everything inside and including the `<a></a>` tags in the template.
 
