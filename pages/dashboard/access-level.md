@@ -5,7 +5,7 @@ In order to ensure that teams have granular control over which parts of the Bran
 Access to pages, actions and data in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
 
 - **[Organization-level Settings](/dashboard/organization-level-access/)**: Settings or features that can impact functionality at the highest account level.
-- **[Agency-level Settings](/dashboard/agency-level-acces/)**: Settings or features that can impact functionality for agencies you connect to your Branch account.
+- **[Agency-level Settings](/dashboard/agency-level-access/)**: Settings or features that can impact functionality for agencies you connect to your Branch account.
 - **[App-level Settings](/dashboard/app-level-access/)**: Settings or features that can impact functionality app-wide.
 - **[Channel-level Settings](/dashboard/channel-level-access/)**: Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
 - **[Link-level Settings](/dashobard/link-level-access/)**: Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
