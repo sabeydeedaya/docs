@@ -7,15 +7,8 @@ The "Agency" level of a Branch account is a second tier level which allows a thi
 
 <table>
   <tr>
-    <th rowspan="6"><img src="/_assets/img/pages/dashboard/access-levels/agency-nav.png"></th>
+    <th rowspan="5"><img src="/_assets/img/pages/dashboard/access-levels/agency-nav.png"></th>
   </tr>
-	<tr>
-		<th></th>
-		<th></th>
-		<th></th>
-		<th></th>
-		<th></th>
-	</tr>
 	<tr>
 		<th><b>Agency Level</b></th>
 		<th></th>

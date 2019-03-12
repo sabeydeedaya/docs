@@ -37,7 +37,7 @@ The "App" level of a Branch account is the third level of access and includes ac
 		<td><a href="/dashboard/app-level-access/#managing-your-app-profile">Profile</a></td>
 		<td><a href="/dashboard/app-level-access/#managing-your-user-profile">User</a></td>
     <td><a href="/dashboard/app-level-access/#viewing-billing">Billing</a></td>
-    <td><a href="/dashboard/app-level-access/#managing-your-app-team">Team</a></td>
+    <td><a href="/dashboard/app-level-access/#managing-your-apps-team">Team</a></td>
   </tr>
 </table>
 
