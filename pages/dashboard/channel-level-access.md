@@ -55,9 +55,9 @@ The "Channel" level of a Branch account is the fourth level of access and includ
   </tr>
 	<tr>
 		<th><b>Data Import & Export</b></th>
-		<td><a href="/dashboard/app-level-access/#data-feeds-manager">Data Feeds Manager</a></td>
-		<td><a href="/dashboard/app-level-access/#data-integrations">Data Integrations</a></td>
-    <td><a href="/dashboard/app-level-access/#webhooks">Webhooks</a></td>
+		<td><a href="/dashboard/channel-level-access/#data-feeds-manager">Data Feeds Manager</a></td>
+		<td><a href="/dashboard/channel-level-access/#data-integrations">Data Integrations</a></td>
+    <td><a href="/dashboard/channel-level-access/#webhooks">Webhooks</a></td>
     <td></td>
   </tr>
 </table>
@@ -204,10 +204,32 @@ If you are an Admin, you have edit access to the sections below.
 
 ### Data Feeds Manager
 
+!!! warning "Sensitive Data Access Required"
+	Access to the Data Feeds Manager tab also requires access to [Sensitive Data](sensitive-data-access.md).
 
+![image](/_assets/img/pages/dashboard/access-levels/channel-data-feeds-manager.png)
+
+- **Data Export API** - Programmatically access Branch event data with granular details like timestamp, OS, and more.
+- **Query API** - Programmatically query for any of the pre-aggregated Branch event data that you can see on the dashboard.
 
 ### Data Integrations
 
+!!! warning "Sensitive Data Access Required"
+	Access to the Data Feeds Manager tab also requires access to [Sensitive Data](sensitive-data-access.md).
 
+![image](/_assets/img/pages/dashboard/access-levels/channel-data-integrations.png)
+
+!!! info "Enabling a Data Integration"
+	Please refer to Branch's [List of Data Integrations](/integrations/data-integrations-list/) article to view a complete list of our Data Integrations and instructions on how to enable each integration.
 
 ### Webhooks
+
+!!! warning "Sensitive Data Access Required"
+	Access to the Data Feeds Manager tab also requires access to [Sensitive Data](sensitive-data-access.md).
+
+You can add new webhooks, edit existing webhooks and archive unwanted webhooks.
+
+![image](/_assets/img/pages/dashboard/access-levels/channel-webhooks1.png)
+
+!!! info "Webhook Setup"
+	Please refer to the [Webhooks](/exports/ua-webhooks/) article for an in-depth tutorial on how to configure webhooks.
