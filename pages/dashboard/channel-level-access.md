@@ -12,7 +12,7 @@ The "Channel" level of a Branch account is the fourth level of access and includ
     <th></th>
 	</tr>
 	<tr>
-		<th></th>
+		<th><b>Channel Level</b></th>
 		<th></th>
 		<th></th>
 		<th></th>
