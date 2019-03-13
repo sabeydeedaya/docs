@@ -150,6 +150,9 @@ You can enable/disable Universal Email Partners and view integration information
 
 ## Organic Search
 
+!!! warning "Aggregate Data Access Required"
+	Access to the Organic Search section also requires access to [Aggregate Data](aggregate-data-access.md)
+
 Enable automatic sitemap generation by checking the `Automatic sitemap generation` checkbox.
 
 ![image](/_assets/img/pages/organic-search/firebase/db-settings.png)

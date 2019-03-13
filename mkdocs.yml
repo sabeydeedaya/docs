@@ -109,8 +109,8 @@ nav:
         - App Level Access: dashboard/app-level-access.md
         - Channel Level Access: dashboard/channel-level-access.md
         - Link Level Access: dashboard/link-level-access.md
-        - Aggregate Data: dashboard/aggregate-data-access.md
         - Sensitive Data: dashboard/sensitive-data-access.md
+        - Aggregate Data: dashboard/aggregate-data-access.md
     - Advanced Settings:
       - View Billing Information: dashboard/viewing-billing.md
       - Enable Single Sign On: dashboard/sso.md
