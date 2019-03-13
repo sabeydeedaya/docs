@@ -48,38 +48,52 @@
 
         - (Optional) Add a branch.json file to the root of your app (next to package.json). See https://rnbranch.app.link/branch-json.
 
-- ### Updating from < 3.0.0
+### Updating from an earlier version or starting with v3.0.0
 
-    - To fix a longstanding build issue with Android, it is necessary to take the
+To fix a longstanding build issue with Android, it is necessary to take the
 native Branch Android SDK from Maven rather than from the react-native-branch
 module, starting with version 3.0.0.
 
-    - Open the `android/app/build.gradle` file in your project.
+Open the `android/app/build.gradle` file in your project.
 
-    - Remove this line:
+Remove this line:
 
-    ```gradle
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    ```
+```gradle
+implementation fileTree(dir: 'libs', include: ['*.jar'])
+```
 
-    - Add this line:
+Add this line:
 
-    ```gradle
+```gradle
+implementation "io.branch.sdk.android:library:3.0.4"
+```
+
+The result should be something like
+```gradle
+dependencies {
+    implementation project(':react-native-branch')
     implementation "io.branch.sdk.android:library:3.0.4"
-    ```
+    implementation "com.android.support:appcompat-v7:23.0.1"
+    implementation "com.facebook.react:react-native:+"  // From node_modules
+}
+```
 
-    - The result should be something like
-    ```gradle
-    dependencies {
-        implementation project(':react-native-branch')
-        implementation "io.branch.sdk.android:library:3.0.4"
-        implementation "com.android.support:appcompat-v7:23.0.1"
-        implementation "com.facebook.react:react-native:+"  // From node_modules
-    }
-    ```
-
-    - If you're using an older version of Gradle, you may need `compile` instead of
+If you're using an older version of Gradle, you may need `compile` instead of
 `implementation`.
+
+It is recommended to replace `Branch.getAutoInstance` in your `Application.onCreate`
+method with `RNBranchModule.getAutoInstance`. This is required in order to set Branch
+keys in the `branch.json` file.
+
+```java
+@Override
+public void onCreate() {
+  super.onCreate();
+  SoLoader.init(this, /* native exopackage */ false);
+  // Replace Branch.getAutoInstance(this); with:
+  RNBranchModule.getAutoInstance(this);
+}
+```
 
 
 - ### Update from < 2.0.0
