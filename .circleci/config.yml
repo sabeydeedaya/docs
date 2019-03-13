@@ -33,13 +33,12 @@ jobs:
     machine: true
     working_directory: ~/docs
     steps:
-      - checkout
-      - run: pip install awscli --upgrade --user
-      - run: pip install -r requirements.txt
-      - run: mkdocs build --clean --verbose
-      - run:
-          name: Deploy to S3
-          command: aws s3 sync --delete ~/docs/site/ s3://docs.branch.io
+      - attach_workspace:
+          at: ~/docs
+      - aws-s3/sync:
+          from: ~/docs/site/
+          to: s3://docs.branch.io
+          overwrite: true
       - run:
           name: Clear CloudFront
           command: aws cloudfront create-invalidation --distribution-id E3L0JJHM8M3QTI --paths "/*"
