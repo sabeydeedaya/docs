@@ -2,7 +2,7 @@
 
 ![Adobe Advertising Cloud](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/unnamed-1535415007389.png)
 
-This guide will walk you through how to setup your campaigns with **[Adobe Advertising Cloud](https://www.adobe.com/advertising/adobe-advertising-cloud.html/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Adobe Advertising Cloud](https://www.adobe.com/advertising/adobe-advertising-cloud.html)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
