@@ -20,6 +20,10 @@ jobs:
           paths:
             - site
   deploy-staging:
+    parameters:
+      staging-bucket:
+        type: string
+        default:
     machine: true
     working_directory: ~/docs
     steps:
@@ -27,7 +31,7 @@ jobs:
           at: ~/docs
       - aws-s3/sync:
           from: ~/docs/site/
-          to: s3://staging.docs.branch.io
+          to: << parameters.staging-bucket >>
           overwrite: true
   deploy-production:
     machine: true
@@ -48,13 +52,6 @@ workflows:
   build_and_deploy:
     jobs:
       - build
-      - deploy-staging:
-          requires:
-            - build
-          filters:
-            branches:
-              only:
-                - /staging-.*/
       - deploy-production:
           requires:
             - build
@@ -62,3 +59,27 @@ workflows:
             branches:
               only:
                 - production
+      - deploy-staging:
+          staging-bucket: s3://staging.docs.branch.io
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - /staging-.*/
+      - deploy-staging:
+          staging-bucket: s3://staging2.docs.branch.io
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - /staging2-.*/
+      - deploy-staging:
+          staging-bucket: s3://staging3.docs.branch.io
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - /staging3-.*/
