@@ -39,6 +39,13 @@ The "App" level of a Branch account is the third level of access and includes ac
     <td><a href="/dashboard/app-level-access/#viewing-billing">Billing</a></td>
     <td><a href="/dashboard/app-level-access/#managing-your-apps-team">Team</a></td>
   </tr>
+  <tr>
+		<th><b>Testing</b></th>
+		<td><a href="/dashboard/app-level-access/#set-up-sdk">Set up SDK</a></td>
+		<td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ## Account Settings
@@ -278,3 +285,7 @@ Each Universal Ad Partner has the following settings:
     - Parameters added to the Partner's link by default; not editable.
 - **Attribution Windows**
     - Use a custom attribution window to match AdAction Engage's attribution windows. This overrides your app level attribution windows.
+
+## Testing
+
+### Set up SDK

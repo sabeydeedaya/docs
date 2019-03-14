@@ -71,6 +71,9 @@ You can create new feed sources, as well as debug/archive current feed sources.
 
 ### Quick Links
 
+!!! warning "Aggregate Data Access Required"
+	Access to the Quick Link Export functionality also requires access to [Aggregate Data](aggregate-data-access.md)
+
 If you are an Admin, you have edit access to the **Quick Links** section.
 
 ![image](/_assets/img/pages/dashboard/access-levels/link-quick-links.png)
@@ -81,6 +84,9 @@ You can create new Quick Links, as well as edit/view stats/debug/duplicate/archi
 	Please refer to the [Creating Quick Links](/links/quick-links/) article for an in-depth tutorial on how to create quick links.
 
 #### Bulk Create Links
+
+!!! warning "Aggregate Data Access Required"
+	Access to the Quick Link Export functionality also requires access to [Aggregate Data](aggregate-data-access.md)
 
 ![image](/_assets/img/pages/dashboard/access-levels/link-bulk-create.png)
 
