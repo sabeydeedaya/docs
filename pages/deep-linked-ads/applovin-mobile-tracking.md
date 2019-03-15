@@ -29,6 +29,9 @@ Enter any credentials that may be required, and click Save and Enable in the bot
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+!!! info "OS Targeting"
+	If you are targeting specific OS devices, please note that you have to remove `%24aaid={AAID}` for iOS campaigns and `%24idfa={IDFA}` for Android campaigns.
+
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
 {! ingredients/deep-linked-ads/people-based-attribution.md !}
