@@ -1,8 +1,8 @@
 ## Overview
 
-![Applovin](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/AppLovin-1525376288411.png)
+![Tiktok Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/Tiktok_ads_logo-1547166341261.png)
 
-This guide will walk you through how to setup your campaigns with **[Applovin](https://www.applovin.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Tiktok Ads](http://ads.tiktok.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,23 +14,15 @@ This guide will walk you through how to setup your campaigns with **[Applovin](h
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/applovin/applovin-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/tiktok-ads/tiktok-ads-enable.png)
 
-#### Provide account credentials
-
-Enter any credentials that may be required, and click Save and Enable in the bottom right hand corner.
-
-!!! tip "Applovin SDK Key"
-	You can find your SDK Key in the Account > Keys section on Applovin UI
+{! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/applovin/applovin-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/tiktok-ads/tiktok-ads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
-
-!!! info "OS Targeting"
-	If you are targeting specific OS devices, please note that you have to remove `%24aaid={AAID}` for iOS campaigns and `%24idfa={IDFA}` for Android campaigns.
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
