@@ -325,7 +325,7 @@ nav:
       - GMT Digital : deep-linked-ads/gmt-digital-mobile-tracking.md
       - Go Mobile: deep-linked-ads/gomobile-mobile-tracking.md
       - Google Ads:
-        - Overview: deep-linked-ads/google-ads-overview.md
+        - Google Ads Overview: deep-linked-ads/google-ads-overview.md
         - Enabling the Integration: deep-linked-ads/google-ads-enable.md
         - Universal App Campaigns (UAC): deep-linked-ads/google-ads-uac.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
