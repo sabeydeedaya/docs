@@ -104,13 +104,16 @@ nav:
     - Basic Settings:
       - Access Levels:
         - Overview: dashboard/access-level.md
-        - Organization Level Access: dashboard/organization-level-access.md
-        - Agency Level Access: dashboard/agency-level-access.md
-        - App Level Access: dashboard/app-level-access.md
-        - Channel Level Access: dashboard/channel-level-access.md
-        - Link Level Access: dashboard/link-level-access.md
-        - Sensitive Data: dashboard/sensitive-data-access.md
-        - Aggregate Data: dashboard/aggregate-data-access.md
+        - Entity Access:
+          - Organization Access: dashboard/organization-access.md
+          - Agency Access: dashboard/agency-access.md
+          - App Access: dashboard/app-access.md
+        - Access Resource Settings:
+          - App Level Access: dashboard/app-level-access.md
+          - Channel Level Access: dashboard/channel-level-access.md
+          - Link Level Access: dashboard/link-level-access.md
+          - Sensitive Data: dashboard/sensitive-data-access.md
+          - Aggregate Data: dashboard/aggregate-data-access.md
     - Advanced Settings:
       - View Billing Information: dashboard/viewing-billing.md
       - Enable Single Sign On: dashboard/sso.md

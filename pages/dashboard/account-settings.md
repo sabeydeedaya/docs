@@ -3,8 +3,8 @@ Within your Account Settings, you have access to the following functionality:
 ## Basic Account Settings
 
   - [Access Level Overview](/dashboard/access-level/)
-    - [Organization Level](/dashboard/organization-level-access/)
-    - [Agency Level](/dashboard/agency-level-access/)
+    - [Organization Level](/dashboard/organization-access/)
+    - [Agency Level](/dashboard/agency-access/)
     - [App Level](/dashboard/app-level-access/)
     - [Channel Level](/dashboard/channel-level-access/)
     - [Link Level](/dashboard/link-level-access/)

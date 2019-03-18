@@ -1,4 +1,11 @@
-The "Organization" level of a Branch account is the highest level of access and includes access (either edit or read-only) to the following functionality:
+The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
+
+!!! info "INFO"
+    Depending on your business and how you manage your apps, you may elect to add the Organization Entity to your Branch account.
+
+    All TUNE migrated accounts include the Organization entity in their Branch account.
+
+When viewing your Branch account via the Organization entity, you can access (either edit or read-only) the following functionality:
 
 <table>
   <tr>
@@ -12,7 +19,7 @@ The "Organization" level of a Branch account is the highest level of access and 
     <th></th>
 	</tr>
 	<tr>
-		<th><b>Org Level</b></th>
+		<th><b>Org Entity Access</b></th>
 		<th></th>
 		<th></th>
 		<th></th>
@@ -127,7 +134,7 @@ To modify an existing Organization Team Member:
 
 If you are an Organization Admin, you have full edit access to all of the Account Settings mentioned above including the ability to add an Agency - both a Full Access and/or Limited Access Agency - to your Branch account.
 
-!!! info ""
+!!! info "Additional Info"
 	You can only add agencies via the **Agencies** tab. Trying to add agencies via the **Team** tab will throw an error as only non-agency users should be added via the Team Tab.
 
 #### Adding an Agency
