@@ -6,11 +6,11 @@ This system allows account administrators to set and modify access levels for ot
 
 Access to pages, actions and data in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
 
-#### Entity Access
+#### Entity Views
 
-- **[Organization Access](organization-access.md)**: The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
-- **[Agency Access](agency-access.md)**: The "Agency" view of a Branch account is the second level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
-- **[App Access](app-access.md)**: The "App" view of a Branch account is the third level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
+- **[Organization Access](organization-view.md)**: The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
+- **[Agency Access](agency-view.md)**: The "Agency" view of a Branch account is the second level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
+- **[App Access](app-view.md)**: The "App" view of a Branch account is the third level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
 
 #### Resource Access
 
