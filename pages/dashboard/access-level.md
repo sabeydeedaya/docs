@@ -34,8 +34,6 @@ Each dashboard user will have an access role that determines what they will and 
   | Full Read | View | View | View | View | No Access | No Access
  	| Limited Read | No Access | No Access | No Access | View | No Access | No Access
 
-#### Access Role Levels
-
 For each type of permission (e.g. App-level Settings), there are a number of levels of access. Those levels are described below:
 
 **App-level Settings, Channel-level Settings, Link-level Settings**
