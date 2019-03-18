@@ -108,7 +108,7 @@ nav:
           - Organization Access: dashboard/organization-access.md
           - Agency Access: dashboard/agency-access.md
           - App Access: dashboard/app-access.md
-        - Access Resource Settings:
+        - Resource Access:
           - App Level Access: dashboard/app-level-access.md
           - Channel Level Access: dashboard/channel-level-access.md
           - Link Level Access: dashboard/link-level-access.md

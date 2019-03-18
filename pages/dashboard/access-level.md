@@ -8,11 +8,11 @@ Access to pages, actions and data in the dashboard is controlled using a number 
 
 #### Entity Access
 
-- **[Organization Access](organization-access.md)**: Intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
-- **[Agency Access](agency-access.md)**: Intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
-- **[App Access](app-access.md)**: Intended for Branch accounts that fully manage their own app and all of the advertising relationships.
+- **[Organization Access](organization-access.md)**: The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
+- **[Agency Access](agency-access.md)**: The "Agency" view of a Branch account is the second level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
+- **[App Access](app-access.md)**: The "App" view of a Branch account is the third level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
 
-#### Access Resource Settings
+#### Resource Access
 
 - **[App-level Settings](app-level-access.md)**: Settings or features that can impact functionality app-wide.
 - **[Channel-level Settings](/dashboard/channel-level-access/)**: Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
@@ -23,7 +23,7 @@ Access to pages, actions and data in the dashboard is controlled using a number 
 
 Each page on the dashboard has its own access requirements. For example, in order to view the Summary page of the dashboard, a user must have view access to Aggregate Data. In order to view the Data Feeds Manager page, on the other hand, a user must have view access to both Channel-level Settings and Sensitive Data.
 
-### Access Roles
+#### Access Roles
 
 Each dashboard user will have an access role that determines what they will and will not be able to access in the dashboard. We provide several default profiles with predefined access levels, and we also offer the option of creating custom roles to give you as much flexibility as possible when assigning access. The default profiles, along with their permissions, are below:
 
@@ -34,7 +34,7 @@ Each dashboard user will have an access role that determines what they will and 
   | Full Read | View | View | View | View | No Access | No Access
  	| Limited Read | No Access | No Access | No Access | View | No Access | No Access
 
-### Access Level Definitions
+#### Access Role Levels
 
 For each type of permission (e.g. App-level Settings), there are a number of levels of access. Those levels are described below:
 
