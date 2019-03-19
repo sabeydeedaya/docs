@@ -28,7 +28,7 @@
 
 - ### Configure entitlements
 
-    - Confirm entitlements are within target
+    - Confirm entitlements are within target (This file is configured automatically when completing the steps above in [Capabilities tab of Xcode](https://developer.apple.com/documentation/security/password_autofill/setting_up_an_app_s_associated_domains#3001207))
 
         ![image](/_assets/img/pages/apps/ios-package.png)
 
