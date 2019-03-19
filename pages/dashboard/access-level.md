@@ -8,9 +8,15 @@ Access to pages, actions and data in the dashboard is controlled using a number 
 
 #### Entity Views
 
-- **[Organization Access](organization-view.md)**: The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
-- **[Agency Access](agency-view.md)**: The "Agency" view of a Branch account is the second level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
-- **[App Access](app-view.md)**: The "App" view of a Branch account is the third level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
+- **[App Access](app-view.md)**: The "App" view of a Branch account is the standard level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type. All accounts include the App view and any user regardless of access role type can access it (to varying degrees).
+- **[Organization Access](organization-view.md)**: The "Organization" view of a Branch account is an additional level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity. Organization view allows companies to manage separate teams associated with their distinct apps and maintain autonomy. Organization team members can switch between the Organization view and the App view at any time.
+- **[Agency Access](agency-view.md)**: The "Agency" view of a Branch account is another additional level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf. Agency view allows the Agency to manage its own team within the Branch dashboard. Agency team members can switch between the Agency view and the App view at any time.
+
+!!! info "Entity Views Access"
+    While all team members have access to the App view, which additional entity view - Organization and/or Agency - a team member has access to depends entirely upon which view that team member was created within.  
+
+    For example, an Agency team member added within the Organization view will also inherit access to the Organization view in addition to the App view and the Agency view.  If that same Agency team member were instead added within the App view, said Agency team member would only be able to access the App view and the Agency view.
+
 
 #### Resource Access
 

@@ -1,9 +1,11 @@
-The "Organization" view of a Branch account is the highest level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity.
+The "Organization" view of a Branch account is an additional level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity. Organization view allows companies to manage separate teams associated with their distinct apps and maintain autonomy. Organization team members can switch between the Organization view and the App view at any time.
 
 !!! info "INFO"
     Depending on your business and how you manage your apps, you may elect to add the Organization Entity to your Branch account.
 
     All TUNE migrated accounts include the Organization entity in their Branch account.
+
+**The Organization view is for managing account-level functionality; e.g. managing org team members and access.  Toggle to the [App view](app-view.md) to access the majority of your day-to-day needs for creating links and viewing reporting.**
 
 When viewing your Branch account via the Organization entity, you can access (either edit or read-only) the following functionality:
 
@@ -17,12 +19,14 @@ When viewing your Branch account via the Organization entity, you can access (ei
 		<th></th>
 		<th></th>
     <th></th>
+    <th></th>
 	</tr>
 	<tr>
 		<th><b>Org Entity Access</b></th>
 		<th></th>
 		<th></th>
 		<th></th>
+    <th></th>
     <th></th>
 	</tr>
   <tr>
@@ -31,6 +35,7 @@ When viewing your Branch account via the Organization entity, you can access (ei
 		<td></td>
 		<td></td>
     <td></td>
+    <td></td>
 	</tr>
 	<tr>
 		<th><b>Link<br/>Settings</b></th>
@@ -38,15 +43,41 @@ When viewing your Branch account via the Organization entity, you can access (ei
     <td></td>
 		<td></td>
     <td></td>
+    <td></td>
   </tr>
 	<tr>
 		<th><b>Account<br/>Settings</b></th>
 		<td><a href="/dashboard/organization-level-access/#managing-your-organization-profile">Profile</a></td>
 		<td><a href="/dashboard/organization-level-access/#managing-your-user-profile">User</a></td>
     <td><a href="/dashboard/organization-level-access/#managing-your-organizations-team">Team</a></td>
+    <td><a href="/dashboard/organization-level-access/#managing-agency-access">Agencies</a></td>
     <td><a href="/dashboard/organization-level-access/#single-sign-on">SSO</a></td>
   </tr>
 </table>
+
+## Ads
+
+### Partner Management
+
+!!! info "COMING SOON"
+	Allow enabling and editing of ad networks at the org level.
+
+## Link Settings
+
+### Attribution Windows
+
+!!! info "Default Attribution Window Settings"
+		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.
+
+![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
+
+- `Deep Linking Duration` refers to the duration of time someone is eligible to receive deep link data. This includes anyone clicking a Branch link, or being automatically redirected to the app through a Branch Web SDK call. Measured in minutes.
+
+- `Click to x` refers to events that occur after someone clicks a Branch link. If someone clicks and installs from a link, and comes back 10 days later to purchase, we would count that as a conversion, and it would surface in our dashboard. Measured in days.
+
+- `Impression to x` refers to events that occur after someone views a Branch impression link. Measured in days.
+
+- `Re-engagement Inactivity` defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. Used in re-engagement cohort analysis but not activity analysis.
 
 ## Account Settings
 
@@ -130,7 +161,7 @@ To modify an existing Organization Team Member:
 	1. Click **Delete**.
 	1. In the **Are you sure you want to delete?** modal, click **Yes, Delete**.
 
-### Managing Agency Access to your Branch Account
+### Managing Agency Access
 
 If you are an Organization Admin, you have full edit access to all of the Account Settings mentioned above including the ability to add an Agency - both a Full Access and/or Limited Access Agency - to your Branch account.
 
@@ -200,27 +231,3 @@ To modify an existing Agency Team member:
 Branch offers Security Assertion Markup Language (SAML) / Single Sign-on (SSO) support for the dashboard. This allows you to use your identity provider (IdP) to centralize access to various services for your team and leverage existing directory systems and security groups.
 
 Please see [Enabling Single Sign On](/dashboard/sso/) for instructions.
-
-## Link Settings
-
-### Attribution Windows
-
-!!! info "Default Attribution Window Settings"
-		Each attribution window has its own default measured in days.  Please refer to the image below for these defaults.
-
-![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-windows.png)
-
-- `Deep Linking Duration` refers to the duration of time someone is eligible to receive deep link data. This includes anyone clicking a Branch link, or being automatically redirected to the app through a Branch Web SDK call. Measured in minutes.
-
-- `Click to x` refers to events that occur after someone clicks a Branch link. If someone clicks and installs from a link, and comes back 10 days later to purchase, we would count that as a conversion, and it would surface in our dashboard. Measured in days.
-
-- `Impression to x` refers to events that occur after someone views a Branch impression link. Measured in days.
-
-- `Re-engagement Inactivity` defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. Used in re-engagement cohort analysis but not activity analysis.
-
-## Ads
-
-### Partner Management
-
-!!! info "COMING SOON"
-	Allow enabling and editing of ad networks at the org level.

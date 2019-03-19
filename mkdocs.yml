@@ -105,9 +105,9 @@ nav:
       - Access Levels:
         - Overview: dashboard/access-level.md
         - Entity Views:
+          - App View: dashboard/app-view.md
           - Organization View: dashboard/organization-view.md
           - Agency View: dashboard/agency-view.md
-          - App View: dashboard/app-view.md
         - Resource Access:
           - App Level Access: dashboard/app-level-access.md
           - Channel Level Access: dashboard/channel-level-access.md

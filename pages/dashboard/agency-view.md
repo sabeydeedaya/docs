@@ -3,7 +3,12 @@
 
 	An Agency does not have access to change their own permissions, access billing or SSO.
 
-The "Agency" view of a Branch account is the second level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf.
+The "Agency" view of a Branch account is another additional level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf. Agency view allows the Agency to manage its own team within the Branch dashboard. Agency team members can switch between the Agency view and the App view at any time.
+
+**The Agency view is for managing account-level functionality; e.g. managing agency team members and access.  Toggle to the [App view](app-view.md) to access the majority of your day-to-day needs for creating links and viewing reporting.**
+
+!!! info "Agencies in App View"
+	Due to the nature of allowing third parties access to your data, we've included certain restrictions for Agency users when in App View.  For more detail, please see [Agencies in App View](/dashboard/app-view/#agencies-in-app-view)
 
 When viewing your Branch account via the Agency entity, you can access (either edit or read-only) the following functionality:
 

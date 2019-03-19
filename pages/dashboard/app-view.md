@@ -1,4 +1,6 @@
-The "App" view of a Branch account is the third level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
+The "App" view of a Branch account is the standard level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type.
+
+All accounts include the App view and any user regardless of access role type can access it (to varying degrees).
 
 <table>
   <tr>
@@ -50,3 +52,5 @@ The "App" view of a Branch account is the third level of entity access and can i
 
 !!! info "App Entity Access vs App-level Settings"
 	Despite the similar nomenclature, App Entity Access (this page) should not be confused with [App-level Settings](/dashboard/app-level-access/) that control functionality once viewing the dashboard via the app entity.
+
+## Agencies in App View
