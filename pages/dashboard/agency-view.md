@@ -10,6 +10,8 @@ The "Agency" view of a Branch account is another additional level of entity acce
 !!! info "Agencies in App View"
 	Due to the nature of allowing third parties access to your data, we've included certain restrictions for Agency users when in App View.  For more detail, please see [Agencies in App View](/dashboard/app-view/#agencies-in-app-view)
 
+## Agency View Overview
+
 When viewing your Branch account via the Agency entity, you can access (either edit or read-only) the following functionality:
 
 <table>

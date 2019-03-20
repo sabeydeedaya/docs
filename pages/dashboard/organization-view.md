@@ -7,6 +7,8 @@ The "Organization" view of a Branch account is an additional level of entity acc
 
 **The Organization view is for managing account-level functionality; e.g. managing org team members and access.  Toggle to the [App view](app-view.md) to access the majority of your day-to-day needs for creating links and viewing reporting.**
 
+## Organization View Overview
+
 When viewing your Branch account via the Organization entity, you can access (either edit or read-only) the following functionality:
 
 <table>
