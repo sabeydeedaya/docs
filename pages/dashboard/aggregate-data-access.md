@@ -64,3 +64,55 @@ The [Dashboard Summary](https://dashboard.branch.io/) shows a high level overvie
 ### Ads Analytics
 
 All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Ads Analytics** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-ads-analytics.gif)
+
+!!! info "Viewing Ads Analytics"
+    Please refer to the [Paid Ads Analytics](/activity-reports-analytics/paid-ads-analytics/) article for an in-depth tutorial on using viewing your Paid Ads Analytics.
+
+### Journeys Banners Analytics
+
+All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Journeys Banners Analytics** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-journeys-analytics.gif)
+
+!!! info "Viewing Journeys Analytics"
+    Please refer to the [Paid Ads Analytics](/activity-reports-analytics/journeys-analytics/) article for an in-depth tutorial on using viewing your Journeys Analytics.
+
+### Email Analytics
+
+All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Email Analytics** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-email-analytics.gif)
+
+### Organic Search
+
+All access roles - Admin/Team Member/Full Read - except Limited Read have view access to the **Organic Search** page.
+
+!!! warning "Channel-level Access also Required"
+    Due to the ability to impact functionality, the Organic Search page also requires the user have Channel-level access.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-organic-search.png)
+
+### Referrals Analytics
+
+All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Referrals Analytics** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-referrals-analytics.gif)
+
+## Cross-channel Analytics
+
+### Sources
+
+All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Sources** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-sources-analytics.png)
+
+### Content
+
+All access roles - Admin/Team Member/Full Read/Limited Read - have view access to the **Content** page.
+
+![image](/_assets/img/pages/dashboard/access-levels/aggregate-content-analytics.png)
+
+!!! info "Viewing Content Analytics"
+    Please refer to the [Paid Ads Analytics](/activity-reports-analytics/content-analytics/) article for an in-depth tutorial on using viewing your Content Analytics.
