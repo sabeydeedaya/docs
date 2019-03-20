@@ -69,6 +69,18 @@ When an Agency users saves an ad link/Journey/Quick Link, that ad link/Journey/Q
 
 ![image](/_assets/img/pages/dashboard/access-levels/app-view-journeys-agency-id.png)
 
+### Agency Association to Self Attributing Networks (SANs)
+
+!!! warning "Agency ID Prefix Required"
+	If the Agency user does not prepend their Agency ID to the campaign name when setting up the campaign in the partner's dashboard, Branch cannot associate any resulting conversions to the agency.
+
+While most partners rely on a Branch link for the measuring and attributing of ad clicks/impressions for your mobile app, a handful of partners don’t use links at all. Instead they rely on sending and receiving attribution data via a server-to-server integration. This means that, for these partners, agency-managed campaigns don’t inherently include these partners’ conversion statistics.
+
+In order to associate an Agency with campaigns run on SANs, Agency users must prepend campaign names with their Agency ID - `agency_id_{{agency_id}}_` - within the partner platform.
+
+!!! info "Finding Your Agency ID"
+	You can find your Agency ID under Account Settings in the [Agency view](/dashboard/agency-view/#managing-your-agency-profile).
+
 ### Filtering by Agency
 
 When viewing analytics, data is filterable by `Agency` via:
