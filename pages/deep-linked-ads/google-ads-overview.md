@@ -1,7 +1,8 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- **Google Ads Overview (this page)**
 		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
-		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+		- [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
+		- [App Engagement Campaigns](/deep-linked-ads/google-ads-app-engagement/)
 		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
 		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
@@ -9,7 +10,7 @@
 
 With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)**, improving conversion rates and letting you measure the impact of your campaigns right on the Branch dashboard.
 
-![image](/_assets/img/pages/deep-linked-ads/google/branch-google-ads.png)
+![image](/_assets/img/pages/deep-linked-ads/google/google-ads-branch-overview.png)
 
 ## Google Ads Campaign Support
 
@@ -18,15 +19,23 @@ With Branch, you can integrate with **[Google Ads](https://ads.google.com/home/)
 
 Our integration with Google Ads supports the following:
 
-### [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+### [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
 - Full attribution for:
-	- App Installs only
+	- App Installs
 - No 3rd Party Links
 - No Deep Linking
 - Destinations:
 	- App Stores only
 
-### [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
+### [App Engagement Campaigns](/deep-linked-ads/google-ads-app-engagement/)
+- Full attribution for:
+	- In-app Events
+- No 3rd Party Links
+- Deep Linking via Universal Links (iOS), App Links (Android), custom URI Scheme
+- Destinations:
+	- In-app experiences
+
+### [Web-based Ads (non-App Campaigns)](/deep-linked-ads/google-ads-non-uac/)
 - Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
 - Full attribution for:
 	- App conversions (opens & in-app events)

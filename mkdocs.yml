@@ -327,7 +327,8 @@ nav:
       - Google Ads:
         - Google Ads Overview: deep-linked-ads/google-ads-overview.md
         - Enabling the Integration: deep-linked-ads/google-ads-enable.md
-        - Universal App Campaigns (UAC): deep-linked-ads/google-ads-uac.md
+        - App Install Campaigns: deep-linked-ads/google-ads-uac.md
+        - App Engagement Campaigns: deep-linked-ads/google-ads-app-engagement.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
         - Troubleshooting & FAQs: deep-linked-ads/google-ads-troubleshooting.md
       - GreedyGame Media: deep-linked-ads/greedygame-media-mobile-tracking.md
