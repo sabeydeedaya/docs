@@ -1,6 +1,6 @@
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
-		- [Enabling the Integration](deep-linked-ads/google-ads-enable/)
+		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
 		- [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
 		- **App Engagement Campaigns** (this page)
 		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
