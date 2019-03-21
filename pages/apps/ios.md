@@ -1,3 +1,6 @@
+!!! info "Current SDK Version 0.26.0"
+    Please see the [iOS Version History](/version-histories/ios-version-history) to view change log.
+
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2+"

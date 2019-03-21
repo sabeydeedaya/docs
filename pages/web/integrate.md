@@ -1,6 +1,8 @@
+!!! info "Current SDK Version 2.49.0"
+
 ## Overview
 
-  - The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
+The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
 
 ### Notes
 
