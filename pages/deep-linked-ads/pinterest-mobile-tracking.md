@@ -27,6 +27,12 @@ This guide will walk you through how to setup your campaigns with **[Pinterest](
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+!!! warning "Platform Specific Links"
+	It's important to create platform specific tracking links by adding a plaform specific macro to the tracking link itself:
+	
+	- **iOS** $idfa_sha1={sha1_advertising_id}
+	- **Android** $aaid_sha1={sha1_advertising_id}
+
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
 {! ingredients/deep-linked-ads/people-based-attribution.md !}
