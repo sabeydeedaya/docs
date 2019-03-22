@@ -1,3 +1,3 @@
-### v0.26.0 Changes (2019-March-21)
-- New standard events for improved FB and Tune
-- CircleCI support
+### v0.25.11 Changes (2019-January-18)
+- Improved referral documentation
+- Disabled certificate pinning by default
