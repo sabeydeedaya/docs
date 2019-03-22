@@ -1,11 +1,8 @@
 ## Overview
 
-![Pinterest](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/pinterest-1539022582075.png)
+![Indus OS](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/Indus_533_100_logo-1540258984775.png)
 
-!!! warning "Private BETA Only"
-		Our integration with Pinterest is currently in private BETA.
-
-This guide will walk you through how to setup your campaigns with **[Pinterest](https://www.pinterest.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Indus OS](http://www.indusos.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -17,21 +14,15 @@ This guide will walk you through how to setup your campaigns with **[Pinterest](
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/pinterest/pinterest-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/indus-os/indus-os-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/pinterest/pinterest-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/indus-os/indus-os-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
-
-!!! warning "Platform Specific Links"
-	It's important to create platform specific tracking links by adding a plaform specific macro to the tracking link itself:
-	
-	- **iOS** $idfa_sha1={sha1_advertising_id}
-	- **Android** $aaid_sha1={sha1_advertising_id}
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
