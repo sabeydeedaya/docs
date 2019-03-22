@@ -145,6 +145,9 @@ nav:
       - Google Play: apps/android-launch.md
     - Advanced Configuration:
       - V2 Events: apps/v2event.md
+    - Version Histories:
+      - Android Version History: version-histories/android-version-history.md
+      - iOS Version History: version-histories/ios-version-history.md
   - Marketing Channels:
     - Overview : resources/branch-channels.md
     - Website:
