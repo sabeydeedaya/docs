@@ -210,18 +210,16 @@ This converted code is referred to as the "Branch script" - this script will con
 
 ### Flag your web-only links
 
-If you want any web-only links to not open the app on iOS, Salesforce has a special attribute that you can apply to these links.
-
-Add ```mc-deep-link="false"``` to your link tag like this:
+For links that should always open in web, even if the app is installed, add Salesforce's link attribute ```mc-deep-link="false"``` to your link tag to ensure the app does not open in iOS:
 
 ```html
 <a mc-deep-link="false" href="https://my.app.link/3p?$3p=e_et&$original_url=..." >This link will not open the app.</a>
 ```
 
-To ensure that the app does not open on other platforms, add `%24web_only%3Dtrue` to your links as a query parameter, for example:
+If the link in the "href" part of the tag is a normal web link, the app will NOT open in Android.  If the link in the "href" part of the tag is a Branch link, but you don't want the app to open, then you'll need to add `&%24web_only%3Dtrue` as a query parameter:
 
 ```html
-<a href="https://vza3.app.link/3p?%243p=e_xx&%24original_url=http%3A%2F%2Fexample.com%2F%3Ffoo%3Dbar%24web_only%3Dtrue" >Link to your app!</a>
+<a href="https://my.app.link/3p?%243p=e_xx&%24original_url=http%3A%2F%2Fexample.com&%24web_only%3Dtrue" >Link to your app!</a>
 ```
 
 ## Support
