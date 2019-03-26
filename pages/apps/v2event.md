@@ -1,5 +1,3 @@
-# V2 Event
-
 ## Overview
 
 It's always been possible to track events with the Branch SDK, including installs, opens, purchases, and more. Now we're introducing a new way to track events that make reporting and analytics a whole lot better and easier.
