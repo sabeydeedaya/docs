@@ -18,11 +18,13 @@ Once you've enabled an integration it's time to create a tracking link.
 
         It's easier to slice your data in our analytics platform if you properly assign analytics parameters to your link. _Channels_ generally correspond to ad networks, and _Campaigns_ correspond to marketing initiatives that you're launching. For example: _Channel_: "YouTube", _Campaign_: "Summer 2017 Shoe Discounts."
 
+    !!! info "Links Created by Agency Users"
+        When an Agency users saves an ad link/Journey/Quick Link, that ad link/Journey/Quick Link is associated with that Agency via a unique agency_id that is included as a key-value in deep linking setup.
+
+
 1. Click **Create Link Now**, and you have your tracking link! Take this link and give it to your Ad Partner's Account Manager or paste it into the tracking section of your campaign yourself.
 
     ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/create-link-completed.png)
 
 	!!! tip "Server to server tracking links"
 		If you just need a server to server tracking link just add `%24s2s=true` at the end of your link, so we know it's a server to server link.
-
-

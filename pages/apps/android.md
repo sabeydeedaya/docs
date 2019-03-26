@@ -274,7 +274,7 @@
                 super.onCreate();
 
                 // Branch logging for debugging
-                Branch.enableLogging();
+                Branch.enableDebugMode();
 
                 // Branch object initialization
                 Branch.getAutoInstance(this);
@@ -295,7 +295,7 @@
                 super.onCreate()
 
                 // Branch logging for debugging
-                Branch.enableLogging()
+                Branch.enableDebugMode()
 
                 // Branch object initialization
                 Branch.getAutoInstance(this)
@@ -845,7 +845,7 @@
     - *Java*
 
         ```java
-        Branch.enableLogging();
+        Branch.enableDebugMode();
         ```
 
 - ### Test your Branch Integration
