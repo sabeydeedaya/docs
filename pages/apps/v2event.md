@@ -43,8 +43,12 @@ Use the table below to quickly find the event you want to track.
 | View Cart | [Commerce Event](#track-commerce-events) | BranchStandardEventViewCart | BRANCH_STANDARD_EVENT.VIEW_CART | VIEW_CART
 | Initiate Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventInitiatePurchase | BRANCH_STANDARD_EVENT.INITIATE_PURCHASE | INITIATE_PURCHASE
 | Add Payment Info | [Commerce Event](#track-commerce-events) | BranchStandardEventAddPaymentInfo | BRANCH_STANDARD_EVENT.ADD_PAYMENT_INFO | ADD_PAYMENT_INFO
+| Click Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventClickAd | BRANCH_STANDARD_EVENT.CLICK_AD | CLICK_AD
 | Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventPurchase | BRANCH_STANDARD_EVENT.PURCHASE | PURCHASE
 | Spend Credits | [Commerce Event](#track-commerce-events) | BranchStandardEventSpendCredits | BRANCH_STANDARD_EVENT.SPEND_CREDITS | SPEND_CREDITS
+| Start Trial | [Commerce Event](#track-commerce-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
+| Subscribe | [Commerce Event](#track-commerce-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
+| View Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventViewAd | BRANCH_STANDARD_EVENT.VIEW_AD | VIEW_AD
 | Search | [Content Event](#track-content-events) | BranchStandardEventSearch | BRANCH_STANDARD_EVENT.SEARCH | SEARCH
 | View Item | [Content Event](#track-content-events) | BranchStandardEventViewItem | BRANCH_STANDARD_EVENT.VIEW_ITEM | VIEW_ITEM
 | View Items | [Content Event](#track-content-events) | BranchStandardEventViewItems | BRANCH_STANDARD_EVENT.VIEW_ITEMS | VIEW_ITEMS
@@ -54,6 +58,9 @@ Use the table below to quickly find the event you want to track.
 | Complete Tutorial | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventCompleteTutorial | BRANCH_STANDARD_EVENT.COMPLETE_TUTORIAL | COMPLETE_TUTORIAL
 | Achieve Level | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventAchieveLevel | BRANCH_STANDARD_EVENT.ACHIEVE_LEVEL | ACHIEVE_LEVEL
 | Unlock Achievement | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventUnlockAchievement | BRANCH_STANDARD_EVENT.UNLOCK_ACHIEVEMENT | UNLOCK_ACHIEVEMENT
+| Invite | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventInvite | BRANCH_STANDARD_EVENT.INVITE | INVITE
+| Login | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventLogin | BRANCH_STANDARD_EVENT.LOGIN | LOGIN
+| Reserve | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventReserve | BRANCH_STANDARD_EVENT.RESERVE | RESERVE
 
 ## Track Commerce Events
 
