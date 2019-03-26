@@ -24,6 +24,6 @@ Branch integrates with a wide variety of services to ensure a seamless workflow 
 
 ## Partner Resources
 
-- [Branch Certified Partner Program](/partner-management/branch-certified-partner-program.md)
-- [Branch Partner Best Practices](/partner-management/branch-partner-best-practices.md)
+- [Branch Certified Partner Program](/partner-management/branch-certified-partner-program)
+- [Branch Partner Best Practices](/partner-management/branch-partner-best-practices)
 - [Universal Ads Partner Integration QA Process](/deep-linked-ads/universal-ads-partner-integration-qa-process)
