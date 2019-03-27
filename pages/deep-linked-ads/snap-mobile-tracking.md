@@ -92,7 +92,19 @@ You can edit your attribution windows for Snap only. With this, you can preserve
 
 !!! info
       Please make sure your Branch attribution windows for Snap match those in your Snap account. See the Troubleshooting section for more detail.
+      
+## Data Mapping between Snap & Branch
 
+Branch maps the following data fields from Snap to Branch.
+
+Snap Data | Branch Data
+--- | ---
+ad_campaign_name | ~campaign
+ad_campaign_id | ~campaign_id
+ad_squad_name | ~ad_set_name
+ad_squad_id | ~ad_set_id
+ad_name | ~ad_name
+ad_id | ~ad_id
 
 ### Mapping of Branch event names to Snap events
 
