@@ -190,10 +190,9 @@
 
 - ### App Deletion
 
-If you navigate to `Account Settings`, and choose to delete your app, this will be a permanent change. Note the following actions that we apply once you delete your Branch app.
-
-    - We delete the dashboard user data of the original app creator associated with that particular app. They can still log in to other apps.
-    - Your links will show a 404.
-    - All requests to our API (via the SDK), will return a server error.
-    - Attribution and analytics infromation will no longer be tracked.
-    - All data feed systems will stop sending data (such as webhooks and data integrations).
+    - If you navigate to `Account Settings`, and choose to delete your app, this will be a permanent change. Note the following actions that we apply once you delete your Branch app.
+        - We delete the dashboard user data of the original app creator associated with that particular app. They can still log in to other apps.
+        - Your links will show a 404.
+        - All requests to our API (via the SDK), will return a server error.
+        - Attribution and analytics infromation will no longer be tracked.
+        - All data feed systems will stop sending data (such as webhooks and data integrations).
