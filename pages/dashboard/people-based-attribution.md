@@ -1,6 +1,6 @@
 ## Overview
 
-Branch is introducing a new and improved analytics platform for you to preview.
+Branch introduced a new and improved analytics platform for you to use.
 
 While the most visible impact of this change is our new and visually improved Summary Graph, it is important to understand that we have fundamentally changed the underlying model we use for counting events. This is the result of consistent feedback from Branch partners who have requested we provide deeper insights and clarity around campaigns powered by Branch links. As you want to understand the events associated with clicks on Branch links beyond the course of one user session and across all types of Branch links, we developed a new attribution engine to accurately attribute user events across interaction platforms and across channels.
 
@@ -144,7 +144,7 @@ Webhooks, like data integratons, is no longer session based. This means we will 
 
 ### Data Speed
 
-This new People-Based Analytics platform introduces a slight delay compared to the old dashboard analytics, and it may now take a few minutes for events to appear. We're continually improving the speed and plan to significantly decrease the delay in Q1 2018.
+This new People-Based Analytics platform introduces a slight delay compared to the old dashboard analytics, and it may now take a few minutes for events to appear.
 
 ### Unique Counts
 
