@@ -1,6 +1,6 @@
 ## Overview
 
-![Kenshoo Apps](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/140916124720110-1537308933379.png)
+![Kenshoo Apps](https://cdn.branch.io/branch-assets/ad-partner-manager//Kenshoo_Apps_logo-1553729922392.png)
 
 This guide will walk you through how to setup your campaigns with **[Kenshoo Apps](https://kenshoo.com/kenshoo-apps/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
