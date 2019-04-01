@@ -10,7 +10,7 @@ Facebook Campaign Category | Campaign Type/Objective | Branch Ad Format
 --- | --- | ---
 Consideration | App Installs | App Only: Install
 
-#### Facebook Campaign Advert Format Support Table
+### Facebook Campaign Advert Format Support Table
 
 Facebook Campaign Type | Photo | Video | Carousel | Slideshow | Collection | Dynamic | Canvas
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -33,15 +33,17 @@ App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 
 {! ingredients/deep-linked-ads/enable-facebook-ad-partner.md !}
 
+{! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
+
 {! ingredients/deep-linked-ads/cost-data.md !}
 
 {! ingredients/deep-linked-ads/view-fb-link-data.md !}
 
-#### Optional: Deep link your app install campaign
+## Optional: Deep link your app install campaign
 
 This section is **not required for measurement** if you are running app-only ads. We will automatically pull in campaign, ad set, ad, and creative information from Facebook. However, if you want users to be deep linked, you should follow the instructions in this section.
 
-##### Configure your app to read Facebook App Install deep links
+### Configure your app to read Facebook App Install deep links
 
 1. Unfortunately, we've found that the direct S2S mechanism for retrieving deep links is rather unreliable. We recommend that you have the Facebook [Android](https://developers.facebook.com/docs/android/getting-started) / [iOS](https://developers.facebook.com/docs/ios/getting-started) SDKs installed so Branch can work directly with them on the client side for the best outcome.
 1. On Android, if you are using Proguard, make sure you add the necessary inclusions to keep the Facebook SDK during build time.
@@ -68,7 +70,7 @@ This section is **not required for measurement** if you are running app-only ads
 		Branch.getAutoInstance(this).enableFacebookAppLinkCheck();
 		```
 
-##### Create an Ad Link for deep linking
+### Create an Ad Link for deep linking
 
 1. Create a Branch Ad link from the [Partner Management page](https://dashboard.branch.io/ads/partner-management) `Create Facebook Link` button under the Facebook Partner and select `App Install or Engagement`
 <img src="/_assets/img/pages/deep-linked-ads/reusable-images/create-link-install-engagement.png" alt="Link Creation" class="half left">
@@ -85,7 +87,7 @@ This section is **not required for measurement** if you are running app-only ads
 !!! warning ""
 	In order for your campaign to run effectively, be sure to disable Deepviews. You can either [disable Deepviews](/web/deep-views/) for your entire account or [disable Deepviews for one link](/web/deep-views/#disable-per-link-deepviews).
 
-##### Configure your campaign to deep link the Ad Link
+### Configure your campaign to deep link the Ad Link
 
 1. Navigate to [https://www.facebook.com/ads/create](https://www.facebook.com/ads/create) while logged in to the account that owns your Facebook app.
 1. Select **App Installs** as the campaign marketing objective.
@@ -108,7 +110,7 @@ Your Facebook Ad Campaign is now setup to use Branch Links to handle App Install
 !!! note "Optional: Ad formats with Multiple Links"
 	Some ad formats such as Carousel format can handle multiple deep links. To have link performance data on each image or component of the advertisement, create multiple Branch Ad links to be used in each part of the multiple link advertisement format. This format is useful if you want to drive customers to different content pieces or products.
 
-##### Testing Deep Linking from Ads
+### Testing Deep Linking from Ads
 
 Unfortunately, the demo/preview ads used during the ads creation flow on Facebook use a different mechanism than live Facebook ads. **This prevents you from testing deep linking from your Facebook ads**. Do not waste time trying to get this to work. We've confirmed with Facebook representatives that this is broken.
 
