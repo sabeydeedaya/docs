@@ -102,12 +102,22 @@ nav:
   - Account Settings:
     - Overview: dashboard/account-settings.md
     - Basic Settings:
-      - App Level Settings: dashboard/integrate.md
-      - Setting Your Dashboard Analytics Time Zone: dashboard/timezone.md
+      - Access Levels:
+        - Overview: dashboard/access-level.md
+        - Entity Views:
+          - App View: dashboard/app-view.md
+          - Organization View: dashboard/organization-view.md
+          - Agency View: dashboard/agency-view.md
+        - Resource Access:
+          - App Level Access: dashboard/app-level-access.md
+          - Channel Level Access: dashboard/channel-level-access.md
+          - Link Level Access: dashboard/link-level-access.md
+          - Sensitive Data: dashboard/sensitive-data-access.md
+          - Aggregate Data: dashboard/aggregate-data-access.md
     - Advanced Settings:
       - View Billing Information: dashboard/viewing-billing.md
       - Enable Single Sign On: dashboard/sso.md
-      - Defining Access Levels: dashboard/access-level.md
+      - Changing Link Domains: dashboard/changing-link-domains.md
   - Link Settings:
     - Overview: links/branch-links-overview.md
     - Default Link Behavior Configuration: links/default-link-behavior.md

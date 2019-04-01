@@ -25,6 +25,8 @@ This guide will walk you through how to setup your campaigns with **[Oath](https
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
+{! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
+
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
 !!! tip "Viewing Oath Attributions"
