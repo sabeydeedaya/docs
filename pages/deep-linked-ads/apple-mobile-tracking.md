@@ -93,6 +93,8 @@ Still not working? Try downloading a new certificate and uploading that to Branc
 
 {! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
 
+{! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
+
 ## Apple Search Ads Data Mapped to Branch
 
 Branch receives and maps the following parameters from the Apple Search Ads Attribution API:
