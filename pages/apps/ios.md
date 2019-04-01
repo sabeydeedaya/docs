@@ -1,3 +1,6 @@
+!!! info "Current SDK Version 0.26.0"
+    Please see the [iOS Version History](/version-histories/ios-version-history) to view change log.
+
 ## Integrate Branch
 
 !!! warning "Inconsistent Universal links behavior on iOS 11.2+"
@@ -28,7 +31,7 @@
 
 - ### Configure entitlements
 
-    - Confirm entitlements are within target
+    - Confirm entitlements are within target (This file is configured automatically when completing the steps above in [Capabilities tab of Xcode](https://developer.apple.com/documentation/security/password_autofill/setting_up_an_app_s_associated_domains#3001207))
 
         ![image](/_assets/img/pages/apps/ios-package.png)
 

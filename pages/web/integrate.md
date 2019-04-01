@@ -1,6 +1,8 @@
+!!! info "Current SDK Version 2.49.0"
+
 ## Overview
 
-  - The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
+The `Branch Web SDK` allows you to create and share deep links with a banner, over SMS, or your own methods. It also offers event tracking, access to referrals, and management of credits. The SDK is only ~13K gzipped.
 
 ### Notes
 
@@ -307,32 +309,37 @@
 
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
-        ```js
-        branch.logEvent(
-             "custom_event",
-             { metadata: '123' },
-             function(err) { console.log(err); }
-        );
-        ```
+    !!! warning "Custom Event Name"
+        The name `custom event` is reserved by Branch. Please ensure you give your custom event an actual name.
 
-        ```js
-        var content_items = [
-            {
-                "$og_title": "Content Title",
-                "$og_description": "Content Description",
-                "$og_image_url": "http://example.com/img1.jpg",
-                "$canonical_identifier": "content/1234",
-                "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
-             }
-        ];
+        We strongly recommend using custom event names that contain no more than 40 characters, contain only letters, numbers, hyphens, spaces and underscores, and do not start with a hyphen.
 
-        branch.logEvent(
-             "custom_event",
-             { metadata: '123' },
-             content_items,
-             function(err) { console.log(err); }
-        );
-        ```
+    ```js
+    branch.logEvent(
+         "custom_event",
+         { metadata: '123' },
+         function(err) { console.log(err); }
+    );
+    ```
+
+    ```js
+    var content_items = [
+        {
+            "$og_title": "Content Title",
+            "$og_description": "Content Description",
+            "$og_image_url": "http://example.com/img1.jpg",
+            "$canonical_identifier": "content/1234",
+            "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+         }
+    ];
+
+    branch.logEvent(
+         "custom_event",
+         { metadata: '123' },
+         content_items,
+         function(err) { console.log(err); }
+    );
+    ```
 
 - ### Track commerce
 

@@ -16,13 +16,21 @@ This guide will walk you through how to setup your campaigns with **[Applovin](h
 
 ![image](/_assets/img/pages/deep-linked-ads/applovin/applovin-enable.png)
 
-{! ingredients/deep-linked-ads/add-credentials.md !}
+#### Provide account credentials
+
+Enter any credentials that may be required, and click Save and Enable in the bottom right hand corner.
+
+!!! tip "Applovin SDK Key"
+	You can find your SDK Key in the Account > Keys section on Applovin UI
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
 ![image](/_assets/img/pages/deep-linked-ads/applovin/applovin-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
+
+!!! info "OS Targeting"
+	If you are targeting specific OS devices, please note that you have to remove `%24aaid={AAID}` for iOS campaigns and `%24idfa={IDFA}` for Android campaigns.
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

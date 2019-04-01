@@ -96,16 +96,13 @@ To see the data being passed to mParticle in more detail, you can set up a webho
 
     ![image](/_assets/img/pages/integrations/mparticle/mparticle-test-link.png)
 
-1. In mParticle, navigate to the Directory in mParticle and add **Webhooks** as an option. Add a Requestbin URL generated from [https://requestb.in](https://requestb.in).
+1. In mParticle, navigate to the Directory in mParticle and add **Webhooks** as an option. Add a Requestbin URL generated from [https://requestb.in](https://requestbin.com/?).
 
     ![image](/_assets/img/pages/integrations/mparticle/mparticle-add-webhooks.png)
 
 1. To refine the data being sent to the webhook, navigate to **Connections > Connect**.
 1. Select the Branch Feed as the input, and **Webhooks** as the output.
 1. Finally, view the Requestbin. You can do this by appending **?inspect** to your requestbin URL. You should be able to copy paste the POST body from the request bin into a JSON formatter like [https://jsonlint.com/](https://jsonlint.com/) to view the event details.
-
-    ![image](/_assets/img/pages/integrations/mparticle/mparticle-requestbin.png)
-
 1. Once you're done testing, delete the webhook.
 
 ## FAQs

@@ -69,16 +69,16 @@ You can retrieve your click tracking domain from your Salesforce settings. If yo
 
 There are a few different ways you can create Branch links that are compatible with Universal Email + Salesforce. You will need to replace the web URLs in your templates with these. To create Branch links, you can either:
 
-1. [Add a new Content Area for easy deep linking](#add-a-new-content-area-for-easy-deep-linking)
+1. [Use Salesforce AMPscript to convert links](#add-a-new-content-area-for-easy-deep-linking)
 1. [Making regular Branch links compatible with email](#making-regular-branch-links-compatible-with-email)
 1. [Create email links via API without changing your email templates](#create-email-links-via-api-without-changing-your-email-templates)
 1. [Convert all web links in your email to deep links](#convert-all-web-links-in-your-email-to-deep-links)
 
 #### Add a new Content Area for easy deep linking
 
-In this step, we'll add a new Content Area in Salesforce that makes it very easy to create deep links in your emails.
+Using Salesforce's AMPscript, we'll add a new Content Area in Salesforce that converts web links in your email templates into Branch links.
 
-1. Work with your Branch account manager to modify the following code snippet, replacing `DOMAIN-HERE` with your Branch base domain:
+1. Work with your Branch account manager to modify the following Salesforce AMPscript snippet, replacing `DOMAIN-HERE` with your Branch base domain (i.e., example.app.link):
 
     ```
     %%[ VAR @deeplink, @branch_base_url SET @branch_base_url = "https://DOMAIN-HERE/3p?%243p=e_et" SET @deeplink = CONCAT(@branch_base_url, CONCAT("&%24original_url=", URLEncode(@link_to_be_wrapped, 1, 1))) ]%%
@@ -120,7 +120,7 @@ In this step, we'll add a new Content Area in Salesforce that makes it very easy
 
     ![image](/_assets/img/pages/email/salesforce/salesforce-saved.png)
 
-You have now successfully created the deep linking script.
+You have now successfully created the deep linking AMPscript.
 
 !!! example "Code snippet"
     The snippet will follow this format:
@@ -131,20 +131,20 @@ You have now successfully created the deep linking script.
 
 ##### Configure your Salesforce email templates
 
-This section covers how to convert individual links in your existing email templates to use Branch deep links.  You will need to determine which links in your email template that you want to convert to Branch deep links.
+This section covers how to convert individual links in your existing email templates into Branch deep links.  You will need to do this for all links in your email template that you want to convert to Branch deep links.
 
-To convert a link to a Branch deep link, let's use an example:
+For example, if you decide to convert the link below into a Branch Link:
 ```
-<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;" href="https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel">I want it!</a>
-```
-
-This is what the link will look like **after** you have modified it to support Branch deep links:
-```
-%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%%
-<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"  href="%%=RedirectTo(@deeplink)=%%">I want this!</a>
+<a href="https://www.blueapron.com/"> I want it! </a>
 ```
 
-We recommend you create the deep link in a separate document and then paste it back into the HTML editor in Salesforce marketing cloud. To begin:
+This is what the link will look like in the email template, **after** you added the AMPscript to convert it into a Branch link:
+```
+%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%%
+<a href="%%=RedirectTo(@deeplink)=%%">I want it!</a>
+```
+
+The process to convert links into Branch links using AMPscript is as follows (this flow converts the links in a separate document, and then pastes them back into your final template):
 
 1. Log in to Salesforce Marketing Cloud
 2. Click on **Email Studio** and then a sub-menu will appear. Click on **Email** in the dropdown menu:
@@ -161,38 +161,35 @@ We recommend you create the deep link in a separate document and then paste it b
 
 1. Choose a link that you want to convert to a Branch deep link. Copy the text right after the `href=` in your email template, and paste it into a separate document. In the example, it is:
 
-    **`"https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`**
+    **`"https://www.blueapron.com/"`**
 
 1. Add `%%[ SET @link_to_be_wrapped = ` before the link in your separate document. In the example, this is now:
 
-    **`%%[ SET @link_to_be_wrapped = `**`"https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`
+    **`%%[ SET @link_to_be_wrapped = `**`"https://www.blueapron.com/"`
 
 1. Add `ContentAreaByName("My Contents\deeplink")]%%` after the link:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel"`**`ContentAreaByName("My Contents\deeplink")]%%`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/"`**`ContentAreaByName("My Contents\deeplink")]%%`**
 
 1. From the original link in your template, copy the text from and including `<a` until the `href=`.  Add it to the text after `%%` in the last step. Please include the `<a` but not the `href=`:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%%`**`<a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%%`**`<a style="_any css can be added here_"`**
 
 1. Add `href="%%=RedirectTo(@deeplink)=%%"` to the end:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%% <a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;"`**`href="%%=RedirectTo(@deeplink)=%%"`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%% <a style="_any css can be added here_"`**`href="%%=RedirectTo(@deeplink)=%%"`**
 
 1. From the original link in your template, copy the end of the tag, the link text, and the closing tag (`>I want it!</a>` in the example) and add it to the end:
 
-    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/recipes/five-spice-chicken-vermicelli-with-mushrooms-collard-greens-baby-fennel" ContentAreaByName("My Contents\deeplink") ]%% <a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #fff;background-color: #00afd1;font-family: sans-serif;" href="%%=RedirectTo(@deeplink)=%%"`**`>I want it!</a>`**
+    `%%[ SET @link_to_be_wrapped = "https://www.blueapron.com/" ContentAreaByName("My Contents\deeplink") ]%% <a style="_any css can be added here_" href="%%=RedirectTo(@deeplink)=%%"`**`>I want it!</a>`**
 
 1. Copy your final result from the separate document back into your email template, replacing everything inside and including the `<a></a>` tags in the template.
 
 1. Repeat this for all your links in your email template that you want to convert to Branch deep links.
 
-These links are complete and will deep link to content in your app.
 
-This converted code is referred to as the "Branch script" - this script will convert your web URLs to deep links. The script uses the [Content Area](#add-a-new-content-area-for-easy-deep-linking) to turn your web URL into a deep link.
-
-!!! example "Adding the Branch script"
-    Wherever you are using `<a>` tags in your email templates, replace those with a short snippet for web URLs that you would like to deep link.
+!!! example "Link Conversion Summary"
+    Wherever you use `<a>` tags in your email templates, replace those with AMPscript to convert the web URLs into Branch links.  The AMPscript references the [Content Area](#add-a-new-content-area-for-easy-deep-linking) setup earlier.
     ```
     %%[SET @link_to_be_wrapped = "ADD YOUR LINK HERE" ContentAreaByName("My Contents\deeplink")]%%
     <a href="%%=RedirectTo(@deeplink)=%%">Click Me</a>
@@ -210,18 +207,16 @@ This converted code is referred to as the "Branch script" - this script will con
 
 ### Flag your web-only links
 
-If you want any web-only links to not open the app on iOS, Salesforce has a special attribute that you can apply to these links.
-
-Add ```mc-deep-link="false"``` to your link tag like this:
+For links that should always open in web, even if the app is installed, add Salesforce's link attribute ```mc-deep-link="false"``` to your link tag to ensure the app does not open in iOS:
 
 ```html
 <a mc-deep-link="false" href="https://my.app.link/3p?$3p=e_et&$original_url=..." >This link will not open the app.</a>
 ```
 
-To ensure that the app does not open on other platforms, add `%24web_only%3Dtrue` to your links as a query parameter, for example:
+If the link in the "href" part of the tag is a normal web link, the app will NOT open in Android.  If the link in the "href" part of the tag is a Branch link, but you don't want the app to open, then you'll need to add `&%24web_only%3Dtrue` as a query parameter:
 
 ```html
-<a href="https://vza3.app.link/3p?%243p=e_xx&%24original_url=http%3A%2F%2Fexample.com%2F%3Ffoo%3Dbar%24web_only%3Dtrue" >Link to your app!</a>
+<a href="https://my.app.link/3p?%243p=e_xx&%24original_url=http%3A%2F%2Fexample.com&%24web_only%3Dtrue" >Link to your app!</a>
 ```
 
 ## Support

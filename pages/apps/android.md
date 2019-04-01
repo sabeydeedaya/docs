@@ -1,3 +1,6 @@
+!!! info "Current SDK Version 3.1.0"
+    Please see the [Android Version History](/version-histories/android-version-history) to view change log.
+
 ## Integrate Branch
 
 - ### Configure Branch
@@ -271,7 +274,7 @@
                 super.onCreate();
 
                 // Branch logging for debugging
-                Branch.enableLogging();
+                Branch.enableDebugMode();
 
                 // Branch object initialization
                 Branch.getAutoInstance(this);
@@ -292,7 +295,7 @@
                 super.onCreate()
 
                 // Branch logging for debugging
-                Branch.enableLogging()
+                Branch.enableDebugMode()
 
                 // Branch object initialization
                 Branch.getAutoInstance(this)
@@ -842,7 +845,7 @@
     - *Java*
 
         ```java
-        Branch.enableLogging();
+        Branch.enableDebugMode();
         ```
 
 - ### Test your Branch Integration
@@ -872,13 +875,13 @@
             <meta-data android:name="io.branch.sdk.TestMode" android:value="true" />
             ```
             - Do not use `TestMode` in production or in the Google Play Store
-            
+
         **OR**
-        
+
         - add `Branch.enableSimulateInstalls()`; called before `initSession` in `onStart()`
-        
+
           - Can be used on Live and Test apps
-          
+
     - Uninstall your app from the device
 
     - Click on any Branch deep link (will navigate to the fallback URL since the app is not installed)

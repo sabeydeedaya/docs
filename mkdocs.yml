@@ -155,6 +155,9 @@ nav:
       - Google Play: apps/android-launch.md
     - Advanced Configuration:
       - V2 Events: apps/v2event.md
+    - Version Histories:
+      - Android Version History: version-histories/android-version-history.md
+      - iOS Version History: version-histories/ios-version-history.md
   - Marketing Channels:
     - Overview : resources/branch-channels.md
     - Website:
@@ -214,6 +217,7 @@ nav:
       - AdCounty Media : deep-linked-ads/adcounty-media-mobile-tracking.md
       - Addtitans Digital : deep-linked-ads/addtitans-digital-mobile-tracking.md
       - AdFalcon Performance : deep-linked-ads/adfalcon-performance-mobile-tracking.md
+      - Adferns : deep-linked-ads/adferns-mobile-tracking.md
       - Adgoi Technologies: deep-linked-ads/adgoi-technologies-mobile-tracking.md
       - Adikteev : deep-linked-ads/adikteev-mobile-tracking.md
       - adMarketplace : deep-linked-ads/admarketplace-mobile-tracking.md
@@ -239,6 +243,7 @@ nav:
       - Affonix: deep-linked-ads/affonix-mobile-tracking.md
       - Altrooz : deep-linked-ads/atlrooz-mobile-tracking.md
       - App Samurai : deep-linked-ads/app-samurai-mobile-tracking.md
+      - Appalgo: deep-linked-ads/appalgo-mobile-tracking.md
       - Appbooster: deep-linked-ads/appbooster-mobile-tracking.md
       - Appcoachs : deep-linked-ads/appcoachs-mobile-tracking.md
       - Appier: deep-linked-ads/appier-mobile-tracking.md
@@ -263,9 +268,11 @@ nav:
       - Bidroid : deep-linked-ads/bidroid-mobile-tracking.md
       - Billy Mobile : deep-linked-ads/billy-mobile-mobile-tracking.md
       - Bing Ads: deep-linked-ads/bing-ads-mobile-tracking.md
+      - Blendai Digital: deep-linked-ads/blendai-digital-mobile-tracking.md
       - Blind Ferret Incent : deep-linked-ads/blind-ferret-incent-mobile-tracking.md
       - Blind Ferret Non-Incent : deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
       - Bright Storm DSP: deep-linked-ads/bright-storm-mobile-tracking.md
+      - Buzzvil: deep-linked-ads/buzzvil-mobile-tracking.md
       - Cauly: deep-linked-ads/cauly-mobile-tracking.md
       - Centro: deep-linked-ads/centro-mobile-tracking.md
       - Chillofy Digital Agency: deep-linked-ads/chillofy-digital-agency-mobile-tracking.md
@@ -275,6 +282,7 @@ nav:
       - Click2Commission : deep-linked-ads/click2commission-mobile-tracking.md
       - Clickadu : deep-linked-ads/clickadu-mobile-tracking.md
       - Clickky : deep-linked-ads/clickky-mobile-tracking.md
+      - Clickwork7 : deep-linked-ads/clickwork7-mobile-tracking.md
       - Clinch: deep-linked-ads/clinch-mobile-tracking.md
       - Cluep : deep-linked-ads/cluep-mobile-tracking.md
       - Collectcent Digital Media : deep-linked-ads/collectcent-digital-media-mobile-tracking.md
@@ -296,6 +304,7 @@ nav:
       - Darriens: deep-linked-ads/darriens-mobile-tracking.md
       - DataXu: deep-linked-ads/dataxu-mobile-tracking.md
       - DAU-UP ClicksMob : deep-linked-ads/dau-up-clicksmob-mobile-tracking.md
+      - DGTG Marketing: deep-linked-ads/dgtg-marketing-mobile-tracking.md
       - Digital Optimist: deep-linked-ads/digital-optimist-mobile-tracking.md
       - Digital Remedy: deep-linked-ads/digital-remedy-mobile-tracking.md
       - Digital Turbine : deep-linked-ads/digital-turbine-mobile-tracking.md
@@ -309,7 +318,7 @@ nav:
       - Everflow Technologies : deep-linked-ads/everflow-technologies-mobile-tracking.md
       - Expand Mobile : deep-linked-ads/expand-mobile-mobile-tracking.md
       - Facebook :
-        - Ads Overview: deep-linked-ads/facebook-ads-overview.md
+        - Facebook Ads Overview: deep-linked-ads/facebook-ads-overview.md
         - Facebook App Install Ads: deep-linked-ads/facebook-app-install-ads.md
         - Facebook Traffic and Conversion Ads: deep-linked-ads/facebook-traffic-conversion-ads.md
         - Facebook Platform Ads: deep-linked-ads/facebook-platform-ads.md
@@ -333,7 +342,7 @@ nav:
       - GMT Digital : deep-linked-ads/gmt-digital-mobile-tracking.md
       - Go Mobile: deep-linked-ads/gomobile-mobile-tracking.md
       - Google Ads:
-        - Overview: deep-linked-ads/google-ads-overview.md
+        - Google Ads Overview: deep-linked-ads/google-ads-overview.md
         - Enabling the Integration: deep-linked-ads/google-ads-enable.md
         - Universal App Campaigns (UAC): deep-linked-ads/google-ads-uac.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
@@ -346,6 +355,7 @@ nav:
       - Iconpeak : deep-linked-ads/iconpeak-mobile-tracking.md
       - iCubesWire: deep-linked-ads/icubeswire-mobile-tracking.md
       - Impact Radius : deep-linked-ads/impact-radius-mobile-tracking.md
+      - Indus OS: deep-linked-ads/indus-os-mobile-tracking.md
       - Inflecto Media: deep-linked-ads/inflecto-media-mobile-tracking.md
       - Infleux : deep-linked-ads/infleux-mobile-tracking.md
       - Influence Mobile: deep-linked-ads/influence-mobile-mobile-tracking.md
@@ -360,6 +370,9 @@ nav:
       - JetFuel Ads : deep-linked-ads/jetfuel-ads-mobile-tracking.md
       - JungggleX : deep-linked-ads/junggglex-mobile-tracking.md
       - Kakao: deep-linked-ads/kakao-mobile-tracking.md
+      - Kenshoo: deep-linked-ads/kenshoo-mobile-tracking.md
+      - Kenshoo Apps: deep-linked-ads/kenshoo-apps-mobile-tracking.md
+      - Keyade: deep-linked-ads/keyade-mobile-tracking.md
       - Kiip : deep-linked-ads/kiip-mobile-tracking.md
       - Kwanko: deep-linked-ads/kwanko-mobile-tracking.md
       - Liftoff : deep-linked-ads/liftoff-mobile-tracking.md
@@ -374,11 +387,13 @@ nav:
       - Media Donuts : deep-linked-ads/media-donuts-mobile-tracking.md
       - MediaMath : deep-linked-ads/mediamath-mobile-tracking.md
       - Mediasmart : deep-linked-ads/mediasmart-mobile-tracking.md
+      - Mediaxpedia : deep-linked-ads/mediaxpedia-mobile-tracking.md
       - Minimob : deep-linked-ads/minimob-mobile-tracking.md
       - Mintegral : deep-linked-ads/mintegral-mobile-tracking.md
       - MobAir: deep-linked-ads/mobair-mobile-tracking.md
       - MobAvenue : deep-linked-ads/mobavenue-mobile-tracking.md
       - Mobco Media: deep-linked-ads/mobco-media-mobile-tracking.md
+      - Mobility Performance Network : deep-linked-ads/mobility-performance-network-mobile-tracking.md
       - Mobio : deep-linked-ads/mobio-mobile-tracking.md
       - Mobipium: deep-linked-ads/mobipium-mobile-tracking.md
       - Mobipuff: deep-linked-ads/mobipuff-mobile-tracking.md
@@ -404,6 +419,7 @@ nav:
       - NativeX : deep-linked-ads/nativex-mobile-tracking.md
       - Naver : deep-linked-ads/naver-mobile-tracking.md
       - Netcore Solutions : deep-linked-ads/netcore-solutions-mobile-tracking.md
+      - Neurality : deep-linked-ads/neurality-mobile-tracking.md
       - Nswitch : deep-linked-ads/nswitch-mobile-tracking.md
       - Oath: deep-linked-ads/oath-mobile-tracking.md
       - Offer18 : deep-linked-ads/offer18-mobile-tracking.md
@@ -411,6 +427,7 @@ nav:
       - Optimidea: deep-linked-ads/optimidea-mobile-tracking.md
       - Optimise Media: deep-linked-ads/optimise-media-mobile-tracking.md
       - Outbrain : deep-linked-ads/outbrain-mobile-tracking.md
+      - Oximobimedia: deep-linked-ads/oximobimedia-mobile-tracking.md
       - Pandora : deep-linked-ads/pandora-mobile-tracking.md
       - PapayaMobile : deep-linked-ads/papayamobile-mobile-tracking.md
       - Partnerize: deep-linked-ads/partnerize-mobile-tracking.md
@@ -421,6 +438,7 @@ nav:
       - Phunware : deep-linked-ads/phunware-mobile-tracking.md
       - Pick Media: deep-linked-ads/pick-media-mobile-tracking.md
       - Picnic Media : deep-linked-ads/picnic-media-mobile-tracking.md
+      - Pincrux : deep-linked-ads/pincrux-mobile-tracking.md
       - Pinisight : deep-linked-ads/pinisight-mobile-tracking.md
       - Pinterest : deep-linked-ads/pinterest-mobile-tracking.md
       - Plabs Ventures: deep-linked-ads/plabs-ventures-mobile-tracking.md
@@ -443,12 +461,15 @@ nav:
       - RTB House: deep-linked-ads/rtb-house-mobile-tracking.md
       - Sabio Mobile : deep-linked-ads/sabio-mobile-mobile-tracking.md
       - Scorp : deep-linked-ads/scorp-mobile-tracking.md
+      - Sense Digital : deep-linked-ads/sense-digital-mobile-tracking.md
+      - SHAREit : deep-linked-ads/shareit-mobile-tracking.md
       - Shoogloo Mobile : deep-linked-ads/shoogloo-mobile-mobile-tracking.md
       - ShopBack : deep-linked-ads/shopback-mobile-tracking.md
       - Signitech: deep-linked-ads/signitech-mobile-tracking.md
       - SilverPush: deep-linked-ads/silverpush-mobile-tracking.md
       - SilverPush - Affise : deep-linked-ads/silverpush-affise-mobile-tracking.md
       - Sizmek Adserver: deep-linked-ads/sizmek-adserver-mobile-tracking.md
+      - Sizmek DSP: deep-linked-ads/sizmek-dsp-mobile-tracking.md
       - Slavia Mobile: deep-linked-ads/slavia-mobile-mobile-tracking.md
       - Smadex: deep-linked-ads/smadex-mobile-tracking.md
       - Smart.bid : deep-linked-ads/smart-bid-mobile-tracking.md
@@ -469,11 +490,13 @@ nav:
       - Tappx: deep-linked-ads/tappx-mobile-tracking.md
       - Tapsell : deep-linked-ads/tapsell-mobile-tracking.md
       - Taptica : deep-linked-ads/taptica-mobile-tracking.md
+      - Target Circle : deep-linked-ads/target-circle-mobile-tracking.md
       - TaskBucks : deep-linked-ads/taskbucks-mobile-tracking.md
       - Teads : deep-linked-ads/teads-mobile-tracking.md
       - The Trade Desk: deep-linked-ads/the-trade-desk-mobile-tracking.md
       - Themobiadz: deep-linked-ads/themobiadz-mobile-tracking.md
       - Thing Or Two : deep-linked-ads/thing-or-two-mobile-tracking.md
+      - Tiktok Ads : deep-linked-ads/tiktok-ads-mobile-tracking.md
       - TimeOneGroup : deep-linked-ads/timeonegroup-mobile-tracking.md
       - Times Internet Limited: deep-linked-ads/times-internet-limited-mobile-tracking.md
       - Tradedoubler : deep-linked-ads/tradedoubler-mobile-tracking.md
@@ -488,6 +511,7 @@ nav:
       - Unity : deep-linked-ads/unity-mobile-tracking.md
       - vCommission Media : deep-linked-ads/vcommission-media-mobile-tracking.md
       - Ventes Avenues: deep-linked-ads/ventes-avenues-mobile-tracking.md
+      - Vermmillion: deep-linked-ads/vermmillion-mobile-tracking.md
       - Viant: deep-linked-ads/viant-mobile-tracking.md
       - Vishibility : deep-linked-ads/vishibility-mobile-tracking.md
       - Vizury: deep-linked-ads/vizury-mobile-tracking.md
@@ -500,9 +524,11 @@ nav:
       - Wider Planet : deep-linked-ads/wider-planet-mobile-tracking.md
       - Xapads Media : deep-linked-ads/xapads-media-mobile-tracking.md
       - XiaoMi Global: deep-linked-ads/xiaomi-global-mobile-tracking.md
+      - XY Ads: deep-linked-ads/xy-ads-mobile-tracking.md
       - Yandex Direct : deep-linked-ads/yandex-direct-mobile-tracking.md
       - YeahMobi : deep-linked-ads/yeahmobi-mobile-tracking.md
       - Yep Ads : deep-linked-ads/yep-ads-mobile-tracking.md
+      - Yoke Network : deep-linked-ads/yoke-network-mobile-tracking.md
       - YouAppi : deep-linked-ads/youappi-mobile-tracking.md
       - YouAppi Retargeting : deep-linked-ads/youappi-retargeting-mobile-tracking.md
       - ZenAds : deep-linked-ads/zenads-mobile-tracking.md
@@ -580,6 +606,8 @@ nav:
       - TUNE: integrations/tune.md
       - WebEngage: integrations/webengage.md
     - Partner Resources:
+      - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
+      - Branch Partner Best Practices: partner-management/branch-partner-best-practices.md
       - Universal Ads Partner Integration QA Process: deep-linked-ads/universal-ads-partner-integration-qa-process.md
   - Reports & Analytics:
     - Overview: dashboard/analytics-overview.md
