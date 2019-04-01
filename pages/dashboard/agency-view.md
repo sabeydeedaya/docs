@@ -105,3 +105,19 @@ To modify an existing Agency Team member:
 1. To delete the Agency member:
 	1. Click **Delete**.
 	1. In the **Are you sure you want to delete?** modal, click **Yes, Delete**.
+
+### Default Agency Restrictions
+
+Due to the nature of allowing third parties access to your data -  as well as what data you don't want them to access - when an Agency team member is in App view, they will not be able to access certain aspects of the Branch account regardless of the access levels applied to the user.
+
+- Agency users cannot add/remove team members to/from their customers’ dashboards.
+- Agency users are not allowed to reset app keys or delete apps.
+- Agency users are not allowed to add/remove agency access.
+- Agency users are allowed to create apps in the Organization view, but not stand-alone apps in the App view.
+	- This means agencies don’t actually “own” apps; rather they’ll just be able to manage the apps of others.
+- Agency users do not have access to the Billing and SSO sections of their customers’ dashboards.
+- Agency users cannot export log-level data via the Data Import & Export section or via the Export API.
+- Agency users do not have access to an app's revenue data.
+
+!!! info "Disabled Functionality"
+	Any restricted functionality - either due to default Agency restrictions or selected access levels - in the Branch dashboard will be (1) grayed out, (2) not clickable, (3) include a pop up modal informing the user about restricted access.
