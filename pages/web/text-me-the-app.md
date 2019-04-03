@@ -81,7 +81,7 @@ And that's it. From here, you can customize the HTML and CSS, and Branch will ta
 
 ### Use your own SMS service
 
-Branch uses Twilio to provide your users the ability to text themselves the app for free, but you can roll your own SMS service by using the following basic logic:
+You can roll your own SMS service by using the following basic logic:
 
 1. Does `~referring_link` exist? (a.k.a. did the user end up on this Text Me The App page because of a Branch link?) If so, use this link when sending the SMS.
 2. If not (`~referring_link` is null), generate a new Branch link by making a call to the Web SDK's `link()` method. Use this link when sending the SMS.

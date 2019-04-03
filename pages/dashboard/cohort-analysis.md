@@ -92,7 +92,8 @@ Show measures include important KPIs and metrics which you can use to hone in on
 | Gross Profit      | Amount; Ads Channel only                                                                                              |
 | Initiate Purchase | Initiate Purchase events                                                                                              |
 | Opens             | Open events                                                                                                           |
-| Purchase          | Purchase events                                                                                                       |
+| Purchase          | Purchase events
+| Retention           | The ability of a product or service to retain its existing customers, with retention rates measuring the ratio of customers who are devoted and “stay” (those who keep using and supporting your app) to the total number of customers who installed your app.                                                                                                       |
 | Revenue           | Revenue for commerce events                                                                                           |
 | ROAS              | Return on Ad Spend. Revenue as a percentage of cost (will need this to compare for cohorts); Ads Channel only         |
 | ROI               | Return on investment. Profit as a percentage of cost; Ads Channel only                                                |
