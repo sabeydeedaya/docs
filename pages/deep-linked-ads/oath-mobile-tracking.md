@@ -2,6 +2,14 @@
 
 ![Oath](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/oath-1544044998484.png)
 
+Branch is able to support the attribution of Gemini/Native & Search inventory from Oath Ad Platforms using Branch links, and is able to send data to Oath which can attribute both Gemini and DSP inventory.
+
+Oath Ad Platforms has two main products/channels relevant to mobile advertising and attribution - (Yahoo!) Gemini/Native & Search, and the (formerly Brightroll) DSP.
+
+Yahoo Gemini used to operate as a standard integration (driving clicks with identifiers and receiving postbacks after attribution), but added Self-Attributing Network (SAN) functionality which also covers DSP inventory.
+
+Because Branch is not yet ready to fully ingest the SAN response for attribution, we operate a hybrid approach utilizing the legacy Gemini integration for attribution in Branch, while pushing all data to the SAN endpoint which can attribute both channels.
+
 This guide will walk you through how to setup your campaigns with **[Oath](https://gemini.yahoo.com/advertiser/home)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}

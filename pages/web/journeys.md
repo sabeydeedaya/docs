@@ -330,7 +330,7 @@ Use this filter to target users who have interacted with a specific Journey befo
 
 ### Set up split testing
 
-Note that if you are planning on just using the free banner, you can skip this section. This feature allows you to run A/B tests by designing multiple templates and assigning a percentage of your audience to each one.
+This feature allows you to run A/B tests by designing multiple templates and assigning a percentage of your audience to each one.
 
 1. Click the **Add Variation** button to add another design variation. ![image](/_assets/img/pages/journeys/add-variation.png)
 1. To remove an unwanted variation, click the `-` button. ![image](/_assets/img/pages/journeys/remove-variation.png)
@@ -833,11 +833,7 @@ The content block contains everything except for the background image. Dimension
 | Dismiss Text | Text to show users wanting to continue to your mobile website instead of downloading the app.
 | Formatting Bar | WYSIWYG styling for dismiss button & text |
 
-### Premium journeys functionality
-
-All Journeys features are available to upgraded apps, and are charged per event with a 14 day free trial. Visit [this page](https://branch.io/pricing) for full pricing information.
-
-#### Limitations for apps with free accounts
+### Limitations for apps with free accounts
 
 - Any number of Journeys may be created in **Draft** mode using all features.
 - An invitation to upgrade will be displayed when premium-only functionality is enabled
