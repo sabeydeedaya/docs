@@ -62,7 +62,7 @@ Find your mParticle key & secret and enter it into the Branch Dashboard.
 1. Search for mParticle and click on the tile.
 1. Enter your mParticle key & secret and hit **Enable**.
 
-    ![image](/_assets/img/pages/integrations/mparticle/mparticle-branch-settings.png)
+    ![image](/_assets/img/pages/integrations/mparticle/mparticle-export.png)
 
     !!! warning "Please test integration!"
         Branch is not responsible for inaccurate API keys.
