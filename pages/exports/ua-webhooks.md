@@ -46,7 +46,8 @@ As you fill out the configuration, you'll see the following options:
 
 For an exhaustive list of events and more detailed definitions of each event, please see the [Event Ontology Data Schema](/exports/event_ontology_data_schema/).
 
-- **NB**: Event frequency is not yet supported. At this time webhooks can only be sent every time an event occurs. The option to send webhooks **the first time** an event occurs is roadmapped for release in late 2018.
+!!! warning "Warning"
+    Event frequency is not yet supported. At this time webhooks can only be sent every time an event occurs.
 
 #### Basic filtering
 
