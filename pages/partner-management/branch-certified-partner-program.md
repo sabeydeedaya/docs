@@ -38,7 +38,7 @@ Verified Partner technical requirements plus the following:
 - Receive a recommendation from at least 3 clients
 - These trainings still need to be developed. Until they are we can require that partner support and sales teams receive training from Branch. An advanced requirement is that partners have the Branch SDK in their test app, and have their own dashboard.
 - Provide ad spend data via API
-- Commitment to low rates (5% to 10% tbd) of app install fraud. I think this should take the form of a Branch-led coalition of ad partner committed to low fraud levels. To be a Tier 2 level a partner has to sign on to this effort.
+- Commitment to low rates (<10%) of app install fraud. I think this should take the form of a Branch-led coalition of ad partner committed to low fraud levels. To be a Tier 2 level a partner has to sign on to this effort.
 - Support or promote Branch links by ensuring systems comply with Branch link redirection, including parameter pass-through and written support docs.
 - Prepare 1 pager with a mutual value proposition
 - Publish integration guide (at least a link to Branch docs)
