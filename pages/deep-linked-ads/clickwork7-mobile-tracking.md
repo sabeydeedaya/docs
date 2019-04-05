@@ -1,6 +1,6 @@
 ## Overview
 
-![Clickwork7](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/clickwork7.png)
+![Clickwork7](https://cdn.branch.io/branch-assets/ad-partner-manager//clickwork7_logo-1554421391704.png)
 
 This guide will walk you through how to setup your campaigns with **[Clickwork7](http://www.clickwork7.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
