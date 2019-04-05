@@ -186,8 +186,8 @@ To add an Agency:
 		- **Custom** - Customize settings and data access.
 		- **No Access** - no dashboard access.
 
-!!! warning "Granting agencies Admin permissions"
-	Agencies with Admin permissions to an Org or App will have access to that Org/App's API keys, which can be used to access Branch's [HTTP](https://docs.branch.io/apps/deep-linking-api/) and [Data Export](https://docs.branch.io/exports/api-v3/#__search) APIs. Agency data filters (e.g. Only Show Agency-tagged Data) will not apply to data accessed via the Data Export API, so we recommend against granting agencies Admin permissions and providing them with API keys.
+!!! warning "Granting agencies Sensitive Data & App-Level Settings permissions"
+	Agencies with Sensitive Data & App-Level Settings permissions to an Org or App will have access to that Org/App's API keys, which can be used to access Branch's [HTTP](https://docs.branch.io/apps/deep-linking-api/) and [Data Export](https://docs.branch.io/exports/api-v3/#__search) APIs. Agency data filters (e.g. Only Show Agency-tagged Data) will not apply to data accessed via the Data Export API, so we recommend against granting agencies these permissions and providing them with API keys.
 
 #### Defining Permissions
 
