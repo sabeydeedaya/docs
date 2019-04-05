@@ -10,6 +10,9 @@ Branch’s new Data Export API for [People-Based Attribution](/dashboard/people-
 !!! note "Data Feeds is a premium solution"
     The Data Export API is included in Branch’s [Data Feeds](/exports/data-feeds/) offering, which can be purchased according to Branch’s [pricing schedule](https://branch.io/pricing/){:target="\_blank"}, and is available at no additional charge to customers who are on Launch and Startup plans for [Journeys](https://branch.io/journeys/){:target="\_blank"}, [Universal Email](https://branch.io/email/){:target="\_blank"}, or [Universal Ads](https://branch.io/attribution/){:target="\_blank"}. Without Data Feeds, you can still export Branch data in CSV form directly from the Branch dashboard via [Sources](https://dashboard.branch.io/sources){:target="\_blank"} or [CSV Exports](https://dashboard.branch.io/data-import-export/csv-exports){:target="\_blank"}.
 
+!!! warning "Third party access"
+	Any user with access to an account’s API keys will be able to access Branch’s Data Export API (and thus unfiltered, log-level data). As a result, we would recommend against providing third parties (agencies and ad partners) with the permissions required to view API keys - Sensitive Data and App-Level Settings - during the invitation process. 
+
     **If you are looking for the legacy Data Export API**, please see [these docs](/exports/api/).
 
 ## Setup
