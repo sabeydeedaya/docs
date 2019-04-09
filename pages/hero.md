@@ -1,1 +1,1 @@
-template: hero.html
+template: main-lp.html

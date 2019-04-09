@@ -654,34 +654,33 @@ nav:
         - 앱 내 딥링크 라우팅 가이드: kr/deep-link-routing.md
         - Facebook Ads FAQ (Korean): kr/facebook-ads-faq.md
   - Dev:
-    - Home: index.md
-    - Hero: hero
+    - Hero: hero.md
     - Deep Linking:
-      - Overview: /deep-linking/overview
+      - Overview: deep-linking/overview.md
       - Android SDK:
-        - Overview: /branch-android-sdk/overview
-        - Basic Integration: /branch-android-sdk/basic-integration
-        - Advanced Features: /branch-android-sdk/advanced-features
-        - Testing: /branch-android-sdk/testing
-        - Troubleshooting: /branch-android-sdk/troubleshooting
-        - Version History: /branch-android-sdk/version-history
-        - Full Reference: /branch-android-sdk/full-reference
+        - Overview: branch-android-sdk/overview.md
+        - Basic Integration: branch-android-sdk/basic-integration.md
+        - Advanced Features: branch-android-sdk/advanced-features.md
+        - Testing: branch-android-sdk/testing.md
+        - Troubleshooting: branch-android-sdk/troubleshooting.md
+        - Version History: branch-android-sdk/version-history.md
+        - Full Reference: branch-android-sdk/full-reference.md
       - iOS SDK:
-        - Overview: /branch-ios-sdk/overview
-        - Basic Integration: /branch-ios-sdk/basic-integration
-        - Advanced Features: /branch-ios-sdk/advanced-features
-        - Testing: /branch-ios-sdk/testing
-        - Troubleshooting: /branch-ios-sdk/troubleshooting
-        - Version History: /branch-ios-sdk/version-history
-        - Full Reference: /branch-ios-sdk/full-reference
+        - Overview: branch-ios-sdk/overview.md
+        - Basic Integration: branch-ios-sdk/basic-integration.md
+        - Advanced Features: branch-ios-sdk/advanced-features.md
+        - Testing: branch-ios-sdk/testing.md
+        - Troubleshooting: branch-ios-sdk/troubleshooting.md
+        - Version History: branch-ios-sdk/version-history.md
+        - Full Reference: branch-ios-sdk/full-reference.md
       - Web SDK:
-        - Overview: /branch-web-sdk/overview
-        - Basic Integration: /branch-web-sdk/basic-integration
-        - Advanced Features: /branch-web-sdk/advanced-features
-        - Testing: /branch-web-sdk/testing
-        - Troubleshooting: /branch-web-sdk/troubleshooting
-        - Version History: /branch-web-sdk/version-history
-        - Full Reference: /branch-web-sdk/full-reference
+        - Overview: branch-web-sdk/overview.md
+        - Basic Integration: branch-web-sdk/basic-integration.md
+        - Advanced Features: branch-web-sdk/advanced-features.md
+        - Testing: branch-web-sdk/testing.md
+        - Troubleshooting: branch-web-sdk/troubleshooting.md
+        - Version History: branch-web-sdk/version-history.md
+        - Full Reference: branch-web-sdk/full-reference.md
       - Deep Linking API:
         - Overview: empty
       - Adobe Launch:
@@ -701,7 +700,7 @@ nav:
       - Xamarin:
         - Overview: empty
     - Data Automation:
-      - Overview: /section-overviews/data-api-overview.md
+      - Overview: section-overviews/data-api-overview.md.md
       - Aggregate API:
         - Overview: empty
       - Query API:
