@@ -91,7 +91,7 @@ extra:
 
 # Navigation
 nav:
-  - Docs:
+  - Help Documentation:
     - Home: index.md
     - Branch Basics:
       - Overview: resources/basics-overview.md
@@ -653,7 +653,7 @@ nav:
         - Android App Links 가이드: kr/android-app-links.md
         - 앱 내 딥링크 라우팅 가이드: kr/deep-link-routing.md
         - Facebook Ads FAQ (Korean): kr/facebook-ads-faq.md
-  - Dev:
+  - Developer Portal:
     - Hero: hero.md
     - Deep Linking:
       - Overview: deep-linking/overview.md
