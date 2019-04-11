@@ -1,1 +1,0 @@
-template: hero.html

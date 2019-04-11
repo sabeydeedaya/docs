@@ -91,8 +91,11 @@ extra:
 
 # Navigation
 nav:
-  - Help Documentation:
-    - Home: index.md
+  - Help Center:
+    - Main Home: main-home.md
+  - Documentation:
+    - Home: docs-home.md
+    - Old: index.md
     - Branch Basics:
       - Overview: resources/basics-overview.md
       - Attribution:
@@ -654,7 +657,7 @@ nav:
         - 앱 내 딥링크 라우팅 가이드: kr/deep-link-routing.md
         - Facebook Ads FAQ (Korean): kr/facebook-ads-faq.md
   - Developer Portal:
-    - Hero: hero.md
+    - Home: dev-home.md
     - Deep Linking:
       - Overview: deep-linking/overview.md
       - Android SDK:
@@ -700,7 +703,7 @@ nav:
       - Xamarin:
         - Overview: empty
     - Data Automation:
-      - Overview: section-overviews/data-api-overview.md.md
+      - Overview: section-overviews/data-api-overview.md
       - Aggregate API:
         - Overview: empty
       - Query API:
@@ -724,3 +727,5 @@ nav:
       - Universal Links Validator: empty
       - App Index Validator: empty
       - Branch CLI for Automated iOS Integration: empty
+  - Support:
+    - Home: support-home.md

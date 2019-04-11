@@ -56,7 +56,9 @@
   height: 1.75em;
 }
 
-
+.md-tabs {
+  background-color: #009ADE;
+}
 
 /* ////////////////////////////// */
 /* BRANCH CODE TABS */
@@ -89,7 +91,7 @@
 /* MARKDOWN */
 /* ////////////////////////////// */
 .md-typeset img {
-  box-shadow: 0px 0px 1px #ccc;
+  box-shadow: 0px 0px 0px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -347,6 +349,7 @@ html.modal {
 
 
 
+
 /* ////////////////////////////// */
 /* HEADER GITHUB STATS */
 /* ////////////////////////////// */
@@ -421,6 +424,9 @@ html.modal {
 /* ////////////////////////////// */
 /* primary */
 .md-header, .modal-content a:not(.algolia-docsearch-footer--logo):not(.algolia-docsearch-suggestion), .modal-content button {
+  background-color: #009ADE !important;
+}
+.md-tabs, .md-tabs--active, .md-tabs__inner, .md-tabs__list, .md-tabs__list li {
   background-color: #004876 !important;
 }
 @media only screen and (max-width: 76.1875em) {
@@ -429,10 +435,10 @@ html.modal {
   }
 }
 /* secondary */
-.md-nav--secondary {
-  border-left: .2rem solid #0075C9 !important;
+.md-nav--secondary, {
+  border-left: .2rem solid #009ADE !important;
 }
-.md-content a, .md-nav__link--active, .md-nav__link:hover, .md-typeset a:active, .md-typeset a:hover {
+.md-nav__link--active, .md-nav__link:hover, .md-typeset a:active, .md-typeset a:hover {
   color: #0075C9 !important;
 }
 .md-content a:hover {
@@ -442,7 +448,7 @@ html.modal {
   color: rgba(0,0,0,.26) !important;
 }
 .md-nav--secondary .md-nav__link--active {
-  color: inherit !important;
+  color: #009ADE !important;
 }
 .branch-nav-header:hover {
   color: black !important;

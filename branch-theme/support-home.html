@@ -6,13 +6,25 @@
   {{ super() }}
 
   <style>
-    .md-content {
+
+		body {
+			background-image: url("/_assets/img/dots.png");
+			background-size: contain;
+			background-position: center;
+		  background-repeat: no-repeat;
+			background-color: #ffffff;
+   	}
+		.md-content {
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
+		.md-content a {
+		  color: #ffffff !important;
+		}
     .md-content h1 {
       display: none !important;
     }
+
     .main-page .greeting-wrapper {
       text-align: center;
     }
@@ -21,9 +33,9 @@
     }
     .main-page .greeting {
       font-size: 32px;
-      font-weight: light;
+			font-weight:bold;
+			color: ##323E48;
       text-align: center;
-      color: #004876;
     }
 
     .main-page .nav-wrap {
@@ -67,8 +79,45 @@
     @media (min-width: 992px) {
       .main-page .nav-wrap a {
         width: 25%;
-      }
     }
+
+    .button2 {
+      background-color: ##0075C9;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+		.button3 {
+      background-color: #0075C9;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+
+    .button3:hover {
+      border: 1px black solid;
+      background-color: #ffffff;
+      color: #ffffff;
+    }
+
   </style>
 
 {% endblock %}
@@ -109,7 +158,7 @@
         {% if config.theme.logo %}
           <div class="md-flex__cell md-flex__cell--shrink">
             <a href="{{ config.site_url | default(nav.homepage.url, true) }}" title="{{ config.site_name }}">
-              <div class="branch-header-subtitle">Developers</div>
+              <div class="branch-header-subtitle">SUPPORT</div>
             </a>
           </div>
         {% endif %}
