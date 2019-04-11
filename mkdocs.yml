@@ -91,11 +91,8 @@ extra:
 
 # Navigation
 nav:
-  - Help Center:
-    - Main Home: main-home.md
   - Documentation:
     - Home: docs-home.md
-    - Old: index.md
     - Branch Basics:
       - Overview: resources/basics-overview.md
       - Attribution:
