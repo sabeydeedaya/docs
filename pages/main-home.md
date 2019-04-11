@@ -12,7 +12,7 @@ template: main-home.html
 	<p class="greeting">I Want to Know How to...</p>
 	<br/>
 	<a class="button2 button3"href="/docs-home">USE THE BRANCH DASHBOARD</a>
-	<a class="button2 button3"href="/dev-home">IMPLEMENT THE SDK</a>
-	<a class="button2 button3"href="/dev-home">PULL DATA FROM THE API</a>
-	<a class="button2 button3"href="#tune">GET ADDITIONAL HELP</a>
+	<a class="button2 button3"href="/dev-home/#deep-linking">IMPLEMENT THE SDK</a>
+	<a class="button2 button3"href="/dev-home/#data">PULL DATA FROM THE API</a>
+	<a class="button2 button3"href="/support-home/">GET ADDITIONAL HELP</a>
 	</center>
