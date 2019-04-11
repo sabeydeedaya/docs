@@ -41,4 +41,8 @@ template: docs-home.html
 		<img src="/_assets/img/pages/main-page/feeds-dot.png" />
 		<p>DATA FEEDS</p>
 	</a>
+	<a class="button2 button3"href="/translations/overview">
+		<img src="/_assets/img/pages/main-page/supported-languages.png" alt="Translated Documentation"/>
+		<p>TRANSLATED CONTENT</p>
+	</a>
 </center>
