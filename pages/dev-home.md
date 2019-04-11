@@ -25,9 +25,9 @@ template: dev-home.html
 	<br/>
 	<br/>
 	<br/>
-	<br/>
-	<br/>
 	<a name="deep-linking"></a>
+	<br/>
+	<br/>
 	<!-- section 1 -->
 	<center><h2><font color="#ffffff">Grow Your App with Branch's Deep Linking</font></h>
 	<br/>
@@ -79,7 +79,6 @@ template: dev-home.html
 	    <img src="/_assets/img/pages/logos/unity-logo.png"  height="65" width="65"/><br/>
 	    <b>Unity</b>
 	</a>
-	<a name="data"></a>
 	<a class="button2 button3"href="/branch-ios-sdk/overview">
 	    <img src="/_assets/img/pages/logos/xamarin-logo.png" height="65" width="65" /><br/>
 	    <b>Xamarin</b>
@@ -90,6 +89,7 @@ template: dev-home.html
 	<!-- section 2 -->
 	<br/>
 	<br/>
+	<a name="data"></a>
 	<center><h2><font color="#ffffff">Get Actionable Insights from Branch Data</font></h2>
 	<br/>
 	<h3><font color="#ffffff">Export your Branch data the way you want using Data Integrations, Webhooks, the Data Export API, and the Query API.</font></h3>
