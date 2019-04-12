@@ -46,9 +46,9 @@ Here are explanations of what each field on this screen controls:
 
 ### Testing
 
-To test whether your webhook is configured correctly, you can use [requestb.in](https://requestb.in/). RequestBin gives you a URL that accepts events and allows you to see exactly what Branch is sending.
+To test whether your webhook is configured correctly, you can use [requestbin.com](https://requestbin.com/). RequestBin gives you a URL that accepts events and allows you to see exactly what Branch is sending.
 
-1. Go to [requestb.in](https://requestb.in/) and click **+ Create a RequestBin**:
+1. Go to [requestbin.com](https://requestbin.com/) and click **+ Create a RequestBin**:
 
 	![image](/_assets/img/pages/exports/requestbin_create.png)
 

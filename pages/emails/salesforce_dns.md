@@ -9,8 +9,8 @@ This guide will walk you through how to setup your email campaigns with **[Sales
 ## Setup
 
 !!! caution "Sender Authentication"
-    You must have **Sender Authentication Package** activated and host your DNS Settings instead of delegatng domain to Salesforce.
-    If you plearedy delegated your domain to Salesforce Marketing Cloud - please ask your account manager to changes domain settings and send you DNS settings.
+    You must have the **Sender Authentication Package** activated and host your DNS Settings instead of delegating the domain to Salesforce.
+    If you've already delegated your domain to Salesforce, please ask your account manager to change domain settings and send your DNS settings.
 
 {! ingredients/email/prerequisites.md !}
 
@@ -25,7 +25,7 @@ This guide will walk you through how to setup your email campaigns with **[Sales
 For more information on how to set up your domain, please visit Salesforce Marketing Cloud's [documentation](https://help.salesforce.com/articleView?id=mc_es_subdomain_delegation_guide.htm&type=5){:target="\_blank"}.
 
 !!! tip "Updating DNS settings"
-    As soon as you configured and verified Sender Authentication Package with Salesforce team, please find **click** record in you DNS settings we will update DNS settings for this domain at the next step.
+    As soon as you've configured and verified the Sender Authentication Package with the Salesforce team, please find the **click** record in your DNS settings so we can update your DNS settings.
 
 {! ingredients/email/cname.md !}
 
