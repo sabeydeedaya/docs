@@ -106,12 +106,12 @@ template: dev-home.html
 	    <img src="/_assets/img/pages/logos/api-logo.png" height="65" width="65" /><br/><br/>
 	    <b>Export API</b>
 	</a>
+  <a name="tune"></a>
 	<a class="button2 button3"href="/branch-ios-sdk/overview">
 	    <img src="/_assets/img/pages/logos/api-logo.png" height="65" width="65" /><br/><br/>
 	    <b>Custom Export API</b>
 	</a>
 	</center>
-	<a name="tune"></a>
 	<br/>
 	<br/>
 	<!-- section 3 -->
@@ -121,7 +121,7 @@ template: dev-home.html
 	<br/>
 	<h3><font color="#ffffff">For previous TUNE clients maintaining their TUNE SDK implementation supported by Branch.</font></h3>
 	<br/>
-	<a class="button2 button3"href="/branch-ios-sdk/overview">
+	<a class="button2 button3"href="/tune-android-sdk/overview">
 	    <img src="/_assets/img/pages/logos/android-logo.png" height="65" width="65" /><br/>
 	    <b>Android</b>
 	</a>

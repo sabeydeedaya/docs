@@ -710,9 +710,14 @@ nav:
       - Custom Export API:
         - Overview: empty
     - Legacy TUNE SDKs:
-      - Overview: empty
       - TUNE Android SDK:
-        - Overview: empty
+        - Overview: tune-android-sdk/overview.md
+        - Basic Integration: tune-android-sdk/basic-integration.md
+        - Advanced Features: tune-android-sdk/advanced-features.md
+        - Testing: tune-android-sdk/testing.md
+        - Troubleshooting: tune-android-sdk/troubleshooting.md
+        - Version History: tune-android-sdk/version-history.md
+        - Full Reference: tune-android-sdk/full-reference.md
       - TUNE iOS SDK:
         - Overview: empty
       - TUNE Javascript SDK:
