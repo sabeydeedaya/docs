@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[QooApp Limi
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/qooapp/qooapp-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/qooapp-limited/qooapp-limited-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/qooapp/qooapp-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/qooapp-limited/qooapp-limited-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

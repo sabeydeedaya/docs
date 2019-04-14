@@ -1,8 +1,8 @@
 ## Overview
 
-![Cashtree For India](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/Cashtree.png)
+![Cashtree For Indonesia](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/Cashtree.png)
 
-This guide will walk you through how to setup your campaigns with **[Cashtree For India](http://www.cashtree.id/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Cashtree For Indonesia](http://www.cashtree.id/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Cashtree Fo
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/cashtree-for-india/cashtree-for-india-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/cashtree-for-indonesia/cashtree-for-indonesia-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/cashtree-for-india/cashtree-for-india-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/cashtree-for-indonesia/cashtree-for-indonesia-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

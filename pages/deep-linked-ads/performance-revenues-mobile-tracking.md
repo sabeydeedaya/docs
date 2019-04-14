@@ -1,8 +1,8 @@
 ## Overview
 
-![Performance Reviews](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/preformacerevenues.png)
+![Performance Revenues](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/preformacerevenues.png)
 
-This guide will walk you through how to setup your campaigns with **[Performance Reviews](http://www.performancerevenues.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Performance Revenues](http://www.performancerevenues.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[Performance
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/performance-reviews/performance-reviews-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/performance-revenues/performance-revenues-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/performance-reviews/performance-reviews-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/performance-revenues/performance-revenues-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 

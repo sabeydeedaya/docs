@@ -14,13 +14,13 @@ This guide will walk you through how to setup your campaigns with **[SmartNews A
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/smartnews/smartnews-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/smartnews-ads/smartnews-ads-enable.png)
 
 {! ingredients/deep-linked-ads/add-credentials.md !}
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/smartnews/smartnews-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/smartnews-ads/smartnews-ads-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
