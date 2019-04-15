@@ -98,6 +98,7 @@ In addition to any custom key/value pairs specified in the link data dictionary,
 
 * `~` denotes analytics
 * `+` denotes information added by Branch
+* This data will not be available for deeplinks from Facebook or other Self Attributing Networks
 * (for the curious, `$` denotes reserved keywords used for controlling how the Branch service behaves. Read more about control parameters on the [Configuring Links page](/links/integrate/#configure-deep-links)
 
 
