@@ -29,18 +29,18 @@ We've built out custom deep linking mechanisms that are specific to each platfor
 
 ### Methods without 100% match accuracy
 
-#### Browser to app snapshot match
+#### Browser to app fingerprint match
 
-Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address (including v6)**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital snapshot_** and can be obtained in the browser and in the app.
+Branch collects information about devices both when a user is in the browser -- via a click on a Branch link -- and then after they open the app. This information includes **IP Address (including v6)**, **OS**, **OS version**, **device model** and other parameters. This is the user's **_digital fingerprint_** and can be obtained in the browser and in the app.
 
-When no 100% match method is available, we connect the unique snapshot collected in the app to the unique snapshot collected in the browser to determine where user originated.
+When no 100% match method is available, we connect the unique fingerprint collected in the app to the unique fingerprint collected in the browser to determine where user originated.
 
-!!! tip "Customize the snapshot matching criteria"
-    If you are concerned that users may potentially have the same snapshot, you can choose to have us not match users if two identical snapshots are outstanding. On the Dashboard's [Link Settings](https://dashboard.branch.io/link-settings) page, under advanced options, you should set **Match Type** to `Unique`. You can also modify the 7200 second (2 hour) default expiration for all links, or [configure it for individual links](/links/integrate/#deep-linking) by using the `$match_duration` control parameter.
+!!! tip "Customize the fingerprint matching criteria"
+    If you are concerned that users may potentially have the same fingerprint, you can choose to have us not match users if two identical fingerprints are outstanding. On the Dashboard's [Link Settings](https://dashboard.branch.io/link-settings) page, under advanced options, you should set **Match Type** to `Unique`. You can also modify the 7200 second (2 hour) default expiration for all links, or [configure it for individual links](/links/integrate/#deep-linking) by using the `$match_duration` control parameter.
 
     ![image](/_assets/img/pages/resources/matching/match_type.png)
 
-    This means that if two users with the same snapshot, on the same wifi, were to click a Branch link for your app, we would blacklist those digital snapshots for the expiration duration. Therefore, when either user opens up your app, no match would be made.
+    This means that if two users with the same fingerprint, on the same wifi, were to click a Branch link for your app, we would blacklist those digital fingerprints for the expiration duration. Therefore, when either user opens up your app, no match would be made.
 
 ## Configuring Your iOS App for 100% Match ( > iOS 10 only)
 
