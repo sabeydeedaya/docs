@@ -192,7 +192,8 @@ nav:
       - iMessage Apps: app-to-app/imessage-apps.md
   - Partner Management:
     - Overview: partner-management/branch-integrated-partners.md
-    - Universal Ads Partners:
+    - Universal Ads:
+      - Universal Ads Partners: deep-linked-ads/ad-networks-list.md
       - 1PlusAds: deep-linked-ads/1plusads-mobile-tracking.md
       - 3.14 Digital : deep-linked-ads/3.14-digital-mobile-tracking.md
       - A4G : deep-linked-ads/a4g-mobile-tracking.md
@@ -542,7 +543,8 @@ nav:
       - ZenAds : deep-linked-ads/zenads-mobile-tracking.md
       - Zoomd: deep-linked-ads/zoomd-mobile-tracking.md
       - Zorka.Mobi : deep-linked-ads/zorka-mobi-mobile-tracking.md
-    - Universal Email Partners:
+    - Universal Email:
+      - Universal Email Partners: emails/email-partners-list.md
       - Active Campaign: emails/active-campaign.md
       - Adobe Campaign Classic: emails/adobe-campaign-classic.md
       - Adobe Campaign Standard: emails/adobe-campaign-standard.md
@@ -586,7 +588,8 @@ nav:
       - Vero: emails/vero.md
       - WhatCounts: emails/whatcounts.md
       - Zeta: emails/zeta.md
-    - Data Integration Partners:
+    - Data Integrations:
+      - Data Integration Partners: integrations/data-integrations-list.md
       - 24Metrics Fraudshield: integrations/24metrics-fraudshield.md
       - Adjust: integrations/adjust.md
       - Adobe Analytics: integrations/adobe-analytics.md

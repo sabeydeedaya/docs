@@ -391,6 +391,26 @@ html.modal {
   padding-top: initial;
 }
 
+/* Nasty hack to keep our massive list of partners from breaking the nav */
+
+#nav-7-2 ~ .md-nav .md-nav__item,
+#nav-7-3 ~ .md-nav .md-nav__item,
+#nav-7-4 ~ .md-nav .md-nav__item {
+  display: none !important;
+}
+
+#nav-7-2 ~ .md-nav .md-nav__item:first-of-type,
+#nav-7-3 ~ .md-nav .md-nav__item:first-of-type,
+#nav-7-4 ~ .md-nav .md-nav__item:first-of-type {
+  display: block !important;
+}
+
+#nav-7-2 ~ .md-nav .md-nav__item--active,
+#nav-7-3 ~ .md-nav .md-nav__item--active,
+#nav-7-4 ~ .md-nav .md-nav__item--active {
+  display: block !important;
+}
+
 
 /* ////////////////////////////// */
 /* FOOTER FLOATERS */
