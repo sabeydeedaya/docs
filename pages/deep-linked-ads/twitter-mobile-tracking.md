@@ -1,1 +1,1 @@
-redirect: /deep-linked-ads/ad-networks-list/
+redirect: /deep-linked-ads/twitter-ads-app-install/
