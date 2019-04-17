@@ -106,14 +106,14 @@ In order to track these events, please refer to the [v2 Event document](/apps/v2
 
 **Why am I seeing an onboarding error or not seeing an ad account?**
 
-- Must have permissions to configure ad accounts
-- Must not have another MMP configured for your app/ad account combination
-- Can only track apps that are configured with store IDs & package names in Link Settings
+- You must have permissions to configure ad accounts.
+- You must not have another MMP configured for your app/ad account combination.
+- You can only track apps that are configured with store IDs & package names in Link Settings.
 
 **Why are there so many events?**
 
 We configure all permissible events at time of enablement so there’s no delay in tracking new events when they’re set up.
 
-**Why no cost/click/impression data?**
+**Why can't I view cost/click/impression data?**
 
 Twitter does not currently allow MMPs to access this data. We’re in active discussions. Please tell your Twitter AM if you’d like this data available in Branch.
