@@ -1,5 +1,7 @@
 title: Twitter Ads App Install Measurement
 
+![image](/_assets/img/pages/deep-linked-ads/twitter-ads/twitter-ads-logo.png)
+
 ## Overview
 
 Branch links can be used together with Twitter App Install Campaign ads, allowing you to track ad-driven installs on the Branch dashboard.
