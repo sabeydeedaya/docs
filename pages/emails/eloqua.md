@@ -1,1 +1,0 @@
-redirect: /emails/oracle-eloqua/
