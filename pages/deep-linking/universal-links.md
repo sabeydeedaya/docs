@@ -146,7 +146,7 @@ If you're using a custom subdomain, your CNAME should point to `custom.bnc.lt` u
 
 ### Return YES to continueUserActivity
 
-When users enter your app via a Universal Link, we check to see to see if the link URL contains `bnc.lt`. If so, `handledByBranch` will return `YES`. If not, `handledByBranch` will return `NO`. This allows us to explicitly confirm the incoming link is from Branch without making a server call.
+When users enter your app via a Universal Link, we check to see to see if the link URL contains `app.link`. If so, `handledByBranch` will return `YES`. If not, `handledByBranch` will return `NO`. This allows us to explicitly confirm the incoming link is from Branch without making a server call.
 
 For most implementations this will never be an issue, since your deep links will be routed correctly either way. However, if you use a custom link domain *and* you rely on `handledByBranch` to return `YES` for every incoming Branch-generated Universal Link, you can inform the Branch SDK by following these steps:
 
