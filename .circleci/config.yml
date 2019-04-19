@@ -19,9 +19,10 @@ jobs:
           root: ~/docs
           paths:
             - site
+            - redirects.txt
   deploy-staging:
     parameters:
-      staging-bucket:
+      s3-bucket:
         type: string
         default:
     machine: true
@@ -31,9 +32,23 @@ jobs:
           at: ~/docs
       - aws-s3/sync:
           from: ~/docs/site/
-          to: << parameters.staging-bucket >>
+          to: << parameters.s3-bucket >>
           overwrite: true
+      - run:
+          name: Generate Redirects
+          command: |
+            touch index.html
+            while read SOURCE; do
+              IFS=' ' read -ra REDIRECTS \<<< "$SOURCE"
+              echo "Redirecting ${REDIRECTS[0]} to ${REDIRECTS[1]}"
+              aws s3 cp index.html << parameters.s3-bucket >>/${REDIRECTS[0]} --website-redirect ${REDIRECTS[1]}
+            done < redirects.txt
+            rm index.html
   deploy-production:
+    parameters:
+      s3-bucket:
+        type: string
+        default:
     machine: true
     working_directory: ~/docs
     steps:
@@ -41,8 +56,18 @@ jobs:
           at: ~/docs
       - aws-s3/sync:
           from: ~/docs/site/
-          to: s3://docs.branch.io
+          to: << parameters.s3-bucket >>
           overwrite: true
+      - run:
+          name: Generate Redirects
+          command: |
+            touch index.html
+            while read SOURCE; do
+              IFS=' ' read -ra REDIRECTS \<<< "$SOURCE"
+              echo "Redirecting ${REDIRECTS[0]} to ${REDIRECTS[1]}"
+              aws s3 cp index.html << parameters.s3-bucket >>/${REDIRECTS[0]} --website-redirect ${REDIRECTS[1]}
+            done < redirects.txt
+            rm index.html
       - run:
           name: Clear CloudFront
           command: aws cloudfront create-invalidation --distribution-id E3L0JJHM8M3QTI --paths "/*"
@@ -53,6 +78,7 @@ workflows:
     jobs:
       - build
       - deploy-production:
+          s3-bucket: s3://docs.branch.io
           requires:
             - build
           filters:
@@ -60,7 +86,7 @@ workflows:
               only:
                 - production
       - deploy-staging:
-          staging-bucket: s3://staging.docs.branch.io
+          s3-bucket: s3://staging.docs.branch.io
           requires:
             - build
           filters:
@@ -68,7 +94,7 @@ workflows:
               only:
                 - /staging-.*/
       - deploy-staging:
-          staging-bucket: s3://staging2.docs.branch.io
+          s3-bucket: s3://staging2.docs.branch.io
           requires:
             - build
           filters:
@@ -76,7 +102,7 @@ workflows:
               only:
                 - /staging2-.*/
       - deploy-staging:
-          staging-bucket: s3://staging3.docs.branch.io
+          s3-bucket: s3://staging3.docs.branch.io
           requires:
             - build
           filters:

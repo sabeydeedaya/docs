@@ -185,6 +185,8 @@ To add an Agency:
 		- **Limited Read**  - Access to aggregate data only.
 		- **Custom** - Customize settings and data access.
 		- **No Access** - no dashboard access.
+	1. Click "Invite".
+	1. All Agency Admins on the agency account will receive an invitation email, and any of those Agency Admins can accept the invitation on behalf of their agency.
 
 !!! warning "Granting agencies Sensitive Data & App-Level Settings permissions"
 	Agencies with Sensitive Data & App-Level Settings permissions to an Org or App will have access to that Org/App's API keys, which can be used to access Branch's [HTTP](https://docs.branch.io/apps/deep-linking-api/) and [Data Export](https://docs.branch.io/exports/api-v3/#__search) APIs. Agency data filters (e.g. Only Show Agency-tagged Data) will not apply to data accessed via the Data Export API, so we recommend against granting agencies these permissions and providing them with API keys.

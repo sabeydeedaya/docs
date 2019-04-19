@@ -1,7 +1,7 @@
 !!! warning "Invite Required"
-	For any Agency to access a Branch account, an invitation from an Admin user at the [Organization](/dashboard/organization-view/#adding-an-agency) or [App](/dashboard/app-view/#adding-an-agency) entity level of access is required.
+	For any Agency to access a customer Branch account, an invitation from an Admin user at the [Organization](/dashboard/organization-view/#adding-an-agency) or [App](/dashboard/app-view/#adding-an-agency) entity level of access is required. All Agency Admins on the agency account will receive an invitation email, and any of those Agency Admins can accept the invitation on behalf of their agency.
 
-	An Agency does not have access to change their own permissions, access billing or SSO.
+	Within a customer account, an Agency does not have access to change their own permissions, access billing or SSO.
 
 The "Agency" view of a Branch account is another additional level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf. Agency view allows the Agency to manage its own team within the Branch dashboard. Agency team members can switch between the Agency view and the App view at any time.
 

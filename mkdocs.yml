@@ -263,15 +263,17 @@ nav:
       - Applift CPA : deep-linked-ads/applift-cpa-mobile-tracking.md
       - Applovin : deep-linked-ads/applovin-mobile-tracking.md
       - Appmontize Media : deep-linked-ads/appmontize-media-mobile-tracking.md
-      - AppOnboars: deep-linked-ads/apponboard-mobile-tracking.md
+      - AppOnboard: deep-linked-ads/apponboard-mobile-tracking.md
       - Appnext : deep-linked-ads/appnext-mobile-tracking.md
       - AppNexus : deep-linked-ads/appnexus-mobile-tracking.md
       - Appsfire: deep-linked-ads/appsfire-mobile-tracking.md
       - Appnext : deep-linked-ads/appnext-mobile-tracking.md
       - AppNexus : deep-linked-ads/appnexus-mobile-tracking.md
+      - Appstare: deep-linked-ads/appstare-mobile-tracking.md
       - Art of Click : deep-linked-ads/art-of-click-mobile-tracking.md
       - Artsai: deep-linked-ads/artsai-mobile-tracking.md
       - ARVE Technologies : deep-linked-ads/arve-technologies-mobile-tracking.md
+      - Auburn Digital Solutions: deep-linked-ads/auburn-digital-solutions-mobile-tracking.md
       - Aura Ironsource : deep-linked-ads/aura-ironsource-mobile-tracking.md
       - Avazu : deep-linked-ads/avazu-mobile-tracking.md
       - Avow : deep-linked-ads/avow-mobile-tracking.md
@@ -292,6 +294,7 @@ nav:
       - Blendai Digital: deep-linked-ads/blendai-digital-mobile-tracking.md
       - Blind Ferret Incent : deep-linked-ads/blind-ferret-incent-mobile-tracking.md
       - Blind Ferret Non-Incent : deep-linked-ads/blind-ferret-non-incent-mobile-tracking.md
+      - Blue Track Media: deep-linked-ads/blue-track-media-mobile-tracking.md
       - Bright Storm DSP: deep-linked-ads/bright-storm-mobile-tracking.md
       - Buzzvil: deep-linked-ads/buzzvil-mobile-tracking.md
       - Cactus Media: deep-linked-ads/cactus-media-mobile-tracking.md
@@ -616,6 +619,7 @@ nav:
       - Ventes Avenues: deep-linked-ads/ventes-avenues-mobile-tracking.md
       - Vermmillion: deep-linked-ads/vermmillion-mobile-tracking.md
       - Viant: deep-linked-ads/viant-mobile-tracking.md
+      - Vidoads: deep-linked-ads/vidoads-mobile-tracking.md
       - Vidspot : deep-linked-ads/vidspot-mobile-tracking.md
       - Vishibility : deep-linked-ads/vishibility-mobile-tracking.md
       - Vizury: deep-linked-ads/vizury-mobile-tracking.md
@@ -753,8 +757,9 @@ nav:
     - 한국어:
       - Branch 연동 가이드 - iOS: kr/branch-ios.md
       - Branch 연동 가이드 - Android: kr/branch-android.md
-      - Facebook 앱 인스톨 광고: kr/facebook-app-install-ads.md
       - iOS Universal Links: kr/universal-links.md
       - Android App Links 가이드: kr/android-app-links.md
       - 앱 내 딥링크 라우팅 가이드: kr/deep-link-routing.md
+      - Facebook 앱 인스톨 광고: kr/facebook-app-install-ads.md
       - Facebook Ads FAQ (Korean): kr/facebook-ads-faq.md
+      - Google Ads Overview: kr/google-ads-overview.md
