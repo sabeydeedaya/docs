@@ -70,6 +70,7 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Ads/Analytics | Aggregate Data | All |
   | Ads/Partner Management | Channel-level Settings | Admin, Team Member, Full Read |
   | Ads/Links | Link-level Settings | Admin, Team Member, Full Read |
+  | Ads/Fraud | Aggregate Data | All |
   | Email/Analytics | Aggregate Data | All |
   | Email/Manager | Channel-level Settings | Admin, Team Member, Full Read |
   | Organic Search | Channel-level Settings, Aggregate Data | Admin, Team Member, Full Read |
