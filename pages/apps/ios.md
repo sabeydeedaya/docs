@@ -75,6 +75,8 @@
         ```sh
         github "BranchMetrics/ios-branch-deep-linking"
         ```
+        
+        - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
 
     - Option 3: Manually install the [source code](https://github.com/BranchMetrics/ios-branch-deep-linking/releases) with dependencies
 
