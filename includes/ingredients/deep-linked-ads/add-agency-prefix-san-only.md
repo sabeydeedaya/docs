@@ -13,7 +13,7 @@ You can find your Agency ID under Account Settings in the [Agency view](/dashboa
 
 Your agency prefix **must** adhere to the following format:
 
-	`agency_id_{{YOUR AGENCY ID HERE}}_`
+	`agency_{{YOUR AGENCY ID HERE}}_`
 
 !!! info "Example Campaign with Agency Prefix"
- 	`agency_id_{{1234567890}}_My_SAN_Ad_Campaign`
+ 	`agency_id_{1234567890}_My_SAN_Ad_Campaign`
