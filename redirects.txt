@@ -20,3 +20,12 @@ exports/data-feeds/index.html https://docs.branch.io/exports/data-feeds-overview
 getting-started/universal-linking-validator/index.html https://docs.branch.io/resources/validation-tools/#universal-link-validator/
 integrations/data-integrations/index.html https://docs.branch.io/integrations/data-integrations-list/
 integrations/faq/index.html https://docs.branch.io/integrations/data-integrations/
+kr/android-app-links/index.html https://docs.branch.io/ko/android-app-links/
+kr/branch-android/index.html https://docs.branch.io/ko/branch-android/
+kr/branch-ios/index.html https://docs.branch.io/ko/branch-ios/
+kr/deep-link-routing/index.html https://docs.branch.io/ko/deep-link-routing/
+kr/facebook-ads-faq/index.html https://docs.branch.io/ko/facebook-ads-faq/
+kr/facebook-app-install-ads/index.html https://docs.branch.io/ko/facebook-ads-app-install-ads/
+kr/google-ads-overview/index.html https://docs.branch.io/ko/google-ads-overview/
+kr/universal-links/index.html https://docs.branch.io/ko/universal-links/
+cn/integrate/index.html https://docs.branch.io/zh/integrate/
