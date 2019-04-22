@@ -16,4 +16,4 @@ Your agency prefix **must** adhere to the following format:
 	`agency_{{YOUR AGENCY ID HERE}}_`
 
 !!! info "Example Campaign with Agency Prefix"
- 	`agency_id_{1234567890}_My_SAN_Ad_Campaign`
+ 	`agency_{1234567890}_My_SAN_Ad_Campaign`
