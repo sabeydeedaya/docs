@@ -20,9 +20,15 @@ This guide will walk you through how to setup your campaigns with **[HasOffers](
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/hasoffers/hasoffers-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/hasoffers/hasoffers-postbacks-goal-id.png)
+
+!!! warning "Provide your Goal ID"
+	Please don't forget to specify the goal parameter name in the Goal ID field; e.g. goal1. These will be matched with URL parameters from the tracking link itself.
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
+
+!!! warning "Add and Pass Goal ID Parameters"
+	Don't forget to add and pass goal id parameters and values to your tracking links. Please make sure to use the same event/goal name as defined on the Branch dashboard e.g. ￼`https://branchster.app.link/nYr80gScQV?%243p=a_3.14_digital&goal1=111&goal2=222&goal3=333`
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 
