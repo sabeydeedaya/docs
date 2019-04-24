@@ -168,7 +168,7 @@ nav:
       - Text Me the App: web/text-me-the-app.md
       - Hosted Deep Link Data: web/hosted-data.md
     - Paid ads:
-      - Branch Universal Ads: deep-linked-ads/branch-universal-ads.md
+      - Branch Universal Ads: deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
       - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
