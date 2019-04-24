@@ -1,32 +1,44 @@
-## Overview
+In order to ensure that teams have granular control over which parts of the Branch dashboard their team members can and cannot access, Branch provides a robust dashboard access control system.
 
-In order to ensure that teams have granular control over which parts of the Branch dashboard their team members can and cannot access, Branch provides a robust dashboard access control system. This system allows account administrators to set and modify access levels for other members, and thus to control what those users can view, edit, and export when using the dashboard.
+This system allows account administrators to set and modify access levels for other members, and thus to control what those users can view, edit, and export when using the dashboard.
 
 ### Permissions Definitions
 
-Access to pages and actions in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
+Access to pages, actions and data in the dashboard is controlled using a number of different permissions. Those permissions, along with their definitions, are below:
 
-- **App-level Settings:** Settings or features that can impact functionality app-wide.
-- **Channel-level Settings:** Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
-- **Link-level Settings:** Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
-- **Aggregate Data:** Summary data that contains no granular information (e.g. data on Sources page).
-- **Sensitive Data:** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
+#### Entity Views
+
+- **[App Access](app-view.md)**: The "App" view of a Branch account is the standard level of entity access and can include access to the entire Branch dashboard for that app, based on access resource settings and access role type. All accounts include the App view and any user regardless of access role type can access it (to varying degrees).
+- **[Organization Access](organization-view.md)**: The "Organization" view of a Branch account is an additional level of entity access and is intended for Branch accounts with a portfolio of distinctly managed apps tied to a single organizational entity. Organization view allows companies to manage separate teams associated with their distinct apps and maintain autonomy. Organization team members can switch between the Organization view and the App view at any time.
+- **[Agency Access](agency-view.md)**: The "Agency" view of a Branch account is another additional level of entity access and is intended for Branch accounts that work with agencies - both full AORs and limited - that buy media on their behalf. Agency view allows the Agency to manage its own team within the Branch dashboard. Agency team members can switch between the Agency view and the App view at any time.
+
+!!! info "Entity Views Access"
+    While all team members have access to the App view, which additional entity view - Organization and/or Agency - a team member has access to depends entirely upon which view that team member was created within.  
+
+    For example, an Agency team member added within the Organization view will also inherit access to the Organization view in addition to the App view and the Agency view.  If that same Agency team member were instead added within the App view, said Agency team member would only be able to access the App view and the Agency view.
+
+
+#### Resource Access
+
+- **[App-level Settings](app-level-access.md)**: Settings or features that can impact functionality app-wide.
+- **[Channel-level Settings](/dashboard/channel-level-access/)**: Settings or features that can impact functionality across a marketing channel (e.g. Journeys configuration).
+- **[Link-level Settings](link-level-access.md)**: Settings or features that can impact functionality for single links (e.g. configuration of individual Quick Links).
+- **[Aggregate Data](aggregate-data-access.md)**: Summary data that contains no granular information (e.g. data on Sources page).
+- **[Sensitive Data](sensitive-data-access.md)** Data that can contain user-identifying, payment-related, or secret information (e.g. Branch Key and Secret).
 - **Export:** Allows a user to export Sensitive Data from pages they can view.
 
 Each page on the dashboard has its own access requirements. For example, in order to view the Summary page of the dashboard, a user must have view access to Aggregate Data. In order to view the Data Feeds Manager page, on the other hand, a user must have view access to both Channel-level Settings and Sensitive Data.
 
-### Access Roles
+#### Access Roles
 
 Each dashboard user will have an access role that determines what they will and will not be able to access in the dashboard. We provide several default profiles with predefined access levels, and we also offer the option of creating custom roles to give you as much flexibility as possible when assigning access. The default profiles, along with their permissions, are below:
 
   | Role | App-level Settings | Channel-level settings | Link-level Settings | Aggregate Data | Sensitive Data | Export
-  | --- | :-: | :-: | :-: | :-: | :-: | :-:
+  | --- | :-: | :-: | :-: | :-: | :-: | :-: |
   | Admin | Edit | Edit | Edit | View | View | Access
   | Team Member | View | Edit | Edit | View | No Access | No Access
   | Full Read | View | View | View | View | No Access | No Access
  	| Limited Read | No Access | No Access | No Access | View | No Access | No Access
-
-### Access Level Definitions
 
 For each type of permission (e.g. App-level Settings), there are a number of levels of access. Those levels are described below:
 
@@ -58,6 +70,7 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Ads/Analytics | Aggregate Data | All |
   | Ads/Partner Management | Channel-level Settings | Admin, Team Member, Full Read |
   | Ads/Links | Link-level Settings | Admin, Team Member, Full Read |
+  | Ads/Fraud | Aggregate Data | All |
   | Email/Analytics | Aggregate Data | All |
   | Email/Manager | Channel-level Settings | Admin, Team Member, Full Read |
   | Organic Search | Channel-level Settings, Aggregate Data | Admin, Team Member, Full Read |
@@ -78,22 +91,6 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Account Settings/Team | App-level Settings, Sensitive Data | Admin |
   | Account Settings/SSO | App-level Settings | Admin, Team Member, Full Read |
   | Set up SDK | App-level Settings, Sensitive Data | Admin |
-
-### Setting/Modifying Access Roles
-
-You can set a user’s access levels when adding that user to your team in the dashboard, and you can edit existing users’ access levels anytime thereafter (if you have the permissions required to do so).
-
-When adding a new team member, you will be presented with a modal that allows you to select a default profile from a dropdown; if you select the Custom profile from the dropdown, you will have full control over which permissions a user has.
-
-![image](/_assets/img/pages/dashboard/access-control-invitation.png)
-
-If you’d like to change the access levels of an existing user, navigate to the Team tab of the Account Settings section of the dashboard and click the “Edit” button next to the user whose access levels you’d like to modify. You will be presented with the same modal.
-
-### Changes to Old Access Roles
-
-Branch previously had only two different access roles for users: Admin and Reports. With the introduction of new access roles, dashboard users with the Admin role were migrated to the new Admin role, and should not experience any change in dashboard access. Meanwhile, users with the old Reports role were migrated to the new Full Read role.
-
-While the Reports and Full Read roles have similar permission levels, Full Read users do not have access to several sections/actions on the Branch dashboard which were available to Reports users. Full Read users are not able to create, duplicate, or edit links, and they are not able to view or export Sensitive Data in the dashboard, like that in the Account Settings, Liveview, CSV Exports, and Data Integrations sections of the dashboard.
 
 ### Getting More Permissions
 

@@ -93,6 +93,8 @@ Still not working? Try downloading a new certificate and uploading that to Branc
 
 {! ingredients/deep-linked-ads/cost-data-discrepancies.md !}
 
+{! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
+
 ## Apple Search Ads Data Mapped to Branch
 
 Branch receives and maps the following parameters from the Apple Search Ads Attribution API:
@@ -136,7 +138,7 @@ You can edit your attribution windows at the ad network level, if your ad networ
 
 ### Install discrepancies when compared with Apple Search Ads dashboard
 
-There are a few possible causes of discrepancies with Apple Search Ads. Due to the low customizability of Apple Search Ads' attribution settings, discrepancies are often higher on Apple Search Ads than other platforms, even though performance may be solid and reporting may be working as expected.
+There are a few possible causes of discrepancies with Apple Search Ads. Due to the low customizability of Apple Search Ads' attribution settings, discrepancies are often higher on Apple Search Ads than other platforms, even though performance may be solid and reporting may be working as expected. The best way to attempt reconciliation with ASA installs and Branch is to look at 'New Download' counts, but subtract the percentage of LAT on users found by grouping LAT on/off in reporting. This will give an estimate of new downloads with LAT off, while Branch reports first opens from those downloads. 
 
 - *Time zones.* Ensure your Apple Search Ads time zone (in Settings > Overview > Account Information ) matches your Branch Dashboard time zone (visible under Account Settings).
 - *Limit Ad Tracking (LAT) On.* Apple Search Ads doesn't report installs to third parties if the user has Limit Ad Tracking enabled. However the Apple Search Ads dashboard shows all installs by default, regardless of limit ad tracking state. You can see the approximate quantity of Limit Ad Tracking On and Limit Ad Tracking off installs by adding those columns in the Apple Search Ads Reporting Dashboard. Those installs will not appear in Branch's dashboard.

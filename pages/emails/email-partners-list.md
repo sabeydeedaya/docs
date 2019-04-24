@@ -34,8 +34,9 @@ Logo | Partner
 <a href="https://www.postup.com/" target="_blank">![PostUp](/_assets/img/pages/email/postup/postup.png)</a>| **[PostUp](/emails/postup/)**
 <a href="https://www.rapidmail.com/" target="_blank">![Rapidmail](/_assets/img/pages/email/rapidmail/rapidmail.png)</a>| **[Rapidmail](/emails/rapidmail/)**
 <a href="https://www.sailthru.com/" target="_blank">![Sailthru](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/sailthru-1538185995951.png)</a>| **[Sailthru](/emails/sailthru/)**
-<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/salesforce-marketing-cloud-1538249523926.png)</a>| **[Salesforce Marketing Cloud](/emails/salesforce/)**
-<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/salesforce-marketing-cloud-1538249523926.png)</a>| **[Salesforce Marketing Cloud (Simplified)](/emails/salesforce_dns/)**
+<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v1](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435733478.png)</a>| **[Salesforce v1](/emails/salesforce-v1/)**
+<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v2](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435761516.png)</a>| **[Salesforce v2](/emails/salesforce-v2/)**
+<a href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank">![Salesforce v3](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435810148.png)</a>| **[Salesforce v3](/emails/salesforce-v3/)**
 <a href="https://www.selligent.com/" target="_blank">![Selligent](/_assets/img/pages/email/selligent/selligent.png)</a>| **[Selligent Message Studio](/emails/selligent/)**
 <a href="https://www.sender.net/" target="_blank">![Sender](/_assets/img/pages/email/sender/sender.png)</a>| **[Sender](/emails/sender/)**
 <a href="https://sendgrid.com/" target="_blank">![SendGrid](/_assets/img/pages/email/sendgrid/sendgrid.png)</a>| **[SendGrid](/emails/sendgrid/)**

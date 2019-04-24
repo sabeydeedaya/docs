@@ -24,7 +24,17 @@ The basic integration involves two parts:
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
 !!! caution "Tracking links"
-    You shoudl created a separate links to track iOS and Android campaigns
+    You should created a separate links to track iOS and Android campaigns
+
+### Reddit Campaign Ad Settings
+
+Once you've created your Branch link, create a new campaign in your Reddit account and ensure the following:
+
+- Select the `App Install` campaign objective.
+- Place your Branch link in the `Ad Click Tracker` field.
+- Place your app's App Store URL in the 'Link' field.
+
+![image](/_assets/img/pages/deep-linked-ads/reddit/reddit-campaign-setup.png)
 
 {! ingredients/deep-linked-ads/view-ad-link-data.md !}
 

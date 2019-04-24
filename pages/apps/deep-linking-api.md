@@ -114,7 +114,7 @@
         | branch_key | `string` | From your [Branch Settings Dashboard](https://dashboard.branch.io/settings) | √
         | ... | ... | Parameters from [Configuring Links](/links/integrate/) |
 
-    - Bulk link creator is limited to `1000` links at a time
+    - Bulk link creator is limited to a JSON payload size of 250KB at a time. 
 
 - ### Link read
 

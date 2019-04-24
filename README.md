@@ -53,6 +53,17 @@
     - Create new pull request from `master`
     - Merge pull request from `master` into `production` on release days
 
+- #### Staging
+    - 3 staging environments
+        - staging
+            - http://staging.docs.branch.io.s3-website-us-west-1.amazonaws.com/
+        - staging2
+            - http://staging2docs.branch.io.s3-website-us-west-1.amazonaws.com/
+        - staging3
+            - http://staging3docs.branch.io.s3-website-us-west-1.amazonaws.com/
+    - To deploy to a staging environment, prepend one of the staging names to your branch; e.g. staging3-mybranch
+        - once the branch exists in Github, it will auto-deploy to the correct staging environment; no merging required.
+
 - #### Production
 
     - https://docs.branch.io
@@ -125,7 +136,13 @@
     - Prevent search results by adding production url to `stop_urls` ([config](https://github.com/algolia/docsearch-configs/blob/master/configs/branchmetrics.json))
 
 - #### Redirection
-    - Add `redirect: /dashboard/people-based-attribution/` to the top of the file/
+All redirections are controlled in the `redirects.txt` file. Because of the way S3 handles redirects, these should always end with `index.html` to catch all URL variants.
+
+For example: `app-indexing/index.html https://branch.io/mobile-search/app-indexing/` will redriect as follows:
+
+| Location | ➜ | Destination |
+| --- | :---: | --- |
+| <ul><li>[s3_bucket_root]/app-indexing</li><li>[s3_bucket_root]/app-indexing/</li><li>[s3_bucket_root]/app-indexing/index.html</li></ul> | ➜ | https://branch.io/mobile-search/app-indexing/ |
 
 ## Additional
 

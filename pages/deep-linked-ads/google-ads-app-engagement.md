@@ -1,3 +1,5 @@
+title: Google Ads App Engagement
+
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
 		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
@@ -19,6 +21,7 @@ Unlike most Google Ads campaigns, you don't design individual ads for App engage
 * [x] Collect the IDFA on iOS, or the AAID on Android. For specifics, refer to the set up guide for [iOS](/apps/ios/#install-branch) and [Android](/apps/android/#install-branch) respectively.
 * [x] Track all necessary events through the SDKs, with instructions [here](#forwarding-events-to-google-ads).
 * [x] Have admin access to your Google Ads account; required for generating Link IDs in Google Ads.
+* [x] Have a universal deep link (iOS), an app link (Android), or custom URI scheme.
 
 !!! warning "**Enabling Required**"
 		Before you can leverage our integration with Google Ads, you must **[Enable the Google Ads integration](/deep-linked-ads/google-ads-enable/)** in your Branch dashboard.
@@ -31,7 +34,7 @@ Please follow Google Ads' documentation on how to [set up an App Engagement Camp
 	* [x] Have [assets such as text, video and image](https://support.google.com/google-ads/answer/9234183).
 	* [x] Have a universal deep link (iOS), an app link (Android), or custom URI scheme.
 	* [x] Use an [audience list](https://support.google.com/google-ads/answer/9234182) of app users.
-	* [x] Have [mobile app conversion tracking](https://support.google.com/google-ads/answer/6100665) set up.
+	* [x] Have [mobile app conversion tracking](https://support.google.com/google-ads/answer/6100665) set up and [a supported third party](https://support.google.com/google-ads/answer/7382633) (Branch) to track conversions.
 
 For more detailed information, please see [Google Ads' help documentation](https://support.google.com/google-ads/answer/9234180).
 
@@ -43,3 +46,6 @@ As App Engagement campaigns link users directly within apps, Branch links are no
 
 !!! warning "Not Yet Supported"
 	Viewing click/impression/cost data in your Branch dashboard is not yet supported for App Engagement campaigns.
+
+!!! question "Why Can't I Use Branch Links?"
+	Google App Engagement adds rely solely on universal deep links for iOS, App Links for Android and custom URI schemes. Please read Google's article for more information on [deep linking](https://support.google.com/google-ads/answer/6046977) into your app.

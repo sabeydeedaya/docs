@@ -98,7 +98,8 @@ In addition to any custom key/value pairs specified in the link data dictionary,
 
 * `~` denotes analytics
 * `+` denotes information added by Branch
-* (for the curious, `$` denotes reserved keywords used for controlling how the Branch service behaves. Read more about control parameters on the [Configuring Links page](/getting-started/configuring-links))
+* This data will not be available for deeplinks from Facebook or other Self Attributing Networks
+* (for the curious, `$` denotes reserved keywords used for controlling how the Branch service behaves. Read more about control parameters on the [Configuring Links page](/links/integrate/#configure-deep-links)
 
 
 | **Parameter** | **Meaning** |
@@ -113,7 +114,6 @@ In addition to any custom key/value pairs specified in the link data dictionary,
 | **~feature** | The feature, such as `invite` or `share`, specified at link creation time
 | **~tags** | Any tags, specified at link creation time
 | **~campaign** | The campaign the link is associated with, specified at link creation time
-| **~stage** | The stage, specified at link creation time
 | **~creation_source** | Where the link was created ('API', 'Dashboard', 'SDK', 'iOS SDK', 'Android SDK', or 'Web SDK')
 | **~id** | Automatically generated 18 digit ID number for the link that drove the install/open, if present (0 for dynamic and 3P links)
 

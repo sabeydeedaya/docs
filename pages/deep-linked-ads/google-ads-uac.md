@@ -30,6 +30,8 @@ Please follow Google Ads' documentation on how to [set up an App Install Campaig
 
 For more detailed information, please see [Google Ads' help documentation](https://support.google.com/google-ads/answer/6247380?hl=en).
 
+{! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
+
 ## Routing & Attribution
 
 As App Install Campaigns link users directly to the respective app store, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the app store, upon which the user (hopefully) downloads the app.  With the Branch SDK implemented in your app, we measure said app download once the app opens and match the data we receive from our SDK to the information we receive directly from Google Ads via their Conversion API.

@@ -1,24 +1,21 @@
 Within your Account Settings, you have access to the following functionality:
 
-- Global Account Related Information
-    - Branch Key and Secret (both resettable)
-    - App Name and ID
-    - Time Zone
-- User Related Information
-    - Name, email address, passord (resettable)
-- Billing Related Information
-    - Account Summary
-    - Payment Methods
-    - Subscription
-- Team Related Information
-    - Adding/Editing/Deleting Team Members
-- SSO
-
 ## Basic Account Settings
-- [App Level Settings](/dashboard/integrate/)
-- [Setting Your Dashboard Analytics Timezone](/dashboard/timezone/)
+
+  - [Access Level Overview](/dashboard/access-level/)
+    - Entity View
+        - [App View](/dashboard/app-view/)
+        - [Organization View](/dashboard/organization-view/)
+        - [Agency View](/dashboard/agency-view/)
+    - Resource Access
+        - [App Level](/dashboard/app-level-access/)
+        - [Channel Level](/dashboard/channel-level-access/)
+        - [Link Level](/dashboard/link-level-access/)
+        - [Aggregate Data](/dashboard/aggregate-data-access/)
+        - [Sensitive Data](/dashboard/sensitive-data-access/)
 
 ## Advanced Account Settings
-- [Viewing Billing Info](/dashboard/viewing-billing)
+
 - [Enabling Single Sign On](/dashboard/sso)
-- [Defining Access Levels](/dashboard/access-level)
+- [Setting Your Dashboard Analytics Timezone](/dashboard/timezone/)
+- [Viewing Billing Info](/dashboard/viewing-billing)
