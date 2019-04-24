@@ -1,8 +1,8 @@
 ## Overview
 
-![Salesforce](/_assets/img/pages/email/salesforce/salesforce.png)
+![Salesforce v1](https://cdn.branch.io/branch-assets/email-providers//salesforce-1555435733478.png)
 
-This guide will walk you through how to setup your email campaigns with **[Salesforce](https://www.salesforce.com/products/marketing-cloud/overview/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
+This guide will walk you through how to setup your email campaigns with **[Salesforce v1](https://www.salesforce.com/products/marketing-cloud/overview/){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
 {! ingredients/email/overview-steps.md !}
 

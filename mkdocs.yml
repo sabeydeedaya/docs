@@ -95,6 +95,7 @@ nav:
     - Overview: resources/basics-overview.md
     - Attribution:
       - Branch Matching Overview: resources/matching.md
+      - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
       - People-Based Attribution: dashboard/people-based-attribution.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
@@ -168,7 +169,7 @@ nav:
       - Text Me the App: web/text-me-the-app.md
       - Hosted Deep Link Data: web/hosted-data.md
     - Paid ads:
-      - Branch Universal Ads: deep-linked-ads/branch-universal-ads.md
+      - Branch Universal Ads: deep-linked-ads/branch-universal-ads-mobile-tracking.md
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
       - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
@@ -193,7 +194,7 @@ nav:
   - Partner Management:
     - Overview: partner-management/branch-integrated-partners.md
     - Universal Ads Partners:
-      - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
+      - Ad Partners List: deep-linked-ads/ad-networks-list.md
       - 1PlusAds: deep-linked-ads/1plusads-mobile-tracking.md
       - 3.14 Digital : deep-linked-ads/3.14-digital-mobile-tracking.md
       - A4G : deep-linked-ads/a4g-mobile-tracking.md
@@ -390,7 +391,8 @@ nav:
       - Google Ads:
         - Google Ads Overview: deep-linked-ads/google-ads-overview.md
         - Enabling the Integration: deep-linked-ads/google-ads-enable.md
-        - Universal App Campaigns (UAC): deep-linked-ads/google-ads-uac.md
+        - App Install Campaigns: deep-linked-ads/google-ads-uac.md
+        - App Engagement Campaigns: deep-linked-ads/google-ads-app-engagement.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
         - Troubleshooting & FAQs: deep-linked-ads/google-ads-troubleshooting.md
       - GreedyGame Media: deep-linked-ads/greedygame-media-mobile-tracking.md
@@ -652,7 +654,7 @@ nav:
       - Zucks Ad Network : deep-linked-ads/zucks-ad-network-mobile-tracking.md
       - Zucks Affiliate : deep-linked-ads/zucks-affiliate-mobile-tracking.md
     - Universal Email Partners:
-      - Universal Email Partners: emails/email-partners-list.md
+      - Email Partners List: emails/email-partners-list.md
       - Active Campaign: emails/active-campaign.md
       - Adobe Campaign Classic: emails/adobe-campaign-classic.md
       - Adobe Campaign Standard: emails/adobe-campaign-standard.md
@@ -686,8 +688,9 @@ nav:
       - PostUp: emails/postup.md
       - Rapidmail: emails/rapidmail.md
       - Sailthru: emails/sailthru.md
-      - Salesforce Marketing Cloud: emails/salesforce.md
-      - Salesforce Marketing Cloud (Simplified): emails/salesforce_dns.md
+      - Salesforce v1: emails/salesforce-v1.md
+      - Salesforce v2: emails/salesforce-v2.md
+      - Salesforce v3: emails/salesforce-v3.md
       - Selligent Message Studio: emails/selligent.md
       - Sender: emails/sender.md
       - SendGrid: emails/sendgrid.md
@@ -697,7 +700,7 @@ nav:
       - WhatCounts: emails/whatcounts.md
       - Zeta: emails/zeta.md
     - Data Integrations:
-      - Data Integration Partners: integrations/data-integrations-list.md
+      - Data Integration Partners List: integrations/data-integrations-list.md
       - 24Metrics Fraudshield: integrations/24metrics-fraudshield.md
       - Adjust: integrations/adjust.md
       - Adobe Analytics: integrations/adobe-analytics.md

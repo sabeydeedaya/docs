@@ -1,6 +1,6 @@
 ## Overview
 
-![AdGate Media](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/AdGate_Media.png)
+![AdGate Media](https://cdn.branch.io/branch-assets/ad-partner-manager//AdGate_black_logo-1556052073189.png)
 
 This guide will walk you through how to setup your campaigns with **[AdGate Media](http://www.misterbell.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
