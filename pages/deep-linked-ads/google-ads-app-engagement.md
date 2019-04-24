@@ -3,7 +3,8 @@ title: Google Ads App Engagement
 !!! info "<img src="../../../_assets/img/pages/deep-linked-ads/google/google-ads-logo.png" width="50"/> Google Ads Resources"
 		- [Google Ads Overview](/deep-linked-ads/google-ads-overview/)
 		- [Enabling the Integration](/deep-linked-ads/google-ads-enable/)
-		- [Universal App Campaigns (UAC)](/deep-linked-ads/google-ads-uac/)
+		- [App Install Campaigns](/deep-linked-ads/google-ads-uac/)
+		- **App Engagement Campaigns** (this page)
 		- [Web-based Ads (non-UAC)](/deep-linked-ads/google-ads-non-uac/)
 		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
@@ -42,6 +43,9 @@ For more detailed information, please see [Google Ads' help documentation](https
 As App Engagement campaigns link users directly within apps, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the appropriate app screen, upon which the user (hopefully) completes the intended conversion.  With the Branch SDK implemented in your app, we measure said conversion and match the data we receive from our SDK to the information we receive directly from Google Ads via their Conversion API.
 
 ![image](/_assets/img/pages/deep-linked-ads/google/google-ads-app-engagement.png)
+
+!!! warning "Not Yet Supported"
+	Viewing click/impression/cost data in your Branch dashboard is not yet supported for App Engagement campaigns.
 
 !!! question "Why Can't I Use Branch Links?"
 	Google App Engagement adds rely solely on universal deep links for iOS, App Links for Android and custom URI schemes. Please read Google's article for more information on [deep linking](https://support.google.com/google-ads/answer/6046977) into your app.
