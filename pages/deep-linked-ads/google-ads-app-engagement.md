@@ -40,3 +40,6 @@ For more detailed information, please see [Google Ads' help documentation](https
 As App Engagement campaigns link users directly within apps, Branch links are not needed during campaign creation. Google Ads will automatically route the user to the appropriate app screen, upon which the user (hopefully) completes the intended conversion.  With the Branch SDK implemented in your app, we measure said conversion and match the data we receive from our SDK to the information we receive directly from Google Ads via their Conversion API.
 
 ![image](/_assets/img/pages/deep-linked-ads/google/google-ads-app-engagement.png)
+
+!!! warning "Not Yet Supported"
+	Viewing click/impression/cost data in your Branch dashboard is not yet supported for App Engagement campaigns.
