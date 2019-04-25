@@ -41,3 +41,17 @@ A Branch link is an actual page on the web. When users click a Branch link, they
 	</a>
 </div>
 <!--/ Deep Links -->
+
+## Branch Link Creation
+<!-- Branch Links -->
+<div class="nav-wrap flex-wrap">
+  <a href="/links/quick-links/">
+		<img src="../../../_assets/img/pages/links/create-link.png" />
+		<p>Quick Links</p>
+	</a>
+  <a href="/links/creating-ad-links/">
+    <img src="../../../_assets/img/pages/links/create-link.png" />
+    <p>Ad Links</p>
+  </a>
+</div>
+<!--/ Deep Links -->
