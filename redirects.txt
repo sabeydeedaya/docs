@@ -29,5 +29,6 @@ kr/facebook-app-install-ads/index.html https://docs.branch.io/ko/facebook-ads-ap
 kr/google-ads-overview/index.html https://docs.branch.io/ko/google-ads-overview/
 kr/universal-links/index.html https://docs.branch.io/ko/universal-links/
 cn/integrate/index.html https://docs.branch.io/zh/integrate/
-emails/salesforce/index.html https://docs.branch.io/emails/salesforce-v1
-emails/salesforce_dns/index.html https://docs.branch.io/emails/salesforce-v2
+emails/salesforce/index.html https://docs.branch.io/emails/salesforce-v1/
+emails/salesforce_dns/index.html https://docs.branch.io/emails/salesforce-v2/
+deep-linked-ads/google-uac/index.html https://docs.branch.io/deep-linked-ads/google-ads-uac/
