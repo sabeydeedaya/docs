@@ -23,8 +23,11 @@ The basic integration involves two parts:
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
-!!! caution "Tracking links"
-    You should created a separate links to track iOS and Android campaigns
+!!! caution "Platform-specific Ad Links"
+    You should created a separate links to track iOS and Android campaigns.
+
+!!! warning "Non-App Install Campaigns on iOS"
+    If you run campaign types other than for app installs, you must make sure to add  `$use_https_app_store:true`to your ad link for iOS campaigns. Doing so ensures that users are still redirected to the app store if you have the redirect set to app store for iOS devices. 
 
 ### Reddit Campaign Ad Settings
 
