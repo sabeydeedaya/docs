@@ -41,9 +41,9 @@ When viewing your Branch account via the Agency entity, you can access (either e
   </tr>
 	<tr>
 		<th><b>Account<br/>Settings</b></th>
-		<td><a href="/dashboard/agency-level-access/#managing-your-agency-profile">Profile</a></td>
-		<td><a href="/dashboard/agency-level-access/#managing-your-user-profile">User</a></td>
-    <td><a href="/dashboard/agency-level-access/#managing-your-agency-team">Team</a></td>
+		<td><a href="/dashboard/agency-view/#managing-your-agency-profile">Profile</a></td>
+		<td><a href="/dashboard/agency-view/#managing-your-user-profile">User</a></td>
+    <td><a href="/dashboard/agency-view/#managing-your-agency-team">Team</a></td>
 		<td></td>
   </tr>
 </table>
