@@ -51,10 +51,37 @@ To create a Branch Ad Link:
 
 		![image](/_assets/img/pages/links/ad-link-configure-options.gif)
 
-		!!! tip "Set Analytics tags"
-			It's easier to slice your data in our analytics platform if you properly assign analytics parameters to your link. _Channels_ generally correspond to ad networks, and _Campaigns_ correspond to marketing initiatives that you're launching. For example: _Channel_: "YouTube", _Campaign_: "Summer 2017 Shoe Discounts."
-
 1. Click **Create Link Now**.
+
+#### Deep Linking
+
+The **Deep Linking** tab allows you to include additional data to your links to be used not only for contextual deep linking, but for passing additional attributes you or your ad partner may require.
+
+To add additional data - i.e. key-value pairs - to your Ad Link:
+
+1. Click **+More Data**.
+1. Input the parameter name in the **Key** field, and it's corresponding value or macro in the **Value** field.
+
+![image](/_assets/img/pages/links/ad-link-deep-linking.png)
+
+!!! tip "Available Parameters"
+	For a full list of available parameters you can include in your Ad Link, refer to [TUNE <> Branch Mapped Fields](https://support.branch.io/support/solutions/articles/6000216765-tune-branch-mapped-fields).
+
+#### Redirect
+
+The **Redirect** tab allows you to override your default redirects - as set in **Link Settings** - and direct users to specific locations if the app is not installs.
+
+- **Default Redirect** - Set at the account level within Link Settings. Typically set to the relevant mobile stores
+
+- **Web URL** - Send users to a specific web page if they don’t have to the app to avoid any unexpected flow to the app store
+
+- **Deepview** - Send users to a specific deepview you may have created under the **Web to App > Deepview** section. Copy the key and paste it into the text box. Useful if you want to present the user with a preview of the content before taking them directly to the app store. Should not be set for Desktop option.
+
+
+#### Analytics Tags
+
+!!! tip "Set Analytics tags"
+	It's easier to slice your data in our analytics platform if you properly assign analytics parameters to your link. _Channels_ generally correspond to ad networks, and _Campaigns_ correspond to marketing initiatives that you're launching. For example: _Channel_: "YouTube", _Campaign_: "Summer 2017 Shoe Discounts."
 
 ## Validating Your Ad Link
 

@@ -1,4 +1,4 @@
-!!! info "Current SDK Version 0.26.0"
+!!! info "Current SDK Version 0.27.0"
     Please see the [iOS Version History](/version-histories/ios-version-history) to view change log.
 
 ## Integrate Branch
@@ -75,7 +75,7 @@
         ```sh
         github "BranchMetrics/ios-branch-deep-linking"
         ```
-        
+
         - Import `AdSupport`, `SafariServices`, `MobileCoreServices`, `CoreSpotlight`, and `iAd` into `Linked Frameworks`
 
     - Option 3: Manually install the [source code](https://github.com/BranchMetrics/ios-branch-deep-linking/releases) with dependencies

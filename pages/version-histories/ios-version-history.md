@@ -1,3 +1,10 @@
+### v0.27.0
+
+**(2019-April-24)**
+
+- Allow short link creation while privacy is enabled.
+- Fix Swift example and cleanup release scripts.
+
 ### v0.26.0
 
 **(2019-March-26)**
