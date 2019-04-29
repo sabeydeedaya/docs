@@ -4,6 +4,9 @@ A Branch link is the vehicle that ensures seamless user experiences while also p
 
 If you are running paid advertising campaigns, you'll want to create a Branch Ad link so we can accurately attribute resulting app conversions to the appropriate advertising partner. Branch Ad Links support deferred deep linking, Android App Links and iOS Universal Links, as well as web and app conversions.
 
+!!! warning "Migrated TUNE Clients only""
+	If you are a migrated TUNE client creating links in your Branch account - and do not have the Branch SDK implemented in your app - you *must* have at least the following versions of the TUNE SDK - **Android v6.0.3 & iOS v6.0.4** - in your app to ensure the TUNE SDK can attribute Branch links.
+
 ## Creating an Ad Link
 
 !!! warning "Enabled Ad Partner Required"
