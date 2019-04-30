@@ -89,6 +89,7 @@ For each type of permission (e.g. App-level Settings), there are a number of lev
   | Account Settings/User | | All |
   | Account Settings/Billing | App-level Settings | Admin, Team Member, Full Read |
   | Account Settings/Team | App-level Settings, Sensitive Data | Admin |
+  | Account Settings/Agencies | App-level Settings, Sensitive Data | Admin |
   | Account Settings/SSO | App-level Settings | Admin, Team Member, Full Read |
   | Set up SDK | App-level Settings, Sensitive Data | Admin |
 
