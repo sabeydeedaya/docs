@@ -31,6 +31,8 @@ Branch will send the postback **only** for events with matching TAPJOY_APP_ID.
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
