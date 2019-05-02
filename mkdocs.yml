@@ -99,6 +99,10 @@ nav:
       - People-Based Attribution: dashboard/people-based-attribution.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
+    - Agency & Ad Partner Access:
+      - Granting Access to Your Branch Account: dashboard/granting-access-to-agencies-partners.md
+      - Viewing Agency/Partner Settings: dashboard/agency-view.md
+      - Agency/Partner Functionality in App View: dashboard/app-view/#agencies-in-app-view.md
   - Account Settings:
     - Overview: dashboard/account-settings.md
     - Basic Settings:
