@@ -89,4 +89,4 @@ Differences:
 
 **How does Limit Ad Tracking impact Branch attribution?**
 
-	If a user of your app has Limit Ad Tracking enabled on their device, Branch will not perform attribution of said user.  We will, however, still complete deep linking and deferred deep linking when applicable.
+If a user of your app has Limit Ad Tracking enabled on their device, Branch will not perform attribution of said user.  We will, however, still complete deep linking and deferred deep linking when applicable.
