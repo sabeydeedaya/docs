@@ -4,7 +4,7 @@ People-Based Attribution stitches all of these identity fragments back together.
 
 ## Attribution
 - [Branch Matching Overview](/resources/matching/)
+- [Branch Attribution Logic & Settings](/resources/branch-attribution-logic-and-settings/)
 - [People-Based Attribution](/dashboard/people-based-attribution/)
 ## Starting with Branch
 - [Importing Historical User Data](/dashboard/importing-historical-user-data/)
-- [Case Studies and Infographics](/resources/case-studies/)

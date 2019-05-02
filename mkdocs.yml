@@ -99,7 +99,6 @@ nav:
       - People-Based Attribution: dashboard/people-based-attribution.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
-      - Case Studies and Infographics: resources/case-studies.md
   - Account Settings:
     - Overview: dashboard/account-settings.md
     - Basic Settings:
