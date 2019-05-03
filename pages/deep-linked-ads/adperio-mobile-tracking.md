@@ -28,6 +28,8 @@ This guide will walk you through how to setup your campaigns with **[Adperio](ht
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}

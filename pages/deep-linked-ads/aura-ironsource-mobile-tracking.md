@@ -41,6 +41,8 @@ If you haven't already integrated Branch SDK into your application, please follo
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}

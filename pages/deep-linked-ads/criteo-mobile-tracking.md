@@ -361,6 +361,8 @@ If the customer then goes on to purchase an item on web within the attribution w
 
 ![image](/_assets/img/pages/deep-linked-ads/branch-universal-ads/install-by-secondary-pub.png)
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced Configurations
 
 #### Adding postbacks

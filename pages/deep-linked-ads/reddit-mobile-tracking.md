@@ -45,6 +45,8 @@ Once you've created your Branch link, create a new campaign in your Reddit accou
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/tracking-link-params.md !}

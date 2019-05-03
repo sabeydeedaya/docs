@@ -41,6 +41,8 @@ Tracking link from Branch:
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
