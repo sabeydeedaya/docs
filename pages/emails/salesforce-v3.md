@@ -18,7 +18,7 @@ This guide will walk you through how to setup your email campaigns with **[Sales
 
 ### Setup a Sender Authentication Package
 
-1. Configure the Sender Authentication Package for your Salesforce Marketing Cloud account using instructions form your Salesforce account manger.
+1. Configure the Sender Authentication Package for your Salesforce Marketing Cloud account using instructions from your Salesforce account manager.
 
     ![image](/_assets/img/pages/email/salesforce_dns/create-domain.png)
 
@@ -26,6 +26,8 @@ For more information on how to set up your domain, please visit Salesforce Marke
 
 !!! tip "Updating DNS settings"
     As soon as you've configured and verified the Sender Authentication Package with the Salesforce team, please find the **click** record in your DNS settings so we can update your DNS settings.
+
+2. Next, confirm your Salesforce Data Domain from your Salesforce account manager.  You will need this later when you enable the integration in Branch.
 
 {! ingredients/email/cname.md !}
 
@@ -40,6 +42,8 @@ Navigate to the [Universal Email](https://dashboard.branch.io/email){:target="\_
 ### Tell us your click tracking domain
 
 You can retrieve your click tracking domain from the **[Authenticated Domains]** section of your settings at Salesforce Marketing Cloud account. If you have not added a custom click tracking domain yet, follow the instructions [here](#setup-a-custom-click-tracking-domain).
+
+You will also need to register your Salesforce Data Domain (retrieved from your Salesforce account manager), which is the domain Salesforce uses to collect click data.
 
 ![image](/_assets/img/pages/email/salesforce_dns/setup-config.png)
 
