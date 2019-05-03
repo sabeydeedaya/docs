@@ -132,13 +132,17 @@ Ad Type | Tag
 - Check out [Source Analytics](https://dashboard.branch.io/analytics/source) to simply understand which Ad Channels are most impactful for you.
 - Set up a [Data Integration](https://branch.io/data-integrations) to send your Dynamic Ads data to another attribution or analytics dashboard.
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 ### Add additional link data in your Feed Source
 
 You can add additional data to each link by adding a column to your Feed Source called `branch_query_params`. This column accepts parameters in the web query parameter format `key1=value1&key2=value2`.
 
-### Advanced segmentation with Data Integrations
+#{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
+## Advanced segmentation with Data Integrations
 
 The attribution Data Integrations (Tune, Kochava, AppsFlyer, Localytics and Adjust) support additional network segmentation with additional measurement parameters that can be appended to HTTP deep links.
 

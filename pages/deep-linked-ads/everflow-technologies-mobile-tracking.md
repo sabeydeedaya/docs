@@ -36,6 +36,8 @@ In the example attached, it would be 63,
 
 {! ingredients/deep-linked-ads/view-through-attribution.md !}
 
+{! ingredients/deep-linked-ads/granting-partner-access.md !}
+
 ## Advanced
 
 {! ingredients/deep-linked-ads/add-more-postbacks-short.md !}
