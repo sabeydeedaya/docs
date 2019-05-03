@@ -31,7 +31,6 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Export](/integrations/segment/)**
 <a href="https://segment.com/" target="_blank">![Segment](/_assets/img/pages/integrations/logos/segment.png)</a>|**[Segment Import](/integrations/segment-import/)**
 <a href="https://www.singular.net/" target="_blank">![Singular](/_assets/img/pages/integrations/logos/singular.png)</a>|**[Singular](/integrations/singular/)**
-<a href="https://www.tune.com" target="_blank">![TUNE](/_assets/img/pages/integrations/logos/tune.png)</a>|**[TUNE](/integrations/tune/)**
 <a href="https://webengage.com/" target="_blank">![WebEngage](https://cdn.branch.io/branch-assets/ad-partner-manager//webengage-1550629207966.png)</a>|**[WebEngage](/integrations/webengage/)**
 
 Interested in becoming a Data Intgeration Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/ads-partner-signup)**
