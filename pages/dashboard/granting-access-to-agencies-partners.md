@@ -4,9 +4,12 @@ If you are an Organization Admin, you have full edit access to all of the Accoun
 !!! info "Additional Info"
 	You can only add agencies/partners via the **Agencies** tab. Trying to add agencies via the **Team** tab will throw an error as only non-agency users should be added via the Team Tab.
 
+!!! warning "Agencies vs. Partners"
+	While your relationship with an agency is different than with an ad partner, they way in which these two entities access your Branch app data is the same.  When granting either of these entities access, you will always see the term "Agency" even when granting an Ad Partner access.
+
 #### Adding an Agency/Partner
 
-To add an Agency:
+To add an Agency/Partner:
 
 1. Go to **Account Settings** and click on the **Agencies** tab.
 1. On the **Agencies** tab, click the **Add New Agency** button.
