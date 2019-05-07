@@ -6,6 +6,7 @@ People-Based Attribution stitches all of these identity fragments back together.
 - [Branch Matching Overview](/resources/matching/)
 - [Branch Attribution Logic & Settings](/resources/branch-attribution-logic-and-settings/)
 - [People-Based Attribution](/dashboard/people-based-attribution/)
+- [Comparing Installs to Apple iTunes & Google Play](/resources/comparing-installs/)
 ## Starting with Branch
 - [Importing Historical User Data](/dashboard/importing-historical-user-data/)
 ## Agency & Ad Partner Access
