@@ -4,7 +4,7 @@ A Branch link is the vehicle that ensures seamless user experiences while also p
 
 If you are running paid advertising campaigns, you'll want to create a Branch Ad link so we can accurately attribute resulting app conversions to the appropriate advertising partner. Branch Ad Links support deferred deep linking, Android App Links and iOS Universal Links, as well as web and app conversions.
 
-!!! warning "Migrated TUNE Clients only""
+!!! warning "Migrated TUNE Clients only"
 	If you are a migrated TUNE client creating links in your Branch account - and do not have the Branch SDK implemented in your app - you *must* have at least the following versions of the TUNE SDK - **Android v6.0.3 & iOS v6.0.4** - in your app to ensure the TUNE SDK can attribute Branch links.
 
 ## Creating an Ad Link
@@ -70,6 +70,11 @@ To add additional data - i.e. key-value pairs - to your Ad Link:
 !!! tip "Available Parameters"
 	For a full list of available parameters you can include in your Ad Link, refer to [TUNE <> Branch Mapped Fields](https://support.branch.io/support/solutions/articles/6000216765-tune-branch-mapped-fields).
 
+!!! info "Disabling Universal Links"
+	If you want to force the app to open, even if it risks showing an error message when the app is not installed, add `uri_redirect_mode` in the **Key** field and `2` in the **Value** field.
+
+	**NOTE**: By adding this key-value pair, only those who click on this link will have the app forced open regardless. Not available for links created on the TUNE domain.
+
 #### Redirect
 
 The **Redirect** tab allows you to override your default redirects - as set in **Link Settings** - and direct users to specific locations if the app is not installs.
@@ -80,6 +85,10 @@ The **Redirect** tab allows you to override your default redirects - as set in *
 
 - **Deepview** - Send users to a specific deepview you may have created under the **Web to App > Deepview** section. Copy the key and paste it into the text box. Useful if you want to present the user with a preview of the content before taking them directly to the app store. Should not be set for Desktop option.
 
+!!! info "Disabling Universal Links"
+	If you want to always force the app to open, even if it risks showing an error message when the app is not installed, make sure the `URI Scheme Deep Link Mode` in your `Link Settings` is set to `Aggressive`.
+
+	**NOTE**: By changing this setting, Branch will force open the app for all users. Available for links created on both the Branch and TUNE domain.
 
 #### Analytics Tags
 

@@ -97,6 +97,7 @@ nav:
       - Branch Matching Overview: resources/matching.md
       - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
       - People-Based Attribution: dashboard/people-based-attribution.md
+      - Comparing Installs to Apple iTunes and Google Play: resources/comparing-installs.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
     - Agency & Ad Partner Access:
