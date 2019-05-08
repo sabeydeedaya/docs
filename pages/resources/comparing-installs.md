@@ -13,25 +13,25 @@ Reports are generated after the close of business in the final time zone (which 
 
 ### App Units are listed under the “Sales” Measure
 
-	-  Some apps on the store are paid, but this measure includes downloads for both an app that is free and an app that is paid. In the case of a free app, the app unit is counted as expected (it just won’t have a dollar amount tied to it). You should therefore definitely see App Units recorded for your app.
+-  Some apps on the store are paid, but this measure includes downloads for both an app that is free and an app that is paid. In the case of a free app, the app unit is counted as expected (it just won’t have a dollar amount tied to it). You should therefore definitely see App Units recorded for your app.
 
-	- Please note that [App Units](http://help.apple.com/itc/appanalytics/en.lproj/static.html#itc3519b4793) (unlike Installations) are counted upon download (not upon app open) and do not include re-downloads. Also, App Units are counted at the account level and not device level (i.e. if I download the same app on my iPad and on my iPhone, that will only count as one App Unit, but will count as 2 Installations)
+- Please note that [App Units](http://help.apple.com/itc/appanalytics/en.lproj/static.html#itc3519b4793) (unlike Installations) are counted upon download (not upon app open) and do not include re-downloads. Also, App Units are counted at the account level and not device level (i.e. if I download the same app on my iPad and on my iPhone, that will only count as one App Unit, but will count as 2 Installations)
 
 ### Differences between App Analytics and Sales & Trends
 
-	- The App Units measure in App Analytics only include downloads from iOS8 and tvOS 9 and later, while App Units in Sales & Trends includes data from all OS versions
-	- Metrics in App Analytics may also not match exactly with what appears in Sales and Trends because of the time zones selected. To more closely match the numbers in App Analytics with those in Sales and Trends, set the time zone in Sales and Trends to UTC, the time zone used by App Analytics. If you still see any concerning discrepancies, please let us know and we can help investigate further.
+- The App Units measure in App Analytics only include downloads from iOS8 and tvOS 9 and later, while App Units in Sales & Trends includes data from all OS versions
+- Metrics in App Analytics may also not match exactly with what appears in Sales and Trends because of the time zones selected. To more closely match the numbers in App Analytics with those in Sales and Trends, set the time zone in Sales and Trends to UTC, the time zone used by App Analytics. If you still see any concerning discrepancies, please let us know and we can help investigate further.
 
 ### Installations
 
-	-   This is indeed the measure closest to what developers track through other third parties, as it is counted upon app open, and includes re-downloads. However, please note that Installations are only reported based on opt-in in App Analytics, so they will always appear lower in App Analytics when compared to another service.
-	-   Users may download the app, but may not run it or may run it after a [look-back period](http://help.tune.com/marketing-console/setting-your-attribution-windows/) expires from the click.
-	-   Users may download the app, but run it on a different day. (Apples reports vary by reason and fiscal time frames.)
-	-   Users may download the app, but only run it when they don't have network access. Our Attribution Analytics SDK tries to mitigate this issue by queuing the network request and trying it up to 5 times when the device connects.
-	-   Users with jailbroken devices may get the app from a different source and install it, which results in an organic install in Attribution Analytics.
-	-   Users download the app once, but get a new phone and download the app again on the new phone, which results in an organic install.
-	-   Users may download an app multiple times, but run it on the same device (for example, a device that connects to multiple iTunes accounts).
-	-   Attribution Analytics reports the date time based on first app open, while iTunes uses the date time of the download instead (which can cause some variation when comparing on a daily basis).
+- This is indeed the measure closest to what developers track through other third parties, as it is counted upon app open, and includes re-downloads. However, please note that Installations are only reported based on opt-in in App Analytics, so they will always appear lower in App Analytics when compared to another service.
+- Users may download the app, but may not run it or may run it after a [look-back period](http://help.tune.com/marketing-console/setting-your-attribution-windows/) expires from the click.
+- Users may download the app, but run it on a different day. (Apples reports vary by reason and fiscal time frames.)
+- Users may download the app, but only run it when they don't have network access. Our Attribution Analytics SDK tries to mitigate this issue by queuing the network request and trying it up to 5 times when the device connects.
+- Users with jailbroken devices may get the app from a different source and install it, which results in an organic install in Attribution Analytics.
+- Users download the app once, but get a new phone and download the app again on the new phone, which results in an organic install.
+- Users may download an app multiple times, but run it on the same device (for example, a device that connects to multiple iTunes accounts).
+- Attribution Analytics reports the date time based on first app open, while iTunes uses the date time of the download instead (which can cause some variation when comparing on a daily basis).
 
 ## Google Play Reports
 
