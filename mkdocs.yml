@@ -102,6 +102,7 @@ nav:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
     - Agency & Ad Partner Access:
       - Granting Access to Your Branch Account: dashboard/granting-access-to-agencies-partners.md
+      - Agency/Partner Invitation Process: dashboard/agency-ad-partner-invitation-process.md
       - Viewing Agency/Partner Settings: dashboard/agency-view.md
       - Agency/Partner Functionality in App View: dashboard/app-view/#agencies-in-app-view.md
   - Account Settings:
@@ -254,7 +255,7 @@ nav:
       - Adsterra Network : deep-linked-ads/adsterra-network-mobile-tracking.md
       - Adtiming : deep-linked-ads/adtiming-mobile-tracking.md
       - AdXcel : deep-linked-ads/adxcel-mobile-tracking.md
-      - AdxMaster Inc.: deep-linked-ads/adxmaster-mobile-tradking.md
+      - AdxMaster Inc.: deep-linked-ads/adxmaster-mobile-tracking.md
       - Adxperience : deep-linked-ads/adxperience-mobile-tracking.md
       - Affifix Digital : deep-linked-ads/affifix-digital-mobile-tracking.md
       - Affise: deep-linked-ads/affise-mobile-tracking.md
@@ -295,7 +296,7 @@ nav:
       - Awin : deep-linked-ads/awin-mobile-tracking.md
       - BackInApp: deep-linked-ads/backinapp-mobile-tracking.md
       - Bandsintown Amplified: deep-linked-ads/bandsintown-amplified-mobile-tracking.md
-      - BAT TECHNOLOGY: deep-linked-ads/bat-technology-mobile-traking.md
+      - BAT TECHNOLOGY: deep-linked-ads/bat-technology-mobile-tracking.md
       - Bcnmonetize : deep-linked-ads/bcnmonetize-mobile-tracking.md
       - BEdigitech: deep-linked-ads/bedigitech-mobile-tracking.md
       - Beeswax: deep-linked-ads/beeswax-mobile-tracking.md
