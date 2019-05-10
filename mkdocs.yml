@@ -786,6 +786,7 @@ nav:
     - Overview: translations/overview.md
     - 中文:
       - 配置控制面板: zh/integrate.md
+      - Journeys App Banners (路径图谱应用程序条幅广告): zh/journeys.md
     - 한국어:
       - Branch 연동 가이드 - iOS: ko/branch-ios.md
       - Branch 연동 가이드 - Android: ko/branch-android.md
