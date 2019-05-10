@@ -11,5 +11,6 @@ People-Based Attribution stitches all of these identity fragments back together.
 - [Importing Historical User Data](/dashboard/importing-historical-user-data/)
 ## Agency & Ad Partner Access
 - [Granting Access to Your Branch Account](/dashboard/granting-access-to-agencies-partners/)
+- [Agency/Partner Invitation Process](/dashboard/agency-ad-partner-invitation-process/)
 - [Viewing Agency/Partner Settings](/dashboard/agency-view/)
 - [Agency/Partner Functionality in App View](/dashboard/app-view/#agencies-in-app-view/)
