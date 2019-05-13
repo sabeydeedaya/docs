@@ -62,7 +62,6 @@ Branch maps the following data fields from Twitter Ads to Branch.
 
 Twitter Data | Branch Data | Possible Values
 --- | --- | ---
-n/a | $3p | “a_twitter”
 n/a | ~advertising_partner_name | “Twitter”
 tpn_attribution | ~channel | “Twitter” if null or last touch, or “Twitter Audience Platform” if TAP is last touch
 engagement_time | last_attributed_touch_timestamp | 1455675372963
