@@ -44,8 +44,8 @@ Use the table below to quickly find the event you want to track.
 | Click Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventClickAd | BRANCH_STANDARD_EVENT.CLICK_AD | CLICK_AD
 | Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventPurchase | BRANCH_STANDARD_EVENT.PURCHASE | PURCHASE
 | Spend Credits | [Commerce Event](#track-commerce-events) | BranchStandardEventSpendCredits | BRANCH_STANDARD_EVENT.SPEND_CREDITS | SPEND_CREDITS
-| Start Trial | [Commerce Event](#track-commerce-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
-| Subscribe | [Commerce Event](#track-commerce-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
+| Start Trial | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
+| Subscribe | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
 | View Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventViewAd | BRANCH_STANDARD_EVENT.VIEW_AD | VIEW_AD
 | Search | [Content Event](#track-content-events) | BranchStandardEventSearch | BRANCH_STANDARD_EVENT.SEARCH | SEARCH
 | View Item | [Content Event](#track-content-events) | BranchStandardEventViewItem | BRANCH_STANDARD_EVENT.VIEW_ITEM | VIEW_ITEM
