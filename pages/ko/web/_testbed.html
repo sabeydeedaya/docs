@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  <button id="button">deep link</button>
+  <a href="#" id="anchor">deep link</a>
+  <a href="#" onclick="branch.deepviewCta()">deep link</a>
+  <button onclick="branch.deepviewCta()">deep link</button>
+  <script>
+    // load Branch
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent".split(" "), 0);
+    // init Branch
+    branch.init('key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Swt', function(err,data) {
+      console.log(data);
+    });
+    // create link
+    var linkData = {
+      campaign: 'content 123',
+      channel: 'facebook',
+      feature: 'dashboard',
+      stage: 'new user',
+      tags: [ 'tag1', 'tag2', 'tag3' ],
+      alias: '',
+      data: {
+        'custom_bool': true,
+        'custom_int': Date.now(),
+        'custom_string': 'hello',
+        '$og_title': 'Title',
+        '$og_description': 'Description',
+        '$og_image_url':'http://lorempixel.com/400/400'
+      }
+    };
+    branch.link(linkData, function(err, link) {
+      console.log(link);
+    });
+    // share link
+    branch.link(linkData, function(err, link) {
+      document.getElementById('button').onclick = function() {
+        window.open(link || err);
+      };
+      document.getElementById('anchor').href = link || err;
+    });
+    // read link
+    branch.data(function(err, data) {
+      console.log(data);
+    });
+    branch.first(function(err, data) {
+      console.log(data);
+    });
+    // track user
+    branch.setIdentity('123456');
+    branch.logout();
+    // track event
+    branch.track('signup', { custom: '123' });
+    // track commerce event
+    var commerceData = {
+      "revenue": 50.0,
+      "currency": "USD",
+      "transaction_id": "foo-transaction-id",
+      "shipping": 0.0,
+      "tax": 5.0,
+      "affiliation": "foo-affiliation",
+      "products": [
+      {
+        "sku": "foo-sku-1",
+        "name": "foo-item-1",
+        "price": 45.00,
+        "quantity": 1,
+        "brand": "foo-brand",
+        "category": "Electronics",
+        "variant": "foo-variant-1"
+      },
+      {
+        "sku": "foo-sku-2",
+        "price": 2.50,
+        "quantity": 2
+      }
+      ]
+    };
+    var commerceMetadata =  {
+      "foo": "bar"
+    };
+    branch.trackCommerceEvent('purchase', commerceData, commerceMetadata, function(err, data) {});
+    // sms
+    var phoneNumber = '9999999999' // +919812345678, +442071234567
+    var phoneOptions = {
+      make_new_link: false
+    };
+    branch.sendSMS(phoneNumber, linkData, phoneOptions, function(err, data) {
+      console.log(err);
+    });
+    // deepview
+    var deepviewOptions = {
+      make_new_link: false,
+      open_app: true
+    };
+    branch.deepview(linkData, deepviewOptions, function(err, data) {
+      console.log(err, data);
+    });
+    // banner
+    var bannerData = {
+      icon: 'http://icons.iconarchive.com/icons/wineass/ios7-redesign/512/Appstore-icon.png',
+      title: 'Branch Demo App',
+      description: 'The Branch demo app!',
+      rating: 5,                          // Displays a star rating out of 5. Supports half stars through increments of .5
+      reviewCount: 1500,                  // Amount of reviews your app has received next to the star rating
+      openAppButtonText: 'Open',          // Text to show on button if the user has the app installed
+      downloadAppButtonText: 'Download',  // Text to show on button if the user does not have the app installed
+      sendLinkText: 'Send Link',          // Text to show on desktop button to allow users to text themselves the app
+      phonePreviewText: '+44 9999-9999',  // The default phone placeholder is a US format number, localize the placeholder number with a custom placeholder with this option
+      showiOS: true,                      // Should the banner be shown on iOS devices (both iPhones and iPads)?
+      showiPad: true,                     // Should the banner be shown on iPads (this overrides showiOS)?
+      showAndroid: true,                  // Should the banner be shown on Android devices?
+      showBlackberry: true,               // Should the banner be shown on Blackberry devices?
+      showWindowsPhone: true,             // Should the banner be shown on Windows Phone devices?
+      showKindle: true,                   // Should the banner be shown on Kindle devices?
+      showDesktop: true,                  // Should the banner be shown on desktop devices?
+      iframe: true,                       // Show banner in an iframe, recomended to isolate Branch banner CSS
+      disableHide: false,                 // Should the user have the ability to hide the banner? (show's X on left side)
+      forgetHide: false,                  // Should we show the banner after the user closes it? Can be set to true, or an integer to show again after X days
+      respectDNT: false,                  // Should we skip showing the banner when a user's settings show 'Do Not Track'?
+      mobileSticky: false,                // Determines whether the mobile banner will be set `position: fixed;` (sticky) or `position: absolute;`, defaults to false *this property only applies when the banner position is 'top'
+      desktopSticky: true,                // Determines whether the desktop banner will be set `position: fixed;` (sticky) or `position: absolute;`, defaults to true *this property only applies when the banner position is 'top'
+      make_new_link: false,               // Should the banner create a new link, even if a link already exists?
+      open_app: false                     // Should the banner try to open the app passively (without the user actively clicking) on load?
+    };
+    branch.banner(bannerData, linkData);
+    branch.closeBanner();
+    // journey
+    branch.setBranchViewData(linkData);
+    branch.track("pageview");
+    branch.closeJourney();
+    // app indexing
+    branch.autoAppIndex({
+      iosAppId:'123456789',
+      iosURL:'example/home/cupertino/12345',
+      androidPackageName:'com.somecompany.app',
+      androidURL:'example/home/cupertino/12345',
+      data:{"walkScore":65, "transitScore":50}
+    }, function(err, data) {
+      console.log(err, data);
+    });
+  </script>
+</body>
+</html>
