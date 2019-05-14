@@ -364,6 +364,8 @@ nav:
       - Cygobel Media: deep-linked-ads/cygobel-media-mobile-tracking.md
       - Crunchie Media : deep-linked-ads/crunchie-media-mobile-tracking.md
       - Curate Mobile : deep-linked-ads/curate-mobile-mobile-tracking.md
+      - Dailyhunt: deep-linked-ads/dailyhunt-mobile-tracking.md
+      - Dawin Click: deep-linked-ads/dawin-click-mobile-tracking.md
       - Daisycon : deep-linked-ads/daisycon-mobile-tracking.md
       - Dangleads : deep-linked-ads/dangleads-mobile-tracking.md
       - Darriens: deep-linked-ads/darriens-mobile-tracking.md
@@ -373,11 +375,16 @@ nav:
       - Digital Optimist: deep-linked-ads/digital-optimist-mobile-tracking.md
       - Digital Remedy: deep-linked-ads/digital-remedy-mobile-tracking.md
       - Digital Turbine : deep-linked-ads/digital-turbine-mobile-tracking.md
+      - Discipline Digital: deep-linked-ads/discipline-digital-mobile-tracking.md
       - Display.io: deep-linked-ads/display-io-mobile-tracking.md
+      - Docomo Ad Network: deep-linked-ads/docomo-ad-network-mobile-tracking.md
       - Domob : deep-linked-ads/domob-mobile-tracking.md
       - Doozymob : deep-linked-ads/doozymob-mobile-tracking.md
+      - DotPitch: deep-linked-ads/dotpitch-mobile-tracking.md
       - Doubleclick : deep-linked-ads/doubleclick-mobile-tracking.md
+      - Downstream: deep-linked-ads/downstream-mobile-tracking.md
       - Drawbridge: deep-linked-ads/drawbridge-mobile-tracking.md
+      - Dreamin: deep-linked-ads/dreamin-mobile-tracking.md
       - Dynalyst : deep-linked-ads/dynalyst-mobile-tracking.md
       - Edge226 : deep-linked-ads/edge226-mobile-tracking.md
       - Edge360 Limited: deep-linked-ads/edge360-limited-mobile-tracking.md
@@ -400,12 +407,15 @@ nav:
       - Five Video Network : deep-linked-ads/five-video-network-mobile-tracking.md
       - Flipmass: deep-linked-ads/flipmass-mobile-tracking.md
       - Fluent : deep-linked-ads/fluent-mobile-tracking.md
+      - FOX: deep-linked-ads/fox-mobile-tracking.md
       - FreakOut : deep-linked-ads/freakout-mobile-tracking.md
       - Flipmass: deep-linked-ads/flipmass-mobile-tracking.md
       - Fyber : deep-linked-ads/fyber-mobile-tracking.md
       - Galaksion : deep-linked-ads/galaksion-mobile-tracking.md
       - Gameberry: deep-linked-ads/gameberry-mobile-tracking.md
+      - Gameloft: deep-linked-ads/gameloft-mobile-tracking.md
       - Gamespipe : deep-linked-ads/gamespipe-mobile-tracking.md
+      - Gamned: deep-linked-ads/gamned-mobile-tracking.md
       - GeistM: deep-linked-ads/geistm-mobile-tracking.md
       - Geniee Inc. : deep-linked-ads/geniee-inc-mobile-tracking.md
       - Getloyal : deep-linked-ads/getloyal-mobile-tracking.md
@@ -422,8 +432,9 @@ nav:
         - App Engagement Campaigns: deep-linked-ads/google-ads-app-engagement.md
         - Web-based Ads (non-UAC): deep-linked-ads/google-ads-non-uac.md
         - Troubleshooting & FAQs: deep-linked-ads/google-ads-troubleshooting.md
-      - Google Marketing Platform: google-marketing-platform-app-conversion-tracking.md
+      - Google Marketing Platform: deep-linked-ads/google-marketing-platform-app-conversion-tracking.md
       - GreedyGame Media: deep-linked-ads/greedygame-media-mobile-tracking.md
+      - GumGum: deep-linked-ads/gumgum-mobile-tracking.md
       - Gunosy : deep-linked-ads/gunosy-mobile-tracking.md
       - Hang My Ads : deep-linked-ads/hang-my-ads-mobile-tracking.md
       - HasOffers : deep-linked-ads/hasoffers-mobile-tracking.md

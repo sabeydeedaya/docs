@@ -4,7 +4,7 @@
 !!! warning "Agencies vs. Partners"
 	While the function of an agency is different than that of an ad partner, they way in which these two entities access Branch app data is the same.  When granting either of these entities access, the term "Agency" will alway be used; even when granting an Ad Partner access.
 
-If you are a Branch client wishing to invite your Agency and/or Ad Partner to access your app data, please see [Granting Access to Agencies & Partners](/granting-access-to-agencies-partners/).
+If you are a Branch client wishing to invite your Agency and/or Ad Partner to access your app data, please see [Granting Access to Agencies & Partners](/dashboard/granting-access-to-agencies-partners/).
 
 ## How to Accept an Invite
 
