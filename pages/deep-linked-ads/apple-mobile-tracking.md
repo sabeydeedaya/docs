@@ -108,7 +108,7 @@ Branch receives and maps the following parameters from the Apple Search Ads Attr
 | iad-campaign-id            | last_attributed_touch_data_tilde_campaign_id  |
 | iad-adgroup-name           | last_attributed_touch_data_tilde_ad_set_name  |
 | iad-adgroup-id             | last_attributed_touch_data_tilde_ad_set_id    |
-| iad-keyword                | last_attributed_touch_data_tilde_keyword_text |
+| iad-keyword                | last_attributed_touch_data_tilde_keyword      |
 
 ## View Attribution on Dashboard
 
