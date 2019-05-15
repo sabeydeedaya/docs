@@ -125,6 +125,7 @@ To add a new Organization User:
 		- **Limited Read**  - Access to aggregate data only.
 		- **Custom** - Customize settings and data access.
 		- **No Access** - no dashboard access.
+  1. Check the **Export** box if you want to allow the user to export sensitive data from pages they can view.
 	1. Click **Invite**.
   1. In the **Organization Settings** modal, select either:
     - All apps that inherit from the organization
