@@ -1,5 +1,8 @@
 template: main-lp.html
 <div class="main-page">
+<script type="text/javascript">
+      console.log('suntem aici' + getCookie('locale');
+</script>
 <p class="greeting">How can we help?</p>
   <div class="search-bar">
     <div class="search-input">
