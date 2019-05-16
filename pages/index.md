@@ -1,8 +1,13 @@
 template: main-lp.html
 <div class="main-page">
+
+<script src="/_assets/js/docs-language-router.js"></script>
 <script type="text/javascript">
-      console.log('suntem aici' + getCookie('locale'));
+    console.log('suntem aici');
+    laguageRouter(['en', 'ja', 'ko', 'zh']);
 </script>
+
+
 <p class="greeting">How can we help?</p>
   <div class="search-bar">
     <div class="search-input">
