@@ -4,7 +4,7 @@ template: main-lp.html
 <script src="/_assets/js/docs-language-router.js"></script>
 <script type="text/javascript">
     console.log('suntem aici');
-    laguageRouter(['en', 'ja', 'ko', 'zh']);
+    laguageRouter(['ja', 'ko', 'zh']);
 </script>
 
 
