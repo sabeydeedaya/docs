@@ -34,10 +34,6 @@ Furthermore, this is in line with Google & Safari’s expectations of how clicks
 
 ### Google Ads Campaign Limitations
 
-#### Product Listing Ads (PLA) - Attribution
-- Branch's dashboard will attribute app events to PLA campaigns via the click tracking links used in the adwords_redirect field of the product catalog. However, Google's Conversion API currently does not support app attribution data for PLA/Shopping campaigns, so the data in Google Ads dashboard may not show app conversions such as installs or app purchases.
-- Deep linking is supported
-
 #### App Extensions - Deep Linking through Install
 - App Extensions currently do not allow Deep Linking, as the setup only accepts app store links [link](https://support.google.com/adwords/answer/2402582?hl=en)
 - Attribution is supported
