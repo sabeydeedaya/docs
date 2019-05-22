@@ -1,6 +1,6 @@
 ## Overview
 
-![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/154074090037072201/J_bBfz8g-1533069311294.png)
+![Everflow Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager//everflow_logo_color-1558546693505.png)
 
 This guide will walk you through how to setup your campaigns with **[Everflow Technologies](https://everflow.io/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
