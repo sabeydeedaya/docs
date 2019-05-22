@@ -11,6 +11,7 @@
 - [iOS Universal Links](/ko/universal-links)
 - [Android App Links 가이드](/ko/android-app-links)
 - [앱 내 딥링크 라우팅 가이드](/ko/deep-link-routing)
+- [Dynamic Product Feeds](/ko/dynamic-product-feeds)
 - [Agency View](/ko/agency-view)
 - [Facebook 앱 인스톨 광고](/ko/facebook-app-install-ads)
 - [Facebook Ads FAQ (Korean)](/ko/facebook-ads-faq)
