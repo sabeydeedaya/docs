@@ -33,6 +33,24 @@ App Installs | ✔︎ | ✔︎ | ✔︎ | ✔︎ | - | - | ✔︎
 
 {! ingredients/deep-linked-ads/enable-facebook-ad-partner.md !}
 
+## Branch <> Facebook Field Mappings
+
+Branch maps the following data fields from Facebook App Install Ads to Branch.
+
+Facebook Data | Branch Data | Possible Values
+--- | --- | ---
+n/a | ~advertising_partner_name | “Facebook”
+n/a | ~channel | “Facebook” if null or last touch
+na/a | ~feature | "Paid Advertising"
+campaign_name | ~campaign | Light Bright Launch
+campaign_id | ~campaign_id | 15292426
+publisher_platform | ~secondary_publisher | facebook / instagram / audience_network
+creative_name | ~creative_name | Light Bright Vertical
+creative_id | ~creative_id | 1234567890
+ad_set_name | ~ad_set_name | Light Bright
+ad_set_id | ~ad_set_id | 12345567890
+ad_name | ~ad_name | Light Bright
+
 {! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
 
 {! ingredients/deep-linked-ads/cost-data.md !}
