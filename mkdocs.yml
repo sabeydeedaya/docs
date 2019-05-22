@@ -792,6 +792,7 @@ nav:
       - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
       - Branch Partner Best Practices: partner-management/branch-partner-best-practices.md
       - Universal Ads Partner Integration QA Process: deep-linked-ads/universal-ads-partner-integration-qa-process.md
+      - Multiple Goal ID Support: partner-management/multiple-goal-id-support.md
   - Reports & Analytics:
     - Overview: dashboard/analytics-overview.md
     - Cohort Analysis: dashboard/cohort-analysis.md
