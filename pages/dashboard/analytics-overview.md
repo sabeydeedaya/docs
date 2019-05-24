@@ -11,6 +11,10 @@ Our reporting layer balances speed and efficiency with completeness and complexi
     <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Paid Ads Analytics</p>
   </a>
+  <a href="/activity-reports-analytics/ads-fraud-analytics/">
+    <img src="../../../_assets/img/pages/channels/fraud.png" />
+    <p>Ads Fraud Analytics</p>
+  </a>
   <a href="/activity-reports-analytics/journeys-analytics/">
     <img src="../../../_assets/img/pages/channels/website.png" />
     <p>Journeys Analytics</p>

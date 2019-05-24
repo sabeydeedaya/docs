@@ -180,6 +180,7 @@ nav:
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
       - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
+      - Fraud Rules: deep-linked-ads/leveraging-fraud-rules.md
     - Email:
       - Branch Universal Email: emails/universal-email.md
       - Universal Email Partners: emails/email-partners-list.md
@@ -259,6 +260,7 @@ nav:
       - AdXcel : deep-linked-ads/adxcel-mobile-tracking.md
       - AdxMaster Inc.: deep-linked-ads/adxmaster-mobile-tracking.md
       - Adxperience : deep-linked-ads/adxperience-mobile-tracking.md
+      - Adziny Media: deep-linked-ads/adziny-media-mobile-tracking.md
       - Affifix Digital : deep-linked-ads/affifix-digital-mobile-tracking.md
       - Affise: deep-linked-ads/affise-mobile-tracking.md
       - Affle : deep-linked-ads/affle-mobile-tracking.md
@@ -366,12 +368,13 @@ nav:
       - Crunchie Media : deep-linked-ads/crunchie-media-mobile-tracking.md
       - Curate Mobile : deep-linked-ads/curate-mobile-mobile-tracking.md
       - Dailyhunt: deep-linked-ads/dailyhunt-mobile-tracking.md
-      - Dawin Click: deep-linked-ads/dawin-click-mobile-tracking.md
       - Daisycon : deep-linked-ads/daisycon-mobile-tracking.md
       - Dangleads : deep-linked-ads/dangleads-mobile-tracking.md
       - Darriens: deep-linked-ads/darriens-mobile-tracking.md
       - DataXu: deep-linked-ads/dataxu-mobile-tracking.md
       - DAU-UP ClicksMob : deep-linked-ads/dau-up-clicksmob-mobile-tracking.md
+      - Dawin Click: deep-linked-ads/dawin-click-mobile-tracking.md
+      - Defy Norms: deep-linked-ads/defy-norms-mobile-tracking.md
       - DGTG Marketing: deep-linked-ads/dgtg-marketing-mobile-tracking.md
       - Digital Optimist: deep-linked-ads/digital-optimist-mobile-tracking.md
       - Digital Remedy: deep-linked-ads/digital-remedy-mobile-tracking.md
@@ -439,6 +442,7 @@ nav:
       - Hang My Ads : deep-linked-ads/hang-my-ads-mobile-tracking.md
       - HasOffers : deep-linked-ads/hasoffers-mobile-tracking.md
       - Heyzap : deep-linked-ads/heyzap-mobile-tracking.md
+      - Hotstar: deep-linked-ads/hotstar-mobile-tracking.md
       - Hubscale : deep-linked-ads/hubscale-mobile-tracking.md
       - Hybrid: deep-linked-ads/hybrid-mobile-tracking.md
       - I-mobile : deep-linked-ads/i-mobile-mobile-tracking.md
@@ -473,6 +477,7 @@ nav:
       - JungggleX : deep-linked-ads/junggglex-mobile-tracking.md
       - Kakao: deep-linked-ads/kakao-mobile-tracking.md
       - Kalpssoft: deep-linked-ads/kalpssoft-mobile-tracking.md
+      - Kargo: deep-linked-ads/kargo-mobile-tracking.md
       - Kayzen : deep-linked-ads/kayzen-mobile-tracking.md
       - Kenshoo: deep-linked-ads/kenshoo-mobile-tracking.md
       - Kenshoo Apps: deep-linked-ads/kenshoo-apps-mobile-tracking.md
@@ -589,6 +594,7 @@ nav:
       - Pinterest : deep-linked-ads/pinterest-mobile-tracking.md
       - Plabs Ventures: deep-linked-ads/plabs-ventures-mobile-tracking.md
       - Pocketmath: deep-linked-ads/pocketmath-mobile-tracking.md
+      - Pocket Media: deep-linked-ads/pocket-media-mobile-tracking.md
       - Polyvalent Digital Services: deep-linked-ads/polyvalent-digital-services-mobile-tracking.md
       - Prappers : deep-linked-ads/prappers-mobile-tracking.md
       - ProfiliAd : deep-linked-ads/profiliad-mobile-tracking.md
@@ -795,7 +801,8 @@ nav:
       - Multiple Goal ID Support: partner-management/multiple-goal-id-support.md
   - Reports & Analytics:
     - Overview: dashboard/analytics-overview.md
-    - Cohort Analysis: dashboard/cohort-analysis.md
+    - Fraud Analytics: activity-reports-analytics/ads-fraud-analytics.md
+    - Cohort Analytics: dashboard/cohort-analysis.md
     - Paid Ads Analytics: activity-reports-analytics/paid-ads-analytics.md
     - Journeys Analytics: activity-reports-analytics/journeys-analytics.md
     - Link Level Analytics: activity-reports-analytics/link-level-analytics.md
