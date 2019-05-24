@@ -3,7 +3,7 @@ User journeys happen across channels. To get accurate attribution, you need to m
 ## Acquisition
 <!-- Acquisition -->
 <div class="nav-wrap flex-wrap">
-  <a href="/deep-linked-ads/branch-universal-ads/">
+  <a href="/deep-linked-ads/ads-overview/">
     <img src="../../../_assets/img/pages/channels/paid-ads.png" />
     <p>Paid Ads</p>
   </a>
