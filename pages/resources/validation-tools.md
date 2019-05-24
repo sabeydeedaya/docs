@@ -69,6 +69,8 @@ In case you need to validate your domain, use the [AASA Validator](https://branc
 
 Check your app to see if it can properly index and surface content for Firebase through our [App Indexing Validator](https://branch.io/resources/app-indexing/).
 
+<!---
+
 ## Universal Link Validator
 
 ### Overview
@@ -99,3 +101,5 @@ The Universal Link Validator compares an app’s local project settings to its d
 	```
 
 1. Clicking the generated link, or copying & pasting it into a browser, will open the validator and display the test results.
+
+---!>
