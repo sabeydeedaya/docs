@@ -180,6 +180,7 @@ nav:
       - Universal Ad Partners: deep-linked-ads/ad-networks-list.md
       - SAN Web Tracking: deep-linked-ads/san-web-tracking.md
       - Dynamic Product Feeds: deep-linked-ads/dynamic-product-feeds.md
+      - Fraud Rules: deep-linked-ads/leveraging-fraud-rules.md
     - Email:
       - Branch Universal Email: emails/universal-email.md
       - Universal Email Partners: emails/email-partners-list.md
@@ -795,7 +796,8 @@ nav:
       - Multiple Goal ID Support: partner-management/multiple-goal-id-support.md
   - Reports & Analytics:
     - Overview: dashboard/analytics-overview.md
-    - Cohort Analysis: dashboard/cohort-analysis.md
+    - Fraud Analytics: activity-reports-analytics/ads-fraud-analytics.md
+    - Cohort Analytics: dashboard/cohort-analysis.md
     - Paid Ads Analytics: activity-reports-analytics/paid-ads-analytics.md
     - Journeys Analytics: activity-reports-analytics/journeys-analytics.md
     - Link Level Analytics: activity-reports-analytics/link-level-analytics.md
