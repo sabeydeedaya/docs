@@ -57,7 +57,7 @@ Here's a brief outline of how to use the AdobeBranchExtension in your app:
 
 ## Implementing Branch Features
 
-Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for Android.](/apps/android/)
+Once you've added the AdobeBranchExtension and Branch, you can always use Branch features directly. You can learn about using the Branch features here, in the Branch documentation for [Android.](/apps/android/)
 
 
 ### Automatic: Track Action and State
