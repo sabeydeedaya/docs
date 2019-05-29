@@ -96,7 +96,6 @@ nav:
     - Attribution:
       - Branch Matching Overview: resources/matching.md
       - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
-      - People-Based Attribution: dashboard/people-based-attribution.md
       - Comparing Installs to Apple iTunes and Google Play: resources/comparing-installs.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
@@ -833,10 +832,11 @@ nav:
       - iOS Universal Links: ko/universal-links.md
       - Android App Links 가이드: ko/android-app-links.md
       - 앱 내 딥링크 라우팅 가이드: ko/deep-link-routing.md
-      - Dynamic Produt Feeds: ko/dynamic-product-feeds.md
+      - 딥링크 피드를: ko/dynamic-product-feeds.md
       - Agency View: ko/agency-view.md
       - Facebook 앱 인스톨 광고: ko/facebook-app-install-ads.md
       - Facebook Ads FAQ (Korean): ko/facebook-ads-faq.md
-      - Facebook Platform Ads (Korean): ko/facebook-platform-ads.md
+      - Facebook 플랫폼 광고: ko/facebook-platform-ads.md
+      - Facebook 트래픽 및 전환 광고: ko/facebook-traffic-conversion-ads.md
       - Google Ads Overview: ko/google-ads-overview.md
       - Naver: ko/naver-mobile-tracking.md
