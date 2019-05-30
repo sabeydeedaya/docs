@@ -4,7 +4,14 @@ orbs:
   aws-s3: circleci/aws-s3@1.0.4
 
 jobs:
-  build:
+  deploy-staging:
+    parameters:
+      s3-bucket:
+        type: string
+        default:
+      site-url:
+        type: string
+        default:
     machine: true
     working_directory: ~/docs
     steps:
@@ -13,23 +20,11 @@ jobs:
           name: Install requirements
           command: pip install -r requirements.txt
       - run:
+          name: Configure site_url
+          command: sed -i 's,#####,<< parameters.site-url >>,g' mkdocs.yml
+      - run:
           name: Build MkDocs
           command: mkdocs build --clean --verbose
-      - persist_to_workspace:
-          root: ~/docs
-          paths:
-            - site
-            - redirects.txt
-  deploy-staging:
-    parameters:
-      s3-bucket:
-        type: string
-        default:
-    machine: true
-    working_directory: ~/docs
-    steps:
-      - attach_workspace:
-          at: ~/docs
       - aws-s3/sync:
           from: ~/docs/site/
           to: << parameters.s3-bucket >>
@@ -49,11 +44,22 @@ jobs:
       s3-bucket:
         type: string
         default:
+      site-url:
+        type: string
+        default:
     machine: true
     working_directory: ~/docs
     steps:
-      - attach_workspace:
-          at: ~/docs
+      - checkout
+      - run:
+          name: Install requirements
+          command: pip install -r requirements.txt
+      - run:
+          name: Configure site_url
+          command: sed -i 's,#####,<< parameters.site-url >>,g' mkdocs.yml
+      - run:
+          name: Build MkDocs
+          command: mkdocs build --clean --verbose
       - aws-s3/sync:
           from: ~/docs/site/
           to: << parameters.s3-bucket >>
@@ -76,35 +82,30 @@ workflows:
   version: 2.1
   build_and_deploy:
     jobs:
-      - build
       - deploy-production:
+          site-url: https://docs.branch.io
           s3-bucket: s3://docs.branch.io
-          requires:
-            - build
           filters:
             branches:
               only:
                 - production
       - deploy-staging:
+          site-url: http://staging.docs.branch.io.s3-website-us-west-1.amazonaws.com
           s3-bucket: s3://staging.docs.branch.io
-          requires:
-            - build
           filters:
             branches:
               only:
                 - /staging-.*/
       - deploy-staging:
+          site-url: http://staging2.docs.branch.io.s3-website-us-west-1.amazonaws.com
           s3-bucket: s3://staging2.docs.branch.io
-          requires:
-            - build
           filters:
             branches:
               only:
                 - /staging2-.*/
       - deploy-staging:
+          site-url: http://staging3.docs.branch.io.s3-website-us-west-1.amazonaws.com
           s3-bucket: s3://staging3.docs.branch.io
-          requires:
-            - build
           filters:
             branches:
               only:
