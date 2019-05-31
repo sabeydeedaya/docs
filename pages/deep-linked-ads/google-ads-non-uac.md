@@ -104,6 +104,8 @@ Search Network | Sales | Cross-platform Search
 Search Network | Leads | Cross-platform Search
 Search Network | Website Traffic | Cross-platform Search
 
+For Search App Extensions, the Google Conversion API that Branch relies on for app event attribution will confirm Android conversions, with limited support for iOS search/web attributions. You can use a Branch link within the tracking template for iOS App Extensions, but this will result in attributions counted in Branch that are not counted as conversions in Google. 
+
 #### OS Support and Major Differences
 
 Operating System | Supported by Google Ads Search Network Ads?
