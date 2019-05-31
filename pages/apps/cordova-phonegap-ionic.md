@@ -479,22 +479,14 @@
     - Validate with the [Branch Dashboard](https://dashboard.branch.io/liveview/events)
 
         ```js
-        var eventName = 'clicked_on_this'
-        var metadata = { 'custom_dictionary': 123, 'anything': 'everything' }
-        Branch.logEvent(eventName, metaData).then(function (res) {
-          alert('Response: ' + JSON.stringify(res))
-        }).catch(function (err) {
-          alert('Error: ' + JSON.stringify(err.message))
-        })
+        var eventName = 'clicked_on_this';
+        var metadata = { 'custom_dictionary': 123, 'anything': 'everything' };
+        Branch.sendBranchEvent(eventName, metadata);
         ```
 
         ```js
-        var eventName = 'clicked_on_this'
-        Branch.logEvent(eventName).then(function (res) {
-          alert('Response: ' + JSON.stringify(res))
-        }).catch(function (err) {
-          alert('Error: ' + JSON.stringify(err.message))
-        })
+        var eventName = 'clicked_on_this';
+        Branch.sendBranchEvent(eventName);
         ```
 
 - ### Track commerce
@@ -523,11 +515,7 @@
                     "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
                 }
             };
-            Branch.sendBranchEvent(event, metadata).then(function success(res) {
-                alert("Branch Event success " + res);
-            }).catch(function error(err) {
-                alert("Branch Event " + err);
-            });
+            Branch.sendBranchEvent(event, metadata);
         }).catch(function error(err) {
             alert("Get Standard Event " + err);
         });
