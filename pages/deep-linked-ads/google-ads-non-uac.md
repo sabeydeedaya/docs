@@ -148,7 +148,7 @@ origin | custom_data.origin | optional
 start_date | custom_data.start_date | optional
 end_date | custom_data.end_date | optional
 search_term | custom_data.search_term | optional
-google_business_vertical | custom_data.google_business_vertical \ optional
+google_business_vertical | custom_data.google_business_vertical | optional
 item_location_id | custom_data.item_location_id | optional
 item_id | content_items[].$sku | required  
 
