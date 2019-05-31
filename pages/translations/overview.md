@@ -18,4 +18,5 @@
 - [Facebook 플랫폼 광고](/ko/facebook-platform-ads)
 - [Facebook 트래픽 및 전환 광고](ko/facebook-traffic-conversion-ads)
 - [Google Ads Overview](/ko/google-ads-overview)
+- [Kakao](/ko/kakao-mobile-tracking/)
 - [Naver](/ko/naver-mobile-tracking)
