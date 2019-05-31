@@ -5,8 +5,8 @@ What’s great about Branch is all products come with a 14-Day Trial. We want ou
 
 ## How does billing works?
 
-Branch’s service period runs from the 1st of the month to the last day of the month. Your Branch billing cycle is recurrent and occurs on a monthly basis on the 1st of every month. If you sign up part way through the month, your first invoice will be prorated. 
- 
+Branch’s service period runs from the 1st of the month to the last day of the month. Your Branch billing cycle is recurrent and occurs on a monthly basis on the 1st of every month. If you sign up part way through the month, your first invoice will be prorated.
+
 
 ## What happens if I sign up part way through the month?
 
@@ -16,11 +16,6 @@ All partial billing periods will be prorated. If you sign up for any of our prem
 ## When will I be billed?
 
 For online subscriptions (i.e. Customer signs up to Branch’s premium products directly from the website), Branch bills in arrears which means we will send your invoice at the end of the service period, rather than up front (in advance). 
- 
-
-## How do overages work?
-
-Your online subscription may be charged overages if your usage exceeds the MAU limit included, based on your plan selection. An overage fee of $5 will apply for each additional 1k MAUs above the limit, based on your plan selection. For example, you sign up for a plan that charges $0/monthly fee for up to 10K MAUs but your usage for a given month is 12K MAUs. The 2K MAU will be considered usage above the 10K MAU limit; therefore, your invoice will include an overage fee of $10.
 
 
 ## What payment methods do you accept?
@@ -32,7 +27,7 @@ For online subscriptions, we only accept credit cards. Please ensure your credit
 3. For international customers, make sure the credit card accepts foreign transactions.
 
 Once your payment and billing information has been entered, no further action is required to pay off your monthly invoice.
- 
+
 
 ## What happens if my credit card is not accepted (Error 322)?
 
@@ -49,18 +44,18 @@ If you continue to experience issues, please contact your financial institution 
 ## How can I update my credit card information?
 
 You can update any of your billing information in the dashboard. Go to “Account Settings” on the navigation menu, to the left hand side of the Dashboard. From there, navigate to the “Billing” tab, in the tabs menu at the top of the page. Here you will be able to update your credit card information.
- 
+
 
 ## How can I upgrade my subscription?
 
 You can upgrade the plan in your subscription  in the dashboard. Go to “Account Settings” on the navigation menu, to the left hand side of the Dashboard. From there, navigate to the “Billing” tab, in the tabs menu at the top of the page. Here you will be able to upgrade the plan in your subscription. Please note the upgrade will be effective on the date in which you process the transaction, which may cause prorated charges on your next invoice. If you have additional questions or need help upgrading your subscription, please reach out to billing@branch.io.
- 
+
 
 ## How can I cancel my subscription?
 
 If you wish to cancel your subscription to premium product(s), you will be able to do so directly from the Dashboard.  
 
-Here are the steps: 
+Here are the steps:
 
 1. Log in to your Branch account at https://dashboard.branch.io/
 2. Visit https://dashboard.branch.io/settings/billing/account

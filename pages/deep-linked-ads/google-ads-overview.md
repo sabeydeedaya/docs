@@ -35,8 +35,12 @@ Our integration with Google Ads supports the following:
 - Destinations:
 	- In-app experiences
 
+!!! warning "Dynamic Remarketing Campaigns for Apps"
+	App Engagement Campaigns do not include dynamic remarketing campaigns for apps.  If you want to set up dynamic remarketing campaigns for people who have previously engaged with your app, you must create a **Web-based Ad** using the **Display Network**.
+
 ### [Web-based Ads (non-App Campaigns)](/deep-linked-ads/google-ads-non-uac/)
-- Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
+- Includes **Search**, **Display**, **Shopping** and **Video** Campaign types
+	- Dynamic Remarketing campaigns for Apps 
 - Full attribution for:
 	- App conversions (opens & in-app events)
 	- Web (Mobile & Desktop) conversions
