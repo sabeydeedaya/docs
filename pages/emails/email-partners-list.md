@@ -31,6 +31,7 @@ Logo | Partner
 <a href="https://bronto.com/" target="_blank">![Oracle_Bronto](/_assets/img/pages/email/oracle-bronto/oracle-bronto.png)</a>| **[Oracle Bronto](/emails/oracle-bronto/)**
 <a href="http://www.eloqua.com/" target="_blank">![Oracle_Eloqua](/_assets/img/pages/email/oracle-eloqua/oracle-eloqua.png)</a>| **[Oracle Eloqua](/emails/oracle-eloqua/)**
 <a href="http://responsys.com/" target="_blank">![Oracle_Responsys](/_assets/img/pages/email/oracle-responsys/oracle-responsys.png)</a>| **[Oracle Responsys](/emails/oracle-responsys/)**
+<a href="https://pepipost.com/" target="_blank">![Pepipost](https://cdn.branch.io/branch-assets/email-providers//pepipost-logo-retina-1557380022220.png)</a>| **[Pepipost](/emails/pepipost/)**
 <a href="https://www.postup.com/" target="_blank">![PostUp](/_assets/img/pages/email/postup/postup.png)</a>| **[PostUp](/emails/postup/)**
 <a href="https://www.rapidmail.com/" target="_blank">![Rapidmail](/_assets/img/pages/email/rapidmail/rapidmail.png)</a>| **[Rapidmail](/emails/rapidmail/)**
 <a href="https://www.sailthru.com/" target="_blank">![Sailthru](https://cdn.branch.io/branch-assets/email-providers/388787843096400122/sailthru-1538185995951.png)</a>| **[Sailthru](/emails/sailthru/)**
@@ -44,6 +45,7 @@ Logo | Partner
 <a href="https://www.sparkpost.com/" target="_blank">![SparkPost](/_assets/img/pages/email/sparkpost/sparkpost.png)</a>| **[SparkPost](/emails/sparkpost/)**
 <a href="https://www.getvero.com/" target="_blank">![Vero](/_assets/img/pages/email/vero/vero.png)</a>| **[Vero](/emails/vero/)**
 <a href="https://www.whatcounts.com/" target="_blank">![WhatCounts](https://cdn.branch.io/branch-assets/email-providers/386574786681131050/whatcounts-1548719523947.png)</a>| **[WhatCounts](/emails/whatcounts/)**
+<a href="https://www.yesmarketing.com/" target="_blank">![Yes Marketing](https://cdn.branch.io/branch-assets/email-providers//download-1553897616965.png)</a>| **[Yes Marketing](/emails/yes-marketing/)**
 <a href="https://zetaglobal.com/" target="_blank">![Zeta](/_assets/img/pages/email/zeta/zeta.png)</a>| **[Zeta](/emails/zeta/)**
 
 Interested in becoming a Email Partner? Just fill out this form: **[Partner's Profile](https://branch.app.link/email-partner-signup){:target="\_blank"}**
