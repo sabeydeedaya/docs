@@ -765,6 +765,7 @@ nav:
       - Oracle Bronto: emails/oracle-bronto.md
       - Oracle Eloqua: emails/oracle-eloqua.md
       - Oracle Responsys: emails/oracle-responsys.md
+      - Pepipost: emails/pepipost.md
       - PostUp: emails/postup.md
       - Rapidmail: emails/rapidmail.md
       - Sailthru: emails/sailthru.md
@@ -778,6 +779,7 @@ nav:
       - SparkPost: emails/sparkpost.md
       - Vero: emails/vero.md
       - WhatCounts: emails/whatcounts.md
+      - Yes Marketing: emails/yes-marketing.md
       - Zeta: emails/zeta.md
     - Data Integrations:
       - Data Integration Partners List: integrations/data-integrations-list.md
