@@ -7,7 +7,7 @@ title: Google Marketing Platform App Conversion Tracking
 Branch links can be used together with Google Marketing Platform app conversion ads, allowing you to track ad-driven app conversion (installs and in-app events) on the Branch dashboard.
 
 !!! warning "Google Marketing Platform"
-	The [Google Marketing Platform](https://support.google.com/dcm/answer/9015629?hl=en) is the single new product name for the following products: DoubleClick Bid Manager (DBM), DoubleClick Campaign Manager (DCM) and DoubleClick Search (DS).
+	The [Google Marketing Platform](https://support.google.com/dcm/answer/9015629?hl=en) includes the following products: Display & Video 360 (Formerly DoubleClick Bid Manager), Campaign Manager (Formerly DoubleClick Campaign Manager) and Search Ads 360 (formerly DoubleClick Search).
 
 	Please make sure to use `Google Marketing Platform` in your Branch dashboard and not `Doubleclick` which is the legacy integration and does not include server-side attribution responses.
 
