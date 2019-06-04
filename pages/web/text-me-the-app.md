@@ -79,22 +79,16 @@ And that's it. From here, you can customize the HTML and CSS, and Branch will ta
 
 ## Advanced
 
-### Use your own SMS service
+### Use Twilio SMS service
 
-You can roll your own SMS service by using the following basic logic:
+In order to get set up with your Twilio account, Branch needs the following information to enable the integration.
 
-1. Does `~referring_link` exist? (a.k.a. did the user end up on this Text Me The App page because of a Branch link?) If so, use this link when sending the SMS.
-2. If not (`~referring_link` is null), generate a new Branch link by making a call to the Web SDK's `link()` method. Use this link when sending the SMS.
+- Branch App ID
+- Account SID
+- Auth Tokens
+- Twilio Phone numbers to send from
 
-The `~referring_link` parameter is returned in the Web SDK's init() callback, buried in the referring link data. See the code below:
-
-```javascript
-branch.init('YOUR-BRANCH-KEY', function(err, data) {
-	if (data.data['~referring_link']) {
-		console.log("data.data['~referring_link']:", data.data['~referring_link']);
-	}
-});
-```
+Please reach out to support@branch.io or your CSM with the above information to enable the Twilio integration.
 
 !!! note "Phone number retention policy"
     Phone numbers are redacted from Branch's Twilio instance, but if you use your own SMS provider, phone numbers may be stored either temporarily or indefinitely by that provider.

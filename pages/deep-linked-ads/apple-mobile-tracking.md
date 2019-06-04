@@ -11,6 +11,9 @@ Branch can help track your **[Apple Search Ads](https://searchads.apple.com/)** 
 
 In order to check if the user came from an Apple Search Ads, you must make the attribution call before Branch initializes. As a warning, Apple's Search Ads Attribution API may take more than 1 second round trip. This means that your call to Branch's initSession to the execution of the callback block may be delayed by this additional 1 second.
 
+!!! info "React Native Support"
+    If you are using React Native in your app, please make sure to follow the [Track Apple Search Ads](/apps/react-native/#track-apple-search-ads) section of the React Native integration in addition to the below.
+
 ### Import iAd and AdSupport
 
 You must add Apple's **iAd.framework** and **AdSupport.framework** to your **Linked Frameworks** in your Xcode project to enable Apple Search Ads checking.
@@ -105,7 +108,7 @@ Branch receives and maps the following parameters from the Apple Search Ads Attr
 | iad-campaign-id            | last_attributed_touch_data_tilde_campaign_id  |
 | iad-adgroup-name           | last_attributed_touch_data_tilde_ad_set_name  |
 | iad-adgroup-id             | last_attributed_touch_data_tilde_ad_set_id    |
-| iad-keyword                | last_attributed_touch_data_tilde_keyword_text |
+| iad-keyword                | last_attributed_touch_data_tilde_keyword      |
 
 ## View Attribution on Dashboard
 
@@ -138,7 +141,7 @@ You can edit your attribution windows at the ad network level, if your ad networ
 
 ### Install discrepancies when compared with Apple Search Ads dashboard
 
-There are a few possible causes of discrepancies with Apple Search Ads. Due to the low customizability of Apple Search Ads' attribution settings, discrepancies are often higher on Apple Search Ads than other platforms, even though performance may be solid and reporting may be working as expected. The best way to attempt reconciliation with ASA installs and Branch is to look at 'New Download' counts, but subtract the percentage of LAT on users found by grouping LAT on/off in reporting. This will give an estimate of new downloads with LAT off, while Branch reports first opens from those downloads. 
+There are a few possible causes of discrepancies with Apple Search Ads. Due to the low customizability of Apple Search Ads' attribution settings, discrepancies are often higher on Apple Search Ads than other platforms, even though performance may be solid and reporting may be working as expected. The best way to attempt reconciliation with ASA installs and Branch is to look at 'New Download' counts, but subtract the percentage of LAT on users found by grouping LAT on/off in reporting. This will give an estimate of new downloads with LAT off, while Branch reports first opens from those downloads.
 
 - *Time zones.* Ensure your Apple Search Ads time zone (in Settings > Overview > Account Information ) matches your Branch Dashboard time zone (visible under Account Settings).
 - *Limit Ad Tracking (LAT) On.* Apple Search Ads doesn't report installs to third parties if the user has Limit Ad Tracking enabled. However the Apple Search Ads dashboard shows all installs by default, regardless of limit ad tracking state. You can see the approximate quantity of Limit Ad Tracking On and Limit Ad Tracking off installs by adding those columns in the Apple Search Ads Reporting Dashboard. Those installs will not appear in Branch's dashboard.

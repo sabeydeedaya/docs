@@ -34,7 +34,7 @@ As of now, any calls made through these SDK methods will **not** yet:
 
 Use the table below to quickly find the event you want to track.
 
-| Event Name | Event Category | iOS | Android | API
+| Event Name | Event Category | iOS | Android | Web and API
 | :-: | :-: | :-: | :-: | :-:
 | Add To Cart | [Commerce Event](#track-commerce-events) | BranchStandardEventAddToCart | BRANCH_STANDARD_EVENT.ADD_TO_CART | ADD_TO_CART
 | Add To Wishlist | [Commerce Event](#track-commerce-events) | BranchStandardEventAddToWishlist | BRANCH_STANDARD_EVENT.ADD_TO_WISHLIST | ADD_TO_WISHLIST
@@ -44,8 +44,8 @@ Use the table below to quickly find the event you want to track.
 | Click Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventClickAd | BRANCH_STANDARD_EVENT.CLICK_AD | CLICK_AD
 | Purchase | [Commerce Event](#track-commerce-events) | BranchStandardEventPurchase | BRANCH_STANDARD_EVENT.PURCHASE | PURCHASE
 | Spend Credits | [Commerce Event](#track-commerce-events) | BranchStandardEventSpendCredits | BRANCH_STANDARD_EVENT.SPEND_CREDITS | SPEND_CREDITS
-| Start Trial | [Commerce Event](#track-commerce-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
-| Subscribe | [Commerce Event](#track-commerce-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
+| Start Trial | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventStartTrial | BRANCH_STANDARD_EVENT.START_TRIAL | START_TRIAL
+| Subscribe | [Lifecycle Event](#track-lifecycle-events) | BranchStandardEventSubscribe | BRANCH_STANDARD_EVENT.SUBSCRIBE | SUBSCRIBE
 | View Ad | [Commerce Event](#track-commerce-events) | BranchStandardEventViewAd | BRANCH_STANDARD_EVENT.VIEW_AD | VIEW_AD
 | Search | [Content Event](#track-content-events) | BranchStandardEventSearch | BRANCH_STANDARD_EVENT.SEARCH | SEARCH
 | View Item | [Content Event](#track-content-events) | BranchStandardEventViewItem | BRANCH_STANDARD_EVENT.VIEW_ITEM | VIEW_ITEM
@@ -208,6 +208,82 @@ new BranchEvent(BRANCH_STANDARD_EVENT.ADD_TO_CART)
         .logEvent(context);
 ```
 
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1232343434",
+   "currency": "USD",
+   "revenue": 180.2,
+   "shipping": 10.5,
+   "tax": 13.5,
+   "coupon": "promo-1234",
+   "affiliation": "high_fi",
+   "description": "Preferred purchase",
+   "purchase_loc": "Palo Alto",
+   "store_pickup": "unavailable"
+};
+
+var content_items = [
+{
+   "$content_schema": "COMMERCE_PRODUCT",
+   "$og_title": "Nike Shoe",
+   "$og_description": "Start loving your steps",
+   "$og_image_url": "http://example.com/img1.jpg",
+   "$canonical_identifier": "nike/1234",
+   "$publicly_indexable": false,
+   "$price": 101.2,
+   "$locally_indexable": true,
+   "$quantity": 1,
+   "$sku": "1101123445",
+   "$product_name": "Runner",
+   "$product_brand": "Nike",
+   "$product_category": "Sporting Goods",
+   "$product_variant": "XL",
+   "$rating_average": 4.2,
+   "$rating_count": 5,
+   "$rating_max": 2.2,
+   "$creation_timestamp": 1499892854966,
+   "$exp_date": 1499892854966,
+   "$keywords": [ "sneakers", "shoes" ],
+   "$address_street": "230 South LaSalle Street",
+   "$address_city": "Chicago",
+   "$address_region": "IL",
+   "$address_country": "US",
+   "$address_postal_code": "60604",
+   "$latitude": 12.07,
+   "$longitude": -97.5,
+   "$image_captions": [ "my_img_caption1", "my_img_caption_2" ],
+   "$condition": "NEW",
+   "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+},
+{
+   "$og_title": "Nike Woolen Sox",
+   "$canonical_identifier": "nike/5324",
+   "$og_description": "Fine combed woolen sox for those who love your foot",
+   "$publicly_indexable": false,
+   "$price": 80.2,
+   "$locally_indexable": true,
+   "$quantity": 5,
+   "$sku": "110112467",
+   "$product_name": "Woolen Sox",
+   "$product_brand": "Nike",
+   "$product_category": "Apparel & Accessories",
+   "$product_variant": "Xl",
+   "$rating_average": 3.3,
+   "$rating_count": 5,
+   "$rating_max": 2.8,
+   "$creation_timestamp": 1499892854966
+}];
+
+branch.logEvent(
+   "PURCHASE",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
+
 ### HTTP API
 
 ```bash
@@ -346,6 +422,82 @@ Content events are events that occur when a user engages with your in-app conten
     .logEvent(context);
 ```
 
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1232343434",
+   "currency": "USD",
+   "revenue": 180.2,
+   "shipping": 10.5,
+   "tax": 13.5,
+   "coupon": "promo-1234",
+   "affiliation": "high_fi",
+   "description": "Preferred purchase",
+   "purchase_loc": "Palo Alto",
+   "store_pickup": "unavailable"
+};
+
+var content_items = [
+{
+   "$content_schema": "COMMERCE_PRODUCT",
+   "$og_title": "Nike Shoe",
+   "$og_description": "Start loving your steps",
+   "$og_image_url": "http://example.com/img1.jpg",
+   "$canonical_identifier": "nike/1234",
+   "$publicly_indexable": false,
+   "$price": 101.2,
+   "$locally_indexable": true,
+   "$quantity": 1,
+   "$sku": "1101123445",
+   "$product_name": "Runner",
+   "$product_brand": "Nike",
+   "$product_category": "Sporting Goods",
+   "$product_variant": "XL",
+   "$rating_average": 4.2,
+   "$rating_count": 5,
+   "$rating_max": 2.2,
+   "$creation_timestamp": 1499892854966,
+   "$exp_date": 1499892854966,
+   "$keywords": [ "sneakers", "shoes" ],
+   "$address_street": "230 South LaSalle Street",
+   "$address_city": "Chicago",
+   "$address_region": "IL",
+   "$address_country": "US",
+   "$address_postal_code": "60604",
+   "$latitude": 12.07,
+   "$longitude": -97.5,
+   "$image_captions": [ "my_img_caption1", "my_img_caption_2" ],
+   "$condition": "NEW",
+   "$custom_fields": {"foo1":"bar1","foo2":"bar2"}
+},
+{
+   "$og_title": "Nike Woolen Sox",
+   "$canonical_identifier": "nike/5324",
+   "$og_description": "Fine combed woolen sox for those who love your foot",
+   "$publicly_indexable": false,
+   "$price": 80.2,
+   "$locally_indexable": true,
+   "$quantity": 5,
+   "$sku": "110112467",
+   "$product_name": "Woolen Sox",
+   "$product_brand": "Nike",
+   "$product_category": "Apparel & Accessories",
+   "$product_variant": "Xl",
+   "$rating_average": 3.3,
+   "$rating_count": 5,
+   "$rating_max": 2.8,
+   "$creation_timestamp": 1499892854966
+}];
+
+branch.logEvent(
+   "VIEW_ITEMS",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
+
 ### HTTP API
 
 ```
@@ -475,6 +627,22 @@ new BranchEvent(BRANCH_STANDARD_EVENT.COMPLETE_REGISTRATION)
     .addCustomDataProperty("registrationID", "12345")
     .logEvent(context);
 ```
+### Web
+
+```js
+var event_and_custom_data = {
+   "transaction_id": "tras_Id_1234",
+   "description": "Preferred purchase",
+   "registration_id": "12345"
+};
+
+branch.logEvent(
+   "COMPLETE_REGISTRATION",
+   event_and_custom_data,
+   content_items,
+   function(err) { console.log(err); }
+);
+```
 
 ### HTTP
 
@@ -549,6 +717,21 @@ new BranchEvent("Some Custom Event")
     .addCustomDataProperty("Custom_Event_Property_Key22", "Custom_Event_Property_val22")
     .logEvent(MainActivity.this);
 }
+```
+
+### Web
+
+```js
+var custom_data = {
+   "Custom_Event_Property_Key1": "Custom_Event_Property_val1",
+   "Custom_Event_Property_Key2": "Custom_Event_Property_val2"
+};
+
+branch.logEvent(
+    event,
+    custom_data,
+    callback (err)
+);
 ```
 
 ### HTTP API

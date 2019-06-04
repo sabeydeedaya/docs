@@ -35,8 +35,12 @@ Our integration with Google Ads supports the following:
 - Destinations:
 	- In-app experiences
 
+!!! warning "Dynamic Remarketing Campaigns for Apps"
+	App Engagement Campaigns do not include dynamic remarketing campaigns for apps.  If you want to set up dynamic remarketing campaigns for people who have previously engaged with your app, you must create a **Web-based Ad** using the **Display Network**.
+
 ### [Web-based Ads (non-App Campaigns)](/deep-linked-ads/google-ads-non-uac/)
-- Includes **Search**, **Display**, **Shopping** and **Video Ads** Campaign types
+- Includes **Search**, **Display**, **Shopping** and **Video** Campaign types
+	- Dynamic Remarketing campaigns for Apps 
 - Full attribution for:
 	- App conversions (opens & in-app events)
 	- Web (Mobile & Desktop) conversions
@@ -58,10 +62,10 @@ campaign_name | ~campaign  | The advertiser-defined campaign name of the campaig
 ad_type | ~ad_format | The type of ad that resulted in the ad event. This value can be used to distinguish between various types of inventory as follows. | ClickToDownload<br/>AppDeepLink<br/>AppDeepLinkContinue<br/> Unknown
 network_type | ~channel | This field will identify the Google Ads advertising network the ad event occurred on. | Search<br/>Display<br/>YouTube
 network_subtype | ~secondary_publisher | This field will identify the “subtype” of the Google Ads advertising network the ad event occurred on. The possible values vary by primary network type. | Google Search, Search Partners, mGDN, Google AdMob, YouTubeVideos, YouTubeSearch, VideoPartners; `null` when campaign_type is UAC and network_type is Display.
-campaign_type | ~tags | This field will identify the type of campaign that produced the ad event. | UAC, UACe,
-Search, Display, Video, Shopping
+campaign_type | ~tags | This field will identify the type of campaign that produced the ad event. | UAC, UACe, Search, Display, Video, Shopping
 ad_group_id | ~ad_set_id | The numeric ID of the ad group that produced with the ad event. Only provided when campaign_type is not UAC. | Google Ads Ad Group ID
 creative_id | ~ad_id | The numeric ID of the creative ad unit that produced the ad event. Only provided when campaign_type is not UAC. | Google Ads Creative ID
+keyword | ~keyword | The search keyword associated with the ad event. Only provided when network_type is Search and campaign_type is not UAC. | Google Ads Keyword
 
 
 ## Forwarding Events to Google Ads

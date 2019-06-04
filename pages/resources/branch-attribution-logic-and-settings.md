@@ -11,7 +11,7 @@ To accurately measure and attribute interactions (installs and in-app events) th
 **1. Deterministic Click Attribution**
 
 *   Google Play Install Referrer
-*   Identifier Matching
+*   Identifier Matching _when an identifier is provided on click, fingerprint matching will not be used as a fallback_
     *   Google Advertising Identifier (GAID)
     *   Apple’s Identifier for Advertisers (IDFA)
 *   Open URL (deep link) with Click ID

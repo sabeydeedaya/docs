@@ -33,3 +33,5 @@ emails/salesforce/index.html https://docs.branch.io/emails/salesforce-v1/
 emails/salesforce_dns/index.html https://docs.branch.io/emails/salesforce-v2/
 deep-linked-ads/google-uac/index.html https://docs.branch.io/deep-linked-ads/google-ads-uac/
 integrations/tune.md/index.html https://docs.branch.io/integrations/data-integrations-list/
+dashboard/people-based-attribution/index.html https://docs.branch.io/resources/branch-attribution-logic-and-settings/
+deep-linked-ads/hasoffers-mobile-tracking/index.html https://docs.branch.io/deep-linked-ads/tune-mobile-tracking/

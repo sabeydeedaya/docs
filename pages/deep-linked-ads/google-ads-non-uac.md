@@ -6,7 +6,7 @@
 		- **Web-based Ads** (this page)
 		- [Troubleshooting & FAQs](/deep-linked-ads/google-ads-troubleshooting/)
 
-Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video Ads** - to expand your marketing efforts that enable both app and web conversions.
+Whereas Universal App Campaigns are focused solely on the single conversion type of `app download`, you can leverage other Google Ads campaign types - **Search, Display, Shopping, Video** - to expand your marketing efforts that enable both app and web conversions.
 
 ## Requirements
 
@@ -74,6 +74,9 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 
 ### Create Your Campaign
 
+!!! warning "Campaign Types Supported"
+	Please refer to the [Appendix](/deep-linked-ads/google-ads-non-uac/#appendix) for all of the web-based campaign types supported.
+
 Please follow Google Ads help documentation on how to create a new [Google Ads campaign](https://support.google.com/google-ads/answer/6324971?co=ADWORDS.IsAWNCustomer%3Dtrue&oco=0).
 
 !!! tip "Branch Link Placement in Google Ads Campaign"
@@ -97,8 +100,11 @@ This documentation supports the following Google Campaign types:
 
 Google Campaign | Campaign Type/Objective | Branch Ad Format
 --- | --- | ---
-Search Network | Standard | Cross-platform Search
-Search Network | Dynamic Search Ads | Cross-platform Search
+Search Network | Sales | Cross-platform Search
+Search Network | Leads | Cross-platform Search
+Search Network | Website Traffic | Cross-platform Search
+
+For Search App Extensions, the Google Conversion API that Branch relies on for app event attribution will confirm Android conversions, with limited support for iOS search/web attributions. You can use a Branch link within the tracking template for iOS App Extensions, but this will result in attributions counted in Branch that are not counted as conversions in Google. 
 
 #### OS Support and Major Differences
 
@@ -114,11 +120,11 @@ This documentation supports the following Google Campaign types:
 
 Google Campaign | Campaign Type/Objective | Branch Ad Format
 --- | --- | ---
-Display Network | Build Awareness: See your ad | Cross-platform Display
-Display Network | Influence Consideration: Engage with your content | Cross-platform Display
-Display Network | Influence Consideration: Visit your website | Cross-platform Display
-Display Network | Drive Action: Buy on your website | Cross-platform Display
-Display Network | Drive Action: Take an action on your website | Cross-platform Display
+Display Network | Sales | Cross-platform Display
+Display Network | Leads | Cross-platform Display
+Display Network | Website Traffic | Cross-platform Display
+Display Network | Product and Brand Consideration | Cross-platform Display
+Display Network | Brand Awareness and Reach | Cross-platform Display
 
 #### OS Support and Major Differences
 
@@ -127,6 +133,26 @@ Operating System | Supported by Google Ads Display Network Ads?
 Web | Yes
 iOS | Yes
 Android | Yes
+
+#### Dynamic Remarketing Campaigns for Apps  
+
+[App Engagement Campaigns](/deep-linked-ads/google-ads-app-engagement/) do not include dynamic remarketing campaigns for apps.  If you want to set up dynamic remarketing campaigns for people who have previously engaged with your app, you must create a **Web-based Ad** using the **Display Network**.
+
+Please follow Google Ads help documentation on how to create a new [Dynamic Remarketing Campaign for Apps](https://support.google.com/google-ads/answer/7688618?visit_id=636880114590173198-621612626&rd=1).
+
+##### Data Mapping
+
+Google Data | Branch Data | Definition
+--- | --- | ---
+currency_code | event_data_currency | optional (should be in the URL string as query param)  
+value | revenue | optional (should be in the URL string as query param AND in the body if available)  
+origin | custom_data.origin | optional
+start_date | custom_data.start_date | optional
+end_date | custom_data.end_date | optional
+search_term | custom_data.search_term | optional
+google_business_vertical | custom_data.google_business_vertical | optional
+item_location_id | custom_data.item_location_id | optional
+item_id | content_items[].$sku | required  
 
 ### Shopping Ads Specifics
 
