@@ -1,3 +1,9 @@
+### v0.27.1
+
+**(2019-June-03)**
+
+- Fix a potential crash due to invalid key type
+
 ### v0.27.0
 
 **(2019-April-24)**
