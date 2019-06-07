@@ -444,15 +444,10 @@ nav:
       - GumGum: deep-linked-ads/gumgum-mobile-tracking.md
       - Gunosy : deep-linked-ads/gunosy-mobile-tracking.md
       - Hang My Ads : deep-linked-ads/hang-my-ads-mobile-tracking.md
-      - HasOffers : deep-linked-ads/hasoffers-mobile-tracking.md
+      - HasOffers/TUNE : deep-linked-ads/tune-mobile-tracking.md
+      - Hawk Platform by TabMo Group: deep-linked-ads/hawk-platform-mobile-tracking.md
       - Heyzap : deep-linked-ads/heyzap-mobile-tracking.md
       - Hotstar: deep-linked-ads/hotstar-mobile-tracking.md
-      - Hubscale : deep-linked-ads/hubscale-mobile-tracking.md
-      - Hybrid: deep-linked-ads/hybrid-mobile-tracking.md
-      - I-mobile : deep-linked-ads/i-mobile-mobile-tracking.md
-      - Hang My Ads : deep-linked-ads/hang-my-ads-mobile-tracking.md
-      - HasOffers : deep-linked-ads/hasoffers-mobile-tracking.md
-      - Hawk Platform by TabMo Group: deep-linked-ads/hawk-platform-mobile-tracking.md
       - Hubscale : deep-linked-ads/hubscale-mobile-tracking.md
       - Hybrid: deep-linked-ads/hybrid-mobile-tracking.md
       - I-Mobile: deep-linked-ads/i-mobile-mobile-tracking.md
@@ -854,5 +849,6 @@ nav:
       - Facebook 플랫폼 광고: ko/facebook-platform-ads.md
       - Facebook 트래픽 및 전환 광고: ko/facebook-traffic-conversion-ads.md
       - Google 광고에 대한 전반적인 소개 : ko/google-ads-overview.md
+      - Apple 광고 캠페인 트래킹 관련: ko/apple-mobile-tracking.md
       - 카카오 광고 캠페인 트래킹 관련: ko/kakao-mobile-tracking.md
       - 네이버 광고 캠페인 트래킹 관련 : ko/naver-mobile-tracking.md
