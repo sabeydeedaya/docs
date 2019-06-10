@@ -14,8 +14,8 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 ## Prerequisites
 
 !!! warning "Prerequisites"
-	* [x] To track installs from Twitter Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app.
-	* [x] To use Branch links in Twitter App Install Ads ensure you have:
+	* [x] To track installs from Twitter Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app OR send events via server to server integration including device IDs (Google AID or Apple IFA).
+	* [x] To use Twitter App Install Ads ensure you have:
 		* [x] URI schemes configured on iOS
 		* [x] URI schemes configured on Android
 		* [x] iOS App Store ID set

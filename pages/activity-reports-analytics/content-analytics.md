@@ -19,7 +19,7 @@ To be clear, the key takeaway is that Content Analytics provides data and insigh
 
 ## How does Branch identify my content?
 
-First, it's possible right now for developers to identify a piece of content themselves using BranchUniversalObject, which is supported in our most up-to-date SDKs and is documented for **[iOS here](https://docs.branch.io/apps/ios/#create-content-referenceq3)** and for **[Android here](https://docs.branch.io/apps/android/#create-content-reference)**. We encourage our partners to use BranchUniversalObject because it provides maximum accuracy for content classification because you, the developer, tell Branch exactly what constitutes a piece of content.
+First, it's possible right now for developers to identify a piece of content themselves using BranchUniversalObject, which is supported in our most up-to-date SDKs and is documented for **[iOS here](https://docs.branch.io/apps/ios/#create-content-reference)** and for **[Android here](https://docs.branch.io/apps/android/#create-content-reference)**. We encourage our partners to use BranchUniversalObject because it provides maximum accuracy for content classification because you, the developer, tell Branch exactly what constitutes a piece of content.
 
 But Content Analytics doesn't require that you use BranchUniversalObject. Branch will automatically parse your links, looking for parameters that deep link to content, and we will populate Content Analytics using this data. By default, Branch will scan for content in the following link parameters, in this order:
 
