@@ -99,13 +99,14 @@
   {% if config.extra.sources.algolia %}
     <script src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
     <script>docsearch({
-      apiKey:"{{ config.extra.sources.algolia.key }}",
+      appId:"{{ config.extra.sources.algolia.appId }}",
+      apiKey:"{{ config.extra.sources.algolia.apiKey }}",
       indexName:"{{ config.extra.sources.algolia.index }}",
       inputSelector:"{{ config.extra.sources.algolia.selector }}",
       {% if config.extra.sources.algolia.debug == true %}
         debug:"{{ config.extra.sources.algolia.debug }}",
       {% endif %}
-      algoliaOptions:{hitsPerPage:"{{ config.extra.sources.algolia.hits }}"}})</script>
+      algoliaOptions:{hitsPerPage:"{{ config.extra.sources.algolia.hits }}", facetFilters: ["lang:/"]}})</script>
   {% endif %}
 
 {% endblock %}
