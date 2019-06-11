@@ -44,6 +44,9 @@ Each attribution window has its own default measured in days. Please refer to th
     *   **Note**: This setting also covers the maximum length of time allowed for fingerprint matching. Hence changing this value will also change the length of time allowed to use a fingerprint for attribution.
 *   **Re-engagement Inactivity** defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. Used in re-engagement cohort analysis but not activity analysis.
 
+!!! info "Changing Attribution Window Settings"
+	Once you change an attribution window setting, please allow up to several minutes for the change to persist through our system.  New attribution window settings will apply to future attributions **only**.
+
 
 ### Org-level vs. App-level vs. Ad Network-level Settings
 
