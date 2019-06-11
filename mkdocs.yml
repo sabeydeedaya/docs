@@ -83,7 +83,8 @@ extra:
     linkedin: '21211'
     bizible: true
     algolia:
-      key: '887017d17a2c1e9490ad2c44caa7e817'
+      appId: 'WWVVC15B3P'
+      apiKey: '63fed64eb90bdb869334f90e3568b813'
       index: 'branchmetrics'
       selector: '#algolia-doc-search'
       debug: false
