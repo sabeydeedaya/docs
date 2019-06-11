@@ -41,9 +41,6 @@ jobs:
               aws s3 cp index.html << parameters.s3-bucket >>/${REDIRECTS[0]} --website-redirect ${REDIRECTS[1]}
             done < redirects.txt
             rm index.html
-      - run:
-          name: Build Docsearch index
-          command: docker run -it --env-file=docsearch.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper:v1.3.1
   deploy-production:
     parameters:
       s3-bucket:
