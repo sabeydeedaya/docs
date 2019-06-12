@@ -35,3 +35,5 @@ deep-linked-ads/google-uac/index.html https://docs.branch.io/deep-linked-ads/goo
 integrations/tune.md/index.html https://docs.branch.io/integrations/data-integrations-list/
 dashboard/people-based-attribution/index.html https://docs.branch.io/resources/branch-attribution-logic-and-settings/
 deep-linked-ads/hasoffers-mobile-tracking/index.html https://docs.branch.io/deep-linked-ads/tune-mobile-tracking/
+activity-reports-analytics/content-analytics/index.html https://docs.branch.io/dashboard/analytics-overview/
+emails/get-started/#deep-linking-settings-for-email/index.html https://docs.branch.io/emails/universal-email/#deep-linking-settings-for-email
