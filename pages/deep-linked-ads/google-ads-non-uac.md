@@ -69,8 +69,8 @@ If you are running any Web-based (non-UAC) Google Ads campaigns and want to leve
 	Because the **Final URL** for your campaigns must match your display URL and not contain any cross-domain redirects, you cannot put a Branch link directly in that box. However, you can append query parameters to the Final URL in order to pass the required data needed for Branch to route and attribute your users properly.
 
 1. Copy your Branch Ad Link from the last section and ensure the copied link has the appropriate additional params (~campaign_id, ~ad_set_id, lpurl, etc.) which should be automatically generated on your Branch dashboard.
-1. URL encode the Branch Ad Link you just created and copied.
-1. Append `&branchify_url=URL ENDCODED BRANCH LINK` to your Final URL.
+1. URL encode the Branch Ad Link you just created and copied, however leave any "{" or "}" unencoded. This will ensure these valuetrack params are properly filled in by Google.
+1. Append &branchify_url=PARTIALLY URL ENDCODED BRANCH LINK to your Final URL.
 
 ### Create Your Campaign
 
@@ -104,7 +104,7 @@ Search Network | Sales | Cross-platform Search
 Search Network | Leads | Cross-platform Search
 Search Network | Website Traffic | Cross-platform Search
 
-For Search App Extensions, the Google Conversion API that Branch relies on for app event attribution will confirm Android conversions, with limited support for iOS search/web attributions. You can use a Branch link within the tracking template for iOS App Extensions, but this will result in attributions counted in Branch that are not counted as conversions in Google. 
+For Search App Extensions, the Google Conversion API that Branch relies on for app event attribution will confirm Android conversions, with limited support for iOS search/web attributions. You can use a Branch link within the tracking template for iOS App Extensions, but this will result in attributions counted in Branch that are not counted as conversions in Google.
 
 #### OS Support and Major Differences
 
