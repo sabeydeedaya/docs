@@ -8,9 +8,11 @@ Snap is a self-attributing network (SAN).
 
 Snap campaign tracking can show you how many installs and conversion events were attributed to Snap, allowing you to make informed decisions with your advertising dollars.
 
-Branch supports attribution for the following Snap campaign types:
+Branch and Snap supports mobile app conversion attribution for the following campaign types:
   - App Installs
   - Drive Traffic to App
+  
+If you use Branch links on other campaign types (removing the deeplink_no_, this may result in a discrepancy where Branch is able to report based on Branch link attribution, but Snap does not support mobile conversions on other campaign types. If you still want to track these types of campaigns in Branch only, make sure to remove the 'deeplink_no_attribution' flag from the link.
 
 ## Prerequisites
 
@@ -62,7 +64,7 @@ Before you begin, be sure the following is confirmed.
 
 ## Using Branch Links in Snap Campaigns
 
-While the `App Installs` campaign type does not require the use of Branch links, you can insert Branch links into the `Drive Traffic to App` campaign type for ensuring proper routing including deferred deep linking.
+Branch links are not necessary for attribution, however, you can insert Branch links into the `Drive Traffic to App` campaign type if you are trying to use deferred deeplinking (send users to a specific page after install+launch). 
 
 To use Branch links in your `Drive Traffic to App` campaigns:
 
@@ -77,6 +79,7 @@ To use Branch links in your `Drive Traffic to App` campaigns:
 
 !!! warning "Web Site as Fallback Required for Deferred Deep Linking"
     Please ensure you choose `Web Site` as the `FALLBACK TYPE` and inserting the same Branch link into the provided field.  If you choose `App Install` as the `FALLBACK TYPE`, users not properly routed will be sent to the App Store without the Branch link and deferred deep linking will not occur.
+    
 
 {! ingredients/deep-linked-ads/add-agency-prefix-san-only.md !}
 
