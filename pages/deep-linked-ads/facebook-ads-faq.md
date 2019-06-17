@@ -125,7 +125,7 @@ We cannot send device-level Facebook attribution data to third parties. Thus we 
 | [Webhooks](/exports/ua-webhooks/) | Device-level analytics * |
 | [Data Integrations](/integrations/data-integrations/) | Not supported |
 
-(*) You must have signed you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos){:target="\_blank"} to view this data
+[x] You must have signed you have signed Facebook's ["Advanced Mobile Measurement" agreement ("Data Use Terms for Advanced Mobile App Measurement")](https://www.facebook.com/ads/manage/advanced_mobile_measurement/tos) to view this data.
 
 Here is the page where you can see which ad accounts have signed the AMM agreement:
 
