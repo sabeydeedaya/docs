@@ -1,6 +1,6 @@
 ## Overview
 
-![Adison Offerwall](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/adison_offerwall.png)
+![Adison Offerwall](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/adison_offerwall.png)
 
 This guide will walk you through how to setup your campaigns with **[Adison Offerwall](http://nbt.com/about/nbt/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

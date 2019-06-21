@@ -1,6 +1,6 @@
 ## Overview
 
-![SIROK Inc](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/sirok.png)
+![SIROK Inc](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/sirok.png)
 
 This guide will walk you through how to setup your campaigns with **[SIROK Inc](http://sirok.co.jp/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

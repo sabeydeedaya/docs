@@ -1,6 +1,6 @@
 ## Overview
 
-![QooApp Limited](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/qooapp.png)
+![QooApp Limited](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/qooapp.png)
 
 This guide will walk you through how to setup your campaigns with **[QooApp Limited](https://www.qoo-app.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

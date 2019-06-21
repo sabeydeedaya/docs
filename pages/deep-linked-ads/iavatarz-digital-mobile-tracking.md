@@ -1,6 +1,6 @@
 ## Overview
 
-![Iavatarz Digital](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/iavatarz.png)
+![Iavatarz Digital](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/iavatarz.png)
 
 This guide will walk you through how to setup your campaigns with **[Iavatarz Digital](http://www.iavatarz.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Cross Audience LLC](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/cross.png)
+![Cross Audience LLC](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/cross.png)
 
 This guide will walk you through how to setup your campaigns with **[Cross Audience LLC](http://crossaudience.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

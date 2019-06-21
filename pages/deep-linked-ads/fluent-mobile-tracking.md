@@ -1,6 +1,6 @@
 ## Overview
 
-![Fluent](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/fluent.png)
+![Fluent](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/fluent.png)
 
 This guide will walk you through how to setup your campaigns with **[Fluent](http://www.fluentco.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
