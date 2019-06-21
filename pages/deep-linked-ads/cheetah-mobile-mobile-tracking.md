@@ -1,6 +1,6 @@
 ## Overview
 
-![Cheetah Mobile](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/cheetah_mobile.png)
+![Cheetah Mobile](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/cheetah_mobile.png)
 
 This guide will walk you through how to setup your campaigns with **[Cheetah Mobile](http://www.cmcm.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Inneractive](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/inner.png)
+![Inneractive](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/inner.png)
 
 This guide will walk you through how to setup your campaigns with **[Inneractive](http://inner-active.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

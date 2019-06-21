@@ -1,6 +1,6 @@
 ## Overview
 
-![Cyberagent Inc Ameba](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/ameba.png)
+![Cyberagent Inc Ameba](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/ameba.png)
 
 This guide will walk you through how to setup your campaigns with **[Cyberagent Inc Ameba](https://www.cyberagent.co.jp/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

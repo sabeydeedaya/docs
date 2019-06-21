@@ -1,6 +1,6 @@
 ## Overview
 
-![APPSILON](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/appsilon.png)
+![APPSILON](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/appsilon.png)
 
 This guide will walk you through how to setup your campaigns with **[APPSILON](http://appsilon.kr/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

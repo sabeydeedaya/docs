@@ -1,6 +1,6 @@
 ## Overview
 
-![UNICORN](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/Unicorn.png)
+![UNICORN](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/Unicorn.png)
 
 This guide will walk you through how to setup your campaigns with **[UNICORN](https://uni-corn.net/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

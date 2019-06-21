@@ -1,6 +1,6 @@
 ## Overview
 
-![The Zero Games](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/thezerogames.png)
+![The Zero Games](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/thezerogames.png)
 
 This guide will walk you through how to setup your campaigns with **[The Zero Games](http://www.thezerogames.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

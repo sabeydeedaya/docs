@@ -1,6 +1,6 @@
 ## Overview
 
-![Domob](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/domob.png)
+![Domob](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/domob.png)
 
 This guide will walk you through how to setup your campaigns with **[Domob](http://www.domob.cn/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Marge Inc](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/asterisk.png)
+![Marge Inc](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/asterisk.png)
 
 This guide will walk you through how to setup your campaigns with **[Marge Inc](http://www.astrsk.net/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

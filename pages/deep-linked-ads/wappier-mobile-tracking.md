@@ -1,6 +1,6 @@
 ## Overview
 
-![Wappier](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/wappier.png)
+![Wappier](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/wappier.png)
 
 This guide will walk you through how to setup your campaigns with **[Wappier](http://www.wappier.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

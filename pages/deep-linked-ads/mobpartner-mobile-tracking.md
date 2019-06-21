@@ -1,6 +1,6 @@
 ## Overview
 
-![MobPartner](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mobpartner.png)
+![MobPartner](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mobpartner.png)
 
 This guide will walk you through how to setup your campaigns with **[MobPartner](http://www.mobpartner.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

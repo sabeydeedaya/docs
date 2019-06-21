@@ -1,6 +1,6 @@
 ## Overview
 
-![Geniee Inc](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/geniee.png)
+![Geniee Inc](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/geniee.png)
 
 This guide will walk you through how to setup your campaigns with **[Geniee Inc](http://en.geniee.co.jp/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
