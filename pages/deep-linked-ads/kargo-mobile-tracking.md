@@ -1,6 +1,6 @@
 ## Overview
 
-![Kargo](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/kargo.png)
+![Kargo](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/kargo.png)
 
 This guide will walk you through how to setup your campaigns with **[Kargo](https://www.kargo.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

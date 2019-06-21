@@ -1,6 +1,6 @@
 ## Overview
 
-![AMoAd ADNW](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/amoad.png)
+![AMoAd ADNW](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/amoad.png)
 
 This guide will walk you through how to setup your campaigns with **[AMoAd ADNW](http://www.adpopcorn.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

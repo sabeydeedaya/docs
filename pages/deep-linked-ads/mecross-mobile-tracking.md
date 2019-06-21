@@ -1,6 +1,6 @@
 ## Overview
 
-![Mecross](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mecros_logo.png)
+![Mecross](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mecros_logo.png)
 
 This guide will walk you through how to setup your campaigns with **[Mecross](http://www.mecross.net/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

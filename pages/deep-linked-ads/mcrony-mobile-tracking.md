@@ -1,6 +1,6 @@
 ## Overview
 
-![MCRONY Co Ltd](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mcrony.png)
+![MCRONY Co Ltd](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mcrony.png)
 
 This guide will walk you through how to setup your campaigns with **[MCRONY Co Ltd](https://www.mcrony.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

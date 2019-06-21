@@ -1,6 +1,6 @@
 ## Overview
 
-![CrossTarget & Affolio](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/Affolio_and_CrossTarget.png)
+![CrossTarget & Affolio](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/Affolio_and_CrossTarget.png)
 
 This guide will walk you through how to setup your campaigns with **[CrossTarget & Affolio](http://www.onnuridmc.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

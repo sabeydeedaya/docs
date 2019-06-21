@@ -1,6 +1,6 @@
 ## Overview
 
-![nend](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/nend.png)
+![nend](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/nend.png)
 
 This guide will walk you through how to setup your campaigns with **[nend](http://adjapon.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

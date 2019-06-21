@@ -1,6 +1,6 @@
 ## Overview
 
-![Performance Revenues](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/preformacerevenues.png)
+![Performance Revenues](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/preformacerevenues.png)
 
 This guide will walk you through how to setup your campaigns with **[Performance Revenues](http://www.performancerevenues.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

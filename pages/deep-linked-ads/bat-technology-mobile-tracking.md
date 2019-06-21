@@ -1,6 +1,6 @@
 ## Overview
 
-![BAT TECHNOLOGY](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/batmobi.png)
+![BAT TECHNOLOGY](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/batmobi.png)
 
 This guide will walk you through how to setup your campaigns with **[BAT TECHNOLOGY](http://www.batmobi.net)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
