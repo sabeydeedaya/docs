@@ -757,6 +757,7 @@ nav:
       - Adobe Campaign Standard: emails/adobe-campaign-standard.md
       - Amazon Simple Email Service: emails/amazon-ses.md
       - Betaout: emails/betaout.md
+      - BlueCore: emails/bluecore.md
       - Blueshift: emails/blueshift.md
       - Braze (via SendGrid): emails/braze.md
       - Braze (via Mailjet): emails/braze-mailjet.md
