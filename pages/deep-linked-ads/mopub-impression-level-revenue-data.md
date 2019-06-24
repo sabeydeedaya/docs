@@ -24,8 +24,8 @@ By completing the following, you can view your MoPub Impression-level Revenue Da
 - [x] MoPub SDK 5.7.0
 - [x] Branch-specific Listener Code Implemented in Your App
 - [x] Branch SDK using v2 events
-	- [x] iOS SDK v0.21.9
-	- [x] Android SDK v
+	- [x] iOS SDK v0.21.9+
+	- [x] Android SDK v2.14+
 
 ## Branch-specific Listener Code Samples
 
