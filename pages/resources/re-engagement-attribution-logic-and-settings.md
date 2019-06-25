@@ -29,7 +29,7 @@ To modify your app-level re-engagement inactivity window:
 While the app-level re-engagement inactivity window is a global setting that applies to any partner you work with to market your app and can be used in re-engagement cohort analysis and postbacks, there is also a related partner-level setting. This setting allows you to attribute based on install touch only, **essentially disregarding any re-engagements for attribution**. Unlike the app-level setting, this impacts all analytics and postbacks, and can be configured on a per partner basis.
 
 !!! warning “Enabling Install Touch Setting”
-	Currently the partner-level setting to disable re-engagement and attribute based on install touch only is not available in your Branch dashboard.  If you are interested in having enabling this setting for your account, please contact [support@branch.io](mailto:support@branch.io).
+		Currently the partner-level setting to disable re-engagement and attribute based on install touch only is not 	available in your Branch dashboard.  If you are interested in having enabling this setting for your account, please	contact [support@branch.io](mailto:support@branch.io).
 
 ## Viewing Re-Engagement in Reporting
 
