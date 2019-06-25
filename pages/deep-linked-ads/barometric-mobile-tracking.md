@@ -1,6 +1,6 @@
 ## Overview
 
-![Barometric](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/barometric.png)
+![Barometric](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/barometric.png)
 
 This guide will walk you through how to setup your campaigns with **[Barometric](http://barometric.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

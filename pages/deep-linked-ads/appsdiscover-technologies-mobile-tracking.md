@@ -1,6 +1,6 @@
 ## Overview
 
-![AppsDiscover Technologies](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/appsdi.png)
+![AppsDiscover Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/appsdi.png)
 
 This guide will walk you through how to setup your campaigns with **[AppsDiscover Technologies](https://appsdiscover.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

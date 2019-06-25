@@ -1,6 +1,6 @@
 ## Overview
 
-![Epom Market](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/epom.png)
+![Epom Market](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/epom.png)
 
 This guide will walk you through how to setup your campaigns with **[Epom Market](https://market.epom.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

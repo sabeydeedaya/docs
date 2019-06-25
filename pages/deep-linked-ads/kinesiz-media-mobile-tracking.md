@@ -1,6 +1,6 @@
 ## Overview
 
-![Kinesiz Media](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/km01.png)
+![Kinesiz Media](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/km01.png)
 
 This guide will walk you through how to setup your campaigns with **[Kinesiz Media](https://www.kinesiz.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Aki Technologies](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/Aki.png)
+![Aki Technologies](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/Aki.png)
 
 This guide will walk you through how to setup your campaigns with **[Aki Technologies](https://a.ki/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
