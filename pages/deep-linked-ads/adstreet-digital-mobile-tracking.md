@@ -1,8 +1,8 @@
 ## Overview
 
-![Adstreet Digital](https://cdn.branch.io/branch-assets/ad-partner-manager//adAhead_logo-1559278641434.png)
+![Adstreet Digital](https://cdn.branch.io/branch-assets/ad-partner-manager//a17052b45c19-Original_png_225_100-1561015498543.png)
 
-This guide will walk you through how to setup your campaigns with **[Adstreet Digital](http://adahead.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
+This guide will walk you through how to setup your campaigns with **[Adstreet Digital](https://www.adstreetdigital.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
 {! ingredients/deep-linked-ads/overview-steps.md !}
 
@@ -14,11 +14,11 @@ This guide will walk you through how to setup your campaigns with **[Adstreet Di
 
 {! ingredients/deep-linked-ads/enable-partner.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/adahead/adahead-enable.png)
+![image](/_assets/img/pages/deep-linked-ads/adstreet-digital/adstreet-digital-enable.png)
 
 {! ingredients/deep-linked-ads/enable-partner-tip.md !}
 
-![image](/_assets/img/pages/deep-linked-ads/adahead/adahead-postbacks.png)
+![image](/_assets/img/pages/deep-linked-ads/adstreet-digital/adstreet-digital-postbacks.png)
 
 {! ingredients/deep-linked-ads/create-ad-link.md !}
 
