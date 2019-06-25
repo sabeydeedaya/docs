@@ -26,9 +26,7 @@ To modify your app-level re-engagement inactivity window:
 
 ## Partner Settings for Acquisition Only Campaigns
 
-While the app-level re-engagement inactivity window is a global setting that applies to any partner you work with to market your app and can be used in re-engagement cohort analysis and postbacks, there is also a related partner-level setting. This setting allows you to attribute based on install touch only, essentially disregarding any re-engagements for attribution. Unlike the app-level setting, this impacts all analytics and postbacks, and can be configured on a per partner basis.
-
-![image](/_assets/img/pages/resources/matching/install-touch-attribution.png)
+While the app-level re-engagement inactivity window is a global setting that applies to any partner you work with to market your app and can be used in re-engagement cohort analysis and postbacks, there is also a related partner-level setting. This setting allows you to attribute based on install touch only, **essentially disregarding any re-engagements for attribution**. Unlike the app-level setting, this impacts all analytics and postbacks, and can be configured on a per partner basis.
 
 !!! warning “Enabling Install Touch Setting”
 	Currently the partner-level setting to disable re-engagement and attribute based on install touch only is not available in your Branch dashboard.  If you are interested in having enabling this setting for your account, please contact [support@branch.io](mailto:support@branch.io).
@@ -50,7 +48,7 @@ To view a re-engagement cohort:
 If you transitioned from TUNE to Branch, there are a few things to keep in mind regarding re-engagement attribution functionality in Branch.
 
 *   The default Re-engagement inactivity window in Branch is set to a default of 7 days, whereas the re-engagement inactivity window did not exist in TUNE and was effectively set to 0. This means, you will notice less events marked as re-engagement due to the longer period of time required to pass between events.  You can modify this setting by changing the Re-engagement inactivity window in your Branch account as mentioned above.
-*   The TUNE `is_reengagment` parameter is mapped to Branch’s `reengagement_activity.attributed` parameter and is available via:
+*   The TUNE `is_reengagement` parameter is mapped to Branch’s `reengagement_activity.attributed` parameter and is available via:
     *   **Re-engagement Cohorts report as described above**
     *   **Postbacks** using the Branch macro <#if (reengagement_activity.attributed)?? && reengagement_activity.attributed>1<#else>0</#if>
     *   **Exports** using the Branch field `reengagement_activity.attributed`
