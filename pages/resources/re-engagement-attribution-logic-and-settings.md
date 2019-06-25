@@ -10,7 +10,7 @@ Similar to the function of the attribution windows referenced above, the re-enga
 
 Denoting an event is re-engagement occurs in addition to the attribution of the event itself; i.e. the event is first attributed using the attribution windows above and then marked as re-engagement when applicable using the re-engagement inactivity window.
 
-![image](/_assets/img/pages/resources/matching/install-touch-attribution.png)
+![image](/_assets/img/pages/resources/matching/reengagement-inactivity.png)
 
 ## Re-Engagement Inactivity Window Settings
 
