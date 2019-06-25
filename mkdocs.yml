@@ -98,6 +98,7 @@ nav:
     - Attribution:
       - Branch Matching Overview: resources/matching.md
       - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
+      - Re-engagement Attribution Logic & Settings: resources/re-engagement-attribution-logic-and-settings.md
       - Comparing Installs to Apple iTunes and Google Play: resources/comparing-installs.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
@@ -630,7 +631,7 @@ nav:
       - Polyvalent Digital Services: deep-linked-ads/polyvalent-digital-services-mobile-tracking.md
       - Prappers : deep-linked-ads/prappers-mobile-tracking.md
       - ProfiliAd : deep-linked-ads/profiliad-mobile-tracking.md
-      - Proformics Digtech: deep-linked-ads/proformic-digitech-mobile-tracking.md
+      - Proformics Digtech: deep-linked-ads/proformics-digitech-mobile-tracking.md
       - Propeller Ads : deep-linked-ads/propeller-ads-mobile-tracking.md
       - Qooapp Limited : deep-linked-ads/qooapp-limited-mobile-tracking.md
       - Quora : deep-linked-ads/quora-mobile-tracking.md
