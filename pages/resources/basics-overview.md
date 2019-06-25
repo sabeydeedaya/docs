@@ -5,6 +5,7 @@ People-Based Attribution stitches all of these identity fragments back together.
 ## Attribution
 - [Branch Matching Overview](/resources/matching/)
 - [Branch Attribution Logic & Settings](/resources/branch-attribution-logic-and-settings/)
+- [Re-engagment Attribution Logic & Settings](/resources/re-engagement-attribution-logic-and-settings/)
 - [Comparing Installs to Apple iTunes & Google Play](/resources/comparing-installs/)
 ## Starting with Branch
 - [Importing Historical User Data](/dashboard/importing-historical-user-data/)
