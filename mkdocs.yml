@@ -99,7 +99,10 @@ nav:
       - Branch Matching Overview: resources/matching.md
       - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
       - Re-engagement Attribution Logic & Settings: resources/re-engagement-attribution-logic-and-settings.md
+      - Advertising Identifiers for Attribution: resources/advertising-identifiers-for-attribution.md
       - Comparing Installs to Apple iTunes and Google Play: resources/comparing-installs.md
+    - Data Mapping & Formatting:
+      - Postback Macros & Functions: resources/postback-macros-and-functions.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
     - Agency & Ad Partner Access:
@@ -844,6 +847,7 @@ nav:
       - Segment (export): integrations/segment.md
       - Segment (import): integrations/segment-import.md
       - Singular: integrations/singular.md
+      - TrafficGaurd: integrations/trafficguard.md
       - WebEngage: integrations/webengage.md
     - Partner Resources:
       - Branch Certified Partner Program: partner-management/branch-certified-partner-program.md
@@ -891,6 +895,8 @@ nav:
       - Facebook 플랫폼 광고: ko/facebook-platform-ads.md
       - Facebook 트래픽 및 전환 광고: ko/facebook-traffic-conversion-ads.md
       - Google 광고에 대한 전반적인 소개 : ko/google-ads-overview.md
+      - 앱 인스톨 캠페인: ko/google-ads-uac.md
+      - 웹 기반 광고(비 UAC): ko/google-ads-non-uac.md
       - Apple 광고 캠페인 트래킹 관련: ko/apple-mobile-tracking.md
       - 카카오 광고 캠페인 트래킹 관련: ko/kakao-mobile-tracking.md
       - 네이버 광고 캠페인 트래킹 관련 : ko/naver-mobile-tracking.md
