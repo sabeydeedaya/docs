@@ -1,6 +1,6 @@
 ## Overview
 
-![Sparkpost](https://branchmetrics.github.io/docs/_assets/img/pages/email/sparkpost/sparkpost.png)
+![Sparkpost](/_assets/img/pages/email/sparkpost/sparkpost.png)
 
 This guide will walk you through how to setup your email campaigns with **[Sparkpost](https://sparkpost.com){:target="\_blank"}** using Branch Universal Email to automatically convert your email links into **multi-platform deep links**
 
