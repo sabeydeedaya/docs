@@ -21,7 +21,7 @@ To link your Branch account with TrafficGuard, you will need the following:
 
 1. Open the TrafficGuard Portal.
  2. Go to Properties in the Side Navigation.
-3. Select the property you want to link with Branch MMP. 
+3. Select the property you want to link with Branch MMP.
 4. Click on Settings or Copy the Property ID.
 
 ![image](/_assets/img/pages/integrations/trafficguard/trafficguard-property-id.png)
@@ -42,7 +42,7 @@ To link your Branch account with TrafficGuard, you will need the following:
 
 {! ingredients/data-integrations/add-credentials.md !}
 
-### What Branch sends to Convertro
+### What Branch sends to TrafficGuard
 
 * Install
 * Click
