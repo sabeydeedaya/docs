@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   aws-s3: circleci/aws-s3@1.0.4
+  jq: circleci/jq@1.8.0
 
 jobs:
   deploy-staging:
@@ -16,6 +17,7 @@ jobs:
     working_directory: ~/docs
     steps:
       - checkout
+      - jq/install
       - run:
           name: Install requirements
           command: pip install -r requirements.txt
@@ -77,6 +79,9 @@ jobs:
       - run:
           name: Clear CloudFront
           command: aws cloudfront create-invalidation --distribution-id E3L0JJHM8M3QTI --paths "/*"
+      - run:
+          name: Build Docsearch index
+          command: docker run -it --env-file=docsearch.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper:v1.3.1
 
 workflows:
   version: 2.1

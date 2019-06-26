@@ -1,6 +1,6 @@
 ## Overview
 
-![Smart-C](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/smart_c.png)
+![Smart-C](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/smart_c.png)
 
 This guide will walk you through how to setup your campaigns with **[Smart-C](http://adways.net/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

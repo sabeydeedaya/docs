@@ -1,6 +1,6 @@
 ## Overview
 
-![Zucks Affiliate](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/zucksaffiliate.png)
+![Zucks Affiliate](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/zucksaffiliate.png)
 
 This guide will walk you through how to setup your campaigns with **[Zucks Affiliate](http://zucks.co.jp/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

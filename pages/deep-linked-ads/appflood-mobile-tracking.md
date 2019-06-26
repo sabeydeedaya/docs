@@ -1,6 +1,6 @@
 ## Overview
 
-![AppFlood](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/appflood.png)
+![AppFlood](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/appflood.png)
 
 This guide will walk you through how to setup your campaigns with **[AppFlood](https://ads.papayamobile.com/en/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

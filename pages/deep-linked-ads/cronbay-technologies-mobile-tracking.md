@@ -1,6 +1,6 @@
 ## Overview
 
-![Cronbay Technologies Pvt. LTD](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/cronbay_technologies.png)
+![Cronbay Technologies Pvt. LTD](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/cronbay_technologies.png)
 
 This guide will walk you through how to setup your campaigns with **[Cronbay Technologies Pvt. LTD](http://cronbay-tech.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

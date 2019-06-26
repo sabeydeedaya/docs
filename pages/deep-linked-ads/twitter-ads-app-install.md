@@ -14,8 +14,8 @@ By connecting your Twitter Ads and Branch accounts, the following is enabled:
 ## Prerequisites
 
 !!! warning "Prerequisites"
-	* [x] To track installs from Twitter Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app.
-	* [x] To use Branch links in Twitter App Install Ads ensure you have:
+	* [x] To track installs from Twitter Ads you should [integrate the Branch SDK](/apps/ios/#integrate-branch) into your app OR send events via server to server integration including device IDs (Google AID or Apple IFA).
+	* [x] To use Twitter App Install Ads ensure you have:
 		* [x] URI schemes configured on iOS
 		* [x] URI schemes configured on Android
 		* [x] iOS App Store ID set
@@ -100,6 +100,57 @@ LOGIN | LOGIN
 INVITE | INVITE
 
 In order to track these events, please refer to the [v2 Event document](/apps/v2event/#v2-event) for further information.
+
+## Twitter Data Sharing
+
+Twitter has a data agreement with TUNE, and there are several layers of data that are concealed and can be exposed depending on who is accessing the data, and how the data is being accessed or exported.
+
+### Data Levels
+
+**Source Level** > Source level is the source information including Partner name (Twitter Ads) and Partner Site (PROMOTED, ORGANIC, TAP).
+
+**Campaign Level** > Campaign level includes campaign information such as Partner Campaign (campaign name), Partner Ad (Tweet ID), Partner Ad Group (Line Item ID)
+
+### Accessible Data
+
+#### Clients
+
+**Branch API/UI**:
+
+ - [x] Can access source and campaign level data by default in aggregate reports.
+ - [x] Source and campaign level data is not accessible in exports.
+
+**Postbacks**:
+
+ - [x] Can receive source level data with identifiers by default to an *internal BI endpoint only* Data can not be sent to third party analytics (see below for third parties) – the postback must be whitelisted for source level data by contacting support.
+ - [x] Campaign level data can not be sent to internal endpoints by default, please speak with your Twitter account manager for more information.
+
+#### Partners
+
+Only official Twitter partners can be attributed to and access Twitter data, those found at partners.twitter.com.
+
+**Branch API/UI**:
+
+ - [x] Can see source and campaign level data without identifiers for conversions they are attributed to (Twitter conversions that contain their attribution string in the campaign name).
+ - [x] Identifiers are never accessible.
+
+**Postbacks**:
+
+ - [x] Can receive source and campaign level data to their endpoints, and identifiers will be scrubbed out, no exceptions. This occurs by default and does not need whitelisting for a partner that has Twitter enabled on their integration.
+
+#### Third parties (analytics providers)
+
+ - [x] Third parties (not client or official Twitter partner) **can not receive Twitter data, no exceptions**.
+ - [x] Postbacks set up to analytics providers will scrub source and campaign level information by default, identifiers will still pass through, and the conversions will appear organic to the third party.
+
+#### Agencies
+
+Agencies can access Twitter data under the following circumstances:
+
+ - [x] If they have been provided full agency access by the client.
+ - [x] If they are an official Twitter partner.
+ - [x] If they append their agency attribution code to the Twitter campaign they are running.
+
 
 ## Troubleshooting
 

@@ -42,20 +42,6 @@ Our reporting layer balances speed and efficiency with completeness and complexi
 	</a>
 </div>
 
-## Cross Channel Analytics
-<!-- Deep Links -->
-<div class="nav-wrap flex-wrap">
-<!-- Need content
-	<a href="/activity-reports-analytics/sources-analytics/">
-  	<img src="../../../_assets/img/pages/analytics/source.png" />
-  	<p>Sources Analytics</p>
-	</a> -->
-	<a href="/activity-reports-analytics/content-analytics/">
-  	<img src="../../../_assets/img/pages/channels/content.png" />
-  	<p>Content Analytics</p>
-	</a>
-</div>
-
 ## Testing Analytics
 <!-- Deep Links -->
 <div class="nav-wrap flex-wrap">

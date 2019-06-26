@@ -1,6 +1,6 @@
 ## Overview
 
-![Mobidays](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mobidays.png)
+![Mobidays](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mobidays.png)
 
 This guide will walk you through how to setup your campaigns with **[Mobidays](http://www.mobidays.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Dreamin](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/dreamin.png)
+![Dreamin](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/dreamin.png)
 
 This guide will walk you through how to setup your campaigns with **[Dreamin](http://dreamin.io/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

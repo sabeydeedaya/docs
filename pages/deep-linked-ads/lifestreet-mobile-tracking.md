@@ -1,6 +1,6 @@
 ## Overview
 
-![LifeStreet](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/lifestreet.png)
+![LifeStreet](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/lifestreet.png)
 
 This guide will walk you through how to setup your campaigns with **[LifeStreet](http://www.lifestreet.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

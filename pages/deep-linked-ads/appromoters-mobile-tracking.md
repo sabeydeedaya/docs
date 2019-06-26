@@ -1,6 +1,6 @@
 ## Overview
 
-![Appromoters B.V.](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/appromoters.png)
+![Appromoters B.V.](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/appromoters.png)
 
 This guide will walk you through how to setup your campaigns with **[Appromoters B.V.](http://www.appromoters.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

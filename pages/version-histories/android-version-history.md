@@ -1,3 +1,23 @@
+
+### v3.2.0
+
+**(2019-May-06)**
+
+- Allow short link creation while privacy is enabled
+
+### v3.1.2
+
+**(2019-April-24)**
+
+- Hardware ID is now included in every request
+- Cleaned up compiler warnings, and updated tools to the latest versions
+
+### v3.1.1
+
+**(2019-March-27)**
+
+- Added support for push notifications while the application is in the foreground
+
 ### v3.1.0
 
 **(2019-March-22)**

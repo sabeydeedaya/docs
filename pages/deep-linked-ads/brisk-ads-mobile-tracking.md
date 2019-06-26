@@ -1,6 +1,6 @@
 ## Overview
 
-![Brisk Ads](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/brisk_ads.png)
+![Brisk Ads](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/brisk_ads.png)
 
 This guide will walk you through how to setup your campaigns with **[Brisk Ads](http://brisk-ads.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![Xmax](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/xmax.png)
+![Xmax](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/xmax.png)
 
 This guide will walk you through how to setup your campaigns with **[Xmax](https://www.xmax.jp/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

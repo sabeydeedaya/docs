@@ -7,7 +7,7 @@ title: Google Marketing Platform App Conversion Tracking
 Branch links can be used together with Google Marketing Platform app conversion ads, allowing you to track ad-driven app conversion (installs and in-app events) on the Branch dashboard.
 
 !!! warning "Google Marketing Platform"
-	The [Google Marketing Platform](https://support.google.com/dcm/answer/9015629?hl=en) is the single new product name for the following products: DoubleClick Bid Manager (DBM), DoubleClick Campaign Manager (DCM) and DoubleClick Search (DS).
+	The [Google Marketing Platform](https://support.google.com/dcm/answer/9015629?hl=en) includes the following products: Display & Video 360 (Formerly DoubleClick Bid Manager), Campaign Manager (Formerly DoubleClick Campaign Manager) and Search Ads 360 (formerly DoubleClick Search).
 
 	Please make sure to use `Google Marketing Platform` in your Branch dashboard and not `Doubleclick` which is the legacy integration and does not include server-side attribution responses.
 
@@ -19,13 +19,8 @@ By connecting your Google Marketing Platform and Branch accounts, the following 
 ## Prerequisites
 
 !!! warning "Prerequisites"
-	* [x] To track conversions from Google Marketing Platform Ads you should [integrate the Branch SDK](https://docs.branch.io/resources/native-sdks-and-plugins/) into your app.
-	* [x] To use Branch links in Google Marketing Platform Ads ensure you have:
-		* [x] URI schemes configured on iOS
-		* [x] URI schemes configured on Android
-		* [x] iOS App Store ID set
-		* [x] Android Package Name set
-	* [x] Ads is a premium product priced on Monthly Active Users. Sign up for the Ads product to enable this functionality.
+	* [x] To track conversions from Google Marketing Platform Ads you should [integrate the Branch SDK](https://docs.branch.io/resources/native-sdks-and-plugins/) into your app, and/or if you are using S2S, ensure that advertising ID's are being passed to Branch. 
+	* [x] You must request whitelisting from your Google rep for the new 'App Analytics' section of Floodlight Configuration in CM in order to generate link ID's for this integration
 
 ## Configure Branch as App Analytics Partner in Google Marketing Platform
 

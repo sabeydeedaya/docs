@@ -1,8 +1,4 @@
 {% extends "main.html" %}
-
-<!-- viant tracking -->
-<IMG SRC="https://mpp.vindicosuite.com/mpp/?y=2&t=i&tp=1&clid=23441&pixid=99125387&rnd=" style="display: none">
-
 <!-- Stylesheets -->
 {% block styles %}
 
@@ -147,3 +143,10 @@
   {{ page.content }}
 
 {% endblock %}
+
+<!-- viant tracking -->
+  <!-- RET Pixel -->
+  <script>document.write("<scr"+"ipt src='https://mpp.vindicosuite.com/mpp/?y=2&t=j&tp=1&clid=23441&pixid=99125387&rnd=<timestamp_here>&u="+escape(parent.document.location)+"&r="+escape(parent.document.referrer)+"'></scri"+"pt>");</script><NOSCRIPT><IMG SRC="https://mpp.vindicosuite.com/mpp/?y=2&t=i&tp=1&clid=23441&pixid=99125387&rnd=<timestamp_here>" style="display: none"></NOSCRIPT>
+  <!-- Conversion pixel -->
+  <img src='https://mpp.vindicosuite.com/conv/v=5;m=1;t=27340;ts=' style='display: none' />
+<!-- end viant tracking -->

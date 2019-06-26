@@ -1,6 +1,6 @@
 ## Overview
 
-![Beeswax](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/bees.png)
+![Beeswax](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/bees.png)
 
 This guide will walk you through how to setup your campaigns with **[Beeswax](http://www.beeswax.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

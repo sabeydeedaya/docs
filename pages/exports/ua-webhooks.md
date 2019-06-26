@@ -283,7 +283,7 @@ Here is a list of blocked expressions:
 
 ### Authenticating webhook events
 
-To request authentication headers for your webhooks, please contact `integrations@branch.io`.
+To request authentication headers for your webhooks, please contact `support@branch.io`.
 
 ## Support
 
