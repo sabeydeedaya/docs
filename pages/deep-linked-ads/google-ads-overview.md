@@ -67,6 +67,10 @@ ad_group_id | ~ad_set_id | The numeric ID of the ad group that produced with the
 creative_id | ~ad_id | The numeric ID of the creative ad unit that produced the ad event. Only provided when campaign_type is not UAC. | Google Ads Creative ID
 keyword | ~keyword | The search keyword associated with the ad event. Only provided when network_type is Search and campaign_type is not UAC. | Google Ads Keyword
 
+## Enabling and Segmenting View-Through Conversions in reporting
+
+By default, Google Ads includes View-Through Conversion counts in a separate column in reporting. If you have impression windows enabled in Branch, we can also attribute VTC installs and events (when there is not a matching click from another partner). Those will be grouped into the install and event counts, and can be segmented using the 'last attributed touch type' compare by in Branch reporting. You can manage settings to enable this attribution within the attribution settings tab of the Google AdWords partner management or by reaching out to support@branch.io
+
 
 ## Forwarding Events to Google Ads
 

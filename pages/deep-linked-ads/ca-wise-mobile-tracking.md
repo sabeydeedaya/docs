@@ -1,6 +1,6 @@
 ## Overview
 
-![CA Wise](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/cawise.png)
+![CA Wise](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/cawise.png)
 
 This guide will walk you through how to setup your campaigns with **[CA Wise](https://www.ca-wise.co.jp/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

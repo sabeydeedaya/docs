@@ -44,12 +44,28 @@ Each attribution window has its own default measured in days. Please refer to th
     *   **Note**: This setting also covers the maximum length of time allowed for fingerprint matching. Hence changing this value will also change the length of time allowed to use a fingerprint for attribution.
 *   **Re-engagement Inactivity** defines the period between two events that a user must be inactive in order to define the later event as a re-engagement. Used in re-engagement cohort analysis but not activity analysis.
 
+!!! info "Changing Attribution Window Settings"
+	Once you change an attribution window setting, please allow up to several minutes for the change to persist through our system.  New attribution window settings will apply to future attributions **only**.
 
-### App-level vs Ad Network-level Settings
 
-Your default attribution window settings - as described above - are applied at the app-level of your account and therefore apply to every Universal Ad partner you’re working with.
+### Org-level vs. App-level vs. Ad Network-level Settings
 
-You can, however, override these defaults on a per ad partner basis by enabling the use of Ad Partner Attribution Windows for any given ad partner.
+Your default attribution window settings - as described above - can be applied at the org-level, app-level and partner-level of your account.
+
+Each level of attribution settings can exist independently from one another, but you can also choose to inherit (or disinherit) the attribution window settings from a parent level.
+
+#### Inheriting Attribution Window Settings from the Org Level
+
+If your account includes an organization level, you can choose to inherit (or not) its attribution window settings for each individual app in your organization.
+
+To access app-level attribution window settings, navigate to [Link Settings](https://branch.dashboard.branch.io/link-settings), click on the **Attribution Windows** tab and turn the toggle **Inherit attribution windows from your app's parent organization** on.
+
+![image](/_assets/img/pages/dashboard/people-based-attribution/attribution-settings-inherit.png)
+
+
+#### Disinheriting Attribution Window Settings from the App Level
+
+You can override the app-level attribution window defaults on a per ad partner basis by enabling the use of Ad Partner Attribution Windows for any given ad partner.
 
 To access ad partner attribution settings, navigate to the [Partner Management](https://branch.dashboard.branch.io/ads/partner-management) page, search for and select the corresponding Ad Partner, and click on the Attribution Windows tab.
 

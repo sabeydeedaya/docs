@@ -1,6 +1,6 @@
 ## Overview
 
-![mMedia by Millennial Media](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mMedia.png)
+![mMedia by Millennial Media](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mMedia.png)
 
 This guide will walk you through how to setup your campaigns with **[mMedia by Millennial Media](http://www.mmedia.com)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

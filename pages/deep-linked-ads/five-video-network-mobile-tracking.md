@@ -1,6 +1,6 @@
 ## Overview
 
-![FIVE VIDEO NETWORK](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/five.png)
+![FIVE VIDEO NETWORK](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/five.png)
 
 This guide will walk you through how to setup your campaigns with **[FIVE VIDEO NETWORK](http://www.five-corp.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

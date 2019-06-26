@@ -1,6 +1,6 @@
 ## Overview
 
-![Mister Bell](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/misterbell.png)
+![Mister Bell](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/misterbell.png)
 
 This guide will walk you through how to setup your campaigns with **[Mister Bell](http://www.misterbell.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -118,16 +118,18 @@
 
 - ### UTM Behavior
 
-    - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
+!!! warning "Not Enabled by Default"
+    To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
 
-        - ~campaign -> utm_campaign
-        - ~channel -> utm_source
-        - ~feature -> utm_medium
+  - When redirecting to a web URL, Branch automatically passes through any values from the following Branch link analytics tags as UTM parameters:
 
-    - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
-    - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
-    - To enable this functionality, please contact your Customer Success Manager or integrations@branch.io
-    - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
+      - ~campaign -> utm_campaign
+      - ~channel -> utm_source
+      - ~feature -> utm_medium
+
+  - This applies to web URLs defined using any of the following $fallback_url, $ios_url, $android_url, $desktop_url, $original_url, and $canonical_url.
+  - If these UTM parameters are already detected on the URLs being redirected to, Branch will not overwrite them.
+  - For more information about UTM parameters, please read Google Analytic's [Custom Campaigns](https://support.google.com/analytics/answer/1033863) article.
 
 ## Create deep links
 

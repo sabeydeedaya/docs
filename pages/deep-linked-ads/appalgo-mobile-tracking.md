@@ -1,6 +1,6 @@
 ## Overview
 
-![Applago](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/appalgo.png)
+![Applago](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/appalgo.png)
 
 This guide will walk you through how to setup your campaigns with **[Appalgo](http://appalgo.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-![AdxMaster Inc.](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/adxmaster.png)
+![AdxMaster Inc.](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/adxmaster.png)
 
 This guide will walk you through how to setup your campaigns with **[AdxMaster](http://adxmaster.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

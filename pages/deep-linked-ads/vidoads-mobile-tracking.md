@@ -1,6 +1,6 @@
 ## Overview
 
-![Vidoads](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/video_ads.png)
+![Vidoads](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/video_ads.png)
 
 This guide will walk you through how to setup your campaigns with **[Vidoads](http://vidoads.mobi/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

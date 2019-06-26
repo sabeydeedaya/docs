@@ -1,6 +1,6 @@
 ## Overview
 
-![Mobireckon](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/mobi225x100+(1).png)
+![Mobireckon](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/mobi225x100+(1).png)
 
 This guide will walk you through how to setup your campaigns with **[Mobireckon](http://www.mobireckon.com/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 

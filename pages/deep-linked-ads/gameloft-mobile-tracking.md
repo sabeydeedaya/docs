@@ -1,6 +1,6 @@
 ## Overview
 
-![Gameloft](https://s3.amazonaws.com/platform_static_files/adnetwork_logos/glads.png)
+![Gameloft](https://cdn.branch.io/branch-assets/ad-partner-manager/adnetwork_logos/glads.png)
 
 This guide will walk you through how to setup your campaigns with **[Gameloft](https://gameloft.com/advertising-solutions/)** using Branch Universal Ads and track ad conversions across **every device, platform, and channel**.
 
