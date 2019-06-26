@@ -5,7 +5,7 @@ The following list shows the macros and available functions that Branch supports
 We’ve grouped our macros into categories based the type of information being collected.
 
 !!! info "Using Functions to Modify Postback Macros"
-	All postback macros can be hashed/encrypted/modified using a variety of postback URL functions. For information about the available postback URL functions applicable to the following postback macros, see the [URL Function Macros](/postback-macros-and-functions/#url-function-macros) section below.
+	All postback macros can be hashed/encrypted/modified using a variety of postback URL functions. For information about the available postback URL functions applicable to the following postback macros, see the URL Function Macros section below.
 
 ### Postback Data
 
