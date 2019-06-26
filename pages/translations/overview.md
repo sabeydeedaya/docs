@@ -19,6 +19,8 @@
 - [Facebook 플랫폼 광고](/ko/facebook-platform-ads/)
 - [Facebook 트래픽 및 전환 광고](/ko/facebook-traffic-conversion-ads/)
 - [Google 광고에 대한 전반적인 소개](/ko/google-ads-overview/)
+- [앱 인스톨 캠페인](/ko/google-ads-uac/)
+- [웹 기반 광고(비 UAC)](/ko/google-ads-non-uac/)
 - [Apple 광고 캠페인 트래킹 관련](/ko/apple-mobile-tracking/)
 - [카카오 광고 캠페인 트래킹 관련](/ko/kakao-mobile-tracking/)
 - [네이버 광고 캠페인 트래킹 관련](ko/naver-mobile-tracking/)
