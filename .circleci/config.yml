@@ -88,28 +88,28 @@ workflows:
   build_and_deploy:
     jobs:
       - deploy-production:
-          site-url: https://docs.branch.io
+          site-url: https://docs.branch.io/
           s3-bucket: s3://docs.branch.io
           filters:
             branches:
               only:
                 - production
       - deploy-staging:
-          site-url: http://staging.docs.branch.io.s3-website-us-west-1.amazonaws.com
+          site-url: http://staging.docs.branch.io.s3-website-us-west-1.amazonaws.com/
           s3-bucket: s3://staging.docs.branch.io
           filters:
             branches:
               only:
                 - /staging-.*/
       - deploy-staging:
-          site-url: http://staging2.docs.branch.io.s3-website-us-west-1.amazonaws.com
+          site-url: http://staging2.docs.branch.io.s3-website-us-west-1.amazonaws.com/
           s3-bucket: s3://staging2.docs.branch.io
           filters:
             branches:
               only:
                 - /staging2-.*/
       - deploy-staging:
-          site-url: http://staging3.docs.branch.io.s3-website-us-west-1.amazonaws.com
+          site-url: http://staging3.docs.branch.io.s3-website-us-west-1.amazonaws.com/
           s3-bucket: s3://staging3.docs.branch.io
           filters:
             branches:
