@@ -99,7 +99,10 @@ nav:
       - Branch Matching Overview: resources/matching.md
       - Branch Attribution Logic & Settings: resources/branch-attribution-logic-and-settings.md
       - Re-engagement Attribution Logic & Settings: resources/re-engagement-attribution-logic-and-settings.md
+      - Advertising Identifiers for Attribution: resources/advertising-identifiers-for-attribution.md
       - Comparing Installs to Apple iTunes and Google Play: resources/comparing-installs.md
+    - Data Mapping & Formatting:
+      - Postback Macros & Functions: resources/postback-macros-and-functions.md
     - Starting with Branch:
       - Importing Historical User Data: dashboard/importing-historical-user-data.md
     - Agency & Ad Partner Access:
