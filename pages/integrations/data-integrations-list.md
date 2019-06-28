@@ -22,6 +22,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://www.eulerian.com/en/" target="_blank">![Eulerian](/_assets/img/pages/integrations/logos/eulerian.png)</a>|**[Eulerian](/integrations/eulerian/)**
 <a href="https://www.inmobi.com/" target="_blank">![Fraud Defense](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/FD_horizontal_png-1545435249497.png)</a>|**[Fraud Defense](/integrations/fraud-defense/)**
 <a href="https://analytics.google.com/" target="_blank">![Google Analytics](/_assets/img/pages/integrations/logos/google_analytics.png)</a>|**[Google Analytics](/integrations/google-analytics/)**
+<a href="https://useinsider.com/" target="_blank">![Insider](https://cdn.branch.io/branch-assets/ad-partner-manager//insider_logo_2x-1561003202055.png)</a>|**[Insider](/integrations/insider/)**
 <a href="https://www.kochava.com/" target="_blank">![Kochava](/_assets/img/pages/integrations/logos/kochava.png)</a>|**[Kochava](/integrations/kochava/)**
 <a href="https://www.leanplum.com/" target="_blank">![Leanplum](/_assets/img/pages/integrations/logos/leanplum.png)</a>|**[Leanplum](/integrations/leanplum/)**
 <a href="https://www.localytics.com/" target="_blank">![Localytics](/_assets/img/pages/integrations/logos/localytics.png)</a>|**[Localytics](/integrations/localytics/)**

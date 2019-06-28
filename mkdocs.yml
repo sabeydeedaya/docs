@@ -838,6 +838,7 @@ nav:
       - Eulerian: integrations/eulerian.md
       - Fraud Defense: integrations/fraud-defense.md
       - Google Analytics: integrations/google-analytics.md
+      - Insider: integrations/insider.md
       - Kochava: integrations/kochava.md
       - Leanplum: integrations/leanplum.md
       - Localytics: integrations/localytics.md
