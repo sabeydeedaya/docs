@@ -12,6 +12,7 @@ People-Based Attribution stitches all of these identity fragments back together.
 - [Postback Macros & Functions](/resources/postback-macros-and-functions/)
 ## Starting with Branch
 - [Importing Historical User Data](/dashboard/importing-historical-user-data/)
+- [Testing Universal Ads Campaign Setup](/resources/testing-universal-ads-campaign-setup/)
 ## Agency & Ad Partner Access
 - [Granting Access to Your Branch Account](/dashboard/granting-access-to-agencies-partners/)
 - [Agency/Partner Invitation Process](/dashboard/agency-ad-partner-invitation-process/)
