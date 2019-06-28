@@ -639,7 +639,7 @@ if (lang_code == 'es') {
 ```
 
 #### Server-side
-Journeys now has an entire localization framework server-side. Due to the complexity of this offering, we're not exposing it directly to partners. Please reach out to your account manager or integrations@branch.io to receive access to this functionality.
+Journeys provides limited server-side localization. This functionality is currently in beta, so please reach out to your account manager or integrations@branch.io to receive access.
 
 ### CSS Editor
 
