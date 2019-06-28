@@ -19,7 +19,7 @@ This guide will walk you through how to setup your email campaigns with **[Marke
 For more information on how to set up your domain, please visit Marketo's [documentation](https://help.marketo.com/hc/en-us/categories/360000300934-Product-Documentation){:target="\_blank"}.
 
 !!! tip "Adding a custom click-tracking domain"
-    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at XXXXX.
+    If you need help with setting up a custom click-tracking domain - please ask your account manager or request support at Marketo.
 
 {! ingredients/email/cname.md !}
 
