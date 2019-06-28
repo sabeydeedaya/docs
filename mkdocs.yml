@@ -830,6 +830,7 @@ nav:
       - AppMetrica: integrations/appmetrica.md
       - Appsee: integrations/appsee.md
       - Appsflyer: integrations/appsflyer.md
+      - Apptilaus: integrations/apptilaus.md
       - Backinapp: integrations/backinapp.md
       - Braze: integrations/braze.md
       - CleverTap: integrations/clevertap.md

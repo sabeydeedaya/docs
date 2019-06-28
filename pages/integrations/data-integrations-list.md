@@ -14,6 +14,7 @@ Interested in becoming a Data Intgeration Partner? Just fill out this form: **[P
 <a href="https://appmetrica.yandex.com/" target="_blank">![AppMetrica](/_assets/img/pages/integrations/logos/app_metrica.png)</a>|**[Appmetrica](/integrations/appmetrica/)**
 <a href="https://www.appsflyer.com/" target="_blank">![AppsFlyer](/_assets/img/pages/integrations/logos/appsflyer.png)</a>|**[AppsFlyer](/integrations/appsflyer/)**
 <a href="https://www.appsee.com/" target="_blank">![Appsee](https://cdn.branch.io/branch-assets/ad-partner-manager/386574786681131050/appsee-1545601680820.png)</a>|**[Appsee](/integrations/appsee/)**
+<a href="https://apptilaus.com/" target="_blank">![Apptilaus](https://cdn.branch.io/branch-assets/ad-partner-manager//a39dd9a34b9c-apptilaus_logo_2x-1559414393834.png)</a>|**[Apptilaus](/integrations/apptilaus/)**
 <a href="https://www.backinapp.com" target="_blank">![Backinapp](https://cdn.branch.io/branch-assets/ad-partner-manager/388787843096400122/backinapp-1546469932312.png)</a>|**[Backinapp](/integrations/backinapp/)**
 <a href="https://www.braze.com/" target="_blank">![Braze](/_assets/img/pages/integrations/logos/braze.png)</a>|**[Braze](/integrations/braze/)**
 <a href="https://clevertap.com/" target="_blank">![CleverTap](/_assets/img/pages/integrations/logos/clevertap.png)</a>|**[CleverTap](/integrations/clevertap/)**
